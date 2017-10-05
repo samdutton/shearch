@@ -1,0 +1,26 @@
+{
+  "name": "shearch",
+  "version": "1.0.0",
+  "description": "Search Shakespeare's plays",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samdutton/shearch.git"
+  },
+  "keywords": [
+    "shakesepeare",
+    "search"
+  ],
+  "author": "samdutton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samdutton/shearch/issues"
+  },
+  "homepage": "https://github.com/samdutton/shearch#readme",
+  "dependencies": {
+    "lunr": "^2.1.2"
+  }
+}

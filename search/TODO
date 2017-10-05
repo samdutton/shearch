@@ -1,0 +1,116 @@
+3500 lines
+280 stagedirs
+38 plays
+max about 130,000 items
+total about 12,000,000 characters
+
+
+Format data:
+
+  for each play
+    number all elements containing text
+  for each act
+    for each scene
+      number all elements containing text
+
+
+Stored documents:
+
+  {
+    l: "Ant.1.1",
+    s: "Philo",
+    t: "Nay, but this dotage of our general's"
+  }
+
+  {
+    l: "Ant.1.1",
+    t: "Flourish. Enter ANTONY, CLEOPATRA, her Ladies the ..."
+  }
+
+Search:
+
+  for each document matching query
+    display text with term highlighted
+    display shorthand for match location (as per Arden editions)
+
+Click on result:
+
+  get l
+  display play
+  var scene = scene represented by l
+  var line = first line that matches t
+  scrollIntoView() line, with t highlighted
+
+
+
+
+  function contains(selector, text) {
+    var elements = document.querySelectorAll(selector);
+    return [].filter.call(elements, function(element){
+      return RegExp(text).test(element.textContent);
+    });
+  }
+  Ten use it with like so:
+
+  contains('p', 'world'); // find "p" that contain "world"
+  contains('p', /^world/); // find "p" that start with "world"
+  contains('p', /world$/i); // find "p" that end with "world", case-insensitive
+
+
+
+
+<h1>The Tragedy of Antony and Cleopatra</h1>
+<h2>Act I</h2>
+<h3>Scene 1</h3>
+
+
+Search content:
+• Play
+• Act number
+• Persona
+• Scene description
+• Stage direction
+• Speaker
+• Line
+
+Search options:
+• Play
+• Act number
+• Scene number
+• Speaker
+
+
+
+Autofill
+• Play
+• Act number (given play)
+• Scene number (given play and act)
+• Speaker (given play — maybe)
+• Previous queries
+
+
+Convert XML to JSON
+
+Convert XML into HTML
+• CSS based on Arden edition
+
+for each play
+for each act
+for each scene
+for each speech
+for each line or stagedir
+add id
+
+
+{
+  speaker: "PHILO"
+  lines: ["Nay, but this ...", ...]
+}
+
+
+
+
+Ideas
+
+  Click/tap on word: search
+
