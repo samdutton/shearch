@@ -3,22 +3,21 @@ const mz = require('mz/fs');
 const {JSDOM} = require('jsdom');
 
 const abbreviations = require('./data/abbreviations.json');
-const DIR = '../../originals/';
+const INPUT_DIR = '../../originals/';
+const OUTPUT_DIR = 'jsonout/';
 
-mz.readdir(DIR).then(filenames => {
+mz.readdir(INPUT_DIR).then(filenames => {
   filenames = filenames.filter(filename => {
     return filename.match(/.+xml/);
   });
-  console.log(filenames);
-}).catch(error => console.error(`Error reading files from ${DIR}:`, error));
+  for (const filename of filenames) {
+    processFile(filename);
+  }
+}).catch(error => console.error(`Error reading from ${INPUT_DIR}:`, error));
 
-// const filepaths = ['../../originals/a_and_c.xml'];
-// for (const filepath of filepaths) {
-//   processFile(filepath);
-// }
 
 function processFile(filename) {
-  JSDOM.fromFile(filepath, {contentType: 'text/xml'})
+  JSDOM.fromFile(INPUT_DIR + filename, {contentType: 'text/xml'})
   .then(dom => {
     //  const playTitle = $(dom, 'PLAY > TITLE')[0].textContent;
     const playSubtitle = $(dom, 'PLAY > PLAYSUBT')[0].textContent;
@@ -63,7 +62,9 @@ function processFile(filename) {
       }
     }
   //  const output = dom.serialize();
-    writeFile('output.json', JSON.stringify(docs));
+    const outputPath = OUTPUT_DIR + filename.replace('xml', 'json');
+    console.log('Outputing file: ', outputPath);
+    writeFile(outputPath, JSON.stringify(docs));
   });
 }
 
