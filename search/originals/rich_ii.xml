@@ -11,7 +11,6 @@
 <P>This work may be freely copied and distributed worldwide.</P>
 </FM>
 
-
 <PERSONAE>
 <TITLE>Dramatis Personae</TITLE>
 
@@ -60,9 +59,14 @@
 
 <PLAYSUBT>KING RICHARD II</PLAYSUBT>
 
-<ACT><TITLE>ACT I</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  London. KING RICHARD II's palace.</TITLE>
+<TITLE>ACT I</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  London. KING RICHARD II's palace.</TITLE>
+
 <STAGEDIR>Enter KING RICHARD II, JOHN OF GAUNT, with other
 Nobles and Attendants</STAGEDIR>
 
@@ -104,7 +108,6 @@ Nobles and Attendants</STAGEDIR>
 <LINE>High-stomach'd are they both, and full of ire,</LINE>
 <LINE>In rage deaf as the sea, hasty as fire.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter HENRY BOLINGBROKE and THOMAS MOWBRAY</STAGEDIR>
 
@@ -378,7 +381,6 @@ Nobles and Attendants</STAGEDIR>
 <LINE>Where shame doth harbour, even in Mowbray's face.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit JOHN OF GAUNT</STAGEDIR>
 
 <SPEECH>
@@ -395,11 +397,14 @@ Nobles and Attendants</STAGEDIR>
 <LINE>Be ready to direct these home alarms.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The DUKE OF LANCASTER'S palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The DUKE OF LANCASTER'S palace.</TITLE>
+
 <STAGEDIR>Enter JOHN OF GAUNT with DUCHESS</STAGEDIR>
 
 <SPEECH>
@@ -508,11 +513,14 @@ Nobles and Attendants</STAGEDIR>
 <LINE>The last leave of thee takes my weeping eye.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The lists at Coventry.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The lists at Coventry.</TITLE>
+
 <STAGEDIR>Enter the Lord Marshal and the DUKE OF AUMERLE</STAGEDIR>
 
 <SPEECH>
@@ -536,7 +544,6 @@ Nobles and Attendants</STAGEDIR>
 <LINE>Why, then, the champions are prepared, and stay</LINE>
 <LINE>For nothing but his majesty's approach.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>The trumpets sound, and KING RICHARD enters with
 his nobles, JOHN OF GAUNT, BUSHY, BAGOT, GREEN, and
@@ -573,7 +580,6 @@ arms, defendant, with a Herald</STAGEDIR>
 <LINE>A traitor to my God, my king, and me:</LINE>
 <LINE>And as I truly fight, defend me heaven!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>The trumpets sound. Enter HENRY BOLINGBROKE,
 appellant, in armour, with a Herald</STAGEDIR>
@@ -878,7 +884,6 @@ appellant, in armour, with a Herald</STAGEDIR>
 <LINE>Save back to England, all the world's my way.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -955,7 +960,6 @@ appellant, in armour, with a Herald</STAGEDIR>
 <LINE>Cousin, farewell; and, uncle, bid him so:</LINE>
 <LINE>Six years we banish him, and he shall go.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Flourish. Exeunt KING RICHARD II and train</STAGEDIR>
 
@@ -1084,11 +1088,14 @@ appellant, in armour, with a Herald</STAGEDIR>
 <LINE>Though banish'd, yet a trueborn Englishman.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  The court.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  The court.</TITLE>
+
 <STAGEDIR>Enter KING RICHARD II, with BAGOT and GREEN at one
 door; and the DUKE OF AUMERLE at another</STAGEDIR>
 
@@ -1214,15 +1221,20 @@ door; and the DUKE OF AUMERLE at another</STAGEDIR>
 <LINE>Amen.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT II</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Ely House.</TITLE>
+<TITLE>ACT II</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Ely House.</TITLE>
+
 <STAGEDIR>Enter JOHN OF GAUNT sick, with the DUKE OF YORK,
 &amp;c</STAGEDIR>
 
@@ -1313,7 +1325,6 @@ door; and the DUKE OF AUMERLE at another</STAGEDIR>
 <LINE>Ah, would the scandal vanish with my life,</LINE>
 <LINE>How happy then were my ensuing death!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter KING RICHARD II and QUEEN, DUKE OF AUMERLE,
 BUSHY, GREEN, BAGOT, LORD ROSS, and LORD
@@ -1445,7 +1456,6 @@ WILLOUGHBY</STAGEDIR>
 <LINE>Love they to live that love and honour have.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit, borne off by his Attendants</STAGEDIR>
 
 <SPEECH>
@@ -1467,7 +1477,6 @@ WILLOUGHBY</STAGEDIR>
 <LINE>Right, you say true: as Hereford's love, so his;</LINE>
 <LINE>As theirs, so mine; and all be as it is.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter NORTHUMBERLAND</STAGEDIR>
 
@@ -1581,7 +1590,6 @@ WILLOUGHBY</STAGEDIR>
 <LINE>That their events can never fall out good.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -1596,7 +1604,6 @@ WILLOUGHBY</STAGEDIR>
 <LINE>Come on, our queen: to-morrow must we part;</LINE>
 <LINE>Be merry, for our time of stay is short</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Flourish. Exeunt KING RICHARD II, QUEEN, DUKE OF
 AUMERLE, BUSHY, GREEN, and BAGOT</STAGEDIR>
@@ -1773,11 +1780,14 @@ AUMERLE, BUSHY, GREEN, and BAGOT</STAGEDIR>
 <LINE>Hold out my horse, and I will first be there.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The palace.</TITLE>
+
 <STAGEDIR>Enter QUEEN, BUSHY, and BAGOT</STAGEDIR>
 
 <SPEECH>
@@ -1843,7 +1853,6 @@ AUMERLE, BUSHY, GREEN, and BAGOT</STAGEDIR>
 <LINE>But what it is, that is not yet known; what</LINE>
 <LINE>I cannot name; 'tis nameless woe, I wot.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter GREEN</STAGEDIR>
 
@@ -1921,7 +1930,6 @@ AUMERLE, BUSHY, GREEN, and BAGOT</STAGEDIR>
 <LINE>Which false hope lingers in extremity.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter DUKE OF YORK</STAGEDIR>
 
 <SPEECH>
@@ -1948,7 +1956,6 @@ AUMERLE, BUSHY, GREEN, and BAGOT</STAGEDIR>
 <LINE>Now comes the sick hour that his surfeit made;</LINE>
 <LINE>Now shall he try his friends that flatter'd him.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter a Servant</STAGEDIR>
 
@@ -2013,7 +2020,6 @@ AUMERLE, BUSHY, GREEN, and BAGOT</STAGEDIR>
 <LINE>But time will not permit: all is uneven,</LINE>
 <LINE>And every thing is left at six and seven.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt DUKE OF YORK and QUEEN</STAGEDIR>
 
@@ -2093,11 +2099,14 @@ AUMERLE, BUSHY, GREEN, and BAGOT</STAGEDIR>
 <LINE>I fear me, never.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Wilds in Gloucestershire.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Wilds in Gloucestershire.</TITLE>
+
 <STAGEDIR>Enter HENRY BOLINGBROKE and NORTHUMBERLAND, with Forces</STAGEDIR>
 
 <SPEECH>
@@ -2131,7 +2140,6 @@ AUMERLE, BUSHY, GREEN, and BAGOT</STAGEDIR>
 <LINE>Of much less value is my company</LINE>
 <LINE>Than your good words. But who comes here?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter HENRY PERCY</STAGEDIR>
 
@@ -2224,7 +2232,6 @@ AUMERLE, BUSHY, GREEN, and BAGOT</STAGEDIR>
 <LINE>None else of name and noble estimate.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter LORD ROSS and LORD WILLOUGHBY</STAGEDIR>
 
 <SPEECH>
@@ -2258,7 +2265,6 @@ AUMERLE, BUSHY, GREEN, and BAGOT</STAGEDIR>
 <LINE>Stands for my bounty. But who comes here?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter LORD BERKELEY</STAGEDIR>
 
 <SPEECH>
@@ -2290,7 +2296,6 @@ AUMERLE, BUSHY, GREEN, and BAGOT</STAGEDIR>
 <LINE>And fright our native peace with self-born arms.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter DUKE OF YORK attended</STAGEDIR>
 
 <SPEECH>
@@ -2298,7 +2303,6 @@ AUMERLE, BUSHY, GREEN, and BAGOT</STAGEDIR>
 <LINE>I shall not need transport my words by you;</LINE>
 <LINE>Here comes his grace in person. My noble uncle!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Kneels</STAGEDIR>
 
@@ -2447,11 +2451,14 @@ AUMERLE, BUSHY, GREEN, and BAGOT</STAGEDIR>
 <LINE>Things past redress are now with me past care.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  A camp in Wales.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  A camp in Wales.</TITLE>
+
 <STAGEDIR>Enter EARL OF SALISBURY and a Welsh Captain</STAGEDIR>
 
 <SPEECH>
@@ -2483,7 +2490,6 @@ AUMERLE, BUSHY, GREEN, and BAGOT</STAGEDIR>
 <LINE>As well assured Richard their king is dead.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -2497,15 +2503,20 @@ AUMERLE, BUSHY, GREEN, and BAGOT</STAGEDIR>
 <LINE>And crossly to thy good all fortune goes.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT III</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Bristol. Before the castle.</TITLE>
+<TITLE>ACT III</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Bristol. Before the castle.</TITLE>
+
 <STAGEDIR>Enter HENRY BOLINGBROKE, DUKE OF YORK,
 NORTHUMBERLAND, LORD ROSS, HENRY PERCY, LORD
 WILLOUGHBY, with BUSHY and GREEN, prisoners</STAGEDIR>
@@ -2580,11 +2591,14 @@ prisoners</STAGEDIR>
 <LINE>Awhile to work, and after holiday.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The coast of Wales. A castle in view.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The coast of Wales. A castle in view.</TITLE>
+
 <STAGEDIR>Drums; flourish and colours. Enter KING RICHARD
 II, the BISHOP OF CARLISLE, DUKE OF AUMERLE, and Soldiers</STAGEDIR>
 
@@ -2722,7 +2736,6 @@ II, the BISHOP OF CARLISLE, DUKE OF AUMERLE, and Soldiers</STAGEDIR>
 <LINE>High be our thoughts: I know my uncle York</LINE>
 <LINE>Hath power enough to serve our turn. But who comes here?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter SIR STEPHEN SCROOP</STAGEDIR>
 
@@ -2929,11 +2942,14 @@ II, the BISHOP OF CARLISLE, DUKE OF AUMERLE, and Soldiers</STAGEDIR>
 <LINE>From Richard's night to Bolingbroke's fair day.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Wales. Before Flint castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Wales. Before Flint castle.</TITLE>
+
 <STAGEDIR>Enter, with drum and colours, HENRY BOLINGBROKE,
 DUKE OF YORK, NORTHUMBERLAND, Attendants, and forces</STAGEDIR>
 
@@ -3223,7 +3239,6 @@ EARL OF SALISBURY</STAGEDIR>
 <LINE>should sing.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt from above</STAGEDIR>
 
 <SPEECH>
@@ -3237,7 +3252,6 @@ EARL OF SALISBURY</STAGEDIR>
 <LINE>Makes him speak fondly, like a frantic man</LINE>
 <LINE>Yet he is come.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter KING RICHARD and his attendants below</STAGEDIR>
 
@@ -3298,11 +3312,14 @@ EARL OF SALISBURY</STAGEDIR>
 <LINE>Then I must not say no.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Flourish. Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  LANGLEY. The DUKE OF YORK's garden.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  LANGLEY. The DUKE OF YORK's garden.</TITLE>
+
 <STAGEDIR>Enter the QUEEN and two Ladies</STAGEDIR>
 
 <SPEECH>
@@ -3387,7 +3404,6 @@ EARL OF SALISBURY</STAGEDIR>
 <LINE>They'll talk of state; for every one doth so</LINE>
 <LINE>Against a change; woe is forerun with woe.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>QUEEN and Ladies retire</STAGEDIR>
 
@@ -3507,7 +3523,6 @@ EARL OF SALISBURY</STAGEDIR>
 <LINE>Pray God the plants thou graft'st may never grow.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt QUEEN and Ladies</STAGEDIR>
 
 <SPEECH>
@@ -3520,15 +3535,20 @@ EARL OF SALISBURY</STAGEDIR>
 <LINE>In the remembrance of a weeping queen.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT IV</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Westminster Hall.</TITLE>
+<TITLE>ACT IV</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Westminster Hall.</TITLE>
+
 <STAGEDIR>Enter, as to the Parliament, HENRY BOLINGBROKE,
 DUKE OF AUMERLE, NORTHUMBERLAND, HENRY PERCY, LORD
 FITZWATER, DUKE OF SURREY, the BISHOP OF CARLISLE,
@@ -3751,7 +3771,6 @@ Officers, and BAGOT</STAGEDIR>
 <LINE>Till we assign you to your days of trial.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter DUKE OF YORK, attended</STAGEDIR>
 
 <SPEECH>
@@ -3830,7 +3849,6 @@ Officers, and BAGOT</STAGEDIR>
 <LINE>I will be his conduct.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -3840,7 +3858,6 @@ Officers, and BAGOT</STAGEDIR>
 <LINE>Little are we beholding to your love,</LINE>
 <LINE>And little look'd for at your helping hands.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter DUKE OF YORK, with KING RICHARD II, and
 Officers bearing the regalia</STAGEDIR>
@@ -4017,7 +4034,6 @@ Officers bearing the regalia</STAGEDIR>
 <LINE>Go some of you and fetch a looking-glass.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit an attendant</STAGEDIR>
 
 <SPEECH>
@@ -4142,7 +4158,6 @@ Officers bearing the regalia</STAGEDIR>
 <LINE>That rise thus nimbly by a true king's fall.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt KING RICHARD II, some Lords, and a Guard</STAGEDIR>
 
 <SPEECH>
@@ -4150,7 +4165,6 @@ Officers bearing the regalia</STAGEDIR>
 <LINE>On Wednesday next we solemnly set down</LINE>
 <LINE>Our coronation: lords, prepare yourselves.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt all except the BISHOP OF CARLISLE, the Abbot
 of Westminster, and DUKE OF AUMERLE</STAGEDIR>
@@ -4185,15 +4199,20 @@ of Westminster, and DUKE OF AUMERLE</STAGEDIR>
 <LINE>A plot shall show us all a merry day.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT V</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  London. A street leading to the Tower.</TITLE>
+<TITLE>ACT V</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  London. A street leading to the Tower.</TITLE>
+
 <STAGEDIR>Enter QUEEN and Ladies</STAGEDIR>
 
 <SPEECH>
@@ -4262,7 +4281,6 @@ of Westminster, and DUKE OF AUMERLE</STAGEDIR>
 <LINE>And some will mourn in ashes, some coal-black,</LINE>
 <LINE>For the deposing of a rightful king.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter NORTHUMBERLAND and others</STAGEDIR>
 
@@ -4374,11 +4392,14 @@ of Westminster, and DUKE OF AUMERLE</STAGEDIR>
 <LINE>Once more, adieu; the rest let sorrow say.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The DUKE OF YORK's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The DUKE OF YORK's palace.</TITLE>
+
 <STAGEDIR>Enter DUKE OF YORK and DUCHESS OF YORK</STAGEDIR>
 
 <SPEECH>
@@ -4460,7 +4481,6 @@ of Westminster, and DUKE OF AUMERLE</STAGEDIR>
 <LINE>I am in parliament pledge for his truth</LINE>
 <LINE>And lasting fealty to the new-made king.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter DUKE OF AUMERLE</STAGEDIR>
 
@@ -4610,7 +4630,6 @@ of Westminster, and DUKE OF AUMERLE</STAGEDIR>
 <LINE>Bring me my boots: I will unto the king.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter Servant with boots</STAGEDIR>
 
 <SPEECH>
@@ -4674,7 +4693,6 @@ of Westminster, and DUKE OF AUMERLE</STAGEDIR>
 <LINE>Make way, unruly woman!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -4688,11 +4706,14 @@ of Westminster, and DUKE OF AUMERLE</STAGEDIR>
 <LINE>Till Bolingbroke have pardon'd thee. Away, be gone!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  A royal palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  A royal palace.</TITLE>
+
 <STAGEDIR>Enter HENRY BOLINGBROKE, HENRY PERCY, and other Lords</STAGEDIR>
 
 <SPEECH>
@@ -4736,7 +4757,6 @@ of Westminster, and DUKE OF AUMERLE</STAGEDIR>
 <LINE>I see some sparks of better hope, which elder years</LINE>
 <LINE>May happily bring forth. But who comes here?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter DUKE OF AUMERLE</STAGEDIR>
 
@@ -4800,7 +4820,6 @@ of Westminster, and DUKE OF AUMERLE</STAGEDIR>
 <LINE>Villain, I'll make thee safe.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Drawing</STAGEDIR>
 
 <SPEECH>
@@ -4814,7 +4833,6 @@ of Westminster, and DUKE OF AUMERLE</STAGEDIR>
 <LINE>Shall I for love speak treason to thy face?</LINE>
 <LINE>Open the door, or I will break it open.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter DUKE OF YORK</STAGEDIR>
 
@@ -4904,7 +4922,6 @@ of Westminster, and DUKE OF AUMERLE</STAGEDIR>
 <LINE>This let alone will all the rest confound.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter DUCHESS OF YORK</STAGEDIR>
 
 <SPEECH>
@@ -4923,7 +4940,6 @@ of Westminster, and DUKE OF AUMERLE</STAGEDIR>
 <SPEAKER>DUCHESS OF YORK</SPEAKER>
 <LINE>Sweet York, be patient. Hear me, gentle liege.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Kneels</STAGEDIR>
 
@@ -5055,11 +5071,14 @@ of Westminster, and DUKE OF AUMERLE</STAGEDIR>
 <LINE>Come, my old son: I pray God make thee new.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  The same.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  The same.</TITLE>
+
 <STAGEDIR>Enter EXTON and Servant</STAGEDIR>
 
 <SPEECH>
@@ -5094,11 +5113,14 @@ of Westminster, and DUKE OF AUMERLE</STAGEDIR>
 <LINE>I am the king's friend, and will rid his foe.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  Pomfret castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  Pomfret castle.</TITLE>
+
 <STAGEDIR>Enter KING RICHARD</STAGEDIR>
 
 <SPEECH>
@@ -5172,7 +5194,6 @@ of Westminster, and DUKE OF AUMERLE</STAGEDIR>
 <LINE>Is a strange brooch in this all-hating world.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Groom of the Stable</STAGEDIR>
 
 <SPEECH>
@@ -5228,7 +5249,6 @@ of Westminster, and DUKE OF AUMERLE</STAGEDIR>
 <LINE>Spurr'd, gall'd and tired by jouncing Bolingbroke.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter Keeper, with a dish</STAGEDIR>
 
 <SPEECH>
@@ -5245,7 +5265,6 @@ of Westminster, and DUKE OF AUMERLE</STAGEDIR>
 <SPEAKER>Groom</SPEAKER>
 <LINE>What my tongue dares not, that my heart shall say.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -5271,14 +5290,12 @@ of Westminster, and DUKE OF AUMERLE</STAGEDIR>
 <LINE>Patience is stale, and I am weary of it.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Beats the keeper</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>Keeper</SPEAKER>
 <LINE>Help, help, help!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter EXTON and Servants, armed</STAGEDIR>
 
@@ -5296,7 +5313,6 @@ of Westminster, and DUKE OF AUMERLE</STAGEDIR>
 <LINE>Whilst my gross flesh sinks downward, here to die.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Dies</STAGEDIR>
 
 <SPEECH>
@@ -5309,11 +5325,14 @@ of Westminster, and DUKE OF AUMERLE</STAGEDIR>
 <LINE>Take hence the rest, and give them burial here.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VI.  Windsor castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VI.  Windsor castle.</TITLE>
+
 <STAGEDIR>Flourish. Enter HENRY BOLINGBROKE, DUKE OF YORK,
 with other Lords, and Attendants</STAGEDIR>
 
@@ -5342,7 +5361,6 @@ with other Lords, and Attendants</STAGEDIR>
 <LINE>And to thy worth will add right worthy gains.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter LORD FITZWATER</STAGEDIR>
 
 <SPEECH>
@@ -5358,7 +5376,6 @@ with other Lords, and Attendants</STAGEDIR>
 <LINE>Thy pains, Fitzwater, shall not be forgot;</LINE>
 <LINE>Right noble is thy merit, well I wot.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter HENRY PERCY, and the BISHOP OF CARLISLE</STAGEDIR>
 
@@ -5380,7 +5397,6 @@ with other Lords, and Attendants</STAGEDIR>
 <LINE>For though mine enemy thou hast ever been,</LINE>
 <LINE>High sparks of honour in thee have I seen.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter EXTON, with persons bearing a coffin</STAGEDIR>
 
@@ -5423,8 +5439,8 @@ with other Lords, and Attendants</STAGEDIR>
 <LINE>In weeping after this untimely bier.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 </ACT>
 </PLAY>

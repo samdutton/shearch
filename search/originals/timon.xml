@@ -11,7 +11,6 @@
 <P>This work may be freely copied and distributed worldwide.</P>
 </FM>
 
-
 <PERSONAE>
 <TITLE>Dramatis Personae</TITLE>
 
@@ -37,7 +36,6 @@
 <PERSONA>SERVILIUS</PERSONA>
 <GRPDESCR>servants to Timon.</GRPDESCR>
 </PGROUP>
-
 
 <PGROUP>
 <PERSONA>CAPHIS</PERSONA>
@@ -67,9 +65,14 @@
 
 <PLAYSUBT>TIMON OF ATHENS</PLAYSUBT>
 
-<ACT><TITLE>ACT I</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Athens. A hall in Timon's house.</TITLE>
+<TITLE>ACT I</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Athens. A hall in Timon's house.</TITLE>
+
 <STAGEDIR>Enter Poet, Painter, Jeweller, Merchant, and
 others, at several doors</STAGEDIR>
 
@@ -152,7 +155,6 @@ others, at several doors</STAGEDIR>
 <LINE>'Tis a good form.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Looking at the jewel</STAGEDIR>
 
 <SPEECH>
@@ -223,7 +225,6 @@ others, at several doors</STAGEDIR>
 <LINE>It tutors nature: artificial strife</LINE>
 <LINE>Lives in these touches, livelier than life.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter certain Senators, and pass over</STAGEDIR>
 
@@ -340,7 +341,6 @@ others, at several doors</STAGEDIR>
 <LINE>To show Lord Timon that mean eyes have seen</LINE>
 <LINE>The foot above the head.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Trumpets sound. Enter TIMON, addressing himself
 courteously to every suitor; a Messenger from
@@ -533,7 +533,6 @@ servants following</STAGEDIR>
 <LINE>Which is not owed to you!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt LUCILIUS and Old Athenian</STAGEDIR>
 
 <SPEECH>
@@ -612,7 +611,6 @@ servants following</STAGEDIR>
 <SPEAKER>TIMON</SPEAKER>
 <LINE>Look, who comes here: will you be chid?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter APEMANTUS</STAGEDIR>
 
@@ -883,7 +881,6 @@ servants following</STAGEDIR>
 <LINE>Traffic's thy god; and thy god confound thee!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Trumpet sounds. Enter a Messenger</STAGEDIR>
 
 <SPEECH>
@@ -1006,7 +1003,6 @@ servants following</STAGEDIR>
 <LINE>I will fly, like a dog, the heels o' the ass.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -1041,11 +1037,14 @@ servants following</STAGEDIR>
 <LINE>I'll keep you company.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  A banqueting-room in Timon's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  A banqueting-room in Timon's house.</TITLE>
+
 <STAGEDIR>Hautboys playing loud music. A great banquet
 served in; FLAVIUS and others attending; then enter
 TIMON, ALCIBIADES, Lords, Senators, and VENTIDIUS.
@@ -1090,7 +1089,6 @@ discontentedly, like himself</STAGEDIR>
 <LINE>Pray, sit; more welcome are ye to my fortunes</LINE>
 <LINE>Than my fortunes to me.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>They sit</STAGEDIR>
 
@@ -1278,7 +1276,6 @@ discontentedly, like himself</STAGEDIR>
 <LINE>Much!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Tucket, within</STAGEDIR>
 
 <SPEECH>
@@ -1310,7 +1307,6 @@ discontentedly, like himself</STAGEDIR>
 <LINE>I pray, let them be admitted.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter Cupid</STAGEDIR>
 
 <SPEECH>
@@ -1329,14 +1325,12 @@ discontentedly, like himself</STAGEDIR>
 <LINE>Music, make their welcome!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit Cupid</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>First Lord</SPEAKER>
 <LINE>You see, my lord, how ample you're beloved.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Music. Re-enter Cupid with a mask of Ladies
 as Amazons, with lutes in their hands,
@@ -1359,7 +1353,6 @@ dancing and playing</STAGEDIR>
 <LINE>Would one day stamp upon me: 't has been done;</LINE>
 <LINE>Men shut their doors against a setting sun.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>The Lords rise from table, with much adoring of
 TIMON; and to show their loves, each singles out an
@@ -1398,7 +1391,6 @@ strain or two to the hautboys, and cease</STAGEDIR>
 <LINE>Most thankfully, my lord.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt Cupid and Ladies</STAGEDIR>
 
 <SPEECH>
@@ -1427,7 +1419,6 @@ strain or two to the hautboys, and cease</STAGEDIR>
 <LINE>That man might ne'er be wretched for his mind.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -1444,7 +1435,6 @@ strain or two to the hautboys, and cease</STAGEDIR>
 <SPEAKER>Second Lord</SPEAKER>
 <LINE>Our horses!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter FLAVIUS, with the casket</STAGEDIR>
 
@@ -1466,7 +1456,6 @@ strain or two to the hautboys, and cease</STAGEDIR>
 <SPEAKER>All</SPEAKER>
 <LINE>So are we all.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter a Servant</STAGEDIR>
 
@@ -1498,7 +1487,6 @@ strain or two to the hautboys, and cease</STAGEDIR>
 <SPEAKER>FLAVIUS</SPEAKER>
 <LINE><STAGEDIR>Aside</STAGEDIR>  I scarce know how.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter a Second Servant</STAGEDIR>
 
@@ -1549,7 +1537,6 @@ strain or two to the hautboys, and cease</STAGEDIR>
 <LINE>Than such that do e'en enemies exceed.</LINE>
 <LINE>I bleed inwardly for my lord.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -1644,7 +1631,6 @@ strain or two to the hautboys, and cease</STAGEDIR>
 <LINE>Ready for his friends.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt all but APEMANTUS and TIMON</STAGEDIR>
 
 <SPEECH>
@@ -1680,7 +1666,6 @@ strain or two to the hautboys, and cease</STAGEDIR>
 <LINE>with better music.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -1692,15 +1677,20 @@ strain or two to the hautboys, and cease</STAGEDIR>
 <LINE>To counsel deaf, but not to flattery!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT II</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  A Senator's house.</TITLE>
+<TITLE>ACT II</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  A Senator's house.</TITLE>
+
 <STAGEDIR>Enter Senator, with papers in his hand</STAGEDIR>
 
 <SPEECH>
@@ -1720,7 +1710,6 @@ strain or two to the hautboys, and cease</STAGEDIR>
 <LINE>Can found his state in safety. Caphis, ho!</LINE>
 <LINE>Caphis, I say!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter CAPHIS</STAGEDIR>
 
@@ -1772,11 +1761,14 @@ strain or two to the hautboys, and cease</STAGEDIR>
 <LINE>Go.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The same. A hall in Timon's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The same. A hall in Timon's house.</TITLE>
+
 <STAGEDIR>Enter FLAVIUS, with many bills in his hand</STAGEDIR>
 
 <SPEECH>
@@ -1791,7 +1783,6 @@ strain or two to the hautboys, and cease</STAGEDIR>
 <LINE>I must be round with him, now he comes from hunting.</LINE>
 <LINE>Fie, fie, fie, fie!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter CAPHIS, and the Servants of Isidore and Varro</STAGEDIR>
 
@@ -1830,7 +1821,6 @@ strain or two to the hautboys, and cease</STAGEDIR>
 <SPEAKER>CAPHIS</SPEAKER>
 <LINE>Here comes the lord.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter TIMON, ALCIBIADES, and Lords, &amp;c</STAGEDIR>
 
@@ -1940,7 +1930,6 @@ strain or two to the hautboys, and cease</STAGEDIR>
 <SPEAKER>TIMON</SPEAKER>
 <LINE>Do so, my friends. See them well entertain'd.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -2053,7 +2042,6 @@ strain or two to the hautboys, and cease</STAGEDIR>
 <LINE>Good! gramercy.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter Page</STAGEDIR>
 
 <SPEECH>
@@ -2102,7 +2090,6 @@ strain or two to the hautboys, and cease</STAGEDIR>
 <LINE>Thou wast whelped a dog, and thou shalt famish a</LINE>
 <LINE>dog's death. Answer not; I am gone.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -2200,7 +2187,6 @@ strain or two to the hautboys, and cease</STAGEDIR>
 <LINE>Aside, aside; here comes Lord Timon.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter TIMON and FLAVIUS</STAGEDIR>
 
 <SPEECH>
@@ -2214,14 +2200,12 @@ strain or two to the hautboys, and cease</STAGEDIR>
 <LINE>woman; sometime the philosopher.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt APEMANTUS and Fool</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>FLAVIUS</SPEAKER>
 <LINE>Pray you, walk near: I'll speak with you anon.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt Servants</STAGEDIR>
 
@@ -2356,7 +2340,6 @@ strain or two to the hautboys, and cease</STAGEDIR>
 <LINE>Within there! Flaminius! Servilius!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter FLAMINIUS, SERVILIUS, and other Servants</STAGEDIR>
 
 <SPEECH>
@@ -2458,15 +2441,20 @@ strain or two to the hautboys, and cease</STAGEDIR>
 <LINE>Being free itself, it thinks all others so.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT III</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  A room in Lucullus' house.</TITLE>
+<TITLE>ACT III</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  A room in Lucullus' house.</TITLE>
+
 <STAGEDIR>FLAMINIUS waiting. Enter a Servant to him</STAGEDIR>
 
 <SPEECH>
@@ -2478,7 +2466,6 @@ strain or two to the hautboys, and cease</STAGEDIR>
 <SPEAKER>FLAMINIUS</SPEAKER>
 <LINE>I thank you, sir.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter LUCULLUS</STAGEDIR>
 
@@ -2534,7 +2521,6 @@ strain or two to the hautboys, and cease</STAGEDIR>
 <LINE>him from't.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter Servant, with wine</STAGEDIR>
 
 <SPEECH>
@@ -2577,14 +2563,12 @@ strain or two to the hautboys, and cease</STAGEDIR>
 <LINE>To him that worships thee!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Throwing the money back</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>LUCULLUS</SPEAKER>
 <LINE>Ha! now I see thou art a fool, and fit for thy master.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -2605,11 +2589,14 @@ strain or two to the hautboys, and cease</STAGEDIR>
 <LINE>To expel sickness, but prolong his hour!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  A public place.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  A public place.</TITLE>
+
 <STAGEDIR>Enter LUCILIUS, with three Strangers</STAGEDIR>
 
 <SPEECH>
@@ -2662,7 +2649,6 @@ strain or two to the hautboys, and cease</STAGEDIR>
 <LINE>ne'er have denied his occasion so many talents.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter SERVILIUS</STAGEDIR>
 
 <SPEECH>
@@ -2670,7 +2656,6 @@ strain or two to the hautboys, and cease</STAGEDIR>
 <LINE>See, by good hap, yonder's my lord;</LINE>
 <LINE>I have sweat to see his honour. My honoured lord,--</LINE>
 </SPEECH>
-
 
 <STAGEDIR>To LUCIUS</STAGEDIR>
 
@@ -2756,7 +2741,6 @@ strain or two to the hautboys, and cease</STAGEDIR>
 <LINE>And he that's once denied will hardly speed.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -2807,11 +2791,14 @@ strain or two to the hautboys, and cease</STAGEDIR>
 <LINE>For policy sits above conscience.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  A room in Sempronius' house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  A room in Sempronius' house.</TITLE>
+
 <STAGEDIR>Enter SEMPRONIUS, and a Servant of TIMON's</STAGEDIR>
 
 <SPEECH>
@@ -2856,7 +2843,6 @@ strain or two to the hautboys, and cease</STAGEDIR>
 <LINE>Who bates mine honour shall not know my coin.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -2879,11 +2865,14 @@ strain or two to the hautboys, and cease</STAGEDIR>
 <LINE>Who cannot keep his wealth must keep his house.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  The same. A hall in Timon's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  The same. A hall in Timon's house.</TITLE>
+
 <STAGEDIR>Enter two Servants of Varro, and the Servant of
 LUCIUS, meeting TITUS, HORTENSIUS, and other
 Servants of TIMON's creditors, waiting his coming out</STAGEDIR>
@@ -2914,7 +2903,6 @@ Servants of TIMON's creditors, waiting his coming out</STAGEDIR>
 <SPEAKER>TITUS</SPEAKER>
 <LINE>So is theirs and ours.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PHILOTUS</STAGEDIR>
 
@@ -3111,7 +3099,6 @@ Servants of TIMON's creditors, waiting his coming out</STAGEDIR>
 <LINE>For you serve knaves.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -3126,7 +3113,6 @@ Servants of TIMON's creditors, waiting his coming out</STAGEDIR>
 <LINE>house to put his head in? such may rail against</LINE>
 <LINE>great buildings.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter SERVILIUS</STAGEDIR>
 
@@ -3166,7 +3152,6 @@ Servants of TIMON's creditors, waiting his coming out</STAGEDIR>
 <SPEAKER>FLAMINIUS</SPEAKER>
 <LINE><STAGEDIR>Within</STAGEDIR>  Servilius, help! My lord! my lord!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter TIMON, in a rage, FLAMINIUS following</STAGEDIR>
 
@@ -3260,7 +3245,6 @@ Servants of TIMON's creditors, waiting his coming out</STAGEDIR>
 <LINE>Tear me, take me, and the gods fall upon you!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -3327,11 +3311,13 @@ Servants of TIMON's creditors, waiting his coming out</STAGEDIR>
 <LINE>Of knaves once more; my cook and I'll provide.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  The same. The senate-house. The Senate sitting.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  The same. The senate-house. The Senate sitting.</TITLE>
 
 <SPEECH>
 <SPEAKER>First Senator</SPEAKER>
@@ -3344,7 +3330,6 @@ Servants of TIMON's creditors, waiting his coming out</STAGEDIR>
 <SPEAKER>Second Senator</SPEAKER>
 <LINE>Most true; the law shall bruise him.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter ALCIBIADES, with Attendants</STAGEDIR>
 
@@ -3547,7 +3532,6 @@ Servants of TIMON's creditors, waiting his coming out</STAGEDIR>
 <LINE>He shall be executed presently.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt Senators</STAGEDIR>
 
 <SPEECH>
@@ -3568,11 +3552,14 @@ Servants of TIMON's creditors, waiting his coming out</STAGEDIR>
 <LINE>Soldiers should brook as little wrongs as gods.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VI.  The same. A banqueting-room in Timon's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VI.  The same. A banqueting-room in Timon's house.</TITLE>
+
 <STAGEDIR>Music. Tables set out: Servants attending.
 Enter divers Lords, Senators and others, at
 several doors</STAGEDIR>
@@ -3647,7 +3634,6 @@ several doors</STAGEDIR>
 <SPEAKER>Second Lord</SPEAKER>
 <LINE>He sent to me, sir,--Here he comes.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter TIMON and Attendants</STAGEDIR>
 
@@ -3824,7 +3810,6 @@ several doors</STAGEDIR>
 <LINE>Uncover, dogs, and lap.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>The dishes are uncovered and seen to be full of
 warm water</STAGEDIR>
 
@@ -3928,15 +3913,20 @@ warm water</STAGEDIR>
 <LINE>One day he gives us diamonds, next day stones.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT IV</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Without the walls of Athens.</TITLE>
+<TITLE>ACT IV</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Without the walls of Athens.</TITLE>
+
 <STAGEDIR>Enter TIMON</STAGEDIR>
 
 <SPEECH>
@@ -3983,11 +3973,14 @@ warm water</STAGEDIR>
 <LINE>To the whole race of mankind, high and low! Amen.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Athens. A room in Timon's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Athens. A room in Timon's house.</TITLE>
+
 <STAGEDIR>Enter FLAVIUS, with two or three Servants</STAGEDIR>
 
 <SPEECH>
@@ -4022,7 +4015,6 @@ warm water</STAGEDIR>
 <LINE>With his disease of all-shunn'd poverty,</LINE>
 <LINE>Walks, like contempt, alone. More of our fellows.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter other Servants</STAGEDIR>
 
@@ -4075,11 +4067,14 @@ warm water</STAGEDIR>
 <LINE>Whilst I have gold, I'll be his steward still.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Woods and cave, near the seashore.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Woods and cave, near the seashore.</TITLE>
+
 <STAGEDIR>Enter TIMON, from the cave</STAGEDIR>
 <SPEECH>
 <SPEAKER>TIMON</SPEAKER>
@@ -4485,7 +4480,6 @@ warlike manner; PHRYNIA and TIMANDRA</STAGEDIR>
 <LINE>We but offend him. Strike!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Drum beats. Exeunt ALCIBIADES, PHRYNIA,
 and TIMANDRA</STAGEDIR>
 
@@ -4700,14 +4694,12 @@ and TIMANDRA</STAGEDIR>
 <LINE>Thus would I eat it.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Eating a root</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>APEMANTUS</SPEAKER>
 <LINE>Here; I will mend thy feast.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Offering him a root</STAGEDIR>
 
@@ -4965,7 +4957,6 @@ and TIMANDRA</STAGEDIR>
 <LINE>A stone by thee.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Throws a stone at him</STAGEDIR>
 
 <SPEECH>
@@ -5042,7 +5033,6 @@ and TIMANDRA</STAGEDIR>
 <LINE>I am quit.</LINE>
 <LINE>Moe things like men! Eat, Timon, and abhor them.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter Banditti</STAGEDIR>
 
@@ -5329,15 +5319,20 @@ and TIMANDRA</STAGEDIR>
 <LINE>Ne'er see thou man, and let me ne'er see thee.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit FLAVIUS. TIMON retires to his cave</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT V</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  The woods. Before Timon's cave.</TITLE>
+<TITLE>ACT V</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  The woods. Before Timon's cave.</TITLE>
+
 <STAGEDIR>Enter Poet and Painter; TIMON watching
 them from his cave</STAGEDIR>
 
@@ -5406,7 +5401,6 @@ them from his cave</STAGEDIR>
 <LINE>in his judgment that makes it.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>TIMON comes from his cave, behind</STAGEDIR>
 
 <SPEECH>
@@ -5456,7 +5450,6 @@ them from his cave</STAGEDIR>
 <LINE>Be crown'd with plagues that thee alone obey!</LINE>
 <LINE>Fit I meet them.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Coming forward</STAGEDIR>
 
@@ -5681,7 +5674,6 @@ them from his cave</STAGEDIR>
 <LINE>Speak to them, noble Timon.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>TIMON comes from his cave</STAGEDIR>
 
 <SPEECH>
@@ -5889,7 +5881,6 @@ them from his cave</STAGEDIR>
 <LINE>Sun, hide thy beams! Timon hath done his reign.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Retires to his cave</STAGEDIR>
 
 <SPEECH>
@@ -5910,11 +5901,14 @@ them from his cave</STAGEDIR>
 <LINE>It requires swift foot.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Before the walls of Athens.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Before the walls of Athens.</TITLE>
+
 <STAGEDIR>Enter two Senators and a Messenger</STAGEDIR>
 
 <SPEECH>
@@ -5952,7 +5946,6 @@ them from his cave</STAGEDIR>
 <LINE>Here come our brothers.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter the Senators from TIMON</STAGEDIR>
 
 <SPEECH>
@@ -5963,11 +5956,14 @@ them from his cave</STAGEDIR>
 <LINE>Ours is the fall, I fear; our foes the snare.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The woods. Timon's cave, and a rude tomb seen.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The woods. Timon's cave, and a rude tomb seen.</TITLE>
+
 <STAGEDIR>Enter a Soldier, seeking TIMON</STAGEDIR>
 
 <SPEECH>
@@ -5984,11 +5980,14 @@ them from his cave</STAGEDIR>
 <LINE>Whose fall the mark of his ambition is.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Before the walls of Athens.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Before the walls of Athens.</TITLE>
+
 <STAGEDIR>Trumpets sound. Enter ALCIBIADES with his powers</STAGEDIR>
 
 <SPEECH>
@@ -6152,8 +6151,8 @@ them from his cave</STAGEDIR>
 <LINE>Let our drums strike.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 </ACT>
 </PLAY>

@@ -11,7 +11,6 @@
 <P>This work may be freely copied and distributed worldwide.</P>
 </FM>
 
-
 <PERSONAE>
 <TITLE>Dramatis Personae</TITLE>
 
@@ -54,9 +53,14 @@
 
 <PLAYSUBT>A MIDSUMMER NIGHT'S DREAM</PLAYSUBT>
 
-<ACT><TITLE>ACT I</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Athens. The palace of THESEUS.</TITLE>
+<TITLE>ACT I</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Athens. The palace of THESEUS.</TITLE>
+
 <STAGEDIR>Enter THESEUS, HIPPOLYTA, PHILOSTRATE, and
 Attendants</STAGEDIR>
 
@@ -92,7 +96,6 @@ Attendants</STAGEDIR>
 <LINE>But I will wed thee in another key,</LINE>
 <LINE>With pomp, with triumph and with revelling.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter EGEUS, HERMIA, LYSANDER, and DEMETRIUS</STAGEDIR>
 
@@ -277,7 +280,6 @@ Attendants</STAGEDIR>
 <LINE>With duty and desire we follow you.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt all but LYSANDER and HERMIA</STAGEDIR>
 
 <SPEECH>
@@ -385,7 +387,6 @@ Attendants</STAGEDIR>
 <LINE>Keep promise, love. Look, here comes Helena.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter HELENA</STAGEDIR>
 
 <SPEECH>
@@ -492,7 +493,6 @@ Attendants</STAGEDIR>
 <LINE>As you on him, Demetrius dote on you!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -525,11 +525,14 @@ Attendants</STAGEDIR>
 <LINE>To have his sight thither and back again.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Athens. QUINCE'S house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Athens. QUINCE'S house.</TITLE>
+
 <STAGEDIR>Enter QUINCE, SNUG, BOTTOM, FLUTE, SNOUT, and
 STARVELING</STAGEDIR>
 
@@ -798,15 +801,20 @@ STARVELING</STAGEDIR>
 <LINE>Enough; hold or cut bow-strings.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT II</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  A wood near Athens.</TITLE>
+<TITLE>ACT II</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  A wood near Athens.</TITLE>
+
 <STAGEDIR>Enter, from opposite sides, a Fairy, and PUCK</STAGEDIR>
 
 <SPEECH>
@@ -892,7 +900,6 @@ STARVELING</STAGEDIR>
 <SPEAKER>Fairy</SPEAKER>
 <LINE>And here my mistress. Would that he were gone!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter, from one side, OBERON, with his train;
 from the other, TITANIA, with hers</STAGEDIR>
@@ -1032,7 +1039,6 @@ from the other, TITANIA, with hers</STAGEDIR>
 <LINE>We shall chide downright, if I longer stay.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit TITANIA with her train</STAGEDIR>
 
 <SPEECH>
@@ -1083,7 +1089,6 @@ from the other, TITANIA, with hers</STAGEDIR>
 <LINE>In forty minutes.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -1101,7 +1106,6 @@ from the other, TITANIA, with hers</STAGEDIR>
 <LINE>But who comes here? I am invisible;</LINE>
 <LINE>And I will overhear their conference.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter DEMETRIUS, HELENA, following him</STAGEDIR>
 
@@ -1211,7 +1215,6 @@ from the other, TITANIA, with hers</STAGEDIR>
 <LINE>To die upon the hand I love so well.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -1256,11 +1259,14 @@ from the other, TITANIA, with hers</STAGEDIR>
 <LINE>Fear not, my lord, your servant shall do so.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Another part of the wood.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Another part of the wood.</TITLE>
+
 <STAGEDIR>Enter TITANIA, with her train</STAGEDIR>
 
 <SPEECH>
@@ -1427,7 +1433,6 @@ from the other, TITANIA, with hers</STAGEDIR>
 <LINE>Stay, on thy peril: I alone will go.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -1497,7 +1502,6 @@ from the other, TITANIA, with hers</STAGEDIR>
 <LINE>Should of another therefore be abused!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -1513,7 +1517,6 @@ from the other, TITANIA, with hers</STAGEDIR>
 <LINE>And, all my powers, address your love and might</LINE>
 <LINE>To honour Helen and to be her knight!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -1533,15 +1536,20 @@ from the other, TITANIA, with hers</STAGEDIR>
 <LINE>Either death or you I'll find immediately.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT III</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  The wood. TITANIA lying asleep.</TITLE>
+<TITLE>ACT III</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  The wood. TITANIA lying asleep.</TITLE>
+
 <STAGEDIR>Enter QUINCE, SNUG, BOTTOM, FLUTE, SNOUT, and
 STARVELING</STAGEDIR>
 
@@ -1709,7 +1717,6 @@ STARVELING</STAGEDIR>
 <LINE>according to his cue.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter PUCK behind</STAGEDIR>
 
 <SPEECH>
@@ -1743,14 +1750,12 @@ STARVELING</STAGEDIR>
 <LINE>And by and by I will to thee appear.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>PUCK</SPEAKER>
 <LINE>A stranger Pyramus than e'er played here.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -1788,7 +1793,6 @@ STARVELING</STAGEDIR>
 <LINE>never tire.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter PUCK, and BOTTOM with an ass's head</STAGEDIR>
 
 <SPEECH>
@@ -1802,7 +1806,6 @@ STARVELING</STAGEDIR>
 <LINE>masters! fly, masters! Help!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt QUINCE, SNUG, FLUTE, SNOUT, and STARVELING</STAGEDIR>
 
 <SPEECH>
@@ -1815,7 +1818,6 @@ STARVELING</STAGEDIR>
 <LINE>Like horse, hound, hog, bear, fire, at every turn.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -1823,7 +1825,6 @@ STARVELING</STAGEDIR>
 <LINE>Why do they run away? this is a knavery of them to</LINE>
 <LINE>make me afeard.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter SNOUT</STAGEDIR>
 
@@ -1846,7 +1847,6 @@ STARVELING</STAGEDIR>
 <LINE>Bless thee, Bottom! bless thee! thou art</LINE>
 <LINE>translated.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -1924,7 +1924,6 @@ STARVELING</STAGEDIR>
 <LINE>That thou shalt like an airy spirit go.</LINE>
 <LINE>Peaseblossom! Cobweb! Moth! and Mustardseed!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PEASEBLOSSOM, COBWEB, MOTH, and MUSTARDSEED</STAGEDIR>
 
@@ -2043,11 +2042,14 @@ STARVELING</STAGEDIR>
 <LINE>Tie up my love's tongue bring him silently.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Another part of the wood.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Another part of the wood.</TITLE>
+
 <STAGEDIR>Enter OBERON</STAGEDIR>
 
 <SPEECH>
@@ -2109,7 +2111,6 @@ STARVELING</STAGEDIR>
 <LINE>And the Athenian woman by his side:</LINE>
 <LINE>That, when he waked, of force she must be eyed.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter HERMIA and DEMETRIUS</STAGEDIR>
 
@@ -2202,7 +2203,6 @@ STARVELING</STAGEDIR>
 <LINE>See me no more, whether he be dead or no.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -2214,7 +2214,6 @@ STARVELING</STAGEDIR>
 <LINE>Which now in some slight measure it will pay,</LINE>
 <LINE>If for his tender here I make some stay.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Lies down and sleeps</STAGEDIR>
 
@@ -2248,7 +2247,6 @@ STARVELING</STAGEDIR>
 <LINE>Swifter than arrow from the Tartar's bow.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -2262,7 +2260,6 @@ STARVELING</STAGEDIR>
 <LINE>When thou wakest, if she be by,</LINE>
 <LINE>Beg of her for remedy.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter PUCK</STAGEDIR>
 
@@ -2289,7 +2286,6 @@ STARVELING</STAGEDIR>
 <LINE>And those things do best please me</LINE>
 <LINE>That befal preposterously.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter LYSANDER and HELENA</STAGEDIR>
 
@@ -2396,7 +2392,6 @@ STARVELING</STAGEDIR>
 <LINE>Lest, to thy peril, thou aby it dear.</LINE>
 <LINE>Look, where thy love comes; yonder is thy dear.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter HERMIA</STAGEDIR>
 
@@ -2771,7 +2766,6 @@ STARVELING</STAGEDIR>
 <LINE>Follow! nay, I'll go with thee, cheek by jole.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt LYSANDER and DEMETRIUS</STAGEDIR>
 
 <SPEECH>
@@ -2788,14 +2782,12 @@ STARVELING</STAGEDIR>
 <LINE>My legs are longer though, to run away.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>HERMIA</SPEAKER>
 <LINE>I am amazed, and know not what to say.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -2870,7 +2862,6 @@ STARVELING</STAGEDIR>
 <LINE>We may effect this business yet ere day.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -2881,7 +2872,6 @@ STARVELING</STAGEDIR>
 <LINE>Goblin, lead them up and down.</LINE>
 <LINE>Here comes one.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter LYSANDER</STAGEDIR>
 
@@ -2995,7 +2985,6 @@ STARVELING</STAGEDIR>
 <LINE>Steal me awhile from mine own company.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Lies down and sleeps</STAGEDIR>
 
 <SPEECH>
@@ -3006,7 +2995,6 @@ STARVELING</STAGEDIR>
 <LINE>Cupid is a knavish lad,</LINE>
 <LINE>Thus to make poor females mad.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter HERMIA</STAGEDIR>
 
@@ -3019,7 +3007,6 @@ STARVELING</STAGEDIR>
 <LINE>Here will I rest me till the break of day.</LINE>
 <LINE>Heavens shield Lysander, if they mean a fray!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Lies down and sleeps</STAGEDIR>
 
@@ -3044,15 +3031,20 @@ STARVELING</STAGEDIR>
 <LINE>The man shall have his mare again, and all shall be well.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT IV</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  The same. LYSANDER, DEMETRIUS, HELENA, and HERMIA lying asleep.</TITLE>
+<TITLE>ACT IV</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  The same. LYSANDER, DEMETRIUS, HELENA, and HERMIA lying asleep.</TITLE>
+
 <STAGEDIR>Enter TITANIA and BOTTOM; PEASEBLOSSOM, COBWEB, MOTH,
 MUSTARDSEED, and other Fairies attending; OBERON
 behind unseen</STAGEDIR>
@@ -3236,7 +3228,6 @@ behind unseen</STAGEDIR>
 <SPEAKER>TITANIA</SPEAKER>
 <LINE>Music, ho! music, such as charmeth sleep!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Music, still</STAGEDIR>
 
@@ -3424,7 +3415,6 @@ HELENA, and HERMIA wake and start up</STAGEDIR>
 <LINE>Come, Hippolyta.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt THESEUS, HIPPOLYTA, EGEUS, and train</STAGEDIR>
 
 <SPEECH>
@@ -3474,7 +3464,6 @@ HELENA, and HERMIA wake and start up</STAGEDIR>
 <LINE>And by the way let us recount our dreams.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
 
 <SPEECH>
@@ -3501,11 +3490,14 @@ HELENA, and HERMIA wake and start up</STAGEDIR>
 <LINE>sing it at her death.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Athens. QUINCE'S house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Athens. QUINCE'S house.</TITLE>
+
 <STAGEDIR>Enter QUINCE, FLUTE, SNOUT, and STARVELING</STAGEDIR>
 
 <SPEECH>
@@ -3549,7 +3541,6 @@ HELENA, and HERMIA wake and start up</STAGEDIR>
 <LINE>a thing of naught.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter SNUG</STAGEDIR>
 
 <SPEECH>
@@ -3569,7 +3560,6 @@ HELENA, and HERMIA wake and start up</STAGEDIR>
 <LINE>he would have deserved it: sixpence a day in</LINE>
 <LINE>Pyramus, or nothing.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter BOTTOM</STAGEDIR>
 
@@ -3611,15 +3601,20 @@ HELENA, and HERMIA wake and start up</STAGEDIR>
 <LINE>comedy. No more words: away! go, away!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT V</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Athens. The palace of THESEUS.</TITLE>
+<TITLE>ACT V</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Athens. The palace of THESEUS.</TITLE>
+
 <STAGEDIR>Enter THESEUS, HIPPOLYTA, PHILOSTRATE, Lords and
 Attendants</STAGEDIR>
 
@@ -3706,7 +3701,6 @@ Attendants</STAGEDIR>
 <LINE>Make choice of which your highness will see first.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Giving a paper</STAGEDIR>
 
 <SPEECH>
@@ -3783,7 +3777,6 @@ Attendants</STAGEDIR>
 <LINE>Go, bring them in: and take your places, ladies.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit PHILOSTRATE</STAGEDIR>
 
 <SPEECH>
@@ -3822,7 +3815,6 @@ Attendants</STAGEDIR>
 <LINE>Love, therefore, and tongue-tied simplicity</LINE>
 <LINE>In least speak most, to my capacity.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter PHILOSTRATE</STAGEDIR>
 
@@ -3877,7 +3869,6 @@ Attendants</STAGEDIR>
 <LINE>impaired, but all disordered. Who is next?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter Pyramus and Thisbe, Wall, Moonshine, and Lion</STAGEDIR>
 
 <SPEECH>
@@ -3908,7 +3899,6 @@ Attendants</STAGEDIR>
 <LINE>Let Lion, Moonshine, Wall, and lovers twain</LINE>
 <LINE>At large discourse, while here they do remain.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt Prologue, Thisbe, Lion, and Moonshine</STAGEDIR>
 
@@ -3947,7 +3937,6 @@ Attendants</STAGEDIR>
 <LINE>discourse, my lord.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter Pyramus</STAGEDIR>
 
 <SPEECH>
@@ -3984,7 +3973,6 @@ Attendants</STAGEDIR>
 <LINE>spy her through the wall. You shall see, it will</LINE>
 <LINE>fall pat as I told you. Yonder she comes.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter Thisbe</STAGEDIR>
 
@@ -4048,7 +4036,6 @@ Attendants</STAGEDIR>
 <LINE>'Tide life, 'tide death, I come without delay.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt Pyramus and Thisbe</STAGEDIR>
 
 <SPEECH>
@@ -4056,7 +4043,6 @@ Attendants</STAGEDIR>
 <LINE>Thus have I, Wall, my part discharged so;</LINE>
 <LINE>And, being done, thus Wall away doth go.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -4093,7 +4079,6 @@ Attendants</STAGEDIR>
 <LINE>themselves, they may pass for excellent men. Here</LINE>
 <LINE>come two noble beasts in, a man and a lion.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter Lion and Moonshine</STAGEDIR>
 
@@ -4207,7 +4192,6 @@ Attendants</STAGEDIR>
 <LINE>these are in the moon. But, silence! here comes Thisbe.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter Thisbe</STAGEDIR>
 
 <SPEECH>
@@ -4219,7 +4203,6 @@ Attendants</STAGEDIR>
 <SPEAKER>Lion</SPEAKER>
 <LINE><STAGEDIR>Roaring</STAGEDIR>  Oh--</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Thisbe runs off</STAGEDIR>
 
@@ -4239,7 +4222,6 @@ Attendants</STAGEDIR>
 <LINE>good grace.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>The Lion shakes Thisbe's mantle, and exit</STAGEDIR>
 
 <SPEECH>
@@ -4256,7 +4238,6 @@ Attendants</STAGEDIR>
 <SPEAKER>DEMETRIUS</SPEAKER>
 <LINE>And then came Pyramus.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter Pyramus</STAGEDIR>
 
@@ -4314,7 +4295,6 @@ Attendants</STAGEDIR>
 <LINE>Now die, die, die, die, die.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Dies</STAGEDIR>
 
 <SPEECH>
@@ -4344,7 +4324,6 @@ Attendants</STAGEDIR>
 <LINE>She will find him by starlight. Here she comes; and</LINE>
 <LINE>her passion ends the play.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter Thisbe</STAGEDIR>
 
@@ -4399,7 +4378,6 @@ Attendants</STAGEDIR>
 <LINE>Thus Thisby ends:</LINE>
 <LINE>Adieu, adieu, adieu.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Dies</STAGEDIR>
 
@@ -4469,7 +4447,6 @@ Attendants</STAGEDIR>
 <LINE>To sweep the dust behind the door.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter OBERON and TITANIA with their train</STAGEDIR>
 
 <SPEECH>
@@ -4489,7 +4466,6 @@ Attendants</STAGEDIR>
 <LINE>Hand in hand, with fairy grace,</LINE>
 <LINE>Will we sing, and bless this place.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Song and dance</STAGEDIR>
 
@@ -4518,7 +4494,6 @@ Attendants</STAGEDIR>
 <LINE>Trip away; make no stay;</LINE>
 <LINE>Meet me all by break of day.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt OBERON, TITANIA, and train</STAGEDIR>
 

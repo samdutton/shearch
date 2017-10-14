@@ -11,10 +11,8 @@
 <P>This work may be freely copied and distributed worldwide.</P>
 </FM>
 
-
 <PERSONAE>
 <TITLE>Dramatis Personae</TITLE>
-
 
 <PGROUP>
 <PERSONA>MARK ANTONY</PERSONA>
@@ -36,7 +34,6 @@
 <GRPDESCR>friends to Antony.</GRPDESCR>
 </PGROUP>
 
-
 <PGROUP>
 <PERSONA>MECAENAS</PERSONA>
 <PERSONA>AGRIPPA</PERSONA>
@@ -47,7 +44,6 @@
 <PERSONA>MENAS</PERSONA>
 <GRPDESCR>friends to Caesar.</GRPDESCR>
 </PGROUP>
-
 
 <PGROUP>
 <PERSONA>MENECRATES</PERSONA>
@@ -86,9 +82,14 @@
 
 <PLAYSUBT>ANTONY AND CLEOPATRA</PLAYSUBT>
 
-<ACT><TITLE>ACT I</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Alexandria. A room in CLEOPATRA's palace.</TITLE>
+<TITLE>ACT I</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Alexandria. A room in CLEOPATRA's palace.</TITLE>
+
 <STAGEDIR>Enter DEMETRIUS and PHILO</STAGEDIR>
 
 <SPEECH>
@@ -130,7 +131,6 @@ the Train, with Eunuchs fanning her</STAGEDIR>
 <SPEAKER>MARK ANTONY</SPEAKER>
 <LINE>Then must thou needs find out new heaven, new earth.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter an Attendant</STAGEDIR>
 
@@ -218,7 +218,6 @@ the Train, with Eunuchs fanning her</STAGEDIR>
 <LINE>Last night you did desire it: speak not to us.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt MARK ANTONY and CLEOPATRA with
 their train</STAGEDIR>
 
@@ -242,11 +241,14 @@ their train</STAGEDIR>
 <LINE>Of better deeds to-morrow. Rest you happy!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The same. Another room.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The same. Another room.</TITLE>
+
 <STAGEDIR>Enter CHARMIAN, IRAS, ALEXAS, and a Soothsayer</STAGEDIR>
 
 <SPEECH>
@@ -283,7 +285,6 @@ their train</STAGEDIR>
 <SPEAKER>ALEXAS</SPEAKER>
 <LINE>Show him your hand.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter DOMITIUS ENOBARBUS</STAGEDIR>
 
@@ -512,7 +513,6 @@ their train</STAGEDIR>
 <LINE>Not he; the queen.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter CLEOPATRA</STAGEDIR>
 
 <SPEECH>
@@ -637,7 +637,6 @@ their train</STAGEDIR>
 <LINE>At your noble pleasure.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -681,7 +680,6 @@ their train</STAGEDIR>
 <LINE>Importeth thee to know, this bears.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Gives a letter</STAGEDIR>
 
 <SPEECH>
@@ -698,7 +696,6 @@ their train</STAGEDIR>
 <LINE>Ten thousand harms, more than the ills I know,</LINE>
 <LINE>My idleness doth hatch. How now! Enobarbus!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter DOMITIUS ENOBARBUS</STAGEDIR>
 
@@ -740,7 +737,6 @@ their train</STAGEDIR>
 <SPEAKER>MARK ANTONY</SPEAKER>
 <LINE>She is cunning past man's thought.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit ALEXAS</STAGEDIR>
 
@@ -848,11 +844,14 @@ their train</STAGEDIR>
 <LINE>I shall do't.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The same. Another room.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The same. Another room.</TITLE>
+
 <STAGEDIR>Enter CLEOPATRA, CHARMIAN, IRAS, and ALEXAS</STAGEDIR>
 
 <SPEECH>
@@ -872,7 +871,6 @@ their train</STAGEDIR>
 <LINE>Say I am dancing; if in mirth, report</LINE>
 <LINE>That I am sudden sick: quick, and return.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit ALEXAS</STAGEDIR>
 
@@ -904,7 +902,6 @@ their train</STAGEDIR>
 <LINE>In time we hate that which we often fear.</LINE>
 <LINE>But here comes Antony.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter MARK ANTONY</STAGEDIR>
 
@@ -1145,11 +1142,14 @@ their train</STAGEDIR>
 <LINE>And I, hence fleeting, here remain with thee. Away!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Rome. OCTAVIUS CAESAR's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Rome. OCTAVIUS CAESAR's house.</TITLE>
+
 <STAGEDIR>Enter OCTAVIUS CAESAR, reading a letter, LEPIDUS,
 and their Train</STAGEDIR>
 
@@ -1199,7 +1199,6 @@ and their Train</STAGEDIR>
 <LINE>Pawn their experience to their present pleasure,</LINE>
 <LINE>And so rebel to judgment.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter a Messenger</STAGEDIR>
 
@@ -1306,11 +1305,14 @@ and their Train</STAGEDIR>
 <LINE>I knew it for my bond.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  Alexandria. CLEOPATRA's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  Alexandria. CLEOPATRA's palace.</TITLE>
+
 <STAGEDIR>Enter CLEOPATRA, CHARMIAN, IRAS, and MARDIAN</STAGEDIR>
 
 <SPEECH>
@@ -1411,7 +1413,6 @@ and their Train</STAGEDIR>
 <LINE>There would he anchor his aspect and die</LINE>
 <LINE>With looking on his life.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter ALEXAS, from OCTAVIUS CAESAR</STAGEDIR>
 
@@ -1531,15 +1532,20 @@ and their Train</STAGEDIR>
 <LINE>Or I'll unpeople Egypt.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT II</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Messina. POMPEY's house.</TITLE>
+<TITLE>ACT II</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Messina. POMPEY's house.</TITLE>
+
 <STAGEDIR>Enter POMPEY, MENECRATES, and MENAS, in
 warlike manner</STAGEDIR>
 
@@ -1658,11 +1664,14 @@ warlike manner</STAGEDIR>
 <LINE>Come, Menas.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Rome. The house of LEPIDUS.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Rome. The house of LEPIDUS.</TITLE>
+
 <STAGEDIR>Enter DOMITIUS ENOBARBUS and LEPIDUS</STAGEDIR>
 
 <SPEECH>
@@ -1711,14 +1720,12 @@ warlike manner</STAGEDIR>
 <LINE>The noble Antony.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter MARK ANTONY and VENTIDIUS</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>DOMITIUS ENOBARBUS</SPEAKER>
 <LINE>And yonder, Caesar.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter OCTAVIUS CAESAR, MECAENAS, and AGRIPPA</STAGEDIR>
 
@@ -1753,7 +1760,6 @@ warlike manner</STAGEDIR>
 <LINE>Were we before our armies, and to fight.</LINE>
 <LINE>I should do thus.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Flourish</STAGEDIR>
 
@@ -2152,7 +2158,6 @@ warlike manner</STAGEDIR>
 <LINE>Not sickness should detain me.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Flourish. Exeunt OCTAVIUS CAESAR, MARK ANTONY,
 and LEPIDUS</STAGEDIR>
 
@@ -2324,11 +2329,14 @@ and LEPIDUS</STAGEDIR>
 <LINE>Humbly, sir, I thank you.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The same. OCTAVIUS CAESAR's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The same. OCTAVIUS CAESAR's house.</TITLE>
+
 <STAGEDIR>Enter MARK ANTONY, OCTAVIUS CAESAR, OCTAVIA between
 them, and Attendants</STAGEDIR>
 
@@ -2437,11 +2445,14 @@ them, and Attendants</STAGEDIR>
 <LINE>Follow me, and receive't.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  The same. A street.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  The same. A street.</TITLE>
+
 <STAGEDIR>Enter LEPIDUS, MECAENAS, and AGRIPPA</STAGEDIR>
 
 <SPEECH>
@@ -2487,11 +2498,14 @@ them, and Attendants</STAGEDIR>
 <LINE>Farewell.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  Alexandria. CLEOPATRA's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  Alexandria. CLEOPATRA's palace.</TITLE>
+
 <STAGEDIR>Enter CLEOPATRA, CHARMIAN, IRAS, and ALEXAS</STAGEDIR>
 
 <SPEECH>
@@ -2504,7 +2518,6 @@ them, and Attendants</STAGEDIR>
 <SPEAKER>Attendants</SPEAKER>
 <LINE>The music, ho!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter MARDIAN</STAGEDIR>
 
@@ -2698,7 +2711,6 @@ them, and Attendants</STAGEDIR>
 <LINE>The most infectious pestilence upon thee!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Strikes him down</STAGEDIR>
 
 <SPEECH>
@@ -2742,7 +2754,6 @@ them, and Attendants</STAGEDIR>
 <LINE>Rogue, thou hast lived too long.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Draws a knife</STAGEDIR>
 
 <SPEECH>
@@ -2750,7 +2761,6 @@ them, and Attendants</STAGEDIR>
 <LINE>Nay, then I'll run.</LINE>
 <LINE>What mean you, madam? I have made no fault.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -2850,7 +2860,6 @@ them, and Attendants</STAGEDIR>
 <LINE>And be undone by 'em!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit Messenger</STAGEDIR>
 
 <SPEECH>
@@ -2886,11 +2895,14 @@ them, and Attendants</STAGEDIR>
 <LINE>But do not speak to me. Lead me to my chamber.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VI.  Near Misenum.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VI.  Near Misenum.</TITLE>
+
 <STAGEDIR>Flourish. Enter POMPEY and MENAS at one door,
 with drum and trumpet: at another, OCTAVIUS CAESAR,
 MARK ANTONY, LEPIDUS, DOMITIUS ENOBARBUS, MECAENAS,
@@ -3159,7 +3171,6 @@ with Soldiers marching</STAGEDIR>
 <LINE>Come.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt all but MENAS and ENOBARBUS</STAGEDIR>
 
 <SPEECH>
@@ -3336,11 +3347,14 @@ with Soldiers marching</STAGEDIR>
 <LINE>Come, let's away.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VII.  On board POMPEY's galley, off Misenum.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VII.  On board POMPEY's galley, off Misenum.</TITLE>
+
 <STAGEDIR>Music plays. Enter two or three Servants with
 a banquet</STAGEDIR>
 
@@ -3387,7 +3401,6 @@ a banquet</STAGEDIR>
 <LINE>to move in't, are the holes where eyes should be,</LINE>
 <LINE>which pitifully disaster the cheeks.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>A sennet sounded. Enter OCTAVIUS CAESAR, MARK
 ANTONY, LEPIDUS, POMPEY, AGRIPPA, MECAENAS,
@@ -3537,7 +3550,6 @@ DOMITIUS ENOBARBUS, MENAS, with other captains</STAGEDIR>
 <LINE>The matter?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Rises, and walks aside</STAGEDIR>
 
 <SPEECH>
@@ -3659,7 +3671,6 @@ DOMITIUS ENOBARBUS, MENAS, with other captains</STAGEDIR>
 <SPEAKER>DOMITIUS ENOBARBUS</SPEAKER>
 <LINE>There's a strong fellow, Menas.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Pointing to the Attendant who carries off LEPIDUS</STAGEDIR>
 
@@ -3802,7 +3813,6 @@ hand in hand</STAGEDIR>
 <LINE>To these great fellows: sound and be hang'd, sound out!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Sound a flourish, with drums</STAGEDIR>
 
 <SPEECH>
@@ -3815,15 +3825,20 @@ hand in hand</STAGEDIR>
 <LINE>Ho! Noble captain, come.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT III</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  A plain in Syria.</TITLE>
+<TITLE>ACT III</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  A plain in Syria.</TITLE>
+
 <STAGEDIR>Enter VENTIDIUS as it were in triumph, with SILIUS,
 and other Romans, Officers, and Soldiers; the dead
 body of PACORUS borne before him</STAGEDIR>
@@ -3898,11 +3913,14 @@ body of PACORUS borne before him</STAGEDIR>
 <LINE>We shall appear before him. On there; pass along!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Rome. An ante-chamber in OCTAVIUS CAESAR's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Rome. An ante-chamber in OCTAVIUS CAESAR's house.</TITLE>
+
 <STAGEDIR>Enter AGRIPPA at one door, DOMITIUS ENOBARBUS
 at another</STAGEDIR>
 
@@ -3992,7 +4010,6 @@ at another</STAGEDIR>
 <SPEAKER>AGRIPPA</SPEAKER>
 <LINE>Good fortune, worthy soldier; and farewell.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter OCTAVIUS CAESAR, MARK ANTONY, LEPIDUS, and OCTAVIA</STAGEDIR>
 
@@ -4141,7 +4158,6 @@ at another</STAGEDIR>
 <LINE>Farewell, farewell!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Kisses OCTAVIA</STAGEDIR>
 
 <SPEECH>
@@ -4149,11 +4165,14 @@ at another</STAGEDIR>
 <LINE>Farewell!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Trumpets sound. Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Alexandria. CLEOPATRA's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Alexandria. CLEOPATRA's palace.</TITLE>
+
 <STAGEDIR>Enter CLEOPATRA, CHARMIAN, IRAS, and ALEXAS</STAGEDIR>
 
 <SPEECH>
@@ -4339,7 +4358,6 @@ at another</STAGEDIR>
 <LINE>Our letters are prepared.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit Messenger</STAGEDIR>
 
 <SPEECH>
@@ -4382,11 +4400,14 @@ at another</STAGEDIR>
 <LINE>I warrant you, madam.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Athens. A room in MARK ANTONY's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Athens. A room in MARK ANTONY's house.</TITLE>
+
 <STAGEDIR>Enter MARK ANTONY and OCTAVIA</STAGEDIR>
 
 <SPEECH>
@@ -4450,11 +4471,14 @@ at another</STAGEDIR>
 <LINE>Your heart has mind to.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  The same. Another room.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  The same. Another room.</TITLE>
+
 <STAGEDIR>Enter DOMITIUS ENOBARBUS and EROS, meeting</STAGEDIR>
 
 <SPEECH>
@@ -4530,11 +4554,14 @@ at another</STAGEDIR>
 <LINE>Come, sir.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VI.  Rome. OCTAVIUS CAESAR's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VI.  Rome. OCTAVIUS CAESAR's house.</TITLE>
+
 <STAGEDIR>Enter OCTAVIUS CAESAR, AGRIPPA, and MECAENAS</STAGEDIR>
 
 <SPEECH>
@@ -4627,7 +4654,6 @@ at another</STAGEDIR>
 <SPEAKER>OCTAVIUS CAESAR</SPEAKER>
 <LINE>Nor must not then be yielded to in this.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter OCTAVIA with her train</STAGEDIR>
 
@@ -4763,11 +4789,14 @@ at another</STAGEDIR>
 <LINE>Be ever known to patience: my dear'st sister!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VII.  Near Actium. MARK ANTONY's camp.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VII.  Near Actium. MARK ANTONY's camp.</TITLE>
+
 <STAGEDIR>Enter CLEOPATRA and DOMITIUS ENOBARBUS</STAGEDIR>
 
 <SPEECH>
@@ -4835,7 +4864,6 @@ at another</STAGEDIR>
 <LINE>Nay, I have done.</LINE>
 <LINE>Here comes the emperor.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter MARK ANTONY and CANIDIUS</STAGEDIR>
 
@@ -4969,7 +4997,6 @@ at another</STAGEDIR>
 <LINE>Well, well: away!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt MARK ANTONY, QUEEN CLEOPATRA, and DOMITIUS
 ENOBARBUS</STAGEDIR>
 
@@ -5021,7 +5048,6 @@ ENOBARBUS</STAGEDIR>
 <LINE>Well I know the man.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Messenger</STAGEDIR>
 
 <SPEECH>
@@ -5035,11 +5061,14 @@ ENOBARBUS</STAGEDIR>
 <LINE>Each minute, some.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VIII.  A plain near Actium.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VIII.  A plain near Actium.</TITLE>
+
 <STAGEDIR>Enter OCTAVIUS CAESAR, and TAURUS, with his army, marching</STAGEDIR>
 
 <SPEECH>
@@ -5060,11 +5089,14 @@ ENOBARBUS</STAGEDIR>
 <LINE>Upon this jump.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IX.  Another part of the plain.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IX.  Another part of the plain.</TITLE>
+
 <STAGEDIR>Enter MARK ANTONY and DOMITIUS ENOBARBUS</STAGEDIR>
 
 <SPEECH>
@@ -5075,11 +5107,14 @@ ENOBARBUS</STAGEDIR>
 <LINE>And so proceed accordingly.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE X.  Another part of the plain.</TITLE>
+<SCENE>
+
+<TITLE>SCENE X.  Another part of the plain.</TITLE>
+
 <STAGEDIR>CANIDIUS marcheth with his land army one way over
 the stage; and TAURUS, the lieutenant of OCTAVIUS
 CAESAR, the other way. After their going in, is
@@ -5093,7 +5128,6 @@ heard the noise of a sea-fight</STAGEDIR>
 <LINE>With all their sixty, fly and turn the rudder:</LINE>
 <LINE>To see't mine eyes are blasted.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter SCARUS</STAGEDIR>
 
@@ -5154,7 +5188,6 @@ heard the noise of a sea-fight</STAGEDIR>
 <LINE>Alack, alack!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter CANIDIUS</STAGEDIR>
 
 <SPEECH>
@@ -5197,11 +5230,14 @@ heard the noise of a sea-fight</STAGEDIR>
 <LINE>Sits in the wind against me.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE XI.  Alexandria. CLEOPATRA's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE XI.  Alexandria. CLEOPATRA's palace.</TITLE>
+
 <STAGEDIR>Enter MARK ANTONY with Attendants</STAGEDIR>
 
 <SPEECH>
@@ -5401,11 +5437,14 @@ following</STAGEDIR>
 <LINE>We scorn her most when most she offers blows.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE XII.  Egypt. OCTAVIUS CAESAR's camp.</TITLE>
+<SCENE>
+
+<TITLE>SCENE XII.  Egypt. OCTAVIUS CAESAR's camp.</TITLE>
+
 <STAGEDIR>Enter OCTAVIUS CAESAR, DOLABELLA, THYREUS, with others</STAGEDIR>
 
 <SPEECH>
@@ -5422,7 +5461,6 @@ following</STAGEDIR>
 <LINE>Which had superfluous kings for messengers</LINE>
 <LINE>Not many moons gone by.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter EUPHRONIUS, ambassador from MARK ANTONY</STAGEDIR>
 
@@ -5503,11 +5541,14 @@ following</STAGEDIR>
 <LINE>Caesar, I shall.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE XIII.  Alexandria. CLEOPATRA's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE XIII.  Alexandria. CLEOPATRA's palace.</TITLE>
+
 <STAGEDIR>Enter CLEOPATRA, DOMITIUS ENOBARBUS, CHARMIAN, and IRAS</STAGEDIR>
 
 <SPEECH>
@@ -5543,7 +5584,6 @@ following</STAGEDIR>
 <SPEAKER>CLEOPATRA</SPEAKER>
 <LINE>Prithee, peace.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter MARK ANTONY with EUPHRONIUS, the Ambassador</STAGEDIR>
 
@@ -5594,7 +5634,6 @@ following</STAGEDIR>
 <LINE>Ourselves alone. I'll write it: follow me.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt MARK ANTONY and EUPHRONIUS</STAGEDIR>
 
 <SPEECH>
@@ -5610,7 +5649,6 @@ following</STAGEDIR>
 <LINE>His judgment too.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter an Attendant</STAGEDIR>
 
 <SPEECH>
@@ -5625,7 +5663,6 @@ following</STAGEDIR>
 <LINE>That kneel'd unto the buds. Admit him, sir.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit Attendant</STAGEDIR>
 
 <SPEECH>
@@ -5637,7 +5674,6 @@ following</STAGEDIR>
 <LINE>Does conquer him that did his master conquer</LINE>
 <LINE>And earns a place i' the story.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter THYREUS</STAGEDIR>
 
@@ -5715,7 +5751,6 @@ following</STAGEDIR>
 <LINE>Thy dearest quit thee.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -5766,7 +5801,6 @@ following</STAGEDIR>
 <LINE>Bestow'd his lips on that unworthy place,</LINE>
 <LINE>As it rain'd kisses.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter MARK ANTONY and DOMITIUS ENOBARBUS</STAGEDIR>
 
@@ -5924,7 +5958,6 @@ following</STAGEDIR>
 <LINE>Hence with thy stripes, begone!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit THYREUS</STAGEDIR>
 
 <SPEECH>
@@ -6031,7 +6064,6 @@ following</STAGEDIR>
 <LINE>Even with his pestilent scythe.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt all but DOMITIUS ENOBARBUS</STAGEDIR>
 
 <SPEECH>
@@ -6045,15 +6077,20 @@ following</STAGEDIR>
 <LINE>Some way to leave him.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT IV</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Before Alexandria. OCTAVIUS CAESAR's camp.</TITLE>
+<TITLE>ACT IV</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Before Alexandria. OCTAVIUS CAESAR's camp.</TITLE>
+
 <STAGEDIR>Enter OCTAVIUS CAESAR, AGRIPPA, and MECAENAS, with
 his Army; OCTAVIUS CAESAR reading a letter</STAGEDIR>
 
@@ -6087,11 +6124,14 @@ his Army; OCTAVIUS CAESAR reading a letter</STAGEDIR>
 <LINE>And they have earn'd the waste. Poor Antony!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Alexandria. CLEOPATRA's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Alexandria. CLEOPATRA's palace.</TITLE>
+
 <STAGEDIR>Enter MARK ANTONY, CLEOPATRA, DOMITIUS ENOBARBUS,
 CHARMIAN, IRAS, ALEXAS, with others</STAGEDIR>
 
@@ -6222,11 +6262,14 @@ CHARMIAN, IRAS, ALEXAS, with others</STAGEDIR>
 <LINE>And drown consideration.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The same. Before the palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The same. Before the palace.</TITLE>
+
 <STAGEDIR>Enter two Soldiers to their guard</STAGEDIR>
 
 <SPEECH>
@@ -6255,7 +6298,6 @@ CHARMIAN, IRAS, ALEXAS, with others</STAGEDIR>
 <LINE>Well, sir, good night.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter two other Soldiers</STAGEDIR>
 
 <SPEECH>
@@ -6267,7 +6309,6 @@ CHARMIAN, IRAS, ALEXAS, with others</STAGEDIR>
 <SPEAKER>Third Soldier</SPEAKER>
 <LINE>And you. Good night, good night.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>They place themselves in every corner of the stage</STAGEDIR>
 
@@ -6283,7 +6324,6 @@ CHARMIAN, IRAS, ALEXAS, with others</STAGEDIR>
 <LINE>'Tis a brave army,</LINE>
 <LINE>And full of purpose.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Music of the hautboys as under the stage</STAGEDIR>
 
@@ -6340,7 +6380,6 @@ CHARMIAN, IRAS, ALEXAS, with others</STAGEDIR>
 <LINE>Do hear what we do?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>They advance to another post</STAGEDIR>
 
 <SPEECH>
@@ -6375,11 +6414,14 @@ CHARMIAN, IRAS, ALEXAS, with others</STAGEDIR>
 <LINE>Content. 'Tis strange.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  The same. A room in the palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  The same. A room in the palace.</TITLE>
+
 <STAGEDIR>Enter MARK ANTONY and CLEOPATRA, CHARMIAN, and
 others attending</STAGEDIR>
 
@@ -6488,7 +6530,6 @@ others attending</STAGEDIR>
 <LINE>Follow me close; I'll bring you to't. Adieu.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt MARK ANTONY, EROS, Captains, and Soldiers</STAGEDIR>
 
 <SPEECH>
@@ -6504,11 +6545,14 @@ others attending</STAGEDIR>
 <LINE>Then Antony,--but now--Well, on.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  Alexandria. MARK ANTONY's camp.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  Alexandria. MARK ANTONY's camp.</TITLE>
+
 <STAGEDIR>Trumpets sound. Enter MARK ANTONY and EROS; a
 Soldier meeting them</STAGEDIR>
 
@@ -6581,11 +6625,14 @@ Soldier meeting them</STAGEDIR>
 <LINE>Corrupted honest men! Dispatch.--Enobarbus!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VI.  Alexandria. OCTAVIUS CAESAR's camp.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VI.  Alexandria. OCTAVIUS CAESAR's camp.</TITLE>
+
 <STAGEDIR>Flourish. Enter OCTAVIUS CAESAR, AGRIPPA, with
 DOMITIUS ENOBARBUS, and others</STAGEDIR>
 
@@ -6601,7 +6648,6 @@ DOMITIUS ENOBARBUS, and others</STAGEDIR>
 <LINE>Caesar, I shall.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -6610,7 +6656,6 @@ DOMITIUS ENOBARBUS, and others</STAGEDIR>
 <LINE>Prove this a prosperous day, the three-nook'd world</LINE>
 <LINE>Shall bear the olive freely.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter a Messenger</STAGEDIR>
 
@@ -6628,7 +6673,6 @@ DOMITIUS ENOBARBUS, and others</STAGEDIR>
 <LINE>Upon himself.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt all but DOMITIUS ENOBARBUS</STAGEDIR>
 
 <SPEECH>
@@ -6643,7 +6687,6 @@ DOMITIUS ENOBARBUS, and others</STAGEDIR>
 <LINE>Of which I do accuse myself so sorely,</LINE>
 <LINE>That I will joy no more.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter a Soldier of CAESAR's</STAGEDIR>
 
@@ -6670,7 +6713,6 @@ DOMITIUS ENOBARBUS, and others</STAGEDIR>
 <LINE>Continues still a Jove.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -6687,11 +6729,14 @@ DOMITIUS ENOBARBUS, and others</STAGEDIR>
 <LINE>My latter part of life.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VII.  Field of battle between the camps.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VII.  Field of battle between the camps.</TITLE>
+
 <STAGEDIR>Alarum. Drums and trumpets. Enter AGRIPPA
 and others</STAGEDIR>
 
@@ -6734,7 +6779,6 @@ and others</STAGEDIR>
 <LINE>Room for six scotches more.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter EROS</STAGEDIR>
 
 <SPEECH>
@@ -6762,11 +6806,14 @@ and others</STAGEDIR>
 <LINE>I'll halt after.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VIII.  Under the walls of Alexandria.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VIII.  Under the walls of Alexandria.</TITLE>
+
 <STAGEDIR>Alarum. Enter MARK ANTONY, in a march; SCARUS,
 with others</STAGEDIR>
 
@@ -6838,11 +6885,14 @@ with others</STAGEDIR>
 <LINE>Applauding our approach.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IX.  OCTAVIUS CAESAR's camp.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IX.  OCTAVIUS CAESAR's camp.</TITLE>
+
 <STAGEDIR>Sentinels at their post</STAGEDIR>
 
 <SPEECH>
@@ -6858,7 +6908,6 @@ with others</STAGEDIR>
 <LINE>This last day was</LINE>
 <LINE>A shrewd one to's.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter DOMITIUS ENOBARBUS</STAGEDIR>
 
@@ -6911,7 +6960,6 @@ with others</STAGEDIR>
 <LINE>A master-leaver and a fugitive:</LINE>
 <LINE>O Antony! O Antony!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Dies</STAGEDIR>
 
@@ -6968,11 +7016,14 @@ with others</STAGEDIR>
 <LINE>He may recover yet.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt with the body</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE X.  Between the two camps.</TITLE>
+<SCENE>
+
+<TITLE>SCENE X.  Between the two camps.</TITLE>
+
 <STAGEDIR>Enter MARK ANTONY and SCARUS, with their Army</STAGEDIR>
 
 <SPEECH>
@@ -6997,11 +7048,14 @@ with others</STAGEDIR>
 <LINE>And look on their endeavour.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE XI.  Another part of the same.</TITLE>
+<SCENE>
+
+<TITLE>SCENE XI.  Another part of the same.</TITLE>
+
 <STAGEDIR>Enter OCTAVIUS CAESAR, and his Army</STAGEDIR>
 
 <SPEECH>
@@ -7012,11 +7066,14 @@ with others</STAGEDIR>
 <LINE>And hold our best advantage.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE XII.  Another part of the same.</TITLE>
+<SCENE>
+
+<TITLE>SCENE XII.  Another part of the same.</TITLE>
+
 <STAGEDIR>Enter MARK ANTONY and SCARUS</STAGEDIR>
 
 <SPEECH>
@@ -7026,7 +7083,6 @@ with others</STAGEDIR>
 <LINE>I shall discover all: I'll bring thee word</LINE>
 <LINE>Straight, how 'tis like to go.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -7103,11 +7159,14 @@ with others</STAGEDIR>
 <LINE>Under this plot; she dies for't. Eros, ho!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE XIII.  Alexandria. Cleopatra's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE XIII.  Alexandria. Cleopatra's palace.</TITLE>
+
 <STAGEDIR>Enter CLEOPATRA, CHARMIAN, IRAS, and MARDIAN</STAGEDIR>
 
 <SPEECH>
@@ -7135,11 +7194,14 @@ with others</STAGEDIR>
 <LINE>To the monument!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE XIV.  The same. Another room.</TITLE>
+<SCENE>
+
+<TITLE>SCENE XIV.  The same. Another room.</TITLE>
+
 <STAGEDIR>Enter MARK ANTONY and EROS</STAGEDIR>
 
 <SPEECH>
@@ -7263,7 +7325,6 @@ with others</STAGEDIR>
 <LINE>And all the haunt be ours. Come, Eros, Eros!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter EROS</STAGEDIR>
 
 <SPEECH>
@@ -7344,7 +7405,6 @@ with others</STAGEDIR>
 <LINE>Lo thee!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Turning from him</STAGEDIR>
 
 <SPEECH>
@@ -7386,7 +7446,6 @@ with others</STAGEDIR>
 <LINE>Of Antony's death.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Kills himself</STAGEDIR>
 
 <SPEECH>
@@ -7403,7 +7462,6 @@ with others</STAGEDIR>
 <LINE>I learn'd of thee. How! not dead? not dead?</LINE>
 <LINE>The guard, ho! O, dispatch me!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter DERCETAS and Guard</STAGEDIR>
 
@@ -7453,7 +7511,6 @@ with others</STAGEDIR>
 <LINE>Nor any one.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt Guard</STAGEDIR>
 
 <SPEECH>
@@ -7462,7 +7519,6 @@ with others</STAGEDIR>
 <LINE>This sword but shown to Caesar, with this tidings,</LINE>
 <LINE>Shall enter me with him.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter DIOMEDES</STAGEDIR>
 
@@ -7481,7 +7537,6 @@ with others</STAGEDIR>
 <LINE>Lives he?</LINE>
 <LINE>Wilt thou not answer, man?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit DERCETAS</STAGEDIR>
 
@@ -7535,7 +7590,6 @@ with others</STAGEDIR>
 <LINE>Come, your lord calls!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter four or five of the Guard of MARK ANTONY</STAGEDIR>
 
 <SPEECH>
@@ -7565,11 +7619,14 @@ with others</STAGEDIR>
 <LINE>And have my thanks for all.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt, bearing MARK ANTONY</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE XV.  The same. A monument.</TITLE>
+<SCENE>
+
+<TITLE>SCENE XV.  The same. A monument.</TITLE>
+
 <STAGEDIR>Enter CLEOPATRA and her maids aloft, with
 CHARMIAN and IRAS</STAGEDIR>
 
@@ -7600,7 +7657,6 @@ CHARMIAN and IRAS</STAGEDIR>
 <LINE>Look out o' the other side your monument;</LINE>
 <LINE>His guard have brought him thither.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter, below, MARK ANTONY, borne by the Guard</STAGEDIR>
 
@@ -7739,7 +7795,6 @@ CHARMIAN and IRAS</STAGEDIR>
 <LINE>Beneath the visiting moon.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Faints</STAGEDIR>
 
 <SPEECH>
@@ -7801,15 +7856,20 @@ CHARMIAN and IRAS</STAGEDIR>
 <LINE>But resolution, and the briefest end.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt; those above bearing off MARK ANTONY's body</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT V</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Alexandria. OCTAVIUS CAESAR's camp.</TITLE>
+<TITLE>ACT V</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Alexandria. OCTAVIUS CAESAR's camp.</TITLE>
+
 <STAGEDIR>Enter OCTAVIUS CAESAR, AGRIPPA, DOLABELLA, MECAENAS,
 GALLUS, PROCULEIUS, and others, his council of war</STAGEDIR>
 
@@ -7956,7 +8016,6 @@ GALLUS, PROCULEIUS, and others, his council of war</STAGEDIR>
 <LINE>So the gods preserve thee!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -7975,7 +8034,6 @@ GALLUS, PROCULEIUS, and others, his council of war</STAGEDIR>
 <SPEAKER>PROCULEIUS</SPEAKER>
 <LINE>Caesar, I shall.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -8003,11 +8061,14 @@ GALLUS, PROCULEIUS, and others, his council of war</STAGEDIR>
 <LINE>What I can show in this.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Alexandria. A room in the monument.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Alexandria. A room in the monument.</TITLE>
+
 <STAGEDIR>Enter CLEOPATRA, CHARMIAN, and IRAS</STAGEDIR>
 
 <SPEECH>
@@ -8021,7 +8082,6 @@ GALLUS, PROCULEIUS, and others, his council of war</STAGEDIR>
 <LINE>Which sleeps, and never palates more the dug,</LINE>
 <LINE>The beggar's nurse and Caesar's.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter, to the gates of the monument, PROCULEIUS,
 GALLUS and Soldiers</STAGEDIR>
@@ -8096,7 +8156,6 @@ the Guard unbar and open the gates</STAGEDIR>
 <LINE>Guard her till Caesar come.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -8113,7 +8172,6 @@ the Guard unbar and open the gates</STAGEDIR>
 <SPEAKER>CLEOPATRA</SPEAKER>
 <LINE>Quick, quick, good hands.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Drawing a dagger</STAGEDIR>
 
@@ -8177,7 +8235,6 @@ the Guard unbar and open the gates</STAGEDIR>
 <LINE>Find cause in Caesar.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter DOLABELLA</STAGEDIR>
 
 <SPEECH>
@@ -8201,7 +8258,6 @@ the Guard unbar and open the gates</STAGEDIR>
 <SPEAKER>CLEOPATRA</SPEAKER>
 <LINE>Say, I would die.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt PROCULEIUS and Soldiers</STAGEDIR>
 
@@ -8354,7 +8410,6 @@ MECAENAS, SELEUCUS, and others of his Train</STAGEDIR>
 <LINE>It is the emperor, madam.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>CLEOPATRA kneels</STAGEDIR>
 
 <SPEECH>
@@ -8501,7 +8556,6 @@ MECAENAS, SELEUCUS, and others of his Train</STAGEDIR>
 <LINE>Forbear, Seleucus.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit SELEUCUS</STAGEDIR>
 
 <SPEECH>
@@ -8537,7 +8591,6 @@ MECAENAS, SELEUCUS, and others of his Train</STAGEDIR>
 <LINE>Not so. Adieu.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Flourish. Exeunt OCTAVIUS CAESAR and his train</STAGEDIR>
 
 <SPEECH>
@@ -8545,7 +8598,6 @@ MECAENAS, SELEUCUS, and others of his Train</STAGEDIR>
 <LINE>He words me, girls, he words me, that I should not</LINE>
 <LINE>Be noble to myself: but, hark thee, Charmian.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Whispers CHARMIAN</STAGEDIR>
 
@@ -8567,7 +8619,6 @@ MECAENAS, SELEUCUS, and others of his Train</STAGEDIR>
 <LINE>Madam, I will.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter DOLABELLA</STAGEDIR>
 
 <SPEECH>
@@ -8579,7 +8630,6 @@ MECAENAS, SELEUCUS, and others of his Train</STAGEDIR>
 <SPEAKER>CHARMIAN</SPEAKER>
 <LINE>Behold, sir.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -8695,7 +8745,6 @@ MECAENAS, SELEUCUS, and others of his Train</STAGEDIR>
 <LINE>No planet is of mine.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter Guardsman, with Clown bringing in a basket</STAGEDIR>
 
 <SPEECH>
@@ -8746,7 +8795,6 @@ MECAENAS, SELEUCUS, and others of his Train</STAGEDIR>
 <SPEAKER>Clown</SPEAKER>
 <LINE>I wish you all joy of the worm.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Setting down his basket</STAGEDIR>
 
@@ -8882,7 +8930,6 @@ MECAENAS, SELEUCUS, and others of his Train</STAGEDIR>
 <LINE>What should I stay--</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Dies</STAGEDIR>
 
 <SPEECH>
@@ -8894,7 +8941,6 @@ MECAENAS, SELEUCUS, and others of his Train</STAGEDIR>
 <LINE>Of eyes again so royal! Your crown's awry;</LINE>
 <LINE>I'll mend it, and then play.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter the Guard, rushing in</STAGEDIR>
 
@@ -9046,8 +9092,8 @@ MECAENAS, SELEUCUS, and others of his Train</STAGEDIR>
 <LINE>High order in this great solemnity.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 </ACT>
 </PLAY>

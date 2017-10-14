@@ -12,7 +12,6 @@
 </FM>
 
 
-	
 <PERSONAE>
 <TITLE>Dramatis Personae</TITLE>
 
@@ -73,9 +72,14 @@
 
 <PLAYSUBT>3 KING HENRY IV</PLAYSUBT>
 
-<ACT><TITLE>ACT I</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  London. The Parliament-house.</TITLE>
+<TITLE>ACT I</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  London. The Parliament-house.</TITLE>
+
 <STAGEDIR>Alarum. Enter YORK, EDWARD, RICHARD, NORFOLK, MONTAGUE, WARWICK, and Soldiers</STAGEDIR>
 
 <SPEECH>
@@ -113,7 +117,6 @@
 <SPEAKER>RICHARD</SPEAKER>
 <LINE>Speak thou for me and tell them what I did.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Throwing down SOMERSET's head</STAGEDIR>
 
@@ -161,7 +164,6 @@
 <LINE>And, soldiers, stay and lodge by me this night.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>They go up</STAGEDIR>
 
 <SPEECH>
@@ -204,7 +206,6 @@
 <LINE>I'll plant Plantagenet, root him up who dares:</LINE>
 <LINE>Resolve thee, Richard; claim the English crown.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Flourish. Enter KING HENRY VI, CLIFFORD,
 NORTHUMBERLAND, WESTMORELAND, EXETER, and the rest</STAGEDIR>
@@ -566,7 +567,6 @@ NORTHUMBERLAND, WESTMORELAND, EXETER, and the rest</STAGEDIR>
 <LINE>Write up his title with usurping blood.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>He stamps with his foot and the soldiers show
 themselves</STAGEDIR>
 
@@ -641,7 +641,6 @@ themselves</STAGEDIR>
 <LINE>Or live in peace abandon'd and despised!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt NORTHUMBERLAND, CLIFFORD, and WESTMORELAND</STAGEDIR>
 
 <SPEECH>
@@ -702,7 +701,6 @@ themselves</STAGEDIR>
 <LINE>Accursed be he that seeks to make them foes!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Sennet. Here they come down</STAGEDIR>
 
 <SPEECH>
@@ -725,7 +723,6 @@ themselves</STAGEDIR>
 <LINE>And I unto the sea from whence I came.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt YORK, EDWARD, EDMUND, GEORGE, RICHARD,
 WARWICK, NORFOLK, MONTAGUE, their Soldiers, and
 Attendants</STAGEDIR>
@@ -734,7 +731,6 @@ Attendants</STAGEDIR>
 <SPEAKER>KING HENRY VI</SPEAKER>
 <LINE>And I, with grief and sorrow, to the court.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter QUEEN MARGARET and PRINCE EDWARD</STAGEDIR>
 
@@ -848,7 +844,6 @@ Attendants</STAGEDIR>
 <LINE>Come, son, away; we may not linger thus.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt QUEEN MARGARET and PRINCE EDWARD</STAGEDIR>
 
 <SPEECH>
@@ -873,7 +868,10 @@ Attendants</STAGEDIR>
 </SPEECH>
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Sandal Castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Sandal Castle.</TITLE>
+
 <STAGEDIR>Enter RICHARD, EDWARD, and MONTAGUE</STAGEDIR>
 
 <SPEECH>
@@ -890,7 +888,6 @@ Attendants</STAGEDIR>
 <SPEAKER>MONTAGUE</SPEAKER>
 <LINE>But I have reasons strong and forcible.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter YORK</STAGEDIR>
 
@@ -1046,7 +1043,6 @@ Attendants</STAGEDIR>
 <LINE>A woman's general; what should we fear?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>A march afar off</STAGEDIR>
 
 <SPEECH>
@@ -1068,7 +1064,10 @@ Attendants</STAGEDIR>
 </SPEECH>
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Field of battle betwixt Sandal Castle and Wakefield.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Field of battle betwixt Sandal Castle and Wakefield.</TITLE>
+
 <STAGEDIR>Alarums. Enter RUTLAND and his Tutor</STAGEDIR>
 
 <SPEECH>
@@ -1076,7 +1075,6 @@ Attendants</STAGEDIR>
 <LINE>Ah, whither shall I fly to 'scape their hands?</LINE>
 <LINE>Ah, tutor, look where bloody Clifford comes!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter CLIFFORD and Soldiers</STAGEDIR>
 
@@ -1102,7 +1100,6 @@ Attendants</STAGEDIR>
 <LINE>Ah, Clifford, murder not this innocent child,</LINE>
 <LINE>Lest thou be hated both of God and man!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit, dragged off by Soldiers</STAGEDIR>
 
@@ -1151,7 +1148,6 @@ Attendants</STAGEDIR>
 <LINE>Therefore--</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Lifting his hand</STAGEDIR>
 
 <SPEECH>
@@ -1192,14 +1188,12 @@ Attendants</STAGEDIR>
 <LINE>Thy father slew my father; therefore, die.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Stabs him</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>RUTLAND</SPEAKER>
 <LINE>Di faciant laudis summa sit ista tuae!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Dies</STAGEDIR>
 
@@ -1215,7 +1209,10 @@ Attendants</STAGEDIR>
 </SPEECH>
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Another part of the field.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Another part of the field.</TITLE>
+
 <STAGEDIR>Alarum. Enter YORK</STAGEDIR>
 
 <SPEECH>
@@ -1316,7 +1313,6 @@ PRINCE EDWARD, and Soldiers</STAGEDIR>
 <LINE>It is war's prize to take all vantages;</LINE>
 <LINE>And ten to one is no impeach of valour.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>They lay hands on YORK, who struggles</STAGEDIR>
 
@@ -1489,14 +1485,12 @@ PRINCE EDWARD, and Soldiers</STAGEDIR>
 <LINE>Here's for my oath, here's for my father's death.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Stabbing him</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>QUEEN MARGARET</SPEAKER>
 <LINE>And here's to right our gentle-hearted king.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Stabbing him</STAGEDIR>
 
@@ -1505,7 +1499,6 @@ PRINCE EDWARD, and Soldiers</STAGEDIR>
 <LINE>Open Thy gate of mercy, gracious God!</LINE>
 <LINE>My soul flies through these wounds to seek out Thee.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Dies</STAGEDIR>
 
@@ -1521,9 +1514,14 @@ PRINCE EDWARD, and Soldiers</STAGEDIR>
 
 </ACT>
 
-<ACT><TITLE>ACT II</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  A plain near Mortimer's Cross in Herefordshire.</TITLE>
+<TITLE>ACT II</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  A plain near Mortimer's Cross in Herefordshire.</TITLE>
+
 <STAGEDIR>A march. Enter EDWARD, RICHARD, and their power</STAGEDIR>
 
 <SPEECH>
@@ -1676,7 +1674,6 @@ PRINCE EDWARD, and Soldiers</STAGEDIR>
 <LINE>For chair and dukedom, throne and kingdom say;</LINE>
 <LINE>Either that is thine, or else thou wert not his.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>March. Enter WARWICK, MONTAGUE, and their army</STAGEDIR>
 
@@ -1850,7 +1847,6 @@ PRINCE EDWARD, and Soldiers</STAGEDIR>
 <LINE>Then strike up drums: God and Saint George for us!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Messenger</STAGEDIR>
 
 <SPEECH>
@@ -1874,7 +1870,10 @@ PRINCE EDWARD, and Soldiers</STAGEDIR>
 </SPEECH>
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Before York.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Before York.</TITLE>
+
 <STAGEDIR>Flourish. Enter KING HENRY VI, QUEEN MARGARET,
 PRINCE EDWARD, CLIFFORD, and NORTHUMBERLAND, with
 drum and trumpets</STAGEDIR>
@@ -1977,7 +1976,6 @@ drum and trumpets</STAGEDIR>
 <LINE>Why, that is spoken like a toward prince.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Messenger</STAGEDIR>
 
 <SPEECH>
@@ -2017,7 +2015,6 @@ drum and trumpets</STAGEDIR>
 <LINE>And hearten those that fight in your defence:</LINE>
 <LINE>Unsheathe your sword, good father; cry 'Saint George!'</LINE>
 </SPEECH>
-
 
 <STAGEDIR>March. Enter EDWARD, GEORGE, RICHARD, WARWICK,
 NORFOLK, MONTAGUE, and Soldiers</STAGEDIR>
@@ -2259,7 +2256,9 @@ NORFOLK, MONTAGUE, and Soldiers</STAGEDIR>
 </SPEECH>
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  A field of battle between Towton and Saxton, in Yorkshire.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  A field of battle between Towton and Saxton, in Yorkshire.</TITLE>
 
 <STAGEDIR>Alarum. Excursions. Enter WARWICK</STAGEDIR>
 
@@ -2271,7 +2270,6 @@ NORFOLK, MONTAGUE, and Soldiers</STAGEDIR>
 <LINE>Have robb'd my strong-knit sinews of their strength,</LINE>
 <LINE>And spite of spite needs must I rest awhile.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter EDWARD, running</STAGEDIR>
 
@@ -2285,7 +2283,6 @@ NORFOLK, MONTAGUE, and Soldiers</STAGEDIR>
 <SPEAKER>WARWICK</SPEAKER>
 <LINE>How now, my lord! what hap? what hope of good?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter GEORGE</STAGEDIR>
 
@@ -2301,7 +2298,6 @@ NORFOLK, MONTAGUE, and Soldiers</STAGEDIR>
 <LINE>Bootless is flight, they follow us with wings;</LINE>
 <LINE>And weak we are and cannot shun pursuit.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter RICHARD</STAGEDIR>
 
@@ -2376,7 +2372,10 @@ NORFOLK, MONTAGUE, and Soldiers</STAGEDIR>
 </SPEECH>
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Another part of the field.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Another part of the field.</TITLE>
+
 <STAGEDIR>Excursions. Enter RICHARD and CLIFFORD</STAGEDIR>
 
 <SPEECH>
@@ -2398,7 +2397,6 @@ NORFOLK, MONTAGUE, and Soldiers</STAGEDIR>
 <LINE>And so, have at thee!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>They fight. WARWICK comes; CLIFFORD flies</STAGEDIR>
 
 <SPEECH>
@@ -2411,7 +2409,10 @@ NORFOLK, MONTAGUE, and Soldiers</STAGEDIR>
 </SPEECH>
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  Another part of the field.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  Another part of the field.</TITLE>
+
 <STAGEDIR>Alarum. Enter KING HENRY VI alone</STAGEDIR>
 
 <SPEECH>
@@ -2472,7 +2473,6 @@ NORFOLK, MONTAGUE, and Soldiers</STAGEDIR>
 <LINE>When care, mistrust, and treason waits on him.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Alarum. Enter a Son that has killed his father,
 dragging in the dead body</STAGEDIR>
 
@@ -2507,7 +2507,6 @@ dragging in the dead body</STAGEDIR>
 <LINE>And let our hearts and eyes, like civil war,</LINE>
 <LINE>Be blind with tears, and break o'ercharged with grief.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter a Father that has killed his son, bringing in the body</STAGEDIR>
 
@@ -2582,7 +2581,6 @@ dragging in the dead body</STAGEDIR>
 <LINE>I'll bear thee hence, where I may weep my fill.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit with the body</STAGEDIR>
 
 <SPEECH>
@@ -2598,7 +2596,6 @@ dragging in the dead body</STAGEDIR>
 <LINE>For I have murdered where I should not kill.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit with the body</STAGEDIR>
 
 <SPEECH>
@@ -2606,7 +2603,6 @@ dragging in the dead body</STAGEDIR>
 <LINE>Sad-hearted men, much overgone with care,</LINE>
 <LINE>Here sits a king more woful than you are.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Alarums: excursions. Enter QUEEN MARGARET, PRINCE
 EDWARD, and EXETER</STAGEDIR>
@@ -2646,7 +2642,10 @@ EDWARD, and EXETER</STAGEDIR>
 </SPEECH>
 </SCENE>
 
-<SCENE><TITLE>SCENE VI.  Another part of the field.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VI.  Another part of the field.</TITLE>
+
 <STAGEDIR>A loud alarum. Enter CLIFFORD, wounded</STAGEDIR>
 
 <SPEECH>
@@ -2705,7 +2704,6 @@ MONTAGUE, WARWICK, and Soldiers</STAGEDIR>
 <LINE>Your brother Richard mark'd him for the grave:</LINE>
 <LINE>And wheresoe'er he is, he's surely dead.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>CLIFFORD groans, and dies</STAGEDIR>
 
@@ -2873,9 +2871,14 @@ MONTAGUE, WARWICK, and Soldiers</STAGEDIR>
 
 </ACT>
 
-<ACT><TITLE>ACT III</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  A forest in the north of England.</TITLE>
+<TITLE>ACT III</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  A forest in the north of England.</TITLE>
+
 <STAGEDIR>Enter two Keepers, with cross-bows in their hands</STAGEDIR>
 
 <SPEECH>
@@ -2905,7 +2908,6 @@ MONTAGUE, WARWICK, and Soldiers</STAGEDIR>
 <SPEAKER>Second Keeper</SPEAKER>
 <LINE>Here comes a man; let's stay till he be past.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter KING HENRY VI, disguised, with a prayerbook</STAGEDIR>
 
@@ -3098,7 +3100,10 @@ MONTAGUE, WARWICK, and Soldiers</STAGEDIR>
 </SPEECH>
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  London. The palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  London. The palace.</TITLE>
+
 <STAGEDIR>Enter KING EDWARD IV, GLOUCESTER, CLARENCE, and
 LADY GREY</STAGEDIR>
 
@@ -3224,7 +3229,6 @@ LADY GREY</STAGEDIR>
 <LINE>you will have leave,</LINE>
 <LINE>Till youth take leave and leave you to the crutch.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>GLOUCESTER and CLARENCE retire</STAGEDIR>
 
@@ -3550,7 +3554,6 @@ LADY GREY</STAGEDIR>
 <LINE>Her suit is granted for her husband's lands.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Nobleman</STAGEDIR>
 
 <SPEECH>
@@ -3566,7 +3569,6 @@ LADY GREY</STAGEDIR>
 <LINE>To question of his apprehension.</LINE>
 <LINE>Widow, go you along. Lords, use her honourably.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt all but GLOUCESTER</STAGEDIR>
 
@@ -3650,7 +3652,10 @@ LADY GREY</STAGEDIR>
 </SPEECH>
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  France. KING LEWIS XI's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  France. KING LEWIS XI's palace.</TITLE>
+
 <STAGEDIR>Flourish. Enter KING LEWIS XI, his sister BONA,
 his Admiral, called BOURBON, PRINCE EDWARD, QUEEN
 MARGARET, and OXFORD. KING LEWIS XI sits, and
@@ -3741,7 +3746,6 @@ riseth up again</STAGEDIR>
 <LINE>And see where comes the breeder of my sorrow!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter WARWICK</STAGEDIR>
 
 <SPEECH>
@@ -3758,7 +3762,6 @@ riseth up again</STAGEDIR>
 <SPEAKER>KING LEWIS XI</SPEAKER>
 <LINE>Welcome, brave Warwick! What brings thee to France?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>He descends. She ariseth</STAGEDIR>
 
@@ -3888,7 +3891,6 @@ riseth up again</STAGEDIR>
 <LINE>While I use further conference with Warwick.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>They stand aloof</STAGEDIR>
 
 <SPEECH>
@@ -4003,14 +4005,12 @@ riseth up again</STAGEDIR>
 <LINE>For both of you are birds of selfsame feather.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Post blows a horn within</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>KING LEWIS XI</SPEAKER>
 <LINE>Warwick, this is some post to us or thee.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter a Post</STAGEDIR>
 
@@ -4023,7 +4023,6 @@ riseth up again</STAGEDIR>
 <STAGEDIR>To QUEEN MARGARET</STAGEDIR>
 <LINE>And, madam, these for you; from whom I know not.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>They all read their letters</STAGEDIR>
 
@@ -4174,7 +4173,6 @@ riseth up again</STAGEDIR>
 <LINE>There's thy reward: be gone.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit Post</STAGEDIR>
 
 <SPEECH>
@@ -4211,7 +4209,6 @@ riseth up again</STAGEDIR>
 <LINE>And here, to pledge my vow, I give my hand.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>He gives his hand to WARWICK</STAGEDIR>
 
 <SPEECH>
@@ -4222,7 +4219,6 @@ riseth up again</STAGEDIR>
 <LINE>I long till Edward fall by war's mischance,</LINE>
 <LINE>For mocking marriage with a dame of France.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt all but WARWICK</STAGEDIR>
 
@@ -4246,9 +4242,14 @@ riseth up again</STAGEDIR>
 
 </ACT>
 
-<ACT><TITLE>ACT IV</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  London. The palace.</TITLE>
+<TITLE>ACT IV</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  London. The palace.</TITLE>
+
 <STAGEDIR>Enter GLOUCESTER, CLARENCE, SOMERSET, and MONTAGUE</STAGEDIR>
 
 <SPEECH>
@@ -4278,7 +4279,6 @@ riseth up again</STAGEDIR>
 <SPEAKER>CLARENCE</SPEAKER>
 <LINE>I mind to tell him plainly what I think.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Flourish. Enter KING EDWARD IV, attended; QUEEN
 ELIZABETH, PEMBROKE, STAFFORD, HASTINGS, and others</STAGEDIR>
@@ -4454,7 +4454,6 @@ ELIZABETH, PEMBROKE, STAFFORD, HASTINGS, and others</STAGEDIR>
 <LINE><STAGEDIR>Aside</STAGEDIR>  I hear, yet say not much, but think the more.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Post</STAGEDIR>
 
 <SPEECH>
@@ -4550,7 +4549,6 @@ ELIZABETH, PEMBROKE, STAFFORD, HASTINGS, and others</STAGEDIR>
 <LINE>You that love me and Warwick, follow me.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit CLARENCE, and SOMERSET follows</STAGEDIR>
 
 <SPEECH>
@@ -4612,7 +4610,10 @@ ELIZABETH, PEMBROKE, STAFFORD, HASTINGS, and others</STAGEDIR>
 </SPEECH>
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  A plain in Warwickshire.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  A plain in Warwickshire.</TITLE>
+
 <STAGEDIR>Enter WARWICK and OXFORD, with French soldiers</STAGEDIR>
 
 <SPEECH>
@@ -4662,7 +4663,10 @@ ELIZABETH, PEMBROKE, STAFFORD, HASTINGS, and others</STAGEDIR>
 </SPEECH>
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Edward's camp, near Warwick.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Edward's camp, near Warwick.</TITLE>
+
 <STAGEDIR>Enter three Watchmen, to guard KING EDWARD IV's tent</STAGEDIR>
 
 <SPEECH>
@@ -4730,7 +4734,6 @@ ELIZABETH, PEMBROKE, STAFFORD, HASTINGS, and others</STAGEDIR>
 <LINE>Ay, wherefore else guard we his royal tent,</LINE>
 <LINE>But to defend his person from night-foes?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter WARWICK, CLARENCE, OXFORD, SOMERSET, and
 French soldiers, silent all</STAGEDIR>
@@ -4816,7 +4819,6 @@ RICHARD and HASTINGS fly over the stage</STAGEDIR>
 <LINE>Now, for a while farewell, good Duke of York.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>They lead him out forcibly</STAGEDIR>
 
 <SPEECH>
@@ -4824,7 +4826,6 @@ RICHARD and HASTINGS fly over the stage</STAGEDIR>
 <LINE>What fates impose, that men must needs abide;</LINE>
 <LINE>It boots not to resist both wind and tide.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit, guarded</STAGEDIR>
 
@@ -4845,7 +4846,10 @@ RICHARD and HASTINGS fly over the stage</STAGEDIR>
 </SPEECH>
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  London. The palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  London. The palace.</TITLE>
+
 <STAGEDIR>Enter QUEEN ELIZABETH and RIVERS</STAGEDIR>
 
 <SPEECH>
@@ -4927,7 +4931,10 @@ RICHARD and HASTINGS fly over the stage</STAGEDIR>
 </SPEECH>
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  A park near Middleham Castle In Yorkshire.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  A park near Middleham Castle In Yorkshire.</TITLE>
+
 <STAGEDIR>Enter GLOUCESTER, HASTINGS, and STANLEY</STAGEDIR>
 
 <SPEECH>
@@ -4946,7 +4953,6 @@ RICHARD and HASTINGS fly over the stage</STAGEDIR>
 <LINE>He shall here find his friends with horse and men</LINE>
 <LINE>To set him free from his captivity.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter KING EDWARD IV and a Huntsman with him</STAGEDIR>
 
@@ -5019,7 +5025,10 @@ RICHARD and HASTINGS fly over the stage</STAGEDIR>
 </SPEECH>
 </SCENE>
 
-<SCENE><TITLE>SCENE VI.  London. The Tower.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VI.  London. The Tower.</TITLE>
+
 <STAGEDIR>Flourish. Enter KING HENRY VI, CLARENCE, WARWICK,
 SOMERSET, HENRY OF RICHMOND, OXFORD, MONTAGUE, and
 Lieutenant of the Tower</STAGEDIR>
@@ -5170,7 +5179,6 @@ Lieutenant of the Tower</STAGEDIR>
 <LINE>Must help you more than you are hurt by me.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Post</STAGEDIR>
 
 <SPEECH>
@@ -5205,7 +5213,6 @@ Lieutenant of the Tower</STAGEDIR>
 <LINE>A salve for any sore that may betide.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt all but SOMERSET, HENRY OF RICHMOND, and OXFORD</STAGEDIR>
 
 <SPEECH>
@@ -5238,7 +5245,10 @@ Lieutenant of the Tower</STAGEDIR>
 </SPEECH>
 </SCENE>
 
-<SCENE><TITLE>SCENE VII.  Before York.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VII.  Before York.</TITLE>
+
 <STAGEDIR>Flourish. Enter KING EDWARD IV, GLOUCESTER,
 HASTINGS, and Soldiers</STAGEDIR>
 
@@ -5273,7 +5283,6 @@ HASTINGS, and Soldiers</STAGEDIR>
 <SPEAKER>HASTINGS</SPEAKER>
 <LINE>My liege, I'll knock once more to summon them.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter, on the walls, the Mayor of York, and his Brethren</STAGEDIR>
 
@@ -5318,7 +5327,6 @@ HASTINGS, and Soldiers</STAGEDIR>
 <LINE>Ay, say you so? the gates shall then be open'd.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>They descend</STAGEDIR>
 
 <SPEECH>
@@ -5334,7 +5342,6 @@ HASTINGS, and Soldiers</STAGEDIR>
 <LINE>Both him and all his brothers unto reason.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter the Mayor and two Aldermen, below</STAGEDIR>
 
 <SPEECH>
@@ -5346,7 +5353,6 @@ HASTINGS, and Soldiers</STAGEDIR>
 <LINE>For Edward will defend the town and thee,</LINE>
 <LINE>And all those friends that deign to follow me.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>March. Enter MONTGOMERY, with drum and soldiers</STAGEDIR>
 
@@ -5380,7 +5386,6 @@ HASTINGS, and Soldiers</STAGEDIR>
 <LINE>I came to serve a king and not a duke.</LINE>
 <LINE>Drummer, strike up, and let us march away.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>The drum begins to march</STAGEDIR>
 
@@ -5440,7 +5445,6 @@ HASTINGS, and Soldiers</STAGEDIR>
 <LINE>Come, fellow-soldier, make thou proclamation.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Flourish</STAGEDIR>
 
 <SPEECH>
@@ -5454,7 +5458,6 @@ HASTINGS, and Soldiers</STAGEDIR>
 <LINE>And whosoe'er gainsays King Edward's right,</LINE>
 <LINE>By this I challenge him to single fight.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Throws down his gauntlet</STAGEDIR>
 
@@ -5483,7 +5486,10 @@ HASTINGS, and Soldiers</STAGEDIR>
 </SPEECH>
 </SCENE>
 
-<SCENE><TITLE>SCENE VIII.  London. The palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VIII.  London. The palace.</TITLE>
+
 <STAGEDIR>Flourish. Enter KING HENRY VI, WARWICK, MONTAGUE,
 CLARENCE, EXETER, and OXFORD</STAGEDIR>
 
@@ -5563,7 +5569,6 @@ CLARENCE, EXETER, and OXFORD</STAGEDIR>
 <LINE>Farewell, sweet lords: let's meet at Coventry.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt all but KING HENRY VI and EXETER</STAGEDIR>
 
 <SPEECH>
@@ -5596,14 +5601,12 @@ CLARENCE, EXETER, and OXFORD</STAGEDIR>
 <LINE>The lamb will never cease to follow him.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Shout within. 'A Lancaster! A Lancaster!'</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>EXETER</SPEAKER>
 <LINE>Hark, hark, my lord! what shouts are these?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter KING EDWARD IV, GLOUCESTER, and soldiers</STAGEDIR>
 
@@ -5635,9 +5638,14 @@ CLARENCE, EXETER, and OXFORD</STAGEDIR>
 
 </ACT>
 
-<ACT><TITLE>ACT V</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Coventry.</TITLE>
+<TITLE>ACT V</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Coventry.</TITLE>
+
 <STAGEDIR>Enter WARWICK, the Mayor of Coventry, two Messengers,
 and others upon the walls</STAGEDIR>
 
@@ -5663,7 +5671,6 @@ and others upon the walls</STAGEDIR>
 <LINE>By this at Daintry, with a puissant troop.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter SIR JOHN SOMERVILLE</STAGEDIR>
 
 <SPEECH>
@@ -5677,7 +5684,6 @@ and others upon the walls</STAGEDIR>
 <LINE>At Southam I did leave him with his forces,</LINE>
 <LINE>And do expect him here some two hours hence.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Drum heard</STAGEDIR>
 
@@ -5701,7 +5707,6 @@ and others upon the walls</STAGEDIR>
 <SPEAKER>SOMERSET</SPEAKER>
 <LINE>They are at hand, and you shall quickly know.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>March: flourish. Enter KING EDWARD IV, GLOUCESTER,
 and soldiers</STAGEDIR>
@@ -5816,7 +5821,6 @@ and soldiers</STAGEDIR>
 <LINE>'Wind-changing Warwick now can change no more.'</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter OXFORD, with drum and colours</STAGEDIR>
 
 <SPEECH>
@@ -5828,7 +5832,6 @@ and soldiers</STAGEDIR>
 <SPEAKER>OXFORD</SPEAKER>
 <LINE>Oxford, Oxford, for Lancaster!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>He and his forces enter the city</STAGEDIR>
 
@@ -5851,14 +5854,12 @@ and soldiers</STAGEDIR>
 <LINE>O, welcome, Oxford! for we want thy help.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter MONTAGUE with drum and colours</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>MONTAGUE</SPEAKER>
 <LINE>Montague, Montague, for Lancaster!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>He and his forces enter the city</STAGEDIR>
 
@@ -5874,14 +5875,12 @@ and soldiers</STAGEDIR>
 <LINE>My mind presageth happy gain and conquest.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter SOMERSET, with drum and colours</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>SOMERSET</SPEAKER>
 <LINE>Somerset, Somerset, for Lancaster!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>He and his forces enter the city</STAGEDIR>
 
@@ -5891,7 +5890,6 @@ and soldiers</STAGEDIR>
 <LINE>Have sold their lives unto the house of York;</LINE>
 <LINE>And thou shalt be the third if this sword hold.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter CLARENCE, with drum and colours</STAGEDIR>
 
@@ -5971,7 +5969,10 @@ and his company follow</STAGEDIR>
 </SPEECH>
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  A field of battle near Barnet.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  A field of battle near Barnet.</TITLE>
+
 <STAGEDIR>Alarum and excursions. Enter KING EDWARD IV, bringing
 forth WARWICK wounded</STAGEDIR>
 
@@ -5982,7 +5983,6 @@ forth WARWICK wounded</STAGEDIR>
 <LINE>Now, Montague, sit fast; I seek for thee,</LINE>
 <LINE>That Warwick's bones may keep thine company.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -6013,7 +6013,6 @@ forth WARWICK wounded</STAGEDIR>
 <LINE>Why, what is pomp, rule, reign, but earth and dust?</LINE>
 <LINE>And, live we how we can, yet die we must.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter OXFORD and SOMERSET</STAGEDIR>
 
@@ -6054,7 +6053,6 @@ forth WARWICK wounded</STAGEDIR>
 <LINE>For Warwick bids you all farewell to meet in heaven.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Dies</STAGEDIR>
 
 <SPEECH>
@@ -6066,7 +6064,10 @@ forth WARWICK wounded</STAGEDIR>
 </SPEECH>
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Another part of the field.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Another part of the field.</TITLE>
+
 <STAGEDIR>Flourish. Enter KING EDWARD IV in triumph; with
 GLOUCESTER, CLARENCE, and the rest</STAGEDIR>
 
@@ -6114,7 +6115,10 @@ GLOUCESTER, CLARENCE, and the rest</STAGEDIR>
 </SPEECH>
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Plains near Tewksbury.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Plains near Tewksbury.</TITLE>
+
 <STAGEDIR>March. Enter QUEEN MARGARET, PRINCE EDWARD,
 SOMERSET, OXFORD, and soldiers</STAGEDIR>
 
@@ -6201,7 +6205,6 @@ SOMERSET, OXFORD, and soldiers</STAGEDIR>
 <LINE>And take his thanks that yet hath nothing else.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Messenger</STAGEDIR>
 
 <SPEECH>
@@ -6230,7 +6233,6 @@ SOMERSET, OXFORD, and soldiers</STAGEDIR>
 <SPEAKER>OXFORD</SPEAKER>
 <LINE>Here pitch our battle; hence we will not budge.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Flourish and march. Enter KING EDWARD IV, GLOUCESTER,
 CLARENCE, and soldiers</STAGEDIR>
@@ -6263,7 +6265,10 @@ CLARENCE, and soldiers</STAGEDIR>
 </SPEECH>
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  Another part of the field.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  Another part of the field.</TITLE>
+
 <STAGEDIR>Flourish. Enter KING EDWARD IV, GLOUCESTER, CLARENCE,
 and soldiers; with QUEEN MARGARET, OXFORD, and
 SOMERSET, prisoners</STAGEDIR>
@@ -6286,7 +6291,6 @@ SOMERSET, prisoners</STAGEDIR>
 <LINE>Nor I, but stoop with patience to my fortune.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt Oxford and Somerset, guarded</STAGEDIR>
 
 <SPEECH>
@@ -6305,7 +6309,6 @@ SOMERSET, prisoners</STAGEDIR>
 <SPEAKER>GLOUCESTER</SPEAKER>
 <LINE>It is: and lo, where youthful Edward comes!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter soldiers, with PRINCE EDWARD</STAGEDIR>
 
@@ -6388,7 +6391,6 @@ SOMERSET, prisoners</STAGEDIR>
 <LINE>Take that, thou likeness of this railer here.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Stabs him</STAGEDIR>
 
 <SPEECH>
@@ -6396,14 +6398,12 @@ SOMERSET, prisoners</STAGEDIR>
 <LINE>Sprawl'st thou? take that, to end thy agony.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Stabs him</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>CLARENCE</SPEAKER>
 <LINE>And there's for twitting me with perjury.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Stabs him</STAGEDIR>
 
@@ -6416,7 +6416,6 @@ SOMERSET, prisoners</STAGEDIR>
 <SPEAKER>GLOUCESTER</SPEAKER>
 <LINE>Marry, and shall.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Offers to kill her</STAGEDIR>
 
@@ -6451,7 +6450,6 @@ SOMERSET, prisoners</STAGEDIR>
 <SPEAKER>GLOUCESTER</SPEAKER>
 <LINE>The Tower, the Tower.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -6523,7 +6521,6 @@ SOMERSET, prisoners</STAGEDIR>
 <LINE>So come to you and yours, as to this Prince!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit, led out forcibly</STAGEDIR>
 
 <SPEECH>
@@ -6550,7 +6547,10 @@ SOMERSET, prisoners</STAGEDIR>
 </SPEECH>
 </SCENE>
 
-<SCENE><TITLE>SCENE VI.  London. The Tower.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VI.  London. The Tower.</TITLE>
+
 <STAGEDIR>Enter KING HENRY VI and GLOUCESTER, with the
 Lieutenant, on the walls</STAGEDIR>
 
@@ -6571,7 +6571,6 @@ Lieutenant, on the walls</STAGEDIR>
 <SPEAKER>GLOUCESTER</SPEAKER>
 <LINE>Sirrah, leave us to ourselves: we must confer.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit Lieutenant</STAGEDIR>
 
@@ -6674,7 +6673,6 @@ Lieutenant, on the walls</STAGEDIR>
 <LINE>God forgive my sins, and pardon thee!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Dies</STAGEDIR>
 
 <SPEECH>
@@ -6719,7 +6717,10 @@ Lieutenant, on the walls</STAGEDIR>
 </SPEECH>
 </SCENE>
 
-<SCENE><TITLE>SCENE VII.  London. The palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VII.  London. The palace.</TITLE>
+
 <STAGEDIR>Flourish. Enter KING EDWARD IV, QUEEN ELIZABETH,
 CLARENCE, GLOUCESTER, HASTINGS, a Nurse with the
 young Prince, and Attendants</STAGEDIR>
@@ -6806,8 +6807,8 @@ young Prince, and Attendants</STAGEDIR>
 <LINE>For here, I hope, begins our lasting joy.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 </ACT>
 </PLAY>

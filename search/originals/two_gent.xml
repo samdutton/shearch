@@ -11,7 +11,6 @@
 <P>This work may be freely copied and distributed worldwide.</P>
 </FM>
 
-
 <PERSONAE>
 <TITLE>Dramatis Personae</TITLE>
 
@@ -41,9 +40,14 @@
 
 <PLAYSUBT>THE TWO GENTLEMEN OF VERONA</PLAYSUBT>
 
-<ACT><TITLE>ACT I</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Verona. An open place.</TITLE>
+<TITLE>ACT I</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Verona. An open place.</TITLE>
+
 <STAGEDIR>Enter VALENTINE and PROTEUS</STAGEDIR>
 
 <SPEECH>
@@ -193,7 +197,6 @@
 <LINE>As much to you at home! and so, farewell.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -206,7 +209,6 @@
 <LINE>War with good counsel, set the world at nought;</LINE>
 <LINE>Made wit with musing weak, heart sick with thought.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter SPEED</STAGEDIR>
 
@@ -461,11 +463,14 @@
 <LINE>Receiving them from such a worthless post.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The same. Garden of JULIA's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The same. Garden of JULIA's house.</TITLE>
+
 <STAGEDIR>Enter JULlA and LUCETTA</STAGEDIR>
 
 <SPEECH>
@@ -654,7 +659,6 @@
 <LINE>That you may ruminate.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -677,7 +681,6 @@
 <LINE>And ask remission for my folly past.</LINE>
 <LINE>What ho! Lucetta!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter LUCETTA</STAGEDIR>
 
@@ -839,7 +842,6 @@
 <LINE>To be so anger'd with another letter.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -871,7 +873,6 @@
 <LINE>Thus will I fold them one on another:</LINE>
 <LINE>Now kiss, embrace, contend, do what you will.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter LUCETTA</STAGEDIR>
 
@@ -918,11 +919,14 @@
 <LINE>Come, come; will't please you go?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The same. ANTONIO's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The same. ANTONIO's house.</TITLE>
+
 <STAGEDIR>Enter ANTONIO and PANTHINO</STAGEDIR>
 
 <SPEECH>
@@ -1014,7 +1018,6 @@
 <LINE>And, in good time! now will we break with him.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter PROTEUS</STAGEDIR>
 
 <SPEECH>
@@ -1090,7 +1093,6 @@
 <LINE>To hasten on his expedition.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt ANTONIO and PANTHINO</STAGEDIR>
 
 <SPEECH>
@@ -1107,7 +1109,6 @@
 <LINE>And by and by a cloud takes all away!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter PANTHINO</STAGEDIR>
 
 <SPEECH>
@@ -1122,15 +1123,20 @@
 <LINE>And yet a thousand times it answers 'no.'</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT II</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Milan. The DUKE's palace.</TITLE>
+<TITLE>ACT II</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Milan. The DUKE's palace.</TITLE>
+
 <STAGEDIR>Enter VALENTINE and SPEED</STAGEDIR>
 
 <SPEECH>
@@ -1434,7 +1440,6 @@
 <LINE>Now will he interpret to her.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter SILVIA</STAGEDIR>
 
 <SPEECH>
@@ -1546,7 +1551,6 @@
 <LINE>Why, if it please you, take it for your labour:</LINE>
 <LINE>And so, good morrow, servant.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -1673,11 +1677,14 @@
 <LINE>your mistress; be moved, be moved.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Verona. JULIA'S house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Verona. JULIA'S house.</TITLE>
+
 <STAGEDIR>Enter PROTEUS and JULIA</STAGEDIR>
 
 <SPEECH>
@@ -1700,7 +1707,6 @@
 <LINE>If you turn not, you will return the sooner.</LINE>
 <LINE>Keep this remembrance for thy Julia's sake.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Giving a ring</STAGEDIR>
 
@@ -1731,7 +1737,6 @@
 <LINE>For truth hath better deeds than words to grace it.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter PANTHINO</STAGEDIR>
 
 <SPEECH>
@@ -1745,11 +1750,14 @@
 <LINE>Alas! this parting strikes poor lovers dumb.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The same. A street.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The same. A street.</TITLE>
+
 <STAGEDIR>Enter LAUNCE, leading a dog</STAGEDIR>
 
 <SPEECH>
@@ -1788,7 +1796,6 @@
 <LINE>the dog all this while sheds not a tear nor speaks a</LINE>
 <LINE>word; but see how I lay the dust with my tears.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PANTHINO</STAGEDIR>
 
@@ -1873,11 +1880,14 @@
 <LINE>Well, I will go.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Milan. The DUKE's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Milan. The DUKE's palace.</TITLE>
+
 <STAGEDIR>Enter SILVIA, VALENTINE, THURIO, and SPEED</STAGEDIR>
 
 <SPEECH>
@@ -1914,7 +1924,6 @@
 <SPEAKER>SPEED</SPEAKER>
 <LINE>'Twere good you knocked him.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -2065,7 +2074,6 @@
 <LINE>No more, gentlemen, no more:--here comes my father.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter DUKE</STAGEDIR>
 
 <SPEECH>
@@ -2150,7 +2158,6 @@
 <LINE>For Valentine, I need not cite him to it:</LINE>
 <LINE>I will send him hither to you presently.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -2263,7 +2270,6 @@
 <LINE>That you are worthless.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter THURIO</STAGEDIR>
 
 <SPEECH>
@@ -2283,7 +2289,6 @@
 <SPEAKER>PROTEUS</SPEAKER>
 <LINE>We'll both attend upon your ladyship.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt SILVIA and THURIO</STAGEDIR>
 
@@ -2498,11 +2503,14 @@
 <LINE>If not, to compass her I'll use my skill.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  The same. A street.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  The same. A street.</TITLE>
+
 <STAGEDIR>Enter SPEED and LAUNCE severally</STAGEDIR>
 
 <SPEECH>
@@ -2687,11 +2695,14 @@
 <LINE>At thy service.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VI.  The same. The DUKE'S palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VI.  The same. The DUKE'S palace.</TITLE>
+
 <STAGEDIR>Enter PROTEUS</STAGEDIR>
 
 <SPEECH>
@@ -2741,11 +2752,14 @@
 <LINE>As thou hast lent me wit to plot this drift!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VII.  Verona. JULIA'S house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VII.  Verona. JULIA'S house.</TITLE>
+
 <STAGEDIR>Enter JULIA and LUCETTA</STAGEDIR>
 
 <SPEECH>
@@ -2938,15 +2952,20 @@
 <LINE>I am impatient of my tarriance.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT III</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Milan. The DUKE's palace.</TITLE>
+<TITLE>ACT III</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Milan. The DUKE's palace.</TITLE>
+
 <STAGEDIR>Enter DUKE, THURIO, and PROTEUS</STAGEDIR>
 
 <SPEECH>
@@ -3264,7 +3283,6 @@
 <LINE>But, as thou lovest thy life, make speed from hence.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -3288,7 +3306,6 @@
 <LINE>Tarry I here, I but attend on death:</LINE>
 <LINE>But, fly I hence, I fly away from life.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PROTEUS and LAUNCE</STAGEDIR>
 
@@ -3493,7 +3510,6 @@
 <LINE>O my dear Silvia! Hapless Valentine!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt VALENTINE and PROTEUS</STAGEDIR>
 
 <SPEECH>
@@ -3517,7 +3533,6 @@
 <LINE>She can milk;' look you, a sweet virtue in a maid</LINE>
 <LINE>with clean hands.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter SPEED</STAGEDIR>
 
@@ -3864,7 +3879,6 @@
 <LINE>Why didst not tell me sooner? pox of your love letters!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -3874,11 +3888,14 @@
 <LINE>secrets! I'll after, to rejoice in the boy's correction.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The same. The DUKE's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The same. The DUKE's palace.</TITLE>
+
 <STAGEDIR>Enter DUKE and THURIO</STAGEDIR>
 
 <SPEECH>
@@ -4100,15 +4117,20 @@
 <LINE>Even now about it! I will pardon you.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT IV</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  The frontiers of Mantua. A forest.</TITLE>
+<TITLE>ACT IV</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  The frontiers of Mantua. A forest.</TITLE>
+
 <STAGEDIR>Enter certain Outlaws</STAGEDIR>
 
 <SPEECH>
@@ -4120,7 +4142,6 @@
 <SPEAKER>Second Outlaw</SPEAKER>
 <LINE>If there be ten, shrink not, but down with 'em.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter VALENTINE and SPEED</STAGEDIR>
 
@@ -4341,11 +4362,14 @@
 <LINE>Which, with ourselves, all rest at thy dispose.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Milan. Outside the DUKE's palace, under SILVIA's chamber.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Milan. Outside the DUKE's palace, under SILVIA's chamber.</TITLE>
+
 <STAGEDIR>Enter PROTEUS</STAGEDIR>
 
 <SPEECH>
@@ -4368,7 +4392,6 @@
 <LINE>But here comes Thurio: now must we to her window,</LINE>
 <LINE>And give some evening music to her ear.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter THURIO and Musicians</STAGEDIR>
 
@@ -4409,7 +4432,6 @@
 <LINE>Let's tune, and to it lustily awhile.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter, at a distance, Host, and JULIA in boy's clothes</STAGEDIR>
 
 <SPEECH>
@@ -4443,7 +4465,6 @@
 <SPEAKER>JULIA</SPEAKER>
 <LINE>That will be music.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Music plays</STAGEDIR>
 
@@ -4731,7 +4752,6 @@
 <LINE>That wait for execution in the morn.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt PROTEUS and SILVIA severally</STAGEDIR>
 
 <SPEECH>
@@ -4761,11 +4781,14 @@
 <LINE>That e'er I watch'd and the most heaviest.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The same.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The same.</TITLE>
+
 <STAGEDIR>Enter EGLAMOUR</STAGEDIR>
 
 <SPEECH>
@@ -4775,7 +4798,6 @@
 <LINE>There's some great matter she'ld employ me in.</LINE>
 <LINE>Madam, madam!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter SILVIA above</STAGEDIR>
 
@@ -4869,11 +4891,14 @@
 <LINE>Good morrow, kind Sir Eglamour.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt severally</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  The same.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  The same.</TITLE>
+
 <STAGEDIR>Enter LAUNCE, with his his Dog</STAGEDIR>
 
 <SPEECH>
@@ -4918,7 +4943,6 @@
 <LINE>water against a gentlewoman's farthingale? didst</LINE>
 <LINE>thou ever see me do such a trick?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PROTEUS and JULIA</STAGEDIR>
 
@@ -5051,7 +5075,6 @@
 <LINE>Your message done, hie home unto my chamber,</LINE>
 <LINE>Where thou shalt find me, sad and solitary.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -5249,7 +5272,6 @@
 <LINE>Farewell.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit SILVIA, with attendants</STAGEDIR>
 
 <SPEECH>
@@ -5283,15 +5305,20 @@
 <LINE>To make my master out of love with thee!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT V</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Milan. An abbey.</TITLE>
+<TITLE>ACT V</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Milan. An abbey.</TITLE>
+
 <STAGEDIR>Enter EGLAMOUR</STAGEDIR>
 
 <SPEECH>
@@ -5320,11 +5347,14 @@
 <LINE>If we recover that, we are sure enough.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The same. The DUKE's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The same. The DUKE's palace.</TITLE>
+
 <STAGEDIR>Enter THURIO, PROTEUS, and JULIA</STAGEDIR>
 
 <SPEECH>
@@ -5467,7 +5497,6 @@
 <LINE>Here comes the duke.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter DUKE</STAGEDIR>
 
 <SPEECH>
@@ -5515,7 +5544,6 @@
 <LINE>Dispatch, sweet gentlemen, and follow me.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -5526,7 +5554,6 @@
 <LINE>Than for the love of reckless Silvia.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -5534,7 +5561,6 @@
 <LINE>And I will follow, more for Silvia's love</LINE>
 <LINE>Than hate of Eglamour that goes with her.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -5544,11 +5570,14 @@
 <LINE>Than hate for Silvia that is gone for love.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The frontiers of Mantua. The forest.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The frontiers of Mantua. The forest.</TITLE>
+
 <STAGEDIR>Enter Outlaws with SILVIA</STAGEDIR>
 
 <SPEECH>
@@ -5594,11 +5623,14 @@
 <LINE>O Valentine, this I endure for thee!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Another part of the forest.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Another part of the forest.</TITLE>
+
 <STAGEDIR>Enter VALENTINE</STAGEDIR>
 
 <SPEECH>
@@ -5622,7 +5654,6 @@
 <LINE>To keep them from uncivil outrages.</LINE>
 <LINE>Withdraw thee, Valentine: who's this comes here?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PROTEUS, SILVIA, and JULIA</STAGEDIR>
 
@@ -5777,7 +5808,6 @@
 <LINE>O me unhappy!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Swoons</STAGEDIR>
 
 <SPEECH>
@@ -5876,7 +5906,6 @@
 <SPEAKER>JULIA</SPEAKER>
 <LINE>And I mine.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter Outlaws, with DUKE and THURIO</STAGEDIR>
 
@@ -5998,8 +6027,8 @@
 <LINE>One feast, one house, one mutual happiness.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 </ACT>
 </PLAY>

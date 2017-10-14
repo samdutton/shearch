@@ -12,7 +12,6 @@
 </FM>
 
 
-	
 <PERSONAE>
 <TITLE>Dramatis Personae</TITLE>
 
@@ -45,9 +44,14 @@
 
 <PLAYSUBT>KING JOHN</PLAYSUBT>
 
-<ACT><TITLE>ACT I</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  KING JOHN'S palace.</TITLE>
+<TITLE>ACT I</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  KING JOHN'S palace.</TITLE>
+
 <STAGEDIR>Enter KING JOHN, QUEEN ELINOR, PEMBROKE, ESSEX,
 SALISBURY, and others, with CHATILLON</STAGEDIR>
 
@@ -121,7 +125,6 @@ SALISBURY, and others, with CHATILLON</STAGEDIR>
 <LINE>Pembroke, look to 't. Farewell, Chatillon.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt CHATILLON and PEMBROKE</STAGEDIR>
 
 <SPEECH>
@@ -148,7 +151,6 @@ SALISBURY, and others, with CHATILLON</STAGEDIR>
 <LINE>So much my conscience whispers in your ear,</LINE>
 <LINE>Which none but heaven and you and I shall hear.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter a Sheriff</STAGEDIR>
 
@@ -579,15 +581,20 @@ SALISBURY, and others, with CHATILLON</STAGEDIR>
 <LINE>Who says it was, he lies; I say 'twas not.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT II</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  France. Before Angiers.</TITLE>
+<TITLE>ACT II</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  France. Before Angiers.</TITLE>
+
 <STAGEDIR>Enter AUSTRIA and forces, drums, etc. on one side:
 on the other KING PHILIP and his power; LEWIS,
 ARTHUR, CONSTANCE and attendants</STAGEDIR>
@@ -673,7 +680,6 @@ ARTHUR, CONSTANCE and attendants</STAGEDIR>
 <LINE>That hot rash haste so indirectly shed.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter CHATILLON</STAGEDIR>
 
 <SPEECH>
@@ -726,7 +732,6 @@ ARTHUR, CONSTANCE and attendants</STAGEDIR>
 <LINE>For courage mounteth with occasion:</LINE>
 <LINE>Let them be welcome then: we are prepared.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter KING JOHN, QUEEN ELINOR, BLANCH, the BASTARD,
 Lords, and forces</STAGEDIR>
@@ -989,7 +994,6 @@ Lords, and forces</STAGEDIR>
 <LINE>Whose title they admit, Arthur's or John's.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Trumpet sounds. Enter certain Citizens upon the walls</STAGEDIR>
 
 <SPEECH>
@@ -1211,7 +1215,6 @@ with trumpets, to the gates</STAGEDIR>
 <LINE>Arthur of Bretagne England's king and yours.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter English Herald, with trumpet</STAGEDIR>
 
 <SPEECH>
@@ -1243,7 +1246,6 @@ with trumpets, to the gates</STAGEDIR>
 <LINE>One must prove greatest: while they weigh so even,</LINE>
 <LINE>We hold our town for neither, yet for both.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter KING JOHN and KING PHILIP, with their
 powers, severally</STAGEDIR>
@@ -1528,7 +1530,6 @@ powers, severally</STAGEDIR>
 <LINE>Drawn in the flattering table of her eye.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Whispers with BLANCH</STAGEDIR>
 
 <SPEECH>
@@ -1641,7 +1642,6 @@ powers, severally</STAGEDIR>
 <LINE>To this unlook'd for, unprepared pomp.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt all but the BASTARD</STAGEDIR>
 
 <SPEECH>
@@ -1686,15 +1686,20 @@ powers, severally</STAGEDIR>
 <LINE>Gain, be my lord, for I will worship thee.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT III</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  The French King's pavilion.</TITLE>
+<TITLE>ACT III</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  The French King's pavilion.</TITLE>
+
 <STAGEDIR>Enter CONSTANCE, ARTHUR, and SALISBURY</STAGEDIR>
 
 <SPEECH>
@@ -1917,7 +1922,6 @@ QUEEN ELINOR, the BASTARD, AUSTRIA, and Attendants</STAGEDIR>
 <SPEAKER>KING JOHN</SPEAKER>
 <LINE>We like not this; thou dost forget thyself.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter CARDINAL PANDULPH</STAGEDIR>
 
@@ -2353,11 +2357,14 @@ QUEEN ELINOR, the BASTARD, AUSTRIA, and Attendants</STAGEDIR>
 <LINE>No more than he that threats. To arms let's hie!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The same. Plains near Angiers.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The same. Plains near Angiers.</TITLE>
+
 <STAGEDIR>Alarums, excursions. Enter the BASTARD, with
 AUSTRIA'S head</STAGEDIR>
 
@@ -2368,7 +2375,6 @@ AUSTRIA'S head</STAGEDIR>
 <LINE>And pours down mischief. Austria's head lie there,</LINE>
 <LINE>While Philip breathes.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter KING JOHN, ARTHUR, and HUBERT</STAGEDIR>
 
@@ -2387,11 +2393,14 @@ AUSTRIA'S head</STAGEDIR>
 <LINE>Will bring this labour to an happy end.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The same.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The same.</TITLE>
+
 <STAGEDIR>Alarums, excursions, retreat. Enter KING JOHN,
 QUEEN ELINOR, ARTHUR, the BASTARD, HUBERT,
 and Lords</STAGEDIR>
@@ -2441,7 +2450,6 @@ and Lords</STAGEDIR>
 <SPEAKER>KING JOHN</SPEAKER>
 <LINE>Coz, farewell.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit the BASTARD</STAGEDIR>
 
@@ -2564,11 +2572,14 @@ and Lords</STAGEDIR>
 <LINE>With all true duty. On toward Calais, ho!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  The same. KING PHILIP'S tent.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  The same. KING PHILIP'S tent.</TITLE>
+
 <STAGEDIR>Enter KING PHILIP, LEWIS, CARDINAL PANDULPH,
 and Attendants</STAGEDIR>
 
@@ -2760,14 +2771,12 @@ and Attendants</STAGEDIR>
 <LINE>My widow-comfort, and my sorrows' cure!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>KING PHILIP</SPEAKER>
 <LINE>I fear some outrage, and I'll follow her.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -2900,15 +2909,20 @@ and Attendants</STAGEDIR>
 <LINE>If you say ay, the king will not say no.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT IV</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  A room in a castle.</TITLE>
+<TITLE>ACT IV</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  A room in a castle.</TITLE>
+
 <STAGEDIR>Enter HUBERT and Executioners</STAGEDIR>
 
 <SPEECH>
@@ -2931,7 +2945,6 @@ and Attendants</STAGEDIR>
 <STAGEDIR>Exeunt Executioners</STAGEDIR>
 <LINE>Young lad, come forth; I have to say with you.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter ARTHUR</STAGEDIR>
 
@@ -3107,7 +3120,6 @@ and Attendants</STAGEDIR>
 <LINE>I am best pleased to be from such a deed.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt Executioners</STAGEDIR>
 
 <SPEECH>
@@ -3227,11 +3239,14 @@ and Attendants</STAGEDIR>
 <LINE>Much danger do I undergo for thee.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  KING JOHN'S palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  KING JOHN'S palace.</TITLE>
+
 <STAGEDIR>Enter KING JOHN, PEMBROKE, SALISBURY, and other Lords</STAGEDIR>
 
 <SPEECH>
@@ -3336,7 +3351,6 @@ and Attendants</STAGEDIR>
 <LINE>Counts it your weal he have his liberty.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter HUBERT</STAGEDIR>
 
 <SPEECH>
@@ -3344,7 +3358,6 @@ and Attendants</STAGEDIR>
 <LINE>Let it be so: I do commit his youth</LINE>
 <LINE>To your direction. Hubert, what news with you?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Taking him apart</STAGEDIR>
 
@@ -3417,7 +3430,6 @@ and Attendants</STAGEDIR>
 <LINE>This must not be thus borne: this will break out</LINE>
 <LINE>To all our sorrows, and ere long I doubt.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt Lords</STAGEDIR>
 
@@ -3576,7 +3588,6 @@ and Attendants</STAGEDIR>
 <LINE>The spirit of the time shall teach me speed.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -3592,14 +3603,12 @@ and Attendants</STAGEDIR>
 <LINE>With all my heart, my liege.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>KING JOHN</SPEAKER>
 <LINE>My mother dead!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter HUBERT</STAGEDIR>
 
@@ -3740,11 +3749,14 @@ and Attendants</STAGEDIR>
 <LINE>I conjure thee but slowly; run more fast.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Before the castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Before the castle.</TITLE>
+
 <STAGEDIR>Enter ARTHUR, on the walls</STAGEDIR>
 
 <SPEECH>
@@ -3795,7 +3807,6 @@ and Attendants</STAGEDIR>
 <LINE>Two long days' journey, lords, or ere we meet.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter the BASTARD</STAGEDIR>
 
 <SPEECH>
@@ -3843,7 +3854,6 @@ and Attendants</STAGEDIR>
 <SPEAKER>SALISBURY</SPEAKER>
 <LINE>This is the prison. What is he lies here?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Seeing ARTHUR</STAGEDIR>
 
@@ -3942,7 +3952,6 @@ and Attendants</STAGEDIR>
 <SPEAKER>SALISBURY</SPEAKER>
 <LINE>Must I rob the law?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Drawing his sword</STAGEDIR>
 
@@ -4058,7 +4067,6 @@ and Attendants</STAGEDIR>
 <LINE>There tell the king he may inquire us out.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt Lords</STAGEDIR>
 
 <SPEECH>
@@ -4136,15 +4144,20 @@ and Attendants</STAGEDIR>
 <LINE>And heaven itself doth frown upon the land.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT V</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  KING JOHN'S palace.</TITLE>
+<TITLE>ACT V</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  KING JOHN'S palace.</TITLE>
+
 <STAGEDIR>Enter KING JOHN, CARDINAL PANDULPH, and Attendants</STAGEDIR>
 
 <SPEECH>
@@ -4152,7 +4165,6 @@ and Attendants</STAGEDIR>
 <LINE>Thus have I yielded up into your hand</LINE>
 <LINE>The circle of my glory.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Giving the crown</STAGEDIR>
 
@@ -4191,7 +4203,6 @@ and Attendants</STAGEDIR>
 <LINE>Go I to make the French lay down their arms.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -4202,7 +4213,6 @@ and Attendants</STAGEDIR>
 <LINE>I did suppose it should be on constraint:</LINE>
 <LINE>But, heaven be thank'd, it is but voluntary.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter the BASTARD</STAGEDIR>
 
@@ -4293,11 +4303,14 @@ and Attendants</STAGEDIR>
 <LINE>Our party may well meet a prouder foe.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  LEWIS's camp at St. Edmundsbury.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  LEWIS's camp at St. Edmundsbury.</TITLE>
+
 <STAGEDIR>Enter, in arms, LEWIS, SALISBURY, MELUN, PEMBROKE,
 BIGOT, and Soldiers</STAGEDIR>
 
@@ -4449,7 +4462,6 @@ BIGOT, and Soldiers</STAGEDIR>
 <LINE>What lusty trumpet thus doth summon us?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter the BASTARD, attended</STAGEDIR>
 
 <SPEECH>
@@ -4557,11 +4569,14 @@ BIGOT, and Soldiers</STAGEDIR>
 <LINE>And thou shalt find it, Dauphin, do not doubt.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The field of battle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The field of battle.</TITLE>
+
 <STAGEDIR>Alarums. Enter KING JOHN and HUBERT</STAGEDIR>
 
 <SPEECH>
@@ -4579,7 +4594,6 @@ BIGOT, and Soldiers</STAGEDIR>
 <LINE>This fever, that hath troubled me so long,</LINE>
 <LINE>Lies heavy on me; O, my heart is sick!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter a Messenger</STAGEDIR>
 
@@ -4612,11 +4626,14 @@ BIGOT, and Soldiers</STAGEDIR>
 <LINE>Weakness possesseth me, and I am faint.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Another part of the field.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Another part of the field.</TITLE>
+
 <STAGEDIR>Enter SALISBURY, PEMBROKE, and BIGOT</STAGEDIR>
 
 <SPEECH>
@@ -4640,7 +4657,6 @@ BIGOT, and Soldiers</STAGEDIR>
 <SPEAKER>PEMBROKE</SPEAKER>
 <LINE>They say King John sore sick hath left the field.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter MELUN, wounded</STAGEDIR>
 
@@ -4732,11 +4748,14 @@ BIGOT, and Soldiers</STAGEDIR>
 <LINE>And happy newness, that intends old right.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt, leading off MELUN</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  The French camp.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  The French camp.</TITLE>
+
 <STAGEDIR>Enter LEWIS and his train</STAGEDIR>
 
 <SPEECH>
@@ -4750,7 +4769,6 @@ BIGOT, and Soldiers</STAGEDIR>
 <LINE>And wound our tattering colours clearly up,</LINE>
 <LINE>Last in the field, and almost lords of it!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter a Messenger</STAGEDIR>
 
@@ -4793,11 +4811,14 @@ BIGOT, and Soldiers</STAGEDIR>
 <LINE>To try the fair adventure of to-morrow.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VI.  An open place in the neighbourhood of Swinstead Abbey.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VI.  An open place in the neighbourhood of Swinstead Abbey.</TITLE>
+
 <STAGEDIR>Enter the BASTARD and HUBERT, severally</STAGEDIR>
 
 <SPEECH>
@@ -4928,11 +4949,14 @@ BIGOT, and Soldiers</STAGEDIR>
 <LINE>I doubt he will be dead or ere I come.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VII.  The orchard in Swinstead Abbey.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VII.  The orchard in Swinstead Abbey.</TITLE>
+
 <STAGEDIR>Enter PRINCE HENRY, SALISBURY, and BIGOT</STAGEDIR>
 
 <SPEECH>
@@ -4943,7 +4967,6 @@ BIGOT, and Soldiers</STAGEDIR>
 <LINE>Doth by the idle comments that it makes</LINE>
 <LINE>Foretell the ending of mortality.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PEMBROKE</STAGEDIR>
 
@@ -4960,7 +4983,6 @@ BIGOT, and Soldiers</STAGEDIR>
 <LINE>Let him be brought into the orchard here.</LINE>
 <LINE>Doth he still rage?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit BIGOT</STAGEDIR>
 
@@ -4993,7 +5015,6 @@ BIGOT, and Soldiers</STAGEDIR>
 <LINE>To set a form upon that indigest</LINE>
 <LINE>Which he hath left so shapeless and so rude.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter Attendants, and BIGOT, carrying KING JOHN in a chair</STAGEDIR>
 
@@ -5040,7 +5061,6 @@ BIGOT, and Soldiers</STAGEDIR>
 <LINE>On unreprievable condemned blood.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter the BASTARD</STAGEDIR>
 
 <SPEECH>
@@ -5070,7 +5090,6 @@ BIGOT, and Soldiers</STAGEDIR>
 <LINE>Were in the Washes all unwarily</LINE>
 <LINE>Devoured by the unexpected flood.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>KING JOHN dies</STAGEDIR>
 
@@ -5177,8 +5196,8 @@ BIGOT, and Soldiers</STAGEDIR>
 <LINE>If England to itself do rest but true.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 </ACT>
 </PLAY>

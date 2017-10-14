@@ -11,7 +11,6 @@
 <P>This work may be freely copied and distributed worldwide.</P>
 </FM>
 
-
 <PERSONAE>
 <TITLE>Dramatis Personae</TITLE>
 
@@ -33,7 +32,6 @@
 <PERSONA>ORLANDO</PERSONA>
 <GRPDESCR>sons of Sir Rowland de Boys.</GRPDESCR>
 </PGROUP>
-
 
 <PGROUP>
 <PERSONA>ADAM</PERSONA>
@@ -63,9 +61,14 @@
 
 <PLAYSUBT>AS YOU LIKE IT</PLAYSUBT>
 
-<ACT><TITLE>ACT I</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Orchard of Oliver's house.</TITLE>
+<TITLE>ACT I</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Orchard of Oliver's house.</TITLE>
+
 <STAGEDIR>Enter ORLANDO and ADAM</STAGEDIR>
 
 <SPEECH>
@@ -107,7 +110,6 @@
 <LINE>Go apart, Adam, and thou shalt hear how he will</LINE>
 <LINE>shake me up.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter OLIVER</STAGEDIR>
 
@@ -246,7 +248,6 @@
 <LINE>he would not have spoke such a word.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt ORLANDO and ADAM</STAGEDIR>
 
 <SPEECH>
@@ -255,7 +256,6 @@
 <LINE>physic your rankness, and yet give no thousand</LINE>
 <LINE>crowns neither. Holla, Dennis!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter DENNIS</STAGEDIR>
 
@@ -281,7 +281,6 @@
 <STAGEDIR>Exit DENNIS</STAGEDIR>
 <LINE>'Twill be a good way; and to-morrow the wrestling is.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter CHARLES</STAGEDIR>
 
@@ -408,11 +407,14 @@
 <LINE>I kindle the boy thither; which now I'll go about.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Lawn before the Duke's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Lawn before the Duke's palace.</TITLE>
+
 <STAGEDIR>Enter CELIA and ROSALIND</STAGEDIR>
 
 <SPEECH>
@@ -501,7 +503,6 @@
 <LINE>Nature's: Fortune reigns in gifts of the world,</LINE>
 <LINE>not in the lineaments of Nature.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter TOUCHSTONE</STAGEDIR>
 
@@ -786,7 +787,6 @@
 <LINE>Yonder, sure, they are coming: let us now stay and see it.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Flourish. Enter DUKE FREDERICK, Lords, ORLANDO,
 CHARLES, and Attendants</STAGEDIR>
 
@@ -956,7 +956,6 @@ CHARLES, and Attendants</STAGEDIR>
 <LINE>fellow by the leg.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>They wrestle</STAGEDIR>
 
 <SPEECH>
@@ -969,7 +968,6 @@ CHARLES, and Attendants</STAGEDIR>
 <LINE>If I had a thunderbolt in mine eye, I can tell who</LINE>
 <LINE>should down.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Shout. CHARLES is thrown</STAGEDIR>
 
@@ -1013,7 +1011,6 @@ CHARLES, and Attendants</STAGEDIR>
 <LINE>But fare thee well; thou art a gallant youth:</LINE>
 <LINE>I would thou hadst told me of another father.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt DUKE FREDERICK, train, and LE BEAU</STAGEDIR>
 
@@ -1088,7 +1085,6 @@ CHARLES, and Attendants</STAGEDIR>
 <LINE>Have with you. Fare you well.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt ROSALIND and CELIA</STAGEDIR>
 
 <SPEECH>
@@ -1098,7 +1094,6 @@ CHARLES, and Attendants</STAGEDIR>
 <LINE>O poor Orlando, thou art overthrown!</LINE>
 <LINE>Or Charles or something weaker masters thee.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter LE BEAU</STAGEDIR>
 
@@ -1148,11 +1143,14 @@ CHARLES, and Attendants</STAGEDIR>
 <LINE>But heavenly Rosalind!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  A room in the palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  A room in the palace.</TITLE>
+
 <STAGEDIR>Enter CELIA and ROSALIND</STAGEDIR>
 
 <SPEECH>
@@ -1264,7 +1262,6 @@ CHARLES, and Attendants</STAGEDIR>
 <LINE>With his eyes full of anger.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter DUKE FREDERICK, with Lords</STAGEDIR>
 
 <SPEECH>
@@ -1375,7 +1372,6 @@ CHARLES, and Attendants</STAGEDIR>
 <LINE>If you outstay the time, upon mine honour,</LINE>
 <LINE>And in the greatness of my word, you die.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt DUKE FREDERICK and Lords</STAGEDIR>
 
@@ -1491,15 +1487,20 @@ CHARLES, and Attendants</STAGEDIR>
 <LINE>To liberty and not to banishment.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT II</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  The Forest of Arden.</TITLE>
+<TITLE>ACT II</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  The Forest of Arden.</TITLE>
+
 <STAGEDIR>Enter DUKE SENIOR, AMIENS, and two or three Lords,
 like foresters</STAGEDIR>
 
@@ -1616,11 +1617,14 @@ like foresters</STAGEDIR>
 <LINE>I'll bring you to him straight.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  A room in the palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  A room in the palace.</TITLE>
+
 <STAGEDIR>Enter DUKE FREDERICK, with Lords</STAGEDIR>
 
 <SPEECH>
@@ -1660,11 +1664,14 @@ like foresters</STAGEDIR>
 <LINE>To bring again these foolish runaways.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Before OLIVER'S house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Before OLIVER'S house.</TITLE>
+
 <STAGEDIR>Enter ORLANDO and ADAM, meeting</STAGEDIR>
 
 <SPEECH>
@@ -1784,11 +1791,14 @@ like foresters</STAGEDIR>
 <LINE>Than to die well and not my master's debtor.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  The Forest of Arden.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  The Forest of Arden.</TITLE>
+
 <STAGEDIR>Enter ROSALIND for Ganymede, CELIA for Aliena,
 and TOUCHSTONE</STAGEDIR>
 
@@ -1888,7 +1898,6 @@ and TOUCHSTONE</STAGEDIR>
 <LINE>Thou hast not loved.</LINE>
 <LINE>O Phebe, Phebe, Phebe!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -2035,11 +2044,14 @@ and TOUCHSTONE</STAGEDIR>
 <LINE>And buy it with your gold right suddenly.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  The Forest.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  The Forest.</TITLE>
+
 <STAGEDIR>Enter AMIENS, JAQUES, and others</STAGEDIR>
 <SUBHEAD>SONG.</SUBHEAD>
 
@@ -2173,11 +2185,14 @@ and TOUCHSTONE</STAGEDIR>
 <LINE>And I'll go seek the duke: his banquet is prepared.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt severally</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VI.  The forest.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VI.  The forest.</TITLE>
+
 <STAGEDIR>Enter ORLANDO and ADAM</STAGEDIR>
 
 <SPEECH>
@@ -2206,11 +2221,14 @@ and TOUCHSTONE</STAGEDIR>
 <LINE>desert. Cheerly, good Adam!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VII.  The forest.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VII.  The forest.</TITLE>
+
 <STAGEDIR>A table set out. Enter DUKE SENIOR, AMIENS, and
 Lords like outlaws</STAGEDIR>
 
@@ -2232,7 +2250,6 @@ Lords like outlaws</STAGEDIR>
 <LINE>We shall have shortly discord in the spheres.</LINE>
 <LINE>Go, seek him: tell him I would speak with him.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter JAQUES</STAGEDIR>
 
@@ -2361,7 +2378,6 @@ Lords like outlaws</STAGEDIR>
 <LINE>Unclaim'd of any man. But who comes here?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter ORLANDO, with his sword drawn</STAGEDIR>
 
 <SPEECH>
@@ -2473,7 +2489,6 @@ Lords like outlaws</STAGEDIR>
 <LINE>I thank ye; and be blest for your good comfort!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -2515,7 +2530,6 @@ Lords like outlaws</STAGEDIR>
 <LINE>Is second childishness and mere oblivion,</LINE>
 <LINE>Sans teeth, sans eyes, sans taste, sans everything.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter ORLANDO, with ADAM</STAGEDIR>
 
@@ -2580,15 +2594,20 @@ Lords like outlaws</STAGEDIR>
 <LINE>And let me all your fortunes understand.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT III</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  A room in the palace.</TITLE>
+<TITLE>ACT III</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  A room in the palace.</TITLE>
+
 <STAGEDIR>Enter DUKE FREDERICK, Lords, and OLIVER</STAGEDIR>
 
 <SPEECH>
@@ -2621,11 +2640,14 @@ Lords like outlaws</STAGEDIR>
 <LINE>Do this expediently and turn him going.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The forest.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The forest.</TITLE>
+
 <STAGEDIR>Enter ORLANDO, with a paper</STAGEDIR>
 
 <SPEECH>
@@ -2809,7 +2831,6 @@ Lords like outlaws</STAGEDIR>
 <LINE>Here comes young Master Ganymede, my new mistress's brother.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter ROSALIND, with a paper, reading</STAGEDIR>
 
 <SPEECH>
@@ -2879,7 +2900,6 @@ Lords like outlaws</STAGEDIR>
 <LINE>forest judge.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter CELIA, with a writing</STAGEDIR>
 
 <SPEECH>
@@ -2940,7 +2960,6 @@ Lords like outlaws</STAGEDIR>
 <LINE>Come, shepherd, let us make an honourable retreat;</LINE>
 <LINE>though not with bag and baggage, yet with scrip and scrippage.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt CORIN and TOUCHSTONE</STAGEDIR>
 
@@ -3185,7 +3204,6 @@ Lords like outlaws</STAGEDIR>
 <LINE>You bring me out. Soft! comes he not here?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter ORLANDO and JAQUES</STAGEDIR>
 
 <SPEECH>
@@ -3329,7 +3347,6 @@ Lords like outlaws</STAGEDIR>
 <LINE>I am glad of your departure: adieu, good Monsieur</LINE>
 <LINE>Melancholy.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit JAQUES</STAGEDIR>
 
@@ -3631,11 +3648,14 @@ Lords like outlaws</STAGEDIR>
 <LINE>Nay you must call me Rosalind. Come, sister, will you go?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The forest.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The forest.</TITLE>
+
 <STAGEDIR>Enter TOUCHSTONE and AUDREY; JAQUES behind</STAGEDIR>
 
 <SPEECH>
@@ -3850,7 +3870,6 @@ Lords like outlaws</STAGEDIR>
 <LINE>I will not to wedding with thee.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt JAQUES, TOUCHSTONE and AUDREY</STAGEDIR>
 
 <SPEECH>
@@ -3859,11 +3878,14 @@ Lords like outlaws</STAGEDIR>
 <LINE>all shall flout me out of my calling.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  The forest.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  The forest.</TITLE>
+
 <STAGEDIR>Enter ROSALIND and CELIA</STAGEDIR>
 
 <SPEECH>
@@ -3988,7 +4010,6 @@ Lords like outlaws</STAGEDIR>
 <LINE>guides. Who comes here?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter CORIN</STAGEDIR>
 
 <SPEECH>
@@ -4022,11 +4043,14 @@ Lords like outlaws</STAGEDIR>
 <LINE>I'll prove a busy actor in their play.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  Another part of the forest.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  Another part of the forest.</TITLE>
+
 <STAGEDIR>Enter SILVIUS and PHEBE</STAGEDIR>
 
 <SPEECH>
@@ -4039,7 +4063,6 @@ Lords like outlaws</STAGEDIR>
 <LINE>But first begs pardon: will you sterner be</LINE>
 <LINE>Than he that dies and lives by bloody drops?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter ROSALIND, CELIA, and CORIN, behind</STAGEDIR>
 
@@ -4148,7 +4171,6 @@ Lords like outlaws</STAGEDIR>
 <LINE>None could be so abused in sight as he.</LINE>
 <LINE>Come, to our flock.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt ROSALIND, CELIA and CORIN</STAGEDIR>
 
@@ -4274,15 +4296,20 @@ Lords like outlaws</STAGEDIR>
 <LINE>Go with me, Silvius.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT IV</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  The forest.</TITLE>
+<TITLE>ACT IV</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  The forest.</TITLE>
+
 <STAGEDIR>Enter ROSALIND, CELIA, and JAQUES</STAGEDIR>
 
 <SPEECH>
@@ -4352,7 +4379,6 @@ Lords like outlaws</STAGEDIR>
 <LINE>sad; and to travel for it too!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter ORLANDO</STAGEDIR>
 
 <SPEECH>
@@ -4364,7 +4390,6 @@ Lords like outlaws</STAGEDIR>
 <SPEAKER>JAQUES</SPEAKER>
 <LINE>Nay, then, God be wi' you, an you talk in blank verse.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -4780,7 +4805,6 @@ Lords like outlaws</STAGEDIR>
 <LINE>offenders, and let Time try: adieu.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit ORLANDO</STAGEDIR>
 
 <SPEECH>
@@ -4821,11 +4845,14 @@ Lords like outlaws</STAGEDIR>
 <LINE>And I'll sleep.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The forest.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The forest.</TITLE>
+
 <STAGEDIR>Enter JAQUES, Lords, and Foresters</STAGEDIR>
 
 <SPEECH>
@@ -4872,11 +4899,14 @@ Lords like outlaws</STAGEDIR>
 <LINE>Is not a thing to laugh to scorn.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The forest.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The forest.</TITLE>
+
 <STAGEDIR>Enter ROSALIND and CELIA</STAGEDIR>
 
 <SPEECH>
@@ -4891,7 +4921,6 @@ Lords like outlaws</STAGEDIR>
 <LINE>hath ta'en his bow and arrows and is gone forth to</LINE>
 <LINE>sleep. Look, who comes here.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter SILVIUS</STAGEDIR>
 
@@ -5184,7 +5213,6 @@ Lords like outlaws</STAGEDIR>
 <LINE>That he in sport doth call his Rosalind.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>ROSALIND swoons</STAGEDIR>
 
 <SPEECH>
@@ -5271,15 +5299,20 @@ Lords like outlaws</STAGEDIR>
 <LINE>my counterfeiting to him. Will you go?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT V</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  The forest.</TITLE>
+<TITLE>ACT V</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  The forest.</TITLE>
+
 <STAGEDIR>Enter TOUCHSTONE and AUDREY</STAGEDIR>
 
 <SPEECH>
@@ -5312,7 +5345,6 @@ Lords like outlaws</STAGEDIR>
 <LINE>troth, we that have good wits have much to answer</LINE>
 <LINE>for; we shall be flouting; we cannot hold.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter WILLIAM</STAGEDIR>
 
@@ -5463,11 +5495,14 @@ Lords like outlaws</STAGEDIR>
 <LINE>Trip, Audrey! trip, Audrey! I attend, I attend.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The forest.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The forest.</TITLE>
+
 <STAGEDIR>Enter ORLANDO and OLIVER</STAGEDIR>
 
 <SPEECH>
@@ -5498,7 +5533,6 @@ Lords like outlaws</STAGEDIR>
 <LINE>you, here comes my Rosalind.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter ROSALIND</STAGEDIR>
 
 <SPEECH>
@@ -5510,7 +5544,6 @@ Lords like outlaws</STAGEDIR>
 <SPEAKER>OLIVER</SPEAKER>
 <LINE>And you, fair sister.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -5771,11 +5804,14 @@ Lords like outlaws</STAGEDIR>
 <LINE>Nor I.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The forest.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The forest.</TITLE>
+
 <STAGEDIR>Enter TOUCHSTONE and AUDREY</STAGEDIR>
 
 <SPEECH>
@@ -5790,7 +5826,6 @@ Lords like outlaws</STAGEDIR>
 <LINE>no dishonest desire to desire to be a woman of the</LINE>
 <LINE>world. Here comes two of the banished duke's pages.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter two Pages</STAGEDIR>
 
@@ -5860,11 +5895,14 @@ Lords like outlaws</STAGEDIR>
 <LINE>your voices! Come, Audrey.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  The forest.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  The forest.</TITLE>
+
 <STAGEDIR>Enter DUKE SENIOR, AMIENS, JAQUES, ORLANDO, OLIVER,
 and CELIA</STAGEDIR>
 
@@ -5879,7 +5917,6 @@ and CELIA</STAGEDIR>
 <LINE>I sometimes do believe, and sometimes do not;</LINE>
 <LINE>As those that fear they hope, and know they fear.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter ROSALIND, SILVIUS, and PHEBE</STAGEDIR>
 
@@ -5948,7 +5985,6 @@ and CELIA</STAGEDIR>
 <LINE>To make these doubts all even.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt ROSALIND and CELIA</STAGEDIR>
 
 <SPEECH>
@@ -5967,7 +6003,6 @@ and CELIA</STAGEDIR>
 <LINE>Whom he reports to be a great magician,</LINE>
 <LINE>Obscured in the circle of this forest.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter TOUCHSTONE and AUDREY</STAGEDIR>
 
@@ -6198,7 +6233,6 @@ and CELIA</STAGEDIR>
 <LINE>Thy faith my fancy to thee doth combine.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter JAQUES DE BOYS</STAGEDIR>
 
 <SPEECH>
@@ -6281,7 +6315,6 @@ and CELIA</STAGEDIR>
 <LINE>I'll stay to know at your abandon'd cave.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -6290,6 +6323,7 @@ and CELIA</STAGEDIR>
 <LINE>As we do trust they'll end, in true delights.</LINE>
 </SPEECH>
 <STAGEDIR>A dance</STAGEDIR>
+
 </SCENE>
 
 <EPILOGUE><TITLE>EPILOGUE</TITLE>
@@ -6318,7 +6352,6 @@ and CELIA</STAGEDIR>
 <LINE>beards or good faces or sweet breaths will, for my</LINE>
 <LINE>kind offer, when I make curtsy, bid me farewell.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt</STAGEDIR>
 </EPILOGUE>

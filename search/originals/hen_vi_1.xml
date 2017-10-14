@@ -11,7 +11,6 @@
 <P>This work may be freely copied and distributed worldwide.</P>
 </FM>
 
-
 <PERSONAE>
 <TITLE>Dramatis Personae</TITLE>
 
@@ -60,9 +59,14 @@
 
 <PLAYSUBT>1 KING HENRY VI</PLAYSUBT>
 
-<ACT><TITLE>ACT I</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Westminster Abbey.</TITLE>
+<TITLE>ACT I</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Westminster Abbey.</TITLE>
+
 <STAGEDIR>Dead March. Enter the Funeral of KING HENRY the
 Fifth, attended on by Dukes of BEDFORD, Regent of
 France; GLOUCESTER, Protector; and EXETER, Earl of
@@ -156,7 +160,6 @@ WARWICK, the BISHOP OF WINCHESTER, Heralds, &amp;c</STAGEDIR>
 <LINE>Than Julius Caesar or bright--</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Messenger</STAGEDIR>
 
 <SPEECH>
@@ -219,7 +222,6 @@ WARWICK, the BISHOP OF WINCHESTER, Heralds, &amp;c</STAGEDIR>
 <LINE>To weep their intermissive miseries.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter to them another Messenger</STAGEDIR>
 
 <SPEECH>
@@ -251,7 +253,6 @@ WARWICK, the BISHOP OF WINCHESTER, Heralds, &amp;c</STAGEDIR>
 <LINE>An army have I muster'd in my thoughts,</LINE>
 <LINE>Wherewith already France is overrun.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter another Messenger</STAGEDIR>
 
@@ -355,7 +356,6 @@ WARWICK, the BISHOP OF WINCHESTER, Heralds, &amp;c</STAGEDIR>
 <LINE>To go about my preparation.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -365,7 +365,6 @@ WARWICK, the BISHOP OF WINCHESTER, Heralds, &amp;c</STAGEDIR>
 <LINE>And then I will proclaim young Henry king.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -374,7 +373,6 @@ WARWICK, the BISHOP OF WINCHESTER, Heralds, &amp;c</STAGEDIR>
 <LINE>Being ordain'd his special governor,</LINE>
 <LINE>And for his safety there I'll best devise.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -387,11 +385,14 @@ WARWICK, the BISHOP OF WINCHESTER, Heralds, &amp;c</STAGEDIR>
 <LINE>And sit at chiefest stern of public weal.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  France. Before Orleans.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  France. Before Orleans.</TITLE>
+
 <STAGEDIR>Sound a flourish. Enter CHARLES, ALENCON, and
 REIGNIER, marching with drum and Soldiers</STAGEDIR>
 
@@ -484,7 +485,6 @@ with great loss. Re-enter CHARLES, ALENCON, and REIGNIER</STAGEDIR>
 <LINE>Be it so.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter the BASTARD OF ORLEANS</STAGEDIR>
 
 <SPEECH>
@@ -522,7 +522,6 @@ with great loss. Re-enter CHARLES, ALENCON, and REIGNIER</STAGEDIR>
 <LINE>Question her proudly; let thy looks be stern:</LINE>
 <LINE>By this means shall we sound what skill she hath.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter the BASTARD OF ORLEANS, with JOAN LA PUCELLE</STAGEDIR>
 
@@ -598,7 +597,6 @@ with great loss. Re-enter CHARLES, ALENCON, and REIGNIER</STAGEDIR>
 <SPEAKER>JOAN LA PUCELLE</SPEAKER>
 <LINE>And while I live, I'll ne'er fly from a man.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Here they fight, and JOAN LA PUCELLE overcomes</STAGEDIR>
 
@@ -717,11 +715,14 @@ with great loss. Re-enter CHARLES, ALENCON, and REIGNIER</STAGEDIR>
 <LINE>No prophet will I trust, if she prove false.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  London. Before the Tower.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  London. Before the Tower.</TITLE>
+
 <STAGEDIR>Enter GLOUCESTER, with his Serving-men in blue coats</STAGEDIR>
 
 <SPEECH>
@@ -766,7 +767,6 @@ with great loss. Re-enter CHARLES, ALENCON, and REIGNIER</STAGEDIR>
 <LINE>Shall I be flouted thus by dunghill grooms?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Gloucester's men rush at the Tower Gates, and
 WOODVILE the Lieutenant speaks within</STAGEDIR>
 
@@ -803,7 +803,6 @@ WOODVILE the Lieutenant speaks within</STAGEDIR>
 <LINE>Open the gates unto the lord protector,</LINE>
 <LINE>Or we'll burst them open, if that you come not quickly.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter to the Protector at the Tower Gates BISHOP
 OF WINCHESTER and his men in tawny coats</STAGEDIR>
@@ -876,7 +875,6 @@ OF WINCHESTER and his men in tawny coats</STAGEDIR>
 <LINE>Out, tawny coats! out, scarlet hypocrite!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Here GLOUCESTER's men beat out BISHOP OF
 WINCHESTER's men, and enter in the hurly-
 burly the Mayor of London and his Officers</STAGEDIR>
@@ -909,7 +907,6 @@ burly the Mayor of London and his Officers</STAGEDIR>
 <SPEAKER>GLOUCESTER</SPEAKER>
 <LINE>I will not answer thee with words, but blows.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Here they skirmish again</STAGEDIR>
 
@@ -960,7 +957,6 @@ burly the Mayor of London and his Officers</STAGEDIR>
 <LINE>For I intend to have it ere long.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt, severally, GLOUCESTER and BISHOP OF
 WINCHESTER with their Serving-men</STAGEDIR>
 
@@ -971,11 +967,14 @@ WINCHESTER with their Serving-men</STAGEDIR>
 <LINE>I myself fight not once in forty year.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Orleans.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Orleans.</TITLE>
+
 <STAGEDIR>Enter, on the walls, a Master Gunner and his Boy</STAGEDIR>
 
 <SPEECH>
@@ -1009,7 +1008,6 @@ WINCHESTER with their Serving-men</STAGEDIR>
 <LINE>If thou spy'st any, run and bring me word;</LINE>
 <LINE>And thou shalt find me at the governor's.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -1073,7 +1071,6 @@ GLANSDALE, GARGRAVE, and others</STAGEDIR>
 <LINE>Ready they were to shoot me to the heart.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter the Boy with a linstock</STAGEDIR>
 
 <SPEECH>
@@ -1104,7 +1101,6 @@ GLANSDALE, GARGRAVE, and others</STAGEDIR>
 <LINE>For aught I see, this city must be famish'd,</LINE>
 <LINE>Or with light skirmishes enfeebled.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Here they shoot. SALISBURY and GARGRAVE fall</STAGEDIR>
 
@@ -1151,7 +1147,6 @@ GLANSDALE, GARGRAVE, and others</STAGEDIR>
 <LINE>Whence cometh this alarum and the noise?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Messenger</STAGEDIR>
 
 <SPEECH>
@@ -1161,7 +1156,6 @@ GLANSDALE, GARGRAVE, and others</STAGEDIR>
 <LINE>A holy prophetess new risen up,</LINE>
 <LINE>Is come with a great power to raise the siege.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Here SALISBURY lifteth himself up and groans</STAGEDIR>
 
@@ -1177,11 +1171,14 @@ GLANSDALE, GARGRAVE, and others</STAGEDIR>
 <LINE>And then we'll try what these dastard Frenchmen dare.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Alarum. Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  The same.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  The same.</TITLE>
+
 <STAGEDIR>Here an alarum again: and TALBOT pursueth the
 DAUPHIN, and driveth him: then enter JOAN LA
 PUCELLE, driving Englishmen before her, and exit
@@ -1204,7 +1201,6 @@ after them then re-enter TALBOT</STAGEDIR>
 <LINE>Come, come, 'tis only I that must disgrace thee.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Here they fight</STAGEDIR>
 
 <SPEECH>
@@ -1214,7 +1210,6 @@ after them then re-enter TALBOT</STAGEDIR>
 <LINE>And from my shoulders crack my arms asunder.</LINE>
 <LINE>But I will chastise this high-minded strumpet.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>They fight again</STAGEDIR>
 
@@ -1228,7 +1223,6 @@ after them then re-enter TALBOT</STAGEDIR>
 <LINE>Help Salisbury to make his testament:</LINE>
 <LINE>This day is ours, as many more shall be.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -1259,11 +1253,14 @@ after them then re-enter TALBOT</STAGEDIR>
 <LINE>The shame hereof will make me hide my head.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit TALBOT. Alarum; retreat; flourish</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VI.  The same.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VI.  The same.</TITLE>
+
 <STAGEDIR>Enter, on the walls, JOAN LA PUCELLE, CHARLES,
 REIGNIER, ALENCON, and Soldiers</STAGEDIR>
 
@@ -1318,15 +1315,20 @@ REIGNIER, ALENCON, and Soldiers</STAGEDIR>
 <LINE>After this golden day of victory.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Flourish. Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT II</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Before Orleans.</TITLE>
+<TITLE>ACT II</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Before Orleans.</TITLE>
+
 <STAGEDIR>Enter a Sergeant of a band with two Sentinels</STAGEDIR>
 
 <SPEECH>
@@ -1345,7 +1347,6 @@ REIGNIER, ALENCON, and Soldiers</STAGEDIR>
 <LINE>When others sleep upon their quiet beds,</LINE>
 <LINE>Constrain'd to watch in darkness, rain and cold.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter TALBOT, BEDFORD, BURGUNDY, and Forces, with
 scaling-ladders, their drums beating a dead march</STAGEDIR>
@@ -1483,7 +1484,6 @@ ALENCON, and REIGNIER, half ready, and half unready</STAGEDIR>
 <LINE>Tut, holy Joan was his defensive guard.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter CHARLES and JOAN LA PUCELLE</STAGEDIR>
 
 <SPEECH>
@@ -1547,7 +1547,6 @@ ALENCON, and REIGNIER, half ready, and half unready</STAGEDIR>
 <LINE>And lay new platforms to endamage them.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Alarum. Enter an English Soldier, crying 'A
 Talbot! a Talbot!' They fly, leaving their
 clothes behind</STAGEDIR>
@@ -1560,11 +1559,14 @@ clothes behind</STAGEDIR>
 <LINE>Using no other weapon but his name.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Orleans. Within the town.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Orleans. Within the town.</TITLE>
+
 <STAGEDIR>Enter TALBOT, BEDFORD, BURGUNDY, a Captain, and others</STAGEDIR>
 
 <SPEECH>
@@ -1573,7 +1575,6 @@ clothes behind</STAGEDIR>
 <LINE>Whose pitchy mantle over-veil'd the earth.</LINE>
 <LINE>Here sound retreat, and cease our hot pursuit.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Retreat sounded</STAGEDIR>
 
@@ -1618,7 +1619,6 @@ clothes behind</STAGEDIR>
 <LINE>After that things are set in order here,</LINE>
 <LINE>We'll follow them with all the power we have.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter a Messenger</STAGEDIR>
 
@@ -1683,11 +1683,14 @@ clothes behind</STAGEDIR>
 <LINE>I do, my lord, and mean accordingly.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Auvergne. The COUNTESS's castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Auvergne. The COUNTESS's castle.</TITLE>
+
 <STAGEDIR>Enter the COUNTESS and her Porter</STAGEDIR>
 
 <SPEECH>
@@ -1701,7 +1704,6 @@ clothes behind</STAGEDIR>
 <LINE>Madam, I will.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -1714,7 +1716,6 @@ clothes behind</STAGEDIR>
 <LINE>Fain would mine eyes be witness with mine ears,</LINE>
 <LINE>To give their censure of these rare reports.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter Messenger and TALBOT</STAGEDIR>
 
@@ -1772,7 +1773,6 @@ clothes behind</STAGEDIR>
 <LINE>Marry, for that she's in a wrong belief,</LINE>
 <LINE>I go to certify her Talbot's here.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter Porter with keys</STAGEDIR>
 
@@ -1890,11 +1890,14 @@ ordnance. Enter soldiers</STAGEDIR>
 <LINE>To feast so great a warrior in my house.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  London. The Temple-garden.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  London. The Temple-garden.</TITLE>
+
 <STAGEDIR>Enter the Earls of SOMERSET, SUFFOLK, and WARWICK;
 RICHARD PLANTAGENET, VERNON, and another Lawyer</STAGEDIR>
 
@@ -2173,14 +2176,12 @@ RICHARD PLANTAGENET, VERNON, and another Lawyer</STAGEDIR>
 <LINE>And so farewell until I meet thee next.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>SOMERSET</SPEAKER>
 <LINE>Have with thee, Pole. Farewell, ambitious Richard.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -2228,11 +2229,14 @@ RICHARD PLANTAGENET, VERNON, and another Lawyer</STAGEDIR>
 <LINE>This quarrel will drink blood another day.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  The Tower of London.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  The Tower of London.</TITLE>
+
 <STAGEDIR>Enter MORTIMER, brought in a chair, and Gaolers</STAGEDIR>
 
 <SPEECH>
@@ -2278,7 +2282,6 @@ RICHARD PLANTAGENET, VERNON, and another Lawyer</STAGEDIR>
 <LINE>I would his troubles likewise were expired,</LINE>
 <LINE>That so he might recover what was lost.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter RICHARD PLANTAGENET</STAGEDIR>
 
@@ -2420,7 +2423,6 @@ RICHARD PLANTAGENET, VERNON, and another Lawyer</STAGEDIR>
 <LINE>And prosperous be thy life in peace and war!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Dies</STAGEDIR>
 
 <SPEECH>
@@ -2443,15 +2445,20 @@ RICHARD PLANTAGENET, VERNON, and another Lawyer</STAGEDIR>
 <LINE>Or make my ill the advantage of my good.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT III</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  London. The Parliament-house.</TITLE>
+<TITLE>ACT III</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  London. The Parliament-house.</TITLE>
+
 <STAGEDIR>Flourish. Enter KING HENRY VI, EXETER, GLOUCESTER,
 WARWICK, SOMERSET, and SUFFOLK; the BISHOP OF
 WINCHESTER, RICHARD PLANTAGENET, and others.
@@ -2622,7 +2629,6 @@ WINCHESTER snatches it, and tears it</STAGEDIR>
 <LINE>Begun through malice of the bishop's men.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>A noise again, 'Stones! stones!' Enter Mayor</STAGEDIR>
 
 <SPEECH>
@@ -2638,7 +2644,6 @@ WINCHESTER snatches it, and tears it</STAGEDIR>
 <LINE>Our windows are broke down in every street</LINE>
 <LINE>And we for fear compell'd to shut our shops.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter Serving-men, in skirmish, with bloody pates</STAGEDIR>
 
@@ -2659,7 +2664,6 @@ WINCHESTER snatches it, and tears it</STAGEDIR>
 <SPEAKER>Second Serving-man</SPEAKER>
 <LINE>Do what ye dare, we are as resolute.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Skirmish again</STAGEDIR>
 
@@ -2686,7 +2690,6 @@ WINCHESTER snatches it, and tears it</STAGEDIR>
 <LINE>Ay, and the very parings of our nails</LINE>
 <LINE>Shall pitch a field when we are dead.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Begin again</STAGEDIR>
 
@@ -2800,7 +2803,6 @@ WINCHESTER snatches it, and tears it</STAGEDIR>
 <LINE>And I will see what physic the tavern affords.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt Serving-men, Mayor, &amp;c</STAGEDIR>
 
 <SPEECH>
@@ -2897,7 +2899,6 @@ WINCHESTER snatches it, and tears it</STAGEDIR>
 <LINE>Your ships already are in readiness.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Sennet. Flourish. Exeunt all but EXETER</STAGEDIR>
 
 <SPEECH>
@@ -2919,11 +2920,14 @@ WINCHESTER snatches it, and tears it</STAGEDIR>
 <LINE>His days may finish ere that hapless time.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  France. Before Rouen.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  France. Before Rouen.</TITLE>
+
 <STAGEDIR>Enter JOAN LA PUCELLE disguised, with four Soldiers
 with sacks upon their backs</STAGEDIR>
 
@@ -2946,7 +2950,6 @@ with sacks upon their backs</STAGEDIR>
 <LINE>And we be lords and rulers over Rouen;</LINE>
 <LINE>Therefore we'll knock.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Knocks</STAGEDIR>
 
@@ -2995,7 +2998,6 @@ REIGNIER, and forces</STAGEDIR>
 <LINE>No way to that, for weakness, which she enter'd.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter JOAN LA PUCELLE on the top, thrusting out a
 torch burning</STAGEDIR>
 
@@ -3005,7 +3007,6 @@ torch burning</STAGEDIR>
 <LINE>That joineth Rouen unto her countrymen,</LINE>
 <LINE>But burning fatal to the Talbotites!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -3133,7 +3134,6 @@ ALENCON, and REIGNIER, on the walls</STAGEDIR>
 <LINE>That we are here.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt from the walls</STAGEDIR>
 
 <SPEECH>
@@ -3219,7 +3219,6 @@ a Captain</STAGEDIR>
 <LINE>All the Talbots in the world, to save my life!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -3286,11 +3285,14 @@ and CHARLES fly</STAGEDIR>
 <LINE>For that's the end of human misery.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The plains near Rouen.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The plains near Rouen.</TITLE>
+
 <STAGEDIR>Enter CHARLES, the BASTARD OF ORLEANS, ALENCON, JOAN
 LA PUCELLE, and forces</STAGEDIR>
 
@@ -3364,7 +3366,6 @@ at a distance, TALBOT and his forces</STAGEDIR>
 <LINE>Fortune in favour makes him lag behind.</LINE>
 <LINE>Summon a parley; we will talk with him.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Trumpets sound a parley</STAGEDIR>
 
@@ -3488,11 +3489,14 @@ at a distance, TALBOT and his forces</STAGEDIR>
 <LINE>And seek how we may prejudice the foe.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Paris. The palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Paris. The palace.</TITLE>
+
 <STAGEDIR>Enter KING HENRY VI, GLOUCESTER, BISHOP OF
 WINCHESTER, YORK, SUFFOLK, SOMERSET, WARWICK,
 EXETER, VERNON BASSET, and others. To them
@@ -3513,7 +3517,6 @@ with his Soldiers, TALBOT</STAGEDIR>
 <LINE>Ascribes the glory of his conquest got</LINE>
 <LINE>First to my God and next unto your grace.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Kneels</STAGEDIR>
 
@@ -3543,7 +3546,6 @@ with his Soldiers, TALBOT</STAGEDIR>
 <LINE>We here create you Earl of Shrewsbury;</LINE>
 <LINE>And in our coronation take your place.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Sennet. Flourish. Exeunt all but VERNON and BASSET</STAGEDIR>
 
@@ -3577,7 +3579,6 @@ with his Soldiers, TALBOT</STAGEDIR>
 <LINE>Hark ye; not so: in witness, take ye that.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Strikes him</STAGEDIR>
 
 <SPEECH>
@@ -3596,15 +3597,20 @@ with his Soldiers, TALBOT</STAGEDIR>
 <LINE>And, after, meet you sooner than you would.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT IV</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Paris. A hall of state.</TITLE>
+<TITLE>ACT IV</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Paris. A hall of state.</TITLE>
+
 <STAGEDIR>Enter KING HENRY VI, GLOUCESTER, BISHOP OF
 WINCHESTER, YORK, SUFFOLK, SOMERSET, WARWICK,
 TALBOT, EXETER, the Governor, of Paris, and others</STAGEDIR>
@@ -3628,7 +3634,6 @@ TALBOT, EXETER, the Governor, of Paris, and others</STAGEDIR>
 <LINE>Malicious practises against his state:</LINE>
 <LINE>This shall ye do, so help you righteous God!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter FASTOLFE</STAGEDIR>
 
@@ -3945,7 +3950,6 @@ TALBOT, EXETER, the Governor, of Paris, and others</STAGEDIR>
 <LINE>With Charles, Alencon and that traitorous rout.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Flourish. Exeunt all but YORK, WARWICK, EXETER
 and VERNON</STAGEDIR>
 
@@ -3973,7 +3977,6 @@ and VERNON</STAGEDIR>
 <LINE>Other affairs must now be managed.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt all but EXETER</STAGEDIR>
 
 <SPEECH>
@@ -3993,11 +3996,14 @@ and VERNON</STAGEDIR>
 <LINE>There comes the rain, there begins confusion.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Before Bourdeaux.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Before Bourdeaux.</TITLE>
+
 <STAGEDIR>Enter TALBOT, with trump and drum</STAGEDIR>
 
 <SPEECH>
@@ -4051,7 +4057,6 @@ and VERNON</STAGEDIR>
 <LINE>And mine shall ring thy dire departure out.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt General, &amp;c</STAGEDIR>
 
 <SPEECH>
@@ -4073,11 +4078,14 @@ and VERNON</STAGEDIR>
 <LINE>Prosper our colours in this dangerous fight!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Plains in Gascony.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Plains in Gascony.</TITLE>
+
 <STAGEDIR>Enter a Messenger that meets YORK. Enter YORK
 with trumpet and many Soldiers</STAGEDIR>
 
@@ -4108,7 +4116,6 @@ with trumpet and many Soldiers</STAGEDIR>
 <LINE>God comfort him in this necessity!</LINE>
 <LINE>If he miscarry, farewell wars in France.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter Sir William LUCY</STAGEDIR>
 
@@ -4166,7 +4173,6 @@ with trumpet and many Soldiers</STAGEDIR>
 <LINE>'Long all of Somerset and his delay.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit, with his soldiers</STAGEDIR>
 
 <SPEECH>
@@ -4180,11 +4186,14 @@ with trumpet and many Soldiers</STAGEDIR>
 <LINE>Lives, honours, lands and all hurry to loss.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Other plains in Gascony.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Other plains in Gascony.</TITLE>
+
 <STAGEDIR>Enter SOMERSET, with his army; a Captain of
 TALBOT's with him</STAGEDIR>
 
@@ -4206,7 +4215,6 @@ TALBOT's with him</STAGEDIR>
 <LINE>Here is Sir William Lucy, who with me</LINE>
 <LINE>Set from our o'ermatch'd forces forth for aid.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter Sir William LUCY</STAGEDIR>
 
@@ -4285,11 +4293,14 @@ TALBOT's with him</STAGEDIR>
 <LINE>His fame lives in the world, his shame in you.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  The English camp near Bourdeaux.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  The English camp near Bourdeaux.</TITLE>
+
 <STAGEDIR>Enter TALBOT and JOHN his son</STAGEDIR>
 
 <SPEECH>
@@ -4423,11 +4434,14 @@ TALBOT's with him</STAGEDIR>
 <LINE>And soul with soul from France to heaven fly.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VI.  A field of battle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VI.  A field of battle.</TITLE>
+
 <STAGEDIR>Alarum: excursions, wherein JOHN TALBOT is
 hemmed about, and TALBOT rescues him</STAGEDIR>
 
@@ -4508,11 +4522,14 @@ hemmed about, and TALBOT rescues him</STAGEDIR>
 <LINE>And, commendable proved, let's die in pride.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VII.  Another part of the field.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VII.  Another part of the field.</TITLE>
+
 <STAGEDIR>Alarum: excursions. Enter TALBOT led by a Servant</STAGEDIR>
 
 <SPEECH>
@@ -4539,7 +4556,6 @@ hemmed about, and TALBOT rescues him</STAGEDIR>
 <SPEAKER>Servant</SPEAKER>
 <LINE>O, my dear lord, lo, where your son is borne!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter Soldiers, with the body of JOHN TALBOT</STAGEDIR>
 
@@ -4607,7 +4623,6 @@ ORLEANS, JOAN LA PUCELLE, and forces</STAGEDIR>
 <LINE>O, no, forbear! for that which we have fled</LINE>
 <LINE>During the life, let us not wrong it dead.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter Sir William LUCY, attended; Herald of the
 French preceding</STAGEDIR>
@@ -4702,15 +4717,20 @@ French preceding</STAGEDIR>
 <LINE>All will be ours, now bloody Talbot's slain.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT V</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  London. The palace.</TITLE>
+<TITLE>ACT V</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  London. The palace.</TITLE>
+
 <STAGEDIR>Sennet. Enter KING HENRY VI, GLOUCESTER, and EXETER</STAGEDIR>
 
 <SPEECH>
@@ -4768,7 +4788,6 @@ French preceding</STAGEDIR>
 <LINE>Tends to God's glory and my country's weal.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter CARDINAL OF WINCHESTER in Cardinal's habit,
 a Legate and two Ambassadors</STAGEDIR>
 
@@ -4810,7 +4829,6 @@ a Legate and two Ambassadors</STAGEDIR>
 <LINE>Commit them to the fortune of the sea.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt all but CARDINAL OF WINCHESTER and Legate</STAGEDIR>
 
 <SPEECH>
@@ -4837,11 +4855,14 @@ a Legate and two Ambassadors</STAGEDIR>
 <LINE>Or sack this country with a mutiny.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  France. Plains in Anjou.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  France. Plains in Anjou.</TITLE>
+
 <STAGEDIR>Enter CHARLES, BURGUNDY, ALENCON, BASTARD OF
 ORLEANS, REIGNIER, JOAN LA PUCELLE, and forces</STAGEDIR>
 
@@ -4863,7 +4884,6 @@ ORLEANS, REIGNIER, JOAN LA PUCELLE, and forces</STAGEDIR>
 <LINE>Peace be amongst them, if they turn to us;</LINE>
 <LINE>Else, ruin combat with their palaces!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter Scout</STAGEDIR>
 
@@ -4909,11 +4929,14 @@ ORLEANS, REIGNIER, JOAN LA PUCELLE, and forces</STAGEDIR>
 <LINE>Then on, my lords; and France be fortunate!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Before Angiers.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Before Angiers.</TITLE>
+
 <STAGEDIR>Alarum. Excursions. Enter JOAN LA PUCELLE</STAGEDIR>
 
 <SPEECH>
@@ -5290,14 +5313,12 @@ French fly</STAGEDIR>
 <LINE>To give thee answer of thy just demand.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit from the walls</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>SUFFOLK</SPEAKER>
 <LINE>And here I will expect thy coming.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Trumpets sound. Enter REIGNIER, below</STAGEDIR>
 
@@ -5363,7 +5384,6 @@ French fly</STAGEDIR>
 <LINE>Shall Suffolk ever have of Margaret.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Going</STAGEDIR>
 
 <SPEECH>
@@ -5396,7 +5416,6 @@ French fly</STAGEDIR>
 <LINE>And this withal.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Kisses her</STAGEDIR>
 
 <SPEECH>
@@ -5404,7 +5423,6 @@ French fly</STAGEDIR>
 <LINE>That for thyself: I will not so presume</LINE>
 <LINE>To send such peevish tokens to a king.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt REIGNIER and MARGARET</STAGEDIR>
 
@@ -5421,18 +5439,20 @@ French fly</STAGEDIR>
 <LINE>Thou mayst bereave him of his wits with wonder.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Camp of the YORK in Anjou.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Camp of the YORK in Anjou.</TITLE>
+
 <STAGEDIR>Enter YORK, WARWICK, and others</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>YORK</SPEAKER>
 <LINE>Bring forth that sorceress condemn'd to burn.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter JOAN LA PUCELLE, guarded, and a Shepherd</STAGEDIR>
 
@@ -5499,7 +5519,6 @@ French fly</STAGEDIR>
 <LINE>Dost thou deny thy father, cursed drab?</LINE>
 <LINE>O, burn her, burn her! hanging is too good.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -5629,7 +5648,6 @@ French fly</STAGEDIR>
 <LINE>Drive you to break your necks or hang yourselves!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit, guarded</STAGEDIR>
 
 <SPEECH>
@@ -5637,7 +5655,6 @@ French fly</STAGEDIR>
 <LINE>Break thou in pieces and consume to ashes,</LINE>
 <LINE>Thou foul accursed minister of hell!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter CARDINAL OF WINCHESTER, attended</STAGEDIR>
 
@@ -5674,7 +5691,6 @@ French fly</STAGEDIR>
 <LINE>It shall be with such strict and severe covenants</LINE>
 <LINE>As little shall the Frenchmen gain thereby.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter CHARLES, ALENCON, BASTARD OF ORLEANS,
 REIGNIER, and others</STAGEDIR>
@@ -5783,11 +5799,14 @@ REIGNIER, and others</STAGEDIR>
 <LINE>For here we entertain a solemn peace.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  London. The palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  London. The palace.</TITLE>
+
 <STAGEDIR>Enter SUFFOLK in conference with KING HENRY VI,
 GLOUCESTER and EXETER</STAGEDIR>
 
@@ -5936,14 +5955,12 @@ GLOUCESTER and EXETER</STAGEDIR>
 <LINE>I may revolve and ruminate my grief.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>GLOUCESTER</SPEAKER>
 <LINE>Ay, grief, I fear me, both at first and last.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt GLOUCESTER and EXETER</STAGEDIR>
 
@@ -5957,8 +5974,8 @@ GLOUCESTER and EXETER</STAGEDIR>
 <LINE>But I will rule both her, the king and realm.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 </ACT>
 </PLAY>

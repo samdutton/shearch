@@ -11,7 +11,6 @@
 <P>This work may be freely copied and distributed worldwide.</P>
 </FM>
 
-
 <PERSONAE>
 <TITLE>Dramatis Personae</TITLE>
 
@@ -53,9 +52,14 @@
 
 <PLAYSUBT>THE WINTER'S TALE</PLAYSUBT>
 
-<ACT><TITLE>ACT I</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Antechamber in LEONTES' palace.</TITLE>
+<TITLE>ACT I</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Antechamber in LEONTES' palace.</TITLE>
+
 <STAGEDIR>Enter CAMILLO and ARCHIDAMUS</STAGEDIR>
 
 <SPEECH>
@@ -155,11 +159,14 @@
 <LINE>on crutches till he had one.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  A room of state in the same.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  A room of state in the same.</TITLE>
+
 <STAGEDIR>Enter LEONTES, HERMIONE, MAMILLIUS,
 POLIXENES, CAMILLO, and Attendants</STAGEDIR>
 
@@ -917,7 +924,6 @@ POLIXENES, CAMILLO, and Attendants</STAGEDIR>
 <LINE>I will seem friendly, as thou hast advised me.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -937,7 +943,6 @@ POLIXENES, CAMILLO, and Attendants</STAGEDIR>
 <LINE>To me a break-neck. Happy star, reign now!</LINE>
 <LINE>Here comes Bohemia.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter POLIXENES</STAGEDIR>
 
@@ -1152,15 +1157,20 @@ POLIXENES, CAMILLO, and Attendants</STAGEDIR>
 <LINE>To take the urgent hour. Come, sir, away.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT II</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  A room in LEONTES' palace.</TITLE>
+<TITLE>ACT II</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  A room in LEONTES' palace.</TITLE>
+
 <STAGEDIR>Enter HERMIONE, MAMILLIUS, and Ladies</STAGEDIR>
 
 <SPEECH>
@@ -1293,7 +1303,6 @@ POLIXENES, CAMILLO, and Attendants</STAGEDIR>
 <LINE>Come on, then,</LINE>
 <LINE>And give't me in mine ear.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter LEONTES, with ANTIGONUS, Lords and others</STAGEDIR>
 
@@ -1471,7 +1480,6 @@ POLIXENES, CAMILLO, and Attendants</STAGEDIR>
 <LINE>Go, do our bidding; hence!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit HERMIONE, guarded; with Ladies</STAGEDIR>
 
 <SPEECH>
@@ -1628,11 +1636,14 @@ POLIXENES, CAMILLO, and Attendants</STAGEDIR>
 <LINE>If the good truth were known.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  A prison.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  A prison.</TITLE>
+
 <STAGEDIR>Enter PAULINA, a Gentleman, and Attendants</STAGEDIR>
 
 <SPEECH>
@@ -1687,7 +1698,6 @@ POLIXENES, CAMILLO, and Attendants</STAGEDIR>
 <LINE>I pray now, call her.</LINE>
 <LINE>Withdraw yourselves.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt Gentleman and Attendants</STAGEDIR>
 
@@ -1805,11 +1815,14 @@ POLIXENES, CAMILLO, and Attendants</STAGEDIR>
 <LINE>I will stand betwixt you and danger.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  A room in LEONTES' palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  A room in LEONTES' palace.</TITLE>
+
 <STAGEDIR>Enter LEONTES, ANTIGONUS, Lords, and Servants</STAGEDIR>
 
 <SPEECH>
@@ -1861,7 +1874,6 @@ POLIXENES, CAMILLO, and Attendants</STAGEDIR>
 <LINE>They should not laugh if I could reach them, nor</LINE>
 <LINE>Shall she within my power.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PAULINA, with a child</STAGEDIR>
 
@@ -1984,7 +1996,6 @@ POLIXENES, CAMILLO, and Attendants</STAGEDIR>
 <LINE>For she is good, hath brought you forth a daughter;</LINE>
 <LINE>Here 'tis; commends it to your blessing.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Laying down the child</STAGEDIR>
 
@@ -2145,7 +2156,6 @@ POLIXENES, CAMILLO, and Attendants</STAGEDIR>
 <LINE>So, so: farewell; we are gone.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -2259,7 +2269,6 @@ POLIXENES, CAMILLO, and Attendants</STAGEDIR>
 <LINE>Poor thing, condemn'd to loss!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit with the child</STAGEDIR>
 
 <SPEECH>
@@ -2267,7 +2276,6 @@ POLIXENES, CAMILLO, and Attendants</STAGEDIR>
 <LINE>No, I'll not rear</LINE>
 <LINE>Another's issue.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter a Servant</STAGEDIR>
 
@@ -2300,15 +2308,20 @@ POLIXENES, CAMILLO, and Attendants</STAGEDIR>
 <LINE>And think upon my bidding.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT III</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  A sea-port in Sicilia.</TITLE>
+<TITLE>ACT III</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  A sea-port in Sicilia.</TITLE>
+
 <STAGEDIR>Enter CLEOMENES and DION</STAGEDIR>
 
 <SPEECH>
@@ -2362,11 +2375,14 @@ POLIXENES, CAMILLO, and Attendants</STAGEDIR>
 <LINE>And gracious be the issue!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  A court of Justice.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  A court of Justice.</TITLE>
+
 <STAGEDIR>Enter LEONTES, Lords, and Officers</STAGEDIR>
 
 <SPEECH>
@@ -2386,7 +2402,6 @@ POLIXENES, CAMILLO, and Attendants</STAGEDIR>
 <LINE>It is his highness' pleasure that the queen</LINE>
 <LINE>Appear in person here in court. Silence!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter HERMIONE guarded;
 PAULINA and Ladies attending</STAGEDIR>
@@ -2553,7 +2568,6 @@ PAULINA and Ladies attending</STAGEDIR>
 <LINE>And in Apollos name, his oracle.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt certain Officers</STAGEDIR>
 
 <SPEECH>
@@ -2564,7 +2578,6 @@ PAULINA and Ladies attending</STAGEDIR>
 <LINE>The flatness of my misery, yet with eyes</LINE>
 <LINE>Of pity, not revenge!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter Officers, with CLEOMENES and DION</STAGEDIR>
 
@@ -2625,7 +2638,6 @@ PAULINA and Ladies attending</STAGEDIR>
 <LINE>There is no truth at all i' the oracle:</LINE>
 <LINE>The sessions shall proceed: this is mere falsehood.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter Servant</STAGEDIR>
 
@@ -2699,7 +2711,6 @@ PAULINA and Ladies attending</STAGEDIR>
 <LINE>Thorough my rust! and how his pity</LINE>
 <LINE>Does my deeds make the blacker!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter PAULINA</STAGEDIR>
 
@@ -2818,11 +2829,14 @@ PAULINA and Ladies attending</STAGEDIR>
 <LINE>Unto these sorrows.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Bohemia. A desert country near the sea.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Bohemia. A desert country near the sea.</TITLE>
+
 <STAGEDIR>Enter ANTIGONUS with a Child, and a Mariner</STAGEDIR>
 
 <SPEECH>
@@ -2866,7 +2880,6 @@ PAULINA and Ladies attending</STAGEDIR>
 <LINE>I am glad at heart</LINE>
 <LINE>To be so rid o' the business.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -2945,7 +2958,6 @@ PAULINA and Ladies attending</STAGEDIR>
 <LINE>pity: yet I'll tarry till my son come; he hallooed</LINE>
 <LINE>but even now. Whoa, ho, hoa!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter Clown</STAGEDIR>
 
@@ -3070,15 +3082,20 @@ PAULINA and Ladies attending</STAGEDIR>
 <LINE>'Tis a lucky day, boy, and we'll do good deeds on't.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT IV</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I</TITLE>
+<TITLE>ACT IV</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I</TITLE>
+
 <STAGEDIR>Enter Time, the Chorus</STAGEDIR>
 
 <SPEECH>
@@ -3118,11 +3135,14 @@ PAULINA and Ladies attending</STAGEDIR>
 <LINE>He wishes earnestly you never may.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Bohemia. The palace of POLIXENES.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Bohemia. The palace of POLIXENES.</TITLE>
+
 <STAGEDIR>Enter POLIXENES and CAMILLO</STAGEDIR>
 
 <SPEECH>
@@ -3215,11 +3235,14 @@ PAULINA and Ladies attending</STAGEDIR>
 <LINE>My best Camillo! We must disguise ourselves.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  A road near the Shepherd's cottage.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  A road near the Shepherd's cottage.</TITLE>
+
 <STAGEDIR>Enter AUTOLYCUS, singing</STAGEDIR>
 
 <SPEECH>
@@ -3256,7 +3279,6 @@ PAULINA and Ladies attending</STAGEDIR>
 <LINE>me: for the life to come, I sleep out the thought</LINE>
 <LINE>of it. A prize! a prize!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter Clown</STAGEDIR>
 
@@ -3295,7 +3317,6 @@ PAULINA and Ladies attending</STAGEDIR>
 <SPEAKER>AUTOLYCUS</SPEAKER>
 <LINE>O that ever I was born!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Grovelling on the ground</STAGEDIR>
 
@@ -3496,11 +3517,14 @@ PAULINA and Ladies attending</STAGEDIR>
 <LINE>Your sad tires in a mile-a.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  The Shepherd's cottage.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  The Shepherd's cottage.</TITLE>
+
 <STAGEDIR>Enter FLORIZEL and PERDITA</STAGEDIR>
 
 <SPEECH>
@@ -3601,7 +3625,6 @@ PAULINA and Ladies attending</STAGEDIR>
 <LINE>Address yourself to entertain them sprightly,</LINE>
 <LINE>And let's be red with mirth.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter Shepherd, Clown, MOPSA, DORCAS, and
 others, with POLIXENES and CAMILLO disguised</STAGEDIR>
@@ -3834,7 +3857,6 @@ others, with POLIXENES and CAMILLO disguised</STAGEDIR>
 <LINE>Come, strike up!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Music. Here a dance of Shepherds and
 Shepherdesses</STAGEDIR>
 
@@ -3869,7 +3891,6 @@ Shepherdesses</STAGEDIR>
 <LINE>Do light upon her, she shall bring him that</LINE>
 <LINE>Which he not dreams of.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter Servant</STAGEDIR>
 
@@ -3937,7 +3958,6 @@ Shepherdesses</STAGEDIR>
 <LINE>Forewarn him that he use no scurrilous words in 's tunes.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit Servant</STAGEDIR>
 
 <SPEECH>
@@ -3950,7 +3970,6 @@ Shepherdesses</STAGEDIR>
 <SPEAKER>PERDITA</SPEAKER>
 <LINE>Ay, good brother, or go about to think.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter AUTOLYCUS, singing</STAGEDIR>
 
@@ -4147,7 +4166,6 @@ Shepherdesses</STAGEDIR>
 <LINE>occupation; have at it with you.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>SONG</STAGEDIR>
 
 <SPEECH>
@@ -4226,7 +4244,6 @@ Shepherdesses</STAGEDIR>
 <LINE>me. Wenches, I'll buy for you both. Pedlar, let's</LINE>
 <LINE>have the first choice. Follow me, girls.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit with DORCAS and MOPSA</STAGEDIR>
 
@@ -4539,7 +4556,6 @@ Shepherdesses</STAGEDIR>
 <LINE>As thou art tender to't.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -4578,7 +4594,6 @@ Shepherdesses</STAGEDIR>
 <LINE>If I might die within this hour, I have lived</LINE>
 <LINE>To die when I desire.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -4905,7 +4920,6 @@ Shepherdesses</STAGEDIR>
 <LINE>left a purse alive in the whole army.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>CAMILLO, FLORIZEL, and PERDITA come forward</STAGEDIR>
 
 <SPEECH>
@@ -5066,7 +5080,6 @@ Shepherdesses</STAGEDIR>
 <SPEAKER>CAMILLO</SPEAKER>
 <LINE>The swifter speed the better.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt FLORIZEL, PERDITA, and CAMILLO</STAGEDIR>
 
@@ -5433,7 +5446,6 @@ Shepherdesses</STAGEDIR>
 <LINE>Let's before as he bids us: he was provided to do us good.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt Shepherd and Clown</STAGEDIR>
 
 <SPEECH>
@@ -5452,15 +5464,20 @@ Shepherdesses</STAGEDIR>
 <LINE>them: there may be matter in it.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT V</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  A room in LEONTES' palace.</TITLE>
+<TITLE>ACT V</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  A room in LEONTES' palace.</TITLE>
+
 <STAGEDIR>Enter LEONTES, CLEOMENES, DION, PAULINA, and Servants</STAGEDIR>
 
 <SPEECH>
@@ -5666,7 +5683,6 @@ Shepherdesses</STAGEDIR>
 <LINE>Never till then.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Gentleman</STAGEDIR>
 
 <SPEECH>
@@ -5850,7 +5866,6 @@ Shepherdesses</STAGEDIR>
 <LINE>Such goodly things as you!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Lord</STAGEDIR>
 
 <SPEECH>
@@ -5990,11 +6005,14 @@ Shepherdesses</STAGEDIR>
 <LINE>And mark what way I make: come, good my lord.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Before LEONTES' palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Before LEONTES' palace.</TITLE>
+
 <STAGEDIR>Enter AUTOLYCUS and a Gentleman</STAGEDIR>
 
 <SPEECH>
@@ -6182,7 +6200,6 @@ Shepherdesses</STAGEDIR>
 <LINE>Let's along.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt Gentlemen</STAGEDIR>
 
 <SPEECH>
@@ -6327,11 +6344,14 @@ Shepherdesses</STAGEDIR>
 <LINE>good masters.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  A chapel in PAULINA'S house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  A chapel in PAULINA'S house.</TITLE>
+
 <STAGEDIR>Enter LEONTES, POLIXENES, FLORIZEL, PERDITA,
 CAMILLO, PAULINA, Lords, and Attendants</STAGEDIR>
 
@@ -6674,8 +6694,8 @@ standing like a statue</STAGEDIR>
 <LINE>We were dissever'd: hastily lead away.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 </ACT>
 </PLAY>

@@ -11,7 +11,6 @@
 <P>This work may be freely copied and distributed worldwide.</P>
 </FM>
 
-
 <PERSONAE>
 <TITLE>Dramatis Personae</TITLE>
 
@@ -53,9 +52,13 @@
 
 <PLAYSUBT>THE TEMPEST</PLAYSUBT>
 
-<ACT><TITLE>ACT I</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  On a ship at sea: a tempestuous noise of thunder and lightning heard.</TITLE>
+<TITLE>ACT I</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  On a ship at sea: a tempestuous noise of thunder and lightning heard.</TITLE>
 
 <STAGEDIR>Enter a Master and a Boatswain</STAGEDIR>
 
@@ -85,7 +88,6 @@
 <LINE>master's whistle. Blow, till thou burst thy wind,</LINE>
 <LINE>if room enough!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter ALONSO, SEBASTIAN, ANTONIO, FERDINAND,
 GONZALO, and others</STAGEDIR>
@@ -139,7 +141,6 @@ GONZALO, and others</STAGEDIR>
 <LINE>the hour, if it so hap. Cheerly, good hearts! Out</LINE>
 <LINE>of our way, I say.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -198,7 +199,6 @@ GONZALO, and others</STAGEDIR>
 <LINE>sea again; lay her off.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter Mariners wet</STAGEDIR>
 
 <SPEECH>
@@ -236,7 +236,6 @@ GONZALO, and others</STAGEDIR>
 <LINE>And gape at widest to glut him.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>A confused noise within:   'Mercy on us!'--
 'We split, we split!'--'Farewell, my wife and
 children!'--
@@ -252,7 +251,6 @@ children!'--
 <LINE>Let's take leave of him.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt ANTONIO and SEBASTIAN</STAGEDIR>
 
 <SPEECH>
@@ -263,11 +261,14 @@ children!'--
 <LINE>die a dry death.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The island. Before PROSPERO'S cell.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The island. Before PROSPERO'S cell.</TITLE>
+
 <STAGEDIR>Enter PROSPERO and MIRANDA</STAGEDIR>
 
 <SPEECH>
@@ -659,7 +660,6 @@ children!'--
 <LINE>Approach, my Ariel, come.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter ARIEL</STAGEDIR>
 
 <SPEECH>
@@ -1002,7 +1002,6 @@ children!'--
 <LINE>My lord it shall be done.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -1010,7 +1009,6 @@ children!'--
 <LINE>Thou poisonous slave, got by the devil himself</LINE>
 <LINE>Upon thy wicked dam, come forth!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter CALIBAN</STAGEDIR>
 
@@ -1321,7 +1319,6 @@ FERDINAND following</STAGEDIR>
 <LINE>Mine enemy has more power.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Draws, and is charmed from moving</STAGEDIR>
 
 <SPEECH>
@@ -1432,15 +1429,20 @@ FERDINAND following</STAGEDIR>
 <LINE>Come, follow. Speak not for him.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT II</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Another part of the island.</TITLE>
+<TITLE>ACT II</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Another part of the island.</TITLE>
+
 <STAGEDIR>Enter ALONSO, SEBASTIAN, ANTONIO, GONZALO,
 ADRIAN, FRANCISCO, and others</STAGEDIR>
 
@@ -2054,7 +2056,6 @@ ADRIAN, FRANCISCO, and others</STAGEDIR>
 <LINE>in it five weeks without changing.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter ARIEL, invisible, playing solemn music</STAGEDIR>
 
 <SPEECH>
@@ -2078,7 +2079,6 @@ ADRIAN, FRANCISCO, and others</STAGEDIR>
 <SPEAKER>ANTONIO</SPEAKER>
 <LINE>Go sleep, and hear us.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>All sleep except ALONSO, SEBASTIAN, and ANTONIO</STAGEDIR>
 
@@ -2108,7 +2108,6 @@ ADRIAN, FRANCISCO, and others</STAGEDIR>
 <SPEAKER>ALONSO</SPEAKER>
 <LINE>Thank you. Wondrous heavy.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>ALONSO sleeps. Exit ARIEL</STAGEDIR>
 
@@ -2394,7 +2393,6 @@ ADRIAN, FRANCISCO, and others</STAGEDIR>
 <LINE>Preserve the king.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>They wake</STAGEDIR>
 
 <SPEECH>
@@ -2466,11 +2464,14 @@ ADRIAN, FRANCISCO, and others</STAGEDIR>
 <LINE>So, king, go safely on to seek thy son.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Another part of the island.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Another part of the island.</TITLE>
+
 <STAGEDIR>Enter CALIBAN with a burden of wood. A noise of
 thunder heard</STAGEDIR>
 
@@ -2530,7 +2531,6 @@ thunder heard</STAGEDIR>
 <LINE>dregs of the storm be past.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter STEPHANO, singing: a bottle in his hand</STAGEDIR>
 
 <SPEECH>
@@ -2551,7 +2551,6 @@ thunder heard</STAGEDIR>
 <LINE>Then to sea, boys, and let her go hang!</LINE>
 <LINE>This is a scurvy tune too: but here's my comfort.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Drinks</STAGEDIR>
 
@@ -2860,15 +2859,20 @@ thunder heard</STAGEDIR>
 <LINE>O brave monster! Lead the way.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT III</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Before PROSPERO'S Cell.</TITLE>
+<TITLE>ACT III</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Before PROSPERO'S Cell.</TITLE>
+
 <STAGEDIR>Enter FERDINAND, bearing a log</STAGEDIR>
 
 <SPEECH>
@@ -2889,7 +2893,6 @@ thunder heard</STAGEDIR>
 <LINE>But these sweet thoughts do even refresh my labours,</LINE>
 <LINE>Most busy lest, when I do it.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter MIRANDA; and PROSPERO at a distance, unseen</STAGEDIR>
 
@@ -3079,7 +3082,6 @@ thunder heard</STAGEDIR>
 <LINE>A thousand thousand!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt FERDINAND and MIRANDA severally</STAGEDIR>
 
 <SPEECH>
@@ -3091,11 +3093,14 @@ thunder heard</STAGEDIR>
 <LINE>Much business appertaining.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Another part of the island.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Another part of the island.</TITLE>
+
 <STAGEDIR>Enter CALIBAN, STEPHANO, and TRINCULO</STAGEDIR>
 
 <SPEECH>
@@ -3204,7 +3209,6 @@ thunder heard</STAGEDIR>
 <LINE>Marry, will I kneel and repeat it; I will stand,</LINE>
 <LINE>and so shall Trinculo.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter ARIEL, invisible</STAGEDIR>
 
@@ -3435,7 +3439,6 @@ thunder heard</STAGEDIR>
 <LINE>That's not the tune.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Ariel plays the tune on a tabour and pipe</STAGEDIR>
 
 <SPEECH>
@@ -3521,11 +3524,14 @@ thunder heard</STAGEDIR>
 <LINE>Wilt come? I'll follow, Stephano.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Another part of the island.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Another part of the island.</TITLE>
+
 <STAGEDIR>Enter ALONSO, SEBASTIAN, ANTONIO, GONZALO,
 ADRIAN, FRANCISCO, and others</STAGEDIR>
 
@@ -3575,7 +3581,6 @@ ADRIAN, FRANCISCO, and others</STAGEDIR>
 <LINE><STAGEDIR>Aside to ANTONIO</STAGEDIR>  I say, to-night: no more.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Solemn and strange music</STAGEDIR>
 
 <SPEECH>
@@ -3587,7 +3592,6 @@ ADRIAN, FRANCISCO, and others</STAGEDIR>
 <SPEAKER>GONZALO</SPEAKER>
 <LINE>Marvellous sweet music!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PROSPERO above, invisible. Enter several
 strange Shapes, bringing in a banquet;
@@ -3685,7 +3689,6 @@ eat, they depart</STAGEDIR>
 <LINE>Stand to and do as we.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Thunder and lightning. Enter ARIEL, like a
 harpy; claps his wings upon the table; and,
 with a quaint device, the banquet vanishes</STAGEDIR>
@@ -3726,7 +3729,6 @@ with a quaint device, the banquet vanishes</STAGEDIR>
 <LINE>And a clear life ensuing.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>He vanishes in thunder; then, to soft music
 enter the Shapes again, and dance, with
 mocks and mows, and carrying out the table</STAGEDIR>
@@ -3745,7 +3747,6 @@ mocks and mows, and carrying out the table</STAGEDIR>
 <LINE>Young Ferdinand, whom they suppose is drown'd,</LINE>
 <LINE>And his and mine loved darling.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit above</STAGEDIR>
 
@@ -3767,7 +3768,6 @@ mocks and mows, and carrying out the table</STAGEDIR>
 <LINE>And with him there lie mudded.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -3780,7 +3780,6 @@ mocks and mows, and carrying out the table</STAGEDIR>
 <SPEAKER>ANTONIO</SPEAKER>
 <LINE>I'll be thy second.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt SEBASTIAN, and ANTONIO</STAGEDIR>
 
@@ -3799,15 +3798,20 @@ mocks and mows, and carrying out the table</STAGEDIR>
 <LINE>Follow, I pray you.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT IV</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Before PROSPERO'S cell.</TITLE>
+<TITLE>ACT IV</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Before PROSPERO'S cell.</TITLE>
+
 <STAGEDIR>Enter PROSPERO, FERDINAND, and MIRANDA</STAGEDIR>
 
 <SPEECH>
@@ -3866,7 +3870,6 @@ mocks and mows, and carrying out the table</STAGEDIR>
 <LINE>What, Ariel! my industrious servant, Ariel!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter ARIEL</STAGEDIR>
 
 <SPEECH>
@@ -3916,7 +3919,6 @@ mocks and mows, and carrying out the table</STAGEDIR>
 <LINE>Well, I conceive.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -3964,7 +3966,6 @@ mocks and mows, and carrying out the table</STAGEDIR>
 <LINE>To come and sport: her peacocks fly amain:</LINE>
 <LINE>Approach, rich Ceres, her to entertain.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter CERES</STAGEDIR>
 
@@ -4018,7 +4019,6 @@ mocks and mows, and carrying out the table</STAGEDIR>
 <LINE>Great Juno, comes; I know her by her gait.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter JUNO</STAGEDIR>
 
 <SPEECH>
@@ -4027,7 +4027,6 @@ mocks and mows, and carrying out the table</STAGEDIR>
 <LINE>To bless this twain, that they may prosperous be</LINE>
 <LINE>And honour'd in their issue.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>They sing:</STAGEDIR>
 
@@ -4072,7 +4071,6 @@ mocks and mows, and carrying out the table</STAGEDIR>
 <LINE>Makes this place Paradise.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Juno and Ceres whisper, and send Iris on
 employment</STAGEDIR>
 
@@ -4099,7 +4097,6 @@ employment</STAGEDIR>
 <LINE>And these fresh nymphs encounter every one</LINE>
 <LINE>In country footing.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter certain Reapers, properly habited: they
 join with the Nymphs in a graceful dance;
@@ -4165,7 +4162,6 @@ heavily vanish</STAGEDIR>
 <LINE>Come with a thought I thank thee, Ariel: come.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter ARIEL</STAGEDIR>
 
 <SPEECH>
@@ -4223,7 +4219,6 @@ heavily vanish</STAGEDIR>
 <LINE>I go, I go.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -4237,7 +4232,6 @@ heavily vanish</STAGEDIR>
 <STAGEDIR>Re-enter ARIEL, loaden with glistering apparel, &amp;c</STAGEDIR>
 <LINE>Come, hang them on this line.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>PROSPERO and ARIEL remain invisible. Enter
 CALIBAN, STEPHANO, and TRINCULO, all wet</STAGEDIR>
@@ -4405,7 +4399,6 @@ CALIBAN, STEPHANO, and TRINCULO, all wet</STAGEDIR>
 <LINE>Ay, and this.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>A noise of hunters heard. Enter divers Spirits,
 in shape of dogs and hounds, and hunt them about,
 PROSPERO and ARIEL setting them on</STAGEDIR>
@@ -4445,15 +4438,20 @@ driven out</STAGEDIR>
 <LINE>Follow, and do me service.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT V</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Before PROSPERO'S cell.</TITLE>
+<TITLE>ACT V</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Before PROSPERO'S cell.</TITLE>
+
 <STAGEDIR>Enter PROSPERO in his magic robes, and ARIEL</STAGEDIR>
 
 <SPEECH>
@@ -4524,7 +4522,6 @@ driven out</STAGEDIR>
 <SPEAKER>ARIEL</SPEAKER>
 <LINE>I'll fetch them, sir.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -4619,7 +4616,6 @@ observing, speaks:</STAGEDIR>
 <LINE>I drink the air before me, and return</LINE>
 <LINE>Or ere your pulse twice beat.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -4768,7 +4764,6 @@ observing, speaks:</STAGEDIR>
 <LINE>As much as me my dukedom.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Here PROSPERO discovers FERDINAND and MIRANDA
 playing at chess</STAGEDIR>
 
@@ -4806,7 +4801,6 @@ playing at chess</STAGEDIR>
 <LINE>Though the seas threaten, they are merciful;</LINE>
 <LINE>I have cursed them without cause.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Kneels</STAGEDIR>
 
@@ -4990,7 +4984,6 @@ amazedly following</STAGEDIR>
 <LINE>Some few odd lads that you remember not.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter ARIEL, driving in CALIBAN, STEPHANO
 and TRINCULO, in their stolen apparel</STAGEDIR>
 
@@ -5095,7 +5088,6 @@ and TRINCULO, in their stolen apparel</STAGEDIR>
 <LINE>This is a strange thing as e'er I look'd on.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Pointing to Caliban</STAGEDIR>
 
 <SPEECH>
@@ -5128,7 +5120,6 @@ and TRINCULO, in their stolen apparel</STAGEDIR>
 <SPEAKER>SEBASTIAN</SPEAKER>
 <LINE>Or stole it, rather.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt CALIBAN, STEPHANO, and TRINCULO</STAGEDIR>
 
@@ -5167,6 +5158,7 @@ and TRINCULO, in their stolen apparel</STAGEDIR>
 <LINE>Be free, and fare thou well! Please you, draw near.</LINE>
 </SPEECH>
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 <EPILOGUE><TITLE>EPILOGUE</TITLE>

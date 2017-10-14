@@ -11,7 +11,6 @@
 <P>This work may be freely copied and distributed worldwide.</P>
 </FM>
 
-
 <PERSONAE>
 <TITLE>Dramatis Personae</TITLE>
 
@@ -48,9 +47,14 @@
 
 <PLAYSUBT>KING LEAR</PLAYSUBT>
 
-<ACT><TITLE>ACT I</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  King Lear's palace.</TITLE>
+<TITLE>ACT I</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  King Lear's palace.</TITLE>
+
 <STAGEDIR>Enter KENT, GLOUCESTER, and EDMUND</STAGEDIR>
 
 <SPEECH>
@@ -142,7 +146,6 @@
 <LINE>again. The king is coming.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Sennet. Enter KING LEAR, CORNWALL, ALBANY,
 GONERIL, REGAN, CORDELIA, and Attendants</STAGEDIR>
 
@@ -155,7 +158,6 @@ GONERIL, REGAN, CORDELIA, and Attendants</STAGEDIR>
 <SPEAKER>GLOUCESTER</SPEAKER>
 <LINE>I shall, my liege.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt GLOUCESTER and EDMUND</STAGEDIR>
 
@@ -353,7 +355,6 @@ GONERIL, REGAN, CORDELIA, and Attendants</STAGEDIR>
 <LINE>This coronet part betwixt you.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Giving the crown</STAGEDIR>
 
 <SPEECH>
@@ -422,7 +423,6 @@ GONERIL, REGAN, CORDELIA, and Attendants</STAGEDIR>
 <SPEAKER>KING LEAR</SPEAKER>
 <LINE>O, vassal! miscreant!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Laying his hand on his sword</STAGEDIR>
 
@@ -639,7 +639,6 @@ BURGUNDY, and Attendants</STAGEDIR>
 <LINE>Come, noble Burgundy.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Flourish. Exeunt all but KING OF FRANCE, GONERIL,
 REGAN, and CORDELIA</STAGEDIR>
 
@@ -684,7 +683,6 @@ REGAN, and CORDELIA</STAGEDIR>
 <SPEAKER>KING OF FRANCE</SPEAKER>
 <LINE>Come, my fair Cordelia.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt KING OF FRANCE and CORDELIA</STAGEDIR>
 
@@ -749,11 +747,14 @@ REGAN, and CORDELIA</STAGEDIR>
 <LINE>We must do something, and i' the heat.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The Earl of Gloucester's castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The Earl of Gloucester's castle.</TITLE>
+
 <STAGEDIR>Enter EDMUND, with a letter</STAGEDIR>
 
 <SPEECH>
@@ -782,7 +783,6 @@ REGAN, and CORDELIA</STAGEDIR>
 <LINE>Now, gods, stand up for bastards!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter GLOUCESTER</STAGEDIR>
 
 <SPEECH>
@@ -797,7 +797,6 @@ REGAN, and CORDELIA</STAGEDIR>
 <SPEAKER>EDMUND</SPEAKER>
 <LINE>So please your lordship, none.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Putting up the letter</STAGEDIR>
 
@@ -1004,7 +1003,6 @@ REGAN, and CORDELIA</STAGEDIR>
 <LINE>offence, honesty! 'Tis strange.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -1154,11 +1152,14 @@ REGAN, and CORDELIA</STAGEDIR>
 <LINE>All with me's meet that I can fashion fit.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The Duke of Albany's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The Duke of Albany's palace.</TITLE>
+
 <STAGEDIR>Enter GONERIL, and OSWALD, her steward</STAGEDIR>
 
 <SPEECH>
@@ -1187,7 +1188,6 @@ REGAN, and CORDELIA</STAGEDIR>
 <SPEAKER>OSWALD</SPEAKER>
 <LINE>He's coming, madam; I hear him.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Horns within</STAGEDIR>
 
@@ -1219,11 +1219,14 @@ REGAN, and CORDELIA</STAGEDIR>
 <LINE>To hold my very course. Prepare for dinner.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  A hall in the same.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  A hall in the same.</TITLE>
+
 <STAGEDIR>Enter KENT, disguised</STAGEDIR>
 
 <SPEECH>
@@ -1236,7 +1239,6 @@ REGAN, and CORDELIA</STAGEDIR>
 <LINE>So may it come, thy master, whom thou lovest,</LINE>
 <LINE>Shall find thee full of labours.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Horns within. Enter KING LEAR, Knights, and
 Attendants</STAGEDIR>
@@ -1360,7 +1362,6 @@ Attendants</STAGEDIR>
 <LINE>So please you,--</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -1464,7 +1465,6 @@ Attendants</STAGEDIR>
 <LINE>Do you bandy looks with me, you rascal?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Striking him</STAGEDIR>
 
 <SPEECH>
@@ -1476,7 +1476,6 @@ Attendants</STAGEDIR>
 <SPEAKER>KENT</SPEAKER>
 <LINE>Nor tripped neither, you base football player.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Tripping up his heels</STAGEDIR>
 
@@ -1494,7 +1493,6 @@ Attendants</STAGEDIR>
 <LINE>wisdom? so.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Pushes OSWALD out</STAGEDIR>
 
 <SPEECH>
@@ -1510,7 +1508,6 @@ Attendants</STAGEDIR>
 <SPEAKER>Fool</SPEAKER>
 <LINE>Let me hire him too: here's my coxcomb.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Offering KENT his cap</STAGEDIR>
 
@@ -1726,7 +1723,6 @@ Attendants</STAGEDIR>
 <LINE>the parings.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter GONERIL</STAGEDIR>
 
 <SPEECH>
@@ -1861,7 +1857,6 @@ Attendants</STAGEDIR>
 <LINE>Make servants of their betters.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter ALBANY</STAGEDIR>
 
 <SPEECH>
@@ -1922,7 +1917,6 @@ Attendants</STAGEDIR>
 <LINE>To have a thankless child! Away, away!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -1936,7 +1930,6 @@ Attendants</STAGEDIR>
 <LINE>But let his disposition have that scope</LINE>
 <LINE>That dotage gives it.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter KING LEAR</STAGEDIR>
 
@@ -1973,7 +1966,6 @@ Attendants</STAGEDIR>
 <LINE>I warrant thee.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt KING LEAR, KENT, and Attendants</STAGEDIR>
 
 <SPEECH>
@@ -2004,7 +1996,6 @@ Attendants</STAGEDIR>
 <LINE>If my cap would buy a halter:</LINE>
 <LINE>So the fool follows after.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -2072,11 +2063,14 @@ Attendants</STAGEDIR>
 <LINE>Well, well; the event.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  Court before the same.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  Court before the same.</TITLE>
+
 <STAGEDIR>Enter KING LEAR, KENT, and Fool</STAGEDIR>
 
 <SPEECH>
@@ -2092,7 +2086,6 @@ Attendants</STAGEDIR>
 <LINE>I will not sleep, my lord, till I have delivered</LINE>
 <LINE>your letter.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -2247,15 +2240,20 @@ Attendants</STAGEDIR>
 <LINE>Shall not be a maid long, unless things be cut shorter.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT II</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  GLOUCESTER's castle.</TITLE>
+<TITLE>ACT II</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  GLOUCESTER's castle.</TITLE>
+
 <STAGEDIR>Enter EDMUND, and CURAN meets him</STAGEDIR>
 
 <SPEECH>
@@ -2303,7 +2301,6 @@ Attendants</STAGEDIR>
 <LINE>You may do, then, in time. Fare you well, sir.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -2344,7 +2341,6 @@ Attendants</STAGEDIR>
 <LINE>Do more than this in sport. Father, father!</LINE>
 <LINE>Stop, stop! No help?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter GLOUCESTER, and Servants with torches</STAGEDIR>
 
@@ -2447,7 +2443,6 @@ Attendants</STAGEDIR>
 <LINE>Loyal and natural boy, I'll work the means</LINE>
 <LINE>To make thee capable.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter CORNWALL, REGAN, and Attendants</STAGEDIR>
 
@@ -2581,11 +2576,14 @@ Attendants</STAGEDIR>
 <LINE>Your graces are right welcome.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Before Gloucester's castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Before Gloucester's castle.</TITLE>
+
 <STAGEDIR>Enter KENT and OSWALD, severally</STAGEDIR>
 
 <SPEECH>
@@ -2675,7 +2673,6 @@ Attendants</STAGEDIR>
 <LINE>draw, you whoreson cullionly barber-monger, draw.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Drawing his sword</STAGEDIR>
 
 <SPEECH>
@@ -2702,14 +2699,12 @@ Attendants</STAGEDIR>
 <LINE>slave, strike.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Beating him</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>OSWALD</SPEAKER>
 <LINE>Help, ho! murder! murder!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter EDMUND, with his rapier drawn, CORNWALL,
 REGAN, GLOUCESTER, and Servants</STAGEDIR>
@@ -2968,7 +2963,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>Our sister speaks of. Come, bring away the stocks!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Stocks brought out</STAGEDIR>
 
 <SPEECH>
@@ -2997,7 +2991,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>Come, my good lord, away.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt all but GLOUCESTER and KENT</STAGEDIR>
 
 <SPEECH>
@@ -3020,7 +3013,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>The duke's to blame in this; 'twill be ill taken.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -3041,11 +3033,14 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>Fortune, good night: smile once more: turn thy wheel!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Sleeps</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  A wood.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  A wood.</TITLE>
+
 <STAGEDIR>Enter EDGAR</STAGEDIR>
 
 <SPEECH>
@@ -3073,11 +3068,14 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>That's something yet: Edgar I nothing am.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Before GLOUCESTER's castle. KENT in the stocks.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Before GLOUCESTER's castle. KENT in the stocks.</TITLE>
+
 <STAGEDIR>Enter KING LEAR, Fool, and Gentleman</STAGEDIR>
 
 <SPEECH>
@@ -3234,7 +3232,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>Stay here.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -3290,7 +3287,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <SPEAKER>Fool</SPEAKER>
 <LINE>Not i' the stocks, fool.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter KING LEAR with GLOUCESTER</STAGEDIR>
 
@@ -3361,7 +3357,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>I would have all well betwixt you.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -3378,7 +3373,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>kindness to his horse, buttered his hay.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter CORNWALL, REGAN, GLOUCESTER, and Servants</STAGEDIR>
 
 <SPEECH>
@@ -3390,7 +3384,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <SPEAKER>CORNWALL</SPEAKER>
 <LINE>Hail to your grace!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>KENT is set at liberty</STAGEDIR>
 
@@ -3524,7 +3517,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>Who put my man i' the stocks?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Tucket within</STAGEDIR>
 
 <SPEECH>
@@ -3613,7 +3605,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>Persuade me rather to be slave and sumpter</LINE>
 <LINE>To this detested groom.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Pointing at OSWALD</STAGEDIR>
 
@@ -3791,7 +3782,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>Follow'd the old man forth: he is return'd.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter GLOUCESTER</STAGEDIR>
 
 <SPEECH>
@@ -3842,15 +3832,20 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>My Regan counsels well; come out o' the storm.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT III</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  A heath.</TITLE>
+<TITLE>ACT III</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  A heath.</TITLE>
+
 <STAGEDIR>Storm still. Enter KENT and a Gentleman, meeting</STAGEDIR>
 
 <SPEECH>
@@ -3955,11 +3950,14 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>Holla the other.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt severally</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Another part of the heath. Storm still.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Another part of the heath. Storm still.</TITLE>
+
 <STAGEDIR>Enter KING LEAR and Fool</STAGEDIR>
 
 <SPEECH>
@@ -4019,7 +4017,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>No, I will be the pattern of all patience;</LINE>
 <LINE>I will say nothing.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter KENT</STAGEDIR>
 
@@ -4100,7 +4097,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>True, my good boy. Come, bring us to this hovel.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt KING LEAR and KENT</STAGEDIR>
 
 <SPEECH>
@@ -4124,11 +4120,14 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>This prophecy Merlin shall make; for I live before his time.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Gloucester's castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Gloucester's castle.</TITLE>
+
 <STAGEDIR>Enter GLOUCESTER and EDMUND</STAGEDIR>
 
 <SPEECH>
@@ -4163,7 +4162,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>some strange thing toward, Edmund; pray you, be careful.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -4175,11 +4173,14 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>The younger rises when the old doth fall.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  The heath. Before a hovel.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  The heath. Before a hovel.</TITLE>
+
 <STAGEDIR>Enter KING LEAR, KENT, and Fool</STAGEDIR>
 
 <SPEECH>
@@ -4188,7 +4189,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>The tyranny of the open night's too rough</LINE>
 <LINE>For nature to endure.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Storm still</STAGEDIR>
 
@@ -4264,7 +4264,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE><STAGEDIR>Within</STAGEDIR>  Fathom and half, fathom and half! Poor Tom!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>The Fool runs out from the hovel</STAGEDIR>
 
 <SPEECH>
@@ -4288,7 +4287,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>What art thou that dost grumble there i' the straw?</LINE>
 <LINE>Come forth.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter EDGAR disguised as a mad man</STAGEDIR>
 
@@ -4320,7 +4318,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>charity, whom the foul fiend vexes: there could I</LINE>
 <LINE>have him now,--and there,--and there again, and there.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Storm still</STAGEDIR>
 
@@ -4401,7 +4398,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>Dolphin my boy, my boy, sessa! let him trot by.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Storm still</STAGEDIR>
 
 <SPEECH>
@@ -4417,7 +4413,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>come unbutton here.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Tearing off his clothes</STAGEDIR>
 
 <SPEECH>
@@ -4427,7 +4422,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>like an old lecher's heart; a small spark, all the</LINE>
 <LINE>rest on's body cold. Look, here comes a walking fire.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter GLOUCESTER, with a torch</STAGEDIR>
 
@@ -4625,11 +4619,14 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>I smell the blood of a British man.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  Gloucester's castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  Gloucester's castle.</TITLE>
+
 <STAGEDIR>Enter CORNWALL and EDMUND</STAGEDIR>
 
 <SPEECH>
@@ -4693,11 +4690,14 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>dearer father in my love.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VI.  A chamber in a farmhouse adjoining the castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VI.  A chamber in a farmhouse adjoining the castle.</TITLE>
+
 <STAGEDIR>Enter GLOUCESTER, KING LEAR, KENT, Fool, and EDGAR</STAGEDIR>
 
 <SPEECH>
@@ -4712,7 +4712,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>All the power of his wits have given way to his</LINE>
 <LINE>impatience: the gods reward your kindness!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit GLOUCESTER</STAGEDIR>
 
@@ -4913,7 +4912,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>And I'll go to bed at noon.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter GLOUCESTER</STAGEDIR>
 
 <SPEECH>
@@ -4956,7 +4954,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>Come, come, away.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt all but EDGAR</STAGEDIR>
 
 <SPEECH>
@@ -4977,11 +4974,14 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>Lurk, lurk.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VII.  Gloucester's castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VII.  Gloucester's castle.</TITLE>
+
 <STAGEDIR>Enter CORNWALL, REGAN, GONERIL, EDMUND, and Servants</STAGEDIR>
 
 <SPEECH>
@@ -4990,7 +4990,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>this letter: the army of France is landed. Seek</LINE>
 <LINE>out the villain Gloucester.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt some of the Servants</STAGEDIR>
 
@@ -5051,7 +5050,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>May blame, but not control. Who's there? the traitor?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter GLOUCESTER, brought in by two or three</STAGEDIR>
 
 <SPEECH>
@@ -5075,7 +5073,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>Bind him, I say.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Servants bind him</STAGEDIR>
 
 <SPEECH>
@@ -5092,7 +5089,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <SPEAKER>CORNWALL</SPEAKER>
 <LINE>To this chair bind him. Villain, thou shalt find--</LINE>
 </SPEECH>
-
 
 <STAGEDIR>REGAN plucks his beard</STAGEDIR>
 
@@ -5245,7 +5241,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>My villain!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>They draw and fight</STAGEDIR>
 
 <SPEECH>
@@ -5258,7 +5253,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>Give me thy sword. A peasant stand up thus!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Takes a sword, and runs at him behind</STAGEDIR>
 
 <SPEECH>
@@ -5266,7 +5260,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>O, I am slain! My lord, you have one eye left</LINE>
 <LINE>To see some mischief on him. O!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Dies</STAGEDIR>
 
@@ -5313,7 +5306,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>Untimely comes this hurt: give me your arm.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit CORNWALL, led by REGAN</STAGEDIR>
 
 <SPEECH>
@@ -5342,15 +5334,20 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>To apply to his bleeding face. Now, heaven help him!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt severally</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT IV</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  The heath.</TITLE>
+<TITLE>ACT IV</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  The heath.</TITLE>
+
 <STAGEDIR>Enter EDGAR</STAGEDIR>
 
 <SPEECH>
@@ -5493,7 +5490,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>Come on't what will.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -5568,11 +5564,14 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>Poor Tom shall lead thee.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Before ALBANY's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Before ALBANY's palace.</TITLE>
+
 <STAGEDIR>Enter GONERIL and EDMUND</STAGEDIR>
 
 <SPEECH>
@@ -5717,7 +5716,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>Marry, your manhood now--</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Messenger</STAGEDIR>
 
 <SPEECH>
@@ -5771,7 +5769,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>The news is not so tart.--I'll read, and answer.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -5814,11 +5811,14 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>Tell me what more thou know'st.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The French camp near Dover.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The French camp near Dover.</TITLE>
+
 <STAGEDIR>Enter KENT and a Gentleman</STAGEDIR>
 
 <SPEECH>
@@ -5967,11 +5967,14 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>Along with me.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  The same. A tent.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  The same. A tent.</TITLE>
+
 <STAGEDIR>Enter, with drum and colours, CORDELIA, Doctor, and Soldiers</STAGEDIR>
 
 <SPEECH>
@@ -6009,7 +6012,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>That wants the means to lead it.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Messenger</STAGEDIR>
 
 <SPEECH>
@@ -6030,11 +6032,14 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>Soon may I hear and see him!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  Gloucester's castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  Gloucester's castle.</TITLE>
+
 <STAGEDIR>Enter REGAN and OSWALD</STAGEDIR>
 
 <SPEECH>
@@ -6158,11 +6163,14 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>Fare thee well.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VI.  Fields near Dover.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VI.  Fields near Dover.</TITLE>
+
 <STAGEDIR>Enter GLOUCESTER, and EDGAR dressed like a peasant</STAGEDIR>
 
 <SPEECH>
@@ -6281,7 +6289,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>Burn itself out. If Edgar live, O, bless him!</LINE>
 <LINE>Now, fellow, fare thee well.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>He falls forward</STAGEDIR>
 
@@ -6595,7 +6602,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>Then, kill, kill, kill, kill, kill, kill!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Gentleman, with Attendants</STAGEDIR>
 
 <SPEECH>
@@ -6647,7 +6653,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>Then there's life in't. Nay, if you get it, you</LINE>
 <LINE>shall get it with running. Sa, sa, sa, sa.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit running; Attendants follow</STAGEDIR>
 
@@ -6708,7 +6713,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>I thank you, sir.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit Gentleman</STAGEDIR>
 
 <SPEECH>
@@ -6743,7 +6747,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>To boot, and boot!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter OSWALD</STAGEDIR>
 
 <SPEECH>
@@ -6760,7 +6763,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>Now let thy friendly hand</LINE>
 <LINE>Put strength enough to't.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>EDGAR interposes</STAGEDIR>
 
@@ -6803,7 +6805,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>your foins.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>They fight, and EDGAR knocks him down</STAGEDIR>
 
 <SPEECH>
@@ -6814,7 +6815,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>To Edmund earl of Gloucester; seek him out</LINE>
 <LINE>Upon the British party: O, untimely death!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Dies</STAGEDIR>
 
@@ -6878,11 +6878,13 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>Come, father, I'll bestow you with a friend.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VII.  A tent in the French camp. LEAR on a bed asleep, soft music playing; Gentleman, and others attending.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VII.  A tent in the French camp. LEAR on a bed asleep, soft music playing; Gentleman, and others attending.</TITLE>
 
 <STAGEDIR>Enter CORDELIA, KENT, and Doctor</STAGEDIR>
 
@@ -7124,7 +7126,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>Pray you now, forget and forgive: I am old and foolish.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt all but KENT and Gentleman</STAGEDIR>
 
 <SPEECH>
@@ -7165,7 +7166,6 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>well, sir.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -7174,15 +7174,20 @@ REGAN, GLOUCESTER, and Servants</STAGEDIR>
 <LINE>Or well or ill, as this day's battle's fought.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT V</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  The British camp, near Dover.</TITLE>
+<TITLE>ACT V</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  The British camp, near Dover.</TITLE>
+
 <STAGEDIR>Enter, with drum and colours, EDMUND, REGAN,
 Gentlemen, and Soldiers.
 
@@ -7249,7 +7254,6 @@ And self-reproving: bring his constant pleasure.
 <LINE>Fear me not:</LINE>
 <LINE>She and the duke her husband!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter, with drum and colours, ALBANY, GONERIL, and Soldiers</STAGEDIR>
 
@@ -7319,7 +7323,6 @@ And self-reproving: bring his constant pleasure.
 <LINE><STAGEDIR>Aside</STAGEDIR>  O, ho, I know the riddle.--I will go.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>As they are going out, enter EDGAR disguised</STAGEDIR>
 
 <SPEECH>
@@ -7332,7 +7335,6 @@ And self-reproving: bring his constant pleasure.
 <SPEAKER>ALBANY</SPEAKER>
 <LINE>I'll overtake you. Speak.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt all but ALBANY and EDGAR</STAGEDIR>
 
@@ -7380,7 +7382,6 @@ And self-reproving: bring his constant pleasure.
 <LINE>We will greet the time.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -7402,11 +7403,14 @@ And self-reproving: bring his constant pleasure.
 <LINE>Stands on me to defend, not to debate.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  A field between the two camps.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  A field between the two camps.</TITLE>
+
 <STAGEDIR>Alarum within. Enter, with drum and colours,
 KING LEAR, CORDELIA, and Soldiers, over the stage;
 and exeunt</STAGEDIR>
@@ -7452,11 +7456,14 @@ and exeunt</STAGEDIR>
 <LINE>And that's true too.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The British camp near Dover.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The British camp near Dover.</TITLE>
+
 <STAGEDIR>Enter, in conquest, with drum and colours, EDMUND,
 KING LEAR and CORDELIA, prisoners; Captain,
 Soldiers, &amp;c</STAGEDIR>
@@ -7508,7 +7515,6 @@ Soldiers, &amp;c</STAGEDIR>
 <LINE>Ere they shall make us weep: we'll see 'em starve</LINE>
 <LINE>first. Come.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt KING LEAR and CORDELIA, guarded</STAGEDIR>
 
@@ -7747,7 +7753,6 @@ Captain, and Soldiers</STAGEDIR>
 <LINE>Sound, trumpet!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>A trumpet sounds</STAGEDIR>
 
 <SPEECH>
@@ -7764,14 +7769,12 @@ Captain, and Soldiers</STAGEDIR>
 <LINE>Sound!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>First trumpet</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>Herald</SPEAKER>
 <LINE>Again!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Second trumpet</STAGEDIR>
 
@@ -7855,7 +7858,6 @@ trumpet before him</STAGEDIR>
 <LINE>Where they shall rest for ever. Trumpets, speak!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Alarums. They fight. EDMUND falls</STAGEDIR>
 
 <SPEECH>
@@ -7879,7 +7881,6 @@ trumpet before him</STAGEDIR>
 <LINE>No tearing, lady: I perceive you know it.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Gives the letter to EDMUND</STAGEDIR>
 
 <SPEECH>
@@ -7898,7 +7899,6 @@ trumpet before him</STAGEDIR>
 <SPEAKER>GONERIL</SPEAKER>
 <LINE>Ask me not what I know.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -8021,7 +8021,6 @@ trumpet before him</STAGEDIR>
 <LINE>Improper for a slave.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Gentleman, with a bloody knife</STAGEDIR>
 
 <SPEECH>
@@ -8098,7 +8097,6 @@ trumpet before him</STAGEDIR>
 <LINE>See'st thou this object, Kent?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>The bodies of GONERIL and REGAN are brought in</STAGEDIR>
 
 <SPEECH>
@@ -8148,7 +8146,6 @@ trumpet before him</STAGEDIR>
 <SPEAKER>ALBANY</SPEAKER>
 <LINE>Haste thee, for thy life.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit EDGAR</STAGEDIR>
 
@@ -8308,7 +8305,6 @@ EDGAR, Captain, and others following</STAGEDIR>
 <LINE>Very bootless.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Captain</STAGEDIR>
 
 <SPEECH>
@@ -8342,7 +8338,6 @@ EDGAR, Captain, and others following</STAGEDIR>
 <LINE>Do you see this? Look on her, look, her lips,</LINE>
 <LINE>Look there, look there!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Dies</STAGEDIR>
 
@@ -8402,8 +8397,8 @@ EDGAR, Captain, and others following</STAGEDIR>
 <LINE>Shall never see so much, nor live so long.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt, with a dead march</STAGEDIR>
+
 </SCENE>
 </ACT>
 </PLAY>

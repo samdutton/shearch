@@ -11,7 +11,6 @@
 <P>This work may be freely copied and distributed worldwide.</P>
 </FM>
 
-
 <PERSONAE>
 <TITLE>Dramatis Personae</TITLE>
 
@@ -60,9 +59,14 @@
 
 <PLAYSUBT>TITUS ANDRONICUS</PLAYSUBT>
 
-<ACT><TITLE>ACT I</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Rome. Before the Capitol.</TITLE>
+<TITLE>ACT I</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Rome. Before the Capitol.</TITLE>
+
 <STAGEDIR>The Tomb of the ANDRONICI appearing; the Tribunes
 and Senators aloft. Enter, below, from one side,
 SATURNINUS and his Followers; and, from the other
@@ -92,7 +96,6 @@ side, BASSIANUS and his Followers; with drum and colours</STAGEDIR>
 <LINE>But let desert in pure election shine,</LINE>
 <LINE>And, Romans, fight for freedom in your choice.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter MARCUS ANDRONICUS, aloft, with the crown</STAGEDIR>
 
@@ -146,7 +149,6 @@ side, BASSIANUS and his Followers; with drum and colours</STAGEDIR>
 <LINE>Commit my cause in balance to be weigh'd.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt the followers of BASSIANUS</STAGEDIR>
 
 <SPEECH>
@@ -178,7 +180,6 @@ side, BASSIANUS and his Followers; with drum and colours</STAGEDIR>
 <LINE>From where he circumscribed with his sword,</LINE>
 <LINE>And brought to yoke, the enemies of Rome.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Drums and trumpets sounded. Enter MARTIUS and
 MUTIUS; After them, two Men bearing a coffin
@@ -273,7 +274,6 @@ Bearers set down the coffin, and TITUS speaks</STAGEDIR>
 <LINE>Let's hew his limbs till they be clean consumed.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt LUCIUS, QUINTUS, MARTIUS, and MUTIUS, with ALARBUS</STAGEDIR>
 
 <SPEECH>
@@ -299,7 +299,6 @@ Bearers set down the coffin, and TITUS speaks</STAGEDIR>
 <LINE>When Goths were Goths and Tamora was queen--</LINE>
 <LINE>To quit the bloody wrongs upon her foes.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter LUCIUS, QUINTUS, MARTIUS and MUTIUS, with
 their swords bloody</STAGEDIR>
@@ -328,7 +327,6 @@ their swords bloody</STAGEDIR>
 <LINE>In peace and honour rest you here, my sons!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter LAVINIA</STAGEDIR>
 
 <SPEECH>
@@ -350,7 +348,6 @@ their swords bloody</STAGEDIR>
 <LINE>Lavinia, live; outlive thy father's days,</LINE>
 <LINE>And fame's eternal date, for virtue's praise!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter, below, MARCUS ANDRONICUS and Tribunes;
 re-enter SATURNINUS and BASSIANUS, attended</STAGEDIR>
@@ -481,7 +478,6 @@ re-enter SATURNINUS and BASSIANUS, attended</STAGEDIR>
 <LINE>And say 'Long live our Emperor Saturnine!'</LINE>
 </SPEECH>
 
-
 <STAGEDIR>A long flourish till they come down</STAGEDIR>
 
 <SPEECH>
@@ -555,14 +551,12 @@ re-enter SATURNINUS and BASSIANUS, attended</STAGEDIR>
 <LINE>Proclaim our honours, lords, with trump and drum.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Flourish. SATURNINUS courts TAMORA in dumb show</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>BASSIANUS</SPEAKER>
 <LINE>Lord Titus, by your leave, this maid is mine.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Seizing LAVINIA</STAGEDIR>
 
@@ -605,7 +599,6 @@ re-enter SATURNINUS and BASSIANUS, attended</STAGEDIR>
 <LINE>Bear his betroth'd from all the world away.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt BASSIANUS and MARCUS with LAVINIA</STAGEDIR>
 
 <SPEECH>
@@ -613,7 +606,6 @@ re-enter SATURNINUS and BASSIANUS, attended</STAGEDIR>
 <LINE>Brothers, help to convey her hence away,</LINE>
 <LINE>And with my sword I'll keep this door safe.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt LUCIUS, QUINTUS, and MARTIUS</STAGEDIR>
 
@@ -632,7 +624,6 @@ re-enter SATURNINUS and BASSIANUS, attended</STAGEDIR>
 <LINE>What, villain boy!</LINE>
 <LINE>Barr'st me my way in Rome?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Stabbing MUTIUS</STAGEDIR>
 
@@ -664,7 +655,6 @@ CHIRON and AARON go out and re-enter, above</STAGEDIR>
 <LINE>Dead, if you will; but not to be his wife,</LINE>
 <LINE>That is another's lawful promised love.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -735,7 +725,6 @@ CHIRON and AARON go out and re-enter, above</STAGEDIR>
 <LINE>There shall we consummate our spousal rites.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt all but TITUS</STAGEDIR>
 
 <SPEECH>
@@ -744,7 +733,6 @@ CHIRON and AARON go out and re-enter, above</STAGEDIR>
 <LINE>Titus, when wert thou wont to walk alone,</LINE>
 <LINE>Dishonour'd thus, and challenged of wrongs?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter MARCUS, LUCIUS, QUINTUS, and MARTIUS</STAGEDIR>
 
@@ -831,7 +819,6 @@ CHIRON and AARON go out and re-enter, above</STAGEDIR>
 <LINE>Not I, till Mutius' bones be buried.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>MARCUS and the Sons of TITUS kneel</STAGEDIR>
 
 <SPEECH>
@@ -880,7 +867,6 @@ CHIRON and AARON go out and re-enter, above</STAGEDIR>
 <LINE>Well, bury him, and bury me the next.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>MUTIUS is put into the tomb</STAGEDIR>
 
 <SPEECH>
@@ -910,7 +896,6 @@ CHIRON and AARON go out and re-enter, above</STAGEDIR>
 <LINE>That brought her for this high good turn so far?</LINE>
 <LINE>Yes, and will nobly him remunerate.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Flourish. Re-enter, from one side, SATURNINUS
 attended, TAMORA, DEMETRIUS, CHIRON and AARON; from
@@ -1094,15 +1079,20 @@ the other, BASSIANUS, LAVINIA, and others</STAGEDIR>
 <LINE>Be it so, Titus, and gramercy too.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Flourish. Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT II</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Rome. Before the Palace.</TITLE>
+<TITLE>ACT II</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Rome. Before the Palace.</TITLE>
+
 <STAGEDIR>Enter AARON</STAGEDIR>
 
 <SPEECH>
@@ -1133,7 +1123,6 @@ the other, BASSIANUS, LAVINIA, and others</STAGEDIR>
 <LINE>And see his shipwreck and his commonweal's.</LINE>
 <LINE>Holloa! what storm is this?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter DEMETRIUS and CHIRON, braving</STAGEDIR>
 
@@ -1181,7 +1170,6 @@ the other, BASSIANUS, LAVINIA, and others</STAGEDIR>
 <SPEAKER>DEMETRIUS</SPEAKER>
 <LINE>Ay, boy, grow ye so brave?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>They draw</STAGEDIR>
 
@@ -1367,11 +1355,14 @@ the other, BASSIANUS, LAVINIA, and others</STAGEDIR>
 <LINE>Per Styga, per manes vehor.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  A forest near Rome. Horns and cry of hounds heard.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  A forest near Rome. Horns and cry of hounds heard.</TITLE>
+
 <STAGEDIR>Enter TITUS ANDRONICUS, with Hunters, &amp;c., MARCUS,
 LUCIUS, QUINTUS, and MARTIUS</STAGEDIR>
 
@@ -1440,11 +1431,14 @@ CHIRON, and Attendants</STAGEDIR>
 <LINE>But hope to pluck a dainty doe to ground.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  A lonely part of the forest.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  A lonely part of the forest.</TITLE>
+
 <STAGEDIR>Enter AARON, with a bag of gold</STAGEDIR>
 
 <SPEECH>
@@ -1460,7 +1454,6 @@ CHIRON, and Attendants</STAGEDIR>
 <STAGEDIR>Hides the gold</STAGEDIR>
 <LINE>That have their alms out of the empress' chest.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter TAMORA</STAGEDIR>
 
@@ -1594,7 +1587,6 @@ CHIRON, and Attendants</STAGEDIR>
 <LINE>Why have I patience to endure all this?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter DEMETRIUS and CHIRON</STAGEDIR>
 
 <SPEECH>
@@ -1637,14 +1629,12 @@ CHIRON, and Attendants</STAGEDIR>
 <LINE>This is a witness that I am thy son.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Stabs BASSIANUS</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>CHIRON</SPEAKER>
 <LINE>And this for me, struck home to show my strength.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Also stabs BASSIANUS, who dies</STAGEDIR>
 
@@ -1811,7 +1801,6 @@ CHIRON, and Attendants</STAGEDIR>
 <LINE>This is the hole where Aaron bid us hide him.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>DEMETRIUS throws the body of BASSIANUS into the
 pit; then exeunt DEMETRIUS and CHIRON, dragging
 off LAVINIA</STAGEDIR>
@@ -1846,7 +1835,6 @@ off LAVINIA</STAGEDIR>
 <LINE>Well could I leave our sport to sleep awhile.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Falls into the pit</STAGEDIR>
 
 <SPEECH>
@@ -1871,7 +1859,6 @@ off LAVINIA</STAGEDIR>
 <LINE>That he thereby may give a likely guess</LINE>
 <LINE>How these were they that made away his brother.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -1984,7 +1971,6 @@ off LAVINIA</STAGEDIR>
 <LINE>But, out, alas! here have we found him dead.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter TAMORA, with Attendants; TITUS
 ANDRONICUS, and Lucius</STAGEDIR>
 
@@ -2016,7 +2002,6 @@ ANDRONICUS, and Lucius</STAGEDIR>
 <LINE>And wonder greatly that man's face can fold</LINE>
 <LINE>In pleasing smiles such murderous tyranny.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>She giveth SATURNINUS a letter</STAGEDIR>
 
@@ -2104,11 +2089,14 @@ ANDRONICUS, and Lucius</STAGEDIR>
 <LINE>Come, Lucius, come; stay not to talk with them.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Another part of the forest.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Another part of the forest.</TITLE>
+
 <STAGEDIR>Enter DEMETRIUS and CHIRON with LAVINIA, ravished;
 her hands cut off, and her tongue cut out</STAGEDIR>
 
@@ -2204,15 +2192,20 @@ her hands cut off, and her tongue cut out</STAGEDIR>
 <LINE>O, could our mourning ease thy misery!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT III</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Rome. A street.</TITLE>
+<TITLE>ACT III</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Rome. A street.</TITLE>
+
 <STAGEDIR>Enter Judges, Senators and Tribunes, with MARTIUS
 and QUINTUS, bound, passing on to the place of
 execution; TITUS going before, pleading</STAGEDIR>
@@ -2305,7 +2298,6 @@ execution; TITUS going before, pleading</STAGEDIR>
 <LINE>From these devourers to be banished!</LINE>
 <LINE>But who comes with our brother Marcus here?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter MARCUS and LAVINIA</STAGEDIR>
 
@@ -2473,7 +2465,6 @@ execution; TITUS going before, pleading</STAGEDIR>
 <LINE>As far from help as Limbo is from bliss!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter AARON</STAGEDIR>
 
 <SPEECH>
@@ -2565,7 +2556,6 @@ execution; TITUS going before, pleading</STAGEDIR>
 <LINE>But I will use the axe.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt LUCIUS and MARCUS</STAGEDIR>
 
 <SPEECH>
@@ -2607,7 +2597,6 @@ execution; TITUS going before, pleading</STAGEDIR>
 <LINE>Let fools do good, and fair men call for grace.</LINE>
 <LINE>Aaron will have his soul black like his face.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -2661,7 +2650,6 @@ execution; TITUS going before, pleading</STAGEDIR>
 <LINE>To ease their stomachs with their bitter tongues.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Messenger, with two heads and a hand</STAGEDIR>
 
 <SPEECH>
@@ -2674,7 +2662,6 @@ execution; TITUS going before, pleading</STAGEDIR>
 <LINE>That woe is me to think upon thy woes</LINE>
 <LINE>More than remembrance of my father's death.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -2694,7 +2681,6 @@ execution; TITUS going before, pleading</STAGEDIR>
 <LINE>That ever death should let life bear his name,</LINE>
 <LINE>Where life hath no more interest but to breathe!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>LAVINIA kisses TITUS</STAGEDIR>
 
@@ -2760,7 +2746,6 @@ execution; TITUS going before, pleading</STAGEDIR>
 <LINE>Let's kiss and part, for we have much to do.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt TITUS, MARCUS, and LAVINIA</STAGEDIR>
 
 <SPEECH>
@@ -2780,11 +2765,14 @@ execution; TITUS going before, pleading</STAGEDIR>
 <LINE>To be revenged on Rome and Saturnine.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  A room in Titus's house. A banquet set out.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  A room in Titus's house. A banquet set out.</TITLE>
+
 <STAGEDIR>Enter TITUS, MARCUS, LAVINIA and Young LUCIUS, a boy</STAGEDIR>
 
 <SPEECH>
@@ -2931,15 +2919,20 @@ execution; TITUS going before, pleading</STAGEDIR>
 <LINE>And thou shalt read when mine begin to dazzle.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT IV</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Rome. Titus's garden.</TITLE>
+<TITLE>ACT IV</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Rome. Titus's garden.</TITLE>
+
 <STAGEDIR>Enter young LUCIUS, and LAVINIA running after him,
 and the boy flies from her, with books under his
 arm. Then enter TITUS and MARCUS</STAGEDIR>
@@ -3008,7 +3001,6 @@ arm. Then enter TITUS and MARCUS</STAGEDIR>
 <SPEAKER>MARCUS ANDRONICUS</SPEAKER>
 <LINE>Lucius, I will.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>LAVINIA turns over with her stumps the books which
 LUCIUS has let fall</STAGEDIR>
@@ -3108,7 +3100,6 @@ with feet and mouth</STAGEDIR>
 <LINE>That we may know the traitors and the truth!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>She takes the staff in her mouth, and guides it
 with her stumps, and writes</STAGEDIR>
 
@@ -3202,7 +3193,6 @@ with her stumps, and writes</STAGEDIR>
 <LINE>Ay, marry, will we, sir; and we'll be waited on.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt TITUS, LAVINIA, and Young LUCIUS</STAGEDIR>
 
 <SPEECH>
@@ -3216,11 +3206,14 @@ with her stumps, and writes</STAGEDIR>
 <LINE>Revenge, ye heavens, for old Andronicus!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The same. A room in the palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The same. A room in the palace.</TITLE>
+
 <STAGEDIR>Enter, from one side, AARON, DEMETRIUS, and
 CHIRON; from the other side, Young LUCIUS, and an
 Attendant, with a bundle of weapons, and verses
@@ -3265,7 +3258,6 @@ writ upon them</STAGEDIR>
 <STAGEDIR>Aside</STAGEDIR>
 <LINE>like bloody villains.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt Young LUCIUS, and Attendant</STAGEDIR>
 
@@ -3346,7 +3338,6 @@ writ upon them</STAGEDIR>
 <LINE><STAGEDIR>Aside</STAGEDIR>  Pray to the devils; the gods have given us over.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Trumpets sound within</STAGEDIR>
 
 <SPEECH>
@@ -3363,7 +3354,6 @@ writ upon them</STAGEDIR>
 <SPEAKER>DEMETRIUS</SPEAKER>
 <LINE>Soft! who comes here?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter a Nurse, with a blackamoor Child in her arms</STAGEDIR>
 
@@ -3585,7 +3575,6 @@ writ upon them</STAGEDIR>
 <LINE>Keep there: now talk at pleasure of your safety.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>They sit</STAGEDIR>
 
 <SPEECH>
@@ -3660,7 +3649,6 @@ writ upon them</STAGEDIR>
 <LINE>Herself and hers are highly bound to thee.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt DEMETRIUS and CHIRON bearing off the
 Nurse's body</STAGEDIR>
 
@@ -3677,11 +3665,14 @@ Nurse's body</STAGEDIR>
 <LINE>To be a warrior, and command a camp.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The same. A public place.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The same. A public place.</TITLE>
+
 <STAGEDIR>Enter TITUS, bearing arrows with letters at the
 ends of them; with him, MARCUS, Young LUCIUS,
 PUBLIUS, SEMPRONIUS, CAIUS, and other Gentlemen,
@@ -3931,11 +3922,14 @@ it</STAGEDIR>
 <LINE>Come, Marcus, let us go. Publius, follow me.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  The same. Before the palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  The same. Before the palace.</TITLE>
+
 <STAGEDIR>Enter SATURNINUS, TAMORA, DEMETRIUS, CHIRON,
 Lords, and others; SATURNINUS with the arrows in
 his hand that TITUS shot</STAGEDIR>
@@ -4006,7 +4000,6 @@ his hand that TITUS shot</STAGEDIR>
 <LINE>I have brought you a letter and a couple of pigeons here.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>SATURNINUS reads the letter</STAGEDIR>
 
 <SPEECH>
@@ -4029,7 +4022,6 @@ his hand that TITUS shot</STAGEDIR>
 <LINE>Hanged! by'r lady, then I have brought up a neck to</LINE>
 <LINE>a fair end.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit, guarded</STAGEDIR>
 
@@ -4133,7 +4125,6 @@ his hand that TITUS shot</STAGEDIR>
 <LINE>Your bidding shall I do effectually.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -4150,15 +4141,20 @@ his hand that TITUS shot</STAGEDIR>
 <LINE>Then go successantly, and plead to him.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT V</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Plains near Rome.</TITLE>
+<TITLE>ACT V</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Plains near Rome.</TITLE>
+
 <STAGEDIR>Enter LUCIUS with an army of Goths, with drum and colours</STAGEDIR>
 
 <SPEECH>
@@ -4195,7 +4191,6 @@ his hand that TITUS shot</STAGEDIR>
 <LINE>I humbly thank him, and I thank you all.</LINE>
 <LINE>But who comes here, led by a lusty Goth?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter a Goth, leading AARON with his Child in his arms</STAGEDIR>
 
@@ -4249,7 +4244,6 @@ his hand that TITUS shot</STAGEDIR>
 <LINE>A sight to vex the father's soul withal.</LINE>
 <LINE>Get me a ladder.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>A ladder brought, which AARON is made to ascend</STAGEDIR>
 
@@ -4440,7 +4434,6 @@ his hand that TITUS shot</STAGEDIR>
 <LINE>Sirs, stop his mouth, and let him speak no more.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Goth</STAGEDIR>
 
 <SPEECH>
@@ -4478,11 +4471,14 @@ his hand that TITUS shot</STAGEDIR>
 <LINE>And we will come. March away.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Rome. Before TITUS's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Rome. Before TITUS's house.</TITLE>
+
 <STAGEDIR>Enter TAMORA, DEMETRIUS, and CHIRON, disguised</STAGEDIR>
 
 <SPEECH>
@@ -4613,7 +4609,6 @@ his hand that TITUS shot</STAGEDIR>
 <LINE>I will embrace thee in it by and by.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit above</STAGEDIR>
 
 <SPEECH>
@@ -4630,7 +4625,6 @@ his hand that TITUS shot</STAGEDIR>
 <LINE>Or, at the least, make them his enemies.</LINE>
 <LINE>See, here he comes, and I must ply my theme.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter TITUS below</STAGEDIR>
 
@@ -4722,7 +4716,6 @@ his hand that TITUS shot</STAGEDIR>
 <LINE>This will I do, and soon return again.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -4771,7 +4764,6 @@ his hand that TITUS shot</STAGEDIR>
 <LINE>I know thou dost; and, sweet Revenge, farewell.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit TAMORA</STAGEDIR>
 
 <SPEECH>
@@ -4784,7 +4776,6 @@ his hand that TITUS shot</STAGEDIR>
 <LINE>Tut, I have work enough for you to do.</LINE>
 <LINE>Publius, come hither, Caius, and Valentine!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PUBLIUS and others</STAGEDIR>
 
@@ -4828,7 +4819,6 @@ his hand that TITUS shot</STAGEDIR>
 <LINE>Stop close their mouths, let them not speak a word.</LINE>
 <LINE>Is he sure bound? look that you bind them fast.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter TITUS, with LAVINIA; he bearing a knife,
 and she a basin</STAGEDIR>
@@ -4878,11 +4868,14 @@ and she a basin</STAGEDIR>
 <LINE>And see them ready 'gainst their mother comes.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt, bearing the dead bodies</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Court of TITUS's house. A banquet set out.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Court of TITUS's house. A banquet set out.</TITLE>
+
 <STAGEDIR>Enter LUCIUS, MARCUS, and Goths, with AARON prisoner</STAGEDIR>
 
 <SPEECH>
@@ -4921,7 +4914,6 @@ and she a basin</STAGEDIR>
 <STAGEDIR>Exeunt Goths, with AARON. Flourish within</STAGEDIR>
 <LINE>The trumpets show the emperor is at hand.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter SATURNINUS and TAMORA, with AEMILIUS,
 Tribunes, Senators, and others</STAGEDIR>
@@ -5064,14 +5056,12 @@ on the table</STAGEDIR>
 <LINE>'Tis true, 'tis true; witness my knife's sharp point.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Kills TAMORA</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>SATURNINUS</SPEAKER>
 <LINE>Die, frantic wretch, for this accursed deed!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Kills TITUS</STAGEDIR>
 
@@ -5080,7 +5070,6 @@ on the table</STAGEDIR>
 <LINE>Can the son's eye behold his father bleed?</LINE>
 <LINE>There's meed for meed, death for a deadly deed!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Kills SATURNINUS. A great tumult. LUCIUS, MARCUS,
 and others go up into the balcony</STAGEDIR>
@@ -5245,7 +5234,6 @@ and others go up into the balcony</STAGEDIR>
 <LINE>My tears will choke me, if I ope my mouth.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter Attendants with AARON</STAGEDIR>
 
 <SPEECH>
@@ -5293,8 +5281,8 @@ and others go up into the balcony</STAGEDIR>
 <LINE>That like events may ne'er it ruinate.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 </ACT>
 </PLAY>

@@ -11,7 +11,6 @@
 <P>This work may be freely copied and distributed worldwide.</P>
 </FM>
 
-
 <PERSONAE>
 <TITLE>Dramatis Personae</TITLE>
 
@@ -22,7 +21,6 @@
 <PERSONA>RICHARD, Duke of York </PERSONA>
 <GRPDESCR>sons to the King.</GRPDESCR>
 </PGROUP>
-
 
 <PGROUP>
 <PERSONA>GEORGE, Duke of Clarence</PERSONA>
@@ -80,9 +78,14 @@
 
 <PLAYSUBT>KING RICHARD III</PLAYSUBT>
 
-<ACT><TITLE>ACT I</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  London. A street.</TITLE>
+<TITLE>ACT I</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  London. A street.</TITLE>
+
 <STAGEDIR>Enter GLOUCESTER, solus</STAGEDIR>
 
 <SPEECH>
@@ -289,7 +292,6 @@
 <LINE>I must perforce. Farewell.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt CLARENCE, BRAKENBURY, and Guard</STAGEDIR>
 
 <SPEECH>
@@ -300,7 +302,6 @@
 <LINE>If heaven will take the present at our hands.</LINE>
 <LINE>But who comes here? the new-deliver'd Hastings?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter HASTINGS</STAGEDIR>
 
@@ -386,11 +387,14 @@
 <LINE>When they are gone, then must I count my gains.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The same. Another street.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The same. Another street.</TITLE>
+
 <STAGEDIR>Enter the corpse of KING HENRY the Sixth, Gentlemen
 with halberds to guard it; LADY ANNE being the mourner</STAGEDIR>
 
@@ -429,7 +433,6 @@ with halberds to guard it; LADY ANNE being the mourner</STAGEDIR>
 <LINE>And still, as you are weary of the weight,</LINE>
 <LINE>Rest you, whiles I lament King Henry's corse.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter GLOUCESTER</STAGEDIR>
 
@@ -977,7 +980,6 @@ with halberds to guard it; LADY ANNE being the mourner</STAGEDIR>
 <LINE>Imagine I have said farewell already.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt LADY ANNE, TRESSEL, and BERKELEY</STAGEDIR>
 
 <SPEECH>
@@ -1034,11 +1036,14 @@ with halberds to guard it; LADY ANNE being the mourner</STAGEDIR>
 <LINE>That I may see my shadow as I pass.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The palace.</TITLE>
+
 <STAGEDIR>Enter QUEEN ELIZABETH, RIVERS, and GREY</STAGEDIR>
 
 <SPEECH>
@@ -1092,7 +1097,6 @@ with halberds to guard it; LADY ANNE being the mourner</STAGEDIR>
 <LINE>It is determined, not concluded yet:</LINE>
 <LINE>But so it must be, if the king miscarry.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter BUCKINGHAM and DERBY</STAGEDIR>
 
@@ -1168,7 +1172,6 @@ with halberds to guard it; LADY ANNE being the mourner</STAGEDIR>
 <LINE>Would all were well! but that will never be</LINE>
 <LINE>I fear our happiness is at the highest.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter GLOUCESTER, HASTINGS, and DORSET</STAGEDIR>
 
@@ -1720,7 +1723,6 @@ with halberds to guard it; LADY ANNE being the mourner</STAGEDIR>
 <LINE>And he to yours, and all of you to God's!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -1769,7 +1771,6 @@ with halberds to guard it; LADY ANNE being the mourner</STAGEDIR>
 <LINE>For had I cursed now, I had cursed myself.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter CATESBY</STAGEDIR>
 
 <SPEECH>
@@ -1787,7 +1788,6 @@ with halberds to guard it; LADY ANNE being the mourner</STAGEDIR>
 <SPEAKER>RIVERS</SPEAKER>
 <LINE>Madam, we will attend your grace.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt all but GLOUCESTER</STAGEDIR>
 
@@ -1851,11 +1851,14 @@ with halberds to guard it; LADY ANNE being the mourner</STAGEDIR>
 <LINE>We will, my noble lord.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  London. The Tower.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  London. The Tower.</TITLE>
+
 <STAGEDIR>Enter CLARENCE and BRAKENBURY</STAGEDIR>
 
 <SPEECH>
@@ -1986,7 +1989,6 @@ with halberds to guard it; LADY ANNE being the mourner</STAGEDIR>
 <LINE>There's nothing differs but the outward fame.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter the two Murderers</STAGEDIR>
 
 <SPEECH>
@@ -2015,7 +2017,6 @@ with halberds to guard it; LADY ANNE being the mourner</STAGEDIR>
 <LINE>him our commission; talk no more.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>BRAKENBURY reads it</STAGEDIR>
 
 <SPEECH>
@@ -2033,7 +2034,6 @@ with halberds to guard it; LADY ANNE being the mourner</STAGEDIR>
 <SPEAKER>First Murderer</SPEAKER>
 <LINE>Do so, it is a point of wisdom: fare you well.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit BRAKENBURY</STAGEDIR>
 
@@ -2504,7 +2504,6 @@ with halberds to guard it; LADY ANNE being the mourner</STAGEDIR>
 <LINE>I'll drown you in the malmsey-butt within.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit, with the body</STAGEDIR>
 
 <SPEECH>
@@ -2513,7 +2512,6 @@ with halberds to guard it; LADY ANNE being the mourner</STAGEDIR>
 <LINE>How fain, like Pilate, would I wash my hands</LINE>
 <LINE>Of this most grievous guilty murder done!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter First Murderer</STAGEDIR>
 
@@ -2530,7 +2528,6 @@ with halberds to guard it; LADY ANNE being the mourner</STAGEDIR>
 <LINE>For I repent me that the duke is slain.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -2546,9 +2543,14 @@ with halberds to guard it; LADY ANNE being the mourner</STAGEDIR>
 
 </ACT>
 
-<ACT><TITLE>ACT II</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  London. The palace.</TITLE>
+<TITLE>ACT II</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  London. The palace.</TITLE>
+
 <STAGEDIR>Flourish. Enter KING EDWARD IV sick, QUEEN
 ELIZABETH, DORSET, RIVERS, HASTINGS, BUCKINGHAM,
 GREY, and others</STAGEDIR>
@@ -2625,7 +2627,6 @@ GREY, and others</STAGEDIR>
 <LINE>And so swear I, my lord</LINE>
 </SPEECH>
 
-
 <STAGEDIR>They embrace</STAGEDIR>
 
 <SPEECH>
@@ -2662,7 +2663,6 @@ GREY, and others</STAGEDIR>
 <SPEAKER>BUCKINGHAM</SPEAKER>
 <LINE>And, in good time, here comes the noble duke.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter GLOUCESTER</STAGEDIR>
 
@@ -2760,7 +2760,6 @@ GREY, and others</STAGEDIR>
 <LINE>And yet go current from suspicion!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter DERBY</STAGEDIR>
 
 <SPEECH>
@@ -2827,7 +2826,6 @@ GREY, and others</STAGEDIR>
 <LINE>Oh, poor Clarence!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt some with KING EDWARD IV and QUEEN MARGARET</STAGEDIR>
 
 <SPEECH>
@@ -2845,11 +2843,14 @@ GREY, and others</STAGEDIR>
 <LINE>We wait upon your grace.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The palace.</TITLE>
+
 <STAGEDIR>Enter the DUCHESS OF YORK, with the two children of CLARENCE</STAGEDIR>
 
 <SPEECH>
@@ -2936,7 +2937,6 @@ GREY, and others</STAGEDIR>
 <SPEAKER>Boy</SPEAKER>
 <LINE>I cannot think it. Hark! what noise is this?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter QUEEN ELIZABETH, with her hair about her
 ears; RIVERS, and DORSET after her</STAGEDIR>
@@ -3076,7 +3076,6 @@ ears; RIVERS, and DORSET after her</STAGEDIR>
 <LINE>And plant your joys in living Edward's throne.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter GLOUCESTER, BUCKINGHAM, DERBY, HASTINGS, and RATCLIFF</STAGEDIR>
 
 <SPEECH>
@@ -3188,11 +3187,14 @@ ears; RIVERS, and DORSET after her</STAGEDIR>
 <LINE>Towards Ludlow then, for we'll not stay behind.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  London. A street.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  London. A street.</TITLE>
+
 <STAGEDIR>Enter two Citizens meeting</STAGEDIR>
 
 <SPEECH>
@@ -3216,7 +3218,6 @@ ears; RIVERS, and DORSET after her</STAGEDIR>
 <LINE>Bad news, by'r lady; seldom comes the better:</LINE>
 <LINE>I fear, I fear 'twill prove a troublous world.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter another Citizen</STAGEDIR>
 
@@ -3335,11 +3336,14 @@ ears; RIVERS, and DORSET after her</STAGEDIR>
 <LINE>And so was I: I'll bear you company.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  London. The palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  London. The palace.</TITLE>
+
 <STAGEDIR>Enter the ARCHBISHOP OF YORK, young YORK, QUEEN
 ELIZABETH, and the DUCHESS OF YORK</STAGEDIR>
 
@@ -3457,7 +3461,6 @@ ELIZABETH, and the DUCHESS OF YORK</STAGEDIR>
 <LINE>Pitchers have ears.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Messenger</STAGEDIR>
 
 <SPEECH>
@@ -3565,15 +3568,20 @@ ELIZABETH, and the DUCHESS OF YORK</STAGEDIR>
 <LINE>Come, I'll conduct you to the sanctuary.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT III</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  London. A street.</TITLE>
+<TITLE>ACT III</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  London. A street.</TITLE>
+
 <STAGEDIR>The trumpets sound. Enter the young PRINCE EDWARD,
 GLOUCESTER, BUCKINGHAM, CARDINAL, CATESBY, and others</STAGEDIR>
 
@@ -3618,7 +3626,6 @@ GLOUCESTER, BUCKINGHAM, CARDINAL, CATESBY, and others</STAGEDIR>
 <LINE>My lord, the mayor of London comes to greet you.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter the Lord Mayor and his train</STAGEDIR>
 
 <SPEECH>
@@ -3634,7 +3641,6 @@ GLOUCESTER, BUCKINGHAM, CARDINAL, CATESBY, and others</STAGEDIR>
 <LINE>Fie, what a slug is Hastings, that he comes not</LINE>
 <LINE>To tell us whether they will come or no!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter HASTINGS</STAGEDIR>
 
@@ -3799,7 +3805,6 @@ GLOUCESTER, BUCKINGHAM, CARDINAL, CATESBY, and others</STAGEDIR>
 <SPEAKER>GLOUCESTER</SPEAKER>
 <LINE><STAGEDIR>Aside</STAGEDIR>  Short summers lightly have a forward spring.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter young YORK, HASTINGS, and the CARDINAL</STAGEDIR>
 
@@ -4008,7 +4013,6 @@ GLOUCESTER, BUCKINGHAM, CARDINAL, CATESBY, and others</STAGEDIR>
 <LINE>Thinking on them, go I unto the Tower.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>A Sennet. Exeunt all but GLOUCESTER, BUCKINGHAM
 and CATESBY</STAGEDIR>
 
@@ -4104,7 +4108,6 @@ and CATESBY</STAGEDIR>
 <LINE>At Crosby Place, there shall you find us both.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit CATESBY</STAGEDIR>
 
 <SPEECH>
@@ -4133,11 +4136,14 @@ and CATESBY</STAGEDIR>
 <LINE>We may digest our complots in some form.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Before Lord Hastings' house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Before Lord Hastings' house.</TITLE>
+
 <STAGEDIR>Enter a Messenger</STAGEDIR>
 
 <SPEECH>
@@ -4154,7 +4160,6 @@ and CATESBY</STAGEDIR>
 <SPEAKER>Messenger</SPEAKER>
 <LINE>A messenger from the Lord Stanley.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter HASTINGS</STAGEDIR>
 
@@ -4372,7 +4377,6 @@ and CATESBY</STAGEDIR>
 <LINE>But come, my lord, let us away.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Pursuivant</STAGEDIR>
 
 <SPEECH>
@@ -4407,7 +4411,6 @@ and CATESBY</STAGEDIR>
 <SPEAKER>HASTINGS</SPEAKER>
 <LINE>Gramercy, fellow: there, drink that for me.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Throws him his purse</STAGEDIR>
 
@@ -4470,11 +4473,14 @@ and CATESBY</STAGEDIR>
 <LINE>I'll wait upon your lordship.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Pomfret Castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Pomfret Castle.</TITLE>
+
 <STAGEDIR>Enter RATCLIFF, with halberds, carrying RIVERS,
 GREY, and VAUGHAN to death</STAGEDIR>
 
@@ -4543,11 +4549,14 @@ GREY, and VAUGHAN to death</STAGEDIR>
 <LINE>And take our leave, until we meet in heaven.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  The Tower of London.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  The Tower of London.</TITLE>
+
 <STAGEDIR>Enter BUCKINGHAM, DERBY, HASTINGS, the BISHOP OF
 ELY, RATCLIFF, LOVEL, with others, and take their
 seats at a table</STAGEDIR>
@@ -4605,7 +4614,6 @@ seats at a table</STAGEDIR>
 <LINE>Which, I presume, he'll take in gentle part.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter GLOUCESTER</STAGEDIR>
 
 <SPEECH>
@@ -4661,7 +4669,6 @@ seats at a table</STAGEDIR>
 <LINE>Marry, and will, my lord, with all my heart.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -4680,7 +4687,6 @@ seats at a table</STAGEDIR>
 <LINE>Withdraw you hence, my lord, I'll follow you.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit GLOUCESTER, BUCKINGHAM following</STAGEDIR>
 
 <SPEECH>
@@ -4690,7 +4696,6 @@ seats at a table</STAGEDIR>
 <LINE>For I myself am not so well provided</LINE>
 <LINE>As else I would be, were the day prolong'd.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter BISHOP OF ELY</STAGEDIR>
 
@@ -4726,7 +4731,6 @@ seats at a table</STAGEDIR>
 <SPEAKER>DERBY</SPEAKER>
 <LINE>I pray God he be not, I say.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter GLOUCESTER and BUCKINGHAM</STAGEDIR>
 
@@ -4770,7 +4774,6 @@ seats at a table</STAGEDIR>
 <LINE>Lovel and Ratcliff, look that it be done:</LINE>
 <LINE>The rest, that love me, rise and follow me.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt all but HASTINGS, RATCLIFF, and LOVEL</STAGEDIR>
 
@@ -4822,11 +4825,14 @@ seats at a table</STAGEDIR>
 <LINE>They smile at me that shortly shall be dead.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  The Tower-walls.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  The Tower-walls.</TITLE>
+
 <STAGEDIR>Enter GLOUCESTER and BUCKINGHAM, in rotten armour,
 marvellous ill-favoured</STAGEDIR>
 
@@ -4854,7 +4860,6 @@ marvellous ill-favoured</STAGEDIR>
 <SPEAKER>GLOUCESTER</SPEAKER>
 <LINE>He is; and, see, he brings the mayor along.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter the Lord Mayor and CATESBY</STAGEDIR>
 
@@ -4897,7 +4902,6 @@ marvellous ill-favoured</STAGEDIR>
 <SPEAKER>GLOUCESTER</SPEAKER>
 <LINE>Be patient, they are friends, Ratcliff and Lovel.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter LOVEL and RATCLIFF, with HASTINGS' head</STAGEDIR>
 
@@ -4991,7 +4995,6 @@ marvellous ill-favoured</STAGEDIR>
 <LINE>And so, my good lord mayor, we bid farewell.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit Lord Mayor</STAGEDIR>
 
 <SPEECH>
@@ -5041,7 +5044,6 @@ marvellous ill-favoured</STAGEDIR>
 <LINE>Look for the news that the Guildhall affords.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit BUCKINGHAM</STAGEDIR>
 
 <SPEECH>
@@ -5057,11 +5059,14 @@ marvellous ill-favoured</STAGEDIR>
 <LINE>At any time have recourse unto the princes.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VI.  The same.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VI.  The same.</TITLE>
+
 <STAGEDIR>Enter a Scrivener, with a paper in his hand</STAGEDIR>
 
 <SPEECH>
@@ -5082,11 +5087,14 @@ marvellous ill-favoured</STAGEDIR>
 <LINE>When such bad dealings must be seen in thought.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VII.  Baynard's Castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VII.  Baynard's Castle.</TITLE>
+
 <STAGEDIR>Enter GLOUCESTER and BUCKINGHAM, at several doors</STAGEDIR>
 
 <SPEECH>
@@ -5223,7 +5231,6 @@ marvellous ill-favoured</STAGEDIR>
 <LINE>I'll tell him what you say, my lord.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -5272,7 +5279,6 @@ marvellous ill-favoured</STAGEDIR>
 <LINE>Are at their beads, 'tis hard to draw them thence,</LINE>
 <LINE>So sweet is zealous contemplation.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter GLOUCESTER aloft, between two Bishops.
 CATESBY returns</STAGEDIR>
@@ -5467,7 +5473,6 @@ CATESBY returns</STAGEDIR>
 <LINE>O, do not swear, my lord of Buckingham.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit BUCKINGHAM with the Citizens</STAGEDIR>
 
 <SPEECH>
@@ -5543,15 +5548,20 @@ CATESBY returns</STAGEDIR>
 <LINE>Farewell, good cousin; farewell, gentle friends.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT IV</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Before the Tower.</TITLE>
+<TITLE>ACT IV</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Before the Tower.</TITLE>
+
 <STAGEDIR>Enter, on one side, QUEEN ELIZABETH, DUCHESS OF
 YORK, and DORSET; on the other, ANNE, Duchess of
 Gloucester, leading Lady Margaret Plantagenet,
@@ -5786,11 +5796,14 @@ CLARENCE's young Daughter</STAGEDIR>
 <LINE>So foolish sorrow bids your stones farewell.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  London. The palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  London. The palace.</TITLE>
+
 <STAGEDIR>Sennet. Enter KING RICHARD III, in pomp, crowned;
 BUCKINGHAM, CATESBY, a page, and others</STAGEDIR>
 
@@ -5879,7 +5892,6 @@ BUCKINGHAM, CATESBY, a page, and others</STAGEDIR>
 <LINE>I will resolve your grace immediately.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -5944,7 +5956,6 @@ BUCKINGHAM, CATESBY, a page, and others</STAGEDIR>
 <LINE>To Richmond, in those parts beyond the sea</LINE>
 <LINE>Where he abides.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Stands apart</STAGEDIR>
 
@@ -6175,7 +6186,6 @@ BUCKINGHAM, CATESBY, a page, and others</STAGEDIR>
 <LINE>Thou troublest me; am not in the vein.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt all but BUCKINGHAM</STAGEDIR>
 
 <SPEECH>
@@ -6186,11 +6196,14 @@ BUCKINGHAM, CATESBY, a page, and others</STAGEDIR>
 <LINE>To Brecknock, while my fearful head is on!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The same.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The same.</TITLE>
+
 <STAGEDIR>Enter TYRREL</STAGEDIR>
 
 <SPEECH>
@@ -6273,7 +6286,6 @@ BUCKINGHAM, CATESBY, a page, and others</STAGEDIR>
 <LINE>To her I go, a jolly thriving wooer.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter CATESBY</STAGEDIR>
 
 <SPEECH>
@@ -6306,11 +6318,14 @@ BUCKINGHAM, CATESBY, a page, and others</STAGEDIR>
 <LINE>We must be brief when traitors brave the field.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Before the palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Before the palace.</TITLE>
+
 <STAGEDIR>Enter QUEEN MARGARET</STAGEDIR>
 
 <SPEECH>
@@ -6324,7 +6339,6 @@ BUCKINGHAM, CATESBY, a page, and others</STAGEDIR>
 <LINE>Will prove as bitter, black, and tragical.</LINE>
 <LINE>Withdraw thee, wretched Margaret: who comes here?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter QUEEN ELIZABETH and the DUCHESS OF YORK</STAGEDIR>
 
@@ -6386,7 +6400,6 @@ BUCKINGHAM, CATESBY, a page, and others</STAGEDIR>
 <LINE>Then would I hide my bones, not rest them here.</LINE>
 <LINE>O, who hath any cause to mourn but I?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Sitting down by her</STAGEDIR>
 
@@ -6526,7 +6539,6 @@ BUCKINGHAM, CATESBY, a page, and others</STAGEDIR>
 <LINE>Thy woes will make them sharp, and pierce like mine.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -6550,7 +6562,6 @@ BUCKINGHAM, CATESBY, a page, and others</STAGEDIR>
 <LINE>My damned son, which thy two sweet sons smother'd.</LINE>
 <LINE>I hear his drum: be copious in exclaims.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter KING RICHARD III, marching, with drums and trumpets</STAGEDIR>
 
@@ -6711,7 +6722,6 @@ BUCKINGHAM, CATESBY, a page, and others</STAGEDIR>
 <LINE>Bloody thou art, bloody will be thy end;</LINE>
 <LINE>Shame serves thy life and doth thy death attend.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -7375,7 +7385,6 @@ BUCKINGHAM, CATESBY, a page, and others</STAGEDIR>
 <LINE>I go.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -7533,7 +7542,6 @@ BUCKINGHAM, CATESBY, a page, and others</STAGEDIR>
 <LINE>With many more confederates, are in arms.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter another Messenger</STAGEDIR>
 
 <SPEECH>
@@ -7542,7 +7550,6 @@ BUCKINGHAM, CATESBY, a page, and others</STAGEDIR>
 <LINE>And every hour more competitors</LINE>
 <LINE>Flock to their aid, and still their power increaseth.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter another Messenger</STAGEDIR>
 
@@ -7580,7 +7587,6 @@ BUCKINGHAM, CATESBY, a page, and others</STAGEDIR>
 <LINE>Such proclamation hath been made, my liege.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter another Messenger</STAGEDIR>
 
 <SPEECH>
@@ -7604,7 +7610,6 @@ BUCKINGHAM, CATESBY, a page, and others</STAGEDIR>
 <LINE>Yet to beat down these rebels here at home.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter CATESBY</STAGEDIR>
 
 <SPEECH>
@@ -7623,11 +7628,14 @@ BUCKINGHAM, CATESBY, a page, and others</STAGEDIR>
 <LINE>To Salisbury; the rest march on with me.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Flourish. Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  Lord Derby's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  Lord Derby's house.</TITLE>
+
 <STAGEDIR>Enter DERBY and SIR CHRISTOPHER URSWICK</STAGEDIR>
 
 <SPEECH>
@@ -7669,15 +7677,20 @@ BUCKINGHAM, CATESBY, a page, and others</STAGEDIR>
 <LINE>These letters will resolve him of my mind. Farewell.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT V</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Salisbury. An open place.</TITLE>
+<TITLE>ACT V</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Salisbury. An open place.</TITLE>
+
 <STAGEDIR>Enter the Sheriff, and BUCKINGHAM, with halberds,
 led to execution</STAGEDIR>
 
@@ -7730,11 +7743,14 @@ led to execution</STAGEDIR>
 <LINE>Wrong hath but wrong, and blame the due of blame.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The camp near Tamworth.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The camp near Tamworth.</TITLE>
+
 <STAGEDIR>Enter RICHMOND, OXFORD, BLUNT, HERBERT, and others,
 with drum and colours</STAGEDIR>
 
@@ -7782,11 +7798,14 @@ with drum and colours</STAGEDIR>
 <LINE>Kings it makes gods, and meaner creatures kings.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Bosworth Field.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Bosworth Field.</TITLE>
+
 <STAGEDIR>Enter KING RICHARD III in arms, with NORFOLK,
 SURREY, and others</STAGEDIR>
 
@@ -7947,7 +7966,6 @@ RATCLIFF, CATESBY, and others</STAGEDIR>
 <LINE>I warrant you, my lord.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -8085,7 +8103,6 @@ others attending</STAGEDIR>
 <LINE>King Henry's issue, Richmond, comforts thee.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter the Ghost of King Henry VI</STAGEDIR>
 
 <SPEECH>
@@ -8100,7 +8117,6 @@ others attending</STAGEDIR>
 <LINE>Harry, that prophesied thou shouldst be king,</LINE>
 <LINE>Doth comfort thee in thy sleep: live, and flourish!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter the Ghost of CLARENCE</STAGEDIR>
 
@@ -8117,7 +8133,6 @@ others attending</STAGEDIR>
 <LINE>The wronged heirs of York do pray for thee</LINE>
 <LINE>Good angels guard thy battle! live, and flourish!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter the Ghosts of RIVERS, GRAY, and VAUGHAN</STAGEDIR>
 
@@ -8148,7 +8163,6 @@ others attending</STAGEDIR>
 <LINE>Will conquer him! awake, and win the day!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter the Ghost of HASTINGS</STAGEDIR>
 
 <SPEECH>
@@ -8161,7 +8175,6 @@ others attending</STAGEDIR>
 <LINE>Quiet untroubled soul, awake, awake!</LINE>
 <LINE>Arm, fight, and conquer, for fair England's sake!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter the Ghosts of the two young Princes</STAGEDIR>
 
@@ -8179,7 +8192,6 @@ others attending</STAGEDIR>
 <LINE>Edward's unhappy sons do bid thee flourish.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter the Ghost of LADY ANNE</STAGEDIR>
 
 <SPEECH>
@@ -8195,7 +8207,6 @@ others attending</STAGEDIR>
 <LINE>Dream of success and happy victory!</LINE>
 <LINE>Thy adversary's wife doth pray for thee.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter the Ghost of BUCKINGHAM</STAGEDIR>
 
@@ -8251,7 +8262,6 @@ others attending</STAGEDIR>
 <LINE>Came to my tent; and every one did threat</LINE>
 <LINE>To-morrow's vengeance on the head of Richard.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter RATCLIFF</STAGEDIR>
 
@@ -8439,7 +8449,6 @@ and Forces</STAGEDIR>
 <LINE>That frowns on me looks sadly upon him.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter NORFOLK</STAGEDIR>
 
 <SPEECH>
@@ -8469,7 +8478,6 @@ and Forces</STAGEDIR>
 <LINE>A good direction, warlike sovereign.</LINE>
 <LINE>This found I on my tent this morning.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>He sheweth him a paper</STAGEDIR>
 
@@ -8546,11 +8554,14 @@ and Forces</STAGEDIR>
 <LINE>Upon them! victory sits on our helms.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Another part of the field.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Another part of the field.</TITLE>
+
 <STAGEDIR>Alarum: excursions. Enter NORFOLK and forces
 fighting; to him CATESBY</STAGEDIR>
 
@@ -8563,7 +8574,6 @@ fighting; to him CATESBY</STAGEDIR>
 <LINE>Seeking for Richmond in the throat of death.</LINE>
 <LINE>Rescue, fair lord, or else the day is lost!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Alarums. Enter KING RICHARD III</STAGEDIR>
 
@@ -8586,11 +8596,14 @@ fighting; to him CATESBY</STAGEDIR>
 <LINE>A horse! a horse! my kingdom for a horse!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  Another part of the field.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  Another part of the field.</TITLE>
+
 <STAGEDIR>Alarum. Enter KING RICHARD III and RICHMOND; they
 fight. KING RICHARD III is slain. Retreat and
 flourish. Re-enter RICHMOND, DERBY bearing the
@@ -8665,8 +8678,8 @@ crown, with divers other Lords</STAGEDIR>
 <LINE>That she may long live here, God say amen!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 </ACT>
 </PLAY>

@@ -11,7 +11,6 @@
 <P>This work may be freely copied and distributed worldwide.</P>
 </FM>
 
-
 <PERSONAE>
 <TITLE>Dramatis Personae</TITLE>
 
@@ -50,9 +49,14 @@
 
 <PLAYSUBT>1 KING HENRY IV</PLAYSUBT>
 
-<ACT><TITLE>ACT I</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  London. The palace.</TITLE>
+<TITLE>ACT I</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  London. The palace.</TITLE>
+
 <STAGEDIR>Enter KING HENRY, LORD JOHN OF LANCASTER, the EARL
 of WESTMORELAND, SIR WALTER BLUNT, and others</STAGEDIR>
 
@@ -204,11 +208,14 @@ of WESTMORELAND, SIR WALTER BLUNT, and others</STAGEDIR>
 <LINE>I will, my liege.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  London. An apartment of the Prince's.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  London. An apartment of the Prince's.</TITLE>
+
 <STAGEDIR>Enter the PRINCE OF WALES and FALSTAFF</STAGEDIR>
 
 <SPEECH>
@@ -569,7 +576,6 @@ of WESTMORELAND, SIR WALTER BLUNT, and others</STAGEDIR>
 <LINE>Farewell, thou latter spring! farewell, All-hallown summer!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit Falstaff</STAGEDIR>
 
 <SPEECH>
@@ -642,7 +648,6 @@ of WESTMORELAND, SIR WALTER BLUNT, and others</STAGEDIR>
 <LINE>Farewell, my lord.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit Poins</STAGEDIR>
 
 <SPEECH>
@@ -672,11 +677,14 @@ of WESTMORELAND, SIR WALTER BLUNT, and others</STAGEDIR>
 <LINE>Redeeming time when men think least I will.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  London. The palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  London. The palace.</TITLE>
+
 <STAGEDIR>Enter the KING, NORTHUMBERLAND, WORCESTER, HOTSPUR,
 SIR WALTER BLUNT, with others</STAGEDIR>
 
@@ -718,7 +726,6 @@ SIR WALTER BLUNT, with others</STAGEDIR>
 <STAGEDIR>Exit Worcester</STAGEDIR>
 <LINE>You were about to speak.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>To North</STAGEDIR>
 
@@ -850,7 +857,6 @@ SIR WALTER BLUNT, with others</STAGEDIR>
 <LINE>Send us your prisoners, or you will hear of it.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt King Henry, Blunt, and train</STAGEDIR>
 
 <SPEECH>
@@ -866,7 +872,6 @@ SIR WALTER BLUNT, with others</STAGEDIR>
 <LINE>What, drunk with choler? stay and pause awhile:</LINE>
 <LINE>Here comes your uncle.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter WORCESTER</STAGEDIR>
 
@@ -1220,15 +1225,20 @@ SIR WALTER BLUNT, with others</STAGEDIR>
 <LINE>Till fields and blows and groans applaud our sport!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT II</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Rochester. An inn yard.</TITLE>
+<TITLE>ACT II</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Rochester. An inn yard.</TITLE>
+
 <STAGEDIR>Enter a Carrier with a lantern in his hand</STAGEDIR>
 
 <SPEECH>
@@ -1249,7 +1259,6 @@ SIR WALTER BLUNT, with others</STAGEDIR>
 <LINE>in the point; poor jade, is wrung in the withers out</LINE>
 <LINE>of all cess.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter another Carrier</STAGEDIR>
 
@@ -1307,7 +1316,6 @@ SIR WALTER BLUNT, with others</STAGEDIR>
 <LINE>hast thou no faith in thee?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter GADSHILL</STAGEDIR>
 
 <SPEECH>
@@ -1355,7 +1363,6 @@ SIR WALTER BLUNT, with others</STAGEDIR>
 <LINE>have great charge.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt carriers</STAGEDIR>
 
 <SPEECH>
@@ -1375,7 +1382,6 @@ SIR WALTER BLUNT, with others</STAGEDIR>
 <LINE>of purses than giving direction doth from labouring;</LINE>
 <LINE>thou layest the plot how.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter Chamberlain</STAGEDIR>
 
@@ -1463,11 +1469,14 @@ SIR WALTER BLUNT, with others</STAGEDIR>
 <LINE>you muddy knave.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The highway, near Gadshill.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The highway, near Gadshill.</TITLE>
+
 <STAGEDIR>Enter PRINCE HENRY and POINS</STAGEDIR>
 
 <SPEECH>
@@ -1480,7 +1489,6 @@ SIR WALTER BLUNT, with others</STAGEDIR>
 <SPEAKER>PRINCE HENRY</SPEAKER>
 <LINE>Stand close.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter FALSTAFF</STAGEDIR>
 
@@ -1570,7 +1578,6 @@ SIR WALTER BLUNT, with others</STAGEDIR>
 <LINE>tunes, let a cup of sack be my poison: when a jest</LINE>
 <LINE>is so forward, and afoot too! I hate it.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter GADSHILL, BARDOLPH and PETO</STAGEDIR>
 
@@ -1672,7 +1679,6 @@ SIR WALTER BLUNT, with others</STAGEDIR>
 <LINE>Here, hard by: stand close.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt PRINCE HENRY and POINS</STAGEDIR>
 
 <SPEECH>
@@ -1680,7 +1686,6 @@ SIR WALTER BLUNT, with others</STAGEDIR>
 <LINE>Now, my masters, happy man be his dole, say I:</LINE>
 <LINE>every man to his business.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter the Travellers</STAGEDIR>
 
@@ -1736,7 +1741,6 @@ SIR WALTER BLUNT, with others</STAGEDIR>
 <LINE>Stand close; I hear them coming.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter the Thieves again</STAGEDIR>
 
 <SPEECH>
@@ -1756,7 +1760,6 @@ SIR WALTER BLUNT, with others</STAGEDIR>
 <SPEAKER>POINS</SPEAKER>
 <LINE>Villains!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>As they are sharing, the Prince and Poins set upon
 them; they all run away; and Falstaff, after a blow
@@ -1778,11 +1781,14 @@ or two, runs away too, leaving the booty behind them</STAGEDIR>
 <LINE>How the rogue roar'd!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Warkworth castle</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Warkworth castle</TITLE>
+
 <STAGEDIR>Enter HOTSPUR, solus, reading a letter</STAGEDIR>
 
 <SPEECH>
@@ -1898,7 +1904,6 @@ or two, runs away too, leaving the booty behind them</STAGEDIR>
 <LINE>Bid Butler lead him forth into the park.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit Servant</STAGEDIR>
 
 <SPEECH>
@@ -2000,11 +2005,14 @@ or two, runs away too, leaving the booty behind them</STAGEDIR>
 <LINE>It must of force.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  The Boar's-Head Tavern, Eastcheap.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  The Boar's-Head Tavern, Eastcheap.</TITLE>
+
 <STAGEDIR>Enter PRINCE HENRY and POINS</STAGEDIR>
 
 <SPEECH>
@@ -2243,7 +2251,6 @@ not knowing which way to go</STAGEDIR>
 <LINE>Poins!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter POINS</STAGEDIR>
 
 <SPEECH>
@@ -2278,7 +2285,6 @@ not knowing which way to go</STAGEDIR>
 <LINE>Anon, anon, sir.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -2299,7 +2305,6 @@ not knowing which way to go</STAGEDIR>
 <LINE>wife. 'Rivo!' says the drunkard. Call in ribs, call in tallow.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter FALSTAFF, GADSHILL, BARDOLPH, and PETO;
 FRANCIS following with wine</STAGEDIR>
 
@@ -2316,7 +2321,6 @@ FRANCIS following with wine</STAGEDIR>
 <LINE>them and foot them too. A plague of all cowards!</LINE>
 <LINE>Give me a cup of sack, rogue. Is there no virtue extant?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>He drinks</STAGEDIR>
 
@@ -2717,7 +2721,6 @@ FRANCIS following with wine</STAGEDIR>
 <LINE>Ah, no more of that, Hal, an thou lovest me!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter Hostess</STAGEDIR>
 
 <SPEECH>
@@ -2769,7 +2772,6 @@ FRANCIS following with wine</STAGEDIR>
 <SPEAKER>FALSTAFF</SPEAKER>
 <LINE>'Faith, and I'll send him packing.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit FALSTAFF</STAGEDIR>
 
@@ -3194,7 +3196,6 @@ FRANCIS following with wine</STAGEDIR>
 <LINE>say in the behalf of that Falstaff.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter the Hostess</STAGEDIR>
 
 <SPEECH>
@@ -3315,7 +3316,6 @@ FRANCIS following with wine</STAGEDIR>
 <LINE>Indeed, my lord, I think it be two o'clock.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt Sheriff and Carrier</STAGEDIR>
 
 <SPEECH>
@@ -3370,7 +3370,6 @@ FRANCIS following with wine</STAGEDIR>
 <LINE>the morning; and so, good morrow, Peto.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
 
 <SPEECH>
@@ -3382,9 +3381,14 @@ FRANCIS following with wine</STAGEDIR>
 
 </ACT>
 
-<ACT><TITLE>ACT III</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Bangor. The Archdeacon's house.</TITLE>
+<TITLE>ACT III</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Bangor. The Archdeacon's house.</TITLE>
+
 <STAGEDIR>Enter HOTSPUR, WORCESTER, MORTIMER, and GLENDOWER</STAGEDIR>
 
 <SPEECH>
@@ -3691,7 +3695,6 @@ FRANCIS following with wine</STAGEDIR>
 <LINE>So much she doteth on her Mortimer.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit GLENDOWER</STAGEDIR>
 
 <SPEECH>
@@ -3759,7 +3762,6 @@ FRANCIS following with wine</STAGEDIR>
 <LINE>Here come our wives, and let us take our leave.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter GLENDOWER with the ladies</STAGEDIR>
 
 <SPEECH>
@@ -3780,7 +3782,6 @@ FRANCIS following with wine</STAGEDIR>
 <LINE>Shall follow in your conduct speedily.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Glendower speaks to her in Welsh, and she
 answers him in the same</STAGEDIR>
 
@@ -3789,7 +3790,6 @@ answers him in the same</STAGEDIR>
 <LINE>She is desperate here; a peevish self-wind harlotry,</LINE>
 <LINE>one that no persuasion can do good upon.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>The lady speaks in Welsh</STAGEDIR>
 
@@ -3813,7 +3813,6 @@ answers him in the same</STAGEDIR>
 <SPEAKER>GLENDOWER</SPEAKER>
 <LINE>Nay, if you melt, then will she run mad.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>The lady speaks again in Welsh</STAGEDIR>
 
@@ -3859,7 +3858,6 @@ answers him in the same</STAGEDIR>
 <SPEAKER>LADY PERCY</SPEAKER>
 <LINE>Go, ye giddy goose.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>The music plays</STAGEDIR>
 
@@ -3922,7 +3920,6 @@ answers him in the same</STAGEDIR>
 <LINE>Peace! she sings.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Here the lady sings a Welsh song</STAGEDIR>
 
 <SPEECH>
@@ -3962,7 +3959,6 @@ answers him in the same</STAGEDIR>
 <LINE>within these two hours; and so, come in when ye will.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -3978,11 +3974,14 @@ answers him in the same</STAGEDIR>
 <LINE>With all my heart.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  London. The palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  London. The palace.</TITLE>
+
 <STAGEDIR>Enter KING HENRY IV, PRINCE HENRY, and others</STAGEDIR>
 
 <SPEECH>
@@ -4204,9 +4203,11 @@ answers him in the same</STAGEDIR>
 <LINE>Advantage feeds him fat, while men delay.</LINE>
 </SPEECH>
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 <SCENE>
+
 <TITLE>Scene III  Eastcheap. The Boar's-Head Tavern.</TITLE>
 
 <STAGEDIR>Enter FALSTAFF and BARDOLPH</STAGEDIR>
@@ -4698,7 +4699,6 @@ meets them playing on his truncheon like a life</STAGEDIR>
 <LINE>And either we or they must lower lie.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit PRINCE HENRY</STAGEDIR>
 
 <SPEECH>
@@ -4707,15 +4707,20 @@ meets them playing on his truncheon like a life</STAGEDIR>
 <LINE>O, I could wish this tavern were my drum!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT IV</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  The rebel camp near Shrewsbury.</TITLE>
+<TITLE>ACT IV</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  The rebel camp near Shrewsbury.</TITLE>
+
 <STAGEDIR>Enter HOTSPUR, WORCESTER, and DOUGLAS</STAGEDIR>
 
 <SPEECH>
@@ -4883,7 +4888,6 @@ meets them playing on his truncheon like a life</STAGEDIR>
 <LINE>Spoke of in Scotland as this term of fear.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter SIR RICHARD VERNON</STAGEDIR>
 
 <SPEECH>
@@ -4997,11 +5001,14 @@ meets them playing on his truncheon like a life</STAGEDIR>
 <LINE>Of death or death's hand for this one-half year.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  A public road near Coventry.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  A public road near Coventry.</TITLE>
+
 <STAGEDIR>Enter FALSTAFF and BARDOLPH</STAGEDIR>
 
 <SPEECH>
@@ -5037,7 +5044,6 @@ meets them playing on his truncheon like a life</STAGEDIR>
 <SPEAKER>BARDOLPH</SPEAKER>
 <LINE>I will, captain: farewell.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -5083,7 +5089,6 @@ meets them playing on his truncheon like a life</STAGEDIR>
 <LINE>the red-nose innkeeper of Daventry. But that's all</LINE>
 <LINE>one; they'll find linen enough on every hedge.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter the PRINCE and WESTMORELAND</STAGEDIR>
 
@@ -5175,11 +5180,14 @@ meets them playing on his truncheon like a life</STAGEDIR>
 <LINE>Fits a dull fighter and a keen guest.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The rebel camp near Shrewsbury.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The rebel camp near Shrewsbury.</TITLE>
+
 <STAGEDIR>Enter HOTSPUR, WORCESTER, DOUGLAS, and VERNON</STAGEDIR>
 
 <SPEECH>
@@ -5418,11 +5426,14 @@ meets them playing on his truncheon like a life</STAGEDIR>
 <LINE>Pray God you do.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  York. The ARCHBISHOP'S palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  York. The ARCHBISHOP'S palace.</TITLE>
+
 <STAGEDIR>Enter the ARCHBISHOP OF YORK and SIR MICHAEL</STAGEDIR>
 
 <SPEECH>
@@ -5503,15 +5514,20 @@ meets them playing on his truncheon like a life</STAGEDIR>
 <LINE>To other friends; and so farewell, Sir Michael.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT V</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  KING HENRY IV's camp near Shrewsbury.</TITLE>
+<TITLE>ACT V</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  KING HENRY IV's camp near Shrewsbury.</TITLE>
+
 <STAGEDIR>Enter KING HENRY, PRINCE HENRY, Lord John of
 LANCASTER, EARL OF WESTMORELAND, SIR WALTER BLUNT,
 and FALSTAFF</STAGEDIR>
@@ -5677,7 +5693,6 @@ and FALSTAFF</STAGEDIR>
 <LINE>We offer fair; take it advisedly.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt WORCESTER and VERNON</STAGEDIR>
 
 <SPEECH>
@@ -5693,7 +5708,6 @@ and FALSTAFF</STAGEDIR>
 <LINE>For, on their answer, will we set on them:</LINE>
 <LINE>And God befriend us, as our cause is just!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt all but PRINCE HENRY and FALSTAFF</STAGEDIR>
 
@@ -5719,7 +5733,6 @@ and FALSTAFF</STAGEDIR>
 <LINE>Why, thou owest God a death.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit PRINCE HENRY</STAGEDIR>
 
 <SPEECH>
@@ -5741,11 +5754,14 @@ and FALSTAFF</STAGEDIR>
 <LINE>ends my catechism.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The rebel camp.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The rebel camp.</TITLE>
+
 <STAGEDIR>Enter WORCESTER and VERNON</STAGEDIR>
 
 <SPEECH>
@@ -5792,7 +5808,6 @@ and FALSTAFF</STAGEDIR>
 <LINE>Here comes your cousin.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter HOTSPUR and DOUGLAS</STAGEDIR>
 
 <SPEECH>
@@ -5822,7 +5837,6 @@ and FALSTAFF</STAGEDIR>
 <LINE>Marry, and shall, and very willingly.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -5843,7 +5857,6 @@ and FALSTAFF</STAGEDIR>
 <LINE>He calls us rebels, traitors; and will scourge</LINE>
 <LINE>With haughty arms this hateful name in us.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter the EARL OF DOUGLAS</STAGEDIR>
 
@@ -5905,7 +5918,6 @@ and FALSTAFF</STAGEDIR>
 <LINE>Can lift your blood up with persuasion.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Messenger</STAGEDIR>
 
 <SPEECH>
@@ -5925,7 +5937,6 @@ and FALSTAFF</STAGEDIR>
 <LINE>Now, for our consciences, the arms are fair,</LINE>
 <LINE>When the intent of bearing them is just.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter another Messenger</STAGEDIR>
 
@@ -5949,11 +5960,14 @@ and FALSTAFF</STAGEDIR>
 <LINE>A second time do such a courtesy.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>The trumpets sound. They embrace, and exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Plain between the camps.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Plain between the camps.</TITLE>
+
 <STAGEDIR>KING HENRY enters with his power. Alarum to the
 battle. Then enter DOUGLAS and SIR WALTER BLUNT</STAGEDIR>
 
@@ -5990,7 +6004,6 @@ battle. Then enter DOUGLAS and SIR WALTER BLUNT</STAGEDIR>
 <LINE>And thou shalt find a king that will revenge</LINE>
 <LINE>Lord Stafford's death.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>They fight. DOUGLAS kills SIR WALTER BLUNT.
 Enter HOTSPUR</STAGEDIR>
@@ -6065,7 +6078,6 @@ Enter HOTSPUR</STAGEDIR>
 <LINE>But who comes here?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter PRINCE HENRY</STAGEDIR>
 
 <SPEECH>
@@ -6106,7 +6118,6 @@ Enter HOTSPUR</STAGEDIR>
 <LINE>Ay, Hal; 'tis hot, 'tis hot; there's that will sack a city.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>PRINCE HENRY draws it out, and finds it to be a
 bottle of sack</STAGEDIR>
 
@@ -6114,7 +6125,6 @@ bottle of sack</STAGEDIR>
 <SPEAKER>PRINCE HENRY</SPEAKER>
 <LINE>What, is it a time to jest and dally now?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>He throws the bottle at him. Exit</STAGEDIR>
 
@@ -6128,11 +6138,14 @@ bottle of sack</STAGEDIR>
 <LINE>unlooked for, and there's an end.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit FALSTAFF</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Another part of the field.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Another part of the field.</TITLE>
+
 <STAGEDIR>Alarum. Excursions. Enter PRINCE HENRY, LORD JOHN
 OF LANCASTER, and EARL OF WESTMORELAND</STAGEDIR>
 
@@ -6179,7 +6192,6 @@ OF LANCASTER, and EARL OF WESTMORELAND</STAGEDIR>
 <LINE>We breathe too long: come, cousin Westmoreland,</LINE>
 <LINE>Our duty this way lies; for God's sake come.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt LANCASTER and WESTMORELAND</STAGEDIR>
 
@@ -6232,7 +6244,6 @@ OF LANCASTER, and EARL OF WESTMORELAND</STAGEDIR>
 <LINE>But mine I am sure thou art, whoe'er thou be,</LINE>
 <LINE>And thus I win thee.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>They fight. KING HENRY being in danger, PRINCE
 HENRY enters</STAGEDIR>
@@ -6331,7 +6342,6 @@ HENRY enters</STAGEDIR>
 <LINE>boy's play here, I can tell you.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter DOUGLAS; he fights with FALSTAFF,
 who falls down as if he were dead, and exit
 DOUGLAS. HOTSPUR is wounded, and falls</STAGEDIR>
@@ -6349,7 +6359,6 @@ DOUGLAS. HOTSPUR is wounded, and falls</STAGEDIR>
 <LINE>Lies on my tongue: no, Percy, thou art dust</LINE>
 <LINE>And food for--</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Dies</STAGEDIR>
 
@@ -6381,7 +6390,6 @@ DOUGLAS. HOTSPUR is wounded, and falls</STAGEDIR>
 <LINE>Embowell'd will I see thee by and by:</LINE>
 <LINE>Till then in blood by noble Percy lie.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit PRINCE HENRY</STAGEDIR>
 
@@ -6480,7 +6488,6 @@ DOUGLAS. HOTSPUR is wounded, and falls</STAGEDIR>
 <LINE>To see what friends are living, who are dead.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt PRINCE HENRY and LANCASTER</STAGEDIR>
 
 <SPEECH>
@@ -6491,11 +6498,14 @@ DOUGLAS. HOTSPUR is wounded, and falls</STAGEDIR>
 <LINE>live cleanly as a nobleman should do.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  Another part of the field.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  Another part of the field.</TITLE>
+
 <STAGEDIR>The trumpets sound. Enter KING HENRY IV, PRINCE
 HENRY, LORD JOHN LANCASTER, EARL OF WESTMORELAND,
 with WORCESTER and VERNON prisoners</STAGEDIR>
@@ -6578,8 +6588,8 @@ with WORCESTER and VERNON prisoners</STAGEDIR>
 <LINE>Let us not leave till all our own be won.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 </ACT>
 </PLAY>

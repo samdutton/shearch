@@ -11,10 +11,8 @@
 <P>This work may be freely copied and distributed worldwide.</P>
 </FM>
 
-
 <PERSONAE>
 <TITLE>Dramatis Personae</TITLE>
-
 
 <PGROUP>
 <PERSONA>A Lord.</PERSONA>
@@ -34,13 +32,11 @@
 <GRPDESCR>suitors to Bianca.</GRPDESCR>
 </PGROUP>
 
-
 <PGROUP>
 <PERSONA>TRANIO</PERSONA>
 <PERSONA>BIONDELLO</PERSONA>
 <GRPDESCR>servants to Lucentio.</GRPDESCR>
 </PGROUP>
-
 
 <PGROUP>
 <PERSONA>GRUMIO</PERSONA>
@@ -71,7 +67,10 @@
 
 <INDUCT><TITLE>INDUCTION</TITLE>
 
-<SCENE><TITLE>SCENE I.  Before an alehouse on a heath.</TITLE>
+<SCENE>
+
+<TITLE>SCENE I.  Before an alehouse on a heath.</TITLE>
+
 <STAGEDIR>Enter Hostess and SLY</STAGEDIR>
 
 <SPEECH>
@@ -107,7 +106,6 @@
 <LINE>I know my remedy; I must go fetch the</LINE>
 <LINE>third--borough.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -340,9 +338,13 @@
 <LINE>Which otherwise would grow into extremes.</LINE>
 </SPEECH>
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  A bedchamber in the Lord's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  A bedchamber in the Lord's house.</TITLE>
+
 <STAGEDIR>Enter aloft SLY, with Attendants; some with apparel,
 others with basin and ewer and appurtenances; and Lord</STAGEDIR>
 
@@ -546,7 +548,6 @@ others with basin and ewer and appurtenances; and Lord</STAGEDIR>
 <LINE>I thank thee: thou shalt not lose by it.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter the Page as a lady, with attendants</STAGEDIR>
 
 <SPEECH>
@@ -635,7 +636,6 @@ others with basin and ewer and appurtenances; and Lord</STAGEDIR>
 <LINE>despite of the flesh and the blood.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Messenger</STAGEDIR>
 
 <SPEECH>
@@ -677,12 +677,18 @@ others with basin and ewer and appurtenances; and Lord</STAGEDIR>
 <LINE>and let the world slip: we shall ne'er be younger.</LINE>
 </SPEECH>
 <STAGEDIR>Flourish</STAGEDIR>
+
 </SCENE>
 </INDUCT>
 
-<ACT><TITLE>ACT I</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Padua. A public place.</TITLE>
+<TITLE>ACT I</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Padua. A public place.</TITLE>
+
 <STAGEDIR>Enter LUCENTIO and his man TRANIO</STAGEDIR>
 
 <SPEECH>
@@ -747,7 +753,6 @@ others with basin and ewer and appurtenances; and Lord</STAGEDIR>
 <SPEAKER>TRANIO</SPEAKER>
 <LINE>Master, some show to welcome us to town.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter BAPTISTA, KATHARINA, BIANCA, GREMIO, and
 HORTENSIO. LUCENTIO and TRANIO stand by</STAGEDIR>
@@ -876,7 +881,6 @@ HORTENSIO. LUCENTIO and TRANIO stand by</STAGEDIR>
 <LINE>For I have more to commune with Bianca.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -885,7 +889,6 @@ HORTENSIO. LUCENTIO and TRANIO stand by</STAGEDIR>
 <LINE>shall I be appointed hours; as though, belike, I</LINE>
 <LINE>knew not what to take and what to leave, ha?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -972,7 +975,6 @@ HORTENSIO. LUCENTIO and TRANIO stand by</STAGEDIR>
 <LINE>thoroughly woo her, wed her and bed her and rid the</LINE>
 <LINE>house of her! Come on.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt GREMIO and HORTENSIO</STAGEDIR>
 
@@ -1217,11 +1219,14 @@ HORTENSIO. LUCENTIO and TRANIO stand by</STAGEDIR>
 <LINE>would 'twere done!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>They sit and mark</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Padua. Before HORTENSIO'S house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Padua. Before HORTENSIO'S house.</TITLE>
+
 <STAGEDIR>Enter PETRUCHIO and his man GRUMIO</STAGEDIR>
 
 <SPEECH>
@@ -1270,7 +1275,6 @@ HORTENSIO. LUCENTIO and TRANIO stand by</STAGEDIR>
 <LINE>I'll try how you can sol, fa, and sing it.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>He wrings him by the ears</STAGEDIR>
 
 <SPEECH>
@@ -1282,7 +1286,6 @@ HORTENSIO. LUCENTIO and TRANIO stand by</STAGEDIR>
 <SPEAKER>PETRUCHIO</SPEAKER>
 <LINE>Now, knock when I bid you, sirrah villain!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter HORTENSIO</STAGEDIR>
 
@@ -1672,7 +1675,6 @@ HORTENSIO. LUCENTIO and TRANIO stand by</STAGEDIR>
 <LINE>I would I were as sure of a good dinner.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter TRANIO brave, and BIONDELLO</STAGEDIR>
 
 <SPEECH>
@@ -1862,15 +1864,20 @@ HORTENSIO. LUCENTIO and TRANIO stand by</STAGEDIR>
 <LINE>Petruchio, I shall be your ben venuto.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT II</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Padua. A room in BAPTISTA'S house.</TITLE>
+<TITLE>ACT II</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Padua. A room in BAPTISTA'S house.</TITLE>
+
 <STAGEDIR>Enter KATHARINA and BIANCA</STAGEDIR>
 
 <SPEECH>
@@ -1946,14 +1953,12 @@ HORTENSIO. LUCENTIO and TRANIO stand by</STAGEDIR>
 <LINE>Her silence flouts me, and I'll be revenged.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Flies after BIANCA</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>BAPTISTA</SPEAKER>
 <LINE>What, in my sight? Bianca, get thee in.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit BIANCA</STAGEDIR>
 
@@ -1967,7 +1972,6 @@ HORTENSIO. LUCENTIO and TRANIO stand by</STAGEDIR>
 <LINE>Till I can find occasion of revenge.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -1975,7 +1979,6 @@ HORTENSIO. LUCENTIO and TRANIO stand by</STAGEDIR>
 <LINE>Was ever gentleman thus grieved as I?</LINE>
 <LINE>But who comes here?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter GREMIO, LUCENTIO in the habit of a mean man;
 PETRUCHIO, with HORTENSIO as a musician; and TRANIO,
@@ -2194,7 +2197,6 @@ BIONDELLO following</STAGEDIR>
 <LINE>Ay, to the proof; as mountains are for winds,</LINE>
 <LINE>That shake not, though they blow perpetually.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter HORTENSIO, with his head broke</STAGEDIR>
 
@@ -2420,7 +2422,6 @@ BIONDELLO following</STAGEDIR>
 <LINE>That I'll try.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>She strikes him</STAGEDIR>
 
 <SPEECH>
@@ -2600,7 +2601,6 @@ BIONDELLO following</STAGEDIR>
 <LINE>I must and will have Katharina to my wife.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter BAPTISTA, GREMIO, and TRANIO</STAGEDIR>
 
 <SPEECH>
@@ -2696,7 +2696,6 @@ BIONDELLO following</STAGEDIR>
 <LINE>We will have rings and things and fine array;</LINE>
 <LINE>And kiss me, Kate, we will be married o'Sunday.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt PETRUCHIO and KATHARINA severally</STAGEDIR>
 
@@ -2870,7 +2869,6 @@ BIONDELLO following</STAGEDIR>
 <LINE>An old Italian fox is not so kind, my boy.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -2885,15 +2883,20 @@ BIONDELLO following</STAGEDIR>
 <LINE>A child shall get a sire, if I fail not of my cunning.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT III</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Padua. BAPTISTA'S house.</TITLE>
+<TITLE>ACT III</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Padua. BAPTISTA'S house.</TITLE>
+
 <STAGEDIR>Enter LUCENTIO, HORTENSIO, and BIANCA</STAGEDIR>
 
 <SPEECH>
@@ -3088,7 +3091,6 @@ BIONDELLO following</STAGEDIR>
 <LINE>To change true rules for old inventions.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Servant</STAGEDIR>
 
 <SPEECH>
@@ -3103,14 +3105,12 @@ BIONDELLO following</STAGEDIR>
 <LINE>Farewell, sweet masters both; I must be gone.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt BIANCA and Servant</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>LUCENTIO</SPEAKER>
 <LINE>Faith, mistress, then I have no cause to stay.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -3124,11 +3124,14 @@ BIONDELLO following</STAGEDIR>
 <LINE>Hortensio will be quit with thee by changing.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Padua. Before BAPTISTA'S house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Padua. Before BAPTISTA'S house.</TITLE>
+
 <STAGEDIR>Enter BAPTISTA, GREMIO, TRANIO, KATHARINA, BIANCA,
 LUCENTIO, and others, attendants</STAGEDIR>
 
@@ -3175,7 +3178,6 @@ LUCENTIO, and others, attendants</STAGEDIR>
 <LINE>Would Katharina had never seen him though!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit weeping, followed by BIANCA and others</STAGEDIR>
 
 <SPEECH>
@@ -3184,7 +3186,6 @@ LUCENTIO, and others, attendants</STAGEDIR>
 <LINE>For such an injury would vex a very saint,</LINE>
 <LINE>Much more a shrew of thy impatient humour.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter BIONDELLO</STAGEDIR>
 
@@ -3329,7 +3330,6 @@ LUCENTIO, and others, attendants</STAGEDIR>
 <LINE>And yet not many.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter PETRUCHIO and GRUMIO</STAGEDIR>
 
 <SPEECH>
@@ -3423,7 +3423,6 @@ LUCENTIO, and others, attendants</STAGEDIR>
 <LINE>And seal the title with a lovely kiss!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt PETRUCHIO and GRUMIO</STAGEDIR>
 
 <SPEECH>
@@ -3437,7 +3436,6 @@ LUCENTIO, and others, attendants</STAGEDIR>
 <SPEAKER>BAPTISTA</SPEAKER>
 <LINE>I'll after him, and see the event of this.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt BAPTISTA, GREMIO, and attendants</STAGEDIR>
 
@@ -3690,7 +3688,6 @@ HORTENSIO, GRUMIO, and Train</STAGEDIR>
 <LINE>I'll buckler thee against a million.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt PETRUCHIO, KATHARINA, and GRUMIO</STAGEDIR>
 
 <SPEECH>
@@ -3743,15 +3740,20 @@ HORTENSIO, GRUMIO, and Train</STAGEDIR>
 <LINE>She shall, Lucentio. Come, gentlemen, let's go.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT IV</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  PETRUCHIO'S country house.</TITLE>
+<TITLE>ACT IV</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  PETRUCHIO'S country house.</TITLE>
+
 <STAGEDIR>Enter GRUMIO</STAGEDIR>
 
 <SPEECH>
@@ -3768,7 +3770,6 @@ HORTENSIO, GRUMIO, and Train</STAGEDIR>
 <LINE>considering the weather, a taller man than I will</LINE>
 <LINE>take cold. Holla, ho! Curtis.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter CURTIS</STAGEDIR>
 
@@ -3903,7 +3904,6 @@ HORTENSIO, GRUMIO, and Train</STAGEDIR>
 <LINE>There.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Strikes him</STAGEDIR>
 
 <SPEECH>
@@ -4010,7 +4010,6 @@ HORTENSIO, GRUMIO, and Train</STAGEDIR>
 <LINE>Why, she comes to borrow nothing of them.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter four or five Serving-men</STAGEDIR>
 
 <SPEECH>
@@ -4055,7 +4054,6 @@ HORTENSIO, GRUMIO, and Train</STAGEDIR>
 <LINE>E'en at hand, alighted by this; and therefore be</LINE>
 <LINE>not--Cock's passion, silence! I hear my master.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PETRUCHIO and KATHARINA</STAGEDIR>
 
@@ -4128,7 +4126,6 @@ HORTENSIO, GRUMIO, and Train</STAGEDIR>
 <LINE>Come, Kate, and wash, and welcome heartily.</LINE>
 <LINE>You whoreson villain! will you let it fall?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Strikes him</STAGEDIR>
 
@@ -4204,7 +4201,6 @@ HORTENSIO, GRUMIO, and Train</STAGEDIR>
 <LINE>He kills her in her own humour.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter CURTIS</STAGEDIR>
 
 <SPEECH>
@@ -4252,11 +4248,14 @@ HORTENSIO, GRUMIO, and Train</STAGEDIR>
 <LINE>Now let him speak: 'tis charity to show.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Padua. Before BAPTISTA'S house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Padua. Before BAPTISTA'S house.</TITLE>
+
 <STAGEDIR>Enter TRANIO and HORTENSIO</STAGEDIR>
 
 <SPEECH>
@@ -4271,7 +4270,6 @@ HORTENSIO, GRUMIO, and Train</STAGEDIR>
 <LINE>Sir, to satisfy you in what I have said,</LINE>
 <LINE>Stand by and mark the manner of his teaching.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter BIANCA and LUCENTIO</STAGEDIR>
 
@@ -4361,7 +4359,6 @@ HORTENSIO, GRUMIO, and Train</STAGEDIR>
 <LINE>In resolution as I swore before.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -4424,7 +4421,6 @@ HORTENSIO, GRUMIO, and Train</STAGEDIR>
 <LINE>That teacheth tricks eleven and twenty long,</LINE>
 <LINE>To tame a shrew and charm her chattering tongue.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter BIONDELLO</STAGEDIR>
 
@@ -4589,11 +4585,14 @@ HORTENSIO, GRUMIO, and Train</STAGEDIR>
 <LINE>Go with me to clothe you as becomes you.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  A room in PETRUCHIO'S house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  A room in PETRUCHIO'S house.</TITLE>
+
 <STAGEDIR>Enter KATHARINA and GRUMIO</STAGEDIR>
 
 <SPEECH>
@@ -4687,7 +4686,6 @@ HORTENSIO, GRUMIO, and Train</STAGEDIR>
 <LINE>That triumph thus upon my misery!</LINE>
 <LINE>Go, get thee gone, I say.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PETRUCHIO and HORTENSIO with meat</STAGEDIR>
 
@@ -4814,7 +4812,6 @@ HORTENSIO, GRUMIO, and Train</STAGEDIR>
 <LINE>Love me or love me not, I like the cap;</LINE>
 <LINE>And it I will have, or I will have none.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit Haberdasher</STAGEDIR>
 
@@ -5058,7 +5055,6 @@ HORTENSIO, GRUMIO, and Train</STAGEDIR>
 <LINE>Away! I say; commend me to thy master.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit Tailor</STAGEDIR>
 
 <SPEECH>
@@ -5105,11 +5101,14 @@ HORTENSIO, GRUMIO, and Train</STAGEDIR>
 <LINE><STAGEDIR>Aside</STAGEDIR>  Why, so this gallant will command the sun.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Padua. Before BAPTISTA'S house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Padua. Before BAPTISTA'S house.</TITLE>
+
 <STAGEDIR>Enter TRANIO, and the Pedant dressed like VINCENTIO</STAGEDIR>
 
 <SPEECH>
@@ -5353,7 +5352,6 @@ HORTENSIO, GRUMIO, and Train</STAGEDIR>
 <LINE>you come with your appendix.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -5364,11 +5362,14 @@ HORTENSIO, GRUMIO, and Train</STAGEDIR>
 <LINE>It shall go hard if Cambio go without her.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  A public road.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  A public road.</TITLE>
+
 <STAGEDIR>Enter PETRUCHIO, KATHARINA, HORTENSIO, and Servants</STAGEDIR>
 
 <SPEECH>
@@ -5550,7 +5551,6 @@ HORTENSIO, GRUMIO, and Train</STAGEDIR>
 <LINE>For our first merriment hath made thee jealous.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt all but HORTENSIO</STAGEDIR>
 
 <SPEECH>
@@ -5560,15 +5560,20 @@ HORTENSIO, GRUMIO, and Train</STAGEDIR>
 <LINE>Then hast thou taught Hortensio to be untoward.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT V</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Padua. Before LUCENTIO'S house.</TITLE>
+<TITLE>ACT V</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Padua. Before LUCENTIO'S house.</TITLE>
+
 <STAGEDIR>GREMIO discovered. Enter behind BIONDELLO,
 LUCENTIO, and BIANCA</STAGEDIR>
 
@@ -5589,14 +5594,12 @@ LUCENTIO, and BIANCA</STAGEDIR>
 <LINE>then come back to my master's as soon as I can.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt LUCENTIO, BIANCA, and BIONDELLO</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>GREMIO</SPEAKER>
 <LINE>I marvel Cambio comes not all this while.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PETRUCHIO, KATHARINA, VINCENTIO, GRUMIO,
 with Attendants</STAGEDIR>
@@ -5615,14 +5618,12 @@ with Attendants</STAGEDIR>
 <LINE>And, by all likelihood, some cheer is toward.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Knocks</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>GREMIO</SPEAKER>
 <LINE>They're busy within; you were best knock louder.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Pedant looks out of the window</STAGEDIR>
 
@@ -5689,7 +5690,6 @@ with Attendants</STAGEDIR>
 <LINE>cozen somebody in this city under my countenance.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter BIONDELLO</STAGEDIR>
 
 <SPEECH>
@@ -5738,7 +5738,6 @@ with Attendants</STAGEDIR>
 <LINE>Is't so, indeed.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Beats BIONDELLO</STAGEDIR>
 
 <SPEECH>
@@ -5746,14 +5745,12 @@ with Attendants</STAGEDIR>
 <LINE>Help, help, help! here's a madman will murder me.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>Pedant</SPEAKER>
 <LINE>Help, son! help, Signior Baptista!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit from above</STAGEDIR>
 
@@ -5891,7 +5888,6 @@ with Attendants</STAGEDIR>
 <LINE>monstrous villain!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter BIONDELLO, with LUCENTIO and BIANCA</STAGEDIR>
 
 <SPEECH>
@@ -5909,7 +5905,6 @@ with Attendants</STAGEDIR>
 <SPEAKER>VINCENTIO</SPEAKER>
 <LINE>Lives my sweet son?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt BIONDELLO, TRANIO, and Pedant, as fast
 as may be</STAGEDIR>
@@ -5983,14 +5978,12 @@ as may be</STAGEDIR>
 <LINE>I will in, to be revenged for this villany.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>BAPTISTA</SPEAKER>
 <LINE>And I, to sound the depth of this knavery.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -5999,7 +5992,6 @@ as may be</STAGEDIR>
 <LINE>Look not pale, Bianca; thy father will not frown.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt LUCENTIO and BIANCA</STAGEDIR>
 
 <SPEECH>
@@ -6007,7 +5999,6 @@ as may be</STAGEDIR>
 <LINE>My cake is dough; but I'll in among the rest,</LINE>
 <LINE>Out of hope of all, but my share of the feast.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -6052,11 +6043,14 @@ as may be</STAGEDIR>
 <LINE>Better once than never, for never too late.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Padua. LUCENTIO'S house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Padua. LUCENTIO'S house.</TITLE>
+
 <STAGEDIR>Enter BAPTISTA, VINCENTIO, GREMIO, the Pedant,
 LUCENTIO, BIANCA, PETRUCHIO, KATHARINA, HORTENSIO,
 and Widow, TRANIO, BIONDELLO, and GRUMIO the
@@ -6201,7 +6195,6 @@ Serving-men with Tranio bringing in a banquet</STAGEDIR>
 <LINE>Spoke like an officer; ha' to thee, lad!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Drinks to HORTENSIO</STAGEDIR>
 
 <SPEECH>
@@ -6242,7 +6235,6 @@ Serving-men with Tranio bringing in a banquet</STAGEDIR>
 <LINE>And then pursue me as you draw your bow.</LINE>
 <LINE>You are welcome all.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt BIANCA, KATHARINA, and Widow</STAGEDIR>
 
@@ -6355,7 +6347,6 @@ Serving-men with Tranio bringing in a banquet</STAGEDIR>
 <LINE>I go.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -6399,7 +6390,6 @@ Serving-men with Tranio bringing in a banquet</STAGEDIR>
 <LINE>To come to me forthwith.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit BIONDELLO</STAGEDIR>
 
 <SPEECH>
@@ -6430,7 +6420,6 @@ Serving-men with Tranio bringing in a banquet</STAGEDIR>
 <LINE>Say, I command her to come to me.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit GRUMIO</STAGEDIR>
 
 <SPEECH>
@@ -6458,7 +6447,6 @@ Serving-men with Tranio bringing in a banquet</STAGEDIR>
 <LINE>Now, by my holidame, here comes Katharina!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter KATARINA</STAGEDIR>
 
 <SPEECH>
@@ -6482,7 +6470,6 @@ Serving-men with Tranio bringing in a banquet</STAGEDIR>
 <LINE>Swinge me them soundly forth unto their husbands:</LINE>
 <LINE>Away, I say, and bring them hither straight.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit KATHARINA</STAGEDIR>
 
@@ -6650,7 +6637,6 @@ Serving-men with Tranio bringing in a banquet</STAGEDIR>
 <LINE>And, being a winner, God give you good night!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt PETRUCHIO and KATHARINA</STAGEDIR>
 
 <SPEECH>
@@ -6663,8 +6649,8 @@ Serving-men with Tranio bringing in a banquet</STAGEDIR>
 <LINE>'Tis a wonder, by your leave, she will be tamed so.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 </ACT>
 </PLAY>

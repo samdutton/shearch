@@ -11,7 +11,6 @@
 <P>This work may be freely copied and distributed worldwide.</P>
 </FM>
 
-
 <PERSONAE>
 <TITLE>Dramatis Personae</TITLE>
 
@@ -23,13 +22,11 @@
 <GRPDESCR>his sons.</GRPDESCR>
 </PGROUP>
 
-
 <PGROUP>
 <PERSONA>MACBETH</PERSONA>
 <PERSONA>BANQUO</PERSONA>
 <GRPDESCR>generals of the king's army.</GRPDESCR>
 </PGROUP>
-
 
 <PGROUP>
 <PERSONA>MACDUFF</PERSONA>
@@ -64,9 +61,14 @@
 
 <PLAYSUBT>MACBETH</PLAYSUBT>
 
-<ACT><TITLE>ACT I</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  A desert place.</TITLE>
+<TITLE>ACT I</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  A desert place.</TITLE>
+
 <STAGEDIR>Thunder and lightning. Enter three Witches</STAGEDIR>
 
 <SPEECH>
@@ -122,11 +124,14 @@
 <LINE>Hover through the fog and filthy air.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  A camp near Forres.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  A camp near Forres.</TITLE>
+
 <STAGEDIR>Alarum within. Enter DUNCAN, MALCOLM, DONALBAIN,
 LENNOX, with Attendants, meeting a bleeding Sergeant</STAGEDIR>
 
@@ -212,7 +217,6 @@ LENNOX, with Attendants, meeting a bleeding Sergeant</STAGEDIR>
 <LINE>Who comes here?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter ROSS</STAGEDIR>
 
 <SPEECH>
@@ -282,11 +286,14 @@ LENNOX, with Attendants, meeting a bleeding Sergeant</STAGEDIR>
 <LINE>What he hath lost noble Macbeth hath won.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  A heath near Forres.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  A heath near Forres.</TITLE>
+
 <STAGEDIR>Thunder. Enter the three Witches</STAGEDIR>
 
 <SPEECH>
@@ -359,7 +366,6 @@ LENNOX, with Attendants, meeting a bleeding Sergeant</STAGEDIR>
 <LINE>Wreck'd as homeward he did come.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Drum within</STAGEDIR>
 
 <SPEECH>
@@ -377,7 +383,6 @@ LENNOX, with Attendants, meeting a bleeding Sergeant</STAGEDIR>
 <LINE>And thrice again, to make up nine.</LINE>
 <LINE>Peace! the charm's wound up.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter MACBETH and BANQUO</STAGEDIR>
 
@@ -483,7 +488,6 @@ LENNOX, with Attendants, meeting a bleeding Sergeant</STAGEDIR>
 <LINE>With such prophetic greeting? Speak, I charge you.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Witches vanish</STAGEDIR>
 
 <SPEECH>
@@ -524,7 +528,6 @@ LENNOX, with Attendants, meeting a bleeding Sergeant</STAGEDIR>
 <SPEAKER>BANQUO</SPEAKER>
 <LINE>To the selfsame tune and words. Who's here?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter ROSS and ANGUS</STAGEDIR>
 
@@ -677,11 +680,14 @@ LENNOX, with Attendants, meeting a bleeding Sergeant</STAGEDIR>
 <LINE>Till then, enough. Come, friends.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Forres. The palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Forres. The palace.</TITLE>
+
 <STAGEDIR>Flourish. Enter DUNCAN, MALCOLM, DONALBAIN, LENNOX,
 and Attendants</STAGEDIR>
 
@@ -786,7 +792,6 @@ and Attendants</STAGEDIR>
 <LINE>Which the eye fears, when it is done, to see.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -798,11 +803,14 @@ and Attendants</STAGEDIR>
 <LINE>It is a peerless kinsman.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Flourish. Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  Inverness. Macbeth's castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  Inverness. Macbeth's castle.</TITLE>
+
 <STAGEDIR>Enter LADY MACBETH, reading a letter</STAGEDIR>
 
 <SPEECH>
@@ -934,11 +942,14 @@ and Attendants</STAGEDIR>
 <LINE>Leave all the rest to me.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VI.  Before Macbeth's castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VI.  Before Macbeth's castle.</TITLE>
+
 <STAGEDIR>Hautboys and torches. Enter DUNCAN, MALCOLM,
 DONALBAIN, BANQUO, LENNOX, MACDUFF, ROSS, ANGUS,
 and Attendants</STAGEDIR>
@@ -961,7 +972,6 @@ and Attendants</STAGEDIR>
 <LINE>Where they most breed and haunt, I have observed,</LINE>
 <LINE>The air is delicate.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter LADY MACBETH</STAGEDIR>
 
@@ -1011,11 +1021,14 @@ and Attendants</STAGEDIR>
 <LINE>By your leave, hostess.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VII.  Macbeth's castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VII.  Macbeth's castle.</TITLE>
+
 <STAGEDIR>Hautboys and torches. Enter a Sewer, and divers
 Servants with dishes and service, and pass over the
 stage. Then enter MACBETH</STAGEDIR>
@@ -1165,15 +1178,20 @@ stage. Then enter MACBETH</STAGEDIR>
 <LINE>False face must hide what the false heart doth know.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT II</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Court of Macbeth's castle.</TITLE>
+<TITLE>ACT II</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Court of Macbeth's castle.</TITLE>
+
 <STAGEDIR>Enter BANQUO, and FLEANCE bearing a torch before him</STAGEDIR>
 
 <SPEECH>
@@ -1275,7 +1293,6 @@ stage. Then enter MACBETH</STAGEDIR>
 <LINE>Thanks, sir: the like to you!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt BANQUO and FLEANCE</STAGEDIR>
 
 <SPEECH>
@@ -1318,11 +1335,14 @@ stage. Then enter MACBETH</STAGEDIR>
 <LINE>That summons thee to heaven or to hell.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The same.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The same.</TITLE>
+
 <STAGEDIR>Enter LADY MACBETH</STAGEDIR>
 
 <SPEECH>
@@ -1401,7 +1421,6 @@ stage. Then enter MACBETH</STAGEDIR>
 <SPEAKER>MACBETH</SPEAKER>
 <LINE>This is a sorry sight.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Looking on his hands</STAGEDIR>
 
@@ -1500,7 +1519,6 @@ stage. Then enter MACBETH</STAGEDIR>
 <LINE>For it must seem their guilt.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit. Knocking within</STAGEDIR>
 
 <SPEECH>
@@ -1513,7 +1531,6 @@ stage. Then enter MACBETH</STAGEDIR>
 <LINE>The multitudinous seas in incarnadine,</LINE>
 <LINE>Making the green one red.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter LADY MACBETH</STAGEDIR>
 
@@ -1541,11 +1558,14 @@ stage. Then enter MACBETH</STAGEDIR>
 <LINE>Wake Duncan with thy knocking! I would thou couldst!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The same.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The same.</TITLE>
+
 <STAGEDIR>Knocking within. Enter a Porter</STAGEDIR>
 
 <SPEECH>
@@ -1690,7 +1710,6 @@ stage. Then enter MACBETH</STAGEDIR>
 <LINE>For 'tis my limited service.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -1725,7 +1744,6 @@ stage. Then enter MACBETH</STAGEDIR>
 <LINE>My young remembrance cannot parallel</LINE>
 <LINE>A fellow to it.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter MACDUFF</STAGEDIR>
 
@@ -1809,7 +1827,6 @@ stage. Then enter MACBETH</STAGEDIR>
 <LINE>And say it is not so.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter MACBETH and LENNOX, with ROSS</STAGEDIR>
 
 <SPEECH>
@@ -1821,7 +1838,6 @@ stage. Then enter MACBETH</STAGEDIR>
 <LINE>The wine of life is drawn, and the mere lees</LINE>
 <LINE>Is left this vault to brag of.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter MALCOLM and DONALBAIN</STAGEDIR>
 
@@ -1948,7 +1964,6 @@ stage. Then enter MACBETH</STAGEDIR>
 <LINE>Well contented.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt all but Malcolm and Donalbain</STAGEDIR>
 
 <SPEECH>
@@ -1977,9 +1992,13 @@ stage. Then enter MACBETH</STAGEDIR>
 </SPEECH>
 
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Outside Macbeth's castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Outside Macbeth's castle.</TITLE>
+
 <STAGEDIR>Enter ROSS and an old Man</STAGEDIR>
 
 <SPEECH>
@@ -2118,15 +2137,20 @@ stage. Then enter MACBETH</STAGEDIR>
 <LINE>That would make good of bad, and friends of foes!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT III</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Forres. The palace.</TITLE>
+<TITLE>ACT III</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Forres. The palace.</TITLE>
+
 <STAGEDIR>Enter BANQUO</STAGEDIR>
 
 <SPEECH>
@@ -2142,7 +2166,6 @@ stage. Then enter MACBETH</STAGEDIR>
 <LINE>May they not be my oracles as well,</LINE>
 <LINE>And set me up in hope? But hush! no more.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Sennet sounded. Enter MACBETH, as king, LADY
 MACBETH, as queen, LENNOX, ROSS, Lords, Ladies, and
@@ -2424,11 +2447,14 @@ Attendants</STAGEDIR>
 <LINE>If it find heaven, must find it out to-night.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The palace.</TITLE>
+
 <STAGEDIR>Enter LADY MACBETH and a Servant</STAGEDIR>
 
 <SPEECH>
@@ -2451,7 +2477,6 @@ Attendants</STAGEDIR>
 <SPEAKER>Servant</SPEAKER>
 <LINE>Madam, I will.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -2553,11 +2578,14 @@ Attendants</STAGEDIR>
 <LINE>So, prithee, go with me.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  A park near the palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  A park near the palace.</TITLE>
+
 <STAGEDIR>Enter three Murderers</STAGEDIR>
 
 <SPEECH>
@@ -2620,7 +2648,6 @@ Attendants</STAGEDIR>
 <LINE>A light, a light!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter BANQUO, and FLEANCE with a torch</STAGEDIR>
 
 <SPEECH>
@@ -2643,7 +2670,6 @@ Attendants</STAGEDIR>
 <LINE>Let it come down.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>They set upon BANQUO</STAGEDIR>
 
 <SPEECH>
@@ -2651,7 +2677,6 @@ Attendants</STAGEDIR>
 <LINE>O, treachery! Fly, good Fleance, fly, fly, fly!</LINE>
 <LINE>Thou mayst revenge. O slave!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Dies. FLEANCE escapes</STAGEDIR>
 
@@ -2681,11 +2706,14 @@ Attendants</STAGEDIR>
 <LINE>Well, let's away, and say how much is done.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  The same. Hall in the palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  The same. Hall in the palace.</TITLE>
+
 <STAGEDIR>A banquet prepared. Enter MACBETH, LADY MACBETH,
 ROSS, LENNOX, Lords, and Attendants</STAGEDIR>
 
@@ -2713,7 +2741,6 @@ ROSS, LENNOX, Lords, and Attendants</STAGEDIR>
 <LINE>Pronounce it for me, sir, to all our friends;</LINE>
 <LINE>For my heart speaks they are welcome.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>First Murderer appears at the door</STAGEDIR>
 
@@ -2781,7 +2808,6 @@ ROSS, LENNOX, Lords, and Attendants</STAGEDIR>
 <LINE>We'll hear, ourselves, again.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit Murderer</STAGEDIR>
 
 <SPEECH>
@@ -2805,7 +2831,6 @@ ROSS, LENNOX, Lords, and Attendants</STAGEDIR>
 <SPEAKER>LENNOX</SPEAKER>
 <LINE>May't please your highness sit.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>The GHOST OF BANQUO enters, and sits in
 MACBETH's place</STAGEDIR>
@@ -2905,7 +2930,6 @@ MACBETH's place</STAGEDIR>
 <LINE>Shall be the maws of kites.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>GHOST OF BANQUO vanishes</STAGEDIR>
 
 <SPEECH>
@@ -2959,7 +2983,6 @@ MACBETH's place</STAGEDIR>
 <SPEAKER>Lords</SPEAKER>
 <LINE>Our duties, and the pledge.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter GHOST OF BANQUO</STAGEDIR>
 
@@ -3035,7 +3058,6 @@ MACBETH's place</STAGEDIR>
 <LINE>A kind good night to all!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt all but MACBETH and LADY MACBETH</STAGEDIR>
 
 <SPEECH>
@@ -3090,11 +3112,14 @@ MACBETH's place</STAGEDIR>
 <LINE>We are yet but young in deed.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  A Heath.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  A Heath.</TITLE>
+
 <STAGEDIR>Thunder. Enter the three Witches meeting HECATE</STAGEDIR>
 
 <SPEECH>
@@ -3142,7 +3167,6 @@ away,' &amp;c</STAGEDIR>
 <LINE>Sits in a foggy cloud, and stays for me.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -3150,11 +3174,14 @@ away,' &amp;c</STAGEDIR>
 <LINE>Come, let's make haste; she'll soon be back again.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VI.  Forres. The palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VI.  Forres. The palace.</TITLE>
+
 <STAGEDIR>Enter LENNOX and another Lord</STAGEDIR>
 
 <SPEECH>
@@ -3236,15 +3263,20 @@ away,' &amp;c</STAGEDIR>
 <LINE>I'll send my prayers with him.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT IV</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  A cavern. In the middle, a boiling cauldron.</TITLE>
+<TITLE>ACT IV</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  A cavern. In the middle, a boiling cauldron.</TITLE>
+
 <STAGEDIR>Thunder. Enter the three Witches</STAGEDIR>
 
 <SPEECH>
@@ -3325,7 +3357,6 @@ away,' &amp;c</STAGEDIR>
 <LINE>Then the charm is firm and good.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter HECATE to the other three Witches</STAGEDIR>
 
 <SPEECH>
@@ -3347,7 +3378,6 @@ away,' &amp;c</STAGEDIR>
 <LINE>Open, locks,</LINE>
 <LINE>Whoever knocks!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter MACBETH</STAGEDIR>
 
@@ -3418,7 +3448,6 @@ away,' &amp;c</STAGEDIR>
 <LINE>Thyself and office deftly show!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Thunder. First Apparition: an armed Head</STAGEDIR>
 
 <SPEECH>
@@ -3438,7 +3467,6 @@ away,' &amp;c</STAGEDIR>
 <LINE>Beware the thane of Fife. Dismiss me. Enough.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Descends</STAGEDIR>
 
 <SPEECH>
@@ -3453,7 +3481,6 @@ away,' &amp;c</STAGEDIR>
 <LINE>He will not be commanded: here's another,</LINE>
 <LINE>More potent than the first.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Thunder. Second Apparition: A bloody Child</STAGEDIR>
 
@@ -3473,7 +3500,6 @@ away,' &amp;c</STAGEDIR>
 <LINE>The power of man, for none of woman born</LINE>
 <LINE>Shall harm Macbeth.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Descends</STAGEDIR>
 
@@ -3506,7 +3532,6 @@ with a tree in his hand</STAGEDIR>
 <LINE>Shall come against him.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Descends</STAGEDIR>
 
 <SPEECH>
@@ -3535,7 +3560,6 @@ with a tree in his hand</STAGEDIR>
 <LINE>Why sinks that cauldron? and what noise is this?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Hautboys</STAGEDIR>
 
 <SPEECH>
@@ -3558,7 +3582,6 @@ with a tree in his hand</STAGEDIR>
 <LINE>Show his eyes, and grieve his heart;</LINE>
 <LINE>Come like shadows, so depart!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>A show of Eight Kings, the last with a glass in
 his hand; GHOST OF BANQUO following</STAGEDIR>
@@ -3594,7 +3617,6 @@ his hand; GHOST OF BANQUO following</STAGEDIR>
 <LINE>Our duties did his welcome pay.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Music. The witches dance and then vanish,
 with HECATE</STAGEDIR>
 
@@ -3604,7 +3626,6 @@ with HECATE</STAGEDIR>
 <LINE>Stand aye accursed in the calendar!</LINE>
 <LINE>Come in, without there!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter LENNOX</STAGEDIR>
 
@@ -3673,11 +3694,14 @@ with HECATE</STAGEDIR>
 <LINE>Come, bring me where they are.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Fife. Macduff's castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Fife. Macduff's castle.</TITLE>
+
 <STAGEDIR>Enter LADY MACDUFF, her Son, and ROSS</STAGEDIR>
 
 <SPEECH>
@@ -3745,7 +3769,6 @@ with HECATE</STAGEDIR>
 <LINE>It would be my disgrace and your discomfort:</LINE>
 <LINE>I take my leave at once.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -3883,7 +3906,6 @@ with HECATE</STAGEDIR>
 <LINE>Poor prattler, how thou talk'st!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Messenger</STAGEDIR>
 
 <SPEECH>
@@ -3898,7 +3920,6 @@ with HECATE</STAGEDIR>
 <LINE>Which is too nigh your person. Heaven preserve you!</LINE>
 <LINE>I dare abide no longer.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -3952,9 +3973,13 @@ with HECATE</STAGEDIR>
 <STAGEDIR>Dies</STAGEDIR>
 <STAGEDIR>Exit LADY MACDUFF, crying 'Murder!' Exeunt
 Murderers, following her</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  England. Before the King's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  England. Before the King's palace.</TITLE>
+
 <STAGEDIR>Enter MALCOLM and MACDUFF</STAGEDIR>
 
 <SPEECH>
@@ -4202,7 +4227,6 @@ Murderers, following her</STAGEDIR>
 <LINE>'Tis hard to reconcile.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Doctor</STAGEDIR>
 
 <SPEECH>
@@ -4223,7 +4247,6 @@ Murderers, following her</STAGEDIR>
 <SPEAKER>MALCOLM</SPEAKER>
 <LINE>I thank you, doctor.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit Doctor</STAGEDIR>
 
@@ -4249,7 +4272,6 @@ Murderers, following her</STAGEDIR>
 <LINE>And sundry blessings hang about his throne,</LINE>
 <LINE>That speak him full of grace.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter ROSS</STAGEDIR>
 
@@ -4507,15 +4529,20 @@ Murderers, following her</STAGEDIR>
 <LINE>The night is long that never finds the day.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT V</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Dunsinane. Ante-room in the castle.</TITLE>
+<TITLE>ACT V</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Dunsinane. Ante-room in the castle.</TITLE>
+
 <STAGEDIR>Enter a Doctor of Physic and a Waiting-Gentlewoman</STAGEDIR>
 
 <SPEECH>
@@ -4693,7 +4720,6 @@ Murderers, following her</STAGEDIR>
 <LINE>done cannot be undone.--To bed, to bed, to bed!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -4724,11 +4750,14 @@ Murderers, following her</STAGEDIR>
 <LINE>Good night, good doctor.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The country near Dunsinane.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The country near Dunsinane.</TITLE>
+
 <STAGEDIR>Drum and colours. Enter MENTEITH, CAITHNESS, ANGUS,
 LENNOX, and Soldiers</STAGEDIR>
 
@@ -4809,11 +4838,14 @@ LENNOX, and Soldiers</STAGEDIR>
 <LINE>Make we our march towards Birnam.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt, marching</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Dunsinane. A room in the castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Dunsinane. A room in the castle.</TITLE>
+
 <STAGEDIR>Enter MACBETH, Doctor, and Attendants</STAGEDIR>
 
 <SPEECH>
@@ -4877,7 +4909,6 @@ LENNOX, and Soldiers</STAGEDIR>
 <LINE>Curses, not loud but deep, mouth-honour, breath,</LINE>
 <LINE>Which the poor heart would fain deny, and dare not. Seyton!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter SEYTON</STAGEDIR>
 
@@ -4972,11 +5003,14 @@ LENNOX, and Soldiers</STAGEDIR>
 <LINE>Profit again should hardly draw me here.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Country near Birnam wood.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Country near Birnam wood.</TITLE>
+
 <STAGEDIR>Drum and colours. Enter MALCOLM, SIWARD and YOUNG
 SIWARD, MACDUFF, MENTEITH, CAITHNESS, ANGUS,
 LENNOX, ROSS, and Soldiers, marching</STAGEDIR>
@@ -5048,11 +5082,14 @@ LENNOX, ROSS, and Soldiers, marching</STAGEDIR>
 <LINE>Towards which advance the war.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt, marching</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  Dunsinane. Within the castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  Dunsinane. Within the castle.</TITLE>
+
 <STAGEDIR>Enter MACBETH, SEYTON, and Soldiers, with drum
 and colours</STAGEDIR>
 
@@ -5073,7 +5110,6 @@ and colours</STAGEDIR>
 <SPEAKER>SEYTON</SPEAKER>
 <LINE>It is the cry of women, my good lord.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -5163,11 +5199,14 @@ and colours</STAGEDIR>
 <LINE>At least we'll die with harness on our back.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VI.  Dunsinane. Before the castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VI.  Dunsinane. Before the castle.</TITLE>
+
 <STAGEDIR>Drum and colours. Enter MALCOLM, SIWARD, MACDUFF,
 and their Army, with boughs</STAGEDIR>
 
@@ -5194,11 +5233,14 @@ and their Army, with boughs</STAGEDIR>
 <LINE>Those clamorous harbingers of blood and death.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VII.  Another part of the field.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VII.  Another part of the field.</TITLE>
+
 <STAGEDIR>Alarums. Enter MACBETH</STAGEDIR>
 
 <SPEECH>
@@ -5208,7 +5250,6 @@ and their Army, with boughs</STAGEDIR>
 <LINE>That was not born of woman? Such a one</LINE>
 <LINE>Am I to fear, or none.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter YOUNG SIWARD</STAGEDIR>
 
@@ -5249,7 +5290,6 @@ and their Army, with boughs</STAGEDIR>
 <LINE>Thou liest, abhorred tyrant; with my sword</LINE>
 <LINE>I'll prove the lie thou speak'st.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>They fight and YOUNG SIWARD is slain</STAGEDIR>
 
@@ -5300,11 +5340,14 @@ and their Army, with boughs</STAGEDIR>
 <LINE>Enter, sir, the castle.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt. Alarums</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VIII.  Another part of the field.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VIII.  Another part of the field.</TITLE>
+
 <STAGEDIR>Enter MACBETH</STAGEDIR>
 
 <SPEECH>
@@ -5313,7 +5356,6 @@ and their Army, with boughs</STAGEDIR>
 <LINE>On mine own sword? whiles I see lives, the gashes</LINE>
 <LINE>Do better upon them.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter MACDUFF</STAGEDIR>
 
@@ -5335,7 +5377,6 @@ and their Army, with boughs</STAGEDIR>
 <LINE>My voice is in my sword: thou bloodier villain</LINE>
 <LINE>Than terms can give thee out!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>They fight</STAGEDIR>
 
@@ -5460,7 +5501,6 @@ MALCOLM, SIWARD, ROSS, the other Thanes, and Soldiers</STAGEDIR>
 <LINE>And so, God be with him! Here comes newer comfort.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter MACDUFF, with MACBETH's head</STAGEDIR>
 
 <SPEECH>
@@ -5477,7 +5517,6 @@ MALCOLM, SIWARD, ROSS, the other Thanes, and Soldiers</STAGEDIR>
 <SPEAKER>ALL</SPEAKER>
 <LINE>Hail, King of Scotland!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Flourish</STAGEDIR>
 
@@ -5501,8 +5540,8 @@ MALCOLM, SIWARD, ROSS, the other Thanes, and Soldiers</STAGEDIR>
 <LINE>Whom we invite to see us crown'd at Scone.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Flourish. Exeunt</STAGEDIR>
+
 </SCENE>
 </ACT>
 </PLAY>

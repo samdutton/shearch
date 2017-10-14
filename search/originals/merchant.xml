@@ -11,7 +11,6 @@
 <P>This work may be freely copied and distributed worldwide.</P>
 </FM>
 
-
 <PERSONAE>
 <TITLE>Dramatis Personae</TITLE>
 
@@ -57,9 +56,14 @@
 
 <PLAYSUBT>THE MERCHANT OF VENICE</PLAYSUBT>
 
-<ACT><TITLE>ACT I</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Venice. A street.</TITLE>
+<TITLE>ACT I</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Venice. A street.</TITLE>
+
 <STAGEDIR>Enter ANTONIO, SALARINO, and SALANIO</STAGEDIR>
 
 <SPEECH>
@@ -152,7 +156,6 @@
 <LINE>Though Nestor swear the jest be laughable.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter BASSANIO, LORENZO, and GRATIANO</STAGEDIR>
 
 <SPEECH>
@@ -190,7 +193,6 @@
 <SPEAKER>SALARINO</SPEAKER>
 <LINE>We'll make our leisures to attend on yours.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt Salarino and Salanio</STAGEDIR>
 
@@ -274,7 +276,6 @@
 <LINE>Thanks, i' faith, for silence is only commendable</LINE>
 <LINE>In a neat's tongue dried and a maid not vendible.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt GRATIANO and LORENZO</STAGEDIR>
 
@@ -387,11 +388,14 @@
 <LINE>To have it of my trust or for my sake.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II: Belmont. A room in PORTIA'S house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II: Belmont. A room in PORTIA'S house.</TITLE>
+
 <STAGEDIR>Enter PORTIA and NERISSA</STAGEDIR>
 
 <SPEECH>
@@ -639,11 +643,14 @@
 <LINE>upon one wooer, another knocks at the door.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Venice. A public place.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Venice. A public place.</TITLE>
+
 <STAGEDIR>Enter BASSANIO and SHYLOCK</STAGEDIR>
 
 <SPEECH>
@@ -739,7 +746,6 @@
 <LINE>with you, drink with you, nor pray with you. What</LINE>
 <LINE>news on the Rialto? Who is he comes here?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter ANTONIO</STAGEDIR>
 
@@ -1018,15 +1024,20 @@
 <LINE>My ships come home a month before the day.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT II</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Belmont. A room in PORTIA'S house.</TITLE>
+<TITLE>ACT II</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Belmont. A room in PORTIA'S house.</TITLE>
+
 <STAGEDIR>Flourish of cornets. Enter the PRINCE OF MOROCCO
 and his train; PORTIA, NERISSA, and others
 attending</STAGEDIR>
@@ -1108,11 +1119,14 @@ attending</STAGEDIR>
 <LINE>To make me blest or cursed'st among men.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Cornets, and exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Venice. A street.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Venice. A street.</TITLE>
+
 <STAGEDIR>Enter LAUNCELOT</STAGEDIR>
 
 <SPEECH>
@@ -1149,7 +1163,6 @@ attending</STAGEDIR>
 <LINE>friendly counsel: I will run, fiend; my heels are</LINE>
 <LINE>at your command; I will run.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter Old GOBBO, with a basket</STAGEDIR>
 
@@ -1337,7 +1350,6 @@ attending</STAGEDIR>
 <LINE>am a Jew, if I serve the Jew any longer.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter BASSANIO, with LEONARDO and other followers</STAGEDIR>
 
 <SPEECH>
@@ -1347,7 +1359,6 @@ attending</STAGEDIR>
 <LINE>these letters delivered; put the liveries to making,</LINE>
 <LINE>and desire Gratiano to come anon to my lodging.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit a Servant</STAGEDIR>
 
@@ -1469,7 +1480,6 @@ attending</STAGEDIR>
 <LINE>come; I'll take my leave of the Jew in the twinkling of an eye.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt Launcelot and Old Gobbo</STAGEDIR>
 
 <SPEECH>
@@ -1485,7 +1495,6 @@ attending</STAGEDIR>
 <LINE>My best endeavours shall be done herein.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter GRATIANO</STAGEDIR>
 
 <SPEECH>
@@ -1497,7 +1506,6 @@ attending</STAGEDIR>
 <SPEAKER>LEONARDO</SPEAKER>
 <LINE>Yonder, sir, he walks.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -1579,11 +1587,14 @@ attending</STAGEDIR>
 <LINE>But we will visit you at supper-time.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The same. A room in SHYLOCK'S house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The same. A room in SHYLOCK'S house.</TITLE>
+
 <STAGEDIR>Enter JESSICA and LAUNCELOT</STAGEDIR>
 
 <SPEECH>
@@ -1620,11 +1631,14 @@ attending</STAGEDIR>
 <LINE>Become a Christian and thy loving wife.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  The same. A street.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  The same. A street.</TITLE>
+
 <STAGEDIR>Enter GRATIANO, LORENZO, SALARINO, and SALANIO</STAGEDIR>
 
 <SPEECH>
@@ -1723,7 +1737,6 @@ attending</STAGEDIR>
 <LINE>'Tis good we do so.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt SALARINO and SALANIO</STAGEDIR>
 
 <SPEECH>
@@ -1746,11 +1759,14 @@ attending</STAGEDIR>
 <LINE>Fair Jessica shall be my torch-bearer.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  The same. Before SHYLOCK'S house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  The same. Before SHYLOCK'S house.</TITLE>
+
 <STAGEDIR>Enter SHYLOCK and LAUNCELOT</STAGEDIR>
 
 <SPEECH>
@@ -1778,7 +1794,6 @@ attending</STAGEDIR>
 <LINE>Your worship was wont to tell me that</LINE>
 <LINE>I could do nothing without bidding.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter Jessica</STAGEDIR>
 
@@ -1843,7 +1858,6 @@ attending</STAGEDIR>
 <LINE>boy, will be worth a Jewess' eye.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -1870,7 +1884,6 @@ attending</STAGEDIR>
 <LINE>A proverb never stale in thrifty mind.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -1879,11 +1892,14 @@ attending</STAGEDIR>
 <LINE>I have a father, you a daughter, lost.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VI.  The same.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VI.  The same.</TITLE>
+
 <STAGEDIR>Enter GRATIANO and SALARINO, masqued</STAGEDIR>
 
 <SPEECH>
@@ -1931,7 +1947,6 @@ attending</STAGEDIR>
 <LINE>Here comes Lorenzo: more of this hereafter.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter LORENZO</STAGEDIR>
 
 <SPEECH>
@@ -1942,7 +1957,6 @@ attending</STAGEDIR>
 <LINE>I'll watch as long for you then. Approach;</LINE>
 <LINE>Here dwells my father Jew. Ho! who's within?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter JESSICA, above, in boy's clothes</STAGEDIR>
 
@@ -2008,7 +2022,6 @@ attending</STAGEDIR>
 <LINE>With some more ducats, and be with you straight.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit above</STAGEDIR>
 
 <SPEECH>
@@ -2057,11 +2070,14 @@ attending</STAGEDIR>
 <LINE>Than to be under sail and gone to-night.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VII.  Belmont. A room in PORTIA'S house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VII.  Belmont. A room in PORTIA'S house.</TITLE>
+
 <STAGEDIR>Flourish of cornets. Enter PORTIA, with the
 PRINCE OF MOROCCO, and their trains</STAGEDIR>
 
@@ -2147,7 +2163,6 @@ PRINCE OF MOROCCO, and their trains</STAGEDIR>
 <LINE>Then I am yours.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>He unlocks the golden casket</STAGEDIR>
 
 <SPEECH>
@@ -2171,7 +2186,6 @@ PRINCE OF MOROCCO, and their trains</STAGEDIR>
 <LINE>To take a tedious leave: thus losers part.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit with his train. Flourish of cornets</STAGEDIR>
 
 <SPEECH>
@@ -2180,11 +2194,14 @@ PRINCE OF MOROCCO, and their trains</STAGEDIR>
 <LINE>Let all of his complexion choose me so.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VIII.  Venice. A street.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VIII.  Venice. A street.</TITLE>
+
 <STAGEDIR>Enter SALARINO and SALANIO</STAGEDIR>
 
 <SPEECH>
@@ -2286,11 +2303,14 @@ PRINCE OF MOROCCO, and their trains</STAGEDIR>
 <LINE>Do we so.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IX.  Belmont. A room in PORTIA'S house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IX.  Belmont. A room in PORTIA'S house.</TITLE>
+
 <STAGEDIR>Enter NERISSA with a Servitor</STAGEDIR>
 
 <SPEECH>
@@ -2299,7 +2319,6 @@ PRINCE OF MOROCCO, and their trains</STAGEDIR>
 <LINE>The Prince of Arragon hath ta'en his oath,</LINE>
 <LINE>And comes to his election presently.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Flourish of cornets. Enter the PRINCE OF ARRAGON,
 PORTIA, and their trains</STAGEDIR>
@@ -2368,7 +2387,6 @@ PORTIA, and their trains</STAGEDIR>
 <LINE>And instantly unlock my fortunes here.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>He opens the silver casket</STAGEDIR>
 
 <SPEECH>
@@ -2415,7 +2433,6 @@ PORTIA, and their trains</STAGEDIR>
 <LINE>Patiently to bear my wroth.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt Arragon and train</STAGEDIR>
 
 <SPEECH>
@@ -2435,7 +2452,6 @@ PORTIA, and their trains</STAGEDIR>
 <SPEAKER>PORTIA</SPEAKER>
 <LINE>Come, draw the curtain, Nerissa.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter a Servant</STAGEDIR>
 
@@ -2477,15 +2493,20 @@ PORTIA, and their trains</STAGEDIR>
 <LINE>Bassanio, lord Love, if thy will it be!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT III</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Venice. A street.</TITLE>
+<TITLE>ACT III</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Venice. A street.</TITLE>
+
 <STAGEDIR>Enter SALANIO and SALARINO</STAGEDIR>
 
 <SPEECH>
@@ -2633,7 +2654,6 @@ PORTIA, and their trains</STAGEDIR>
 <LINE>will better the instruction.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Servant</STAGEDIR>
 
 <SPEECH>
@@ -2647,7 +2667,6 @@ PORTIA, and their trains</STAGEDIR>
 <LINE>We have been up and down to seek him.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter TUBAL</STAGEDIR>
 
 <SPEECH>
@@ -2655,7 +2674,6 @@ PORTIA, and their trains</STAGEDIR>
 <LINE>Here comes another of the tribe: a third cannot be</LINE>
 <LINE>matched, unless the devil himself turn Jew.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt SALANIO, SALARINO, and Servant</STAGEDIR>
 
@@ -2773,11 +2791,14 @@ PORTIA, and their trains</STAGEDIR>
 <LINE>go, good Tubal; at our synagogue, Tubal.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Belmont. A room in PORTIA'S house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Belmont. A room in PORTIA'S house.</TITLE>
+
 <STAGEDIR>Enter BASSANIO, PORTIA, GRATIANO, NERISSA, and
 Attendants</STAGEDIR>
 
@@ -3114,7 +3135,6 @@ Attendants</STAGEDIR>
 <LINE>and my old Venetian friend Salerio?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter LORENZO, JESSICA, and SALERIO, a Messenger
 from Venice</STAGEDIR>
 
@@ -3148,7 +3168,6 @@ from Venice</STAGEDIR>
 <LINE>And I have reason for it. Signior Antonio</LINE>
 <LINE>Commends him to you.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Gives Bassanio a letter</STAGEDIR>
 
@@ -3315,11 +3334,14 @@ from Venice</STAGEDIR>
 <LINE>No rest be interposer 'twixt us twain.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Venice. A street.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Venice. A street.</TITLE>
+
 <STAGEDIR>Enter SHYLOCK, SALARINO, ANTONIO, and Gaoler</STAGEDIR>
 
 <SPEECH>
@@ -3360,7 +3382,6 @@ from Venice</STAGEDIR>
 <LINE>I'll have no speaking: I will have my bond.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -3400,11 +3421,14 @@ from Venice</STAGEDIR>
 <LINE>To see me pay his debt, and then I care not!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Belmont. A room in PORTIA'S house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Belmont. A room in PORTIA'S house.</TITLE>
+
 <STAGEDIR>Enter PORTIA, NERISSA, LORENZO, JESSICA, and
 BALTHASAR</STAGEDIR>
 
@@ -3498,7 +3522,6 @@ BALTHASAR</STAGEDIR>
 <LINE>Madam, I go with all convenient speed.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -3551,11 +3574,14 @@ BALTHASAR</STAGEDIR>
 <LINE>For we must measure twenty miles to-day.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  The same. A garden.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  The same. A garden.</TITLE>
+
 <STAGEDIR>Enter LAUNCELOT and JESSICA</STAGEDIR>
 
 <SPEECH>
@@ -3609,7 +3635,6 @@ BALTHASAR</STAGEDIR>
 <LINE>price of hogs: if we grow all to be pork-eaters, we</LINE>
 <LINE>shall not shortly have a rasher on the coals for money.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter LORENZO</STAGEDIR>
 
@@ -3699,7 +3724,6 @@ BALTHASAR</STAGEDIR>
 <LINE>conceits shall govern.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -3762,15 +3786,20 @@ BALTHASAR</STAGEDIR>
 <LINE>Well, I'll set you forth.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT IV</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Venice. A court of justice.</TITLE>
+<TITLE>ACT IV</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Venice. A court of justice.</TITLE>
+
 <STAGEDIR>Enter the DUKE, the Magnificoes, ANTONIO, BASSANIO,
 GRATIANO, SALERIO, and others</STAGEDIR>
 
@@ -3813,7 +3842,6 @@ GRATIANO, SALERIO, and others</STAGEDIR>
 <SPEAKER>SALERIO</SPEAKER>
 <LINE>He is ready at the door: he comes, my lord.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter SHYLOCK</STAGEDIR>
 
@@ -3993,7 +4021,6 @@ GRATIANO, SALERIO, and others</STAGEDIR>
 <LINE>Than to live still and write mine epitaph.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter NERISSA, dressed like a lawyer's clerk</STAGEDIR>
 
 <SPEECH>
@@ -4005,7 +4032,6 @@ GRATIANO, SALERIO, and others</STAGEDIR>
 <SPEAKER>NERISSA</SPEAKER>
 <LINE>From both, my lord. Bellario greets your grace.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Presenting a letter</STAGEDIR>
 
@@ -4677,7 +4703,6 @@ GRATIANO, SALERIO, and others</STAGEDIR>
 <LINE>To bring thee to the gallows, not the font.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit SHYLOCK</STAGEDIR>
 
 <SPEECH>
@@ -4698,7 +4723,6 @@ GRATIANO, SALERIO, and others</STAGEDIR>
 <LINE>Antonio, gratify this gentleman,</LINE>
 <LINE>For, in my mind, you are much bound to him.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt Duke and his train</STAGEDIR>
 
@@ -4789,7 +4813,6 @@ GRATIANO, SALERIO, and others</STAGEDIR>
 <LINE>For giving it to me. Well, peace be with you!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt Portia and Nerissa</STAGEDIR>
 
 <SPEECH>
@@ -4810,11 +4833,14 @@ GRATIANO, SALERIO, and others</STAGEDIR>
 <LINE>Fly toward Belmont: come, Antonio.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The same. A street.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The same. A street.</TITLE>
+
 <STAGEDIR>Enter PORTIA and NERISSA</STAGEDIR>
 
 <SPEECH>
@@ -4824,7 +4850,6 @@ GRATIANO, SALERIO, and others</STAGEDIR>
 <LINE>And be a day before our husbands home:</LINE>
 <LINE>This deed will be well welcome to Lorenzo.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter GRATIANO</STAGEDIR>
 
@@ -4872,15 +4897,20 @@ GRATIANO, SALERIO, and others</STAGEDIR>
 <LINE>Come, good sir, will you show me to this house?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT V</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Belmont. Avenue to PORTIA'S house.</TITLE>
+<TITLE>ACT V</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Belmont. Avenue to PORTIA'S house.</TITLE>
+
 <STAGEDIR>Enter LORENZO and JESSICA</STAGEDIR>
 
 <SPEECH>
@@ -4945,7 +4975,6 @@ GRATIANO, SALERIO, and others</STAGEDIR>
 <LINE>But, hark, I hear the footing of a man.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter STEPHANO</STAGEDIR>
 
 <SPEECH>
@@ -4991,7 +5020,6 @@ GRATIANO, SALERIO, and others</STAGEDIR>
 <LINE>Some welcome for the mistress of the house.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter LAUNCELOT</STAGEDIR>
 
 <SPEECH>
@@ -5032,7 +5060,6 @@ GRATIANO, SALERIO, and others</STAGEDIR>
 <LINE>ere morning.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -5060,7 +5087,6 @@ GRATIANO, SALERIO, and others</STAGEDIR>
 <LINE>With sweetest touches pierce your mistress' ear,</LINE>
 <LINE>And draw her home with music.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Music</STAGEDIR>
 
@@ -5091,7 +5117,6 @@ GRATIANO, SALERIO, and others</STAGEDIR>
 <LINE>And his affections dark as Erebus:</LINE>
 <LINE>Let no such man be trusted. Mark the music.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PORTIA and NERISSA</STAGEDIR>
 
@@ -5145,7 +5170,6 @@ GRATIANO, SALERIO, and others</STAGEDIR>
 <LINE>And would not be awaked.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Music ceases</STAGEDIR>
 
 <SPEECH>
@@ -5187,7 +5211,6 @@ GRATIANO, SALERIO, and others</STAGEDIR>
 <LINE>Nor you, Lorenzo; Jessica, nor you.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>A tucket sounds</STAGEDIR>
 
 <SPEECH>
@@ -5202,7 +5225,6 @@ GRATIANO, SALERIO, and others</STAGEDIR>
 <LINE>It looks a little paler: 'tis a day,</LINE>
 <LINE>Such as the day is when the sun is hid.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter BASSANIO, ANTONIO, GRATIANO, and
 their followers</STAGEDIR>
@@ -5596,8 +5618,8 @@ their followers</STAGEDIR>
 <LINE>So sore as keeping safe Nerissa's ring.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 </ACT>
 </PLAY>

@@ -11,7 +11,6 @@
 <P>This work may be freely copied and distributed worldwide.</P>
 </FM>
 
-
 <PERSONAE>
 <TITLE>Dramatis Personae</TITLE>
 
@@ -70,7 +69,6 @@
 <GRPDESCR>recruits.</GRPDESCR>
 </PGROUP>
 
-
 <PGROUP>
 <PERSONA>FANG</PERSONA>
 <PERSONA>SNARE</PERSONA>
@@ -90,6 +88,7 @@
 <PLAYSUBT>2 KING HENRY IV</PLAYSUBT>
 
 <INDUCT><TITLE>INDUCTION</TITLE>
+
 <STAGEDIR>Warkworth. Before the castle</STAGEDIR>
 <STAGEDIR>Enter RUMOUR, painted full of tongues</STAGEDIR>
 
@@ -140,9 +139,14 @@
 <STAGEDIR>Exit</STAGEDIR>
 </INDUCT>
 
-<ACT><TITLE>ACT I</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  The same.</TITLE>
+<TITLE>ACT I</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  The same.</TITLE>
+
 <STAGEDIR>Enter LORD BARDOLPH</STAGEDIR>
 
 <SPEECH>
@@ -170,14 +174,12 @@
 <LINE>And he himself wilt answer.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter NORTHUMBERLAND</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>LORD BARDOLPH</SPEAKER>
 <LINE>Here comes the earl.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit Porter</STAGEDIR>
 
@@ -234,7 +236,6 @@
 <LINE>Here comes my servant Travers, whom I sent</LINE>
 <LINE>On Tuesday last to listen after news.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter TRAVERS</STAGEDIR>
 
@@ -298,7 +299,6 @@
 <LINE>The horse he rode on, and, upon my life,</LINE>
 <LINE>Spoke at a venture. Look, here comes more news.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter MORTON</STAGEDIR>
 
@@ -524,11 +524,14 @@
 <LINE>Never so few, and never yet more need.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  London. A street.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  London. A street.</TITLE>
+
 <STAGEDIR>Enter FALSTAFF, with his Page bearing his sword
 and buckler</STAGEDIR>
 
@@ -612,7 +615,6 @@ and buckler</STAGEDIR>
 <LINE>Smithfield: an I could get me but a wife in the</LINE>
 <LINE>stews, I were manned, horsed, and wived.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter the Lord Chief-Justice and Servant</STAGEDIR>
 
@@ -1023,7 +1025,6 @@ and buckler</STAGEDIR>
 <LINE>cousin Westmoreland.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt Chief-Justice and Servant</STAGEDIR>
 
 <SPEECH>
@@ -1069,11 +1070,14 @@ and buckler</STAGEDIR>
 <LINE>I will turn diseases to commodity.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  York. The Archbishop's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  York. The Archbishop's palace.</TITLE>
+
 <STAGEDIR>Enter the ARCHBISHOP OF YORK, the Lords HASTINGS,
 MOWBRAY, and BARDOLPH</STAGEDIR>
 
@@ -1271,15 +1275,20 @@ MOWBRAY, and BARDOLPH</STAGEDIR>
 <LINE>We are time's subjects, and time bids be gone.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT II</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  London. A street.</TITLE>
+<TITLE>ACT II</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  London. A street.</TITLE>
+
 <STAGEDIR>Enter MISTRESS QUICKLY, FANG and his Boy with her,
 and SNARE following.
 
@@ -1384,7 +1393,6 @@ Fang and Master Snare, do me, do me, do me your offices.
 <LINE>Away, you scullion! you rampallion! You</LINE>
 <LINE>fustilarian! I'll tickle your catastrophe.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter the Lord Chief-Justice, and his men</STAGEDIR>
 
@@ -1526,7 +1534,6 @@ Fang and Master Snare, do me, do me, do me your offices.
 <LINE>Come hither, hostess.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter GOWER</STAGEDIR>
 
 <SPEECH>
@@ -1611,7 +1618,6 @@ Fang and Master Snare, do me, do me, do me your offices.
 <SPEAKER>FALSTAFF</SPEAKER>
 <LINE>No more words; let's have her.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt MISTRESS QUICKLY, BARDOLPH, Officers and Boy</STAGEDIR>
 
@@ -1712,11 +1718,14 @@ Fang and Master Snare, do me, do me, do me your offices.
 <LINE>Now the Lord lighten thee! thou art a great fool.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  London. Another street.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  London. Another street.</TITLE>
+
 <STAGEDIR>Enter PRINCE HENRY and POINS</STAGEDIR>
 
 <SPEECH>
@@ -1864,7 +1873,6 @@ Fang and Master Snare, do me, do me, do me your offices.
 <LINE>proper fellow of my hands; and those two things, I</LINE>
 <LINE>confess, I cannot help. By the mass, here comes Bardolph.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter BARDOLPH and Page</STAGEDIR>
 
@@ -2153,11 +2161,14 @@ Fang and Master Snare, do me, do me, do me your offices.
 <LINE>Follow me, Ned.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Warkworth. Before the castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Warkworth. Before the castle.</TITLE>
+
 <STAGEDIR>Enter NORTHUMBERLAND, LADY NORTHUMBERLAND, and LADY PERCY</STAGEDIR>
 
 <SPEECH>
@@ -2262,11 +2273,14 @@ Fang and Master Snare, do me, do me, do me your offices.
 <LINE>Till time and vantage crave my company.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  London. The Boar's-head Tavern in Eastcheap.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  London. The Boar's-head Tavern in Eastcheap.</TITLE>
+
 <STAGEDIR>Enter two Drawers</STAGEDIR>
 
 <SPEECH>
@@ -2337,7 +2351,6 @@ Fang and Master Snare, do me, do me, do me your offices.
 <LINE>Why, that's well said; a good heart's worth gold.</LINE>
 <LINE>Lo, here comes Sir John.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter FALSTAFF</STAGEDIR>
 
@@ -2424,7 +2437,6 @@ Fang and Master Snare, do me, do me, do me your offices.
 <LINE>nobody cares.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter First Drawer</STAGEDIR>
 
 <SPEECH>
@@ -2492,7 +2504,6 @@ Fang and Master Snare, do me, do me, do me your offices.
 <LINE>Call him up, drawer.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit First Drawer</STAGEDIR>
 
 <SPEECH>
@@ -2514,7 +2525,6 @@ Fang and Master Snare, do me, do me, do me your offices.
 <LINE>Do I? yea, in very truth, do I, an 'twere an aspen</LINE>
 <LINE>leaf: I cannot abide swaggerers.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PISTOL, BARDOLPH, and Page</STAGEDIR>
 
@@ -2751,7 +2761,6 @@ Fang and Master Snare, do me, do me, do me your offices.
 <LINE>Get you down stairs.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Drawing, and driving PISTOL out</STAGEDIR>
 
 <SPEECH>
@@ -2761,7 +2770,6 @@ Fang and Master Snare, do me, do me, do me your offices.
 <LINE>So; murder, I warrant now. Alas, alas! put up</LINE>
 <LINE>your naked weapons, put up your naked weapons.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt PISTOL and BARDOLPH</STAGEDIR>
 
@@ -2776,7 +2784,6 @@ Fang and Master Snare, do me, do me, do me your offices.
 <LINE>He you not hurt i' the groin? methought a' made a</LINE>
 <LINE>shrewd thrust at your belly.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter BARDOLPH</STAGEDIR>
 
@@ -2817,7 +2824,6 @@ Fang and Master Snare, do me, do me, do me your offices.
 <LINE>I'll canvass thee between a pair of sheets.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter Music</STAGEDIR>
 
 <SPEECH>
@@ -2839,7 +2845,6 @@ Fang and Master Snare, do me, do me, do me your offices.
 <LINE>when wilt thou leave fighting o' days and foining</LINE>
 <LINE>o' nights, and begin to patch up thine old body for heaven?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter, behind, PRINCE HENRY and POINS, disguised</STAGEDIR>
 
@@ -3165,14 +3170,12 @@ Fang and Master Snare, do me, do me, do me your offices.
 <LINE>His grace says that which his flesh rebels against.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Knocking within</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>MISTRESS QUICKLY</SPEAKER>
 <LINE>Who knocks so loud at door? Look to the door there, Francis.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PETO</STAGEDIR>
 
@@ -3200,7 +3203,6 @@ Fang and Master Snare, do me, do me, do me your offices.
 <LINE>And drop upon our bare unarmed heads.</LINE>
 <LINE>Give me my sword and cloak. Falstaff, good night.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt PRINCE HENRY, POINS, PETO and BARDOLPH</STAGEDIR>
 
@@ -3241,7 +3243,6 @@ Fang and Master Snare, do me, do me, do me your offices.
 <LINE>Farewell, farewell.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt FALSTAFF and BARDOLPH</STAGEDIR>
 
 <SPEECH>
@@ -3273,15 +3274,20 @@ Fang and Master Snare, do me, do me, do me your offices.
 <LINE>Yea, will you come, Doll?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT III</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Westminster. The palace.</TITLE>
+<TITLE>ACT III</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Westminster. The palace.</TITLE>
+
 <STAGEDIR>Enter KING HENRY IV in his nightgown, with a Page</STAGEDIR>
 
 <SPEECH>
@@ -3319,7 +3325,6 @@ Fang and Master Snare, do me, do me, do me your offices.
 <LINE>Deny it to a king? Then happy low, lie down!</LINE>
 <LINE>Uneasy lies the head that wears a crown.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter WARWICK and SURREY</STAGEDIR>
 
@@ -3452,11 +3457,14 @@ Fang and Master Snare, do me, do me, do me your offices.
 <LINE>We would, dear lords, unto the Holy Land.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Gloucestershire. Before SHALLOW'S house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Gloucestershire. Before SHALLOW'S house.</TITLE>
+
 <STAGEDIR>Enter SHALLOW and SILENCE, meeting; MOULDY,
 SHADOW, WART, FEEBLE, BULLCALF, a Servant or two
 with them</STAGEDIR>
@@ -3591,7 +3599,6 @@ with them</STAGEDIR>
 <SPEAKER>SILENCE</SPEAKER>
 <LINE>Here come two of Sir John Falstaff's men, as I think.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter BARDOLPH and one with him</STAGEDIR>
 
@@ -4069,7 +4076,6 @@ with them</STAGEDIR>
 <LINE>Jesus, the days that we have seen! Come, come.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt FALSTAFF and Justices</STAGEDIR>
 
 <SPEECH>
@@ -4120,7 +4126,6 @@ with them</STAGEDIR>
 <SPEAKER>FEEBLE</SPEAKER>
 <LINE>Faith, I'll bear no base mind.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter FALSTAFF and the Justices</STAGEDIR>
 
@@ -4286,15 +4291,20 @@ with them</STAGEDIR>
 <LINE>may snap at him. Let time shape, and there an end.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT IV</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Yorkshire. Gaultree Forest.</TITLE>
+<TITLE>ACT IV</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Yorkshire. Gaultree Forest.</TITLE>
+
 <STAGEDIR>Enter the ARCHBISHOP OF YORK, MOWBRAY, LORD
 HASTINGS, and others</STAGEDIR>
 
@@ -4341,7 +4351,6 @@ HASTINGS, and others</STAGEDIR>
 <LINE>And dash themselves to pieces.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Messenger</STAGEDIR>
 
 <SPEECH>
@@ -4367,7 +4376,6 @@ HASTINGS, and others</STAGEDIR>
 <SPEAKER>ARCHBISHOP OF YORK</SPEAKER>
 <LINE>What well-appointed leader fronts us here?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter WESTMORELAND</STAGEDIR>
 
@@ -4615,7 +4623,6 @@ HASTINGS, and others</STAGEDIR>
 <LINE>My lord, we will do so.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit WESTMORELAND</STAGEDIR>
 
 <SPEECH>
@@ -4690,7 +4697,6 @@ HASTINGS, and others</STAGEDIR>
 <LINE>Here is return'd my Lord of Westmoreland.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter WESTMORELAND</STAGEDIR>
 
 <SPEECH>
@@ -4709,11 +4715,14 @@ HASTINGS, and others</STAGEDIR>
 <LINE>Before, and greet his grace: my lord, we come.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Another part of the forest.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Another part of the forest.</TITLE>
+
 <STAGEDIR>Enter, from one side, MOWBRAY, attended; afterwards
 the ARCHBISHOP OF YORK, HASTINGS, and others: from
 the other side, Prince John of LANCASTER, and
@@ -4832,7 +4841,6 @@ WESTMORELAND; Officers, and others with them</STAGEDIR>
 <LINE>I know it will well please them. Hie thee, captain.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit Officer</STAGEDIR>
 
 <SPEECH>
@@ -4888,7 +4896,6 @@ WESTMORELAND; Officers, and others with them</STAGEDIR>
 <LINE>So much the worse, if your own rule be true.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Shouts within</STAGEDIR>
 
 <SPEECH>
@@ -4924,7 +4931,6 @@ WESTMORELAND; Officers, and others with them</STAGEDIR>
 <LINE>And, ere they be dismissed, let them march by.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit HASTINGS</STAGEDIR>
 
 <SPEECH>
@@ -4944,7 +4950,6 @@ WESTMORELAND; Officers, and others with them</STAGEDIR>
 <SPEAKER>LANCASTER</SPEAKER>
 <LINE>They know their duties.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter HASTINGS</STAGEDIR>
 
@@ -4995,11 +5000,14 @@ WESTMORELAND; Officers, and others with them</STAGEDIR>
 <LINE>Treason's true bed and yielder up of breath.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Another part of the forest.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Another part of the forest.</TITLE>
+
 <STAGEDIR>Alarum. Excursions. Enter FALSTAFF and COLEVILE, meeting</STAGEDIR>
 
 <SPEECH>
@@ -5051,7 +5059,6 @@ WESTMORELAND; Officers, and others with them</STAGEDIR>
 <LINE>in Europe: my womb, my womb, my womb, undoes me.</LINE>
 <LINE>Here comes our general.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PRINCE JOHN OF LANCASTER, WESTMORELAND,
 BLUNT, and others</STAGEDIR>
@@ -5160,7 +5167,6 @@ BLUNT, and others</STAGEDIR>
 <LINE>thank thee for thee.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter WESTMORELAND</STAGEDIR>
 
 <SPEECH>
@@ -5198,7 +5204,6 @@ BLUNT, and others</STAGEDIR>
 <LINE>Fare you well, Falstaff: I, in my condition,</LINE>
 <LINE>Shall better speak of you than you deserve.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt all but Falstaff</STAGEDIR>
 
@@ -5263,11 +5268,14 @@ BLUNT, and others</STAGEDIR>
 <LINE>my thumb, and shortly will I seal with him. Come away.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Westminster. The Jerusalem Chamber.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Westminster. The Jerusalem Chamber.</TITLE>
+
 <STAGEDIR>Enter KING HENRY IV, the Princes Thomas of CLARENCE
 and Humphrey of GLOUCESTER, WARWICK, and others</STAGEDIR>
 
@@ -5540,7 +5548,10 @@ and Humphrey of GLOUCESTER, WARWICK, and others</STAGEDIR>
 </SPEECH>
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  Another chamber.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  Another chamber.</TITLE>
+
 <STAGEDIR>KING HENRY IV lying on a bed: CLARENCE,
 GLOUCESTER, WARWICK, and others in attendance</STAGEDIR>
 
@@ -5570,7 +5581,6 @@ GLOUCESTER, WARWICK, and others in attendance</STAGEDIR>
 <SPEAKER>WARWICK</SPEAKER>
 <LINE>Less noise, less noise!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PRINCE HENRY</STAGEDIR>
 
@@ -5661,14 +5671,12 @@ GLOUCESTER, WARWICK, and others in attendance</STAGEDIR>
 <LINE>Will I to mine leave, as 'tis left to me.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>KING HENRY IV</SPEAKER>
 <LINE>Warwick! Gloucester! Clarence!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter WARWICK, GLOUCESTER, CLARENCE, and the rest</STAGEDIR>
 
@@ -5765,7 +5773,6 @@ GLOUCESTER, WARWICK, and others in attendance</STAGEDIR>
 <LINE>Lo, where he comes. Come hither to me, Harry.</LINE>
 <LINE>Depart the chamber, leave us here alone.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt WARWICK and the rest</STAGEDIR>
 
@@ -5923,7 +5930,6 @@ GLOUCESTER, WARWICK, and others in attendance</STAGEDIR>
 <LINE>'Gainst all the world will rightfully maintain.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter Lord John of LANCASTER</STAGEDIR>
 
 <SPEECH>
@@ -5950,7 +5956,6 @@ GLOUCESTER, WARWICK, and others in attendance</STAGEDIR>
 <LINE>My Lord of Warwick!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter WARWICK, and others</STAGEDIR>
 
 <SPEECH>
@@ -5974,15 +5979,20 @@ GLOUCESTER, WARWICK, and others in attendance</STAGEDIR>
 <LINE>In that Jerusalem shall Harry die.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT V</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Gloucestershire. SHALLOW'S house.</TITLE>
+<TITLE>ACT V</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Gloucestershire. SHALLOW'S house.</TITLE>
+
 <STAGEDIR>Enter SHALLOW, FALSTAFF, BARDOLPH, and Page</STAGEDIR>
 
 <SPEECH>
@@ -6002,7 +6012,6 @@ GLOUCESTER, WARWICK, and others in attendance</STAGEDIR>
 <LINE>excuses shall not be admitted; there is no excuse</LINE>
 <LINE>shall serve; you shall not be excused. Why, Davy!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter DAVY</STAGEDIR>
 
@@ -6169,11 +6178,14 @@ GLOUCESTER, WARWICK, and others in attendance</STAGEDIR>
 <LINE>I come, Master Shallow; I come, Master Shallow.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Westminster. The palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Westminster. The palace.</TITLE>
+
 <STAGEDIR>Enter WARWICK and the Lord Chief-Justice, meeting</STAGEDIR>
 
 <SPEECH>
@@ -6221,7 +6233,6 @@ GLOUCESTER, WARWICK, and others in attendance</STAGEDIR>
 <LINE>Which cannot look more hideously upon me</LINE>
 <LINE>Than I have drawn it in my fantasy.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter LANCASTER, CLARENCE, GLOUCESTER,
 WESTMORELAND, and others</STAGEDIR>
@@ -6307,7 +6318,6 @@ WESTMORELAND, and others</STAGEDIR>
 <SPEAKER>WARWICK</SPEAKER>
 <LINE>Here comes the prince.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter KING HENRY V, attended</STAGEDIR>
 
@@ -6446,11 +6456,14 @@ WESTMORELAND, and others</STAGEDIR>
 <LINE>God shorten Harry's happy life one day!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Gloucestershire. SHALLOW'S orchard.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Gloucestershire. SHALLOW'S orchard.</TITLE>
+
 <STAGEDIR>Enter FALSTAFF, SHALLOW, SILENCE, DAVY, BARDOLPH,
 and the Page</STAGEDIR>
 
@@ -6519,7 +6532,6 @@ and the Page</STAGEDIR>
 <LINE>but you must bear; the heart's all.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -6549,14 +6561,12 @@ and the Page</STAGEDIR>
 <LINE>Who, I? I have been merry twice and once ere now.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter DAVY</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>DAVY</SPEAKER>
 <LINE>There's a dish of leather-coats for you.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>To BARDOLPH</STAGEDIR>
 
@@ -6652,14 +6662,12 @@ and the Page</STAGEDIR>
 <LINE>Look who's at door there, ho! who knocks?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit DAVY</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>FALSTAFF</SPEAKER>
 <LINE>Why, now you have done me right.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>To SILENCE, seeing him take off a bumper</STAGEDIR>
 
@@ -6680,7 +6688,6 @@ and the Page</STAGEDIR>
 <SPEAKER>SILENCE</SPEAKER>
 <LINE>Is't so? Why then, say an old man can do somewhat.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter DAVY</STAGEDIR>
 
@@ -6749,7 +6756,6 @@ and the Page</STAGEDIR>
 <SPEAKER>SILENCE</SPEAKER>
 <LINE>And Robin Hood, Scarlet, and John.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Singing</STAGEDIR>
 
@@ -6857,11 +6863,14 @@ and the Page</STAGEDIR>
 <LINE>Why, here it is; welcome these pleasant days!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  London. A street.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  London. A street.</TITLE>
+
 <STAGEDIR>Enter Beadles, dragging in HOSTESS QUICKLY
 and DOLL TEARSHEET</STAGEDIR>
 
@@ -6952,11 +6961,14 @@ and DOLL TEARSHEET</STAGEDIR>
 <LINE>Very well.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  A public place near Westminster Abbey.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  A public place near Westminster Abbey.</TITLE>
+
 <STAGEDIR>Enter two Grooms, strewing rushes</STAGEDIR>
 
 <SPEECH>
@@ -7075,14 +7087,12 @@ BARDOLPH, and Page</STAGEDIR>
 <LINE>I will deliver her.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Shouts within, and the trumpets sound</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>PISTOL</SPEAKER>
 <LINE>There roar'd the sea, and trumpet-clangor sounds.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter KING HENRY V and his train, the Lord Chief-
 Justice among them</STAGEDIR>
@@ -7146,7 +7156,6 @@ Justice among them</STAGEDIR>
 <LINE>To see perform'd the tenor of our word. Set on.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt KING HENRY V, &amp;c</STAGEDIR>
 
 <SPEECH>
@@ -7195,7 +7204,6 @@ Justice among them</STAGEDIR>
 <LINE>for soon at night.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter Prince John of LANCASTER, the Lord
 Chief-Justice; Officers with them</STAGEDIR>
 
@@ -7220,7 +7228,6 @@ Chief-Justice; Officers with them</STAGEDIR>
 <SPEAKER>PISTOL</SPEAKER>
 <LINE>Si fortune me tormenta, spero contenta.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt all but PRINCE JOHN and the Lord
 Chief-Justice</STAGEDIR>
@@ -7258,9 +7265,11 @@ Chief-Justice</STAGEDIR>
 <LINE>Come, will you hence?</LINE>
 </SPEECH>
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 <EPILOGUE><TITLE>EPILOGUE</TITLE>
+
 <STAGEDIR>Spoken by a Dancer</STAGEDIR>
 <SPEECH>
 <SPEAKER></SPEAKER>

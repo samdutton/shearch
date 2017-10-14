@@ -11,7 +11,6 @@
 <P>This work may be freely copied and distributed worldwide.</P>
 </FM>
 
-
 <PERSONAE>
 <TITLE>Dramatis Personae</TITLE>
 
@@ -23,7 +22,6 @@
 <PERSONA>DUMAIN</PERSONA>
 <GRPDESCR>lords attending on the King.</GRPDESCR>
 </PGROUP>
-
 
 <PGROUP>
 <PERSONA>BOYET</PERSONA>
@@ -55,9 +53,14 @@
 
 <PLAYSUBT>LOVE'S LABOURS LOST</PLAYSUBT>
 
-<ACT><TITLE>ACT I</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  The king of Navarre's park.</TITLE>
+<TITLE>ACT I</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  The king of Navarre's park.</TITLE>
+
 <STAGEDIR>Enter FERDINAND king of Navarre, BIRON, LONGAVILLE
 and DUMAIN</STAGEDIR>
 
@@ -408,7 +411,6 @@ and DUMAIN</STAGEDIR>
 <LINE>And so to study, three years is but short.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter DULL with a letter, and COSTARD</STAGEDIR>
 
 <SPEECH>
@@ -751,7 +753,6 @@ and DUMAIN</STAGEDIR>
 <LINE>Which each to other hath so strongly sworn.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt FERDINAND, LONGAVILLE, and DUMAIN</STAGEDIR>
 
 <SPEECH>
@@ -770,11 +771,14 @@ and DUMAIN</STAGEDIR>
 <LINE>till then, sit thee down, sorrow!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The same.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The same.</TITLE>
+
 <STAGEDIR>Enter DON ADRIANO DE ARMADO and MOTH</STAGEDIR>
 
 <SPEECH>
@@ -1154,7 +1158,6 @@ and DUMAIN</STAGEDIR>
 <LINE>Forbear till this company be past.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter DULL, COSTARD, and JAQUENETTA</STAGEDIR>
 
 <SPEECH>
@@ -1231,7 +1234,6 @@ and DUMAIN</STAGEDIR>
 <LINE>Come, Jaquenetta, away!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt DULL and JAQUENETTA</STAGEDIR>
 
 <SPEECH>
@@ -1297,7 +1299,6 @@ and DUMAIN</STAGEDIR>
 <LINE>therefore I can be quiet.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt MOTH and COSTARD</STAGEDIR>
 
 <SPEECH>
@@ -1323,15 +1324,20 @@ and DUMAIN</STAGEDIR>
 <LINE>write, pen; for I am for whole volumes in folio.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT II</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  The same.</TITLE>
+<TITLE>ACT II</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  The same.</TITLE>
+
 <STAGEDIR>Enter the PRINCESS of France, ROSALINE, MARIA,
 KATHARINE, BOYET, Lords, and other Attendants</STAGEDIR>
 
@@ -1473,7 +1479,6 @@ KATHARINE, BOYET, Lords, and other Attendants</STAGEDIR>
 <LINE>Here comes Boyet.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter BOYET</STAGEDIR>
 
 <SPEECH>
@@ -1493,7 +1498,6 @@ KATHARINE, BOYET, Lords, and other Attendants</STAGEDIR>
 <LINE>To let you enter his unpeopled house.</LINE>
 <LINE>Here comes Navarre.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter FERDINAND, LONGAVILLE, DUMAIN, BIRON, and
 Attendants</STAGEDIR>
@@ -1733,7 +1737,6 @@ Attendants</STAGEDIR>
 <LINE>Thy own wish wish I thee in every place!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -1801,7 +1804,6 @@ Attendants</STAGEDIR>
 <LINE>I cannot stay thanksgiving.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Retiring</STAGEDIR>
 
 <SPEECH>
@@ -1818,7 +1820,6 @@ Attendants</STAGEDIR>
 <SPEAKER>DUMAIN</SPEAKER>
 <LINE>A gallant lady. Monsieur, fare you well.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -1874,7 +1875,6 @@ Attendants</STAGEDIR>
 <LINE>Not unlike, sir, that may be.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit LONGAVILLE</STAGEDIR>
 
 <SPEECH>
@@ -1906,7 +1906,6 @@ Attendants</STAGEDIR>
 <SPEAKER>BOYET</SPEAKER>
 <LINE>Farewell to me, sir, and welcome to you.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit BIRON</STAGEDIR>
 
@@ -1951,7 +1950,6 @@ Attendants</STAGEDIR>
 <SPEAKER>BOYET</SPEAKER>
 <LINE>So you grant pasture for me.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Offering to kiss her</STAGEDIR>
 
@@ -2073,15 +2071,20 @@ Attendants</STAGEDIR>
 <LINE>You are too hard for me.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT III</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  The same.</TITLE>
+<TITLE>ACT III</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  The same.</TITLE>
+
 <STAGEDIR>Enter DON ADRIANO DE ARMADO and MOTH</STAGEDIR>
 
 <SPEECH>
@@ -2093,7 +2096,6 @@ Attendants</STAGEDIR>
 <SPEAKER>MOTH</SPEAKER>
 <LINE>Concolinel.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Singing</STAGEDIR>
 
@@ -2276,7 +2278,6 @@ Attendants</STAGEDIR>
 <LINE>Thump then and I flee.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -2286,7 +2287,6 @@ Attendants</STAGEDIR>
 <LINE>Most rude melancholy, valour gives thee place.</LINE>
 <LINE>My herald is return'd.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter MOTH with COSTARD</STAGEDIR>
 
@@ -2452,7 +2452,6 @@ Attendants</STAGEDIR>
 <LINE>honour is rewarding my dependents. Moth, follow.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -2472,7 +2471,6 @@ Attendants</STAGEDIR>
 <LINE>why, it is a fairer name than French crown. I will</LINE>
 <LINE>never buy and sell out of this word.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter BIRON</STAGEDIR>
 
@@ -2561,7 +2559,6 @@ Attendants</STAGEDIR>
 <LINE>This seal'd-up counsel. There's thy guerdon; go.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Giving him a shilling</STAGEDIR>
 
 <SPEECH>
@@ -2570,7 +2567,6 @@ Attendants</STAGEDIR>
 <LINE>a'leven-pence farthing better: most sweet gardon! I</LINE>
 <LINE>will do it sir, in print. Gardon! Remuneration!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -2610,15 +2606,20 @@ Attendants</STAGEDIR>
 <LINE>Some men must love my lady and some Joan.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT IV</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  The same.</TITLE>
+<TITLE>ACT IV</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  The same.</TITLE>
+
 <STAGEDIR>Enter the PRINCESS, and her train, a Forester,
 BOYET, ROSALINE, MARIA, and KATHARINE</STAGEDIR>
 
@@ -2720,7 +2721,6 @@ BOYET, ROSALINE, MARIA, and KATHARINE</STAGEDIR>
 <LINE>Here comes a member of the commonwealth.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter COSTARD</STAGEDIR>
 
 <SPEECH>
@@ -2780,7 +2780,6 @@ BOYET, ROSALINE, MARIA, and KATHARINE</STAGEDIR>
 <LINE>We will read it, I swear.</LINE>
 <LINE>Break the neck of the wax, and every one give ear.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Reads</STAGEDIR>
 
@@ -2885,7 +2884,6 @@ BOYET, ROSALINE, MARIA, and KATHARINE</STAGEDIR>
 <LINE>Here, sweet, put up this: 'twill be thine another day.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt PRINCESS and train</STAGEDIR>
 
 <SPEECH>
@@ -2969,7 +2967,6 @@ BOYET, ROSALINE, MARIA, and KATHARINE</STAGEDIR>
 <LINE>An I cannot, another can.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt ROSALINE and KATHARINE</STAGEDIR>
 
 <SPEECH>
@@ -3023,7 +3020,6 @@ BOYET, ROSALINE, MARIA, and KATHARINE</STAGEDIR>
 <LINE>I fear too much rubbing. Good night, my good owl.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt BOYET and MARIA</STAGEDIR>
 
 <SPEECH>
@@ -3045,9 +3041,13 @@ BOYET, ROSALINE, MARIA, and KATHARINE</STAGEDIR>
 
 <STAGEDIR>Shout within</STAGEDIR>
 <STAGEDIR>Exit COSTARD, running</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The same.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The same.</TITLE>
+
 <STAGEDIR>Enter HOLOFERNES, SIR NATHANIEL, and DULL</STAGEDIR>
 
 <SPEECH>
@@ -3237,7 +3237,6 @@ BOYET, ROSALINE, MARIA, and KATHARINE</STAGEDIR>
 <LINE>loquitur; a soul feminine saluteth us.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter JAQUENETTA and COSTARD</STAGEDIR>
 
 <SPEECH>
@@ -3361,7 +3360,6 @@ BOYET, ROSALINE, MARIA, and KATHARINE</STAGEDIR>
 <LINE>Have with thee, my girl.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt COSTARD and JAQUENETTA</STAGEDIR>
 
 <SPEECH>
@@ -3409,11 +3407,14 @@ BOYET, ROSALINE, MARIA, and KATHARINE</STAGEDIR>
 <LINE>their game, and we will to our recreation.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The same.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The same.</TITLE>
+
 <STAGEDIR>Enter BIRON, with a paper</STAGEDIR>
 
 <SPEECH>
@@ -3484,7 +3485,6 @@ BOYET, ROSALINE, MARIA, and KATHARINE</STAGEDIR>
 <SPEAKER>BIRON</SPEAKER>
 <LINE>Now, in thy likeness, one more fool appear!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter LONGAVILLE, with a paper</STAGEDIR>
 
@@ -3564,7 +3564,6 @@ BOYET, ROSALINE, MARIA, and KATHARINE</STAGEDIR>
 <SPEAKER>LONGAVILLE</SPEAKER>
 <LINE>By whom shall I send this?--Company! stay.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Steps aside</STAGEDIR>
 
@@ -3796,7 +3795,6 @@ BOYET, ROSALINE, MARIA, and KATHARINE</STAGEDIR>
 <LINE>I post from love: good lover, let me go.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter JAQUENETTA and COSTARD</STAGEDIR>
 
 <SPEECH>
@@ -3858,7 +3856,6 @@ BOYET, ROSALINE, MARIA, and KATHARINE</STAGEDIR>
 <LINE>Of Dun Adramadio, Dun Adramadio.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>BIRON tears the letter</STAGEDIR>
 
 <SPEECH>
@@ -3880,7 +3877,6 @@ BOYET, ROSALINE, MARIA, and KATHARINE</STAGEDIR>
 <SPEAKER>DUMAIN</SPEAKER>
 <LINE>It is Biron's writing, and here is his name.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Gathering up the pieces</STAGEDIR>
 
@@ -3924,7 +3920,6 @@ BOYET, ROSALINE, MARIA, and KATHARINE</STAGEDIR>
 <SPEAKER>COSTARD</SPEAKER>
 <LINE>Walk aside the true folk, and let the traitors stay.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt COSTARD and JAQUENETTA</STAGEDIR>
 
@@ -4242,15 +4237,20 @@ From whence doth spring the true Promethean fire</STAGEDIR>
 <LINE>If so, our copper buys no better treasure.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT V</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  The same.</TITLE>
+<TITLE>ACT V</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  The same.</TITLE>
+
 <STAGEDIR>Enter HOLOFERNES, SIR NATHANIEL, and DULL</STAGEDIR>
 
 <SPEECH>
@@ -4283,7 +4283,6 @@ From whence doth spring the true Promethean fire</STAGEDIR>
 <SPEAKER>SIR NATHANIEL</SPEAKER>
 <LINE>A most singular and choice epithet.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Draws out his table-book</STAGEDIR>
 
@@ -4323,14 +4322,12 @@ From whence doth spring the true Promethean fire</STAGEDIR>
 <LINE>Video, et gaudeo.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter DON ADRIANO DE ARMADO, MOTH, and COSTARD</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>DON ADRIANO DE ARMADO</SPEAKER>
 <LINE>Chirrah!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>To MOTH</STAGEDIR>
 
@@ -4628,11 +4625,14 @@ From whence doth spring the true Promethean fire</STAGEDIR>
 <LINE>Most dull, honest Dull! To our sport, away!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The same.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The same.</TITLE>
+
 <STAGEDIR>Enter the PRINCESS, KATHARINE, ROSALINE, and MARIA</STAGEDIR>
 
 <SPEECH>
@@ -4864,7 +4864,6 @@ From whence doth spring the true Promethean fire</STAGEDIR>
 <LINE>Here comes Boyet, and mirth is in his face.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter BOYET</STAGEDIR>
 
 <SPEECH>
@@ -5005,7 +5004,6 @@ From whence doth spring the true Promethean fire</STAGEDIR>
 <LINE>And they, well mock'd, depart away with shame.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Trumpets sound within</STAGEDIR>
 
 <SPEECH>
@@ -5082,7 +5080,6 @@ and masked</STAGEDIR>
 <SPEAKER>BIRON</SPEAKER>
 <LINE>Is this your perfectness? be gone, you rogue!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit MOTH</STAGEDIR>
 
@@ -5296,7 +5293,6 @@ and masked</STAGEDIR>
 <LINE>I am best pleased with that.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>They converse apart</STAGEDIR>
 
 <SPEECH>
@@ -5347,7 +5343,6 @@ and masked</STAGEDIR>
 <LINE>Therefore meet.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>They converse apart</STAGEDIR>
 
 <SPEECH>
@@ -5376,7 +5371,6 @@ and masked</STAGEDIR>
 <LINE>Please it you,</LINE>
 <LINE>As much in private, and I'll bid adieu.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>They converse apart</STAGEDIR>
 
@@ -5447,7 +5441,6 @@ and masked</STAGEDIR>
 <SPEAKER>KATHARINE</SPEAKER>
 <LINE>Bleat softly then; the butcher hears you cry.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>They converse apart</STAGEDIR>
 
@@ -5646,7 +5639,6 @@ in their proper habits</STAGEDIR>
 <LINE>I will; and so will she, I know, my lord.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -5684,7 +5676,6 @@ in their proper habits</STAGEDIR>
 <LINE>See where it comes! Behavior, what wert thou</LINE>
 <LINE>Till this madman show'd thee? and what art thou now?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter the PRINCESS, ushered by BOYET, ROSALINE,
 MARIA, and KATHARINE</STAGEDIR>
@@ -6160,7 +6151,6 @@ MARIA, and KATHARINE</STAGEDIR>
 <LINE>some care.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -6194,7 +6184,6 @@ MARIA, and KATHARINE</STAGEDIR>
 <LINE>A right description of our sport, my lord.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter DON ADRIANO DE ARMADO</STAGEDIR>
 
 <SPEECH>
@@ -6202,7 +6191,6 @@ MARIA, and KATHARINE</STAGEDIR>
 <LINE>Anointed, I implore so much expense of thy royal</LINE>
 <LINE>sweet breath as will utter a brace of words.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Converses apart with FERDINAND, and delivers him a paper</STAGEDIR>
 
@@ -6229,7 +6217,6 @@ MARIA, and KATHARINE</STAGEDIR>
 <LINE>will put it, as they say, to fortuna de la guerra.</LINE>
 <LINE>I wish you the peace of mind, most royal couplement!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -6265,7 +6252,6 @@ MARIA, and KATHARINE</STAGEDIR>
 <SPEAKER>FERDINAND</SPEAKER>
 <LINE>The ship is under sail, and here she comes amain.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter COSTARD, for Pompey</STAGEDIR>
 
@@ -6331,7 +6317,6 @@ MARIA, and KATHARINE</STAGEDIR>
 <SPEAKER>BIRON</SPEAKER>
 <LINE>My hat to a halfpenny, Pompey proves the best Worthy.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter SIR NATHANIEL, for Alexander</STAGEDIR>
 
@@ -6401,7 +6386,6 @@ MARIA, and KATHARINE</STAGEDIR>
 <LINE>'tis,--a little o'erparted. But there are Worthies</LINE>
 <LINE>a-coming will speak their mind in some other sort.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter HOLOFERNES, for Judas; and MOTH, for Hercules</STAGEDIR>
 
@@ -6576,14 +6560,12 @@ MARIA, and KATHARINE</STAGEDIR>
 <LINE>A light for Monsieur Judas! it grows dark, he may stumble.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>HOLOFERNES retires</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>PRINCESS</SPEAKER>
 <LINE>Alas, poor Maccabaeus, how hath he been baited!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter DON ADRIANO DE ARMADO, for Hector</STAGEDIR>
 
@@ -6870,7 +6852,6 @@ MARIA, and KATHARINE</STAGEDIR>
 <LINE>his heart for a favour.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter MERCADE</STAGEDIR>
 
 <SPEECH>
@@ -6911,7 +6892,6 @@ MARIA, and KATHARINE</STAGEDIR>
 <LINE>seen the day of wrong through the little hole of</LINE>
 <LINE>discretion, and I will right myself like a soldier.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt Worthies</STAGEDIR>
 
@@ -7216,7 +7196,6 @@ MARIA, and KATHARINE</STAGEDIR>
 <LINE>That's too long for a play.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter DON ADRIANO DE ARMADO</STAGEDIR>
 
 <SPEECH>
@@ -7301,8 +7280,8 @@ and others</STAGEDIR>
 <LINE>Apollo. You that way: we this way.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 </ACT>
 </PLAY>

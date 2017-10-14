@@ -11,7 +11,6 @@
 <P>This work may be freely copied and distributed worldwide.</P>
 </FM>
 
-
 <PERSONAE>
 <TITLE>Dramatis Personae</TITLE>
 
@@ -46,9 +45,14 @@
 
 <PLAYSUBT>ALL'S WELL THAT ENDS WELL</PLAYSUBT>
 
-<ACT><TITLE>ACT I</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Rousillon. The COUNT's palace.</TITLE>
+<TITLE>ACT I</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Rousillon. The COUNT's palace.</TITLE>
+
 <STAGEDIR>Enter BERTRAM, the COUNTESS of Rousillon, HELENA,
 and LAFEU, all in black</STAGEDIR>
 
@@ -218,7 +222,6 @@ and LAFEU, all in black</STAGEDIR>
 <LINE>Heaven bless him! Farewell, Bertram.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -233,7 +236,6 @@ and LAFEU, all in black</STAGEDIR>
 <LINE>Farewell, pretty lady: you must hold the credit of</LINE>
 <LINE>your father.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt BERTRAM and LAFEU</STAGEDIR>
 
@@ -429,14 +431,12 @@ and LAFEU, all in black</STAGEDIR>
 <LINE>Return us thanks.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter Page</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>Page</SPEAKER>
 <LINE>Monsieur Parolles, my lord calls for you.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -518,7 +518,6 @@ and LAFEU, all in black</STAGEDIR>
 <LINE>and use him as he uses thee; so, farewell.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -539,11 +538,14 @@ and LAFEU, all in black</STAGEDIR>
 <LINE>But my intents are fix'd and will not leave me.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Paris. The KING's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Paris. The KING's palace.</TITLE>
+
 <STAGEDIR>Flourish of cornets. Enter the KING of France,
 with letters, and divers Attendants</STAGEDIR>
 
@@ -596,7 +598,6 @@ with letters, and divers Attendants</STAGEDIR>
 <SPEAKER>KING</SPEAKER>
 <LINE>What's he comes here?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter BERTRAM, LAFEU, and PAROLLES</STAGEDIR>
 
@@ -708,11 +709,14 @@ with letters, and divers Attendants</STAGEDIR>
 <LINE>Thank your majesty.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt. Flourish</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Rousillon. The COUNT's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Rousillon. The COUNT's palace.</TITLE>
+
 <STAGEDIR>Enter COUNTESS, Steward, and Clown</STAGEDIR>
 
 <SPEECH>
@@ -923,7 +927,6 @@ with letters, and divers Attendants</STAGEDIR>
 <LINE>humility over the black gown of a big heart. I am</LINE>
 <LINE>going, forsooth: the business is for Helen to come hither.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -1234,15 +1237,20 @@ with letters, and divers Attendants</STAGEDIR>
 <LINE>What I can help thee to thou shalt not miss.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT II</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Paris. The KING's palace.</TITLE>
+<TITLE>ACT II</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Paris. The KING's palace.</TITLE>
+
 <STAGEDIR>Flourish of cornets. Enter the KING, attended
 with divers young Lords taking leave for the
 Florentine war; BERTRAM, and PAROLLES</STAGEDIR>
@@ -1299,7 +1307,6 @@ Florentine war; BERTRAM, and PAROLLES</STAGEDIR>
 <SPEAKER>KING</SPEAKER>
 <LINE>Farewell. Come hither to me.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit, attended</STAGEDIR>
 
@@ -1388,7 +1395,6 @@ Florentine war; BERTRAM, and PAROLLES</STAGEDIR>
 <LINE>We shall, noble captain.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt Lords</STAGEDIR>
 
 <SPEECH>
@@ -1400,7 +1406,6 @@ Florentine war; BERTRAM, and PAROLLES</STAGEDIR>
 <SPEAKER>BERTRAM</SPEAKER>
 <LINE>Stay: the king.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter KING. BERTRAM and PAROLLES retire</STAGEDIR>
 
@@ -1508,14 +1513,12 @@ Florentine war; BERTRAM, and PAROLLES</STAGEDIR>
 <LINE>And not be all day neither.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>KING</SPEAKER>
 <LINE>Thus he his special nothing ever prologues.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter LAFEU, with HELENA</STAGEDIR>
 
@@ -1537,7 +1540,6 @@ Florentine war; BERTRAM, and PAROLLES</STAGEDIR>
 <LINE>His majesty seldom fears: I am Cressid's uncle,</LINE>
 <LINE>That dare leave two together; fare you well.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -1742,11 +1744,14 @@ Florentine war; BERTRAM, and PAROLLES</STAGEDIR>
 <LINE>As high as word, my deed shall match thy meed.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Flourish. Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Rousillon. The COUNT's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Rousillon. The COUNT's palace.</TITLE>
+
 <STAGEDIR>Enter COUNTESS and Clown</STAGEDIR>
 
 <SPEECH>
@@ -1929,11 +1934,14 @@ Florentine war; BERTRAM, and PAROLLES</STAGEDIR>
 <LINE>Haste you again.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt severally</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Paris. The KING's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Paris. The KING's palace.</TITLE>
+
 <STAGEDIR>Enter BERTRAM, LAFEU, and PAROLLES</STAGEDIR>
 
 <SPEECH>
@@ -2077,7 +2085,6 @@ Florentine war; BERTRAM, and PAROLLES</STAGEDIR>
 <SPEAKER>PAROLLES</SPEAKER>
 <LINE>I would have said it; you say well. Here comes the king.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter KING, HELENA, and Attendants. LAFEU and
 PAROLLES retire</STAGEDIR>
@@ -2394,7 +2401,6 @@ PAROLLES retire</STAGEDIR>
 <LINE>Thy love's to me religious; else, does err.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt all but LAFEU and PAROLLES</STAGEDIR>
 
 <SPEECH>
@@ -2535,7 +2541,6 @@ PAROLLES retire</STAGEDIR>
 <LINE>thee, in what motion age will give me leave.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -2548,7 +2553,6 @@ PAROLLES retire</STAGEDIR>
 <LINE>lord. I'll have no more pity of his age than I</LINE>
 <LINE>would of--I'll beat him, an if I could but meet him again.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter LAFEU</STAGEDIR>
 
@@ -2602,7 +2606,6 @@ PAROLLES retire</STAGEDIR>
 <LINE>worth another word, else I'ld call you knave. I leave you.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -2610,7 +2613,6 @@ PAROLLES retire</STAGEDIR>
 <LINE>Good, very good; it is so then: good, very good;</LINE>
 <LINE>let it be concealed awhile.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter BERTRAM</STAGEDIR>
 
@@ -2696,11 +2698,14 @@ PAROLLES retire</STAGEDIR>
 <LINE>The king has done you wrong: but, hush, 'tis so.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Paris. The KING's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Paris. The KING's palace.</TITLE>
+
 <STAGEDIR>Enter HELENA and Clown</STAGEDIR>
 
 <SPEECH>
@@ -2738,7 +2743,6 @@ PAROLLES retire</STAGEDIR>
 <LINE>quickly! the other that she's in earth, from whence</LINE>
 <LINE>God send her quickly!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PAROLLES</STAGEDIR>
 
@@ -2859,11 +2863,14 @@ PAROLLES retire</STAGEDIR>
 <LINE>Come, sirrah.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  Paris. The KING's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  Paris. The KING's palace.</TITLE>
+
 <STAGEDIR>Enter LAFEU and BERTRAM</STAGEDIR>
 
 <SPEECH>
@@ -2905,7 +2912,6 @@ PAROLLES retire</STAGEDIR>
 <LINE>heart to repent. Here he comes: I pray you, make</LINE>
 <LINE>us friends; I will pursue the amity.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PAROLLES</STAGEDIR>
 
@@ -3002,7 +3008,6 @@ PAROLLES retire</STAGEDIR>
 <LINE>deserve at my hand; but we must do good against evil.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -3025,7 +3030,6 @@ PAROLLES retire</STAGEDIR>
 <LINE>Yes, I do know him well, and common speech</LINE>
 <LINE>Gives him a worthy pass. Here comes my clog.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter HELENA</STAGEDIR>
 
@@ -3137,15 +3141,20 @@ PAROLLES retire</STAGEDIR>
 <LINE>Bravely, coragio!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT III</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Florence. The DUKE's palace.</TITLE>
+<TITLE>ACT III</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Florence. The DUKE's palace.</TITLE>
+
 <STAGEDIR>Flourish. Enter the DUKE of Florence attended;
 the two Frenchmen, with a troop of soldiers.</STAGEDIR>
 
@@ -3204,11 +3213,14 @@ the two Frenchmen, with a troop of soldiers.</STAGEDIR>
 <LINE>To-morrow to the field.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Flourish. Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Rousillon. The COUNT's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Rousillon. The COUNT's palace.</TITLE>
+
 <STAGEDIR>Enter COUNTESS and Clown</STAGEDIR>
 
 <SPEECH>
@@ -3241,7 +3253,6 @@ the two Frenchmen, with a troop of soldiers.</STAGEDIR>
 <LINE>Let me see what he writes, and when he means to come.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Opening a letter</STAGEDIR>
 
 <SPEECH>
@@ -3263,7 +3274,6 @@ the two Frenchmen, with a troop of soldiers.</STAGEDIR>
 <LINE>E'en that you have there.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -3282,7 +3292,6 @@ the two Frenchmen, with a troop of soldiers.</STAGEDIR>
 <LINE>By the misprising of a maid too virtuous</LINE>
 <LINE>For the contempt of empire.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter Clown</STAGEDIR>
 
@@ -3492,7 +3501,6 @@ the two Frenchmen, with a troop of soldiers.</STAGEDIR>
 <LINE>Will you draw near!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt COUNTESS and Gentlemen</STAGEDIR>
 
 <SPEECH>
@@ -3530,11 +3538,14 @@ the two Frenchmen, with a troop of soldiers.</STAGEDIR>
 <LINE>For with the dark, poor thief, I'll steal away.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Florence. Before the DUKE's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Florence. Before the DUKE's palace.</TITLE>
+
 <STAGEDIR>Flourish. Enter the DUKE of Florence, BERTRAM,
 PAROLLES, Soldiers, Drum, and Trumpets</STAGEDIR>
 
@@ -3568,11 +3579,14 @@ PAROLLES, Soldiers, Drum, and Trumpets</STAGEDIR>
 <LINE>A lover of thy drum, hater of love.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Rousillon. The COUNT's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Rousillon. The COUNT's palace.</TITLE>
+
 <STAGEDIR>Enter COUNTESS and Steward</STAGEDIR>
 
 <SPEECH>
@@ -3640,11 +3654,14 @@ PAROLLES, Soldiers, Drum, and Trumpets</STAGEDIR>
 <LINE>Grief would have tears, and sorrow bids me speak.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  Florence. Without the walls. A tucket afar off.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  Florence. Without the walls. A tucket afar off.</TITLE>
+
 <STAGEDIR>Enter an old Widow of Florence, DIANA, VIOLENTA,
 and MARIANA, with other Citizens</STAGEDIR>
 
@@ -3932,7 +3949,6 @@ and MARIANA, with other Citizens</STAGEDIR>
 <LINE>And your courtesy, for a ring-carrier!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt BERTRAM, PAROLLES, and army</STAGEDIR>
 
 <SPEECH>
@@ -3958,11 +3974,14 @@ and MARIANA, with other Citizens</STAGEDIR>
 <LINE>We'll take your offer kindly.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VI.  Camp before Florence.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VI.  Camp before Florence.</TITLE>
+
 <STAGEDIR>Enter BERTRAM and the two French Lords</STAGEDIR>
 
 <SPEECH>
@@ -4041,7 +4060,6 @@ and MARIANA, with other Citizens</STAGEDIR>
 <LINE>entertainment, your inclining cannot be removed.</LINE>
 <LINE>Here he comes.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PAROLLES</STAGEDIR>
 
@@ -4156,7 +4174,6 @@ and MARIANA, with other Citizens</STAGEDIR>
 <LINE>I love not many words.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -4214,7 +4231,6 @@ and MARIANA, with other Citizens</STAGEDIR>
 <LINE>As't please your lordship: I'll leave you.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -4243,11 +4259,14 @@ and MARIANA, with other Citizens</STAGEDIR>
 <LINE>With all my heart, my lord.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VII.  Florence. The Widow's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VII.  Florence. The Widow's house.</TITLE>
+
 <STAGEDIR>Enter HELENA and Widow</STAGEDIR>
 
 <SPEECH>
@@ -4340,15 +4359,20 @@ and MARIANA, with other Citizens</STAGEDIR>
 <LINE>But let's about it.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT IV</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Without the Florentine camp.</TITLE>
+<TITLE>ACT IV</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Without the Florentine camp.</TITLE>
+
 <STAGEDIR>Enter Second French Lord, with five or six other
 Soldiers in ambush</STAGEDIR>
 
@@ -4400,7 +4424,6 @@ Soldiers in ambush</STAGEDIR>
 <LINE>ho! here he comes, to beguile two hours in a sleep,</LINE>
 <LINE>and then to return and swear the lies he forges.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PAROLLES</STAGEDIR>
 
@@ -4510,7 +4533,6 @@ Soldiers in ambush</STAGEDIR>
 <LINE>A drum now of the enemy's,--</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Alarum within</STAGEDIR>
 
 <SPEECH>
@@ -4527,7 +4549,6 @@ Soldiers in ambush</STAGEDIR>
 <SPEAKER>PAROLLES</SPEAKER>
 <LINE>O, ransom, ransom! do not hide mine eyes.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>They seize and blindfold him</STAGEDIR>
 
@@ -4599,7 +4620,6 @@ Soldiers in ambush</STAGEDIR>
 <LINE>Come on; thou art granted space.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit, with PAROLLES guarded. A short alarum within</STAGEDIR>
 
 <SPEECH>
@@ -4630,11 +4650,14 @@ Soldiers in ambush</STAGEDIR>
 <LINE>Till then I'll keep him dark and safely lock'd.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Florence. The Widow's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Florence. The Widow's house.</TITLE>
+
 <STAGEDIR>Enter BERTRAM and DIANA</STAGEDIR>
 
 <SPEECH>
@@ -4789,7 +4812,6 @@ Soldiers in ambush</STAGEDIR>
 <LINE>A heaven on earth I have won by wooing thee.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -4806,11 +4828,14 @@ Soldiers in ambush</STAGEDIR>
 <LINE>To cozen him that would unjustly win.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The Florentine camp.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The Florentine camp.</TITLE>
+
 <STAGEDIR>Enter the two French Lords and some two or three Soldiers</STAGEDIR>
 
 <SPEECH>
@@ -5076,7 +5101,6 @@ Soldiers in ambush</STAGEDIR>
 <LINE>face: if your lordship be in't, as I believe you</LINE>
 <LINE>are, you must have the patience to hear it.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PAROLLES guarded, and First Soldier</STAGEDIR>
 
@@ -5591,7 +5615,6 @@ Soldiers in ambush</STAGEDIR>
 <LINE>but fare you well.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt BERTRAM and Lords</STAGEDIR>
 
 <SPEECH>
@@ -5613,7 +5636,6 @@ Soldiers in ambush</STAGEDIR>
 <LINE>too: we shall speak of you there.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit with Soldiers</STAGEDIR>
 
 <SPEECH>
@@ -5631,11 +5653,14 @@ Soldiers in ambush</STAGEDIR>
 <LINE>I'll after them.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Florence. The Widow's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Florence. The Widow's house.</TITLE>
+
 <STAGEDIR>Enter HELENA, Widow, and DIANA</STAGEDIR>
 
 <SPEECH>
@@ -5698,11 +5723,14 @@ Soldiers in ambush</STAGEDIR>
 <LINE>Whate'er the course, the end is the renown.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  Rousillon. The COUNT's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  Rousillon. The COUNT's palace.</TITLE>
+
 <STAGEDIR>Enter COUNTESS, LAFEU, and Clown</STAGEDIR>
 
 <SPEECH>
@@ -5854,7 +5882,6 @@ Soldiers in ambush</STAGEDIR>
 <LINE>jades' tricks; which are their own right by the law of nature.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -5923,7 +5950,6 @@ Soldiers in ambush</STAGEDIR>
 <LINE>thank my God it holds yet.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter Clown</STAGEDIR>
 
 <SPEECH>
@@ -5959,15 +5985,20 @@ Soldiers in ambush</STAGEDIR>
 <LINE>and nod at every man.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT V</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Marseilles. A street.</TITLE>
+<TITLE>ACT V</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Marseilles. A street.</TITLE>
+
 <STAGEDIR>Enter HELENA, Widow, and DIANA, with two
 Attendants</STAGEDIR>
 
@@ -6080,11 +6111,14 @@ Attendants</STAGEDIR>
 <LINE>Go, go, provide.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Rousillon. Before the COUNT's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Rousillon. Before the COUNT's palace.</TITLE>
+
 <STAGEDIR>Enter Clown, and PAROLLES, following</STAGEDIR>
 
 <SPEECH>
@@ -6138,7 +6172,6 @@ Attendants</STAGEDIR>
 <LINE>distress in my similes of comfort and leave him to</LINE>
 <LINE>your lordship.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -6214,11 +6247,14 @@ Attendants</STAGEDIR>
 <LINE>I praise God for you.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Rousillon. The COUNT's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Rousillon. The COUNT's palace.</TITLE>
+
 <STAGEDIR>Flourish. Enter KING, COUNTESS, LAFEU, the two
 French Lords, with Attendants</STAGEDIR>
 
@@ -6278,7 +6314,6 @@ French Lords, with Attendants</STAGEDIR>
 <LINE>I shall, my liege.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -6296,7 +6331,6 @@ French Lords, with Attendants</STAGEDIR>
 <LINE>Then shall we have a match. I have letters sent me</LINE>
 <LINE>That set him high in fame.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter BERTRAM</STAGEDIR>
 
@@ -6483,14 +6517,12 @@ French Lords, with Attendants</STAGEDIR>
 <LINE>Where yet she never was.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit, guarded</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>KING</SPEAKER>
 <LINE>I am wrapp'd in dismal thinkings.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter a Gentleman</STAGEDIR>
 
@@ -6541,7 +6573,6 @@ French Lords, with Attendants</STAGEDIR>
 <SPEAKER>COUNTESS</SPEAKER>
 <LINE>Now, justice on the doers!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter BERTRAM, guarded</STAGEDIR>
 
@@ -6682,7 +6713,6 @@ French Lords, with Attendants</STAGEDIR>
 <LINE>Find him, and bring him hither.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit an Attendant</STAGEDIR>
 
 <SPEECH>
@@ -6760,7 +6790,6 @@ French Lords, with Attendants</STAGEDIR>
 <SPEAKER>DIANA</SPEAKER>
 <LINE>I have spoke the truth.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PAROLLES</STAGEDIR>
 
@@ -7006,7 +7035,6 @@ French Lords, with Attendants</STAGEDIR>
 <LINE>And now behold the meaning.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter Widow, with HELENA</STAGEDIR>
 
 <SPEECH>
@@ -7075,6 +7103,7 @@ French Lords, with Attendants</STAGEDIR>
 <LINE>The bitter past, more welcome is the sweet.</LINE>
 </SPEECH>
 <STAGEDIR>Flourish</STAGEDIR>
+
 </SCENE>
 
 <EPILOGUE><TITLE>EPILOGUE</TITLE>
@@ -7087,7 +7116,6 @@ French Lords, with Attendants</STAGEDIR>
 <LINE>Ours be your patience then, and yours our parts;</LINE>
 <LINE>Your gentle hands lend us, and take our hearts.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt</STAGEDIR>
 </EPILOGUE>

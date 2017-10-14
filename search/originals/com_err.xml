@@ -11,7 +11,6 @@
 <P>This work may be freely copied and distributed worldwide.</P>
 </FM>
 
-
 <PERSONAE>
 <TITLE>Dramatis Personae</TITLE>
 
@@ -23,7 +22,6 @@
 <PERSONA>ANTIPHOLUS OF SYRACUSE</PERSONA>
 <GRPDESCR>twin brothers, and sons to Aegeon and Aemilia.</GRPDESCR>
 </PGROUP>
-
 
 <PGROUP>
 <PERSONA>DROMIO OF EPHESUS</PERSONA>
@@ -48,9 +46,14 @@
 
 <PLAYSUBT>THE COMEDY OF ERRORS</PLAYSUBT>
 
-<ACT><TITLE>ACT I</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  A hall in DUKE SOLINUS'S palace.</TITLE>
+<TITLE>ACT I</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  A hall in DUKE SOLINUS'S palace.</TITLE>
+
 <STAGEDIR>Enter DUKE SOLINUS, AEGEON, Gaoler, Officers, and other
 Attendants</STAGEDIR>
 
@@ -260,11 +263,14 @@ Attendants</STAGEDIR>
 <LINE>But to procrastinate his lifeless end.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The Mart.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The Mart.</TITLE>
+
 <STAGEDIR>Enter ANTIPHOLUS of Syracuse, DROMIO of Syracuse,
 and First Merchant</STAGEDIR>
 
@@ -298,7 +304,6 @@ and First Merchant</STAGEDIR>
 <LINE>And go indeed, having so good a mean.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -330,7 +335,6 @@ and First Merchant</STAGEDIR>
 <SPEAKER>First Merchant</SPEAKER>
 <LINE>Sir, I commend you to your own content.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -460,7 +464,6 @@ and First Merchant</STAGEDIR>
 <LINE>Nay, and you will not, sir, I'll take my heels.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -478,15 +481,20 @@ and First Merchant</STAGEDIR>
 <LINE>I greatly fear my money is not safe.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT II</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  The house of ANTIPHOLUS of Ephesus.</TITLE>
+<TITLE>ACT II</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  The house of ANTIPHOLUS of Ephesus.</TITLE>
+
 <STAGEDIR>Enter ADRIANA and LUCIANA</STAGEDIR>
 
 <SPEECH>
@@ -595,7 +603,6 @@ and First Merchant</STAGEDIR>
 <LINE>Well, I will marry one day, but to try.</LINE>
 <LINE>Here comes your man; now is your husband nigh.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter DROMIO of Ephesus</STAGEDIR>
 
@@ -713,7 +720,6 @@ and First Merchant</STAGEDIR>
 <LINE>If I last in this service, you must case me in leather.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -767,11 +773,14 @@ and First Merchant</STAGEDIR>
 <LINE>How many fond fools serve mad jealousy!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  A public place.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  A public place.</TITLE>
+
 <STAGEDIR>Enter ANTIPHOLUS of Syracuse</STAGEDIR>
 
 <SPEECH>
@@ -825,7 +834,6 @@ and First Merchant</STAGEDIR>
 <LINE>Yea, dost thou jeer and flout me in the teeth?</LINE>
 <LINE>Think'st thou I jest? Hold, take thou that, and that.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Beating him</STAGEDIR>
 
@@ -1093,7 +1101,6 @@ and First Merchant</STAGEDIR>
 <LINE>But, soft! who wafts us yonder?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter ADRIANA and LUCIANA</STAGEDIR>
 
 <SPEECH>
@@ -1319,15 +1326,20 @@ and First Merchant</STAGEDIR>
 <LINE>Come, come, Antipholus, we dine too late.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT III</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Before the house of ANTIPHOLUS of Ephesus.</TITLE>
+<TITLE>ACT III</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Before the house of ANTIPHOLUS of Ephesus.</TITLE>
+
 <STAGEDIR>Enter ANTIPHOLUS of Ephesus, DROMIO of Ephesus,
 ANGELO, and BALTHAZAR</STAGEDIR>
 
@@ -1724,11 +1736,14 @@ ANGELO, and BALTHAZAR</STAGEDIR>
 <LINE>Do so. This jest shall cost me some expense.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The same.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The same.</TITLE>
+
 <STAGEDIR>Enter LUCIANA and ANTIPHOLUS of Syracuse</STAGEDIR>
 
 <SPEECH>
@@ -2083,7 +2098,6 @@ ANGELO, and BALTHAZAR</STAGEDIR>
 <LINE>So fly I from her that would be my wife.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -2098,7 +2112,6 @@ ANGELO, and BALTHAZAR</STAGEDIR>
 <LINE>But, lest myself be guilty to self-wrong,</LINE>
 <LINE>I'll stop mine ears against the mermaid's song.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter ANGELO with the chain</STAGEDIR>
 
@@ -2153,7 +2166,6 @@ ANGELO, and BALTHAZAR</STAGEDIR>
 <LINE>You are a merry man, sir: fare you well.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -2167,15 +2179,20 @@ ANGELO, and BALTHAZAR</STAGEDIR>
 <LINE>If any ship put out, then straight away.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT IV</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  A public place.</TITLE>
+<TITLE>ACT IV</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  A public place.</TITLE>
+
 <STAGEDIR>Enter Second Merchant, ANGELO, and an Officer</STAGEDIR>
 
 <SPEECH>
@@ -2199,7 +2216,6 @@ ANGELO, and BALTHAZAR</STAGEDIR>
 <LINE>I will discharge my bond and thank you too.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter ANTIPHOLUS of Ephesus and DROMIO of Ephesus
 from the courtezan's</STAGEDIR>
 
@@ -2222,7 +2238,6 @@ from the courtezan's</STAGEDIR>
 <SPEAKER>DROMIO OF EPHESUS</SPEAKER>
 <LINE>I buy a thousand pound a year: I buy a rope.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -2405,7 +2420,6 @@ from the courtezan's</STAGEDIR>
 <LINE>To your notorious shame; I doubt it not.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter DROMIO of Syracuse, from the bay</STAGEDIR>
 
 <SPEECH>
@@ -2456,7 +2470,6 @@ from the courtezan's</STAGEDIR>
 <LINE>On, officer, to prison till it come.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt Second Merchant, Angelo, Officer, and
 Antipholus of Ephesus</STAGEDIR>
 
@@ -2469,11 +2482,14 @@ Antipholus of Ephesus</STAGEDIR>
 <LINE>For servants must their masters' minds fulfil.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The house of ANTIPHOLUS of Ephesus.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The house of ANTIPHOLUS of Ephesus.</TITLE>
+
 <STAGEDIR>Enter ADRIANA and LUCIANA</STAGEDIR>
 
 <SPEECH>
@@ -2565,7 +2581,6 @@ Antipholus of Ephesus</STAGEDIR>
 <LINE>Far from her nest the lapwing cries away:</LINE>
 <LINE>My heart prays for him, though my tongue do curse.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter DROMIO of Syracuse</STAGEDIR>
 
@@ -2678,7 +2693,6 @@ Antipholus of Ephesus</STAGEDIR>
 <LINE>Hath he not reason to turn back an hour in a day?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter LUCIANA with a purse</STAGEDIR>
 
 <SPEECH>
@@ -2689,11 +2703,14 @@ Antipholus of Ephesus</STAGEDIR>
 <LINE>Conceit, my comfort and my injury.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  A public place.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  A public place.</TITLE>
+
 <STAGEDIR>Enter ANTIPHOLUS of Syracuse</STAGEDIR>
 
 <SPEECH>
@@ -2710,7 +2727,6 @@ Antipholus of Ephesus</STAGEDIR>
 <LINE>Sure, these are but imaginary wiles</LINE>
 <LINE>And Lapland sorcerers inhabit here.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter DROMIO OF SYRACUSE</STAGEDIR>
 
@@ -2783,7 +2799,6 @@ Antipholus of Ephesus</STAGEDIR>
 <LINE>And here we wander in illusions:</LINE>
 <LINE>Some blessed power deliver us from hence!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter a Courtezan</STAGEDIR>
 
@@ -2883,7 +2898,6 @@ Antipholus of Ephesus</STAGEDIR>
 <LINE>'Fly pride,' says the peacock: mistress, that you know.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt Antipholus of Syracuse and Dromio of Syracuse</STAGEDIR>
 
 <SPEECH>
@@ -2906,11 +2920,14 @@ Antipholus of Ephesus</STAGEDIR>
 <LINE>For forty ducats is too much to lose.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  A street.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  A street.</TITLE>
+
 <STAGEDIR>Enter ANTIPHOLUS of Ephesus and the Officer</STAGEDIR>
 
 <SPEECH>
@@ -2967,7 +2984,6 @@ Antipholus of Ephesus</STAGEDIR>
 <LINE>And to that end, sir, I will welcome you.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Beating him</STAGEDIR>
 
 <SPEECH>
@@ -3002,7 +3018,6 @@ Antipholus of Ephesus</STAGEDIR>
 </SPEECH>
 
 
-
 <SPEECH>
 <SPEAKER>DROMIO OF EPHESUS</SPEAKER>
 <LINE>I am an ass, indeed; you may prove it by my long</LINE>
@@ -3023,7 +3038,6 @@ Antipholus of Ephesus</STAGEDIR>
 <LINE>Come, go along; my wife is coming yonder.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter ADRIANA, LUCIANA, the Courtezan, and PINCH</STAGEDIR>
 
 <SPEECH>
@@ -3037,7 +3051,6 @@ Antipholus of Ephesus</STAGEDIR>
 <SPEAKER>ANTIPHOLUS OF EPHESUS</SPEAKER>
 <LINE>Wilt thou still talk?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Beating him</STAGEDIR>
 
@@ -3073,7 +3086,6 @@ Antipholus of Ephesus</STAGEDIR>
 <SPEAKER>ANTIPHOLUS OF EPHESUS</SPEAKER>
 <LINE>There is my hand, and let it feel your ear.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Striking him</STAGEDIR>
 
@@ -3249,7 +3261,6 @@ Antipholus of Ephesus</STAGEDIR>
 <LINE>That would behold in me this shameful sport.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter three or four, and offer to bind him.
 He strives</STAGEDIR>
 
@@ -3285,7 +3296,6 @@ He strives</STAGEDIR>
 <SPEAKER>PINCH</SPEAKER>
 <LINE>Go bind this man, for he is frantic too.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>They offer to bind Dromio of Ephesus</STAGEDIR>
 
@@ -3390,7 +3400,6 @@ Courtezan</STAGEDIR>
 <LINE>I long to know the truth hereof at large.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter ANTIPHOLUS of Syracuse with his rapier drawn,
 and DROMIO of Syracuse</STAGEDIR>
 
@@ -3409,7 +3418,6 @@ and DROMIO of Syracuse</STAGEDIR>
 <SPEAKER>Officer</SPEAKER>
 <LINE>Away! they'll kill us.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt all but Antipholus of Syracuse and Dromio
 of Syracuse</STAGEDIR>
@@ -3446,15 +3454,20 @@ of Syracuse</STAGEDIR>
 <LINE>Therefore away, to get our stuff aboard.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT V</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  A street before a Priory.</TITLE>
+<TITLE>ACT V</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  A street before a Priory.</TITLE>
+
 <STAGEDIR>Enter Second Merchant and ANGELO</STAGEDIR>
 
 <SPEECH>
@@ -3481,7 +3494,6 @@ of Syracuse</STAGEDIR>
 <SPEAKER>Second Merchant</SPEAKER>
 <LINE>Speak softly; yonder, as I think, he walks.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter ANTIPHOLUS of Syracuse and DROMIO of Syracuse</STAGEDIR>
 
@@ -3737,7 +3749,6 @@ to the Priory</STAGEDIR>
 <LINE>Be quiet and depart: thou shalt not have him.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -3784,7 +3795,6 @@ to the Priory</STAGEDIR>
 <SPEAKER>LUCIANA</SPEAKER>
 <LINE>Kneel to the duke before he pass the abbey.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter DUKE SOLINUS, attended; AEGEON bareheaded; with the
 Headsman and other Officers</STAGEDIR>
@@ -3847,7 +3857,6 @@ Headsman and other Officers</STAGEDIR>
 <LINE>I will determine this before I stir.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Servant</STAGEDIR>
 
 <SPEECH>
@@ -3892,7 +3901,6 @@ Headsman and other Officers</STAGEDIR>
 <LINE>Even now we housed him in the abbey here;</LINE>
 <LINE>And now he's there, past thought of human reason.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter ANTIPHOLUS of Ephesus and DROMIO of Ephesus</STAGEDIR>
 
@@ -4077,7 +4085,6 @@ Headsman and other Officers</STAGEDIR>
 <LINE>I think you are all mated or stark mad.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit one to Abbess</STAGEDIR>
 
 <SPEECH>
@@ -4199,7 +4206,6 @@ Headsman and other Officers</STAGEDIR>
 <LINE>I see thy age and dangers make thee dote.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter AEMILIA, with ANTIPHOLUS of Syracuse and
 DROMIO of Syracuse</STAGEDIR>
 
@@ -4207,7 +4213,6 @@ DROMIO of Syracuse</STAGEDIR>
 <SPEAKER>AEMELIA</SPEAKER>
 <LINE>Most mighty duke, behold a man much wrong'd.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>All gather to see them</STAGEDIR>
 
@@ -4423,7 +4428,6 @@ DROMIO of Syracuse</STAGEDIR>
 <LINE>With all my heart, I'll gossip at this feast.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt all but Antipholus of Syracuse, Antipholus
 of Ephesus, Dromio of Syracuse and Dromio of Ephesus</STAGEDIR>
 
@@ -4448,7 +4452,6 @@ of Ephesus, Dromio of Syracuse and Dromio of Ephesus</STAGEDIR>
 <LINE>Come, go with us; we'll look to that anon:</LINE>
 <LINE>Embrace thy brother there; rejoice with him.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt Antipholus of Syracuse and Antipholus of Ephesus</STAGEDIR>
 
@@ -4488,8 +4491,8 @@ of Ephesus, Dromio of Syracuse and Dromio of Ephesus</STAGEDIR>
 <LINE>And now let's go hand in hand, not one before another.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 </ACT>
 </PLAY>

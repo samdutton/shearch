@@ -11,7 +11,6 @@
 <P>This work may be freely copied and distributed worldwide.</P>
 </FM>
 
-
 <PERSONAE>
 <TITLE>Dramatis Personae</TITLE>
 
@@ -50,9 +49,14 @@
 
 <PLAYSUBT>MUCH ADO ABOUT NOTHING</PLAYSUBT>
 
-<ACT><TITLE>ACT I</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Before LEONATO'S house.</TITLE>
+<TITLE>ACT I</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Before LEONATO'S house.</TITLE>
+
 <STAGEDIR>Enter LEONATO, HERO, and BEATRICE, with a
 Messenger</STAGEDIR>
 
@@ -286,7 +290,6 @@ Messenger</STAGEDIR>
 <LINE>Don Pedro is approached.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter DON PEDRO, DON JOHN, CLAUDIO, BENEDICK,
 and BALTHASAR</STAGEDIR>
 
@@ -446,7 +449,6 @@ and BALTHASAR</STAGEDIR>
 <LINE>Your hand, Leonato; we will go together.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt all except BENEDICK and CLAUDIO</STAGEDIR>
 
 <SPEECH>
@@ -541,7 +543,6 @@ and BALTHASAR</STAGEDIR>
 <LINE>into a yoke, wear the print of it and sigh away</LINE>
 <LINE>Sundays. Look Don Pedro is returned to seek you.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter DON PEDRO</STAGEDIR>
 
@@ -749,7 +750,6 @@ and BALTHASAR</STAGEDIR>
 <LINE>conscience: and so I leave you.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -824,11 +824,14 @@ and BALTHASAR</STAGEDIR>
 <LINE>In practise let us put it presently.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  A room in LEONATO's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  A room in LEONATO's house.</TITLE>
+
 <STAGEDIR>Enter LEONATO and ANTONIO, meeting</STAGEDIR>
 
 <SPEECH>
@@ -884,11 +887,14 @@ and BALTHASAR</STAGEDIR>
 <LINE>skill. Good cousin, have a care this busy time.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The same.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The same.</TITLE>
+
 <STAGEDIR>Enter DON JOHN and CONRADE</STAGEDIR>
 
 <SPEECH>
@@ -1050,15 +1056,20 @@ and BALTHASAR</STAGEDIR>
 <LINE>We'll wait upon your lordship.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT II</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  A hall in LEONATO'S house.</TITLE>
+<TITLE>ACT II</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  A hall in LEONATO'S house.</TITLE>
+
 <STAGEDIR>Enter LEONATO, ANTONIO, HERO, BEATRICE, and others</STAGEDIR>
 
 <SPEECH>
@@ -1285,7 +1296,6 @@ DON JOHN, BORACHIO, MARGARET, URSULA and others, masked</STAGEDIR>
 <LINE>Speak low, if you speak love.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Drawing her aside</STAGEDIR>
 
 <SPEECH>
@@ -1465,7 +1475,6 @@ DON JOHN, BORACHIO, MARGARET, URSULA and others, masked</STAGEDIR>
 <LINE>the next turning.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Dance. Then exeunt all except DON JOHN, BORACHIO,
 and CLAUDIO</STAGEDIR>
 
@@ -1519,7 +1528,6 @@ and CLAUDIO</STAGEDIR>
 <LINE>Come, let us to the banquet.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt DON JOHN and BORACHIO</STAGEDIR>
 
 <SPEECH>
@@ -1536,7 +1544,6 @@ and CLAUDIO</STAGEDIR>
 <LINE>This is an accident of hourly proof,</LINE>
 <LINE>Which I mistrusted not. Farewell, therefore, Hero!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter BENEDICK</STAGEDIR>
 
@@ -1597,7 +1604,6 @@ and CLAUDIO</STAGEDIR>
 <LINE>If it will not be, I'll leave you.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -1611,7 +1617,6 @@ and CLAUDIO</STAGEDIR>
 <LINE>that puts the world into her person and so gives me</LINE>
 <LINE>out. Well, I'll be revenged as I may.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter DON PEDRO</STAGEDIR>
 
@@ -1707,7 +1712,6 @@ and CLAUDIO</STAGEDIR>
 <LINE>Look, here she comes.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter CLAUDIO, BEATRICE, HERO, and LEONATO</STAGEDIR>
 
 <SPEECH>
@@ -1733,7 +1737,6 @@ and CLAUDIO</STAGEDIR>
 <LINE>O God, sir, here's a dish I love not: I cannot</LINE>
 <LINE>endure my Lady Tongue.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -1899,7 +1902,6 @@ and CLAUDIO</STAGEDIR>
 <LINE>I cry you mercy, uncle. By your grace's pardon.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -2005,11 +2007,14 @@ and CLAUDIO</STAGEDIR>
 <LINE>and I will tell you my drift.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The same.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The same.</TITLE>
+
 <STAGEDIR>Enter DON JOHN and BORACHIO</STAGEDIR>
 
 <SPEECH>
@@ -2130,18 +2135,20 @@ and CLAUDIO</STAGEDIR>
 <LINE>I will presently go learn their day of marriage.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  LEONATO'S orchard.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  LEONATO'S orchard.</TITLE>
+
 <STAGEDIR>Enter BENEDICK</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>BENEDICK</SPEAKER>
 <LINE>Boy!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter Boy</STAGEDIR>
 
@@ -2221,7 +2228,6 @@ and CLAUDIO</STAGEDIR>
 <LINE>We'll fit the kid-fox with a pennyworth.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter BALTHASAR with Music</STAGEDIR>
 
 <SPEECH>
@@ -2269,7 +2275,6 @@ and CLAUDIO</STAGEDIR>
 <LINE>Note, notes, forsooth, and nothing.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Air</STAGEDIR>
 
 <SPEECH>
@@ -2279,7 +2284,6 @@ and CLAUDIO</STAGEDIR>
 <LINE>of men's bodies? Well, a horn for my money, when</LINE>
 <LINE>all's done.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>The Song</STAGEDIR>
 
@@ -2654,7 +2658,6 @@ and CLAUDIO</STAGEDIR>
 <LINE>dumb-show. Let us send her to call him in to dinner.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt DON PEDRO, CLAUDIO, and LEONATO</STAGEDIR>
 
 <SPEECH>
@@ -2688,7 +2691,6 @@ and CLAUDIO</STAGEDIR>
 <LINE>her.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter BEATRICE</STAGEDIR>
 
 <SPEECH>
@@ -2720,7 +2722,6 @@ and CLAUDIO</STAGEDIR>
 <LINE>signior: fare you well.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -2734,15 +2735,20 @@ and CLAUDIO</STAGEDIR>
 <LINE>love her, I am a Jew. I will go get her picture.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT III</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  LEONATO'S garden.</TITLE>
+<TITLE>ACT III</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  LEONATO'S garden.</TITLE>
+
 <STAGEDIR>Enter HERO, MARGARET, and URSULA</STAGEDIR>
 
 <SPEECH>
@@ -2766,7 +2772,6 @@ and CLAUDIO</STAGEDIR>
 <SPEAKER>MARGARET</SPEAKER>
 <LINE>I'll make her come, I warrant you, presently.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -2959,7 +2964,6 @@ and CLAUDIO</STAGEDIR>
 <LINE>Some Cupid kills with arrows, some with traps.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt HERO and URSULA</STAGEDIR>
 
 <SPEECH>
@@ -2977,11 +2981,14 @@ and CLAUDIO</STAGEDIR>
 <LINE>Believe it better than reportingly.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  A room in LEONATO'S house</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  A room in LEONATO'S house</TITLE>
+
 <STAGEDIR>Enter DON PEDRO, CLAUDIO, BENEDICK, and LEONATO</STAGEDIR>
 
 <SPEECH>
@@ -3177,7 +3184,6 @@ and CLAUDIO</STAGEDIR>
 <LINE>hobby-horses must not hear.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt BENEDICK and LEONATO</STAGEDIR>
 
 <SPEECH>
@@ -3191,7 +3197,6 @@ and CLAUDIO</STAGEDIR>
 <LINE>played their parts with Beatrice; and then the two</LINE>
 <LINE>bears will not bite one another when they meet.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter DON JOHN</STAGEDIR>
 
@@ -3350,11 +3355,14 @@ and CLAUDIO</STAGEDIR>
 <LINE>you have seen the sequel.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  A street.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  A street.</TITLE>
+
 <STAGEDIR>Enter DOGBERRY and VERGES with the Watch</STAGEDIR>
 
 <SPEECH>
@@ -3795,11 +3803,14 @@ and CLAUDIO</STAGEDIR>
 <LINE>A commodity in question, I warrant you. Come, we'll obey you.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  HERO's apartment.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  HERO's apartment.</TITLE>
+
 <STAGEDIR>Enter HERO, MARGARET, and URSULA</STAGEDIR>
 
 <SPEECH>
@@ -3822,7 +3833,6 @@ and CLAUDIO</STAGEDIR>
 <SPEAKER>URSULA</SPEAKER>
 <LINE>Well.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -3899,7 +3909,6 @@ and CLAUDIO</STAGEDIR>
 <LINE>and the right wife; otherwise 'tis light, and not</LINE>
 <LINE>heavy: ask my Lady Beatrice else; here she comes.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter BEATRICE</STAGEDIR>
 
@@ -4050,7 +4059,6 @@ and CLAUDIO</STAGEDIR>
 <LINE>Not a false gallop.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter URSULA</STAGEDIR>
 
 <SPEECH>
@@ -4065,11 +4073,14 @@ and CLAUDIO</STAGEDIR>
 <LINE>Help to dress me, good coz, good Meg, good Ursula.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  Another room in LEONATO'S house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  Another room in LEONATO'S house.</TITLE>
+
 <STAGEDIR>Enter LEONATO, with DOGBERRY and VERGES</STAGEDIR>
 
 <SPEECH>
@@ -4215,7 +4226,6 @@ and CLAUDIO</STAGEDIR>
 <LINE>Drink some wine ere you go: fare you well.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Messenger</STAGEDIR>
 
 <SPEECH>
@@ -4228,7 +4238,6 @@ and CLAUDIO</STAGEDIR>
 <SPEAKER>LEONATO</SPEAKER>
 <LINE>I'll wait upon them: I am ready.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt LEONATO and Messenger</STAGEDIR>
 
@@ -4252,15 +4261,20 @@ and CLAUDIO</STAGEDIR>
 <LINE>excommunication and meet me at the gaol.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT IV</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  A church.</TITLE>
+<TITLE>ACT IV</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  A church.</TITLE>
+
 <STAGEDIR>Enter DON PEDRO, DON JOHN, LEONATO, FRIAR FRANCIS,
 CLAUDIO, BENEDICK, HERO, BEATRICE, and Attendants</STAGEDIR>
 
@@ -4550,7 +4564,6 @@ CLAUDIO, BENEDICK, HERO, BEATRICE, and Attendants</STAGEDIR>
 <LINE>Hath no man's dagger here a point for me?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>HERO swoons</STAGEDIR>
 
 <SPEECH>
@@ -4563,7 +4576,6 @@ CLAUDIO, BENEDICK, HERO, BEATRICE, and Attendants</STAGEDIR>
 <LINE>Come, let us go. These things, come thus to light,</LINE>
 <LINE>Smother her spirits up.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt DON PEDRO, DON JOHN, and CLAUDIO</STAGEDIR>
 
@@ -4820,7 +4832,6 @@ CLAUDIO, BENEDICK, HERO, BEATRICE, and Attendants</STAGEDIR>
 <LINE>Perhaps is but prolong'd: have patience and endure.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt all but BENEDICK and BEATRICE</STAGEDIR>
 
 <SPEECH>
@@ -5075,11 +5086,14 @@ CLAUDIO, BENEDICK, HERO, BEATRICE, and Attendants</STAGEDIR>
 <LINE>cousin: I must say she is dead: and so, farewell.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  A prison.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  A prison.</TITLE>
+
 <STAGEDIR>Enter DOGBERRY, VERGES, and Sexton, in gowns; and
 the Watch, with CONRADE and BORACHIO</STAGEDIR>
 
@@ -5276,7 +5290,6 @@ the Watch, with CONRADE and BORACHIO</STAGEDIR>
 <LINE>him their examination.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -5324,15 +5337,20 @@ the Watch, with CONRADE and BORACHIO</STAGEDIR>
 <LINE>I had been writ down an ass!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT V</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Before LEONATO'S house.</TITLE>
+<TITLE>ACT V</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Before LEONATO'S house.</TITLE>
+
 <STAGEDIR>Enter LEONATO and ANTONIO</STAGEDIR>
 
 <SPEECH>
@@ -5408,7 +5426,6 @@ the Watch, with CONRADE and BORACHIO</STAGEDIR>
 <SPEAKER>ANTONIO</SPEAKER>
 <LINE>Here comes the prince and Claudio hastily.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter DON PEDRO and CLAUDIO</STAGEDIR>
 
@@ -5600,14 +5617,12 @@ the Watch, with CONRADE and BORACHIO</STAGEDIR>
 <LINE>And shall, or some of us will smart for it.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt LEONATO and ANTONIO</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>DON PEDRO</SPEAKER>
 <LINE>See, see; here comes the man we went to seek.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter BENEDICK</STAGEDIR>
 
@@ -5809,7 +5824,6 @@ the Watch, with CONRADE and BORACHIO</STAGEDIR>
 <LINE>then, peace be with him.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -5850,7 +5864,6 @@ the Watch, with CONRADE and BORACHIO</STAGEDIR>
 <LINE>But, soft you, let me be: pluck up, my heart, and</LINE>
 <LINE>be sad. Did he not say, my brother was fled?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter DOGBERRY, VERGES, and the Watch, with CONRADE
 and BORACHIO</STAGEDIR>
@@ -5971,7 +5984,6 @@ and BORACHIO</STAGEDIR>
 <LINE>Here, here comes master Signior Leonato, and the</LINE>
 <LINE>Sexton too.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter LEONATO and ANTONIO, with the Sexton</STAGEDIR>
 
@@ -6117,7 +6129,6 @@ and BORACHIO</STAGEDIR>
 <LINE>meeting may be wished, God prohibit it! Come, neighbour.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt DOGBERRY and VERGES</STAGEDIR>
 
 <SPEECH>
@@ -6147,11 +6158,14 @@ and BORACHIO</STAGEDIR>
 <LINE>How her acquaintance grew with this lewd fellow.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt, severally</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  LEONATO'S garden.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  LEONATO'S garden.</TITLE>
+
 <STAGEDIR>Enter BENEDICK and MARGARET, meeting</STAGEDIR>
 
 <SPEECH>
@@ -6354,7 +6368,6 @@ and BORACHIO</STAGEDIR>
 <LINE>you too, for here comes one in haste.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter URSULA</STAGEDIR>
 
 <SPEECH>
@@ -6378,11 +6391,14 @@ and BORACHIO</STAGEDIR>
 <LINE>thee to thy uncle's.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  A church.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  A church.</TITLE>
+
 <STAGEDIR>Enter DON PEDRO, CLAUDIO, and three or four
 with tapers</STAGEDIR>
 
@@ -6453,11 +6469,14 @@ with tapers</STAGEDIR>
 <LINE>Than this for whom we render'd up this woe.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  A room in LEONATO'S house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  A room in LEONATO'S house.</TITLE>
+
 <STAGEDIR>Enter LEONATO, ANTONIO, BENEDICK, BEATRICE,
 MARGARET, URSULA, FRIAR FRANCIS, and HERO</STAGEDIR>
 
@@ -6556,7 +6575,6 @@ MARGARET, URSULA, FRIAR FRANCIS, and HERO</STAGEDIR>
 <LINE>Here comes the prince and Claudio.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter DON PEDRO and CLAUDIO, and two or
 three others</STAGEDIR>
 
@@ -6581,7 +6599,6 @@ three others</STAGEDIR>
 <SPEAKER>LEONATO</SPEAKER>
 <LINE>Call her forth, brother; here's the friar ready.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit ANTONIO</STAGEDIR>
 
@@ -6777,7 +6794,6 @@ three others</STAGEDIR>
 <LINE>Peace! I will stop your mouth.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Kissing her</STAGEDIR>
 
 <SPEECH>
@@ -6829,7 +6845,6 @@ three others</STAGEDIR>
 <LINE>there is no staff more reverend than one tipped with horn.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Messenger</STAGEDIR>
 
 <SPEECH>
@@ -6847,6 +6862,7 @@ three others</STAGEDIR>
 
 <STAGEDIR>Dance</STAGEDIR>
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 </ACT>
 </PLAY>

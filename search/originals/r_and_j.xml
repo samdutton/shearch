@@ -11,7 +11,6 @@
 <P>This work may be freely copied and distributed worldwide.</P>
 </FM>
 
-
 <PERSONAE>
 <TITLE>Dramatis Personae</TITLE>
 
@@ -61,7 +60,9 @@
 
 <PLAYSUBT>ROMEO AND JULIET</PLAYSUBT>
 
-<ACT><TITLE>ACT I</TITLE>
+<ACT>
+
+<TITLE>ACT I</TITLE>
 
 <PROLOGUE><TITLE>PROLOGUE</TITLE>
 <SPEECH><SPEAKER></SPEAKER>
@@ -82,7 +83,10 @@
 </SPEECH>
 </PROLOGUE>
 
-<SCENE><TITLE>SCENE I.  Verona. A public place.</TITLE>
+<SCENE>
+
+<TITLE>SCENE I.  Verona. A public place.</TITLE>
+
 <STAGEDIR>Enter SAMPSON and GREGORY, of the house of Capulet,
 armed with swords and bucklers</STAGEDIR>
 
@@ -225,7 +229,6 @@ armed with swords and bucklers</STAGEDIR>
 <LINE>which is a disgrace to them, if they bear it.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter ABRAHAM and BALTHASAR</STAGEDIR>
 
 <SPEECH>
@@ -346,7 +349,6 @@ then enter Citizens, with clubs</STAGEDIR>
 <LINE>Down with the Capulets! down with the Montagues!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter CAPULET in his gown, and LADY CAPULET</STAGEDIR>
 
 <SPEECH>
@@ -365,7 +367,6 @@ then enter Citizens, with clubs</STAGEDIR>
 <LINE>And flourishes his blade in spite of me.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter MONTAGUE and LADY MONTAGUE</STAGEDIR>
 
 <SPEECH>
@@ -377,7 +378,6 @@ then enter Citizens, with clubs</STAGEDIR>
 <SPEAKER>LADY MONTAGUE</SPEAKER>
 <LINE>Thou shalt not stir a foot to seek a foe.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PRINCE, with Attendants</STAGEDIR>
 
@@ -407,7 +407,6 @@ then enter Citizens, with clubs</STAGEDIR>
 <LINE>To old Free-town, our common judgment-place.</LINE>
 <LINE>Once more, on pain of death, all men depart.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt all but MONTAGUE, LADY MONTAGUE, and BENVOLIO</STAGEDIR>
 
@@ -498,7 +497,6 @@ then enter Citizens, with clubs</STAGEDIR>
 <LINE>We would as willingly give cure as know.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter ROMEO</STAGEDIR>
 
 <SPEECH>
@@ -512,7 +510,6 @@ then enter Citizens, with clubs</STAGEDIR>
 <LINE>I would thou wert so happy by thy stay,</LINE>
 <LINE>To hear true shrift. Come, madam, let's away.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt MONTAGUE and LADY MONTAGUE</STAGEDIR>
 
@@ -735,11 +732,14 @@ then enter Citizens, with clubs</STAGEDIR>
 <LINE>I'll pay that doctrine, or else die in debt.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  A street.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  A street.</TITLE>
+
 <STAGEDIR>Enter CAPULET, PARIS, and Servant</STAGEDIR>
 
 <SPEECH>
@@ -801,7 +801,6 @@ then enter Citizens, with clubs</STAGEDIR>
 <LINE>My house and welcome on their pleasure stay.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt CAPULET and PARIS</STAGEDIR>
 
 <SPEECH>
@@ -814,7 +813,6 @@ then enter Citizens, with clubs</STAGEDIR>
 <LINE>writ, and can never find what names the writing</LINE>
 <LINE>person hath here writ. I must to the learned.--In good time.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter BENVOLIO and ROMEO</STAGEDIR>
 
@@ -933,7 +931,6 @@ then enter Citizens, with clubs</STAGEDIR>
 <LINE>Rest you merry!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -972,11 +969,14 @@ then enter Citizens, with clubs</STAGEDIR>
 <LINE>But to rejoice in splendor of mine own.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  A room in Capulet's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  A room in Capulet's house.</TITLE>
+
 <STAGEDIR>Enter LADY CAPULET and Nurse</STAGEDIR>
 
 <SPEECH>
@@ -990,7 +990,6 @@ then enter Citizens, with clubs</STAGEDIR>
 <LINE>I bade her come. What, lamb! what, ladybird!</LINE>
 <LINE>God forbid! Where's this girl? What, Juliet!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter JULIET</STAGEDIR>
 
@@ -1189,7 +1188,6 @@ then enter Citizens, with clubs</STAGEDIR>
 <LINE>Than your consent gives strength to make it fly.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Servant</STAGEDIR>
 
 <SPEECH>
@@ -1212,11 +1210,14 @@ then enter Citizens, with clubs</STAGEDIR>
 <LINE>Go, girl, seek happy nights to happy days.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  A street.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  A street.</TITLE>
+
 <STAGEDIR>Enter ROMEO, MERCUTIO, BENVOLIO, with five or six
 Maskers, Torch-bearers, and others</STAGEDIR>
 
@@ -1452,11 +1453,14 @@ Maskers, Torch-bearers, and others</STAGEDIR>
 <LINE>Strike, drum.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  A hall in Capulet's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  A hall in Capulet's house.</TITLE>
+
 <STAGEDIR>Musicians waiting. Enter Servingmen with napkins</STAGEDIR>
 
 <SPEECH>
@@ -1496,7 +1500,6 @@ Maskers, Torch-bearers, and others</STAGEDIR>
 <LINE>We cannot be here and there too. Cheerly, boys; be</LINE>
 <LINE>brisk awhile, and the longer liver take all.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter CAPULET, with JULIET and others of his house,
 meeting the Guests and Maskers</STAGEDIR>
@@ -1661,7 +1664,6 @@ meeting the Guests and Maskers</STAGEDIR>
 <LINE>Now seeming sweet convert to bitter gall.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -1770,7 +1772,6 @@ meeting the Guests and Maskers</STAGEDIR>
 <LINE>I'll to my rest.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt all but JULIET and Nurse</STAGEDIR>
 
 <SPEECH>
@@ -1834,7 +1835,6 @@ meeting the Guests and Maskers</STAGEDIR>
 <LINE>Of one I danced withal.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>One calls within 'Juliet.'</STAGEDIR>
 
 <SPEECH>
@@ -1843,12 +1843,16 @@ meeting the Guests and Maskers</STAGEDIR>
 <LINE>Come, let's away; the strangers all are gone.</LINE>
 </SPEECH>
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 </ACT>
 
-<ACT><TITLE>ACT II</TITLE>
+<ACT>
+
+<TITLE>ACT II</TITLE>
 
 <PROLOGUE><TITLE>PROLOGUE</TITLE>
+
 <STAGEDIR>Enter Chorus</STAGEDIR>
 
 <SPEECH>
@@ -1872,7 +1876,10 @@ meeting the Guests and Maskers</STAGEDIR>
 <STAGEDIR>Exit</STAGEDIR>
 </PROLOGUE>
 
-<SCENE><TITLE>SCENE I.  A lane by the wall of Capulet's orchard.</TITLE>
+<SCENE>
+
+<TITLE>SCENE I.  A lane by the wall of Capulet's orchard.</TITLE>
+
 <STAGEDIR>Enter ROMEO</STAGEDIR>
 
 <SPEECH>
@@ -1963,11 +1970,14 @@ meeting the Guests and Maskers</STAGEDIR>
 <LINE>To seek him here that means not to be found.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Capulet's orchard.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Capulet's orchard.</TITLE>
+
 <STAGEDIR>Enter ROMEO</STAGEDIR>
 
 <SPEECH>
@@ -2244,7 +2254,6 @@ meeting the Guests and Maskers</STAGEDIR>
 <LINE>Stay but a little, I will come again.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit, above</STAGEDIR>
 
 <SPEECH>
@@ -2253,7 +2262,6 @@ meeting the Guests and Maskers</STAGEDIR>
 <LINE>Being in night, all this is but a dream,</LINE>
 <LINE>Too flattering-sweet to be substantial.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter JULIET, above</STAGEDIR>
 
@@ -2300,7 +2308,6 @@ meeting the Guests and Maskers</STAGEDIR>
 <SPEAKER>JULIET</SPEAKER>
 <LINE>A thousand times good night!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit, above</STAGEDIR>
 
@@ -2400,7 +2407,6 @@ meeting the Guests and Maskers</STAGEDIR>
 <LINE>That I shall say good night till it be morrow.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit above</STAGEDIR>
 
 <SPEECH>
@@ -2411,11 +2417,14 @@ meeting the Guests and Maskers</STAGEDIR>
 <LINE>His help to crave, and my dear hap to tell.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Friar Laurence's cell.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Friar Laurence's cell.</TITLE>
+
 <STAGEDIR>Enter FRIAR LAURENCE, with a basket</STAGEDIR>
 
 <SPEECH>
@@ -2451,7 +2460,6 @@ meeting the Guests and Maskers</STAGEDIR>
 <LINE>And where the worser is predominant,</LINE>
 <LINE>Full soon the canker death eats up that plant.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter ROMEO</STAGEDIR>
 
@@ -2594,11 +2602,14 @@ meeting the Guests and Maskers</STAGEDIR>
 <LINE>Wisely and slow; they stumble that run fast.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  A street.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  A street.</TITLE>
+
 <STAGEDIR>Enter BENVOLIO and MERCUTIO</STAGEDIR>
 
 <SPEECH>
@@ -2689,7 +2700,6 @@ meeting the Guests and Maskers</STAGEDIR>
 <LINE>that they cannot at ease on the old bench? O, their</LINE>
 <LINE>bones, their bones!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter ROMEO</STAGEDIR>
 
@@ -2875,7 +2885,6 @@ meeting the Guests and Maskers</STAGEDIR>
 <LINE>Here's goodly gear!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter Nurse and PETER</STAGEDIR>
 
 <SPEECH>
@@ -3013,7 +3022,6 @@ meeting the Guests and Maskers</STAGEDIR>
 <STAGEDIR>Singing</STAGEDIR>
 <LINE>'lady, lady, lady.'</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt MERCUTIO and BENVOLIO</STAGEDIR>
 
@@ -3189,11 +3197,14 @@ meeting the Guests and Maskers</STAGEDIR>
 <LINE>Peter, take my fan, and go before and apace.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  Capulet's orchard.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  Capulet's orchard.</TITLE>
+
 <STAGEDIR>Enter JULIET</STAGEDIR>
 
 <SPEECH>
@@ -3225,7 +3236,6 @@ meeting the Guests and Maskers</STAGEDIR>
 <SPEAKER>Nurse</SPEAKER>
 <LINE>Peter, stay at the gate.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit PETER</STAGEDIR>
 
@@ -3356,11 +3366,14 @@ meeting the Guests and Maskers</STAGEDIR>
 <LINE>Hie to high fortune! Honest nurse, farewell.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VI.  Friar Laurence's cell.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VI.  Friar Laurence's cell.</TITLE>
+
 <STAGEDIR>Enter FRIAR LAURENCE and ROMEO</STAGEDIR>
 
 <SPEECH>
@@ -3437,15 +3450,20 @@ meeting the Guests and Maskers</STAGEDIR>
 <LINE>Till holy church incorporate two in one.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT III</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  A public place.</TITLE>
+<TITLE>ACT III</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  A public place.</TITLE>
+
 <STAGEDIR>Enter MERCUTIO, BENVOLIO, Page, and Servants</STAGEDIR>
 
 <SPEECH>
@@ -3523,7 +3541,6 @@ meeting the Guests and Maskers</STAGEDIR>
 <LINE>By my heel, I care not.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter TYBALT and others</STAGEDIR>
 
 <SPEECH>
@@ -3575,7 +3592,6 @@ meeting the Guests and Maskers</STAGEDIR>
 <LINE>Men's eyes were made to look, and let them gaze;</LINE>
 <LINE>I will not budge for no man's pleasure, I.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter ROMEO</STAGEDIR>
 
@@ -3648,7 +3664,6 @@ meeting the Guests and Maskers</STAGEDIR>
 <LINE>I am for you.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Drawing</STAGEDIR>
 
 <SPEECH>
@@ -3661,7 +3676,6 @@ meeting the Guests and Maskers</STAGEDIR>
 <LINE>Come, sir, your passado.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>They fight</STAGEDIR>
 
 <SPEECH>
@@ -3672,7 +3686,6 @@ meeting the Guests and Maskers</STAGEDIR>
 <LINE>Forbidden bandying in Verona streets:</LINE>
 <LINE>Hold, Tybalt! good Mercutio!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>TYBALT under ROMEO's arm stabs MERCUTIO, and flies
 with his followers</STAGEDIR>
@@ -3694,7 +3707,6 @@ with his followers</STAGEDIR>
 <LINE>Ay, ay, a scratch, a scratch; marry, 'tis enough.</LINE>
 <LINE>Where is my page? Go, villain, fetch a surgeon.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit Page</STAGEDIR>
 
@@ -3729,7 +3741,6 @@ with his followers</STAGEDIR>
 <LINE>And soundly too: your houses!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt MERCUTIO and BENVOLIO</STAGEDIR>
 
 <SPEECH>
@@ -3742,7 +3753,6 @@ with his followers</STAGEDIR>
 <LINE>Thy beauty hath made me effeminate</LINE>
 <LINE>And in my temper soften'd valour's steel!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter BENVOLIO</STAGEDIR>
 
@@ -3788,7 +3798,6 @@ with his followers</STAGEDIR>
 <LINE>This shall determine that.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>They fight; TYBALT falls</STAGEDIR>
 
 <SPEECH>
@@ -3828,7 +3837,6 @@ with his followers</STAGEDIR>
 <LINE>Up, sir, go with me;</LINE>
 <LINE>I charge thee in the princes name, obey.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter Prince, attended; MONTAGUE, CAPULET, their
 Wives, and others</STAGEDIR>
@@ -3928,11 +3936,14 @@ Wives, and others</STAGEDIR>
 <LINE>Mercy but murders, pardoning those that kill.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Capulet's orchard.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Capulet's orchard.</TITLE>
+
 <STAGEDIR>Enter JULIET</STAGEDIR>
 
 <SPEECH>
@@ -3979,7 +3990,6 @@ Wives, and others</STAGEDIR>
 <SPEAKER>Nurse</SPEAKER>
 <LINE>Ay, ay, the cords.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Throws them down</STAGEDIR>
 
@@ -4178,11 +4188,14 @@ Wives, and others</STAGEDIR>
 <LINE>And bid him come to take his last farewell.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Friar Laurence's cell.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Friar Laurence's cell.</TITLE>
+
 <STAGEDIR>Enter FRIAR LAURENCE</STAGEDIR>
 
 <SPEECH>
@@ -4191,7 +4204,6 @@ Wives, and others</STAGEDIR>
 <LINE>Affliction is enamour'd of thy parts,</LINE>
 <LINE>And thou art wedded to calamity.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter ROMEO</STAGEDIR>
 
@@ -4331,7 +4343,6 @@ Wives, and others</STAGEDIR>
 <LINE>Taking the measure of an unmade grave.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Knocking within</STAGEDIR>
 
 <SPEECH>
@@ -4344,7 +4355,6 @@ Wives, and others</STAGEDIR>
 <LINE>Not I; unless the breath of heartsick groans,</LINE>
 <LINE>Mist-like, infold me from the search of eyes.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Knocking</STAGEDIR>
 
@@ -4370,7 +4380,6 @@ Wives, and others</STAGEDIR>
 <SPEAKER>FRIAR LAURENCE</SPEAKER>
 <LINE>Welcome, then.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter Nurse</STAGEDIR>
 
@@ -4434,7 +4443,6 @@ Wives, and others</STAGEDIR>
 <LINE>Doth my name lodge? tell me, that I may sack</LINE>
 <LINE>The hateful mansion.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Drawing his sword</STAGEDIR>
 
@@ -4511,7 +4519,6 @@ Wives, and others</STAGEDIR>
 <LINE>Hie you, make haste, for it grows very late.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -4536,11 +4543,14 @@ Wives, and others</STAGEDIR>
 <LINE>It were a grief, so brief to part with thee: Farewell.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  A room in Capulet's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  A room in Capulet's house.</TITLE>
+
 <STAGEDIR>Enter CAPULET, LADY CAPULET, and PARIS</STAGEDIR>
 
 <SPEECH>
@@ -4612,11 +4622,14 @@ Wives, and others</STAGEDIR>
 <LINE>Good night.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  Capulet's orchard.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  Capulet's orchard.</TITLE>
+
 <STAGEDIR>Enter ROMEO and JULIET above, at the window</STAGEDIR>
 
 <SPEECH>
@@ -4679,7 +4692,6 @@ Wives, and others</STAGEDIR>
 <LINE>More light and light; more dark and dark our woes!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter Nurse, to the chamber</STAGEDIR>
 
 <SPEECH>
@@ -4698,7 +4710,6 @@ Wives, and others</STAGEDIR>
 <LINE>The day is broke; be wary, look about.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -4710,7 +4721,6 @@ Wives, and others</STAGEDIR>
 <SPEAKER>ROMEO</SPEAKER>
 <LINE>Farewell, farewell! one kiss, and I'll descend.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>He goeth down</STAGEDIR>
 
@@ -4755,7 +4765,6 @@ Wives, and others</STAGEDIR>
 <LINE>Dry sorrow drinks our blood. Adieu, adieu!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -4778,7 +4787,6 @@ Wives, and others</STAGEDIR>
 <LINE>Is she not down so late, or up so early?</LINE>
 <LINE>What unaccustom'd cause procures her hither?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter LADY CAPULET</STAGEDIR>
 
@@ -4927,7 +4935,6 @@ Wives, and others</STAGEDIR>
 <LINE>And see how he will take it at your hands.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter CAPULET and Nurse</STAGEDIR>
 
 <SPEECH>
@@ -5071,7 +5078,6 @@ Wives, and others</STAGEDIR>
 <LINE>Trust to't, bethink you; I'll not be forsworn.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -5089,7 +5095,6 @@ Wives, and others</STAGEDIR>
 <LINE>Talk not to me, for I'll not speak a word:</LINE>
 <LINE>Do as thou wilt, for I have done with thee.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -5158,7 +5163,6 @@ Wives, and others</STAGEDIR>
 <LINE>Marry, I will; and this is wisely done.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -5173,15 +5177,20 @@ Wives, and others</STAGEDIR>
 <LINE>If all else fail, myself have power to die.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT IV</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Friar Laurence's cell.</TITLE>
+<TITLE>ACT IV</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Friar Laurence's cell.</TITLE>
+
 <STAGEDIR>Enter FRIAR LAURENCE and PARIS</STAGEDIR>
 
 <SPEECH>
@@ -5220,7 +5229,6 @@ Wives, and others</STAGEDIR>
 <LINE><STAGEDIR>Aside</STAGEDIR>  I would I knew not why it should be slow'd.</LINE>
 <LINE>Look, sir, here comes the lady towards my cell.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter JULIET</STAGEDIR>
 
@@ -5326,7 +5334,6 @@ Wives, and others</STAGEDIR>
 <LINE>Juliet, on Thursday early will I rouse ye:</LINE>
 <LINE>Till then, adieu; and keep this holy kiss.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -5449,11 +5456,14 @@ Wives, and others</STAGEDIR>
 <LINE>Farewell, dear father!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Hall in Capulet's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Hall in Capulet's house.</TITLE>
+
 <STAGEDIR>Enter CAPULET, LADY  CAPULET, Nurse, and two
 Servingmen</STAGEDIR>
 
@@ -5505,7 +5515,6 @@ Servingmen</STAGEDIR>
 <SPEAKER>Nurse</SPEAKER>
 <LINE>See where she comes from shrift with merry look.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter JULIET</STAGEDIR>
 
@@ -5563,7 +5572,6 @@ Servingmen</STAGEDIR>
 <LINE>Go, nurse, go with her: we'll to church to-morrow.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt JULIET and Nurse</STAGEDIR>
 
 <SPEECH>
@@ -5585,11 +5593,14 @@ Servingmen</STAGEDIR>
 <LINE>Since this same wayward girl is so reclaim'd.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Juliet's chamber.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Juliet's chamber.</TITLE>
+
 <STAGEDIR>Enter JULIET and Nurse</STAGEDIR>
 
 <SPEECH>
@@ -5600,7 +5611,6 @@ Servingmen</STAGEDIR>
 <LINE>To move the heavens to smile upon my state,</LINE>
 <LINE>Which, well thou know'st, is cross, and full of sin.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter LADY CAPULET</STAGEDIR>
 
@@ -5624,7 +5634,6 @@ Servingmen</STAGEDIR>
 <LINE>Good night:</LINE>
 <LINE>Get thee to bed, and rest; for thou hast need.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt LADY CAPULET and Nurse</STAGEDIR>
 
@@ -5678,11 +5687,14 @@ Servingmen</STAGEDIR>
 <LINE>Romeo, I come! this do I drink to thee.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>She falls upon her bed, within the curtains</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Hall in Capulet's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Hall in Capulet's house.</TITLE>
+
 <STAGEDIR>Enter LADY CAPULET and Nurse</STAGEDIR>
 
 <SPEECH>
@@ -5694,7 +5706,6 @@ Servingmen</STAGEDIR>
 <SPEAKER>Nurse</SPEAKER>
 <LINE>They call for dates and quinces in the pastry.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter CAPULET</STAGEDIR>
 
@@ -5724,7 +5735,6 @@ Servingmen</STAGEDIR>
 <LINE>Ay, you have been a mouse-hunt in your time;</LINE>
 <LINE>But I will watch you from such watching now.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt LADY CAPULET and Nurse</STAGEDIR>
 
@@ -5756,7 +5766,6 @@ and baskets</STAGEDIR>
 <LINE>And never trouble Peter for the matter.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -5774,11 +5783,14 @@ and baskets</STAGEDIR>
 <LINE>Make haste, I say.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  Juliet's chamber.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  Juliet's chamber.</TITLE>
+
 <STAGEDIR>Enter Nurse</STAGEDIR>
 
 <SPEECH>
@@ -5801,7 +5813,6 @@ and baskets</STAGEDIR>
 <LINE>O, well-a-day, that ever I was born!</LINE>
 <LINE>Some aqua vitae, ho! My lord! my lady!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter LADY CAPULET</STAGEDIR>
 
@@ -5831,7 +5842,6 @@ and baskets</STAGEDIR>
 <LINE>Revive, look up, or I will die with thee!</LINE>
 <LINE>Help, help! Call help.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter CAPULET</STAGEDIR>
 
@@ -5874,7 +5884,6 @@ and baskets</STAGEDIR>
 <LINE>Death, that hath ta'en her hence to make me wail,</LINE>
 <LINE>Ties up my tongue, and will not let me speak.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter FRIAR LAURENCE and PARIS, with Musicians</STAGEDIR>
 
@@ -5981,7 +5990,6 @@ and baskets</STAGEDIR>
 <LINE>Move them no more by crossing their high will.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt CAPULET, LADY CAPULET, PARIS, and FRIAR LAURENCE</STAGEDIR>
 
 <SPEECH>
@@ -5995,14 +6003,12 @@ and baskets</STAGEDIR>
 <LINE>For, well you know, this is a pitiful case.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>First Musician</SPEAKER>
 <LINE>Ay, by my troth, the case may be amended.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PETER</STAGEDIR>
 
@@ -6123,7 +6129,6 @@ and baskets</STAGEDIR>
 <LINE>With speedy help doth lend redress.'</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -6137,15 +6142,20 @@ and baskets</STAGEDIR>
 <LINE>mourners, and stay dinner.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT V</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Mantua. A street.</TITLE>
+<TITLE>ACT V</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Mantua. A street.</TITLE>
+
 <STAGEDIR>Enter ROMEO</STAGEDIR>
 
 <SPEECH>
@@ -6238,7 +6248,6 @@ and baskets</STAGEDIR>
 <LINE>What, ho! apothecary!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter Apothecary</STAGEDIR>
 
 <SPEECH>
@@ -6303,18 +6312,20 @@ and baskets</STAGEDIR>
 <LINE>To Juliet's grave; for there must I use thee.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Friar Laurence's cell.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Friar Laurence's cell.</TITLE>
+
 <STAGEDIR>Enter FRIAR JOHN</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>FRIAR JOHN</SPEAKER>
 <LINE>Holy Franciscan friar! brother, ho!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter FRIAR LAURENCE</STAGEDIR>
 
@@ -6364,7 +6375,6 @@ and baskets</STAGEDIR>
 <LINE>Brother, I'll go and bring it thee.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -6378,11 +6388,14 @@ and baskets</STAGEDIR>
 <LINE>Poor living corse, closed in a dead man's tomb!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  A churchyard; in it a tomb belonging to the Capulets.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  A churchyard; in it a tomb belonging to the Capulets.</TITLE>
+
 <STAGEDIR>Enter PARIS, and his Page bearing flowers and a torch</STAGEDIR>
 
 <SPEECH>
@@ -6403,7 +6416,6 @@ and baskets</STAGEDIR>
 <LINE><STAGEDIR>Aside</STAGEDIR>  I am almost afraid to stand alone</LINE>
 <LINE>Here in the churchyard; yet I will adventure.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Retires</STAGEDIR>
 
@@ -6465,7 +6477,6 @@ mattock, &amp;c</STAGEDIR>
 <LINE>His looks I fear, and his intents I doubt.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Retires</STAGEDIR>
 
 <SPEECH>
@@ -6475,7 +6486,6 @@ mattock, &amp;c</STAGEDIR>
 <LINE>Thus I enforce thy rotten jaws to open,</LINE>
 <LINE>And, in despite, I'll cram thee with more food!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Opens the tomb</STAGEDIR>
 
@@ -6518,14 +6528,12 @@ mattock, &amp;c</STAGEDIR>
 <LINE>Wilt thou provoke me? then have at thee, boy!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>They fight</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>PAGE</SPEAKER>
 <LINE>O Lord, they fight! I will go call the watch.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -6536,7 +6544,6 @@ mattock, &amp;c</STAGEDIR>
 <LINE>If thou be merciful,</LINE>
 <LINE>Open the tomb, lay me with Juliet.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Dies</STAGEDIR>
 
@@ -6684,7 +6691,6 @@ LAURENCE, with a lantern, crow, and spade</STAGEDIR>
 <LINE>The lady stirs.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>JULIET wakes</STAGEDIR>
 
 <SPEECH>
@@ -6693,7 +6699,6 @@ LAURENCE, with a lantern, crow, and spade</STAGEDIR>
 <LINE>I do remember well where I should be,</LINE>
 <LINE>And there I am. Where is my Romeo?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Noise within</STAGEDIR>
 
@@ -6762,7 +6767,6 @@ LAURENCE, with a lantern, crow, and spade</STAGEDIR>
 <LINE>We cannot without circumstance descry.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter some of the Watch, with BALTHASAR</STAGEDIR>
 
 <SPEECH>
@@ -6774,7 +6778,6 @@ LAURENCE, with a lantern, crow, and spade</STAGEDIR>
 <SPEAKER>First Watchman</SPEAKER>
 <LINE>Hold him in safety, till the prince come hither.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter others of the Watch, with FRIAR LAURENCE</STAGEDIR>
 
@@ -6790,7 +6793,6 @@ LAURENCE, with a lantern, crow, and spade</STAGEDIR>
 <LINE>A great suspicion: stay the friar too.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter the PRINCE and Attendants</STAGEDIR>
 
 <SPEECH>
@@ -6798,7 +6800,6 @@ LAURENCE, with a lantern, crow, and spade</STAGEDIR>
 <LINE>What misadventure is so early up,</LINE>
 <LINE>That calls our person from our morning's rest?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter CAPULET, LADY CAPULET, and others</STAGEDIR>
 
@@ -6851,7 +6852,6 @@ LAURENCE, with a lantern, crow, and spade</STAGEDIR>
 <LINE>O me! this sight of death is as a bell,</LINE>
 <LINE>That warns my old age to a sepulchre.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter MONTAGUE and others</STAGEDIR>
 
@@ -7028,8 +7028,8 @@ LAURENCE, with a lantern, crow, and spade</STAGEDIR>
 <LINE>Than this of Juliet and her Romeo.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 </ACT>
 </PLAY>

@@ -11,7 +11,6 @@
 <P>This work may be freely copied and distributed worldwide.</P>
 </FM>
 
-
 <PERSONAE>
 <TITLE>Dramatis Personae</TITLE>
 
@@ -36,9 +35,14 @@
 
 <PLAYSUBT>OTHELLO</PLAYSUBT>
 
-<ACT><TITLE>ACT I</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Venice. A street.</TITLE>
+<TITLE>ACT I</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Venice. A street.</TITLE>
+
 <STAGEDIR>Enter RODERIGO and IAGO</STAGEDIR>
 
 <SPEECH>
@@ -179,7 +183,6 @@
 <LINE>Look to your house, your daughter and your bags!</LINE>
 <LINE>Thieves! thieves!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>BRABANTIO appears above, at a window</STAGEDIR>
 
@@ -346,7 +349,6 @@
 <LINE>Light, I say! light!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit above</STAGEDIR>
 
 <SPEECH>
@@ -425,11 +427,14 @@
 <LINE>On, good Roderigo: I'll deserve your pains.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Another street.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Another street.</TITLE>
+
 <STAGEDIR>Enter OTHELLO, IAGO, and Attendants with torches</STAGEDIR>
 
 <SPEECH>
@@ -496,7 +501,6 @@
 <LINE>By Janus, I think no.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter CASSIO, and certain Officers with torches</STAGEDIR>
 
 <SPEECH>
@@ -539,7 +543,6 @@
 <LINE>And go with you.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -568,7 +571,6 @@
 <LINE>To who?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter OTHELLO</STAGEDIR>
 
 <SPEECH>
@@ -592,7 +594,6 @@
 <LINE>He comes to bad intent.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter BRABANTIO, RODERIGO, and Officers with
 torches and weapons</STAGEDIR>
 
@@ -610,7 +611,6 @@ torches and weapons</STAGEDIR>
 <SPEAKER>BRABANTIO</SPEAKER>
 <LINE>Down with him, thief!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>They draw on both sides</STAGEDIR>
 
@@ -693,11 +693,14 @@ torches and weapons</STAGEDIR>
 <LINE>Bond-slaves and pagans shall our statesmen be.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  A council-chamber.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  A council-chamber.</TITLE>
+
 <STAGEDIR>The DUKE and Senators sitting at a table; Officers
 attending</STAGEDIR>
 
@@ -744,7 +747,6 @@ attending</STAGEDIR>
 <SPEAKER>First Officer</SPEAKER>
 <LINE>A messenger from the galleys.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter a Sailor</STAGEDIR>
 
@@ -793,7 +795,6 @@ attending</STAGEDIR>
 <LINE>Here is more news.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Messenger</STAGEDIR>
 
 <SPEECH>
@@ -838,7 +839,6 @@ attending</STAGEDIR>
 <SPEAKER>First Senator</SPEAKER>
 <LINE>Here comes Brabantio and the valiant Moor.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter BRABANTIO, OTHELLO, IAGO, RODERIGO, and Officers</STAGEDIR>
 
@@ -1057,7 +1057,6 @@ attending</STAGEDIR>
 <LINE>This only is the witchcraft I have used:</LINE>
 <LINE>Here comes the lady; let her witness it.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter DESDEMONA, IAGO, and Attendants</STAGEDIR>
 
@@ -1287,7 +1286,6 @@ attending</STAGEDIR>
 <LINE>She has deceived her father, and may thee.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt DUKE OF VENICE, Senators, Officers, &amp;c</STAGEDIR>
 
 <SPEECH>
@@ -1300,7 +1298,6 @@ attending</STAGEDIR>
 <LINE>Of love, of worldly matters and direction,</LINE>
 <LINE>To spend with thee: we must obey the time.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt OTHELLO and DESDEMONA</STAGEDIR>
 
@@ -1467,7 +1464,6 @@ attending</STAGEDIR>
 <LINE>I am changed: I'll go sell all my land.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -1496,15 +1492,20 @@ attending</STAGEDIR>
 <LINE>Must bring this monstrous birth to the world's light.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT II</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  A Sea-port in Cyprus. An open place near the quay.</TITLE>
+<TITLE>ACT II</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  A Sea-port in Cyprus. An open place near the quay.</TITLE>
+
 <STAGEDIR>Enter MONTANO and two Gentlemen</STAGEDIR>
 
 <SPEECH>
@@ -1546,7 +1547,6 @@ attending</STAGEDIR>
 <LINE>Be not enshelter'd and embay'd, they are drown'd:</LINE>
 <LINE>It is impossible they bear it out.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter a third Gentleman</STAGEDIR>
 
@@ -1604,7 +1604,6 @@ attending</STAGEDIR>
 <LINE>Of more arrivance.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter CASSIO</STAGEDIR>
 
 <SPEECH>
@@ -1647,7 +1646,6 @@ attending</STAGEDIR>
 <LINE>My hopes do shape him for the governor.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Guns heard</STAGEDIR>
 
 <SPEECH>
@@ -1666,7 +1664,6 @@ attending</STAGEDIR>
 <SPEAKER>Second Gentleman</SPEAKER>
 <LINE>I shall.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -1751,7 +1748,6 @@ Attendants</STAGEDIR>
 <LINE>Parted our fellowship--But, hark! a sail.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Within 'A sail, a sail!' Guns heard</STAGEDIR>
 
 <SPEECH>
@@ -1771,7 +1767,6 @@ Attendants</STAGEDIR>
 <LINE>That I extend my manners; 'tis my breeding</LINE>
 <LINE>That gives me this bold show of courtesy.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Kissing her</STAGEDIR>
 
@@ -1988,7 +1983,6 @@ Attendants</STAGEDIR>
 <LINE>Lo, where he comes!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter OTHELLO and Attendants</STAGEDIR>
 
 <SPEECH>
@@ -2056,7 +2050,6 @@ Attendants</STAGEDIR>
 <LINE>Does challenge much respect. Come, Desdemona,</LINE>
 <LINE>Once more, well met at Cyprus.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt OTHELLO, DESDEMONA, and Attendants</STAGEDIR>
 
@@ -2183,7 +2176,6 @@ Attendants</STAGEDIR>
 <LINE>Adieu.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -2217,11 +2209,14 @@ Attendants</STAGEDIR>
 <LINE>Knavery's plain face is never seen tin used.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  A street.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  A street.</TITLE>
+
 <STAGEDIR>Enter a Herald with a proclamation; People
 following</STAGEDIR>
 
@@ -2241,11 +2236,14 @@ following</STAGEDIR>
 <LINE>isle of Cyprus and our noble general Othello!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  A hall in the castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  A hall in the castle.</TITLE>
+
 <STAGEDIR>Enter OTHELLO, DESDEMONA, CASSIO, and Attendants</STAGEDIR>
 
 <SPEECH>
@@ -2378,7 +2376,6 @@ following</STAGEDIR>
 <LINE>I'll do't; but it dislikes me.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -2400,7 +2397,6 @@ following</STAGEDIR>
 <LINE>If consequence do but approve my dream,</LINE>
 <LINE>My boat sails freely, both with wind and stream.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter CASSIO; with him MONTANO and Gentlemen;
 servants following with wine</STAGEDIR>
@@ -2533,7 +2529,6 @@ servants following with wine</STAGEDIR>
 <LINE>Why, very well then; you must not think then that I am drunk.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -2574,7 +2569,6 @@ servants following with wine</STAGEDIR>
 <LINE>And looks not on his evils: is not this true?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter RODERIGO</STAGEDIR>
 
 <SPEECH>
@@ -2582,7 +2576,6 @@ servants following with wine</STAGEDIR>
 <LINE><STAGEDIR>Aside to him</STAGEDIR>  How now, Roderigo!</LINE>
 <LINE>I pray you, after the lieutenant; go.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit RODERIGO</STAGEDIR>
 
@@ -2631,7 +2624,6 @@ servants following with wine</STAGEDIR>
 <LINE>Dost thou prate, rogue?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Striking RODERIGO</STAGEDIR>
 
 <SPEECH>
@@ -2658,7 +2650,6 @@ servants following with wine</STAGEDIR>
 <LINE>Drunk!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>They fight</STAGEDIR>
 
 <SPEECH>
@@ -2674,7 +2665,6 @@ servants following with wine</STAGEDIR>
 <LINE>You will be shamed for ever.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter OTHELLO and Attendants</STAGEDIR>
 
 <SPEECH>
@@ -2686,7 +2676,6 @@ servants following with wine</STAGEDIR>
 <SPEAKER>MONTANO</SPEAKER>
 <LINE>'Zounds, I bleed still; I am hurt to the death.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Faints</STAGEDIR>
 
@@ -2846,7 +2835,6 @@ servants following with wine</STAGEDIR>
 <LINE>Come, Desdemona: 'tis the soldiers' life</LINE>
 <LINE>To have their balmy slumbers waked with strife.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt all but IAGO and CASSIO</STAGEDIR>
 
@@ -3012,7 +3000,6 @@ servants following with wine</STAGEDIR>
 <LINE>Good night, honest Iago.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -3083,15 +3070,20 @@ servants following with wine</STAGEDIR>
 <LINE>Dull not device by coldness and delay.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT III</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Before the castle.</TITLE>
+<TITLE>ACT III</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Before the castle.</TITLE>
+
 <STAGEDIR>Enter CASSIO and some Musicians</STAGEDIR>
 
 <SPEECH>
@@ -3165,7 +3157,6 @@ servants following with wine</STAGEDIR>
 <LINE>go; vanish into air; away!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt Musicians</STAGEDIR>
 
 <SPEECH>
@@ -3231,7 +3222,6 @@ servants following with wine</STAGEDIR>
 <LINE>A Florentine more kind and honest.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter EMILIA</STAGEDIR>
 
 <SPEECH>
@@ -3268,11 +3258,14 @@ servants following with wine</STAGEDIR>
 <LINE>I am much bound to you.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  A room in the castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  A room in the castle.</TITLE>
+
 <STAGEDIR>Enter OTHELLO, IAGO, and Gentlemen</STAGEDIR>
 
 <SPEECH>
@@ -3298,11 +3291,14 @@ servants following with wine</STAGEDIR>
 <LINE>We'll wait upon your lordship.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The garden of the castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The garden of the castle.</TITLE>
+
 <STAGEDIR>Enter DESDEMONA, CASSIO, and EMILIA</STAGEDIR>
 
 <SPEECH>
@@ -3554,7 +3550,6 @@ servants following with wine</STAGEDIR>
 <LINE>Emilia, come. Be as your fancies teach you;</LINE>
 <LINE>Whate'er you be, I am obedient.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt DESDEMONA and EMILIA</STAGEDIR>
 
@@ -3980,7 +3975,6 @@ servants following with wine</STAGEDIR>
 <LINE>I once more take my leave.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -4052,7 +4046,6 @@ servants following with wine</STAGEDIR>
 <LINE>I am very sorry that you are not well.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt OTHELLO and DESDEMONA</STAGEDIR>
 
 <SPEECH>
@@ -4068,7 +4061,6 @@ servants following with wine</STAGEDIR>
 <LINE>Heaven knows, not I;</LINE>
 <LINE>I nothing but to please his fantasy.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter Iago</STAGEDIR>
 
@@ -4483,7 +4475,6 @@ servants following with wine</STAGEDIR>
 <LINE>What bloody business ever.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>They rise</STAGEDIR>
 
 <SPEECH>
@@ -4514,11 +4505,14 @@ servants following with wine</STAGEDIR>
 <LINE>I am your own for ever.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Before the castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Before the castle.</TITLE>
+
 <STAGEDIR>Enter DESDEMONA, EMILIA, and Clown</STAGEDIR>
 
 <SPEECH>
@@ -4586,7 +4580,6 @@ servants following with wine</STAGEDIR>
 <LINE>To do this is within the compass of man's wit: and</LINE>
 <LINE>therefore I will attempt the doing it.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -4877,7 +4870,6 @@ servants following with wine</STAGEDIR>
 <LINE>Away!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -4899,7 +4891,6 @@ servants following with wine</STAGEDIR>
 <LINE>To eat us hungerly, and when they are full,</LINE>
 <LINE>They belch us. Look you, Cassio and my husband!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter CASSIO and IAGO</STAGEDIR>
 
@@ -5133,15 +5124,20 @@ servants following with wine</STAGEDIR>
 <LINE>'Tis very good; I must be circumstanced.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT IV</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Cyprus. Before the castle.</TITLE>
+<TITLE>ACT IV</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Cyprus. Before the castle.</TITLE>
+
 <STAGEDIR>Enter OTHELLO and IAGO</STAGEDIR>
 
 <SPEECH>
@@ -5291,7 +5287,6 @@ servants following with wine</STAGEDIR>
 <LINE>that shake me thus. Pish! Noses, ears, and lips.</LINE>
 <LINE>--Is't possible?--Confess--handkerchief!--O devil!--</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Falls in a trance</STAGEDIR>
 
@@ -5608,7 +5603,6 @@ servants following with wine</STAGEDIR>
 <LINE>will not, come when you are next prepared for.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -5646,7 +5640,6 @@ servants following with wine</STAGEDIR>
 <SPEAKER>IAGO</SPEAKER>
 <LINE>Go to; say no more.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit CASSIO</STAGEDIR>
 
@@ -5801,7 +5794,6 @@ servants following with wine</STAGEDIR>
 <LINE>Come from the duke: and, see, your wife is with him.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter LODOVICO, DESDEMONA, and Attendants</STAGEDIR>
 
 <SPEECH>
@@ -5819,14 +5811,12 @@ servants following with wine</STAGEDIR>
 <LINE>The duke and senators of Venice greet you.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Gives him a letter</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>OTHELLO</SPEAKER>
 <LINE>I kiss the instrument of their pleasures.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Opens the letter, and reads</STAGEDIR>
 
@@ -5966,7 +5956,6 @@ servants following with wine</STAGEDIR>
 <LINE>I will not stay to offend you.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Going</STAGEDIR>
 
 <SPEECH>
@@ -6011,7 +6000,6 @@ servants following with wine</STAGEDIR>
 <LINE>I do entreat that we may sup together:</LINE>
 <LINE>You are welcome, sir, to Cyprus.--Goats and monkeys!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -6074,11 +6062,14 @@ servants following with wine</STAGEDIR>
 <LINE>I am sorry that I am deceived in him.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  A room in the castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  A room in the castle.</TITLE>
+
 <STAGEDIR>Enter OTHELLO and EMILIA</STAGEDIR>
 
 <SPEECH>
@@ -6159,7 +6150,6 @@ servants following with wine</STAGEDIR>
 <LINE>And yet she'll kneel and pray; I have seen her do't.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter DESDEMONA with EMILIA</STAGEDIR>
 
 <SPEECH>
@@ -6195,7 +6185,6 @@ servants following with wine</STAGEDIR>
 <LINE>Cough, or cry 'hem,' if any body come:</LINE>
 <LINE>Your mystery, your mystery: nay, dispatch.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit EMILIA</STAGEDIR>
 
@@ -6364,7 +6353,6 @@ servants following with wine</STAGEDIR>
 <LINE>I pray you, turn the key and keep our counsel.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -6417,7 +6405,6 @@ servants following with wine</STAGEDIR>
 <LINE>Here's a change indeed!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -6426,7 +6413,6 @@ servants following with wine</STAGEDIR>
 <LINE>How have I been behaved, that he might stick</LINE>
 <LINE>The small'st opinion on my least misuse?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter EMILIA with IAGO</STAGEDIR>
 
@@ -6783,11 +6769,14 @@ servants following with wine</STAGEDIR>
 <LINE>And you shall be satisfied.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Another room In the castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Another room In the castle.</TITLE>
+
 <STAGEDIR>Enter OTHELLO, LODOVICO, DESDEMONA, EMILIA and
 Attendants</STAGEDIR>
 
@@ -6832,7 +6821,6 @@ Attendants</STAGEDIR>
 <SPEAKER>DESDEMONA</SPEAKER>
 <LINE>I will, my lord.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt OTHELLO, LODOVICO, and Attendants</STAGEDIR>
 
@@ -7076,15 +7064,20 @@ Attendants</STAGEDIR>
 <LINE>Not to pick bad from bad, but by bad mend!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT V</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Cyprus. A street.</TITLE>
+<TITLE>ACT V</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Cyprus. A street.</TITLE>
+
 <STAGEDIR>Enter IAGO and RODERIGO</STAGEDIR>
 
 <SPEECH>
@@ -7105,7 +7098,6 @@ Attendants</STAGEDIR>
 <SPEAKER>IAGO</SPEAKER>
 <LINE>Here, at thy hand: be bold, and take thy stand.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Retires</STAGEDIR>
 
@@ -7132,14 +7124,12 @@ Attendants</STAGEDIR>
 <LINE>No, he must die. But so: I hear him coming.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter CASSIO</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>RODERIGO</SPEAKER>
 <LINE>I know his gait, 'tis he.--Villain, thou diest!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Makes a pass at CASSIO</STAGEDIR>
 
@@ -7150,14 +7140,12 @@ Attendants</STAGEDIR>
 <LINE>I will make proof of thine.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Draws, and wounds RODERIGO</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>RODERIGO</SPEAKER>
 <LINE>O, I am slain!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>IAGO from behind wounds CASSIO in the leg, and exit</STAGEDIR>
 
@@ -7244,7 +7232,6 @@ Attendants</STAGEDIR>
 <LINE>Hark!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter IAGO, with a light</STAGEDIR>
 
 <SPEECH>
@@ -7315,7 +7302,6 @@ Attendants</STAGEDIR>
 <LINE>What are you there? come in, and give some help.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>To LODOVICO and GRATIANO</STAGEDIR>
 
 <SPEECH>
@@ -7332,7 +7318,6 @@ Attendants</STAGEDIR>
 <SPEAKER>IAGO</SPEAKER>
 <LINE>O murderous slave! O villain!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Stabs RODERIGO</STAGEDIR>
 
@@ -7388,7 +7373,6 @@ Attendants</STAGEDIR>
 <LINE>Marry, heaven forbid!</LINE>
 <LINE>Light, gentlemen; I'll bind it with my shirt.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter BIANCA</STAGEDIR>
 
@@ -7518,7 +7502,6 @@ Attendants</STAGEDIR>
 <LINE>Though tongues were out of use.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter EMILIA</STAGEDIR>
 
 <SPEECH>
@@ -7584,11 +7567,13 @@ Attendants</STAGEDIR>
 <LINE>That either makes me or fordoes me quite.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  A bedchamber in the castle: DESDEMONA in bed asleep; a light burning.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  A bedchamber in the castle: DESDEMONA in bed asleep; a light burning.</TITLE>
 
 <STAGEDIR>Enter OTHELLO</STAGEDIR>
 
@@ -7898,7 +7883,6 @@ Attendants</STAGEDIR>
 <LINE>It is too late.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>He stifles her</STAGEDIR>
 
 <SPEECH>
@@ -8041,7 +8025,6 @@ Attendants</STAGEDIR>
 <LINE>Nobody; I myself. Farewell</LINE>
 <LINE>Commend me to my kind lord: O, farewell!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Dies</STAGEDIR>
 
@@ -8198,7 +8181,6 @@ Attendants</STAGEDIR>
 <LINE>The Moor hath kill'd my mistress! Murder! murder!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter MONTANO, GRATIANO, IAGO, and others</STAGEDIR>
 
 <SPEECH>
@@ -8309,7 +8291,6 @@ Attendants</STAGEDIR>
 <LINE>O! O! O!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>He falls on the bed</STAGEDIR>
 
 <SPEECH>
@@ -8377,7 +8358,6 @@ Attendants</STAGEDIR>
 <LINE>I will not.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>IAGO offers to stab EMILIA</STAGEDIR>
 
 <SPEECH>
@@ -8424,7 +8404,6 @@ Attendants</STAGEDIR>
 <LINE>But what serve for the thunder?--Precious villain!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>He runs at IAGO  IAGO, from behind, stabs EMILIA, and exit</STAGEDIR>
 
 <SPEECH>
@@ -8451,7 +8430,6 @@ Attendants</STAGEDIR>
 <LINE>For 'tis a damned slave.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt MONTANO and GRATIANO</STAGEDIR>
 
 <SPEECH>
@@ -8474,7 +8452,6 @@ Attendants</STAGEDIR>
 <LINE>So speaking as I think, I die, I die.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Dies</STAGEDIR>
 
 <SPEECH>
@@ -8495,7 +8472,6 @@ Attendants</STAGEDIR>
 <LINE>Look in upon me then and speak with me,</LINE>
 <LINE>Or, naked as I am, I will assault thee.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter GRATIANO</STAGEDIR>
 
@@ -8532,7 +8508,6 @@ Attendants</STAGEDIR>
 <LINE>Oh! Oh! Oh!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter LODOVICO. MONTANO, CASSIO carried in a chair,
 and Officers with IAGO, prisoner</STAGEDIR>
 
@@ -8556,7 +8531,6 @@ and Officers with IAGO, prisoner</STAGEDIR>
 <LINE>I look down towards his feet; but that's a fable.</LINE>
 <LINE>If that thou best a devil, I cannot kill thee.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Wounds IAGO</STAGEDIR>
 
@@ -8728,7 +8702,6 @@ and Officers with IAGO, prisoner</STAGEDIR>
 <LINE>And smote him, thus.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Stabs himself</STAGEDIR>
 
 <SPEECH>
@@ -8746,7 +8719,6 @@ and Officers with IAGO, prisoner</STAGEDIR>
 <LINE>I kiss'd thee ere I kill'd thee: no way but this;</LINE>
 <LINE>Killing myself, to die upon a kiss.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Falls on the bed, and dies</STAGEDIR>
 
@@ -8771,8 +8743,8 @@ and Officers with IAGO, prisoner</STAGEDIR>
 <LINE>This heavy act with heavy heart relate.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 </ACT>
 </PLAY>

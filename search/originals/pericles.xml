@@ -11,7 +11,6 @@
 <P>This work may be freely copied and distributed worldwide.</P>
 </FM>
 
-
 <PERSONAE>
 <TITLE>Dramatis Personae</TITLE>
 
@@ -49,9 +48,12 @@
 
 <PLAYSUBT>PERICLES, PRINCE OF TYRE</PLAYSUBT>
 
-<ACT><TITLE>ACT I</TITLE>
+<ACT>
+
+<TITLE>ACT I</TITLE>
 
 <PROLOGUE><TITLE>[Prologue]</TITLE>
+
 <STAGEDIR>Enter GOWER</STAGEDIR>
 <STAGEDIR>Before the palace of Antioch</STAGEDIR>
 <SPEECH><SPEAKER>[GOWER]</SPEAKER>
@@ -101,7 +103,10 @@
 <STAGEDIR>Exit</STAGEDIR>
 </PROLOGUE>
 
-<SCENE><TITLE>SCENE I.  Antioch. A room in the palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE I.  Antioch. A room in the palace.</TITLE>
+
 <STAGEDIR>Enter ANTIOCHUS, Prince PERICLES, and followers</STAGEDIR>
 
 <SPEECH>
@@ -126,7 +131,6 @@
 <LINE>The senate-house of planets all did sit,</LINE>
 <LINE>To knit in her their best perfections.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Music. Enter the Daughter of ANTIOCHUS</STAGEDIR>
 
@@ -288,7 +292,6 @@
 <LINE>As doth befit our honour and your worth.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt all but PERICLES</STAGEDIR>
 
 <SPEECH>
@@ -332,7 +335,6 @@
 <LINE>Who attends us there?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter THALIARD</STAGEDIR>
 
 <SPEECH>
@@ -370,7 +372,6 @@
 <LINE>My lord, prince Pericles is fled.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -397,11 +398,14 @@
 <LINE>My heart can lend no succor to my head.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Tyre. A room in the palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Tyre. A room in the palace.</TITLE>
+
 <STAGEDIR>Enter PERICLES</STAGEDIR>
 
 <SPEECH>
@@ -441,7 +445,6 @@
 <LINE>Makes both my body pine and soul to languish,</LINE>
 <LINE>And punish that before that he would punish.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter HELICANUS, with other Lords</STAGEDIR>
 
@@ -617,11 +620,14 @@
 <LINE>Thou show'dst a subject's shine, I a true prince.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Tyre. An ante-chamber in the palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Tyre. An ante-chamber in the palace.</TITLE>
+
 <STAGEDIR>Enter THALIARD</STAGEDIR>
 
 <SPEECH>
@@ -636,7 +642,6 @@
 <LINE>villain, he's bound by the indenture of his oath to</LINE>
 <LINE>be one! Hush! here come the lords of Tyre.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter HELICANUS and ESCANES, with other Lords of Tyre</STAGEDIR>
 
@@ -707,11 +712,14 @@
 <LINE>As friends to Antioch, we may feast in Tyre.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Tarsus. A room in the Governor's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Tarsus. A room in the Governor's house.</TITLE>
+
 <STAGEDIR>Enter CLEON, the governor of Tarsus, with DIONYZA,
 and others</STAGEDIR>
 
@@ -806,7 +814,6 @@ and others</STAGEDIR>
 <LINE>The misery of Tarsus may be theirs.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Lord</STAGEDIR>
 
 <SPEECH>
@@ -864,7 +871,6 @@ and others</STAGEDIR>
 <LINE>I go, my lord.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -872,7 +878,6 @@ and others</STAGEDIR>
 <LINE>Welcome is peace, if he on peace consist;</LINE>
 <LINE>If wars, we are unable to resist.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PERICLES with Attendants</STAGEDIR>
 
@@ -921,12 +926,16 @@ and others</STAGEDIR>
 <LINE>Until our stars that frown lend us a smile.</LINE>
 </SPEECH>
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 </ACT>
 
-<ACT><TITLE>ACT II</TITLE>
+<ACT>
+
+<TITLE>ACT II</TITLE>
 
 <PROLOGUE><TITLE>[Prologue]</TITLE>
+
 <STAGEDIR>Enter GOWER</STAGEDIR>
 
 <SPEECH>
@@ -980,11 +989,13 @@ door, and CLEON at another</STAGEDIR>
 <LINE>Pardon old Gower,--this longs the text.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 </PROLOGUE>
 
-<SCENE><TITLE>SCENE I.  Pentapolis. An open place by the sea-side.</TITLE>
+<SCENE>
+
+<TITLE>SCENE I.  Pentapolis. An open place by the sea-side.</TITLE>
+
 <STAGEDIR>Enter PERICLES, wet</STAGEDIR>
 
 <SPEECH>
@@ -1001,7 +1012,6 @@ door, and CLEON at another</STAGEDIR>
 <LINE>And having thrown him from your watery grave,</LINE>
 <LINE>Here to have death in peace is all he'll crave.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter three FISHERMEN</STAGEDIR>
 
@@ -1215,7 +1225,6 @@ door, and CLEON at another</STAGEDIR>
 <LINE>net.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit with Third Fisherman</STAGEDIR>
 
 <SPEECH>
@@ -1276,7 +1285,6 @@ door, and CLEON at another</STAGEDIR>
 <LINE>O, sir, things must be as they may; and what a man</LINE>
 <LINE>cannot get, he may lawfully deal for--his wife's soul.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter Second and Third Fishermen, drawing up a net</STAGEDIR>
 
@@ -1374,11 +1382,13 @@ door, and CLEON at another</STAGEDIR>
 <LINE>This day I'll rise, or else add ill to ill.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The same. A public way or platform leading to the lists. A pavilion by the side of it for the reception of King, Princess, Lords, &amp;c.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The same. A public way or platform leading to the lists. A pavilion by the side of it for the reception of King, Princess, Lords, &amp;c.</TITLE>
 
 <STAGEDIR>Enter SIMONIDES, THAISA, Lords, and Attendants</STAGEDIR>
 
@@ -1400,7 +1410,6 @@ door, and CLEON at another</STAGEDIR>
 <LINE>Sits here, like beauty's child, whom nature gat</LINE>
 <LINE>For men to see, and seeing wonder at.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit a Lord</STAGEDIR>
 
@@ -1424,7 +1433,6 @@ door, and CLEON at another</STAGEDIR>
 <SPEAKER>THAISA</SPEAKER>
 <LINE>Which, to preserve mine honour, I'll perform.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter a Knight; he passes over, and his Squire
 presents his shield to the Princess</STAGEDIR>
@@ -1457,7 +1465,6 @@ presents his shield to the Princess</STAGEDIR>
 <LINE>The motto thus, in Spanish, 'Piu por dulzura que por fuerza.'</LINE>
 </SPEECH>
 
-
 <STAGEDIR>The Third Knight passes over</STAGEDIR>
 
 <SPEECH>
@@ -1471,7 +1478,6 @@ presents his shield to the Princess</STAGEDIR>
 <LINE>And his device, a wreath of chivalry;</LINE>
 <LINE>The word, 'Me pompae provexit apex.'</LINE>
 </SPEECH>
-
 
 <STAGEDIR>The Fourth Knight passes over</STAGEDIR>
 
@@ -1492,7 +1498,6 @@ presents his shield to the Princess</STAGEDIR>
 <LINE>Which can as well inflame as it can kill.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>The Fifth Knight passes over</STAGEDIR>
 
 <SPEECH>
@@ -1501,7 +1506,6 @@ presents his shield to the Princess</STAGEDIR>
 <LINE>Holding out gold that's by the touchstone tried;</LINE>
 <LINE>The motto thus, 'Sic spectanda fides.'</LINE>
 </SPEECH>
-
 
 <STAGEDIR>The Sixth Knight, PERICLES, passes over</STAGEDIR>
 
@@ -1556,9 +1560,13 @@ presents his shield to the Princess</STAGEDIR>
 
 <STAGEDIR>Exeunt</STAGEDIR>
 <STAGEDIR>Great shouts within and all cry 'The mean knight!'</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The same. A hall of state: a banquet prepared.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The same. A hall of state: a banquet prepared.</TITLE>
+
 <STAGEDIR>Enter SIMONIDES, THAISA, Lords, Attendants, and
 Knights, from tilting</STAGEDIR>
 
@@ -1846,11 +1854,14 @@ Knights, from tilting</STAGEDIR>
 <LINE>To-morrow all for speeding do their best.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Tyre. A room in the Governor's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Tyre. A room in the Governor's house.</TITLE>
+
 <STAGEDIR>Enter HELICANUS and ESCANES</STAGEDIR>
 
 <SPEECH>
@@ -1885,7 +1896,6 @@ Knights, from tilting</STAGEDIR>
 <SPEAKER>ESCANES</SPEAKER>
 <LINE>'Tis very true.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter two or three Lords</STAGEDIR>
 
@@ -1983,11 +1993,14 @@ Knights, from tilting</STAGEDIR>
 <LINE>When peers thus knit, a kingdom ever stands.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  Pentapolis. A room in the palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  Pentapolis. A room in the palace.</TITLE>
+
 <STAGEDIR>Enter SIMONIDES, reading a letter, at one door:
 the Knights meet him</STAGEDIR>
 
@@ -2024,7 +2037,6 @@ the Knights meet him</STAGEDIR>
 <LINE>Loath to bid farewell, we take our leaves.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt Knights</STAGEDIR>
 
 <SPEECH>
@@ -2040,7 +2052,6 @@ the Knights meet him</STAGEDIR>
 <LINE>And will no longer have it be delay'd.</LINE>
 <LINE>Soft! here he comes: I must dissemble it.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PERICLES</STAGEDIR>
 
@@ -2178,7 +2189,6 @@ the Knights meet him</STAGEDIR>
 <LINE>Here comes my daughter, she can witness it.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter THAISA</STAGEDIR>
 
 <SPEECH>
@@ -2244,12 +2254,16 @@ the Knights meet him</STAGEDIR>
 <LINE>And then with what haste you can get you to bed.</LINE>
 </SPEECH>
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 </ACT>
 
-<ACT><TITLE>ACT III</TITLE>
+<ACT>
+
+<TITLE>ACT III</TITLE>
 
 <PROLOGUE><TITLE>[Prologue]</TITLE>
+
 <STAGEDIR>Enter GOWER</STAGEDIR>
 
 <SPEECH>
@@ -2329,7 +2343,10 @@ SIMONIDES and the rest</STAGEDIR>
 <STAGEDIR>Exit</STAGEDIR>
 </PROLOGUE>
 
-<SCENE><TITLE>SCENE I</TITLE>
+<SCENE>
+
+<TITLE>SCENE I</TITLE>
+
 <STAGEDIR>Enter PERICLES, on shipboard</STAGEDIR>
 
 <SPEECH>
@@ -2402,7 +2419,6 @@ SIMONIDES and the rest</STAGEDIR>
 <LINE>With all thou canst find here. Now, the good gods</LINE>
 <LINE>Throw their best eyes upon't!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter two Sailors</STAGEDIR>
 
@@ -2478,7 +2494,6 @@ SIMONIDES and the rest</STAGEDIR>
 <LINE>A priestly farewell to her: suddenly, woman.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit LYCHORIDA</STAGEDIR>
 
 <SPEECH>
@@ -2517,11 +2532,14 @@ SIMONIDES and the rest</STAGEDIR>
 <LINE>I'll bring the body presently.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Ephesus. A room in CERIMON's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Ephesus. A room in CERIMON's house.</TITLE>
+
 <STAGEDIR>Enter CERIMON, with a Servant, and some Persons who
 have been shipwrecked</STAGEDIR>
 
@@ -2529,7 +2547,6 @@ have been shipwrecked</STAGEDIR>
 <SPEAKER>CERIMON</SPEAKER>
 <LINE>Philemon, ho!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PHILEMON</STAGEDIR>
 
@@ -2640,7 +2657,6 @@ have been shipwrecked</STAGEDIR>
 <LINE>Your purse, still open, hath built Lord Cerimon</LINE>
 <LINE>Such strong renown as time shall ne'er decay.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter two or three Servants with a chest</STAGEDIR>
 
@@ -2785,7 +2801,6 @@ have been shipwrecked</STAGEDIR>
 <LINE>Rare as you seem to be.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>She moves</STAGEDIR>
 
 <SPEECH>
@@ -2813,11 +2828,14 @@ have been shipwrecked</STAGEDIR>
 <LINE>And AEsculapius guide us!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt, carrying her away</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Tarsus. A room in CLEON's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Tarsus. A room in CLEON's house.</TITLE>
+
 <STAGEDIR>Enter PERICLES, CLEON, DIONYZA, and LYCHORIDA with
 MARINA in her arms</STAGEDIR>
 
@@ -2909,11 +2927,14 @@ MARINA in her arms</STAGEDIR>
 <LINE>You may depend hereafter. Come, my lord.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Ephesus. A room in CERIMON's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Ephesus. A room in CERIMON's house.</TITLE>
+
 <STAGEDIR>Enter CERIMON and THAISA</STAGEDIR>
 
 <SPEECH>
@@ -2950,12 +2971,16 @@ MARINA in her arms</STAGEDIR>
 <LINE>Yet my good will is great, though the gift small.</LINE>
 </SPEECH>
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 </ACT>
 
-<ACT><TITLE>ACT IV</TITLE>
+<ACT>
+
+<TITLE>ACT IV</TITLE>
 
 <PROLOGUE><TITLE>[Prologue]</TITLE>
+
 <STAGEDIR>Enter GOWER</STAGEDIR>
 
 <SPEECH>
@@ -3017,7 +3042,10 @@ MARINA in her arms</STAGEDIR>
 <STAGEDIR>Exit</STAGEDIR>
 </PROLOGUE>
 
-<SCENE><TITLE>SCENE I.  Tarsus. An open place near the sea-shore.</TITLE>
+<SCENE>
+
+<TITLE>SCENE I.  Tarsus. An open place near the sea-shore.</TITLE>
+
 <STAGEDIR>Enter DIONYZA and LEONINE</STAGEDIR>
 
 <SPEECH>
@@ -3048,7 +3076,6 @@ MARINA in her arms</STAGEDIR>
 <SPEAKER>LEONINE</SPEAKER>
 <LINE>I am resolved.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter MARINA, with a basket of flowers</STAGEDIR>
 
@@ -3244,7 +3271,6 @@ MARINA in her arms</STAGEDIR>
 <LINE>Hold, villain!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>LEONINE runs away</STAGEDIR>
 
 <SPEECH>
@@ -3273,11 +3299,14 @@ MARINA in her arms</STAGEDIR>
 <LINE>Whom they have ravish'd must by me be slain.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Mytilene. A room in a brothel.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Mytilene. A room in a brothel.</TITLE>
+
 <STAGEDIR>Enter Pandar, Bawd, and BOULT</STAGEDIR>
 
 <SPEECH>
@@ -3342,7 +3371,6 @@ MARINA in her arms</STAGEDIR>
 <LINE>for worms. But I'll go search the market.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -3378,7 +3406,6 @@ MARINA in her arms</STAGEDIR>
 <LINE>Neither is our profession any trade; it's no</LINE>
 <LINE>calling. But here comes Boult.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter BOULT, with the Pirates and MARINA</STAGEDIR>
 
@@ -3429,7 +3456,6 @@ MARINA in her arms</STAGEDIR>
 <LINE>entertainment.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt Pandar and Pirates</STAGEDIR>
 
 <SPEECH>
@@ -3446,7 +3472,6 @@ MARINA in her arms</STAGEDIR>
 <SPEAKER>BOULT</SPEAKER>
 <LINE>Performance shall follow.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -3689,11 +3714,14 @@ MARINA in her arms</STAGEDIR>
 <LINE>What have we to do with Diana? Pray you, will you go with us?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Tarsus. A room in CLEON's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Tarsus. A room in CLEON's house.</TITLE>
+
 <STAGEDIR>Enter CLEON and DIONYZA</STAGEDIR>
 
 <SPEECH>
@@ -3806,11 +3834,13 @@ MARINA in her arms</STAGEDIR>
 <LINE>But yet I know you'll do as I advise.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV</TITLE>
 
 <STAGEDIR>Enter GOWER, before the monument of MARINA at Tarsus</STAGEDIR>
 
@@ -3877,11 +3907,14 @@ passion departs. Then exeunt CLEON and DIONYZA</STAGEDIR>
 <LINE>And think you now are all in Mytilene.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  Mytilene. A street before the brothel.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  Mytilene. A street before the brothel.</TITLE>
+
 <STAGEDIR>Enter, from the brothel, two Gentlemen</STAGEDIR>
 
 <SPEECH>
@@ -3913,11 +3946,14 @@ passion departs. Then exeunt CLEON and DIONYZA</STAGEDIR>
 <LINE>am out of the road of rutting for ever.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VI.  The same. A room in the brothel.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VI.  The same. A room in the brothel.</TITLE>
+
 <STAGEDIR>Enter Pandar, Bawd, and BOULT</STAGEDIR>
 
 <SPEECH>
@@ -3960,7 +3996,6 @@ passion departs. Then exeunt CLEON and DIONYZA</STAGEDIR>
 <LINE>We should have both lord and lown, if the peevish</LINE>
 <LINE>baggage would but give way to customers.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter LYSIMACHUS</STAGEDIR>
 
@@ -4029,7 +4064,6 @@ passion departs. Then exeunt CLEON and DIONYZA</STAGEDIR>
 <LINE>That dignifies the renown of a bawd, no less than it</LINE>
 <LINE>gives a good report to a number to be chaste.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit BOULT</STAGEDIR>
 
@@ -4103,7 +4137,6 @@ passion departs. Then exeunt CLEON and DIONYZA</STAGEDIR>
 <LINE>pains to work her to your manage. Come, we will</LINE>
 <LINE>leave his honour and her together. Go thy ways.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt Bawd, Pandar, and BOULT</STAGEDIR>
 
@@ -4234,7 +4267,6 @@ passion departs. Then exeunt CLEON and DIONYZA</STAGEDIR>
 <LINE>Hear from me, it shall be for thy good.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter BOULT</STAGEDIR>
 
 <SPEECH>
@@ -4248,7 +4280,6 @@ passion departs. Then exeunt CLEON and DIONYZA</STAGEDIR>
 <LINE>Your house, but for this virgin that doth prop it,</LINE>
 <LINE>Would sink and overwhelm you. Away!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -4272,7 +4303,6 @@ passion departs. Then exeunt CLEON and DIONYZA</STAGEDIR>
 <LINE>hangman shall execute it. Come your ways. We'll</LINE>
 <LINE>have no more gentlemen driven away. Come your ways, I say.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter Bawd</STAGEDIR>
 
@@ -4334,7 +4364,6 @@ passion departs. Then exeunt CLEON and DIONYZA</STAGEDIR>
 <LINE>to undo us. Will you not go the way of women-kind?</LINE>
 <LINE>Marry, come up, my dish of chastity with rosemary and bays!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -4445,13 +4474,17 @@ passion departs. Then exeunt CLEON and DIONYZA</STAGEDIR>
 <LINE>Come, I'll do for thee what I can; come your ways.</LINE>
 </SPEECH>
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT V</TITLE>
+<ACT>
+
+<TITLE>ACT V</TITLE>
 
 <PROLOGUE><TITLE>[Prologue]</TITLE>
+
 <STAGEDIR>Enter GOWER</STAGEDIR>
 
 <SPEECH>
@@ -4484,7 +4517,9 @@ passion departs. Then exeunt CLEON and DIONYZA</STAGEDIR>
 <STAGEDIR>Exit</STAGEDIR>
 </PROLOGUE>
 
-<SCENE><TITLE>SCENE I.  On board PERICLES' ship, off Mytilene. A close pavilion on deck, with a curtain before it; PERICLES within it, reclined on a couch. A barge lying beside the Tyrian vessel.</TITLE>
+<SCENE>
+
+<TITLE>SCENE I.  On board PERICLES' ship, off Mytilene. A close pavilion on deck, with a curtain before it; PERICLES within it, reclined on a couch. A barge lying beside the Tyrian vessel.</TITLE>
 
 <STAGEDIR>Enter two Sailors, one belonging to the Tyrian
 vessel, the other to the barge; to them HELICANUS</STAGEDIR>
@@ -4508,7 +4543,6 @@ vessel, the other to the barge; to them HELICANUS</STAGEDIR>
 <SPEAKER>Tyrian Sailor</SPEAKER>
 <LINE>Ho, gentlemen! my lord calls.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter two or three Gentlemen</STAGEDIR>
 
@@ -4641,7 +4675,6 @@ Gentlemen and the two Sailors</STAGEDIR>
 <LINE>The island's side.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Whispers a Lord, who goes off in the barge of
 LYSIMACHUS</STAGEDIR>
 
@@ -4670,7 +4703,6 @@ LYSIMACHUS</STAGEDIR>
 <LINE>Sit, sir, I will recount it to you:</LINE>
 <LINE>But, see, I am prevented.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter, from the barge, Lord, with MARINA, and a
 young Lady</STAGEDIR>
@@ -4713,7 +4745,6 @@ young Lady</STAGEDIR>
 <LINE>Come, let us leave her;</LINE>
 <LINE>And the gods make her prosperous!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>MARINA sings</STAGEDIR>
 
@@ -5100,7 +5131,6 @@ young Lady</STAGEDIR>
 <LINE>My lord, I hear.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Music</STAGEDIR>
 
 <SPEECH>
@@ -5109,7 +5139,6 @@ young Lady</STAGEDIR>
 <LINE>It nips me unto listening, and thick slumber</LINE>
 <LINE>Hangs upon mine eyes: let me rest.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Sleeps</STAGEDIR>
 
@@ -5138,7 +5167,6 @@ young Lady</STAGEDIR>
 <LINE>Awake, and tell thy dream.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Disappears</STAGEDIR>
 
 <SPEECH>
@@ -5146,7 +5174,6 @@ young Lady</STAGEDIR>
 <LINE>Celestial Dian, goddess argentine,</LINE>
 <LINE>I will obey thee. Helicanus!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter HELICANUS, LYSIMACHUS, and MARINA</STAGEDIR>
 
@@ -5191,11 +5218,14 @@ young Lady</STAGEDIR>
 <LINE>Come, my Marina.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II</TITLE>
+<SCENE>
+
+<TITLE>SCENE II</TITLE>
+
 <STAGEDIR>Enter GOWER, before the temple of DIANA at Ephesus</STAGEDIR>
 
 <SPEECH>
@@ -5222,11 +5252,13 @@ young Lady</STAGEDIR>
 <LINE>Is by your fancy's thankful doom.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The temple of Diana at Ephesus; THAISA standing near the altar, as high priestess; a number of Virgins on each side; CERIMON and other Inhabitants of Ephesus attending.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The temple of Diana at Ephesus; THAISA standing near the altar, as high priestess; a number of Virgins on each side; CERIMON and other Inhabitants of Ephesus attending.</TITLE>
 
 <STAGEDIR>Enter PERICLES, with his train; LYSIMACHUS,
 HELICANUS, MARINA, and a Lady</STAGEDIR>
@@ -5253,7 +5285,6 @@ HELICANUS, MARINA, and a Lady</STAGEDIR>
 <LINE>Voice and favour!</LINE>
 <LINE>You are, you are--O royal Pericles!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Faints</STAGEDIR>
 
@@ -5339,7 +5370,6 @@ HELICANUS, MARINA, and a Lady</STAGEDIR>
 <LINE>The king my father gave you such a ring.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Shows a ring</STAGEDIR>
 
 <SPEECH>
@@ -5356,7 +5386,6 @@ HELICANUS, MARINA, and a Lady</STAGEDIR>
 <LINE>My heart</LINE>
 <LINE>Leaps to be gone into my mother's bosom.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Kneels to THAISA</STAGEDIR>
 
@@ -5482,8 +5511,8 @@ HELICANUS, MARINA, and a Lady</STAGEDIR>
 <LINE>New joy wait on you! Here our play has ending.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 </ACT>
 </PLAY>

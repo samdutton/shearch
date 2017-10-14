@@ -11,7 +11,6 @@
 <P>This work may be freely copied and distributed worldwide.</P>
 </FM>
 
-
 <PERSONAE>
 <TITLE>Dramatis Personae</TITLE>
 
@@ -57,9 +56,14 @@
 
 <PLAYSUBT>HAMLET</PLAYSUBT>
 
-<ACT><TITLE>ACT I</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Elsinore. A platform before the castle.</TITLE>
+<TITLE>ACT I</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Elsinore. A platform before the castle.</TITLE>
+
 <STAGEDIR>FRANCISCO at his post. Enter to him BERNARDO</STAGEDIR>
 
 <SPEECH>
@@ -125,7 +129,6 @@
 <LINE>I think I hear them. Stand, ho! Who's there?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter HORATIO and MARCELLUS</STAGEDIR>
 
 <SPEECH>
@@ -154,7 +157,6 @@
 <LINE>Bernardo has my place.</LINE>
 <LINE>Give you good night.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -228,7 +230,6 @@
 <LINE>The bell then beating one,--</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter Ghost</STAGEDIR>
 
 <SPEECH>
@@ -288,7 +289,6 @@
 <SPEAKER>HORATIO</SPEAKER>
 <LINE>Stay! speak, speak! I charge thee, speak!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit Ghost</STAGEDIR>
 
@@ -506,11 +506,14 @@
 <LINE>Where we shall find him most conveniently.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  A room of state in the castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  A room of state in the castle.</TITLE>
+
 <STAGEDIR>Enter KING CLAUDIUS, QUEEN GERTRUDE, HAMLET,
 POLONIUS, LAERTES, VOLTIMAND, CORNELIUS, Lords,
 and Attendants</STAGEDIR>
@@ -719,7 +722,6 @@ and Attendants</STAGEDIR>
 <LINE>Re-speaking earthly thunder. Come away.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt all but HAMLET</STAGEDIR>
 
 <SPEECH>
@@ -756,7 +758,6 @@ and Attendants</STAGEDIR>
 <LINE>It is not nor it cannot come to good:</LINE>
 <LINE>But break, my heart; for I must hold my tongue.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter HORATIO, MARCELLUS, and BERNARDO</STAGEDIR>
 
@@ -1102,11 +1103,14 @@ and Attendants</STAGEDIR>
 <LINE>Though all the earth o'erwhelm them, to men's eyes.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  A room in Polonius' house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  A room in Polonius' house.</TITLE>
+
 <STAGEDIR>Enter LAERTES and OPHELIA</STAGEDIR>
 
 <SPEECH>
@@ -1253,7 +1257,6 @@ and Attendants</STAGEDIR>
 <LINE>Farewell.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -1353,11 +1356,14 @@ and Attendants</STAGEDIR>
 <LINE>I shall obey, my lord.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  The platform.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  The platform.</TITLE>
+
 <STAGEDIR>Enter HAMLET, HORATIO, and MARCELLUS</STAGEDIR>
 
 <SPEECH>
@@ -1442,7 +1448,6 @@ and Attendants</STAGEDIR>
 <LINE>Look, my lord, it comes!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter Ghost</STAGEDIR>
 
 <SPEECH>
@@ -1467,7 +1472,6 @@ and Attendants</STAGEDIR>
 <LINE>With thoughts beyond the reaches of our souls?</LINE>
 <LINE>Say, why is this? wherefore? what should we do?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Ghost beckons HAMLET</STAGEDIR>
 
@@ -1554,7 +1558,6 @@ and Attendants</STAGEDIR>
 <LINE>I say, away! Go on; I'll follow thee.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt Ghost and HAMLET</STAGEDIR>
 
 <SPEECH>
@@ -1587,11 +1590,14 @@ and Attendants</STAGEDIR>
 <LINE>Nay, let's follow him.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  Another part of the platform.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  Another part of the platform.</TITLE>
+
 <STAGEDIR>Enter GHOST and HAMLET</STAGEDIR>
 
 <SPEECH>
@@ -1762,7 +1768,6 @@ and Attendants</STAGEDIR>
 <LINE>Adieu, adieu! Hamlet, remember me.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -1821,7 +1826,6 @@ and Attendants</STAGEDIR>
 <SPEAKER>HAMLET</SPEAKER>
 <LINE>Hillo, ho, ho, boy! come, bird, come.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter HORATIO and MARCELLUS</STAGEDIR>
 
@@ -2062,15 +2066,20 @@ and Attendants</STAGEDIR>
 <LINE>Nay, come, let's go together.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT II</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  A room in POLONIUS' house.</TITLE>
+<TITLE>ACT II</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  A room in POLONIUS' house.</TITLE>
+
 <STAGEDIR>Enter POLONIUS and REYNALDO</STAGEDIR>
 
 <SPEECH>
@@ -2354,11 +2363,14 @@ and Attendants</STAGEDIR>
 <LINE>More grief to hide than hate to utter love.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  A room in the castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  A room in the castle.</TITLE>
+
 <STAGEDIR>Enter KING CLAUDIUS, QUEEN GERTRUDE, ROSENCRANTZ,
 GUILDENSTERN, and Attendants</STAGEDIR>
 
@@ -2530,7 +2542,6 @@ Attendants</STAGEDIR>
 <LINE>Go to your rest; at night we'll feast together:</LINE>
 <LINE>Most welcome home!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt VOLTIMAND and CORNELIUS</STAGEDIR>
 
@@ -2862,7 +2873,6 @@ Attendants</STAGEDIR>
 <LINE>These tedious old fools!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter ROSENCRANTZ and GUILDENSTERN</STAGEDIR>
 
 <SPEECH>
@@ -2874,7 +2884,6 @@ Attendants</STAGEDIR>
 <SPEAKER>ROSENCRANTZ</SPEAKER>
 <LINE><STAGEDIR>To POLONIUS</STAGEDIR>  God save you, sir!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit POLONIUS</STAGEDIR>
 
@@ -3235,7 +3244,6 @@ Attendants</STAGEDIR>
 <LINE>natural, if philosophy could find it out.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Flourish of trumpets within</STAGEDIR>
 
 <SPEECH>
@@ -3264,7 +3272,6 @@ Attendants</STAGEDIR>
 <LINE>I am but mad north-north-west: when the wind is</LINE>
 <LINE>southerly I know a hawk from a handsaw.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter POLONIUS</STAGEDIR>
 
@@ -3668,15 +3675,20 @@ Attendants</STAGEDIR>
 <LINE>Wherein I'll catch the conscience of the king.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT III</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  A room in the castle.</TITLE>
+<TITLE>ACT III</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  A room in the castle.</TITLE>
+
 <STAGEDIR>Enter KING CLAUDIUS, QUEEN GERTRUDE, POLONIUS,
 OPHELIA, ROSENCRANTZ, and GUILDENSTERN</STAGEDIR>
 
@@ -3759,7 +3771,6 @@ OPHELIA, ROSENCRANTZ, and GUILDENSTERN</STAGEDIR>
 <LINE>We shall, my lord.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt ROSENCRANTZ and GUILDENSTERN</STAGEDIR>
 
 <SPEECH>
@@ -3790,7 +3801,6 @@ OPHELIA, ROSENCRANTZ, and GUILDENSTERN</STAGEDIR>
 <SPEAKER>OPHELIA</SPEAKER>
 <LINE>Madam, I wish it may.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit QUEEN GERTRUDE</STAGEDIR>
 
@@ -4016,7 +4026,6 @@ OPHELIA, ROSENCRANTZ, and GUILDENSTERN</STAGEDIR>
 <LINE>nunnery, go.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -4034,7 +4043,6 @@ OPHELIA, ROSENCRANTZ, and GUILDENSTERN</STAGEDIR>
 <LINE>Blasted with ecstasy: O, woe is me,</LINE>
 <LINE>To have seen what I have seen, see what I see!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter KING CLAUDIUS and POLONIUS</STAGEDIR>
 
@@ -4078,11 +4086,14 @@ OPHELIA, ROSENCRANTZ, and GUILDENSTERN</STAGEDIR>
 <LINE>Madness in great ones must not unwatch'd go.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  A hall in the castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  A hall in the castle.</TITLE>
+
 <STAGEDIR>Enter HAMLET and Players</STAGEDIR>
 
 <SPEECH>
@@ -4179,7 +4190,6 @@ OPHELIA, ROSENCRANTZ, and GUILDENSTERN</STAGEDIR>
 <LINE>What ho! Horatio!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter HORATIO</STAGEDIR>
 
 <SPEECH>
@@ -4246,7 +4256,6 @@ OPHELIA, ROSENCRANTZ, and GUILDENSTERN</STAGEDIR>
 <LINE>They are coming to the play; I must be idle:</LINE>
 <LINE>Get you a place.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Danish march. A flourish. Enter KING CLAUDIUS,
 QUEEN GERTRUDE, POLONIUS, OPHELIA, ROSENCRANTZ,
@@ -4322,7 +4331,6 @@ GUILDENSTERN, and others</STAGEDIR>
 <SPEAKER>HAMLET</SPEAKER>
 <LINE>Lady, shall I lie in your lap?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Lying down at OPHELIA's feet</STAGEDIR>
 
@@ -4437,7 +4445,6 @@ in the end accepts his love</STAGEDIR>
 <LINE>Belike this show imports the argument of the play.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter Prologue</STAGEDIR>
 
 <SPEECH>
@@ -4469,7 +4476,6 @@ in the end accepts his love</STAGEDIR>
 <LINE>We beg your hearing patiently.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -4486,7 +4492,6 @@ in the end accepts his love</STAGEDIR>
 <SPEAKER>HAMLET</SPEAKER>
 <LINE>As woman's love.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter two Players, King and Queen</STAGEDIR>
 
@@ -4604,7 +4609,6 @@ in the end accepts his love</STAGEDIR>
 <LINE>The tedious day with sleep.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Sleeps</STAGEDIR>
 
 <SPEECH>
@@ -4612,7 +4616,6 @@ in the end accepts his love</STAGEDIR>
 <LINE>Sleep rock thy brain,</LINE>
 <LINE>And never come mischance between us twain!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -4703,7 +4706,6 @@ in the end accepts his love</STAGEDIR>
 <LINE>On wholesome life usurp immediately.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Pours the poison into the sleeper's ears</STAGEDIR>
 
 <SPEECH>
@@ -4743,7 +4745,6 @@ in the end accepts his love</STAGEDIR>
 <SPEAKER>All</SPEAKER>
 <LINE>Lights, lights, lights!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt all but HAMLET and HORATIO</STAGEDIR>
 
@@ -4806,7 +4807,6 @@ in the end accepts his love</STAGEDIR>
 <LINE>Why then, belike, he likes it not, perdy.</LINE>
 <LINE>Come, some music!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter ROSENCRANTZ and GUILDENSTERN</STAGEDIR>
 
@@ -5099,11 +5099,14 @@ in the end accepts his love</STAGEDIR>
 <LINE>To give them seals never, my soul, consent!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  A room in the castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  A room in the castle.</TITLE>
+
 <STAGEDIR>Enter KING CLAUDIUS, ROSENCRANTZ, and GUILDENSTERN</STAGEDIR>
 
 <SPEECH>
@@ -5245,7 +5248,6 @@ in the end accepts his love</STAGEDIR>
 <LINE>This physic but prolongs thy sickly days.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -5254,11 +5256,14 @@ in the end accepts his love</STAGEDIR>
 <LINE>Words without thoughts never to heaven go.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  The Queen's closet.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  The Queen's closet.</TITLE>
+
 <STAGEDIR>Enter QUEEN MARGARET and POLONIUS</STAGEDIR>
 
 <SPEECH>
@@ -5359,14 +5364,12 @@ in the end accepts his love</STAGEDIR>
 <LINE><STAGEDIR>Drawing</STAGEDIR>  How now! a rat? Dead, for a ducat, dead!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Makes a pass through the arras</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>LORD POLONIUS</SPEAKER>
 <LINE><STAGEDIR>Behind</STAGEDIR>  O, I am slain!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Falls and dies</STAGEDIR>
 
@@ -5607,7 +5610,6 @@ in the end accepts his love</STAGEDIR>
 <LINE>Look, where he goes, even now, out at the portal!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit Ghost</STAGEDIR>
 
 <SPEECH>
@@ -5735,15 +5737,20 @@ in the end accepts his love</STAGEDIR>
 <LINE>Good night, mother.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt severally; HAMLET dragging in POLONIUS</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT IV</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  A room in the castle.</TITLE>
+<TITLE>ACT IV</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  A room in the castle.</TITLE>
+
 <STAGEDIR>Enter KING CLAUDIUS, QUEEN GERTRUDE, ROSENCRANTZ,
 and GUILDENSTERN</STAGEDIR>
 
@@ -5824,11 +5831,14 @@ and GUILDENSTERN</STAGEDIR>
 <LINE>My soul is full of discord and dismay.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Another room in the castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Another room in the castle.</TITLE>
+
 <STAGEDIR>Enter HAMLET</STAGEDIR>
 
 <SPEECH>
@@ -5847,7 +5857,6 @@ and GUILDENSTERN</STAGEDIR>
 <LINE>What noise? who calls on Hamlet?</LINE>
 <LINE>O, here they come.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter ROSENCRANTZ and GUILDENSTERN</STAGEDIR>
 
@@ -5933,11 +5942,14 @@ and GUILDENSTERN</STAGEDIR>
 <LINE>Of nothing: bring me to him. Hide fox, and all after.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Another room in the castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Another room in the castle.</TITLE>
+
 <STAGEDIR>Enter KING CLAUDIUS, attended</STAGEDIR>
 
 <SPEECH>
@@ -5982,7 +5994,6 @@ and GUILDENSTERN</STAGEDIR>
 <SPEAKER>ROSENCRANTZ</SPEAKER>
 <LINE>Ho, Guildenstern! bring in my lord.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter HAMLET and GUILDENSTERN</STAGEDIR>
 
@@ -6053,14 +6064,12 @@ and GUILDENSTERN</STAGEDIR>
 <LINE>Go seek him there.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>To some Attendants</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>HAMLET</SPEAKER>
 <LINE>He will stay till ye come.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt Attendants</STAGEDIR>
 
@@ -6112,7 +6121,6 @@ and GUILDENSTERN</STAGEDIR>
 <LINE>and wife is one flesh; and so, my mother. Come, for England!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -6135,11 +6143,14 @@ and GUILDENSTERN</STAGEDIR>
 <LINE>Howe'er my haps, my joys were ne'er begun.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  A plain in Denmark.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  A plain in Denmark.</TITLE>
+
 <STAGEDIR>Enter FORTINBRAS, a Captain, and Soldiers, marching</STAGEDIR>
 
 <SPEECH>
@@ -6236,7 +6247,6 @@ and GUILDENSTERN</STAGEDIR>
 <LINE>God be wi' you, sir.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -6285,11 +6295,14 @@ and GUILDENSTERN</STAGEDIR>
 <LINE>My thoughts be bloody, or be nothing worth!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  Elsinore. A room in the castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  Elsinore. A room in the castle.</TITLE>
+
 <STAGEDIR>Enter QUEEN GERTRUDE, HORATIO, and a Gentleman</STAGEDIR>
 
 <SPEECH>
@@ -6339,7 +6352,6 @@ and GUILDENSTERN</STAGEDIR>
 <LINE>It spills itself in fearing to be spilt.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter HORATIO, with OPHELIA</STAGEDIR>
 
 <SPEECH>
@@ -6387,7 +6399,6 @@ and GUILDENSTERN</STAGEDIR>
 <STAGEDIR>Sings</STAGEDIR>
 <LINE>White his shroud as the mountain snow,--</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter KING CLAUDIUS</STAGEDIR>
 
@@ -6470,7 +6481,6 @@ and GUILDENSTERN</STAGEDIR>
 <LINE>good night, good night.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -6500,7 +6510,6 @@ and GUILDENSTERN</STAGEDIR>
 <LINE>Like to a murdering-piece, in many places</LINE>
 <LINE>Gives me superfluous death.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>A noise within</STAGEDIR>
 
@@ -6564,7 +6573,6 @@ and GUILDENSTERN</STAGEDIR>
 <SPEAKER>Danes</SPEAKER>
 <LINE>We will, we will.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>They retire without the door</STAGEDIR>
 
@@ -6773,7 +6781,6 @@ and GUILDENSTERN</STAGEDIR>
 <LINE>And of all Christian souls, I pray God. God be wi' ye.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -6813,11 +6820,14 @@ and GUILDENSTERN</STAGEDIR>
 <LINE>I pray you, go with me.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VI.  Another room in the castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VI.  Another room in the castle.</TITLE>
+
 <STAGEDIR>Enter HORATIO and a Servant</STAGEDIR>
 
 <SPEECH>
@@ -6837,7 +6847,6 @@ and GUILDENSTERN</STAGEDIR>
 <LINE>I do not know from what part of the world</LINE>
 <LINE>I should be greeted, if not from Lord Hamlet.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter Sailors</STAGEDIR>
 
@@ -6885,11 +6894,14 @@ and GUILDENSTERN</STAGEDIR>
 <LINE>To him from whom you brought them.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VII.  Another room in the castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VII.  Another room in the castle.</TITLE>
+
 <STAGEDIR>Enter KING CLAUDIUS and LAERTES</STAGEDIR>
 
 <SPEECH>
@@ -7259,7 +7271,6 @@ and GUILDENSTERN</STAGEDIR>
 <LINE>But that this folly douts it.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -7270,15 +7281,20 @@ and GUILDENSTERN</STAGEDIR>
 <LINE>Therefore let's follow.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT V</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  A churchyard.</TITLE>
+<TITLE>ACT V</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  A churchyard.</TITLE>
+
 <STAGEDIR>Enter two Clowns, with spades, &amp;c</STAGEDIR>
 
 <SPEECH>
@@ -7432,7 +7448,6 @@ and GUILDENSTERN</STAGEDIR>
 <LINE>Mass, I cannot tell.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter HAMLET and HORATIO, at a distance</STAGEDIR>
 
 <SPEECH>
@@ -7476,7 +7491,6 @@ and GUILDENSTERN</STAGEDIR>
 <LINE>And hath shipped me intil the land,</LINE>
 <LINE>As if I had never been such.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Throws up a skull</STAGEDIR>
 
@@ -7525,7 +7539,6 @@ and GUILDENSTERN</STAGEDIR>
 <LINE>O, a pit of clay for to be made</LINE>
 <LINE>For such a guest is meet.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Throws up another skull</STAGEDIR>
 
@@ -7812,7 +7825,6 @@ and GUILDENSTERN</STAGEDIR>
 <LINE>And smelt so? pah!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Puts down the skull</STAGEDIR>
 
 <SPEECH>
@@ -7854,7 +7866,6 @@ CLAUDIUS, QUEEN GERTRUDE, their trains, &amp;c</STAGEDIR>
 <LINE>Fordo its own life: 'twas of some estate.</LINE>
 <LINE>Couch we awhile, and mark.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Retiring with HORATIO</STAGEDIR>
 
@@ -7946,14 +7957,12 @@ CLAUDIUS, QUEEN GERTRUDE, their trains, &amp;c</STAGEDIR>
 <LINE>Hamlet the Dane.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Leaps into the grave</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>LAERTES</SPEAKER>
 <LINE>The devil take thy soul!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Grappling with him</STAGEDIR>
 
@@ -7985,7 +7994,6 @@ CLAUDIUS, QUEEN GERTRUDE, their trains, &amp;c</STAGEDIR>
 <SPEAKER>HORATIO</SPEAKER>
 <LINE>Good my lord, be quiet.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>The Attendants part them, and they come out of the grave</STAGEDIR>
 
@@ -8050,7 +8058,6 @@ CLAUDIUS, QUEEN GERTRUDE, their trains, &amp;c</STAGEDIR>
 <LINE>The cat will mew and dog will have his day.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -8066,11 +8073,14 @@ CLAUDIUS, QUEEN GERTRUDE, their trains, &amp;c</STAGEDIR>
 <LINE>Till then, in patience our proceeding be.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  A hall in the castle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  A hall in the castle.</TITLE>
+
 <STAGEDIR>Enter HAMLET and HORATIO</STAGEDIR>
 
 <SPEECH>
@@ -8239,7 +8249,6 @@ CLAUDIUS, QUEEN GERTRUDE, their trains, &amp;c</STAGEDIR>
 <LINE>Peace! who comes here?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter OSRIC</STAGEDIR>
 
 <SPEECH>
@@ -8312,7 +8321,6 @@ CLAUDIUS, QUEEN GERTRUDE, their trains, &amp;c</STAGEDIR>
 <SPEAKER>HAMLET</SPEAKER>
 <LINE>I beseech you, remember--</LINE>
 </SPEECH>
-
 
 <STAGEDIR>HAMLET moves him to put on his hat</STAGEDIR>
 
@@ -8529,7 +8537,6 @@ CLAUDIUS, QUEEN GERTRUDE, their trains, &amp;c</STAGEDIR>
 <LINE>but blow them to their trial, the bubbles are out.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Lord</STAGEDIR>
 
 <SPEECH>
@@ -8567,7 +8574,6 @@ CLAUDIUS, QUEEN GERTRUDE, their trains, &amp;c</STAGEDIR>
 <SPEAKER>HAMLET</SPEAKER>
 <LINE>She well instructs me.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit Lord</STAGEDIR>
 
@@ -8612,7 +8618,6 @@ CLAUDIUS, QUEEN GERTRUDE, their trains, &amp;c</STAGEDIR>
 <LINE>leaves, what is't to leave betimes?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter KING CLAUDIUS, QUEEN GERTRUDE, LAERTES,
 Lords, OSRIC, and Attendants with foils, &amp;c</STAGEDIR>
 
@@ -8620,7 +8625,6 @@ Lords, OSRIC, and Attendants with foils, &amp;c</STAGEDIR>
 <SPEAKER>KING CLAUDIUS</SPEAKER>
 <LINE>Come, Hamlet, come, and take this hand from me.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>KING CLAUDIUS puts LAERTES' hand into HAMLET's</STAGEDIR>
 
@@ -8717,7 +8721,6 @@ Lords, OSRIC, and Attendants with foils, &amp;c</STAGEDIR>
 <LINE>This likes me well. These foils have all a length?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>They prepare to play</STAGEDIR>
 
 <SPEECH>
@@ -8751,7 +8754,6 @@ Lords, OSRIC, and Attendants with foils, &amp;c</STAGEDIR>
 <SPEAKER>LAERTES</SPEAKER>
 <LINE>Come, my lord.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>They play</STAGEDIR>
 
@@ -8869,7 +8871,6 @@ Lords, OSRIC, and Attendants with foils, &amp;c</STAGEDIR>
 <LINE>Say you so? come on.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>They play</STAGEDIR>
 
 <SPEECH>
@@ -8881,7 +8882,6 @@ Lords, OSRIC, and Attendants with foils, &amp;c</STAGEDIR>
 <SPEAKER>LAERTES</SPEAKER>
 <LINE>Have at you now!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>LAERTES wounds HAMLET; then in scuffling, they
 change rapiers, and HAMLET wounds LAERTES</STAGEDIR>
@@ -8895,7 +8895,6 @@ change rapiers, and HAMLET wounds LAERTES</STAGEDIR>
 <SPEAKER>HAMLET</SPEAKER>
 <LINE>Nay, come, again.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>QUEEN GERTRUDE falls</STAGEDIR>
 
@@ -8936,7 +8935,6 @@ change rapiers, and HAMLET wounds LAERTES</STAGEDIR>
 <LINE>The drink, the drink! I am poison'd.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Dies</STAGEDIR>
 
 <SPEECH>
@@ -8963,7 +8961,6 @@ change rapiers, and HAMLET wounds LAERTES</STAGEDIR>
 <LINE>Then, venom, to thy work.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Stabs KING CLAUDIUS</STAGEDIR>
 
 <SPEECH>
@@ -8983,7 +8980,6 @@ change rapiers, and HAMLET wounds LAERTES</STAGEDIR>
 <LINE>Follow my mother.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>KING CLAUDIUS dies</STAGEDIR>
 
 <SPEECH>
@@ -8994,7 +8990,6 @@ change rapiers, and HAMLET wounds LAERTES</STAGEDIR>
 <LINE>Mine and my father's death come not upon thee,</LINE>
 <LINE>Nor thine on me.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Dies</STAGEDIR>
 
@@ -9049,7 +9044,6 @@ change rapiers, and HAMLET wounds LAERTES</STAGEDIR>
 <LINE>So tell him, with the occurrents, more and less,</LINE>
 <LINE>Which have solicited. The rest is silence.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Dies</STAGEDIR>
 
@@ -9143,9 +9137,9 @@ and others</STAGEDIR>
 <LINE>Go, bid the soldiers shoot.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>A dead march. Exeunt, bearing off the dead
 bodies; after which a peal of ordnance is shot off</STAGEDIR>
+
 </SCENE>
 </ACT>
 </PLAY>

@@ -11,7 +11,6 @@
 <P>This work may be freely copied and distributed worldwide.</P>
 </FM>
 
-
 <PERSONAE>
 <TITLE>Dramatis Personae</TITLE>
 
@@ -52,9 +51,14 @@
 
 <PLAYSUBT>THE MERRY WIVES OF WINDSOR</PLAYSUBT>
 
-<ACT><TITLE>ACT I</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Windsor. Before PAGE's house.</TITLE>
+<TITLE>ACT I</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Windsor. Before PAGE's house.</TITLE>
+
 <STAGEDIR>Enter SHALLOW, SLENDER, and SIR HUGH EVANS</STAGEDIR>
 
 <SPEECH>
@@ -230,7 +234,6 @@
 <LINE><STAGEDIR>Within</STAGEDIR>  Who's there?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter PAGE</STAGEDIR>
 
 <SPEECH>
@@ -337,7 +340,6 @@
 <SPEAKER>PAGE</SPEAKER>
 <LINE>Here comes Sir John.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter FALSTAFF, BARDOLPH, NYM, and PISTOL</STAGEDIR>
 
@@ -556,7 +558,6 @@
 <LINE>You hear all these matters denied, gentlemen; you hear it.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter ANNE PAGE, with wine; MISTRESS FORD
 and MISTRESS PAGE, following</STAGEDIR>
 
@@ -564,7 +565,6 @@ and MISTRESS PAGE, following</STAGEDIR>
 <SPEAKER>PAGE</SPEAKER>
 <LINE>Nay, daughter, carry the wine in; we'll drink within.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit ANNE PAGE</STAGEDIR>
 
@@ -584,7 +584,6 @@ and MISTRESS PAGE, following</STAGEDIR>
 <LINE>by your leave, good mistress.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Kisses her</STAGEDIR>
 
 <SPEECH>
@@ -593,7 +592,6 @@ and MISTRESS PAGE, following</STAGEDIR>
 <LINE>hot venison pasty to dinner: come, gentlemen, I hope</LINE>
 <LINE>we shall drink down all unkindness.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt all except SHALLOW, SLENDER, and SIR HUGH EVANS</STAGEDIR>
 
@@ -768,7 +766,6 @@ and MISTRESS PAGE, following</STAGEDIR>
 <LINE>Od's plessed will! I will not be absence at the grace.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt SHALLOW and SIR HUGH EVANS</STAGEDIR>
 
 <SPEECH>
@@ -852,7 +849,6 @@ and MISTRESS PAGE, following</STAGEDIR>
 <LINE>rough things.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter PAGE</STAGEDIR>
 
 <SPEECH>
@@ -896,11 +892,14 @@ and MISTRESS PAGE, following</STAGEDIR>
 <LINE>You do yourself wrong, indeed, la!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The same.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The same.</TITLE>
+
 <STAGEDIR>Enter SIR HUGH EVANS and SIMPLE</STAGEDIR>
 
 <SPEECH>
@@ -927,11 +926,14 @@ and MISTRESS PAGE, following</STAGEDIR>
 <LINE>make an end of my dinner; there's pippins and cheese to come.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  A room in the Garter Inn.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  A room in the Garter Inn.</TITLE>
+
 <STAGEDIR>Enter FALSTAFF, Host, BARDOLPH, NYM, PISTOL,
 and ROBIN</STAGEDIR>
 
@@ -980,7 +982,6 @@ and ROBIN</STAGEDIR>
 <LINE>Let me see thee froth and lime: I am at a word; follow.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -999,7 +1000,6 @@ and ROBIN</STAGEDIR>
 <SPEAKER>PISTOL</SPEAKER>
 <LINE>O base Hungarian wight! wilt thou the spigot wield?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit BARDOLPH</STAGEDIR>
 
@@ -1160,7 +1160,6 @@ and ROBIN</STAGEDIR>
 <LINE>French thrift, you rogues; myself and skirted page.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt FALSTAFF and ROBIN</STAGEDIR>
 
 <SPEECH>
@@ -1218,11 +1217,14 @@ and ROBIN</STAGEDIR>
 <LINE>Thou art the Mars of malecontents: I second thee; troop on.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  A room in DOCTOR CAIUS' house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  A room in DOCTOR CAIUS' house.</TITLE>
+
 <STAGEDIR>Enter MISTRESS QUICKLY, SIMPLE, and RUGBY</STAGEDIR>
 
 <SPEECH>
@@ -1309,7 +1311,6 @@ and ROBIN</STAGEDIR>
 <LINE>master: Anne is a good girl, and I wish--</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter RUGBY</STAGEDIR>
 
 <SPEECH>
@@ -1328,7 +1329,6 @@ and ROBIN</STAGEDIR>
 <STAGEDIR>Singing</STAGEDIR>
 <LINE>And down, down, adown-a, &amp;c.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter DOCTOR CAIUS</STAGEDIR>
 
@@ -1470,7 +1470,6 @@ and ROBIN</STAGEDIR>
 <LINE>Tarry you a little-a while.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Writes</STAGEDIR>
 
 <SPEECH>
@@ -1514,7 +1513,6 @@ and ROBIN</STAGEDIR>
 <LINE>at his dog:</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit SIMPLE</STAGEDIR>
 
 <SPEECH>
@@ -1544,7 +1542,6 @@ and ROBIN</STAGEDIR>
 <LINE>door. Follow my heels, Rugby.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt DOCTOR CAIUS and RUGBY</STAGEDIR>
 
 <SPEECH>
@@ -1564,7 +1561,6 @@ and ROBIN</STAGEDIR>
 <SPEAKER>MISTRESS QUICKLY</SPEAKER>
 <LINE>Who's there, I trow! Come near the house, I pray you.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter FENTON</STAGEDIR>
 
@@ -1646,15 +1642,20 @@ and ROBIN</STAGEDIR>
 <LINE>upon't! what have I forgot?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT II</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Before PAGE'S house.</TITLE>
+<TITLE>ACT II</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Before PAGE'S house.</TITLE>
+
 <STAGEDIR>Enter MISTRESS PAGE, with a letter</STAGEDIR>
 
 <SPEECH>
@@ -1691,7 +1692,6 @@ and ROBIN</STAGEDIR>
 <LINE>shall I be revenged on him? for revenged I will be,</LINE>
 <LINE>as sure as his guts are made of puddings.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter MISTRESS FORD</STAGEDIR>
 
@@ -1895,7 +1895,6 @@ and ROBIN</STAGEDIR>
 <LINE>Believe it, Page; he speaks sense.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -1915,7 +1914,6 @@ and ROBIN</STAGEDIR>
 <LINE>Adieu. I love not the humour of bread and cheese,</LINE>
 <LINE>and there's the humour of it. Adieu.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -1956,7 +1954,6 @@ and ROBIN</STAGEDIR>
 <LINE>How now, Meg!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>MISTRESS PAGE and MISTRESS FORD come forward</STAGEDIR>
 
 <SPEECH>
@@ -1994,7 +1991,6 @@ and ROBIN</STAGEDIR>
 <LINE>she'll fit it.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter MISTRESS QUICKLY</STAGEDIR>
 
 <SPEECH>
@@ -2012,7 +2008,6 @@ and ROBIN</STAGEDIR>
 <LINE>Go in with us and see: we have an hour's talk with</LINE>
 <LINE>you.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt MISTRESS PAGE, MISTRESS FORD, and MISTRESS QUICKLY</STAGEDIR>
 
@@ -2090,7 +2085,6 @@ and ROBIN</STAGEDIR>
 <LINE>Cavaleiro-justice, I say!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter SHALLOW</STAGEDIR>
 
 <SPEECH>
@@ -2116,7 +2110,6 @@ and ROBIN</STAGEDIR>
 <LINE>Good mine host o' the Garter, a word with you.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Drawing him aside</STAGEDIR>
 
 <SPEECH>
@@ -2132,7 +2125,6 @@ and ROBIN</STAGEDIR>
 <LINE>for, believe me, I hear the parson is no jester.</LINE>
 <LINE>Hark, I will tell you what our sport shall be.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>They converse apart</STAGEDIR>
 
@@ -2186,7 +2178,6 @@ and ROBIN</STAGEDIR>
 <LINE>Have with you. I would rather hear them scold than fight.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt Host, SHALLOW, and PAGE</STAGEDIR>
 
 <SPEECH>
@@ -2200,11 +2191,14 @@ and ROBIN</STAGEDIR>
 <LINE>my labour; if she be otherwise, 'tis labour well bestowed.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  A room in the Garter Inn.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  A room in the Garter Inn.</TITLE>
+
 <STAGEDIR>Enter FALSTAFF and PISTOL</STAGEDIR>
 
 <SPEECH>
@@ -2260,7 +2254,6 @@ and ROBIN</STAGEDIR>
 <LINE>I do relent: what would thou more of man?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter ROBIN</STAGEDIR>
 
 <SPEECH>
@@ -2272,7 +2265,6 @@ and ROBIN</STAGEDIR>
 <SPEAKER>FALSTAFF</SPEAKER>
 <LINE>Let her approach.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter MISTRESS QUICKLY</STAGEDIR>
 
@@ -2501,7 +2493,6 @@ and ROBIN</STAGEDIR>
 <LINE>Give fire: she is my prize, or ocean whelm them all!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -2513,7 +2504,6 @@ and ROBIN</STAGEDIR>
 <LINE>thank thee. Let them say 'tis grossly done; so it be</LINE>
 <LINE>fairly done, no matter.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter BARDOLPH</STAGEDIR>
 
@@ -2543,7 +2533,6 @@ and ROBIN</STAGEDIR>
 <LINE>have I encompassed you? go to; via!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter BARDOLPH, with FORD disguised</STAGEDIR>
 
 <SPEECH>
@@ -2566,7 +2555,6 @@ and ROBIN</STAGEDIR>
 <SPEAKER>FALSTAFF</SPEAKER>
 <LINE>You're welcome. What's your will? Give us leave, drawer.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit BARDOLPH</STAGEDIR>
 
@@ -2823,7 +2811,6 @@ and ROBIN</STAGEDIR>
 <LINE>cuckold. Come to me soon at night.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -2857,11 +2844,14 @@ and ROBIN</STAGEDIR>
 <LINE>Fie, fie, fie! cuckold! cuckold! cuckold!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  A field near Windsor.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  A field near Windsor.</TITLE>
+
 <STAGEDIR>Enter DOCTOR CAIUS and RUGBY</STAGEDIR>
 
 <SPEECH>
@@ -2917,7 +2907,6 @@ and ROBIN</STAGEDIR>
 <SPEAKER>RUGBY</SPEAKER>
 <LINE>Forbear; here's company.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter Host, SHALLOW, SLENDER, and PAGE</STAGEDIR>
 
@@ -3071,7 +3060,6 @@ and ROBIN</STAGEDIR>
 <LINE>through the town to Frogmore.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Aside to them</STAGEDIR>
 
 <SPEECH>
@@ -3142,15 +3130,20 @@ and ROBIN</STAGEDIR>
 <LINE>Come at my heels, Jack Rugby.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT III</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  A field near Frogmore.</TITLE>
+<TITLE>ACT III</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  A field near Frogmore.</TITLE>
+
 <STAGEDIR>Enter SIR HUGH EVANS and SIMPLE</STAGEDIR>
 
 <SPEECH>
@@ -3178,7 +3171,6 @@ and ROBIN</STAGEDIR>
 <LINE>I will, sir.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -3201,7 +3193,6 @@ and ROBIN</STAGEDIR>
 <LINE>And a thousand vagram posies.</LINE>
 <LINE>To shallow &amp;c.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter SIMPLE</STAGEDIR>
 
@@ -3229,7 +3220,6 @@ and ROBIN</STAGEDIR>
 <SPEAKER>SIR HUGH EVANS</SPEAKER>
 <LINE>Pray you, give me my gown; or else keep it in your arms.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PAGE, SHALLOW, and SLENDER</STAGEDIR>
 
@@ -3342,7 +3332,6 @@ and ROBIN</STAGEDIR>
 <LINE>here comes Doctor Caius.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter Host, DOCTOR CAIUS, and RUGBY</STAGEDIR>
 
 <SPEECH>
@@ -3439,7 +3428,6 @@ and ROBIN</STAGEDIR>
 <LINE><STAGEDIR>Aside</STAGEDIR>  O sweet Anne Page!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt SHALLOW, SLENDER, PAGE, and Host</STAGEDIR>
 
 <SPEECH>
@@ -3467,11 +3455,14 @@ and ROBIN</STAGEDIR>
 <LINE>Well, I will smite his noddles. Pray you, follow.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  A street.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  A street.</TITLE>
+
 <STAGEDIR>Enter MISTRESS PAGE and ROBIN</STAGEDIR>
 
 <SPEECH>
@@ -3491,7 +3482,6 @@ and ROBIN</STAGEDIR>
 <SPEAKER>MISTRESS PAGE</SPEAKER>
 <LINE>O, you are a flattering boy: now I see you'll be a courtier.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter FORD</STAGEDIR>
 
@@ -3556,7 +3546,6 @@ and ROBIN</STAGEDIR>
 <LINE>By your leave, sir: I am sick till I see her.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt MISTRESS PAGE and ROBIN</STAGEDIR>
 
 <SPEECH>
@@ -3583,7 +3572,6 @@ and ROBIN</STAGEDIR>
 <LINE>positive as the earth is firm that Falstaff is</LINE>
 <LINE>there: I will go.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PAGE, SHALLOW, SLENDER, Host,
 SIR HUGH EVANS, DOCTOR CAIUS, and RUGBY</STAGEDIR>
@@ -3670,14 +3658,12 @@ SIR HUGH EVANS, DOCTOR CAIUS, and RUGBY</STAGEDIR>
 <LINE>at Master Page's.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt SHALLOW, and SLENDER</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>DOCTOR CAIUS</SPEAKER>
 <LINE>Go home, John Rugby; I come anon.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit RUGBY</STAGEDIR>
 
@@ -3686,7 +3672,6 @@ SIR HUGH EVANS, DOCTOR CAIUS, and RUGBY</STAGEDIR>
 <LINE>Farewell, my hearts: I will to my honest knight</LINE>
 <LINE>Falstaff, and drink canary with him.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -3701,11 +3686,14 @@ SIR HUGH EVANS, DOCTOR CAIUS, and RUGBY</STAGEDIR>
 <LINE>Have with you to see this monster.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  A room in FORD'S house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  A room in FORD'S house.</TITLE>
+
 <STAGEDIR>Enter MISTRESS FORD and MISTRESS PAGE</STAGEDIR>
 
 <SPEECH>
@@ -3722,7 +3710,6 @@ SIR HUGH EVANS, DOCTOR CAIUS, and RUGBY</STAGEDIR>
 <SPEAKER>MISTRESS FORD</SPEAKER>
 <LINE>I warrant. What, Robin, I say!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter Servants with a basket</STAGEDIR>
 
@@ -3763,14 +3750,12 @@ SIR HUGH EVANS, DOCTOR CAIUS, and RUGBY</STAGEDIR>
 <LINE>direction. Be gone, and come when you are called.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt Servants</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>MISTRESS PAGE</SPEAKER>
 <LINE>Here comes little Robin.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter ROBIN</STAGEDIR>
 
@@ -3817,7 +3802,6 @@ SIR HUGH EVANS, DOCTOR CAIUS, and RUGBY</STAGEDIR>
 <LINE>I warrant thee; if I do not act it, hiss me.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -3826,7 +3810,6 @@ SIR HUGH EVANS, DOCTOR CAIUS, and RUGBY</STAGEDIR>
 <LINE>this gross watery pumpion; we'll teach him to know</LINE>
 <LINE>turtles from jays.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter FALSTAFF</STAGEDIR>
 
@@ -4046,7 +4029,6 @@ SIR HUGH EVANS, DOCTOR CAIUS, and RUGBY</STAGEDIR>
 <LINE>I'll never--</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Gets into the basket; they cover him with foul linen</STAGEDIR>
 
 <SPEECH>
@@ -4064,7 +4046,6 @@ SIR HUGH EVANS, DOCTOR CAIUS, and RUGBY</STAGEDIR>
 <LINE>cowl-staff? look, how you drumble! Carry them to</LINE>
 <LINE>the laundress in Datchet-meat; quickly, come.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter FORD, PAGE, DOCTOR CAIUS, and SIR HUGH EVANS</STAGEDIR>
 
@@ -4111,7 +4092,6 @@ SIR HUGH EVANS, DOCTOR CAIUS, and RUGBY</STAGEDIR>
 <LINE>sport anon: follow me, gentlemen.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -4129,7 +4109,6 @@ SIR HUGH EVANS, DOCTOR CAIUS, and RUGBY</STAGEDIR>
 <SPEAKER>PAGE</SPEAKER>
 <LINE>Nay, follow him, gentlemen; see the issue of his search.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt PAGE, DOCTOR CAIUS, and SIR HUGH EVANS</STAGEDIR>
 
@@ -4189,7 +4168,6 @@ SIR HUGH EVANS, DOCTOR CAIUS, and RUGBY</STAGEDIR>
 <LINE>We will do it: let him be sent for to-morrow,</LINE>
 <LINE>eight o'clock, to have amends.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter FORD, PAGE, DOCTOR CAIUS, and
 SIR HUGH EVANS</STAGEDIR>
@@ -4325,11 +4303,14 @@ SIR HUGH EVANS</STAGEDIR>
 <LINE>A lousy knave, to have his gibes and his mockeries!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  A room in PAGE'S house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  A room in PAGE'S house.</TITLE>
+
 <STAGEDIR>Enter FENTON and ANNE PAGE</STAGEDIR>
 
 <SPEECH>
@@ -4511,7 +4492,6 @@ SIR HUGH EVANS</STAGEDIR>
 <LINE>than I can: you may ask your father; here he comes.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter PAGE and MISTRESS PAGE</STAGEDIR>
 
 <SPEECH>
@@ -4548,7 +4528,6 @@ SIR HUGH EVANS</STAGEDIR>
 <LINE>Come, Master Shallow; come, son Slender, in.</LINE>
 <LINE>Knowing my mind, you wrong me, Master Fenton.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt PAGE, SHALLOW, and SLENDER</STAGEDIR>
 
@@ -4602,7 +4581,6 @@ SIR HUGH EVANS</STAGEDIR>
 <LINE>Farewell, gentle mistress: farewell, Nan.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt MISTRESS PAGE and ANNE PAGE</STAGEDIR>
 
 <SPEECH>
@@ -4633,11 +4611,14 @@ SIR HUGH EVANS</STAGEDIR>
 <LINE>my two mistresses: what a beast am I to slack it!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  A room in the Garter Inn.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  A room in the Garter Inn.</TITLE>
+
 <STAGEDIR>Enter FALSTAFF and BARDOLPH</STAGEDIR>
 
 <SPEECH>
@@ -4670,7 +4651,6 @@ SIR HUGH EVANS</STAGEDIR>
 <LINE>had been swelled! I should have been a mountain of mummy.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter BARDOLPH with sack</STAGEDIR>
 
 <SPEECH>
@@ -4689,7 +4669,6 @@ SIR HUGH EVANS</STAGEDIR>
 <SPEAKER>BARDOLPH</SPEAKER>
 <LINE>Come in, woman!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter MISTRESS QUICKLY</STAGEDIR>
 
@@ -4780,7 +4759,6 @@ SIR HUGH EVANS</STAGEDIR>
 <LINE>Peace be with you, sir.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -4788,7 +4766,6 @@ SIR HUGH EVANS</STAGEDIR>
 <LINE>I marvel I hear not of Master Brook; he sent me word</LINE>
 <LINE>to stay within: I like his money well. O, here he comes.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter FORD</STAGEDIR>
 
@@ -4945,7 +4922,6 @@ SIR HUGH EVANS</STAGEDIR>
 <LINE>cuckold Ford.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -4966,15 +4942,20 @@ SIR HUGH EVANS</STAGEDIR>
 <LINE>with me: I'll be horn-mad.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT IV</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  A street.</TITLE>
+<TITLE>ACT IV</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  A street.</TITLE>
+
 <STAGEDIR>Enter MISTRESS PAGE, MISTRESS QUICKLY, and
 WILLIAM PAGE</STAGEDIR>
 
@@ -5239,11 +5220,14 @@ WILLIAM PAGE</STAGEDIR>
 <LINE>Get you home, boy. Come, we stay too long.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  A room in FORD'S house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  A room in FORD'S house.</TITLE>
+
 <STAGEDIR>Enter FALSTAFF and MISTRESS FORD</STAGEDIR>
 
 <SPEECH>
@@ -5362,7 +5346,6 @@ WILLIAM PAGE</STAGEDIR>
 <LINE>Shall I put him into the basket again?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter FALSTAFF</STAGEDIR>
 
 <SPEECH>
@@ -5456,7 +5439,6 @@ WILLIAM PAGE</STAGEDIR>
 <LINE>on the gown the while.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit FALSTAFF</STAGEDIR>
 
 <SPEECH>
@@ -5503,7 +5485,6 @@ WILLIAM PAGE</STAGEDIR>
 <LINE>basket. Go up; I'll bring linen for him straight.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -5525,7 +5506,6 @@ WILLIAM PAGE</STAGEDIR>
 <LINE>down, obey him: quickly, dispatch.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -5542,7 +5522,6 @@ WILLIAM PAGE</STAGEDIR>
 <SPEAKER>First Servant</SPEAKER>
 <LINE>I hope not; I had as lief bear so much lead.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter FORD, PAGE, SHALLOW, DOCTOR CAIUS, and
 SIR HUGH EVANS</STAGEDIR>
@@ -5594,7 +5573,6 @@ SIR HUGH EVANS</STAGEDIR>
 <SPEAKER>FORD</SPEAKER>
 <LINE>Well said, brazen-face! hold it out. Come forth, sirrah!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Pulling clothes out of the basket</STAGEDIR>
 
@@ -5714,7 +5692,6 @@ SIR HUGH EVANS</STAGEDIR>
 <LINE>not strike the old woman.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter FALSTAFF in woman's clothes, and
 MISTRESS PAGE</STAGEDIR>
 
@@ -5731,7 +5708,6 @@ MISTRESS PAGE</STAGEDIR>
 <LINE>polecat, you runyon! out, out! I'll conjure you,</LINE>
 <LINE>I'll fortune-tell you.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit FALSTAFF</STAGEDIR>
 
@@ -5770,7 +5746,6 @@ MISTRESS PAGE</STAGEDIR>
 <LINE>Let's obey his humour a little further: come,</LINE>
 <LINE>gentlemen.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt FORD, PAGE, SHALLOW, DOCTOR CAIUS, and
 SIR HUGH EVANS</STAGEDIR>
@@ -5834,11 +5809,14 @@ SIR HUGH EVANS</STAGEDIR>
 <LINE>not have things cool.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  A room in the Garter Inn.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  A room in the Garter Inn.</TITLE>
+
 <STAGEDIR>Enter Host and BARDOLPH</STAGEDIR>
 
 <SPEECH>
@@ -5868,11 +5846,14 @@ SIR HUGH EVANS</STAGEDIR>
 <LINE>must come off; I'll sauce them. Come.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  A room in FORD'S house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  A room in FORD'S house.</TITLE>
+
 <STAGEDIR>Enter PAGE, FORD, MISTRESS PAGE, MISTRESS FORD,
 and SIR HUGH EVANS</STAGEDIR>
 
@@ -6062,7 +6043,6 @@ and SIR HUGH EVANS</STAGEDIR>
 <LINE>honest knaveries.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt PAGE, FORD, and SIR HUGH EVANS</STAGEDIR>
 
 <SPEECH>
@@ -6079,11 +6059,14 @@ and SIR HUGH EVANS</STAGEDIR>
 <LINE>Though twenty thousand worthier come to crave her.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  A room in the Garter Inn.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  A room in the Garter Inn.</TITLE>
+
 <STAGEDIR>Enter Host and SIMPLE</STAGEDIR>
 
 <SPEECH>
@@ -6134,7 +6117,6 @@ and SIR HUGH EVANS</STAGEDIR>
 <LINE>descend; my chambers are honourable: fie! privacy?</LINE>
 <LINE>fie!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter FALSTAFF</STAGEDIR>
 
@@ -6245,7 +6227,6 @@ and SIR HUGH EVANS</STAGEDIR>
 <LINE>with these tidings.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -6261,7 +6242,6 @@ and SIR HUGH EVANS</STAGEDIR>
 <LINE>and I paid nothing for it neither, but was paid for</LINE>
 <LINE>my learning.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter BARDOLPH</STAGEDIR>
 
@@ -6288,7 +6268,6 @@ and SIR HUGH EVANS</STAGEDIR>
 <LINE>They are gone but to meet the duke, villain: do not</LINE>
 <LINE>say they be fled; Germans are honest men.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter SIR HUGH EVANS</STAGEDIR>
 
@@ -6334,7 +6313,6 @@ and SIR HUGH EVANS</STAGEDIR>
 <LINE>come. I tell you for good vill: adieu.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -6342,7 +6320,6 @@ and SIR HUGH EVANS</STAGEDIR>
 <LINE>Hue and cry, villain, go! Assist me, knight. I am</LINE>
 <LINE>undone! Fly, run, hue and cry, villain! I am undone!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt Host and BARDOLPH</STAGEDIR>
 
@@ -6409,11 +6386,14 @@ and SIR HUGH EVANS</STAGEDIR>
 <LINE>Come up into my chamber.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VI.  Another room in the Garter Inn.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VI.  Another room in the Garter Inn.</TITLE>
+
 <STAGEDIR>Enter FENTON and Host</STAGEDIR>
 
 <SPEECH>
@@ -6502,15 +6482,20 @@ and SIR HUGH EVANS</STAGEDIR>
 <LINE>Besides, I'll make a present recompense.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT V</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  A room in the Garter Inn.</TITLE>
+<TITLE>ACT V</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  A room in the Garter Inn.</TITLE>
+
 <STAGEDIR>Enter FALSTAFF and MISTRESS QUICKLY</STAGEDIR>
 
 <SPEECH>
@@ -6564,11 +6549,14 @@ and SIR HUGH EVANS</STAGEDIR>
 <LINE>Strange things in hand, Master Brook! Follow.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Windsor Park.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Windsor Park.</TITLE>
+
 <STAGEDIR>Enter PAGE, SHALLOW, and SLENDER</STAGEDIR>
 
 <SPEECH>
@@ -6601,11 +6589,14 @@ and SIR HUGH EVANS</STAGEDIR>
 <LINE>Let's away; follow me.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  A street leading to the Park.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  A street leading to the Park.</TITLE>
+
 <STAGEDIR>Enter MISTRESS PAGE, MISTRESS FORD, and
 DOCTOR CAIUS</STAGEDIR>
 
@@ -6673,11 +6664,14 @@ DOCTOR CAIUS</STAGEDIR>
 <LINE>The hour draws on. To the oak, to the oak!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Windsor Park.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Windsor Park.</TITLE>
+
 <STAGEDIR>Enter SIR HUGH EVANS, disguised, with others as Fairies</STAGEDIR>
 
 <SPEECH>
@@ -6688,11 +6682,14 @@ DOCTOR CAIUS</STAGEDIR>
 <LINE>come, come; trib, trib.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  Another part of the Park.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  Another part of the Park.</TITLE>
+
 <STAGEDIR>Enter FALSTAFF disguised as Herne</STAGEDIR>
 
 <SPEECH>
@@ -6714,7 +6711,6 @@ DOCTOR CAIUS</STAGEDIR>
 <LINE>blame me to piss my tallow? Who comes here? my</LINE>
 <LINE>doe?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter MISTRESS FORD and MISTRESS PAGE</STAGEDIR>
 
@@ -6745,7 +6741,6 @@ DOCTOR CAIUS</STAGEDIR>
 <LINE>Why, now is Cupid a child of conscience; he makes</LINE>
 <LINE>restitution. As I am a true spirit, welcome!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Noise within</STAGEDIR>
 
@@ -6779,7 +6774,6 @@ DOCTOR CAIUS</STAGEDIR>
 <LINE>never else cross me thus.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter SIR HUGH EVANS, disguised as before; PISTOL,
 as Hobgoblin; MISTRESS QUICKLY, ANNE PAGE, and
 others, as Fairies, with tapers</STAGEDIR>
@@ -6807,7 +6801,6 @@ others, as Fairies, with tapers</STAGEDIR>
 <LINE>They are fairies; he that speaks to them shall die:</LINE>
 <LINE>I'll wink and couch: no man their works must eye.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Lies down upon his face</STAGEDIR>
 
@@ -6883,7 +6876,6 @@ others, as Fairies, with tapers</STAGEDIR>
 <SPEAKER>SIR HUGH EVANS</SPEAKER>
 <LINE>Come, will this wood take fire?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>They burn him with their tapers</STAGEDIR>
 
@@ -7093,7 +7085,6 @@ head, and rises</STAGEDIR>
 <LINE>daughter, she is, by this, Doctor Caius' wife.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter SLENDER</STAGEDIR>
 
 <SPEECH>
@@ -7160,7 +7151,6 @@ head, and rises</STAGEDIR>
 <LINE>now with the doctor at the deanery, and there married.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter DOCTOR CAIUS</STAGEDIR>
 
 <SPEECH>
@@ -7179,7 +7169,6 @@ head, and rises</STAGEDIR>
 <SPEAKER>DOCTOR CAIUS</SPEAKER>
 <LINE>Ay, by gar, and 'tis a boy: by gar, I'll raise all Windsor.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -7265,8 +7254,8 @@ head, and rises</STAGEDIR>
 <LINE>For he tonight shall lie with Mistress Ford.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 </ACT>
 </PLAY>

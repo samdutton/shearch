@@ -11,7 +11,6 @@
 <P>This work may be freely copied and distributed worldwide.</P>
 </FM>
 
-
 <PERSONAE>
 <TITLE>Dramatis Personae</TITLE>
 
@@ -42,7 +41,6 @@
 <PERSONA>JAMY</PERSONA>
 <GRPDESCR>Officers in King Henry's army.</GRPDESCR>
 </PGROUP>
-
 
 <PGROUP>
 <PERSONA>BATES</PERSONA>
@@ -83,9 +81,12 @@
 
 <PLAYSUBT>KING HENRY V</PLAYSUBT>
 
-<ACT><TITLE>ACT I</TITLE>
+<ACT>
+
+<TITLE>ACT I</TITLE>
 
 <PROLOGUE><TITLE>PROLOGUE</TITLE>
+
 <STAGEDIR>Enter Chorus</STAGEDIR>
 
 <SPEECH>
@@ -128,7 +129,10 @@
 <STAGEDIR>Exit</STAGEDIR>
 </PROLOGUE>
 
-<SCENE><TITLE>SCENE I.  London. An ante-chamber in the KING'S palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE I.  London. An ante-chamber in the KING'S palace.</TITLE>
+
 <STAGEDIR>Enter the ARCHBISHOP OF CANTERBURY, and the BISHOP OF ELY</STAGEDIR>
 
 <SPEECH>
@@ -321,11 +325,14 @@
 <LINE>I'll wait upon you, and I long to hear it.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The same. The Presence chamber.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The same. The Presence chamber.</TITLE>
+
 <STAGEDIR>Enter KING HENRY V, GLOUCESTER, BEDFORD, EXETER, WARWICK, WESTMORELAND, and Attendants</STAGEDIR>
 
 <SPEECH>
@@ -354,7 +361,6 @@
 <LINE>Before we hear him, of some things of weight</LINE>
 <LINE>That task our thoughts, concerning us and France.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter the ARCHBISHOP OF CANTERBURY, and the BISHOP of ELY</STAGEDIR>
 
@@ -747,7 +753,6 @@
 <LINE>Convey them with safe conduct. Fare you well.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt Ambassadors</STAGEDIR>
 
 <SPEECH>
@@ -771,12 +776,16 @@
 <LINE>That this fair action may on foot be brought.</LINE>
 </SPEECH>
 <STAGEDIR>Exeunt. Flourish</STAGEDIR>
+
 </SCENE>
 </ACT>
 
-<ACT><TITLE>ACT II</TITLE>
+<ACT>
+
+<TITLE>ACT II</TITLE>
 
 <PROLOGUE><TITLE>PROLOGUE</TITLE>
+
 <STAGEDIR>Enter Chorus</STAGEDIR>
 
 <SPEECH>
@@ -828,7 +837,10 @@
 <STAGEDIR>Exit</STAGEDIR>
 </PROLOGUE>
 
-<SCENE><TITLE>SCENE I.  London. A street.</TITLE>
+<SCENE>
+
+<TITLE>SCENE I.  London. A street.</TITLE>
+
 <STAGEDIR>Enter Corporal NYM and Lieutenant BARDOLPH</STAGEDIR>
 
 <SPEECH>
@@ -888,7 +900,6 @@
 <LINE>she will plod. There must be conclusions. Well, I</LINE>
 <LINE>cannot tell.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PISTOL and Hostess</STAGEDIR>
 
@@ -975,7 +986,6 @@
 <LINE>first stroke, I'll run him up to the hilts, as I am a soldier.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Draws</STAGEDIR>
 
 <SPEECH>
@@ -1004,7 +1014,6 @@
 <LINE>For the only she; and--pauca, there's enough. Go to.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter the Boy</STAGEDIR>
 
 <SPEECH>
@@ -1026,7 +1035,6 @@
 <LINE>these days. The king has killed his heart. Good</LINE>
 <LINE>husband, come home presently.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt Hostess and Boy</STAGEDIR>
 
@@ -1061,7 +1069,6 @@
 <SPEAKER>PISTOL</SPEAKER>
 <LINE>As manhood shall compound: push home.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>They draw</STAGEDIR>
 
@@ -1114,7 +1121,6 @@
 <LINE>Well, then, that's the humour of't.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter Hostess</STAGEDIR>
 
 <SPEECH>
@@ -1150,7 +1156,10 @@
 </SPEECH>
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Southampton. A council-chamber.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Southampton. A council-chamber.</TITLE>
+
 <STAGEDIR>Enter EXETER, BEDFORD, and WESTMORELAND</STAGEDIR>
 
 <SPEECH>
@@ -1183,7 +1192,6 @@
 <LINE>That he should, for a foreign purse, so sell</LINE>
 <LINE>His sovereign's life to death and treachery.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Trumpets sound. Enter KING HENRY V, SCROOP,
 CAMBRIDGE, GREY, and Attendants</STAGEDIR>
@@ -1473,11 +1481,14 @@ CAMBRIDGE, GREY, and Attendants</STAGEDIR>
 <LINE>No king of England, if not king of France.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  London. Before a tavern.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  London. Before a tavern.</TITLE>
+
 <STAGEDIR>Enter PISTOL, Hostess, NYM, BARDOLPH, and Boy</STAGEDIR>
 
 <SPEECH>
@@ -1613,7 +1624,6 @@ CAMBRIDGE, GREY, and Attendants</STAGEDIR>
 <LINE>Farewell, hostess.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Kissing her</STAGEDIR>
 
 <SPEECH>
@@ -1631,11 +1641,14 @@ CAMBRIDGE, GREY, and Attendants</STAGEDIR>
 <LINE>Farewell; adieu.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  France. The KING'S palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  France. The KING'S palace.</TITLE>
+
 <STAGEDIR>Flourish. Enter the FRENCH KING, the DAUPHIN, the
 DUKES of BERRI and BRETAGNE, the Constable, and others</STAGEDIR>
 
@@ -1726,7 +1739,6 @@ DUKES of BERRI and BRETAGNE, the Constable, and others</STAGEDIR>
 <LINE>The native mightiness and fate of him.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Messenger</STAGEDIR>
 
 <SPEECH>
@@ -1752,7 +1764,6 @@ DUKES of BERRI and BRETAGNE, the Constable, and others</STAGEDIR>
 <LINE>Self-love, my liege, is not so vile a sin</LINE>
 <LINE>As self-neglecting.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter Lords, with EXETER and train</STAGEDIR>
 
@@ -1877,12 +1888,16 @@ DUKES of BERRI and BRETAGNE, the Constable, and others</STAGEDIR>
 <LINE>To answer matters of this consequence.</LINE>
 </SPEECH>
 <STAGEDIR>Flourish. Exeunt</STAGEDIR>
+
 </SCENE>
 </ACT>
 
-<ACT><TITLE>ACT III</TITLE>
+<ACT>
+
+<TITLE>ACT III</TITLE>
 
 <PROLOGUE><TITLE>PROLOGUE.</TITLE>
+
 <STAGEDIR>Enter Chorus</STAGEDIR>
 
 <SPEECH>
@@ -1925,11 +1940,13 @@ DUKES of BERRI and BRETAGNE, the Constable, and others</STAGEDIR>
 <LINE>And eke out our performance with your mind.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 </PROLOGUE>
 
-<SCENE><TITLE>SCENE I.  France. Before Harfleur.</TITLE>
+<SCENE>
+
+<TITLE>SCENE I.  France. Before Harfleur.</TITLE>
+
 <STAGEDIR>Alarum. Enter KING HENRY, EXETER, BEDFORD,
 GLOUCESTER, and Soldiers, with scaling-ladders</STAGEDIR>
 
@@ -1971,11 +1988,14 @@ GLOUCESTER, and Soldiers, with scaling-ladders</STAGEDIR>
 <LINE>Cry 'God for Harry, England, and Saint George!'</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt. Alarum, and chambers go off</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The same.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The same.</TITLE>
+
 <STAGEDIR>Enter NYM, BARDOLPH, PISTOL, and Boy</STAGEDIR>
 
 <SPEECH>
@@ -2020,14 +2040,12 @@ GLOUCESTER, and Soldiers, with scaling-ladders</STAGEDIR>
 <LINE>As bird doth sing on bough.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter FLUELLEN</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>FLUELLEN</SPEAKER>
 <LINE>Up to the breach, you dogs! avaunt, you cullions!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Driving them forward</STAGEDIR>
 
@@ -2043,7 +2061,6 @@ GLOUCESTER, and Soldiers, with scaling-ladders</STAGEDIR>
 <SPEAKER>NYM</SPEAKER>
 <LINE>These be good humours! your honour wins bad humours.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt all but Boy</STAGEDIR>
 
@@ -2124,7 +2141,6 @@ GLOUCESTER, and Soldiers, with scaling-ladders</STAGEDIR>
 <LINE>directions in the true disciplines of the wars, look</LINE>
 <LINE>you, of the Roman disciplines, than is a puppy-dog.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter MACMORRIS and Captain JAMY</STAGEDIR>
 
@@ -2252,7 +2268,6 @@ GLOUCESTER, and Soldiers, with scaling-ladders</STAGEDIR>
 <LINE>A! that's a foul fault.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>A parley sounded</STAGEDIR>
 
 <SPEECH>
@@ -2268,11 +2283,14 @@ GLOUCESTER, and Soldiers, with scaling-ladders</STAGEDIR>
 <LINE>and there is an end.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The same. Before the gates.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The same. Before the gates.</TITLE>
+
 <STAGEDIR>The Governor and some Citizens on the walls; the
 English forces below. Enter KING HENRY and his train</STAGEDIR>
 
@@ -2346,11 +2364,14 @@ English forces below. Enter KING HENRY and his train</STAGEDIR>
 <LINE>To-morrow for the march are we addrest.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Flourish. The King and his train enter the town</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  The FRENCH KING's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  The FRENCH KING's palace.</TITLE>
+
 <STAGEDIR>Enter KATHARINE and ALICE</STAGEDIR>
 
 <SPEECH>
@@ -2548,11 +2569,14 @@ English forces below. Enter KING HENRY and his train</STAGEDIR>
 <LINE>C'est assez pour une fois: allons-nous a diner.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  The same.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  The same.</TITLE>
+
 <STAGEDIR>Enter the KING OF FRANCE, the DAUPHIN, the DUKE oF
 BOURBON, the Constable Of France, and others</STAGEDIR>
 
@@ -2673,11 +2697,14 @@ BOURBON, the Constable Of France, and others</STAGEDIR>
 <LINE>And quickly bring us word of England's fall.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VI.  The English camp in Picardy.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VI.  The English camp in Picardy.</TITLE>
+
 <STAGEDIR>Enter GOWER and FLUELLEN, meeting</STAGEDIR>
 
 <SPEECH>
@@ -2725,7 +2752,6 @@ BOURBON, the Constable Of France, and others</STAGEDIR>
 <SPEAKER>GOWER</SPEAKER>
 <LINE>I know him not.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PISTOL</STAGEDIR>
 
@@ -2816,7 +2842,6 @@ BOURBON, the Constable Of France, and others</STAGEDIR>
 <SPEAKER>PISTOL</SPEAKER>
 <LINE>The fig of Spain!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -2917,7 +2942,6 @@ BOURBON, the Constable Of France, and others</STAGEDIR>
 <LINE>gentler gamester is the soonest winner.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Tucket. Enter MONTJOY</STAGEDIR>
 
 <SPEECH>
@@ -3011,7 +3035,6 @@ BOURBON, the Constable Of France, and others</STAGEDIR>
 <LINE>I shall deliver so. Thanks to your highness.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -3027,11 +3050,14 @@ BOURBON, the Constable Of France, and others</STAGEDIR>
 <LINE>And on to-morrow, bid them march away.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VII.  The French camp, near Agincourt:</TITLE>
+<SCENE>
+
+<TITLE>SCENE VII.  The French camp, near Agincourt:</TITLE>
+
 <STAGEDIR>Enter the Constable of France, the LORD RAMBURES,
 ORLEANS, DAUPHIN, with others</STAGEDIR>
 
@@ -3271,7 +3297,6 @@ ORLEANS, DAUPHIN, with others</STAGEDIR>
 <LINE>'Tis midnight; I'll go arm myself.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -3391,7 +3416,6 @@ ORLEANS, DAUPHIN, with others</STAGEDIR>
 <LINE>'Tis not the first time you were overshot.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Messenger</STAGEDIR>
 
 <SPEECH>
@@ -3477,13 +3501,17 @@ ORLEANS, DAUPHIN, with others</STAGEDIR>
 <LINE>We shall have each a hundred Englishmen.</LINE>
 </SPEECH>
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT IV</TITLE>
+<ACT>
+
+<TITLE>ACT IV</TITLE>
 
 <PROLOGUE><TITLE>PROLOGUE.</TITLE>
+
 <STAGEDIR>Enter Chorus</STAGEDIR>
 <SPEECH>
 <SPEAKER>Chorus</SPEAKER>
@@ -3545,7 +3573,10 @@ ORLEANS, DAUPHIN, with others</STAGEDIR>
 <STAGEDIR>Exit</STAGEDIR>
 </PROLOGUE>
 
-<SCENE><TITLE>SCENE I.  The English camp at Agincourt.</TITLE>
+<SCENE>
+
+<TITLE>SCENE I.  The English camp at Agincourt.</TITLE>
+
 <STAGEDIR>Enter KING HENRY, BEDFORD, and GLOUCESTER</STAGEDIR>
 
 <SPEECH>
@@ -3611,14 +3642,12 @@ ORLEANS, DAUPHIN, with others</STAGEDIR>
 <LINE>The Lord in heaven bless thee, noble Harry!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt all but KING HENRY</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>KING HENRY V</SPEAKER>
 <LINE>God-a-mercy, old heart! thou speak'st cheerfully.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PISTOL</STAGEDIR>
 
@@ -3734,14 +3763,12 @@ ORLEANS, DAUPHIN, with others</STAGEDIR>
 <LINE>My name is Pistol call'd.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>KING HENRY V</SPEAKER>
 <LINE>It sorts well with your fierceness.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter FLUELLEN and GOWER</STAGEDIR>
 
@@ -3787,7 +3814,6 @@ ORLEANS, DAUPHIN, with others</STAGEDIR>
 <LINE>I pray you and beseech you that you will.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt GOWER and FLUELLEN</STAGEDIR>
 
 <SPEECH>
@@ -3795,7 +3821,6 @@ ORLEANS, DAUPHIN, with others</STAGEDIR>
 <LINE>Though it appear a little out of fashion,</LINE>
 <LINE>There is much care and valour in this Welshman.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter three soldiers, JOHN BATES, ALEXANDER COURT,
 and MICHAEL WILLIAMS</STAGEDIR>
@@ -4149,7 +4174,6 @@ and MICHAEL WILLIAMS</STAGEDIR>
 <LINE>Whose hours the peasant best advantages.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter ERPINGHAM</STAGEDIR>
 
 <SPEECH>
@@ -4169,7 +4193,6 @@ and MICHAEL WILLIAMS</STAGEDIR>
 <SPEAKER>ERPINGHAM</SPEAKER>
 <LINE>I shall do't, my lord.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -4194,7 +4217,6 @@ and MICHAEL WILLIAMS</STAGEDIR>
 <LINE>Imploring pardon.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter GLOUCESTER</STAGEDIR>
 
 <SPEECH>
@@ -4209,11 +4231,14 @@ and MICHAEL WILLIAMS</STAGEDIR>
 <LINE>The day, my friends and all things stay for me.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The French camp.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The French camp.</TITLE>
+
 <STAGEDIR>Enter the DAUPHIN, ORLEANS, RAMBURES, and others</STAGEDIR>
 
 <SPEECH>
@@ -4266,7 +4291,6 @@ and MICHAEL WILLIAMS</STAGEDIR>
 <LINE>How shall we, then, behold their natural tears?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter Messenger</STAGEDIR>
 
 <SPEECH>
@@ -4300,7 +4324,6 @@ and MICHAEL WILLIAMS</STAGEDIR>
 <LINE>For our approach shall so much dare the field</LINE>
 <LINE>That England shall couch down in fear and yield.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter GRANDPRE</STAGEDIR>
 
@@ -4346,11 +4369,14 @@ and MICHAEL WILLIAMS</STAGEDIR>
 <LINE>The sun is high, and we outwear the day.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The English camp.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The English camp.</TITLE>
+
 <STAGEDIR>Enter GLOUCESTER, BEDFORD, EXETER, ERPINGHAM, with
 all his host: SALISBURY and WESTMORELAND</STAGEDIR>
 
@@ -4396,7 +4422,6 @@ all his host: SALISBURY and WESTMORELAND</STAGEDIR>
 <LINE>For thou art framed of the firm truth of valour.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit SALISBURY</STAGEDIR>
 
 <SPEECH>
@@ -4404,7 +4429,6 @@ all his host: SALISBURY and WESTMORELAND</STAGEDIR>
 <LINE>He is full of valour as of kindness;</LINE>
 <LINE>Princely in both.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter the KING</STAGEDIR>
 
@@ -4469,7 +4493,6 @@ all his host: SALISBURY and WESTMORELAND</STAGEDIR>
 <LINE>That fought with us upon Saint Crispin's day.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter SALISBURY</STAGEDIR>
 
 <SPEECH>
@@ -4506,7 +4529,6 @@ all his host: SALISBURY and WESTMORELAND</STAGEDIR>
 <LINE>Which likes me better than to wish us one.</LINE>
 <LINE>You know your places: God be with you all!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Tucket. Enter MONTJOY</STAGEDIR>
 
@@ -4580,14 +4602,12 @@ all his host: SALISBURY and WESTMORELAND</STAGEDIR>
 <LINE>Thou never shalt hear herald any more.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>KING HENRY V</SPEAKER>
 <LINE>I fear thou'lt once more come again for ransom.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter YORK</STAGEDIR>
 
@@ -4603,11 +4623,14 @@ all his host: SALISBURY and WESTMORELAND</STAGEDIR>
 <LINE>And how thou pleasest, God, dispose the day!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  The field of battle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  The field of battle.</TITLE>
+
 <STAGEDIR>Alarum. Excursions. Enter PISTOL, French Soldier, and Boy</STAGEDIR>
 
 <SPEECH>
@@ -4807,11 +4830,14 @@ all his host: SALISBURY and WESTMORELAND</STAGEDIR>
 <LINE>none to guard it but boys.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  Another part of the field.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  Another part of the field.</TITLE>
+
 <STAGEDIR>Enter Constable, ORLEANS, BOURBON, DAUPHIN, and RAMBURES</STAGEDIR>
 
 <SPEECH>
@@ -4831,7 +4857,6 @@ all his host: SALISBURY and WESTMORELAND</STAGEDIR>
 <LINE>Sits mocking in our plumes. O merchante fortune!</LINE>
 <LINE>Do not run away.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>A short alarum</STAGEDIR>
 
@@ -4881,11 +4906,14 @@ all his host: SALISBURY and WESTMORELAND</STAGEDIR>
 <LINE>Let life be short; else shame will be too long.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VI.  Another part of the field.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VI.  Another part of the field.</TITLE>
+
 <STAGEDIR>Alarums. Enter KING HENRY and forces, EXETER, and others</STAGEDIR>
 
 <SPEECH>
@@ -4948,11 +4976,14 @@ all his host: SALISBURY and WESTMORELAND</STAGEDIR>
 <LINE>Give the word through.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VII.  Another part of the field.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VII.  Another part of the field.</TITLE>
+
 <STAGEDIR>Enter FLUELLEN and GOWER</STAGEDIR>
 
 <SPEECH>
@@ -5055,7 +5086,6 @@ all his host: SALISBURY and WESTMORELAND</STAGEDIR>
 <LINE>Here comes his majesty.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Alarum. Enter KING HENRY, and forces; WARWICK,
 GLOUCESTER, EXETER, and others</STAGEDIR>
 
@@ -5073,7 +5103,6 @@ GLOUCESTER, EXETER, and others</STAGEDIR>
 <LINE>And not a man of them that we shall take</LINE>
 <LINE>Shall taste our mercy. Go and tell them so.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter MONTJOY</STAGEDIR>
 
@@ -5200,7 +5229,6 @@ GLOUCESTER, EXETER, and others</STAGEDIR>
 <LINE>On both our parts. Call yonder fellow hither.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Points to WILLIAMS. Exeunt Heralds with Montjoy</STAGEDIR>
 
 <SPEECH>
@@ -5299,7 +5327,6 @@ GLOUCESTER, EXETER, and others</STAGEDIR>
 <LINE>I will, my liege.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -5342,7 +5369,6 @@ GLOUCESTER, EXETER, and others</STAGEDIR>
 <LINE>I will fetch him.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -5363,18 +5389,20 @@ GLOUCESTER, EXETER, and others</STAGEDIR>
 <LINE>Go you with me, uncle of Exeter.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VIII.  Before KING HENRY'S pavilion.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VIII.  Before KING HENRY'S pavilion.</TITLE>
+
 <STAGEDIR>Enter GOWER and WILLIAMS</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>WILLIAMS</SPEAKER>
 <LINE>I warrant it is to knight you, captain.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter FLUELLEN</STAGEDIR>
 
@@ -5399,7 +5427,6 @@ GLOUCESTER, EXETER, and others</STAGEDIR>
 <SPEAKER>WILLIAMS</SPEAKER>
 <LINE>I know this; and thus I challenge it.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Strikes him</STAGEDIR>
 
@@ -5437,7 +5464,6 @@ GLOUCESTER, EXETER, and others</STAGEDIR>
 <LINE>Duke Alencon's.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter WARWICK and GLOUCESTER</STAGEDIR>
 
 <SPEECH>
@@ -5452,7 +5478,6 @@ GLOUCESTER, EXETER, and others</STAGEDIR>
 <LINE>you, as you shall desire in a summer's day. Here is</LINE>
 <LINE>his majesty.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter KING HENRY and EXETER</STAGEDIR>
 
@@ -5559,7 +5584,6 @@ GLOUCESTER, EXETER, and others</STAGEDIR>
 <LINE>a good silling, I warrant you, or I will change it.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter an English Herald</STAGEDIR>
 
 <SPEECH>
@@ -5662,13 +5686,17 @@ GLOUCESTER, EXETER, and others</STAGEDIR>
 <LINE>Where ne'er from France arrived more happy men.</LINE>
 </SPEECH>
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT V</TITLE>
+<ACT>
+
+<TITLE>ACT V</TITLE>
 
 <PROLOGUE><TITLE>PROLOGUE.</TITLE>
+
 <STAGEDIR>Enter Chorus</STAGEDIR>
 
 <SPEECH>
@@ -5723,7 +5751,10 @@ GLOUCESTER, EXETER, and others</STAGEDIR>
 <STAGEDIR>Exit</STAGEDIR>
 </PROLOGUE>
 
-<SCENE><TITLE>SCENE I.  France. The English camp.</TITLE>
+<SCENE>
+
+<TITLE>SCENE I.  France. The English camp.</TITLE>
+
 <STAGEDIR>Enter FLUELLEN and GOWER</STAGEDIR>
 
 <SPEECH>
@@ -5747,7 +5778,6 @@ GLOUCESTER, EXETER, and others</STAGEDIR>
 <LINE>him once again, and then I will tell him a little</LINE>
 <LINE>piece of my desires.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter PISTOL</STAGEDIR>
 
@@ -5890,7 +5920,6 @@ GLOUCESTER, EXETER, and others</STAGEDIR>
 <LINE>cudgels. God b' wi' you, and keep you, and heal your pate.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -5913,7 +5942,6 @@ GLOUCESTER, EXETER, and others</STAGEDIR>
 <LINE>English condition. Fare ye well.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -5930,11 +5958,14 @@ GLOUCESTER, EXETER, and others</STAGEDIR>
 <LINE>And swear I got them in the Gallia wars.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  France. A royal palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  France. A royal palace.</TITLE>
+
 <STAGEDIR>Enter, at one door KING HENRY, EXETER, BEDFORD,
 GLOUCESTER, WARWICK, WESTMORELAND, and other Lords;
 at another, the FRENCH KING, QUEEN ISABEL, the
@@ -6095,7 +6126,6 @@ DUKE of BURGUNDY, and his train</STAGEDIR>
 <SPEAKER>QUEEN ISABEL</SPEAKER>
 <LINE>She hath good leave.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt all except HENRY, KATHARINE, and ALICE</STAGEDIR>
 
@@ -6443,7 +6473,6 @@ DUKE of BURGUNDY, and his train</STAGEDIR>
 <LINE>petition of monarchs. Here comes your father.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter the FRENCH KING and his QUEEN, BURGUNDY,
 and other Lords</STAGEDIR>
 
@@ -6620,7 +6649,6 @@ and other Lords</STAGEDIR>
 <LINE>That here I kiss her as my sovereign queen.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Flourish</STAGEDIR>
 
 <SPEECH>
@@ -6651,10 +6679,11 @@ and other Lords</STAGEDIR>
 <LINE>And may our oaths well kept and prosperous be!</LINE>
 </SPEECH>
 <STAGEDIR>Sennet. Exeunt</STAGEDIR>
+
 </SCENE>
 
-
 <EPILOGUE><TITLE>EPILOGUE</TITLE>
+
 <STAGEDIR>Enter Chorus</STAGEDIR>
 
 <SPEECH>
@@ -6674,7 +6703,6 @@ and other Lords</STAGEDIR>
 <LINE>Which oft our stage hath shown; and, for their sake,</LINE>
 <LINE>In your fair minds let this acceptance take.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 </EPILOGUE>

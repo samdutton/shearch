@@ -11,7 +11,6 @@
 <P>This work may be freely copied and distributed worldwide.</P>
 </FM>
 
-
 <PERSONAE>
 <TITLE>Dramatis Personae</TITLE>
 
@@ -49,9 +48,14 @@
 
 <PLAYSUBT>CORIOLANUS</PLAYSUBT>
 
-<ACT><TITLE>ACT I</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Rome. A street.</TITLE>
+<TITLE>ACT I</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Rome. A street.</TITLE>
+
 <STAGEDIR>Enter a company of mutinous Citizens, with staves,
 clubs, and other weapons</STAGEDIR>
 
@@ -174,7 +178,6 @@ clubs, and other weapons</STAGEDIR>
 <SPEAKER>First Citizen</SPEAKER>
 <LINE>Soft! who comes here?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter MENENIUS AGRIPPA</STAGEDIR>
 
@@ -517,7 +520,6 @@ clubs, and other weapons</STAGEDIR>
 <LINE>Go, get you home, you fragments!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Messenger, hastily</STAGEDIR>
 
 <SPEECH>
@@ -540,7 +542,6 @@ clubs, and other weapons</STAGEDIR>
 <LINE>I am glad on 't: then we shall ha' means to vent</LINE>
 <LINE>Our musty superfluity. See, our best elders.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter COMINIUS, TITUS LARTIUS, and other Senators;
 JUNIUS BRUTUS and SICINIUS VELUTUS</STAGEDIR>
@@ -634,7 +635,6 @@ JUNIUS BRUTUS and SICINIUS VELUTUS</STAGEDIR>
 <LINE>To gnaw their garners. Worshipful mutiners,</LINE>
 <LINE>Your valour puts well forth: pray, follow.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Citizens steal away. Exeunt all but SICINIUS
 and BRUTUS</STAGEDIR>
@@ -730,11 +730,14 @@ and BRUTUS</STAGEDIR>
 <LINE>Lets along.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Corioli. The Senate-house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Corioli. The Senate-house.</TITLE>
+
 <STAGEDIR>Enter TULLUS AUFIDIUS and certain Senators</STAGEDIR>
 
 <SPEECH>
@@ -829,11 +832,14 @@ and BRUTUS</STAGEDIR>
 <LINE>Farewell.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Rome. A room in Marcius' house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Rome. A room in Marcius' house.</TITLE>
+
 <STAGEDIR>Enter VOLUMNIA and VIRGILIA they set them down
 on two low stools, and sew</STAGEDIR>
 
@@ -873,7 +879,6 @@ on two low stools, and sew</STAGEDIR>
 <LINE>Marcius, I had rather had eleven die nobly for their</LINE>
 <LINE>country than one voluptuously surfeit out of action.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter a Gentlewoman</STAGEDIR>
 
@@ -916,7 +921,6 @@ on two low stools, and sew</STAGEDIR>
 <LINE>We are fit to bid her welcome.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit Gentlewoman</STAGEDIR>
 
 <SPEECH>
@@ -929,7 +933,6 @@ on two low stools, and sew</STAGEDIR>
 <LINE>He'll beat Aufidius 'head below his knee</LINE>
 <LINE>And tread upon his neck.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter VALERIA, with an Usher and Gentlewoman</STAGEDIR>
 
@@ -1121,11 +1124,14 @@ on two low stools, and sew</STAGEDIR>
 <LINE>Well, then, farewell.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Before Corioli.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Before Corioli.</TITLE>
+
 <STAGEDIR>Enter, with drum and colours, MARCIUS, TITUS
 LARTIUS, Captains and Soldiers. To them a
 Messenger</STAGEDIR>
@@ -1223,7 +1229,6 @@ on the walls</STAGEDIR>
 <LINE>Their noise be our instruction. Ladders, ho!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter the army of the Volsces</STAGEDIR>
 
 <SPEECH>
@@ -1237,7 +1242,6 @@ on the walls</STAGEDIR>
 <LINE>He that retires I'll take him for a Volsce,</LINE>
 <LINE>And he shall feel mine edge.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Alarum. The Romans are beat back to their
 trenches. Re-enter MARCIUS cursing</STAGEDIR>
@@ -1264,7 +1268,6 @@ follows them to the gates</STAGEDIR>
 <LINE>Not for the fliers: mark me, and do the like.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enters the gates</STAGEDIR>
 
 <SPEECH>
@@ -1276,7 +1279,6 @@ follows them to the gates</STAGEDIR>
 <SPEAKER>Second Soldier</SPEAKER>
 <LINE>Nor I.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>MARCIUS is shut in</STAGEDIR>
 
@@ -1325,7 +1327,6 @@ follows them to the gates</STAGEDIR>
 <LINE>Were feverous and did tremble.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter MARCIUS, bleeding, assaulted by the enemy</STAGEDIR>
 
 <SPEECH>
@@ -1339,11 +1340,14 @@ follows them to the gates</STAGEDIR>
 <LINE>Let's fetch him off, or make remain alike.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>They fight, and all enter the city</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  Corioli. A street.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  Corioli. A street.</TITLE>
+
 <STAGEDIR>Enter certain Romans, with spoils</STAGEDIR>
 
 <SPEECH>
@@ -1418,11 +1422,14 @@ follows them to the gates</STAGEDIR>
 <LINE>Where they shall know our mind: away!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VI.  Near the camp of Cominius.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VI.  Near the camp of Cominius.</TITLE>
+
 <STAGEDIR>Enter COMINIUS, as it were in retire,
 with soldiers</STAGEDIR>
 
@@ -1497,7 +1504,6 @@ with soldiers</STAGEDIR>
 <LINE>More than I know the sound of Marcius' tongue</LINE>
 <LINE>From every meaner man.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter MARCIUS</STAGEDIR>
 
@@ -1640,11 +1646,14 @@ their arms, and cast up their caps</STAGEDIR>
 <LINE>Divide in all with us.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VII.  The gates of Corioli.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VII.  The gates of Corioli.</TITLE>
+
 <STAGEDIR>TITUS LARTIUS, having set a guard upon
 Corioli, going with drum and trumpet toward
 COMINIUS and CAIUS MARCIUS, enters with
@@ -1670,11 +1679,14 @@ Lieutenant, other Soldiers, and a Scout</STAGEDIR>
 <LINE>Our guider, come; to the Roman camp conduct us.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VIII.  A field of battle.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VIII.  A field of battle.</TITLE>
+
 <STAGEDIR>Alarum as in battle. Enter, from opposite sides,
 MARCIUS and AUFIDIUS</STAGEDIR>
 
@@ -1724,11 +1736,14 @@ breathless</STAGEDIR>
 <LINE>In your condemned seconds.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IX.  The Roman camp.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IX.  The Roman camp.</TITLE>
+
 <STAGEDIR>Flourish. Alarum. A retreat is sounded. Flourish.
 Enter, from one side, COMINIUS with the Romans; from
 the other side, MARCIUS, with his arm in a scarf</STAGEDIR>
@@ -1748,7 +1763,6 @@ the other side, MARCIUS, with his arm in a scarf</STAGEDIR>
 <LINE>Yet camest thou to a morsel of this feast,</LINE>
 <LINE>Having fully dined before.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter TITUS LARTIUS, with his power,
 from the pursuit</STAGEDIR>
@@ -1811,7 +1825,6 @@ from the pursuit</STAGEDIR>
 <LINE>That have beheld the doing.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>A long flourish. They all cry 'Marcius! Marcius!'
 cast up their caps and lances: COMINIUS and LARTIUS
 stand bare</STAGEDIR>
@@ -1850,7 +1863,6 @@ stand bare</STAGEDIR>
 <LINE>CAIUS MARCIUS CORIOLANUS! Bear</LINE>
 <LINE>The addition nobly ever!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Flourish. Trumpets sound, and drums</STAGEDIR>
 
@@ -1932,11 +1944,14 @@ stand bare</STAGEDIR>
 <LINE>It should be look'd to: come.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE X.  The camp of the Volsces.</TITLE>
+<SCENE>
+
+<TITLE>SCENE X.  The camp of the Volsces.</TITLE>
+
 <STAGEDIR>A flourish. Cornets. Enter TULLUS AUFIDIUS,
 bloody, with two or three Soldiers</STAGEDIR>
 
@@ -2008,15 +2023,20 @@ bloody, with two or three Soldiers</STAGEDIR>
 <LINE>I shall, sir.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT II</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Rome. A public place.</TITLE>
+<TITLE>ACT II</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Rome. A public place.</TITLE>
+
 <STAGEDIR>Enter MENENIUS with the two Tribunes of the people,
 SICINIUS and BRUTUS.</STAGEDIR>
 
@@ -2406,7 +2426,6 @@ SICINIUS and BRUTUS.</STAGEDIR>
 <LINE>Which, being advanced, declines, and then men die.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>A sennet. Trumpets sound. Enter COMINIUS the
 general, and TITUS LARTIUS; between them, CORIOLANUS,
 crowned with an oaken garland; with Captains and
@@ -2420,7 +2439,6 @@ Soldiers, and a Herald</STAGEDIR>
 <LINE>In honour follows Coriolanus.</LINE>
 <LINE>Welcome to Rome, renowned Coriolanus!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Flourish</STAGEDIR>
 
@@ -2446,7 +2464,6 @@ Soldiers, and a Herald</STAGEDIR>
 <LINE>You have, I know, petition'd all the gods</LINE>
 <LINE>For my prosperity!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Kneels</STAGEDIR>
 
@@ -2544,7 +2561,6 @@ Soldiers, and a Herald</STAGEDIR>
 <SPEAKER>COMINIUS</SPEAKER>
 <LINE>On, to the Capitol!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Flourish. Cornets. Exeunt in state, as before.
 BRUTUS and SICINIUS come forward</STAGEDIR>
@@ -2670,7 +2686,6 @@ BRUTUS and SICINIUS come forward</STAGEDIR>
 <LINE>Shall darken him for ever.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Messenger</STAGEDIR>
 
 <SPEECH>
@@ -2703,11 +2718,14 @@ BRUTUS and SICINIUS come forward</STAGEDIR>
 <LINE>Have with you.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE  II.  The same. The Capitol.</TITLE>
+<SCENE>
+
+<TITLE>SCENE  II.  The same. The Capitol.</TITLE>
+
 <STAGEDIR>Enter two Officers, to lay cushions</STAGEDIR>
 
 <SPEECH>
@@ -2773,7 +2791,6 @@ BRUTUS and SICINIUS come forward</STAGEDIR>
 <LINE>No more of him; he is a worthy man: make way, they</LINE>
 <LINE>are coming.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>A sennet. Enter, with actors before them, COMINIUS
 the consul, MENENIUS, CORIOLANUS, Senators,
@@ -2890,7 +2907,6 @@ themselves. CORIOLANUS stands</STAGEDIR>
 <LINE>To hear my nothings monster'd.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -2984,7 +3000,6 @@ themselves. CORIOLANUS stands</STAGEDIR>
 <LINE>He doth appear.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter CORIOLANUS</STAGEDIR>
 
 <SPEECH>
@@ -3062,7 +3077,6 @@ themselves. CORIOLANUS stands</STAGEDIR>
 <LINE>To Coriolanus come all joy and honour!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Flourish of cornets. Exeunt all but SICINIUS
 and BRUTUS</STAGEDIR>
 
@@ -3085,11 +3099,14 @@ and BRUTUS</STAGEDIR>
 <LINE>I know, they do attend us.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The same. The Forum.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The same. The Forum.</TITLE>
+
 <STAGEDIR>Enter seven or eight Citizens</STAGEDIR>
 
 <SPEECH>
@@ -3186,7 +3203,6 @@ and BRUTUS</STAGEDIR>
 <LINE>Content, content.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt Citizens</STAGEDIR>
 
 <SPEECH>
@@ -3225,7 +3241,6 @@ and BRUTUS</STAGEDIR>
 <LINE>I'll leave you: pray you, speak to 'em, I pray you,</LINE>
 <LINE>In wholesome manner.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -3379,7 +3394,6 @@ and BRUTUS</STAGEDIR>
 <LINE>The gods give you joy, sir, heartily!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
 
 <SPEECH>
@@ -3424,14 +3438,12 @@ and BRUTUS</STAGEDIR>
 <LINE>Amen, amen. God save thee, noble consul!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>CORIOLANUS</SPEAKER>
 <LINE>Worthy voices!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter MENENIUS, with BRUTUS and SICINIUS</STAGEDIR>
 
@@ -3504,7 +3516,6 @@ and BRUTUS</STAGEDIR>
 <LINE>With a proud heart he wore his humble weeds.</LINE>
 <LINE>will you dismiss the people?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter Citizens</STAGEDIR>
 
@@ -3727,7 +3738,6 @@ and BRUTUS</STAGEDIR>
 <LINE>Repent in their election.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt Citizens</STAGEDIR>
 
 <SPEECH>
@@ -3748,15 +3758,20 @@ and BRUTUS</STAGEDIR>
 <LINE>Which we have goaded onward.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT III</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Rome. A street.</TITLE>
+<TITLE>ACT III</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Rome. A street.</TITLE>
+
 <STAGEDIR>Cornets. Enter CORIOLANUS, MENENIUS, all the
 Gentry, COMINIUS, TITUS LARTIUS, and other Senators</STAGEDIR>
 
@@ -4282,7 +4297,6 @@ Gentry, COMINIUS, TITUS LARTIUS, and other Senators</STAGEDIR>
 <LINE>Help, ye citizens!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a rabble of Citizens (Plebeians), with
 the AEdiles</STAGEDIR>
 
@@ -4473,7 +4487,6 @@ the AEdiles</STAGEDIR>
 <LINE>Down with him, down with him!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>In this mutiny, the Tribunes, the AEdiles, and the
 People, are beat in</STAGEDIR>
 
@@ -4563,7 +4576,6 @@ People, are beat in</STAGEDIR>
 <LINE>Nay, come away.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt CORIOLANUS, COMINIUS, and others</STAGEDIR>
 
 <SPEECH>
@@ -4593,7 +4605,6 @@ People, are beat in</STAGEDIR>
 <LINE>I would they were in Tiber! What the vengeance!</LINE>
 <LINE>Could he not speak 'em fair?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter BRUTUS and SICINIUS, with the rabble</STAGEDIR>
 
@@ -4823,11 +4834,14 @@ People, are beat in</STAGEDIR>
 <LINE>Pray you, let's to him.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  A room in CORIOLANUS'S house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  A room in CORIOLANUS'S house.</TITLE>
+
 <STAGEDIR>Enter CORIOLANUS with Patricians</STAGEDIR>
 
 <SPEECH>
@@ -4891,7 +4905,6 @@ People, are beat in</STAGEDIR>
 <SPEAKER>A Patrician</SPEAKER>
 <LINE>Ay, and burn too.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter MENENIUS and Senators</STAGEDIR>
 
@@ -5053,7 +5066,6 @@ People, are beat in</STAGEDIR>
 <LINE>Than flatter him in a bower. Here is Cominius.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter COMINIUS</STAGEDIR>
 
 <SPEECH>
@@ -5152,7 +5164,6 @@ People, are beat in</STAGEDIR>
 <LINE>Do your will.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -5180,11 +5191,14 @@ People, are beat in</STAGEDIR>
 <LINE>Well, mildly be it then. Mildly!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The same. The Forum.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The same. The Forum.</TITLE>
+
 <STAGEDIR>Enter SICINIUS and BRUTUS</STAGEDIR>
 
 <SPEECH>
@@ -5288,7 +5302,6 @@ People, are beat in</STAGEDIR>
 <LINE>Well, here he comes.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter CORIOLANUS, MENENIUS, and COMINIUS,
 with Senators and Patricians</STAGEDIR>
 
@@ -5316,7 +5329,6 @@ with Senators and Patricians</STAGEDIR>
 <SPEAKER>MENENIUS</SPEAKER>
 <LINE>A noble wish.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter AEdile, with Citizens</STAGEDIR>
 
@@ -5582,7 +5594,6 @@ with Senators and Patricians</STAGEDIR>
 <LINE>There is a world elsewhere.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt CORIOLANUS, COMINIUS, MENENIUS, Senators,
 and Patricians</STAGEDIR>
 
@@ -5595,7 +5606,6 @@ and Patricians</STAGEDIR>
 <SPEAKER>Citizens</SPEAKER>
 <LINE>Our enemy is banish'd! he is gone! Hoo! hoo!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Shouting, and throwing up their caps</STAGEDIR>
 
@@ -5613,15 +5623,20 @@ and Patricians</STAGEDIR>
 <LINE>The gods preserve our noble tribunes! Come.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT IV</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Rome. Before a gate of the city.</TITLE>
+<TITLE>ACT IV</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Rome. Before a gate of the city.</TITLE>
+
 <STAGEDIR>Enter CORIOLANUS, VOLUMNIA, VIRGILIA, MENENIUS,
 COMINIUS, with the young Nobility of Rome</STAGEDIR>
 
@@ -5733,11 +5748,14 @@ COMINIUS, with the young Nobility of Rome</STAGEDIR>
 <LINE>Give me thy hand: Come.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The same. A  street near the gate.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The same. A  street near the gate.</TITLE>
+
 <STAGEDIR>Enter SICINIUS, BRUTUS, and an AEdile</STAGEDIR>
 
 <SPEECH>
@@ -5787,7 +5805,6 @@ COMINIUS, with the young Nobility of Rome</STAGEDIR>
 <SPEAKER>BRUTUS</SPEAKER>
 <LINE>They have ta'en note of us: keep on your way.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter VOLUMNIA, VIRGILIA, and MENENIUS</STAGEDIR>
 
@@ -5940,11 +5957,14 @@ COMINIUS, with the young Nobility of Rome</STAGEDIR>
 <LINE>Fie, fie, fie!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  A highway between Rome and Antium.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  A highway between Rome and Antium.</TITLE>
+
 <STAGEDIR>Enter a Roman and a Volsce, meeting</STAGEDIR>
 
 <SPEECH>
@@ -6072,11 +6092,14 @@ COMINIUS, with the young Nobility of Rome</STAGEDIR>
 <LINE>Well, let us go together.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Antium. Before Aufidius's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Antium. Before Aufidius's house.</TITLE>
+
 <STAGEDIR>Enter CORIOLANUS in mean apparel, disguised
 and muffled</STAGEDIR>
 
@@ -6140,11 +6163,14 @@ and muffled</STAGEDIR>
 <LINE>I'll do his country service.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  The same. A hall in Aufidius's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  The same. A hall in Aufidius's house.</TITLE>
+
 <STAGEDIR>Music within. Enter a Servingman</STAGEDIR>
 
 <SPEECH>
@@ -6171,7 +6197,6 @@ and muffled</STAGEDIR>
 <LINE>Appear not like a guest.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter the first Servingman</STAGEDIR>
 
 <SPEECH>
@@ -6180,7 +6205,6 @@ and muffled</STAGEDIR>
 <LINE>Here's no place for you: pray, go to the door.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -6188,7 +6212,6 @@ and muffled</STAGEDIR>
 <LINE>I have deserved no better entertainment,</LINE>
 <LINE>In being Coriolanus.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter second Servingman</STAGEDIR>
 
@@ -6219,7 +6242,6 @@ and muffled</STAGEDIR>
 <LINE>Are you so brave? I'll have you talked with anon.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a third Servingman. The first meets him</STAGEDIR>
 
 <SPEECH>
@@ -6232,7 +6254,6 @@ and muffled</STAGEDIR>
 <LINE>A strange one as ever I looked on: I cannot get him</LINE>
 <LINE>out of the house: prithee, call my master to him.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Retires</STAGEDIR>
 
@@ -6278,7 +6299,6 @@ and muffled</STAGEDIR>
 <LINE>Follow your function, go, and batten on cold bits.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Pushes him away</STAGEDIR>
 
 <SPEECH>
@@ -6291,7 +6311,6 @@ and muffled</STAGEDIR>
 <SPEAKER>Second Servingman</SPEAKER>
 <LINE>And I shall.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -6361,7 +6380,6 @@ and muffled</STAGEDIR>
 <LINE>Here, sir: I'ld have beaten him like a dog, but for</LINE>
 <LINE>disturbing the lords within.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Retires</STAGEDIR>
 
@@ -6512,7 +6530,6 @@ and muffled</STAGEDIR>
 <LINE>Yet, Marcius, that was much. Your hand: most welcome!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt CORIOLANUS and AUFIDIUS. The two
 Servingmen come forward</STAGEDIR>
 
@@ -6589,7 +6606,6 @@ Servingmen come forward</STAGEDIR>
 <SPEAKER>First Servingman</SPEAKER>
 <LINE>Ay, and for an assault too.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter third Servingman</STAGEDIR>
 
@@ -6752,11 +6768,14 @@ Servingmen come forward</STAGEDIR>
 <LINE>In, in, in, in!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VI.  Rome. A public place.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VI.  Rome. A public place.</TITLE>
+
 <STAGEDIR>Enter SICINIUS and BRUTUS</STAGEDIR>
 
 <SPEECH>
@@ -6819,7 +6838,6 @@ Servingmen come forward</STAGEDIR>
 <LINE>Hear nothing from him.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter three or four Citizens</STAGEDIR>
 
 <SPEECH>
@@ -6864,7 +6882,6 @@ Servingmen come forward</STAGEDIR>
 <LINE>Farewell, farewell.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt Citizens</STAGEDIR>
 
 <SPEECH>
@@ -6904,7 +6921,6 @@ Servingmen come forward</STAGEDIR>
 <LINE>The gods have well prevented it, and Rome</LINE>
 <LINE>Sits safe and still without him.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter an AEdile</STAGEDIR>
 
@@ -6961,7 +6977,6 @@ Servingmen come forward</STAGEDIR>
 <SPEAKER>BRUTUS</SPEAKER>
 <LINE>Not possible.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter a Messenger</STAGEDIR>
 
@@ -7023,7 +7038,6 @@ Servingmen come forward</STAGEDIR>
 <LINE>Than violentest contrariety.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a second Messenger</STAGEDIR>
 
 <SPEECH>
@@ -7035,7 +7049,6 @@ Servingmen come forward</STAGEDIR>
 <LINE>O'erborne their way, consumed with fire, and took</LINE>
 <LINE>What lay before them.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter COMINIUS</STAGEDIR>
 
@@ -7177,7 +7190,6 @@ Servingmen come forward</STAGEDIR>
 <LINE>That Rome can make against them.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a troop of Citizens</STAGEDIR>
 
 <SPEECH>
@@ -7235,7 +7247,6 @@ Servingmen come forward</STAGEDIR>
 <LINE>O, ay, what else?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt COMINIUS and MENENIUS</STAGEDIR>
 
 <SPEECH>
@@ -7257,7 +7268,6 @@ Servingmen come forward</STAGEDIR>
 <SPEAKER>Second Citizen</SPEAKER>
 <LINE>So did we all. But, come, let's home.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt Citizens</STAGEDIR>
 
@@ -7282,11 +7292,14 @@ Servingmen come forward</STAGEDIR>
 <LINE>Pray, let us go.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VII.  A camp, at a small distance from Rome.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VII.  A camp, at a small distance from Rome.</TITLE>
+
 <STAGEDIR>Enter AUFIDIUS and his Lieutenant</STAGEDIR>
 
 <SPEECH>
@@ -7376,15 +7389,20 @@ Servingmen come forward</STAGEDIR>
 <LINE>Thou art poor'st of all; then shortly art thou mine.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT V</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Rome. A public place.</TITLE>
+<TITLE>ACT V</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Rome. A public place.</TITLE>
+
 <STAGEDIR>Enter MENENIUS, COMINIUS, SICINIUS, BRUTUS,
 and others</STAGEDIR>
 
@@ -7536,7 +7554,6 @@ and others</STAGEDIR>
 <LINE>Of my success.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -7565,11 +7582,14 @@ and others</STAGEDIR>
 <LINE>And with our fair entreaties haste them on.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Entrance of the Volscian camp before Rome. Two Sentinels on guard.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Entrance of the Volscian camp before Rome. Two Sentinels on guard.</TITLE>
+
 <STAGEDIR>Enter to them, MENENIUS</STAGEDIR>
 
 <SPEECH>
@@ -7722,7 +7742,6 @@ and others</STAGEDIR>
 <LINE>Nay, but, fellow, fellow,--</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter CORIOLANUS and AUFIDIUS</STAGEDIR>
 
 <SPEECH>
@@ -7787,7 +7806,6 @@ and others</STAGEDIR>
 <LINE>You keep a constant temper.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt CORIOLANUS and AUFIDIUS</STAGEDIR>
 
 <SPEECH>
@@ -7823,7 +7841,6 @@ and others</STAGEDIR>
 <LINE>as I was said to, Away!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -7837,11 +7854,14 @@ and others</STAGEDIR>
 <LINE>oak not to be wind-shaken.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  The tent of Coriolanus.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  The tent of Coriolanus.</TITLE>
+
 <STAGEDIR>Enter CORIOLANUS, AUFIDIUS, and others</STAGEDIR>
 
 <SPEECH>
@@ -7940,7 +7960,6 @@ leading young MARCIUS, VALERIA, and Attendants</STAGEDIR>
 <LINE>Show duty, as mistaken all this while</LINE>
 <LINE>Between the child and parent.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Kneels</STAGEDIR>
 
@@ -8089,7 +8108,6 @@ leading young MARCIUS, VALERIA, and Attendants</STAGEDIR>
 <LINE>I have sat too long.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Rising</STAGEDIR>
 
 <SPEECH>
@@ -8148,7 +8166,6 @@ leading young MARCIUS, VALERIA, and Attendants</STAGEDIR>
 <LINE>And then I'll speak a little.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>He holds her by the hand, silent</STAGEDIR>
 
 <SPEECH>
@@ -8190,7 +8207,6 @@ leading young MARCIUS, VALERIA, and Attendants</STAGEDIR>
 <LINE>Myself a former fortune.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>The Ladies make signs to CORIOLANUS</STAGEDIR>
 
 <SPEECH>
@@ -8206,11 +8222,14 @@ leading young MARCIUS, VALERIA, and Attendants</STAGEDIR>
 <LINE>Could not have made this peace.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Rome. A public place.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Rome. A public place.</TITLE>
+
 <STAGEDIR>Enter MENENIUS and SICINIUS</STAGEDIR>
 
 <SPEECH>
@@ -8292,7 +8311,6 @@ leading young MARCIUS, VALERIA, and Attendants</STAGEDIR>
 <LINE>and, he returning to break our necks, they respect not us.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Messenger</STAGEDIR>
 
 <SPEECH>
@@ -8303,7 +8321,6 @@ leading young MARCIUS, VALERIA, and Attendants</STAGEDIR>
 <LINE>The Roman ladies bring not comfort home,</LINE>
 <LINE>They'll give him death by inches.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter a second Messenger</STAGEDIR>
 
@@ -8338,7 +8355,6 @@ leading young MARCIUS, VALERIA, and Attendants</STAGEDIR>
 <LINE>Make the sun dance. Hark you!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>A shout within</STAGEDIR>
 
 <SPEECH>
@@ -8351,7 +8367,6 @@ leading young MARCIUS, VALERIA, and Attendants</STAGEDIR>
 <LINE>This morning for ten thousand of your throats</LINE>
 <LINE>I'd not have given a doit. Hark, how they joy!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Music still, with shouts</STAGEDIR>
 
@@ -8383,11 +8398,14 @@ leading young MARCIUS, VALERIA, and Attendants</STAGEDIR>
 <LINE>And help the joy.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  The same. A street near the gate.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  The same. A street near the gate.</TITLE>
+
 <STAGEDIR>Enter two Senators with VOLUMNIA, VIRGILIA,
 VALERIA, &amp;c. passing over the stage,
 followed by Patricians and others</STAGEDIR>
@@ -8407,11 +8425,14 @@ followed by Patricians and others</STAGEDIR>
 <LINE>Welcome, ladies, Welcome!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>A flourish with drums and trumpets. Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VI.  Antium. A public place.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VI.  Antium. A public place.</TITLE>
+
 <STAGEDIR>Enter TULLUS AUFIDIUS, with Attendants</STAGEDIR>
 
 <SPEECH>
@@ -8516,7 +8537,6 @@ followed by Patricians and others</STAGEDIR>
 <LINE>And I'll renew me in his fall. But, hark!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Drums and trumpets sound, with great shouts of
 the People</STAGEDIR>
 
@@ -8549,7 +8569,6 @@ the People</STAGEDIR>
 <LINE>Say no more:</LINE>
 <LINE>Here come the lords.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter the Lords of the city</STAGEDIR>
 
@@ -8585,7 +8604,6 @@ the People</STAGEDIR>
 <SPEAKER>AUFIDIUS</SPEAKER>
 <LINE>He approaches: you shall hear him.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter CORIOLANUS, marching with drum and
 colours; commoners being with him</STAGEDIR>
@@ -8740,7 +8758,6 @@ colours; commoners being with him</STAGEDIR>
 <LINE>Kill, kill, kill, kill, kill him!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>The Conspirators draw, and kill CORIOLANUS:
 AUFIDIUS stands on his body</STAGEDIR>
 
@@ -8808,9 +8825,9 @@ AUFIDIUS stands on his body</STAGEDIR>
 <LINE>Yet he shall have a noble memory. Assist.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt, bearing the body of CORIOLANUS. A dead
 march sounded</STAGEDIR>
+
 </SCENE>
 </ACT>
 </PLAY>

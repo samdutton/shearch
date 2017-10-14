@@ -11,7 +11,6 @@
 <P>This work may be freely copied and distributed worldwide.</P>
 </FM>
 
-
 <PERSONAE>
 <TITLE>Dramatis Personae</TITLE>
 
@@ -48,9 +47,14 @@
 
 <PLAYSUBT>MEASURE FOR MEASURE</PLAYSUBT>
 
-<ACT><TITLE>ACT I</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  An apartment in the DUKE'S palace.</TITLE>
+<TITLE>ACT I</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  An apartment in the DUKE'S palace.</TITLE>
+
 <STAGEDIR>Enter DUKE VINCENTIO, ESCALUS, Lords and
 Attendants</STAGEDIR>
 
@@ -99,7 +103,6 @@ Attendants</STAGEDIR>
 <SPEAKER>DUKE VINCENTIO</SPEAKER>
 <LINE>Look where he comes.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter ANGELO</STAGEDIR>
 
@@ -194,7 +197,6 @@ Attendants</STAGEDIR>
 <LINE>I thank you. Fare you well.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -218,11 +220,14 @@ Attendants</STAGEDIR>
 <LINE>I'll wait upon your honour.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  A Street.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  A Street.</TITLE>
+
 <STAGEDIR>Enter LUCIO and two Gentlemen</STAGEDIR>
 
 <SPEECH>
@@ -389,7 +394,6 @@ Attendants</STAGEDIR>
 <LINE>impiety has made a feast of thee.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter MISTRESS OVERDONE</STAGEDIR>
 
 <SPEECH>
@@ -459,7 +463,6 @@ Attendants</STAGEDIR>
 <SPEAKER>LUCIO</SPEAKER>
 <LINE>Away! let's go learn the truth of it.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt LUCIO and Gentlemen</STAGEDIR>
 
@@ -589,7 +592,6 @@ Attendants</STAGEDIR>
 <LINE>The words of heaven; on whom it will, it will;</LINE>
 <LINE>On whom it will not, so; yet still 'tis just.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter LUCIO and two Gentlemen</STAGEDIR>
 
@@ -746,11 +748,14 @@ Attendants</STAGEDIR>
 <LINE>Come, officer, away!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  A monastery.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  A monastery.</TITLE>
+
 <STAGEDIR>Enter DUKE VINCENTIO and FRIAR THOMAS</STAGEDIR>
 
 <SPEECH>
@@ -838,11 +843,14 @@ Attendants</STAGEDIR>
 <LINE>If power change purpose, what our seemers be.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  A nunnery.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  A nunnery.</TITLE>
+
 <STAGEDIR>Enter ISABELLA and FRANCISCA</STAGEDIR>
 
 <SPEECH>
@@ -884,14 +892,12 @@ Attendants</STAGEDIR>
 <LINE>He calls again; I pray you, answer him.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>ISABELLA</SPEAKER>
 <LINE>Peace and prosperity! Who is't that calls</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter LUCIO</STAGEDIR>
 
@@ -1082,15 +1088,20 @@ Attendants</STAGEDIR>
 <LINE>Good sir, adieu.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT II</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  A hall In ANGELO's house.</TITLE>
+<TITLE>ACT II</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  A hall In ANGELO's house.</TITLE>
+
 <STAGEDIR>Enter ANGELO, ESCALUS, and a Justice, Provost,
 Officers, and other Attendants, behind</STAGEDIR>
 
@@ -1161,7 +1172,6 @@ Officers, and other Attendants, behind</STAGEDIR>
 <LINE>For that's the utmost of his pilgrimage.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit Provost</STAGEDIR>
 
 <SPEECH>
@@ -1171,7 +1181,6 @@ Officers, and other Attendants, behind</STAGEDIR>
 <LINE>Some run from brakes of ice, and answer none:</LINE>
 <LINE>And some condemned for a fault alone.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter ELBOW, and Officers with FROTH and POMPEY</STAGEDIR>
 
@@ -1745,7 +1754,6 @@ Officers, and other Attendants, behind</STAGEDIR>
 <LINE>The valiant heart is not whipt out of his trade.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -1838,11 +1846,14 @@ Officers, and other Attendants, behind</STAGEDIR>
 <LINE>Come, sir.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Another room in the same.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Another room in the same.</TITLE>
+
 <STAGEDIR>Enter Provost and a Servant</STAGEDIR>
 
 <SPEECH>
@@ -1861,7 +1872,6 @@ Officers, and other Attendants, behind</STAGEDIR>
 <LINE>All sects, all ages smack of this vice; and he</LINE>
 <LINE>To die for't!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter ANGELO</STAGEDIR>
 
@@ -1909,7 +1919,6 @@ Officers, and other Attendants, behind</STAGEDIR>
 <LINE>To some more fitter place, and that with speed.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter Servant</STAGEDIR>
 
 <SPEECH>
@@ -1938,7 +1947,6 @@ Officers, and other Attendants, behind</STAGEDIR>
 <LINE>Let have needful, but not lavish, means;</LINE>
 <LINE>There shall be order for't.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter ISABELLA and LUCIO</STAGEDIR>
 
@@ -2336,7 +2344,6 @@ Officers, and other Attendants, behind</STAGEDIR>
 <LINE>'Save your honour!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt ISABELLA, LUCIO, and Provost</STAGEDIR>
 
 <SPEECH>
@@ -2370,11 +2377,14 @@ Officers, and other Attendants, behind</STAGEDIR>
 <LINE>When men were fond, I smiled and wonder'd how.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  A room in a prison.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  A room in a prison.</TITLE>
+
 <STAGEDIR>Enter, severally, DUKE VINCENTIO disguised as a
 friar, and Provost</STAGEDIR>
 
@@ -2499,7 +2509,6 @@ friar, and Provost</STAGEDIR>
 <LINE>Grace go with you, Benedicite!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -2514,11 +2523,14 @@ friar, and Provost</STAGEDIR>
 <LINE>'Tis pity of him.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  A room in ANGELO's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  A room in ANGELO's house.</TITLE>
+
 <STAGEDIR>Enter ANGELO</STAGEDIR>
 
 <SPEECH>
@@ -2894,7 +2906,6 @@ friar, and Provost</STAGEDIR>
 <LINE>Say what you can, my false o'erweighs your true.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -2918,15 +2929,20 @@ friar, and Provost</STAGEDIR>
 <LINE>And fit his mind to death, for his soul's rest.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT III</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  A room in the prison.</TITLE>
+<TITLE>ACT III</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  A room in the prison.</TITLE>
+
 <STAGEDIR>Enter DUKE VINCENTIO disguised as before, CLAUDIO,
 and Provost</STAGEDIR>
 
@@ -3010,7 +3026,6 @@ and Provost</STAGEDIR>
 <LINE>Most holy sir, I thank you.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter ISABELLA</STAGEDIR>
 
 <SPEECH>
@@ -3037,7 +3052,6 @@ and Provost</STAGEDIR>
 <SPEAKER>DUKE VINCENTIO</SPEAKER>
 <LINE>Bring me to hear them speak, where I may be concealed.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt DUKE VINCENTIO and Provost</STAGEDIR>
 
@@ -3294,7 +3308,6 @@ and Provost</STAGEDIR>
 <LINE>O hear me, Isabella!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter DUKE VINCENTIO</STAGEDIR>
 
 <SPEECH>
@@ -3319,7 +3332,6 @@ and Provost</STAGEDIR>
 <LINE>I have no superfluous leisure; my stay must be</LINE>
 <LINE>stolen out of other affairs; but I will attend you awhile.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Walks apart</STAGEDIR>
 
@@ -3351,7 +3363,6 @@ and Provost</STAGEDIR>
 <LINE>Provost, a word with you!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter Provost</STAGEDIR>
 
 <SPEECH>
@@ -3370,7 +3381,6 @@ and Provost</STAGEDIR>
 <SPEAKER>Provost</SPEAKER>
 <LINE>In good time.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit Provost. ISABELLA comes forward</STAGEDIR>
 
@@ -3526,11 +3536,14 @@ and Provost</STAGEDIR>
 <LINE>I thank you for this comfort. Fare you well, good father.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt severally</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The street before the prison.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The street before the prison.</TITLE>
+
 <STAGEDIR>Enter, on one side, DUKE VINCENTIO disguised as
 before; on the other, ELBOW, and Officers with POMPEY</STAGEDIR>
 
@@ -3625,7 +3638,6 @@ before; on the other, ELBOW, and Officers with POMPEY</STAGEDIR>
 <LINE>I spy comfort; I cry bail. Here's a gentleman and a</LINE>
 <LINE>friend of mine.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter LUCIO</STAGEDIR>
 
@@ -3974,7 +3986,6 @@ before; on the other, ELBOW, and Officers with POMPEY</STAGEDIR>
 <LINE>bread and garlic: say that I said so. Farewell.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -3985,7 +3996,6 @@ before; on the other, ELBOW, and Officers with POMPEY</STAGEDIR>
 <LINE>Can tie the gall up in the slanderous tongue?</LINE>
 <LINE>But who comes here?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter ESCALUS, Provost, and Officers with MISTRESS OVERDONE</STAGEDIR>
 
@@ -4166,15 +4176,20 @@ before; on the other, ELBOW, and Officers with POMPEY</STAGEDIR>
 <LINE>And perform an old contracting.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT IV</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  The moated grange at ST. LUKE's.</TITLE>
+<TITLE>ACT IV</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  The moated grange at ST. LUKE's.</TITLE>
+
 <STAGEDIR>Enter MARIANA and a Boy</STAGEDIR>
 <STAGEDIR>Boy sings</STAGEDIR>
 <SPEECH><SPEAKER></SPEAKER>
@@ -4214,7 +4229,6 @@ before; on the other, ELBOW, and Officers with POMPEY</STAGEDIR>
 <LINE>I have sat here all day.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter ISABELLA</STAGEDIR>
 
 <SPEECH>
@@ -4228,7 +4242,6 @@ before; on the other, ELBOW, and Officers with POMPEY</STAGEDIR>
 <SPEAKER>MARIANA</SPEAKER>
 <LINE>I am always bound to you.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -4318,7 +4331,6 @@ before; on the other, ELBOW, and Officers with POMPEY</STAGEDIR>
 <LINE>Will't please you walk aside?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt MARIANA and ISABELLA</STAGEDIR>
 
 <SPEECH>
@@ -4367,11 +4379,14 @@ before; on the other, ELBOW, and Officers with POMPEY</STAGEDIR>
 <LINE>Our corn's to reap, for yet our tithe's to sow.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  A room in the prison.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  A room in the prison.</TITLE>
+
 <STAGEDIR>Enter Provost and POMPEY</STAGEDIR>
 
 <SPEECH>
@@ -4412,7 +4427,6 @@ before; on the other, ELBOW, and Officers with POMPEY</STAGEDIR>
 <LINE>What, ho! Abhorson! Where's Abhorson, there?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter ABHORSON</STAGEDIR>
 
 <SPEECH>
@@ -4439,7 +4453,6 @@ before; on the other, ELBOW, and Officers with POMPEY</STAGEDIR>
 <LINE>Go to, sir; you weigh equally; a feather will turn</LINE>
 <LINE>the scale.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -4482,7 +4495,6 @@ before; on the other, ELBOW, and Officers with POMPEY</STAGEDIR>
 <LINE>thief thinks it little enough: so every true man's</LINE>
 <LINE>apparel fits your thief.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter Provost</STAGEDIR>
 
@@ -4611,7 +4623,6 @@ before; on the other, ELBOW, and Officers with POMPEY</STAGEDIR>
 <LINE>That wounds the unsisting postern with these strokes.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter Provost</STAGEDIR>
 
 <SPEECH>
@@ -4668,7 +4679,6 @@ before; on the other, ELBOW, and Officers with POMPEY</STAGEDIR>
 <SPEAKER>Provost</SPEAKER>
 <LINE>I shall obey him.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit Messenger</STAGEDIR>
 
@@ -4889,11 +4899,14 @@ before; on the other, ELBOW, and Officers with POMPEY</STAGEDIR>
 <LINE>Come away; it is almost clear dawn.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Another room in the same.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Another room in the same.</TITLE>
+
 <STAGEDIR>Enter POMPEY</STAGEDIR>
 
 <SPEECH>
@@ -4918,7 +4931,6 @@ before; on the other, ELBOW, and Officers with POMPEY</STAGEDIR>
 <LINE>Pots, and, I think, forty more; all great doers in</LINE>
 <LINE>our trade, and are now 'for the Lord's sake.'</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter ABHORSON</STAGEDIR>
 
@@ -4986,7 +4998,6 @@ before; on the other, ELBOW, and Officers with POMPEY</STAGEDIR>
 <LINE>Very ready, sir.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter BARNARDINE</STAGEDIR>
 
 <SPEECH>
@@ -5018,7 +5029,6 @@ before; on the other, ELBOW, and Officers with POMPEY</STAGEDIR>
 <LINE>Look you, sir; here comes your ghostly father: do</LINE>
 <LINE>we jest now, think you?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter DUKE VINCENTIO disguised as before</STAGEDIR>
 
@@ -5059,7 +5069,6 @@ before; on the other, ELBOW, and Officers with POMPEY</STAGEDIR>
 <LINE>Not a word: if you have any thing to say to me,</LINE>
 <LINE>come to my ward; for thence will not I to-day.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -5143,7 +5152,6 @@ before; on the other, ELBOW, and Officers with POMPEY</STAGEDIR>
 <LINE>We shall proceed with Angelo.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter Provost</STAGEDIR>
 
 <SPEECH>
@@ -5163,7 +5171,6 @@ before; on the other, ELBOW, and Officers with POMPEY</STAGEDIR>
 <LINE>I'll make all speed.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -5179,7 +5186,6 @@ before; on the other, ELBOW, and Officers with POMPEY</STAGEDIR>
 <LINE>To make her heavenly comforts of despair,</LINE>
 <LINE>When it is least expected.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter ISABELLA</STAGEDIR>
 
@@ -5271,7 +5277,6 @@ before; on the other, ELBOW, and Officers with POMPEY</STAGEDIR>
 <LINE>If I pervert your course. Who's here?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter LUCIO</STAGEDIR>
 
 <SPEECH>
@@ -5295,7 +5300,6 @@ before; on the other, ELBOW, and Officers with POMPEY</STAGEDIR>
 <LINE>if the old fantastical duke of dark corners had been</LINE>
 <LINE>at home, he had lived.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit ISABELLA</STAGEDIR>
 
@@ -5356,11 +5360,14 @@ before; on the other, ELBOW, and Officers with POMPEY</STAGEDIR>
 <LINE>it. Nay, friar, I am a kind of burr; I shall stick.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  A room in ANGELO's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  A room in ANGELO's house.</TITLE>
+
 <STAGEDIR>Enter ANGELO and ESCALUS</STAGEDIR>
 
 <SPEECH>
@@ -5430,11 +5437,14 @@ before; on the other, ELBOW, and Officers with POMPEY</STAGEDIR>
 <LINE>Nothing goes right: we would, and we would not.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  Fields without the town.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  Fields without the town.</TITLE>
+
 <STAGEDIR>Enter DUKE VINCENTIO in his own habit, and FRIAR PETER</STAGEDIR>
 
 <SPEECH>
@@ -5467,11 +5477,14 @@ before; on the other, ELBOW, and Officers with POMPEY</STAGEDIR>
 <LINE>Will greet us here anon, my gentle Varrius.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VI.  Street near the city gate.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VI.  Street near the city gate.</TITLE>
+
 <STAGEDIR>Enter ISABELLA and MARIANA</STAGEDIR>
 
 <SPEECH>
@@ -5505,7 +5518,6 @@ before; on the other, ELBOW, and Officers with POMPEY</STAGEDIR>
 <LINE>O, peace! the friar is come.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter FRIAR PETER</STAGEDIR>
 
 <SPEECH>
@@ -5518,15 +5530,20 @@ before; on the other, ELBOW, and Officers with POMPEY</STAGEDIR>
 <LINE>The duke is entering: therefore, hence, away!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT V</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  The city gate.</TITLE>
+<TITLE>ACT V</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  The city gate.</TITLE>
+
 <STAGEDIR>MARIANA veiled, ISABELLA, and FRIAR PETER, at their
 stand. Enter DUKE VINCENTIO, VARRIUS, Lords,
 ANGELO, ESCALUS, LUCIO, Provost, Officers, and
@@ -5571,7 +5588,6 @@ Citizens, at several doors</STAGEDIR>
 <LINE>You must walk by us on our other hand;</LINE>
 <LINE>And good supporters are you.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>FRIAR PETER and ISABELLA come forward</STAGEDIR>
 
@@ -6223,7 +6239,6 @@ Citizens, at several doors</STAGEDIR>
 <LINE>That's the way; for women are light at midnight.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter Officers with ISABELLA; and Provost with
 the DUKE VINCENTIO in his friar's habit</STAGEDIR>
 
@@ -6413,7 +6428,6 @@ the DUKE VINCENTIO in his friar's habit</STAGEDIR>
 <LINE>Will't not off?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Pulls off the friar's hood, and discovers DUKE
 VINCENTIO</STAGEDIR>
 
@@ -6474,7 +6488,6 @@ VINCENTIO</STAGEDIR>
 <LINE>Return him here again. Go with him, provost.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt ANGELO, MARIANA, FRIAR PETER and Provost</STAGEDIR>
 
 <SPEECH>
@@ -6520,7 +6533,6 @@ VINCENTIO</STAGEDIR>
 <SPEAKER>ISABELLA</SPEAKER>
 <LINE>I do, my lord.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter ANGELO, MARIANA, FRIAR PETER, and Provost</STAGEDIR>
 
@@ -6578,7 +6590,6 @@ VINCENTIO</STAGEDIR>
 <SPEAKER>MARIANA</SPEAKER>
 <LINE>Gentle my liege,--</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Kneeling</STAGEDIR>
 
@@ -6698,7 +6709,6 @@ VINCENTIO</STAGEDIR>
 <LINE>Go fetch him hither; let me look upon him.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit Provost</STAGEDIR>
 
 <SPEECH>
@@ -6716,7 +6726,6 @@ VINCENTIO</STAGEDIR>
 <LINE>That I crave death more willingly than mercy;</LINE>
 <LINE>'Tis my deserving, and I do entreat it.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter Provost, with BARNARDINE, CLAUDIO muffled,
 and JULIET</STAGEDIR>
@@ -6749,7 +6758,6 @@ and JULIET</STAGEDIR>
 <LINE>Who should have died when Claudio lost his head;</LINE>
 <LINE>As like almost to Claudio as himself.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Unmuffles CLAUDIO</STAGEDIR>
 
@@ -6832,8 +6840,8 @@ and JULIET</STAGEDIR>
 <LINE>What's yet behind, that's meet you all should know.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 </ACT>
 </PLAY>

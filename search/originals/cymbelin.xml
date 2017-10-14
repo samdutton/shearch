@@ -11,7 +11,6 @@
 <P>This work may be freely copied and distributed worldwide.</P>
 </FM>
 
-
 <PERSONAE>
 <TITLE>Dramatis Personae</TITLE>
 
@@ -25,7 +24,6 @@
 <PERSONA>ARVIRAGUS</PERSONA>
 <GRPDESCR>sons to Cymbeline, disguised under the names of Polydote and Cadwal, supposed sons to Morgan.</GRPDESCR>
 </PGROUP>
-
 
 <PGROUP>
 <PERSONA>PHILARIO, friend to Posthumus</PERSONA>
@@ -53,9 +51,14 @@
 
 <PLAYSUBT>CYMBELINE</PLAYSUBT>
 
-<ACT><TITLE>ACT I</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Britain. The garden of Cymbeline's palace.</TITLE>
+<TITLE>ACT I</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Britain. The garden of Cymbeline's palace.</TITLE>
+
 <STAGEDIR>Enter two Gentlemen</STAGEDIR>
 
 <SPEECH>
@@ -245,7 +248,6 @@
 <LINE>Hath charged you should not speak together.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -276,7 +278,6 @@
 <LINE>Though ink be made of gall.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter QUEEN</STAGEDIR>
 
 <SPEECH>
@@ -290,7 +291,6 @@
 <LINE>But he does buy my injuries, to be friends;</LINE>
 <LINE>Pays dear for my offences.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -327,7 +327,6 @@
 <LINE>Upon this fairest prisoner.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Putting a bracelet upon her arm</STAGEDIR>
 
 <SPEECH>
@@ -335,7 +334,6 @@
 <LINE>O the gods!</LINE>
 <LINE>When shall we see again?</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter CYMBELINE and Lords</STAGEDIR>
 
@@ -357,7 +355,6 @@
 <LINE>The gods protect you!</LINE>
 <LINE>And bless the good remainders of the court! I am gone.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -465,7 +462,6 @@
 <LINE>Die of this folly!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt CYMBELINE and Lords</STAGEDIR>
 
 <SPEECH>
@@ -540,11 +536,14 @@
 <LINE>Go see my lord aboard: for this time leave me.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The same. A public place.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The same. A public place.</TITLE>
+
 <STAGEDIR>Enter CLOTEN and two Lords</STAGEDIR>
 
 <SPEECH>
@@ -665,11 +664,14 @@
 <LINE>Well, my lord.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  A room in Cymbeline's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  A room in Cymbeline's palace.</TITLE>
+
 <STAGEDIR>Enter IMOGEN and PISANIO</STAGEDIR>
 
 <SPEECH>
@@ -759,7 +761,6 @@
 <LINE>Shakes all our buds from growing.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Lady</STAGEDIR>
 
 <SPEECH>
@@ -779,11 +780,14 @@
 <LINE>Madam, I shall.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Rome. Philario's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Rome. Philario's house.</TITLE>
+
 <STAGEDIR>Enter PHILARIO, IACHIMO, a Frenchman, a
 Dutchman, and a Spaniard</STAGEDIR>
 
@@ -1149,7 +1153,6 @@ Dutchman, and a Spaniard</STAGEDIR>
 <LINE>Agreed.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt POSTHUMUS LEONATUS and IACHIMO</STAGEDIR>
 
 <SPEECH>
@@ -1163,11 +1166,14 @@ Dutchman, and a Spaniard</STAGEDIR>
 <LINE>Pray, let us follow 'em.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  Britain. A room in Cymbeline's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  Britain. A room in Cymbeline's palace.</TITLE>
+
 <STAGEDIR>Enter QUEEN, Ladies, and CORNELIUS</STAGEDIR>
 
 <SPEECH>
@@ -1276,7 +1282,6 @@ Dutchman, and a Spaniard</STAGEDIR>
 <LINE>I humbly take my leave.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -1329,7 +1334,6 @@ Dutchman, and a Spaniard</STAGEDIR>
 <LINE>Think on my words.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt QUEEN and Ladies</STAGEDIR>
 
 <SPEECH>
@@ -1339,11 +1343,14 @@ Dutchman, and a Spaniard</STAGEDIR>
 <LINE>I'll choke myself: there's all I'll do for you.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VI.  The same. Another room in the palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VI.  The same. Another room in the palace.</TITLE>
+
 <STAGEDIR>Enter IMOGEN</STAGEDIR>
 
 <SPEECH>
@@ -1359,7 +1366,6 @@ Dutchman, and a Spaniard</STAGEDIR>
 <LINE>Which seasons comfort. Who may this be? Fie!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter PISANIO and IACHIMO</STAGEDIR>
 
 <SPEECH>
@@ -1374,7 +1380,6 @@ Dutchman, and a Spaniard</STAGEDIR>
 <LINE>The worthy Leonatus is in safety</LINE>
 <LINE>And greets your highness dearly.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Presents a letter</STAGEDIR>
 
@@ -1471,7 +1476,6 @@ Dutchman, and a Spaniard</STAGEDIR>
 <LINE>I was going, sir,</LINE>
 <LINE>To give him welcome.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -1819,15 +1823,20 @@ Dutchman, and a Spaniard</STAGEDIR>
 <LINE>And truly yielded you. You're very welcome.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT II</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Britain. Before Cymbeline's palace.</TITLE>
+<TITLE>ACT II</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Britain. Before Cymbeline's palace.</TITLE>
+
 <STAGEDIR>Enter CLOTEN and two Lords</STAGEDIR>
 
 <SPEECH>
@@ -1999,11 +2008,13 @@ Dutchman, and a Spaniard</STAGEDIR>
 <LINE>To enjoy thy banish'd lord and this great land!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Imogen's bedchamber in Cymbeline's palace: a trunk in one corner of it.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Imogen's bedchamber in Cymbeline's palace: a trunk in one corner of it.</TITLE>
 
 <STAGEDIR>IMOGEN in bed, reading; a Lady attending</STAGEDIR>
 
@@ -2039,7 +2050,6 @@ Dutchman, and a Spaniard</STAGEDIR>
 <LINE>From fairies and the tempters of the night</LINE>
 <LINE>Guard me, beseech ye.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Sleeps. IACHIMO comes from the trunk</STAGEDIR>
 
@@ -2093,6 +2103,7 @@ Dutchman, and a Spaniard</STAGEDIR>
 </SCENE>
 
 <SCENE>
+
 <TITLE>Scene III  An ante-chamber adjoining Imogen's apartments.</TITLE>
 
 <STAGEDIR>Enter CLOTEN and Lords</STAGEDIR>
@@ -2158,7 +2169,6 @@ Dutchman, and a Spaniard</STAGEDIR>
 <LINE>boot, can never amend.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt Musicians</STAGEDIR>
 
 <SPEECH>
@@ -2213,7 +2223,6 @@ Dutchman, and a Spaniard</STAGEDIR>
 <LINE>Senseless! not so.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Messenger</STAGEDIR>
 
 <SPEECH>
@@ -2234,7 +2243,6 @@ Dutchman, and a Spaniard</STAGEDIR>
 <LINE>Attend the queen and us; we shall have need</LINE>
 <LINE>To employ you towards this Roman. Come, our queen.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt all but CLOTEN</STAGEDIR>
 
@@ -2257,7 +2265,6 @@ Dutchman, and a Spaniard</STAGEDIR>
 <STAGEDIR>Knocks</STAGEDIR>
 <LINE>By your leave.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter a Lady</STAGEDIR>
 
@@ -2311,14 +2318,12 @@ Dutchman, and a Spaniard</STAGEDIR>
 <LINE>What I shall think is good?--The princess!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter IMOGEN</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>CLOTEN</SPEAKER>
 <LINE>Good morrow, fairest: sister, your sweet hand.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit Lady</STAGEDIR>
 
@@ -2430,7 +2435,6 @@ Dutchman, and a Spaniard</STAGEDIR>
 <LINE>Were they all made such men. How now, Pisanio!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter PISANIO</STAGEDIR>
 
 <SPEECH>
@@ -2472,7 +2476,6 @@ Dutchman, and a Spaniard</STAGEDIR>
 <LINE>I hope so: go and search.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit PISANIO</STAGEDIR>
 
 <SPEECH>
@@ -2500,7 +2503,6 @@ Dutchman, and a Spaniard</STAGEDIR>
 <LINE>To the worst of discontent.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -2509,12 +2511,14 @@ Dutchman, and a Spaniard</STAGEDIR>
 <LINE>'His meanest garment!' Well.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Rome. Philario's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Rome. Philario's house.</TITLE>
+
 <STAGEDIR>Enter POSTHUMUS and PHILARIO</STAGEDIR>
 
 <SPEECH>
@@ -2565,7 +2569,6 @@ Dutchman, and a Spaniard</STAGEDIR>
 <LINE>To their approvers they are people such</LINE>
 <LINE>That mend upon the world.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter IACHIMO</STAGEDIR>
 
@@ -2924,7 +2927,6 @@ Dutchman, and a Spaniard</STAGEDIR>
 <LINE>Her father. I'll do something--</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -2940,11 +2942,14 @@ Dutchman, and a Spaniard</STAGEDIR>
 <LINE>With an my heart.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  Another room in Philario's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  Another room in Philario's house.</TITLE>
+
 <STAGEDIR>Enter POSTHUMUS LEONATUS</STAGEDIR>
 
 <SPEECH>
@@ -2986,15 +2991,20 @@ Dutchman, and a Spaniard</STAGEDIR>
 <LINE>The very devils cannot plague them better.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT III</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Britain. A hall in Cymbeline's palace.</TITLE>
+<TITLE>ACT III</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Britain. A hall in Cymbeline's palace.</TITLE>
+
 <STAGEDIR>Enter in state, CYMBELINE, QUEEN, CLOTEN,
 and Lords at one door, and at another,
 CAIUS LUCIUS and Attendants</STAGEDIR>
@@ -3163,11 +3173,14 @@ CAIUS LUCIUS and Attendants</STAGEDIR>
 <LINE>All the remain is 'Welcome!'</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Another room in the palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Another room in the palace.</TITLE>
+
 <STAGEDIR>Enter PISANIO, with a letter</STAGEDIR>
 
 <SPEECH>
@@ -3198,7 +3211,6 @@ CAIUS LUCIUS and Attendants</STAGEDIR>
 <LINE>So virgin-like without? Lo, here she comes.</LINE>
 <LINE>I am ignorant in what I am commanded.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter IMOGEN</STAGEDIR>
 
@@ -3296,11 +3308,14 @@ CAIUS LUCIUS and Attendants</STAGEDIR>
 <LINE>Accessible is none but Milford way.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Wales: a mountainous country with a cave.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Wales: a mountainous country with a cave.</TITLE>
+
 <STAGEDIR>Enter, from the cave, BELARIUS; GUIDERIUS,
 and ARVIRAGUS following</STAGEDIR>
 
@@ -3456,11 +3471,14 @@ and ARVIRAGUS following</STAGEDIR>
 <LINE>They take for natural father. The game is up.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Country near Milford-Haven.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Country near Milford-Haven.</TITLE>
+
 <STAGEDIR>Enter PISANIO and IMOGEN</STAGEDIR>
 
 <SPEECH>
@@ -3824,11 +3842,14 @@ and ARVIRAGUS following</STAGEDIR>
 <LINE>Amen: I thank thee.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt, severally</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  A room in Cymbeline's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  A room in Cymbeline's palace.</TITLE>
+
 <STAGEDIR>Enter CYMBELINE, QUEEN, CLOTEN, LUCIUS,
 Lords, and Attendants</STAGEDIR>
 
@@ -3895,7 +3916,6 @@ Lords, and Attendants</STAGEDIR>
 <LINE>Till he have cross'd the Severn. Happiness!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt LUCIUS and Lords</STAGEDIR>
 
 <SPEECH>
@@ -3938,7 +3958,6 @@ Lords, and Attendants</STAGEDIR>
 <LINE>We have been too slight in sufferance.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit an Attendant</STAGEDIR>
 
 <SPEECH>
@@ -3951,7 +3970,6 @@ Lords, and Attendants</STAGEDIR>
 <LINE>So tender of rebukes that words are strokes</LINE>
 <LINE>And strokes death to her.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter Attendant</STAGEDIR>
 
@@ -3985,7 +4003,6 @@ Lords, and Attendants</STAGEDIR>
 <LINE>Not seen of late? Grant, heavens, that which I fear</LINE>
 <LINE>Prove false!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -4030,7 +4047,6 @@ Lords, and Attendants</STAGEDIR>
 <LINE><STAGEDIR>Aside</STAGEDIR>            All the better: may</LINE>
 <LINE>This night forestall him of the coming day!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -4102,7 +4118,6 @@ Lords, and Attendants</STAGEDIR>
 <LINE>This paper is the history of my knowledge</LINE>
 <LINE>Touching her flight.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Presenting a letter</STAGEDIR>
 
@@ -4194,7 +4209,6 @@ Lords, and Attendants</STAGEDIR>
 <LINE>I shall, my lord.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -4245,7 +4259,6 @@ Lords, and Attendants</STAGEDIR>
 <LINE>wings to follow it! Come, and be true.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -4258,11 +4271,14 @@ Lords, and Attendants</STAGEDIR>
 <LINE>Be cross'd with slowness; labour be his meed!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VI.  Wales. Before the cave of Belarius.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VI.  Wales. Before the cave of Belarius.</TITLE>
+
 <STAGEDIR>Enter IMOGEN, in boy's clothes</STAGEDIR>
 
 <SPEECH>
@@ -4348,7 +4364,6 @@ Lords, and Attendants</STAGEDIR>
 <LINE>An earthly paragon! Behold divineness</LINE>
 <LINE>No elder than a boy!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter IMOGEN</STAGEDIR>
 
@@ -4465,7 +4480,6 @@ Lords, and Attendants</STAGEDIR>
 <LINE>Hark, boys.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Whispering</STAGEDIR>
 
 <SPEECH>
@@ -4510,11 +4524,14 @@ Lords, and Attendants</STAGEDIR>
 <LINE>I pray, draw near.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE VII.  Rome. A public place.</TITLE>
+<SCENE>
+
+<TITLE>SCENE VII.  Rome. A public place.</TITLE>
+
 <STAGEDIR>Enter two Senators and Tribunes</STAGEDIR>
 
 <SPEECH>
@@ -4560,15 +4577,20 @@ Lords, and Attendants</STAGEDIR>
 <LINE>We will discharge our duty.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT IV</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Wales: near the cave of Belarius.</TITLE>
+<TITLE>ACT IV</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Wales: near the cave of Belarius.</TITLE>
+
 <STAGEDIR>Enter CLOTEN</STAGEDIR>
 
 <SPEECH>
@@ -4601,11 +4623,14 @@ Lords, and Attendants</STAGEDIR>
 <LINE>the fellow dares not deceive me.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Before the cave of Belarius.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Before the cave of Belarius.</TITLE>
+
 <STAGEDIR>Enter, from the cave, BELARIUS, GUIDERIUS,
 ARVIRAGUS, and IMOGEN</STAGEDIR>
 
@@ -4707,7 +4732,6 @@ ARVIRAGUS, and IMOGEN</STAGEDIR>
 <LINE>I'll now taste of thy drug.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Swallows some</STAGEDIR>
 
 <SPEECH>
@@ -4797,7 +4821,6 @@ ARVIRAGUS, and IMOGEN</STAGEDIR>
 <LINE>Who's there?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter CLOTEN</STAGEDIR>
 
 <SPEECH>
@@ -4821,7 +4844,6 @@ ARVIRAGUS, and IMOGEN</STAGEDIR>
 <LINE>What companies are near: pray you, away;</LINE>
 <LINE>Let me alone with him.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt BELARIUS and ARVIRAGUS</STAGEDIR>
 
@@ -4974,7 +4996,6 @@ ARVIRAGUS, and IMOGEN</STAGEDIR>
 <LINE>Is oft the cause of fear. But, see, thy brother.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter GUIDERIUS, with CLOTEN'S head</STAGEDIR>
 
 <SPEECH>
@@ -5061,7 +5082,6 @@ ARVIRAGUS, and IMOGEN</STAGEDIR>
 <LINE>That's all I reck.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -5099,7 +5119,6 @@ ARVIRAGUS, and IMOGEN</STAGEDIR>
 <LINE>And praise myself for charity.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -5121,7 +5140,6 @@ ARVIRAGUS, and IMOGEN</STAGEDIR>
 <LINE>Or what his death will bring us.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter GUIDERIUS</STAGEDIR>
 
 <SPEECH>
@@ -5131,7 +5149,6 @@ ARVIRAGUS, and IMOGEN</STAGEDIR>
 <LINE>In embassy to his mother: his body's hostage</LINE>
 <LINE>For his return.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Solemn music</STAGEDIR>
 
@@ -5168,7 +5185,6 @@ ARVIRAGUS, and IMOGEN</STAGEDIR>
 <LINE>And brings the dire occasion in his arms</LINE>
 <LINE>Of what we blame him for.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter ARVIRAGUS, with IMOGEN, as dead,
 bearing her in his arms</STAGEDIR>
@@ -5314,7 +5330,6 @@ bearing her in his arms</STAGEDIR>
 <LINE>We'll say our song the whilst. Brother, begin.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit BELARIUS</STAGEDIR>
 
 <SPEECH>
@@ -5337,7 +5352,6 @@ bearing her in his arms</STAGEDIR>
 <SPEAKER>ARVIRAGUS</SPEAKER>
 <LINE>So. Begin.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>SONG</STAGEDIR>
 
@@ -5433,7 +5447,6 @@ bearing her in his arms</STAGEDIR>
 <LINE>The ground that gave them first has them again:</LINE>
 <LINE>Their pleasures here are past, so is their pain.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt BELARIUS, GUIDERIUS, and ARVIRAGUS</STAGEDIR>
 
@@ -5645,11 +5658,14 @@ and a Soothsayer</STAGEDIR>
 <LINE>Some falls are means the happier to arise.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  A room in Cymbeline's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  A room in Cymbeline's palace.</TITLE>
+
 <STAGEDIR>Enter CYMBELINE, Lords, PISANIO, and Attendants</STAGEDIR>
 
 <SPEECH>
@@ -5728,7 +5744,6 @@ and a Soothsayer</STAGEDIR>
 <LINE>We grieve at chances here. Away!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt all but PISANIO</STAGEDIR>
 
 <SPEECH>
@@ -5746,11 +5761,14 @@ and a Soothsayer</STAGEDIR>
 <LINE>Fortune brings in some boats that are not steer'd.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  Wales: before the cave of Belarius.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  Wales: before the cave of Belarius.</TITLE>
+
 <STAGEDIR>Enter BELARIUS, GUIDERIUS, and ARVIRAGUS.</STAGEDIR>
 
 <SPEECH>
@@ -5872,15 +5890,20 @@ and a Soothsayer</STAGEDIR>
 <LINE>Till it fly out and show them princes born.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT V</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Britain. The Roman camp.</TITLE>
+<TITLE>ACT V</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Britain. The Roman camp.</TITLE>
+
 <STAGEDIR>Enter POSTHUMUS, with a bloody handkerchief</STAGEDIR>
 
 <SPEECH>
@@ -5920,11 +5943,14 @@ and a Soothsayer</STAGEDIR>
 <LINE>The fashion, less without and more within.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  Field of battle between the British and Roman camps.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  Field of battle between the British and Roman camps.</TITLE>
+
 <STAGEDIR>Enter, from one side, LUCIUS, IACHIMO, and
 the Roman Army: from the other side, the
 British Army; POSTHUMUS LEONATUS following,
@@ -5987,11 +6013,14 @@ re-enter LUCIUS, and IACHIMO, with IMOGEN</STAGEDIR>
 <LINE>Let's reinforce, or fly.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  Another part of the field.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  Another part of the field.</TITLE>
+
 <STAGEDIR>Enter POSTHUMUS LEONATUS and a British Lord</STAGEDIR>
 
 <SPEECH>
@@ -6135,7 +6164,6 @@ re-enter LUCIUS, and IACHIMO, with IMOGEN</STAGEDIR>
 <LINE>But end it by some means for Imogen.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter two British Captains and Soldiers</STAGEDIR>
 
 <SPEECH>
@@ -6172,15 +6200,18 @@ re-enter LUCIUS, and IACHIMO, with IMOGEN</STAGEDIR>
 <LINE>As if he were of note: bring him to the king.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter CYMBELINE, BELARIUS, GUIDERIUS, ARVIRAGUS,
 PISANIO, Soldiers, Attendants, and Roman Captives.
 The Captains present POSTHUMUS LEONATUS to
 CYMBELINE, who delivers him over to a Gaoler:
 then exeunt omnes</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  A British prison.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  A British prison.</TITLE>
+
 <STAGEDIR>Enter POSTHUMUS LEONATUS and two Gaolers</STAGEDIR>
 
 <SPEECH>
@@ -6193,7 +6224,6 @@ then exeunt omnes</STAGEDIR>
 <SPEAKER>Second Gaoler</SPEAKER>
 <LINE>Ay, or a stomach.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt Gaolers</STAGEDIR>
 
@@ -6380,7 +6410,6 @@ Apparitions fall on their knees</STAGEDIR>
 <LINE>Mount, eagle, to my palace crystalline.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Ascends</STAGEDIR>
 
 <SPEECH>
@@ -6404,7 +6433,6 @@ Apparitions fall on their knees</STAGEDIR>
 <LINE>His radiant root. Away! and, to be blest,</LINE>
 <LINE>Let us with care perform his great behest.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>The Apparitions vanish</STAGEDIR>
 
@@ -6440,7 +6468,6 @@ Apparitions fall on their knees</STAGEDIR>
 <LINE>The action of my life is like it, which</LINE>
 <LINE>I'll keep, if but for sympathy.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter First Gaoler</STAGEDIR>
 
@@ -6529,7 +6556,6 @@ Apparitions fall on their knees</STAGEDIR>
 <LINE>blindness! I am sure hanging's the way of winking.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter a Messenger</STAGEDIR>
 
 <SPEECH>
@@ -6552,7 +6578,6 @@ Apparitions fall on their knees</STAGEDIR>
 <LINE>Thou shalt be then freer than a gaoler; no bolts for the dead.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt POSTHUMUS LEONATUS and Messenger</STAGEDIR>
 
 <SPEECH>
@@ -6568,11 +6593,14 @@ Apparitions fall on their knees</STAGEDIR>
 <LINE>my wish hath a preferment in 't.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  Cymbeline's tent.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  Cymbeline's tent.</TITLE>
+
 <STAGEDIR>Enter CYMBELINE, BELARIUS, GUIDERIUS, ARVIRAGUS,
 PISANIO, Lords, Officers, and Attendants</STAGEDIR>
 
@@ -6851,7 +6879,6 @@ behind, and IMOGEN</STAGEDIR>
 <LINE>I'll be thy master: walk with me; speak freely.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>CYMBELINE and IMOGEN converse apart</STAGEDIR>
 
 <SPEECH>
@@ -6894,7 +6921,6 @@ behind, and IMOGEN</STAGEDIR>
 <LINE>Since she is living, let the time run on</LINE>
 <LINE>To good or bad.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>CYMBELINE and IMOGEN come forward</STAGEDIR>
 
@@ -7083,7 +7109,6 @@ behind, and IMOGEN</STAGEDIR>
 <LINE>There lie thy part.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Striking her: she falls</STAGEDIR>
 
 <SPEECH>
@@ -7201,7 +7226,6 @@ behind, and IMOGEN</STAGEDIR>
 <LINE>Think that you are upon a rock; and now</LINE>
 <LINE>Throw me again.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Embracing him</STAGEDIR>
 
@@ -7731,8 +7755,8 @@ behind, and IMOGEN</STAGEDIR>
 <LINE>Ere bloody hands were wash'd, with such a peace.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 </ACT>
 </PLAY>

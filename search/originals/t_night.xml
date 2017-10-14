@@ -11,7 +11,6 @@
 <P>This work may be freely copied and distributed worldwide.</P>
 </FM>
 
-
 <PERSONAE>
 <TITLE>Dramatis Personae</TITLE>
 
@@ -46,9 +45,14 @@
 
 <PLAYSUBT>TWELFTH NIGHT</PLAYSUBT>
 
-<ACT><TITLE>ACT I</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  DUKE ORSINO's palace.</TITLE>
+<TITLE>ACT I</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  DUKE ORSINO's palace.</TITLE>
+
 <STAGEDIR>Enter DUKE ORSINO, CURIO, and other Lords;
 Musicians attending</STAGEDIR>
 
@@ -124,11 +128,14 @@ Musicians attending</STAGEDIR>
 <LINE>Love-thoughts lie rich when canopied with bowers.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  The sea-coast.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  The sea-coast.</TITLE>
+
 <STAGEDIR>Enter VIOLA, a Captain, and Sailors</STAGEDIR>
 
 <SPEECH>
@@ -281,11 +288,14 @@ Musicians attending</STAGEDIR>
 <LINE>I thank thee: lead me on.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  OLIVIA'S house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  OLIVIA'S house.</TITLE>
+
 <STAGEDIR>Enter SIR TOBY BELCH and MARIA</STAGEDIR>
 
 <SPEECH>
@@ -395,7 +405,6 @@ Musicians attending</STAGEDIR>
 <LINE>o' the toe like a parish-top. What, wench!</LINE>
 <LINE>Castiliano vulgo! for here comes Sir Andrew Agueface.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter SIR ANDREW</STAGEDIR>
 
@@ -526,7 +535,6 @@ Musicians attending</STAGEDIR>
 <LINE>Ay, sir, I have them at my fingers' ends: marry,</LINE>
 <LINE>now I let go your hand, I am barren.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -685,11 +693,14 @@ Musicians attending</STAGEDIR>
 <LINE>caper; ha! higher: ha, ha! excellent!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  DUKE ORSINO's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  DUKE ORSINO's palace.</TITLE>
+
 <STAGEDIR>Enter VALENTINE and VIOLA in man's attire</STAGEDIR>
 
 <SPEECH>
@@ -715,7 +726,6 @@ Musicians attending</STAGEDIR>
 <SPEAKER>VIOLA</SPEAKER>
 <LINE>I thank you. Here comes the count.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter DUKE ORSINO, CURIO, and Attendants</STAGEDIR>
 
@@ -797,11 +807,14 @@ Musicians attending</STAGEDIR>
 <LINE>Whoe'er I woo, myself would be his wife.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  OLIVIA'S house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  OLIVIA'S house.</TITLE>
+
 <STAGEDIR>Enter MARIA and Clown</STAGEDIR>
 
 <SPEECH>
@@ -889,7 +902,6 @@ Musicians attending</STAGEDIR>
 <LINE>Peace, you rogue, no more o' that. Here comes my</LINE>
 <LINE>lady: make your excuse wisely, you were best.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -1055,7 +1067,6 @@ Musicians attending</STAGEDIR>
 <LINE>speakest well of fools!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter MARIA</STAGEDIR>
 
 <SPEECH>
@@ -1103,7 +1114,6 @@ Musicians attending</STAGEDIR>
 <LINE>brains! for,--here he comes,--one of thy kin has a</LINE>
 <LINE>most weak pia mater.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter SIR TOBY BELCH</STAGEDIR>
 
@@ -1153,7 +1163,6 @@ Musicians attending</STAGEDIR>
 <LINE>Let him be the devil, an he will, I care not: give</LINE>
 <LINE>me faith, say I. Well, it's all one.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -1261,7 +1270,6 @@ Musicians attending</STAGEDIR>
 <LINE>Give me my veil: come, throw it o'er my face.</LINE>
 <LINE>We'll once more hear Orsino's embassy.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter VIOLA, and Attendants</STAGEDIR>
 
@@ -1436,7 +1444,6 @@ Musicians attending</STAGEDIR>
 <LINE>not well done?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Unveiling</STAGEDIR>
 
 <SPEECH>
@@ -1556,7 +1563,6 @@ Musicians attending</STAGEDIR>
 <LINE>Placed in contempt! Farewell, fair cruelty.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -1574,7 +1580,6 @@ Musicians attending</STAGEDIR>
 <LINE>To creep in at mine eyes. Well, let it be.</LINE>
 <LINE>What ho, Malvolio!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter MALVOLIO</STAGEDIR>
 
@@ -1599,7 +1604,6 @@ Musicians attending</STAGEDIR>
 <LINE>Madam, I will.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -1610,15 +1614,20 @@ Musicians attending</STAGEDIR>
 <LINE>What is decreed must be, and be this so.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT II</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  The sea-coast.</TITLE>
+<TITLE>ACT II</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  The sea-coast.</TITLE>
+
 <STAGEDIR>Enter ANTONIO and SEBASTIAN</STAGEDIR>
 
 <SPEECH>
@@ -1699,7 +1708,6 @@ Musicians attending</STAGEDIR>
 <LINE>tales of me. I am bound to the Count Orsino's court: farewell.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -1711,11 +1719,14 @@ Musicians attending</STAGEDIR>
 <LINE>That danger shall seem sport, and I will go.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  A street.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  A street.</TITLE>
+
 <STAGEDIR>Enter VIOLA, MALVOLIO following</STAGEDIR>
 
 <SPEECH>
@@ -1753,7 +1764,6 @@ Musicians attending</STAGEDIR>
 <LINE>it his that finds it.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -1785,11 +1795,14 @@ Musicians attending</STAGEDIR>
 <LINE>It is too hard a knot for me to untie!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  OLIVIA's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  OLIVIA's house.</TITLE>
+
 <STAGEDIR>Enter SIR TOBY BELCH and SIR ANDREW</STAGEDIR>
 
 <SPEECH>
@@ -1825,7 +1838,6 @@ Musicians attending</STAGEDIR>
 <LINE>Thou'rt a scholar; let us therefore eat and drink.</LINE>
 <LINE>Marian, I say! a stoup of wine!</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter Clown</STAGEDIR>
 
@@ -2029,7 +2041,6 @@ Musicians attending</STAGEDIR>
 <LINE>For the love o' God, peace!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter MALVOLIO</STAGEDIR>
 
 <SPEECH>
@@ -2139,7 +2150,6 @@ Musicians attending</STAGEDIR>
 <LINE>thing more than contempt, you would not give means</LINE>
 <LINE>for this uncivil rule: she shall know of it, by this hand.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -2273,7 +2283,6 @@ Musicians attending</STAGEDIR>
 <LINE>bed, and dream on the event. Farewell.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -2325,11 +2334,14 @@ Musicians attending</STAGEDIR>
 <LINE>to go to bed now: come, knight; come, knight.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  DUKE ORSINO's palace.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  DUKE ORSINO's palace.</TITLE>
+
 <STAGEDIR>Enter DUKE ORSINO, VIOLA, CURIO, and others</STAGEDIR>
 
 <SPEECH>
@@ -2440,7 +2452,6 @@ Musicians attending</STAGEDIR>
 <LINE>To die, even when they to perfection grow!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter CURIO and Clown</STAGEDIR>
 
 <SPEECH>
@@ -2521,7 +2532,6 @@ Musicians attending</STAGEDIR>
 <LINE>every thing and their intent every where; for that's</LINE>
 <LINE>it that always makes a good voyage of nothing. Farewell.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -2629,11 +2639,14 @@ Musicians attending</STAGEDIR>
 <LINE>My love can give no place, bide no denay.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE V.  OLIVIA's garden.</TITLE>
+<SCENE>
+
+<TITLE>SCENE V.  OLIVIA's garden.</TITLE>
+
 <STAGEDIR>Enter SIR TOBY BELCH, SIR ANDREW, and FABIAN</STAGEDIR>
 
 <SPEECH>
@@ -2887,7 +2900,6 @@ Musicians attending</STAGEDIR>
 <LINE>What employment have we here?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Taking up the letter</STAGEDIR>
 
 <SPEECH>
@@ -3087,7 +3099,6 @@ Musicians attending</STAGEDIR>
 <LINE>everything that thou wilt have me.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -3120,7 +3131,6 @@ Musicians attending</STAGEDIR>
 <SPEAKER>FABIAN</SPEAKER>
 <LINE>Here comes my noble gull-catcher.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter MARIA</STAGEDIR>
 
@@ -3184,15 +3194,20 @@ Musicians attending</STAGEDIR>
 <LINE>I'll make one too.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT III</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  OLIVIA's garden.</TITLE>
+<TITLE>ACT III</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  OLIVIA's garden.</TITLE>
+
 <STAGEDIR>Enter VIOLA, and Clown with a tabour</STAGEDIR>
 
 <SPEECH>
@@ -3356,7 +3371,6 @@ Musicians attending</STAGEDIR>
 <LINE>welkin, I might say 'element,' but the word is over-worn.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -3371,7 +3385,6 @@ Musicians attending</STAGEDIR>
 <LINE>For folly that he wisely shows is fit;</LINE>
 <LINE>But wise men, folly-fall'n, quite taint their wit.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter SIR TOBY BELCH, and SIR ANDREW</STAGEDIR>
 
@@ -3632,11 +3645,14 @@ Musicians attending</STAGEDIR>
 <LINE>That heart, which now abhors, to like his love.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  OLIVIA's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  OLIVIA's house.</TITLE>
+
 <STAGEDIR>Enter SIR TOBY BELCH, SIR ANDREW, and FABIAN</STAGEDIR>
 
 <SPEECH>
@@ -3759,7 +3775,6 @@ Musicians attending</STAGEDIR>
 <LINE>We'll call thee at the cubiculo: go.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit SIR ANDREW</STAGEDIR>
 
 <SPEECH>
@@ -3794,7 +3809,6 @@ Musicians attending</STAGEDIR>
 <LINE>And his opposite, the youth, bears in his visage no</LINE>
 <LINE>great presage of cruelty.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter MARIA</STAGEDIR>
 
@@ -3836,11 +3850,14 @@ Musicians attending</STAGEDIR>
 <LINE>Come, bring us, bring us where he is.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  A street.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  A street.</TITLE>
+
 <STAGEDIR>Enter SEBASTIAN and ANTONIO</STAGEDIR>
 
 <SPEECH>
@@ -3956,11 +3973,14 @@ Musicians attending</STAGEDIR>
 <LINE>I do remember.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE IV.  OLIVIA's garden.</TITLE>
+<SCENE>
+
+<TITLE>SCENE IV.  OLIVIA's garden.</TITLE>
+
 <STAGEDIR>Enter OLIVIA and MARIA</STAGEDIR>
 
 <SPEECH>
@@ -4145,7 +4165,6 @@ Musicians attending</STAGEDIR>
 <LINE>Why, this is very midsummer madness.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter Servant</STAGEDIR>
 
 <SPEECH>
@@ -4164,7 +4183,6 @@ Musicians attending</STAGEDIR>
 <LINE>care of him: I would not have him miscarry for the</LINE>
 <LINE>half of my dowry.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt OLIVIA and MARIA</STAGEDIR>
 
@@ -4192,7 +4210,6 @@ Musicians attending</STAGEDIR>
 <LINE>prospect of my hopes. Well, Jove, not I, is the</LINE>
 <LINE>doer of this, and he is to be thanked.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter MARIA, with SIR TOBY BELCH and FABIAN</STAGEDIR>
 
@@ -4318,7 +4335,6 @@ Musicians attending</STAGEDIR>
 <LINE>more hereafter.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -4362,7 +4378,6 @@ Musicians attending</STAGEDIR>
 <LINE>bring the device to the bar and crown thee for a</LINE>
 <LINE>finder of madmen. But see, but see.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter SIR ANDREW</STAGEDIR>
 
@@ -4476,7 +4491,6 @@ Musicians attending</STAGEDIR>
 <LINE>Nay, let me alone for swearing.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -4496,7 +4510,6 @@ Musicians attending</STAGEDIR>
 <LINE>one another by the look, like cockatrices.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Re-enter OLIVIA, with VIOLA</STAGEDIR>
 
 <SPEECH>
@@ -4510,7 +4523,6 @@ Musicians attending</STAGEDIR>
 <LINE>I will meditate the while upon some horrid message</LINE>
 <LINE>for a challenge.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt SIR TOBY BELCH, FABIAN, and MARIA</STAGEDIR>
 
@@ -4646,7 +4658,6 @@ Musicians attending</STAGEDIR>
 <LINE>I will do so. Signior Fabian, stay you by this</LINE>
 <LINE>gentleman till my return.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -4944,7 +4955,6 @@ Musicians attending</STAGEDIR>
 <LINE>Lead me on.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit with Officers</STAGEDIR>
 
 <SPEECH>
@@ -4970,7 +4980,6 @@ Musicians attending</STAGEDIR>
 <LINE>For him I imitate: O, if it prove,</LINE>
 <LINE>Tempests are kind and salt waves fresh in love.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -5012,15 +5021,20 @@ Musicians attending</STAGEDIR>
 <LINE>I dare lay any money 'twill be nothing yet.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT IV</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Before OLIVIA's house.</TITLE>
+<TITLE>ACT IV</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Before OLIVIA's house.</TITLE>
+
 <STAGEDIR>Enter SEBASTIAN and Clown</STAGEDIR>
 
 <SPEECH>
@@ -5072,7 +5086,6 @@ Musicians attending</STAGEDIR>
 <LINE>report--after fourteen years' purchase.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter SIR ANDREW, SIR TOBY BELCH, and FABIAN</STAGEDIR>
 
 <SPEECH>
@@ -5096,7 +5109,6 @@ Musicians attending</STAGEDIR>
 <LINE>This will I tell my lady straight: I would not be</LINE>
 <LINE>in some of your coats for two pence.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -5135,7 +5147,6 @@ Musicians attending</STAGEDIR>
 <LINE>What, what? Nay, then I must have an ounce or two</LINE>
 <LINE>of this malapert blood from you.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter OLIVIA</STAGEDIR>
 
@@ -5191,11 +5202,14 @@ Musicians attending</STAGEDIR>
 <LINE>O, say so, and so be!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE II.  OLIVIA's house.</TITLE>
+<SCENE>
+
+<TITLE>SCENE II.  OLIVIA's house.</TITLE>
+
 <STAGEDIR>Enter MARIA and Clown</STAGEDIR>
 
 <SPEECH>
@@ -5204,7 +5218,6 @@ Musicians attending</STAGEDIR>
 <LINE>make him believe thou art Sir Topas the curate: do</LINE>
 <LINE>it quickly; I'll call Sir Toby the whilst.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exit</STAGEDIR>
 
@@ -5218,7 +5231,6 @@ Musicians attending</STAGEDIR>
 <LINE>and a good housekeeper goes as fairly as to say a</LINE>
 <LINE>careful man and a great scholar. The competitors enter.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter SIR TOBY BELCH and MARIA</STAGEDIR>
 
@@ -5384,7 +5396,6 @@ Musicians attending</STAGEDIR>
 <LINE>my niece that I cannot pursue with any safety this</LINE>
 <LINE>sport to the upshot. Come by and by to my chamber.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt SIR TOBY BELCH and MARIA</STAGEDIR>
 
@@ -5557,11 +5568,14 @@ Musicians attending</STAGEDIR>
 <LINE>Adieu, good man devil.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 
-<SCENE><TITLE>SCENE III.  OLIVIA's garden.</TITLE>
+<SCENE>
+
+<TITLE>SCENE III.  OLIVIA's garden.</TITLE>
+
 <STAGEDIR>Enter SEBASTIAN</STAGEDIR>
 
 <SPEECH>
@@ -5588,7 +5602,6 @@ Musicians attending</STAGEDIR>
 <LINE>As I perceive she does: there's something in't</LINE>
 <LINE>That is deceiveable. But here the lady comes.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter OLIVIA and Priest</STAGEDIR>
 
@@ -5618,15 +5631,20 @@ Musicians attending</STAGEDIR>
 <LINE>That they may fairly note this act of mine!</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt</STAGEDIR>
+
 </SCENE>
 
 </ACT>
 
-<ACT><TITLE>ACT V</TITLE>
+<ACT>
 
-<SCENE><TITLE>SCENE I.  Before OLIVIA's house.</TITLE>
+<TITLE>ACT V</TITLE>
+
+<SCENE>
+
+<TITLE>SCENE I.  Before OLIVIA's house.</TITLE>
+
 <STAGEDIR>Enter Clown and FABIAN</STAGEDIR>
 
 <SPEECH>
@@ -5654,7 +5672,6 @@ Musicians attending</STAGEDIR>
 <LINE>This is, to give a dog, and in recompense desire my</LINE>
 <LINE>dog again.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter DUKE ORSINO, VIOLA, CURIO, and Lords</STAGEDIR>
 
@@ -5769,14 +5786,12 @@ Musicians attending</STAGEDIR>
 <LINE>will awake it anon.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>VIOLA</SPEAKER>
 <LINE>Here comes the man, sir, that did rescue me.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter ANTONIO and Officers</STAGEDIR>
 
@@ -5859,7 +5874,6 @@ Musicians attending</STAGEDIR>
 <LINE>No interim, not a minute's vacancy,</LINE>
 <LINE>Both day and night did we keep company.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter OLIVIA and Attendants</STAGEDIR>
 
@@ -6061,7 +6075,6 @@ Musicians attending</STAGEDIR>
 <LINE>O, do not swear!</LINE>
 <LINE>Hold little faith, though thou hast too much fear.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Enter SIR ANDREW</STAGEDIR>
 
@@ -6383,7 +6396,6 @@ Musicians attending</STAGEDIR>
 <LINE>Read it you, sirrah.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>To FABIAN</STAGEDIR>
 
 <SPEECH>
@@ -6442,7 +6454,6 @@ Musicians attending</STAGEDIR>
 <SPEAKER>OLIVIA</SPEAKER>
 <LINE>A sister! you are she.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Re-enter FABIAN, with MALVOLIO</STAGEDIR>
 
@@ -6541,7 +6552,6 @@ Musicians attending</STAGEDIR>
 <LINE>I'll be revenged on the whole pack of you.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
 
 <SPEECH>
@@ -6561,7 +6571,6 @@ Musicians attending</STAGEDIR>
 <LINE>But when in other habits you are seen,</LINE>
 <LINE>Orsino's mistress and his fancy's queen.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt all, except Clown</STAGEDIR>
 
@@ -6590,8 +6599,8 @@ Musicians attending</STAGEDIR>
 <LINE>And we'll strive to please you every day.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exit</STAGEDIR>
+
 </SCENE>
 </ACT>
 </PLAY>
