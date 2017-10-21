@@ -19,57 +19,55 @@ mz.readdir(INPUT_DIR).then(filenames => {
 function processFile(filename) {
   JSDOM.fromFile(INPUT_DIR + filename, {contentType: 'text/xml'})
   .then(dom => {
-    let html = '';
-    html += addDiv(dom, 'TITLE', 'title');
-    html += addDiv(dom, 'PLAYSUBT', 'playSubitle');
-    html += addPersonae(dom);
-    html += addDiv(dom, 'SCNDESCR', 'sceneDescription');
-    html += addActs(dom);
-    console.log(html);
+    const html = addPreamble(dom) + addActs(dom);
+    console.log('\n' + html);
   });
 }
 
-function addDiv(dom, elementName, className) {
-  const element = dom.window.document.querySelector(elementName);
-  return `<div class="${className}">${element.textContent}</div>\n\n`;
+function addPreamble(dom) {
+  let html = '<section class="preamble">\n\n';
+  html += `<h1>${text(dom, 'TITLE')}</h1>\n\n`;
+  html += `<h2>${text(dom, 'PLAYSUBT')}</h2>\n\n`;
+  html += addPersonae(dom);
+  html += `<div class="sceneDescription">${text(dom, 'SCNDESCR')}</div>\n\n`;
+  html += '</section>\n\n';
+  return html;
 }
 
 function addPersonae(dom) {
-  let html = '';
-  html += '<div class="dramatisPersonae">Dramatis Personae</div>\n\n';
-  const nodes = dom.window.document.querySelector('PERSONAE').childNodes;
-  for (const node of nodes) {
-    switch (node.nodeName) {
-    case '#text':
-    case 'TITLE':
-      break;
+  let html = '<section class="dramatisPersonae">';
+  html += '<h2>Dramatis Personae</h2>\n\n';
+  const children = $(dom, 'PERSONAE').children;
+  for (const child of children) {
+    switch (child.nodeName) {
     case 'PGROUP': {
-      const grpdescr = node.querySelector('GRPDESCR').textContent;
+      const grpdescr = child.querySelector('GRPDESCR').textContent;
       html += `<ol class="personaGroup" data-description="${grpdescr}">\n`;
-      const personas = node.querySelectorAll('PERSONA');
+      const personas = child.querySelectorAll('PERSONA');
       for (const persona of personas) {
-        html += '<li>' + persona.textContent + '</li>\n';
+        html += '  <li>' + persona.textContent + '</li>\n';
       }
       html += '</ol>\n\n';
       break;
     }
     case 'PERSONA': // Some PERSONA elements are not in PGROUP elements :/
-      // previousSibling is #text
-      if (node.previousElementSibling.nodeName !== 'PERSONA') {
+      if (child.previousElementSibling.nodeName !== 'PERSONA') {
         html += '<ol class="personaGroup">\n';
       }
-      html += `<li>${node.textContent}</li>\n`;
-      // nextSibling is #text, but this persona element may be the last sibling
-      if (!node.nextElementSibling ||
-          node.nextElementSibling.nodeName !== 'PERSONA') {
+      html += `  <li>${child.textContent}</li>\n`;
+      // this persona element may be the last sibling
+      if (!child.nextElementSibling ||
+          child.nextElementSibling.nodeName !== 'PERSONA') {
         html += '</ol>\n\n';
       }
       break;
+    case 'TITLE':
+      break;
     default:
-      console.error(`Unexpected element: ${node.nodeName}`);
+      console.error(`Unexpected element in personae: ${child.nodeName}`);
     }
   }
-
+  html += '</section>\n\n';
   return html;
 }
 
@@ -77,42 +75,71 @@ function addActs(dom) {
   let html = '';
   const acts = dom.window.document.querySelectorAll('ACT');
   for (const act of acts) {
+    html += '<section class="act">\n\n';
     const title = act.querySelector('TITLE').textContent;
-    html += `<div class="actTitle">${title}</div>\n`;
+    html += `<h2>${title}</h2>\n\n`;
     const scenes = act.querySelectorAll('SCENE');
     for (const scene of scenes) {
       html += addScene(scene);
     }
+    html += '</section>\n\n';
   }
   return html;
 }
 
 function addScene(scene) {
-  let html = '';
-  const nodes = scene.childNodes;
-  for (const node of nodes) {
-    switch(node.nodeName) {
-    case '#text':
-      break;
+  let html = '<section class="scene">\n\n';
+  const children = scene.children;
+  for (const child of children) {
+    switch(child.nodeName) {
     case 'SPEECH':
-      html += '***speech\n';
-      // html += addSpeech(node);
-      break;
-    case 'TITLE':
-      html += `<div class="actTitle">${node.textContent}</div>\n`;
+      html += addSpeech(child);
       break;
     case 'STAGEDIR':
-      html += `<div class="stageDirection">${node.textContent}</div>\n`;
+      html += `<div class="stageDirection">${child.textContent}</div>\n\n`;
+      break;
+    case 'TITLE':
+      html += `<h3>${child.textContent}</h3>\n\n`;
       break;
     default:
-      console.error(`Unexpected element: ${node.nodeName}`);
+      console.error(`Unexpected element in scene: ${child.nodeName}`);
     }
   }
+  html += '</section>\n\n';
   return html;
 }
 
 function addSpeech(speech) {
-  console.log('speech\n');
-  const speaker = speech.querySelector('SPEAKER');
-  return `<ul class="speech" data-speaker="${speaker}">\n`;
+  let html = '<ol class="speech">\n';
+  const children = speech.children;
+  for (const child of children) {
+    switch(child.nodeName) {
+    case 'LINE':
+      html += `  <li>${child.textContent}</li>\n`;
+      break;
+    case 'SPEAKER':
+      // there may be more than one speaker
+      html += `<li class="speaker">${child.textContent}</li>">\n`;
+      break;
+    case 'STAGEDIR':
+      html += `  <li class="stageDirection">${child.textContent}</li>\n`;
+      break;
+    case 'SUBHEAD':
+      html += `  <li class="subhead">${child.textContent}</li>\n`;
+      break;
+    default:
+      console.error(`Unexpected element in speech: ${child.nodeName}`);
+    }
+  }
+  html += '</ol>\n\n';
+  return html;
 }
+
+function $(dom, selector) {
+  return dom.window.document.querySelector(selector);
+}
+
+function text(dom, selector) {
+  return dom.window.document.querySelector(selector).textContent;
+}
+
