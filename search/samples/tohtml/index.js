@@ -1,7 +1,7 @@
 // const fs = require('fs');
 const mz = require('mz/fs');
 const {JSDOM} = require('jsdom');
-var minify = require('html-minifier').minify;
+// var minify = require('html-minifier').minify;
 const validator = require('html-validator');
 
 const titles = require('./data/titles.json');
@@ -36,7 +36,7 @@ function convertXMLtoHTML(filename) {
     }
     let html = ('' + top).replace('${title}', title) + // top is a buffer
       addPreamble(dom) + addActs(dom) + bottom;
-    html = minify(html);
+    // html = minify(html);
     if (isValid(filename, html)) {
       console.log(`HTML validated, writing file ${filename}`);
       writeFile('htmlout/' + filename, html);
@@ -45,34 +45,34 @@ function convertXMLtoHTML(filename) {
 }
 
 function addPreamble(dom) {
-  let html = '<section class="preamble">\n\n';
+  let html = '<section id="preamble">\n\n';
   html += `<h1>${text(dom, 'TITLE')}</h1>\n\n`;
-  html += `<h2>${text(dom, 'PLAYSUBT')}</h2>\n\n`;
+//  html += `<h2 class="subtitle">${text(dom, 'PLAYSUBT')}</h2>\n\n`;
   html += addPersonae(dom);
-  html += `<div class="sceneDescription">${text(dom, 'SCNDESCR')}</div>\n\n`;
+  html += `<div id="scene-description">${text(dom, 'SCNDESCR')}</div>\n\n`;
   html += '</section>\n\n';
   return html;
 }
 
 function addPersonae(dom) {
-  let html = '<section class="dramatisPersonae">';
+  let html = '<section id="dramatis-personae">';
   html += '<h2>Dramatis Personae</h2>\n\n';
   const children = $(dom, 'PERSONAE').children;
   for (const child of children) {
     switch (child.nodeName) {
     case 'PGROUP': {
       const grpdescr = child.querySelector('GRPDESCR').textContent;
-      html += `<ol class="personaGroup" data-description="${grpdescr}">\n`;
+      html += `<ol class="persona-group" data-description="${grpdescr}">\n`;
       const personas = child.querySelectorAll('PERSONA');
       for (const persona of personas) {
-        html += '  <li>' + persona.textContent + '</li>\n';
+        html += '  <li>' + persona.textContent.trim() + '</li>\n';
       }
       html += '</ol>\n\n';
       break;
     }
     case 'PERSONA': // Some PERSONA elements are not in PGROUP elements :/
       if (child.previousElementSibling.nodeName !== 'PERSONA') {
-        html += '<ol class="personaGroup">\n';
+        html += '<ol class="persona-group">\n';
       }
       html += `  <li>${child.textContent}</li>\n`;
       // this persona element may be the last sibling
@@ -104,7 +104,7 @@ function addActs(dom) {
     }
     html += '</section>\n\n';
   }
-  return html;
+  return doMinorFixes(html);
 }
 
 function addScene(scene) {
@@ -116,13 +116,13 @@ function addScene(scene) {
       html += addSpeech(child);
       break;
     case 'STAGEDIR':
-      html += `<div class="stageDirection">${child.textContent}</div>\n\n`;
+      html += `<div class="stage-direction">${child.textContent}</div>\n\n`;
       break;
     case 'TITLE':
       html += `<h3>${child.textContent}</h3>\n\n`;
       break;
     case 'SUBHEAD':
-      html += `<h3>${child.textContent}</h3>\n\n`;
+      html += `<h4 class="scene-subhead">${child.textContent}</h4>\n\n`;
       break;
     default:
       console.error(`${play(scene)}: weird scene element ${child.nodeName}`);
@@ -145,7 +145,7 @@ function addSpeech(speech) {
       html += `<li class="speaker">${child.textContent}</li>\n`;
       break;
     case 'STAGEDIR':
-      html += `  <li class="stageDirection">${child.textContent}</li>\n`;
+      html += `  <li class="stage-direction">${child.textContent}</li>\n`;
       break;
     case 'SUBHEAD':
       html += `  <li class="subhead">${child.textContent}</li>\n`;
@@ -173,6 +173,10 @@ function isValid(filename, html) {
     return false;
   });
   return true;
+}
+
+function doMinorFixes(html) {
+  return html.replace('&c', 'etc.').replace(/--/g, ' — ');
 }
 
 function writeFile(filepath, string) {
