@@ -1,14 +1,18 @@
-const fs = require('fs');
+// const fs = require('fs');
 const mz = require('mz/fs');
 const {JSDOM} = require('jsdom');
+var minify = require('html-minifier').minify;
+const validator = require('html-validator');
 
-// const abbreviations = require('./data/abbreviations.json');
+const nameTweaks = require('./data/nametweaks.json');
+const top = mz.readFileSync('./html-fragments/top.html');
+const bottom = mz.readFileSync('./html-fragments/bottom.html');
 const INPUT_DIR = '../../originals/';
 // const OUTPUT_DIR = 'htmlout/';
 
 mz.readdir(INPUT_DIR).then(filenames => {
   filenames = filenames.filter(filename => {
-    return filename.match(/^a_.+/); // .+xml
+    return filename.match(/.+xml/);
   });
   for (const filename of filenames) {
     processFile(filename);
@@ -19,8 +23,27 @@ mz.readdir(INPUT_DIR).then(filenames => {
 function processFile(filename) {
   JSDOM.fromFile(INPUT_DIR + filename, {contentType: 'text/xml'})
   .then(dom => {
-    const html = addPreamble(dom) + addActs(dom);
-    console.log('\n' + html);
+    let isValid = true;
+    // tweak Jon Bosak XML filenames to match standard Shakespeare abbreviations
+    filename = nameTweaks[filename];
+    filename = filename.replace('.xml', '.html');
+    let html = top + addPreamble(dom) + addActs(dom) + bottom;
+    html = minify(html);
+    const options = {
+      data: html,
+      format: 'text'
+    };
+    validator(options).then(data => {
+      isValid = false;
+      console.log(`${filename}:`, data);
+    })
+    .catch(error => {
+      console.error(`Error validating ${filename}:`, error);
+    });
+    if (isValid) {
+      console.log(`Writing file ${filename}`);
+    }
+    writeFile('htmlout/' + filename, html);
   });
 }
 
@@ -57,14 +80,14 @@ function addPersonae(dom) {
       html += `  <li>${child.textContent}</li>\n`;
       // this persona element may be the last sibling
       if (!child.nextElementSibling ||
-          child.nextElementSibling.nodeName !== 'PERSONA') {
+        child.nextElementSibling.nodeName !== 'PERSONA') {
         html += '</ol>\n\n';
       }
       break;
     case 'TITLE':
       break;
     default:
-      console.error(`Unexpected element in personae: ${child.nodeName}`);
+      console.error(`${play(child)}: unexpected child ${child.nodeName}`);
     }
   }
   html += '</section>\n\n';
@@ -101,8 +124,11 @@ function addScene(scene) {
     case 'TITLE':
       html += `<h3>${child.textContent}</h3>\n\n`;
       break;
+    case 'SUBHEAD':
+      html += `<h3>${child.textContent}</h3>\n\n`;
+      break;
     default:
-      console.error(`Unexpected element in scene: ${child.nodeName}`);
+      console.error(`${play(scene)}: weird scene element ${child.nodeName}`);
     }
   }
   html += '</section>\n\n';
@@ -119,7 +145,7 @@ function addSpeech(speech) {
       break;
     case 'SPEAKER':
       // there may be more than one speaker
-      html += `<li class="speaker">${child.textContent}</li>">\n`;
+      html += `<li class="speaker">${child.textContent}</li>\n`;
       break;
     case 'STAGEDIR':
       html += `  <li class="stageDirection">${child.textContent}</li>\n`;
@@ -128,11 +154,16 @@ function addSpeech(speech) {
       html += `  <li class="subhead">${child.textContent}</li>\n`;
       break;
     default:
-      console.error(`Unexpected element in speech: ${child.nodeName}`);
+      console.error(`${play(speech)}: weird speech element ${child.nodeName}`);
     }
   }
   html += '</ol>\n\n';
   return html;
+}
+
+function writeFile(filepath, string) {
+  mz.writeFile(filepath, string).
+    catch(error => console.error(`Error writing ${filepath}:`, error));
 }
 
 function $(dom, selector) {
@@ -143,3 +174,6 @@ function text(dom, selector) {
   return dom.window.document.querySelector(selector).textContent;
 }
 
+function play(element) {
+  return element.ownerDocument.querySelector('TITLE').textContent;
+}
