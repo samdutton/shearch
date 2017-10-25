@@ -1,5 +1,6 @@
 body {
   color: #444;
+  counter-reset: line-number;
   font-family: Palatino, serif;
   margin: 0;
   padding: 20px;
@@ -63,12 +64,16 @@ li {
 .persona-group li {
   font-size: 14px;
   line-height: 20px;
-
 }
 
 .speech li {
   margin: 0 0 4px 0;
   padding: 0 0 0 32px;
+}
+
+.speech li:not([class])::after {
+  counter-increment: line-number;
+  content: counter(line-number); 
 }
 
 .speech li.speaker {
@@ -81,8 +86,10 @@ li {
 
 .speech li.stage-direction {
   color: black;
+  counter-increment: none;
   font-style: italic;
   line-height: 20px;
+  list-style-type:none;
   margin: 10px 0 10px 50px;
   padding: 0;
   text-indent: 20px;
@@ -106,6 +113,7 @@ section.act {
 
 section.scene {
   border-bottom: 1px solid #eee;
+  counter-reset: line-number;
   margin: 0 0 30px 0;
   padding: 0 0 0 0;
 }
@@ -113,7 +121,6 @@ section.scene {
 section.scene:last-of-type {
   border-bottom: none;
 }
-
 
 
 section#dramatis-personae {
