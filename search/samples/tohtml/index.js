@@ -176,7 +176,10 @@ function isValid(filename, html) {
 }
 
 function doMinorFixes(html) {
-  return html.replace('&c', 'etc.').replace(/--/g, ' — ');
+  return html.
+    replace('&c', 'etc.').
+    replace(/--/g, ' — ').
+    replace(/, —/g, ' — ');
 }
 
 function writeFile(filepath, string) {

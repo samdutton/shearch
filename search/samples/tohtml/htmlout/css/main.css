@@ -8,7 +8,7 @@ body {
 
 div#container {
   margin: 0 auto 0 auto;
-  max-width: 500px;
+  max-width: 550px;
 }
 
 div#scene-description {
@@ -20,9 +20,9 @@ div#scene-description {
 div.stage-direction {
   font-style: italic;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 22px;
   margin: 25px 0 25px 50px;
-  text-indent: 20px;
+  text-indent: 30px;
 }
 
 div.stage-direction + div.stage-direction {
@@ -34,6 +34,7 @@ h1 {
   color: black;
   font-size: 30px;
   font-weight: 500;
+  line-height: 36px;
   margin: 0 0 40px 0;
   padding: 0 0 3px 0;
 }
@@ -61,12 +62,13 @@ li {
 
 .persona-group li {
   font-size: 14px;
-  line-height: 16px;
+  line-height: 20px;
+
 }
 
 .speech li {
   margin: 0 0 4px 0;
-  padding: 0 0 0 2em;
+  padding: 0 0 0 32px;
 }
 
 .speech li.speaker {
@@ -84,6 +86,11 @@ li {
   margin: 10px 0 10px 50px;
   padding: 0;
   text-indent: 20px;
+}
+
+ol.persona-group {
+  margin: 0 0 15px 0;
+  padding: 0;
 }
 
 ol.speech {
