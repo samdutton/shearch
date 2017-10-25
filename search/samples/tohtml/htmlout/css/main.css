@@ -1,6 +1,6 @@
 body {
-  color: #666;
-  font-family: Georgia, Palatino, serif;
+  color: #444;
+  font-family: Palatino, serif;
   margin: 0;
   padding: 20px;
   word-break: break-word;
@@ -11,30 +11,47 @@ div#container {
   max-width: 500px;
 }
 
+div#scene-description {
+  color: black;
+  font-size: 14px;
+  margin: 0 0 20px 0;
+}
+
+div.stage-direction {
+  font-style: italic;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 25px 0 25px 50px;
+  text-indent: 20px;
+}
+
+div.stage-direction + div.stage-direction {
+  margin-top: -20px;
+}
+
 h1 {
   border-bottom: 1px solid #eee;
   color: black;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 500;
   margin: 0 0 40px 0;
   padding: 0 0 3px 0;
 }
 
 h2 {
-  color: #666;
-  font-size: 18px;
+  color:black;
+  font-size: 22px;
   font-weight: 500;
   line-height: 20px;
-  margin: 0 0 25px 0;
+  margin: 0 0 35px 0;
 }
 
 
 h3 {
-  color: #666;
-  font-family: sans-serif;
-  font-size: 14px;
+  color: black;
+  font-size: 16px;
   font-weight: 500;
-  margin: 20px 0 10px 0;
+  margin: 20px 0 30px 0;
   white-space: nowrap;
 }
 
@@ -47,9 +64,50 @@ li {
   line-height: 16px;
 }
 
-ol {
+.speech li {
+  margin: 0 0 4px 0;
+  padding: 0 0 0 2em;
+}
+
+.speech li.speaker {
+  text-transform: uppercase;
+  color: black;
+  font-size: 13px;
+  letter-spacing: 1px;
   padding: 0;
 }
+
+.speech li.stage-direction {
+  color: black;
+  font-style: italic;
+  line-height: 20px;
+  margin: 10px 0 10px 50px;
+  padding: 0;
+  text-indent: 20px;
+}
+
+ol.speech {
+  margin: 0 0 5px 0;
+  padding: 0;
+}
+
+section.act {
+  border-bottom: 1px solid #eee;
+  margin: 0 0 40px 0;
+  padding: 0 0 3px 0;    
+}
+
+section.scene {
+  border-bottom: 1px solid #eee;
+  margin: 0 0 30px 0;
+  padding: 0 0 0 0;
+}
+
+section.scene:last-of-type {
+  border-bottom: none;
+}
+
+
 
 section#dramatis-personae {
   margin: 0 0 30px 0;
