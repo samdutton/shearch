@@ -4,6 +4,7 @@ const {JSDOM} = require('jsdom');
 var minify = require('html-minifier').minify;
 const validator = require('html-validator');
 
+const titles = require('./data/titles.json');
 const nameTweaks = require('./data/nametweaks.json');
 const top = mz.readFileSync('./html-fragments/top.html');
 const bottom = mz.readFileSync('./html-fragments/bottom.html');
@@ -15,35 +16,31 @@ mz.readdir(INPUT_DIR).then(filenames => {
     return filename.match(/.+xml/);
   });
   for (const filename of filenames) {
-    processFile(filename);
+    convertXMLtoHTML(filename);
   }
 }).catch(error => console.error(`Error reading from ${INPUT_DIR}:`, error));
 
 
-function processFile(filename) {
+function convertXMLtoHTML(filename) {
   JSDOM.fromFile(INPUT_DIR + filename, {contentType: 'text/xml'})
   .then(dom => {
-    let isValid = true;
     // tweak Jon Bosak XML filenames to match standard Shakespeare abbreviations
-    filename = nameTweaks[filename];
-    filename = filename.replace('.xml', '.html');
-    let html = top + addPreamble(dom) + addActs(dom) + bottom;
-    html = minify(html);
-    const options = {
-      data: html,
-      format: 'text'
-    };
-    validator(options).then(data => {
-      isValid = false;
-      console.log(`${filename}:`, data);
-    })
-    .catch(error => {
-      console.error(`Error validating ${filename}:`, error);
-    });
-    if (isValid) {
-      console.log(`Writing file ${filename}`);
+    if (nameTweaks[filename]) {
+      filename = nameTweaks[filename];
+    } else {
+      console.error(`Filename ${filename} not found in nametweaks.json`);
     }
-    writeFile('htmlout/' + filename, html);
+    const title = titles[filename];
+    if (title === '') {
+      console.error(`Title not found for ${filename}`);
+    }
+    let html = ('' + top).replace('${title}', title) + // top is a buffer
+      addPreamble(dom) + addActs(dom) + bottom;
+    html = minify(html);
+    if (isValid(filename, html)) {
+      console.log(`HTML validated, writing file ${filename}`);
+      writeFile('htmlout/' + filename, html);
+    }
   });
 }
 
@@ -159,6 +156,23 @@ function addSpeech(speech) {
   }
   html += '</ol>\n\n';
   return html;
+}
+
+function isValid(filename, html) {
+  const options = {
+    data: html,
+    format: 'text' /* ,
+    validator: 'https://html5.validator.nu' */
+  };
+  validator(options).then(data => {
+//    console.log(`${filename}:`, data);
+    return false;
+  })
+  .catch(error => {
+    console.error(`Error validating ${filename}:`, error);
+    return false;
+  });
+  return true;
 }
 
 function writeFile(filepath, string) {
