@@ -14,15 +14,24 @@ div#container {
 
 div#scene-description {
   color: black;
-  font-size: 14px;
+  font-size: 16px;
   margin: 0 0 20px 0;
 }
 
+div#scene-description:before {
+  color: #c83f3f;
+  content: '☙';
+  font-size: 1.4em;
+  margin: 0 0.5em 0 0;
+  position: relative;
+  top: 0.1em;
+}
+
 div.stage-direction {
+  font-size: 15px;
   font-style: italic;
-  font-size: 16px;
-  line-height: 22px;
-  margin: 25px 0 25px 50px;
+  line-height: 1.4em;
+  margin: 0.8em 0 0.8em 50px;
   text-indent: 30px;
 }
 
@@ -35,17 +44,17 @@ h1 {
   color: black;
   font-size: 30px;
   font-weight: 500;
-  line-height: 36px;
-  margin: 0 0 40px 0;
-  padding: 0 0 3px 0;
+  line-height: 1.2em;
+  margin: 0 0 1.4em 0;
+  padding: 0 0 0.3em 0;
 }
 
 h2 {
   color:#666;
   font-size: 20px;
   font-weight: 500;
-  line-height: 20px;
-  margin: 0 0 35px 0;
+  line-height: 1.2em;
+  margin: 0 0 1em 0;
 }
 
 
@@ -53,7 +62,8 @@ h3 {
   color: black;
   font-size: 16px;
   font-weight: 500;
-  margin: 20px 0 30px 0;
+  line-height: 1.2em;
+  margin: 1.2em 0 1.8em 0;
   white-space: nowrap;
 }
 
@@ -62,12 +72,14 @@ li {
 }
 
 .persona-group li {
+  color:#666;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 1.5em;
 }
 
 .speech li {
-  margin: 0 0 4px 20px;
+  line-height: 1.4em;
+  margin: 0 0 2px 20px;
   padding: 0 30px 0 32px;
   text-indent: -20px;
 }
@@ -87,26 +99,26 @@ li {
 
 
 .speech li.speaker {
-  text-transform: uppercase;
   color: black;
   font-size: 13px;
   letter-spacing: 1px;
-  padding: 0;
+  padding: 3px 0 0 0;
+  text-transform: uppercase;
 }
 
 .speech li.stage-direction {
   color: black;
   counter-increment: none;
   font-style: italic;
-  line-height: 20px;
+  line-height: 1.4em;
   list-style-type:none;
-  margin: 10px 0 10px 50px;
+  margin: 0.8em 0 0.8em 50px;
   padding: 0;
   text-indent: 20px;
 }
 
 ol.persona-group {
-  margin: 0 0 15px 0;
+  margin: 0 0 0.8em 0;
   padding: 0;
 }
 
@@ -118,19 +130,18 @@ ol.speech {
 section.act {
   border-bottom: 1px solid #c83f3f;
   margin: 0 0 40px 0;
-  padding: 0 0 3px 0;    
+  padding: 0 0 3px 0;
 }
 
 section.scene {
 /*  border-bottom: 1px solid #eee; */
   counter-reset: line-number;
-  margin: 0 0 30px 0;
-  padding: 0 0 0 0;
+  margin: 0 0 1.6em 0;
 }
 
 section.scene:after {
-  content: '❦'; /* ☙ */
   color: #c83f3f;
+  content: '❦'; /* ☙ */
   font-size: 30px;
 }
 
@@ -143,13 +154,13 @@ section.scene:last-of-type:after {
 }
 
 section#dramatis-personae {
-  margin: 0 0 30px 0;
+  margin: 0 0 1.4em 0;
 }
 
 section#preamble {
-  border-bottom: 1px solid #eee;
-  margin: 0 0 30px 0;
-  padding: 0 0 15px 0;
+  border-bottom: 1px solid #c83f3f;
+  margin: 0 0 2.4em 0;
+  padding: 0 0 1em 0;
 }
 
 strong {
@@ -166,16 +177,35 @@ strong {
   h1 {
     font-size: 22px;
   }
+  h2 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 16px;
+  }
   .speech li.speaker {
     font-size: 11px;
   }
 }
 
 @media (max-width: 450px) {
+  div.stage-direction {
+    font-size: 14px;
+  }
   h1 {
     font-size: 20px;
   }
-  .speech li {
-    font-size: 13px;
+  h2 {
+    font-size: 18px;
   }
+  h3 {
+    font-size: 14px;
+  }
+  .speech li {
+    font-size: 14px;
+  }
+  .persona-group li {
+    font-size: 14px;
+  }
+
 }
