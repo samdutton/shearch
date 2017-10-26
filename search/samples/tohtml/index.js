@@ -93,6 +93,7 @@ function addPersonae(dom) {
 
 function addActs(dom) {
   let html = '';
+  addLineNumberMarkup(dom); // temporary hack: not possible in CSS :/
   const acts = dom.window.document.querySelectorAll('ACT');
   for (const act of acts) {
     html += '<section class="act">\n\n';
@@ -135,10 +136,12 @@ function addScene(scene) {
 function addSpeech(speech) {
   let html = '<ol class="speech">\n';
   const children = speech.children;
+  let addNumber;
   for (const child of children) {
     switch(child.nodeName) {
     case 'LINE':
-      html += `  <li>${child.textContent}</li>\n`;
+      addNumber = child.hasAttribute('number') ? ' class="number"' : '';
+      html += `  <li${addNumber}>${child.textContent}</li>\n`;
       break;
     case 'SPEAKER':
       // there may be more than one speaker
@@ -173,6 +176,16 @@ function isValid(filename, html) {
     return false;
   });
   return true;
+}
+
+function addLineNumberMarkup(dom) {
+  const lines = dom.window.document.querySelectorAll('LINE');
+  for (let i = 0; i !== lines.length; ++i) {
+    let line = lines[i];
+    if ((i + 1) % 5 === 0 && i !== 0) {
+      line.setAttribute('number', true);
+    }
+  }
 }
 
 function doMinorFixes(html) {
