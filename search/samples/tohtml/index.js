@@ -9,7 +9,7 @@ const nameTweaks = require('./data/nametweaks.json');
 const top = mz.readFileSync('./html-fragments/top.html');
 const bottom = mz.readFileSync('./html-fragments/bottom.html');
 const INPUT_DIR = '../../originals/';
-// const OUTPUT_DIR = 'htmlout/';
+const OUTPUT_DIR = 'htmlout/';
 
 mz.readdir(INPUT_DIR).then(filenames => {
   filenames = filenames.filter(filename => {
@@ -39,7 +39,7 @@ function convertXMLtoHTML(filename) {
     // html = minify(html);
     if (isValid(filename, html)) {
       console.log(`HTML validated, writing file ${filename}`);
-      writeFile('htmlout/' + filename, html);
+      writeFile(OUTPUT_DIR + filename, html);
     }
   });
 }
@@ -93,7 +93,6 @@ function addPersonae(dom) {
 
 function addActs(dom) {
   let html = '';
-  addLineNumberMarkup(dom); // temporary hack: not possible in CSS :/
   const acts = dom.window.document.querySelectorAll('ACT');
   for (const act of acts) {
     html += '<section class="act">\n\n';
@@ -109,6 +108,7 @@ function addActs(dom) {
 }
 
 function addScene(scene) {
+  addLineNumberMarkup(scene); // temporary hack: not possible in pure CSS :(
   let html = '<section class="scene">\n\n';
   const children = scene.children;
   for (const child of children) {
@@ -136,16 +136,16 @@ function addScene(scene) {
 function addSpeech(speech) {
   let html = '<ol class="speech">\n';
   const children = speech.children;
-  let addNumber;
+  let number;
   for (const child of children) {
     switch(child.nodeName) {
     case 'LINE':
-      addNumber = child.hasAttribute('number') ? ' class="number"' : '';
-      html += `  <li${addNumber}>${child.textContent}</li>\n`;
+      number = child.hasAttribute('number') ? ' class="number"' : '';
+      html += `  <li${number}>${child.textContent}</li>\n`;
       break;
     case 'SPEAKER':
       // there may be more than one speaker
-      html += `<li class="speaker">${child.textContent}</li>\n`;
+      html += `  <li class="speaker">${child.textContent}</li>\n`;
       break;
     case 'STAGEDIR':
       html += `  <li class="stage-direction">${child.textContent}</li>\n`;
@@ -178,13 +178,14 @@ function isValid(filename, html) {
   return true;
 }
 
-function addLineNumberMarkup(dom) {
-  const lines = dom.window.document.querySelectorAll('LINE');
+function addLineNumberMarkup(scene) {
+  const lines = scene.querySelectorAll('LINE');
   for (let i = 0; i !== lines.length; ++i) {
     let line = lines[i];
     if ((i + 1) % 5 === 0 && i !== 0) {
       line.setAttribute('number', true);
     }
+//    console.log(i + 1, line.outerHTML);
   }
 }
 

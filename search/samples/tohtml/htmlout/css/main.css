@@ -31,7 +31,7 @@ div.stage-direction + div.stage-direction {
 }
 
 h1 {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #c83f3f;
   color: black;
   font-size: 30px;
   font-weight: 500;
@@ -41,8 +41,8 @@ h1 {
 }
 
 h2 {
-  color:black;
-  font-size: 22px;
+  color:#666;
+  font-size: 20px;
   font-weight: 500;
   line-height: 20px;
   margin: 0 0 35px 0;
@@ -67,21 +67,26 @@ li {
 }
 
 .speech li {
-  margin: 0 0 4px 0;
-  padding: 0 0 0 32px;
+  margin: 0 0 4px 20px;
+  padding: 0 30px 0 32px;
+  text-indent: -20px;
 }
 
-.scene li {
+.scene li:not(.speaker):not(.stage-direction) {
   counter-increment: line-number;
 }
 
-.scene li::after {
+.scene li.number::after {
+  color: #aaa;
   content: counter(line-number);
   float: right;
   font-size: 12px;
+  left: 30px;
+  position: relative;
 }
 
-section.speech li.speaker {
+
+.speech li.speaker {
   text-transform: uppercase;
   color: black;
   font-size: 13px;
@@ -111,22 +116,31 @@ ol.speech {
 }
 
 section.act {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #c83f3f;
   margin: 0 0 40px 0;
   padding: 0 0 3px 0;    
 }
 
 section.scene {
-  border-bottom: 1px solid #eee;
+/*  border-bottom: 1px solid #eee; */
   counter-reset: line-number;
   margin: 0 0 30px 0;
   padding: 0 0 0 0;
+}
+
+section.scene:after {
+  content: '❦'; /* ☙ */
+  color: #c83f3f;
+  font-size: 30px;
 }
 
 section.scene:last-of-type {
   border-bottom: none;
 }
 
+section.scene:last-of-type:after {
+  content: '';
+}
 
 section#dramatis-personae {
   margin: 0 0 30px 0;
@@ -152,10 +166,16 @@ strong {
   h1 {
     font-size: 22px;
   }
+  .speech li.speaker {
+    font-size: 11px;
+  }
 }
 
 @media (max-width: 450px) {
   h1 {
     font-size: 20px;
+  }
+  .speech li {
+    font-size: 13px;
   }
 }
