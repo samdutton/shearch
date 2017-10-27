@@ -24,6 +24,7 @@ button.onclick = getPlay;
 // const playEl = $('div#play');
 const iframe = $('iframe');
 const parser = new DOMParser();
+var docNum = 0;
 
 // if (navigator.serviceWorker) {
 //   navigator.serviceWorker.register('sw.js').catch(function(error) {
@@ -70,12 +71,14 @@ function indexPlay(playName, html) {
       const location = playName + '.' + actNum + '.' + sceneNum;
       const sceneTitle = scene.querySelector('h3').textContent;
       docs.push({
+        n: docNum++,
         l: location,
         t: sceneTitle
       });
       const stagedirs = scene.querySelectorAll('div.stage-direction');
       for (const stagedir of stagedirs) {
         docs.push({
+          n: docNum++,
           l: location,
           t: stagedir.textContent
         });
@@ -86,6 +89,7 @@ function indexPlay(playName, html) {
         const lines = speech.querySelectorAll('li:not(.speaker)');
         for (const line of lines) {
           docs.push({
+            n: docNum++,
             l: location,
             s: speaker,
             t: line.textContent
@@ -96,7 +100,7 @@ function indexPlay(playName, html) {
   }
   endPerf();
   logPerf('Parse play');
-//  console.log(docs);
+  console.log(docs, docNum);
 }
 
 function getPlay() {
