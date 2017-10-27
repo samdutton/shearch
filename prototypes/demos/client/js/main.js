@@ -16,15 +16,35 @@ limitations under the License.
 
 'use strict';
 
-/* global  */
+/* global elasticlunr */
 
 const PLAYNAMES = 'data/play-names.json';
-const button = $('button');
-button.onclick = getPlay;
+// const SEARCH_OPTIONS = {
+//   fields: {
+//     title: {boost: 2},
+//     description: {boost: 1}
+//   },
+//   bool: 'OR',
+//   expand: true // true: do not require whole-word matches only
+// };
+
+// const button = $('button');
+// button.onclick = getPlay;
 // const playEl = $('div#play');
-const iframe = $('iframe');
+// const iframe = $('iframe');
 const parser = new DOMParser();
 var docNum = 0;
+
+const index = elasticlunr(function() {
+  this.addField('l'); // play location
+  this.addField('s'); // speaker, if a line in a speech
+  this.addField('t'); // text of the doc (line, stage direction, etc.)
+  this.setRef('n'); // docs are identified by index of item
+  this.saveDocument(true); // include play data in index data
+});
+
+// elasticlunr.clearStopWords();
+
 
 // if (navigator.serviceWorker) {
 //   navigator.serviceWorker.register('sw.js').catch(function(error) {
@@ -51,17 +71,17 @@ function fetchPlays(playNames) {
     fetch(`plays/${playName}.html`).then(response => {
       return response.text();
     }).then(text => {
-      indexPlay(playName, text);
+      parsePlay(playName, text);
     });
   }
   endPerf();
   logPerf('Fetch play texts');
 }
 
-function indexPlay(playName, html) {
+function parsePlay(playName, html) {
   startPerf();
   const play = parser.parseFromString(html, 'text/html');
-  let docs = [];
+  let docs = window.docs = [];
   const acts = play.querySelectorAll('section.act');
   for (let actNum = 1; actNum <= acts.length; ++actNum) {
     const act = acts[actNum -1];
@@ -100,13 +120,25 @@ function indexPlay(playName, html) {
   }
   endPerf();
   logPerf('Parse play');
-  console.log(docs, docNum);
+  // console.log(docs, docNum);
+  indexDocs(playName, docs);
 }
 
-function getPlay() {
-  const play = 'Ant.html';
-  iframe.src = `plays/${play}`;
+function indexDocs(playName, docs) {
+  startPerf();
+  for (let doc of docs) {
+    this.addDoc(doc);
+  }
+//  saveIndex(JSON.stringify(index));
+  endPerf();
+  logPerf('Load index for ${playName}');
 }
+
+
+// function getPlay() {
+//   const play = 'Ant.html';
+//   iframe.src = `plays/${play}`;
+// }
 
 // function getPlay(play) {
 //   fetch(`plays/${play}`).then(response => {
