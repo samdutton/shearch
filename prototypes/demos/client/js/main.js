@@ -47,7 +47,7 @@ fetchPlayNames();
 function fetchPlays(playNames) {
   startPerf();
   for (const playName of playNames) {
-    fetch(`plays/${playName}`).then(response => {
+    fetch(`plays/${playName}.html`).then(response => {
       return response.text();
     }).then(text => {
       indexPlay(playName, text);
@@ -58,15 +58,16 @@ function fetchPlays(playNames) {
 }
 
 function indexPlay(playName, html) {
-  const play = parser.parseFromString(html, 'application/html');
+  startPerf();
+  const play = parser.parseFromString(html, 'text/html');
   let docs = [];
-  const acts = document.querySelectorAll('section.act');
+  const acts = play.querySelectorAll('section.act');
   for (let actNum = 1; actNum <= acts.length; ++actNum) {
     const act = acts[actNum -1];
     const scenes = act.querySelectorAll('section.scene');
     for (let sceneNum = 1; sceneNum <= scenes.length; ++sceneNum) {
-      const scene = [sceneNum - 1];
-      const location = play + '.' + actNum + '.' + sceneNum;
+      const scene = scenes[sceneNum - 1];
+      const location = playName + '.' + actNum + '.' + sceneNum;
       const sceneTitle = scene.querySelector('h3').textContent;
       docs.push({
         l: location,
@@ -93,7 +94,9 @@ function indexPlay(playName, html) {
       }
     }
   }
-  console.log(docs);
+  endPerf();
+  logPerf('Parse play');
+//  console.log(docs);
 }
 
 function getPlay() {
@@ -143,6 +146,6 @@ function logPerf(message) {
   window.performance.clearMeasures();
   window.performance.measure('duration', 'start', 'end');
   const duration =
-  performance.getEntriesByName('duration')[0].duration.toPrecision(4);
-  console.log(`${message} took ${duration} ms`);
+    performance.getEntriesByName('duration')[0].duration.toPrecision(4);
+  console.log(`${message}: ${duration} ms`);
 }
