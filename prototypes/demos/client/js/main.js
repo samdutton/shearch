@@ -18,11 +18,12 @@ limitations under the License.
 
 /* global  */
 
-const PLAYS = 'data/plays.json';
+const PLAYNAMES = 'data/play-names.json';
 const button = $('button');
 button.onclick = getPlay;
-const playEl = $('div#play');
+// const playEl = $('div#play');
 const iframe = $('iframe');
+const parser = new DOMParser();
 
 // if (navigator.serviceWorker) {
 //   navigator.serviceWorker.register('sw.js').catch(function(error) {
@@ -30,33 +31,69 @@ const iframe = $('iframe');
 //   });
 // }
 
-function fetchPlayList() {
+function fetchPlayNames() {
   startPerf();
-  fetch(PLAYS).then(response => {
+  fetch(PLAYNAMES).then(response => {
     endPerf();
-    logPerf('Fetching list of plays');
+    logPerf('Fetch play names');
     return response.json();
-  }).then(plays => {
-    fetchPlays(plays);
+  }).then(playNames => {
+    fetchPlays(playNames);
   }).catch(error => {});
 }
 
-fetchPlayList();
+fetchPlayNames();
 
-function fetchPlays(plays) {
-  for (const play of plays) {
-    fetch(`plays/${play}`).then(response => {
+function fetchPlays(playNames) {
+  startPerf();
+  for (const playName of playNames) {
+    fetch(`plays/${playName}`).then(response => {
       return response.text();
     }).then(text => {
-      startPerf();
-//      console.log(text.slice(1000, 1100));
-      // do something
-      // queryInput.disabled = false;
-      // queryInput.focus();
+      indexPlay(playName, text);
     });
   }
   endPerf();
-  logPerf('Fetching play texts');
+  logPerf('Fetch play texts');
+}
+
+function indexPlay(playName, html) {
+  const play = parser.parseFromString(html, 'application/html');
+  let docs = [];
+  const acts = document.querySelectorAll('section.act');
+  for (let actNum = 1; actNum <= acts.length; ++actNum) {
+    const act = acts[actNum -1];
+    const scenes = act.querySelectorAll('section.scene');
+    for (let sceneNum = 1; sceneNum <= scenes.length; ++sceneNum) {
+      const scene = [sceneNum - 1];
+      const location = play + '.' + actNum + '.' + sceneNum;
+      const sceneTitle = scene.querySelector('h3').textContent;
+      docs.push({
+        l: location,
+        t: sceneTitle
+      });
+      const stagedirs = scene.querySelectorAll('div.stage-direction');
+      for (const stagedir of stagedirs) {
+        docs.push({
+          l: location,
+          t: stagedir.textContent
+        });
+      }
+      const speeches = scene.querySelectorAll('ol.speech');
+      for (const speech of speeches) {
+        const speaker = speech.querySelector('li.speaker').textContent;
+        const lines = speech.querySelectorAll('li:not(.speaker)');
+        for (const line of lines) {
+          docs.push({
+            l: location,
+            s: speaker,
+            t: line.textContent
+          });
+        }
+      }
+    }
+  }
+  console.log(docs);
 }
 
 function getPlay() {
