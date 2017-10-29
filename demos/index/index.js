@@ -16,7 +16,6 @@ mz.readdir(INPUT_DIR).then(filenames => {
     return filename.match(/.+xml/);
   });
   numFilesToProcess = filenames.length;
-  console.log('numFilesToProcess', numFilesToProcess);
   for (const filename of filenames) {
     addDocs(docs, filename);
   }
@@ -38,6 +37,7 @@ function createIndex(docs) {
 }
 
 function addDocs(docs, filename) {
+  console.time('Parse docs');
   JSDOM.fromFile(INPUT_DIR + filename, {contentType: 'text/xml'})
   .then(dom => {
     const play = dom.window.document.querySelector('PLAY');
@@ -51,14 +51,14 @@ function addDocs(docs, filename) {
         const location = playAbbreviation + '.' + actNum + '.' + sceneNum;
         const sceneTitle = scene.querySelector('TITLE');
         docs.push({
-          n: docNum++,
+          n: (docNum++).toString(36), // to minimise length/storage of n
           l: location,
           t: sceneTitle.textContent
         });
         const stagedirs = scene.querySelectorAll('STAGEDIR');
         for (const stagedir of stagedirs) {
           docs.push({
-            n: docNum++,
+            n: (docNum++).toString(36),
             l: location,
             t: stagedir.textContent
           });
@@ -70,7 +70,7 @@ function addDocs(docs, filename) {
           // stage directions are added
           for (const line of lines) {
             docs.push({
-              n: docNum++,
+              n: (docNum++).toString(36),
               l: location,
               s: speaker.textContent,
               t: line.textContent
@@ -79,9 +79,12 @@ function addDocs(docs, filename) {
         }
       }
     }
-    console.log('numFilesToProcess', numFilesToProcess);
+    console.log(`${numFilesToProcess} files to process`);
     if (--numFilesToProcess === 0) {
+      console.timeEnd('Parse docs');
+      console.time('Index ${docs.length} docs');
       createIndex(docs);
+      console.timeEnd(`Index ${docs.length} docs`);
     }
   }).catch(error => {
     console.log(`Error creating DOM from ${filename}`, error);
