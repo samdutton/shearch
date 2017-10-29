@@ -192,6 +192,7 @@ function addLineNumberMarkup(scene) {
 function doMinorFixes(html) {
   return html.
     replace('&c', 'etc.').
+    replace(/,--/g, ' — ').
     replace(/--/g, ' — ').
     replace(/, —/g, ' — ');
 }
