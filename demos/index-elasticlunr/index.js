@@ -5,7 +5,7 @@ const elasticlunr = require('elasticlunr');
 const abbreviations = require('./data/abbreviations.json');
 
 const INPUT_DIR = '../../originals/';
-const OUTPUT_DIR = 'out/';
+const OUTPUT_FILE = '../client/elasticlunr/data/index.json';
 
 var docNum = 0;
 let numFilesToProcess;
@@ -33,7 +33,7 @@ function createIndex(docs) {
       this.addDoc(doc);
     }
   });
-  writeFile(`${OUTPUT_DIR}index.json`, JSON.stringify(index));
+  writeFile(OUTPUT_FILE, JSON.stringify(index));
 }
 
 function addDocs(docs, filename) {
@@ -47,6 +47,7 @@ function addDocs(docs, filename) {
       const act = acts[actNum -1];
       const scenes = act.querySelectorAll('SCENE');
       for (let sceneNum = 1; sceneNum <= scenes.length; ++sceneNum) {
+        let lineNum = 1;
         const scene = scenes[sceneNum - 1];
         const location = playAbbreviation + '.' + actNum + '.' + sceneNum;
         const sceneTitle = scene.querySelector('TITLE');
@@ -71,7 +72,8 @@ function addDocs(docs, filename) {
           for (const line of lines) {
             docs.push({
               n: (docNum++).toString(36),
-              l: location,
+              // only lines have a line number and speaker
+              l: location + '.' + lineNum++,
               s: speaker.textContent,
               t: doMinorFixes(line.textContent)
             });

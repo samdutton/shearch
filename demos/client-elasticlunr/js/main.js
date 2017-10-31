@@ -21,6 +21,7 @@ limitations under the License.
 const queryInput = document.getElementById('query');
 // Search for products whenever query input text changes
 queryInput.oninput = doSearch;
+const resultsList = document.getElementById('results');
 
 const SEARCH_OPTIONS = {
   fields: {
@@ -32,15 +33,14 @@ const SEARCH_OPTIONS = {
 };
 
 var index;
-var matches;
 
 const INDEX_FILE = 'data/index.json';
 
-if (navigator.serviceWorker) {
-  navigator.serviceWorker.register('sw.js').catch(function(error) {
-    console.error('Unable to register service worker.', error);
-  });
-}
+// if (navigator.serviceWorker) {
+//   navigator.serviceWorker.register('sw.js').catch(function(error) {
+//     console.error('Unable to register service worker.', error);
+//   });
+// }
 
 // Get index data and load index
 console.log('Fetching index...');
@@ -62,17 +62,47 @@ fetch(INDEX_FILE).then(response => {
 
 // Search for products whenever query input text changes
 queryInput.oninput = doSearch;
+var timeout = null;
+const DEBOUNCE_DELAY = 100;
 
 function doSearch() {
+  resultsList.textContent = '';
+  console.clear();
   const query = queryInput.value;
   if (query.length < 2) {
     return;
   }
-
-  console.time('Do search');
-  matches = window.matches = index.search(query, SEARCH_OPTIONS);
-  console.clear();
-  console.log('matches', matches);
-  console.timeEnd('Do search');
+  clearTimeout(timeout);
+  timeout = setTimeout(function() {
+    console.time(`Do search for ${query}`);
+    const results = index.search(query, SEARCH_OPTIONS);
+    if (results.length > 0) {
+      displayMatches(results, query);
+    }
+    console.timeEnd(`Do search for ${query}`);
+  }, DEBOUNCE_DELAY);
 }
 
+function displayMatches(results, query) {
+  const re = new RegExp(query, 'i');
+  results = results.filter(function(result) {
+    return re.test(result.doc.t);
+  });
+  results.sort((x, y) => {
+    return re.test(x.doc.t) ? -1 : re.test(y.doc.t) ? 1 : 0;
+  });
+  for (const result of results) {
+    addResult(result.doc);
+  }
+}
+
+function addResult(match) {
+  const resultElement = document.createElement('li');
+  resultElement.classList.add('match');
+  resultElement.dataset.location = match.l;
+  resultElement.appendChild(document.createTextNode(match.t));
+  resultElement.onclick = function() {
+    console.log(match.id);
+  };
+  resultsList.appendChild(resultElement);
+}

@@ -14,7 +14,7 @@
 const FILES = [
   'index.html',
   'css/main.css',
-  'data/index.json',
+  'data/index-and-docs.json',
   'js/main.js',
   'js/lib/elasticlunr.min.js'
 ];

@@ -21,7 +21,7 @@ limitations under the License.
 const queryInput = document.getElementById('query');
 // Search for products whenever query input text changes
 queryInput.oninput = doSearch;
-const resultsDiv = document.getElementById('results');
+const resultsList = document.getElementById('results');
 
 var docs;
 var index;
@@ -53,7 +53,7 @@ fetch(INDEX_AND_DOCS).then(response => {
 queryInput.oninput = doSearch;
 
 function doSearch() {
-  resultsDiv.textContent = '';
+  resultsList.textContent = '';
   console.clear();
   const query = queryInput.value;
   if (query.length < 2) {
@@ -71,12 +71,15 @@ function doSearch() {
 
 function displayMatches(matches, query) {
   let results = [];
+  const re = new RegExp(query, 'i');
   for (const match of matches) {
     results.push(docs[match.ref]);
   }
-  console.log(query);
-  results.sort(function(x, y) {
-    return x.t.includes(query) ? -1 : y.t.includes(query) ? 1 : 0;
+  results = results.filter(function(result) {
+    return re.test(result.t);
+  });
+  results.sort((x, y) => {
+    return re.test(x.t) ? -1 : re.test(query) ? 1 : 0;
   });
   for (const result of results) {
     addResult(result);
@@ -84,12 +87,12 @@ function displayMatches(matches, query) {
 }
 
 function addResult(match) {
-  const resultElement = document.createElement('div');
+  const resultElement = document.createElement('li');
   resultElement.classList.add('match');
+  resultElement.dataset.location = match.l;
   resultElement.appendChild(document.createTextNode(match.t));
   resultElement.onclick = function() {
     console.log(match.id);
   };
-  resultsDiv.appendChild(resultElement);
+  resultsList.appendChild(resultElement);
 }
-

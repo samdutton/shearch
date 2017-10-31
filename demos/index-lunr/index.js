@@ -5,7 +5,7 @@ const lunr = require('lunr');
 const abbreviations = require('./data/abbreviations.json');
 
 const INPUT_DIR = '../../originals/';
-const OUTPUT_DIR = 'out/';
+const OUTPUT_FILE = '../client/lunr/data/index-and-docs.json';
 
 var docNum = 0;
 let numFilesToProcess;
@@ -45,6 +45,7 @@ function addDocs(docs, filename) {
       const act = acts[actNum -1];
       const scenes = act.querySelectorAll('SCENE');
       for (let sceneNum = 1; sceneNum <= scenes.length; ++sceneNum) {
+        let lineNum = 1;
         const scene = scenes[sceneNum - 1];
         const location = playAbbreviation + '.' + actNum + '.' + sceneNum;
         const sceneTitle = scene.querySelector('TITLE');
@@ -67,7 +68,8 @@ function addDocs(docs, filename) {
           // stage directions are added
           for (const line of lines) {
             docs[(docNum++).toString(36)] = {
-              l: location,
+              // only lines have a line number and speaker
+              l: location + '.' + lineNum++,
               s: speaker.textContent,
               t: doMinorFixes(line.textContent)
             };
@@ -79,7 +81,6 @@ function addDocs(docs, filename) {
     if (--numFilesToProcess === 0) {
       console.timeEnd('Parse docs');
       console.log('Writing data...');
-      writeFile(`${OUTPUT_DIR}data.json`, JSON.stringify(docs));
       console.log('Creating index...');
       console.time(`Index ${Object.keys(docs).length} docs`);
       const index = createIndex(docs);
@@ -96,7 +97,7 @@ function writeIndexAndDocs(index, docs) {
     index: index,
     docs: docs
   };
-  writeFile(`${OUTPUT_DIR}index-and-docs.json`, JSON.stringify(json));
+  writeFile(OUTPUT_FILE, JSON.stringify(json));
 }
 
 function writeFile(filepath, string) {
