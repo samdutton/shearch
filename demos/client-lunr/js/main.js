@@ -21,11 +21,12 @@ limitations under the License.
 const queryInput = document.getElementById('query');
 // Search for products whenever query input text changes
 queryInput.oninput = doSearch;
+const resultsDiv = document.getElementById('results');
 
+var docs;
 var index;
-var matches;
 
-const INDEX_FILE = 'data/index.json';
+const INDEX_AND_DOCS = 'data/index-and-docs.json';
 
 // if (navigator.serviceWorker) {
 //   navigator.serviceWorker.register('sw.js').catch(function(error) {
@@ -33,15 +34,16 @@ const INDEX_FILE = 'data/index.json';
 //   });
 // }
 
-// Get index data and load index
-console.log('Fetching index...');
-console.time('Fetch index');
-fetch(INDEX_FILE).then(response => {
+// Fetch and load index
+console.log('Fetching index and docs...');
+console.time('Fetch index and docs');
+fetch(INDEX_AND_DOCS).then(response => {
   return response.json();
 }).then(json => {
-  console.timeEnd('Fetch index');
+  console.timeEnd('Fetch index and docs');
   console.time('Load index');
-  index = lunr.Index.load(json);
+  index = lunr.Index.load(json.index);
+  docs = json.docs;
   console.timeEnd('Load index');
   queryInput.disabled = false;
   queryInput.focus();
@@ -51,15 +53,43 @@ fetch(INDEX_FILE).then(response => {
 queryInput.oninput = doSearch;
 
 function doSearch() {
+  resultsDiv.textContent = '';
+  console.clear();
   const query = queryInput.value;
   if (query.length < 2) {
     return;
   }
 
   console.time('Do search');
-  matches = window.matches = index.search(query);
-  console.clear();
-  console.log('matches', matches);
+  const matches = index.search(query);
+  // matches is an array of items with refs (IDs) and scores
+  if (matches.length > 0) {
+    displayMatches(matches, query);
+  }
   console.timeEnd('Do search');
+}
+
+function displayMatches(matches, query) {
+  let results = [];
+  for (const match of matches) {
+    results.push(docs[match.ref]);
+  }
+  console.log(query);
+  results.sort(function(x, y) {
+    return x.t.includes(query) ? -1 : y.t.includes(query) ? 1 : 0;
+  });
+  for (const result of results) {
+    addResult(result);
+  }
+}
+
+function addResult(match) {
+  const resultElement = document.createElement('div');
+  resultElement.classList.add('match');
+  resultElement.appendChild(document.createTextNode(match.t));
+  resultElement.onclick = function() {
+    console.log(match.id);
+  };
+  resultsDiv.appendChild(resultElement);
 }
 

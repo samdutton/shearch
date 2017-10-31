@@ -11,28 +11,27 @@ var docNum = 0;
 let numFilesToProcess;
 
 mz.readdir(INPUT_DIR).then(filenames => {
-  let docs = [];
+  let docs = {};
   filenames = filenames.filter(filename => {
     return filename.match(/.+xml/);
   });
   numFilesToProcess = filenames.length;
+  console.log('Parsing docs...');
   for (const filename of filenames) {
     addDocs(docs, filename);
   }
 }).catch(error => console.error(`Error reading from ${INPUT_DIR}:`, error));
 
 function createIndex(docs) {
-  const index = lunr(function() {
+  return lunr(function() {
     this.field('l'); // e.g. Ant.1.2
-    this.field('s'); // speaker name
+    this.field('s'); // speaker name, if spoken line
     this.field('t'); // text of line, stage direction or scene title
-    this.ref('n'); // index of indexed item
-    // Include data with index
-    for (let doc of docs) {
-      this.add(doc);
+    for (const [key, value] of Object.entries(docs)) {
+      value.id = key; // id is the default key for search matches
+      this.add(value);
     }
   });
-  writeFile(`${OUTPUT_DIR}index.json`, JSON.stringify(index));
 }
 
 function addDocs(docs, filename) {
@@ -49,18 +48,17 @@ function addDocs(docs, filename) {
         const scene = scenes[sceneNum - 1];
         const location = playAbbreviation + '.' + actNum + '.' + sceneNum;
         const sceneTitle = scene.querySelector('TITLE');
-        docs.push({
-          n: (docNum++).toString(36), // to minimise length/storage of n
+        // using base 36 to minimise size of key
+        docs[(docNum++).toString(36)] = {
           l: location,
           t: sceneTitle.textContent
-        });
+        };
         const stagedirs = scene.querySelectorAll('STAGEDIR');
         for (const stagedir of stagedirs) {
-          docs.push({
-            n: (docNum++).toString(36),
+          docs[(docNum++).toString(36)] = {
             l: location,
             t: stagedir.textContent
-          });
+          };
         }
         const speeches = scene.querySelectorAll('SPEECH');
         for (const speech of speeches) {
@@ -68,12 +66,11 @@ function addDocs(docs, filename) {
           const lines = speech.querySelectorAll('LINE');
           // stage directions are added
           for (const line of lines) {
-            docs.push({
-              n: (docNum++).toString(36),
+            docs[(docNum++).toString(36)] = {
               l: location,
               s: speaker.textContent,
               t: doMinorFixes(line.textContent)
-            });
+            };
           }
         }
       }
@@ -81,18 +78,30 @@ function addDocs(docs, filename) {
     console.log(`${numFilesToProcess} files to process`);
     if (--numFilesToProcess === 0) {
       console.timeEnd('Parse docs');
-      console.time(`Index ${docs.length} docs`);
-      createIndex(docs);
-      console.timeEnd(`Index ${docs.length} docs`);
+      console.log('Writing data...');
+      writeFile(`${OUTPUT_DIR}data.json`, JSON.stringify(docs));
+      console.log('Creating index...');
+      console.time(`Index ${Object.keys(docs).length} docs`);
+      const index = createIndex(docs);
+      console.timeEnd(`Index ${Object.keys(docs).length} docs`);
+      writeIndexAndDocs(index, docs);
     }
   }).catch(error => {
     console.log(`Error creating DOM from ${filename}`, error);
   });
 }
 
+function writeIndexAndDocs(index, docs) {
+  const json = {
+    index: index,
+    docs: docs
+  };
+  writeFile(`${OUTPUT_DIR}index-and-docs.json`, JSON.stringify(json));
+}
+
 function writeFile(filepath, string) {
   mz.writeFile(filepath, string, error => {
-    if(error) {
+    if (error) {
       return console.error(error);
     }
     console.log(`The file ${filepath} was saved!`);

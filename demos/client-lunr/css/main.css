@@ -19,6 +19,13 @@ button {
   margin: 0 0 20px 0;
 }
 
+div.match {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 0 20px 0;
+}
+
 div#container {
   margin: 0 auto;
   max-width: 40em;
