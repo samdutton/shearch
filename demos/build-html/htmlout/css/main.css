@@ -20,7 +20,7 @@ div#scene-description {
 
 div#scene-description:before {
   color: #c83f3f;
-  content: '☙';
+  content: 'â˜™';
   font-size: 1.4em;
   margin: 0 0.5em 0 0;
   position: relative;
@@ -31,12 +31,12 @@ div.stage-direction {
   font-size: 15px;
   font-style: italic;
   line-height: 1.4em;
-  margin: 0.8em 0 0.8em 50px;
+  margin: 0.6em 0 0.6em 50px;
   text-indent: 30px;
 }
 
 div.stage-direction + div.stage-direction {
-  margin-top: -20px;
+ 
 }
 
 h1 {
@@ -141,7 +141,7 @@ section.scene {
 
 section.scene:after {
   color: #c83f3f;
-  content: '❦'; /* ☙ */
+  content: 'â¦'; /* â˜™ */
   font-size: 30px;
 }
 

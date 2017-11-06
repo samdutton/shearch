@@ -4,7 +4,7 @@ const elasticlunr = require('elasticlunr');
 
 const abbreviations = require('./data/abbreviations.json');
 
-const INPUT_DIR = '../../../originals/';
+const INPUT_DIR = '../../../originals/plays-bosak/';
 const OUTPUT_FILE = '../../client/elasticlunr/data/index.json';
 
 var docNum = 0;
@@ -47,7 +47,8 @@ function addDocs(docs, filename) {
       const act = acts[actNum -1];
       const scenes = act.querySelectorAll('SCENE');
       for (let sceneNum = 1; sceneNum <= scenes.length; ++sceneNum) {
-        let lineNum = 1;
+        let lineNum = 1; // human readable
+        let stagedirNum = 0; // just an index of stage directions
         const scene = scenes[sceneNum - 1];
         const location = playAbbreviation + '.' + actNum + '.' + sceneNum;
         const sceneTitle = scene.querySelector('TITLE');
@@ -60,7 +61,7 @@ function addDocs(docs, filename) {
         for (const stagedir of stagedirs) {
           docs.push({
             n: (docNum++).toString(36),
-            l: location,
+            l: location + '.' + stagedirNum++,
             t: stagedir.textContent
           });
         }
@@ -68,7 +69,7 @@ function addDocs(docs, filename) {
         for (const speech of speeches) {
           const speaker = speech.querySelector('SPEAKER');
           const lines = speech.querySelectorAll('LINE');
-          // stage directions are added
+          // stage directions are added separately, even if in a speech
           for (const line of lines) {
             docs.push({
               n: (docNum++).toString(36),

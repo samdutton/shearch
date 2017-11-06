@@ -25,16 +25,16 @@ const resultsList = document.getElementById('results');
 
 const SEARCH_OPTIONS = {
   fields: {
-    t: {boost: 10},
-    s: {boost: 1}
+    t: {}
   },
-  bool: 'OR',
+  bool: 'AND',
   expand: true // true: do not require whole-word matches only
 };
 
 var index;
 
 const INDEX_FILE = 'data/index.json';
+const PLAYS_DIR = '../../build-html/htmlout/';
 
 // if (navigator.serviceWorker) {
 //   navigator.serviceWorker.register('sw.js').catch(function(error) {
@@ -63,11 +63,10 @@ fetch(INDEX_FILE).then(response => {
 // Search for products whenever query input text changes
 queryInput.oninput = doSearch;
 var timeout = null;
-const DEBOUNCE_DELAY = 100;
+const DEBOUNCE_DELAY = 200;
 
 function doSearch() {
   resultsList.textContent = '';
-  console.clear();
   const query = queryInput.value;
   if (query.length < 2) {
     return;
@@ -84,15 +83,18 @@ function doSearch() {
 }
 
 function displayMatches(results, query) {
-  // keep exact matches only
   const exactPhrase = new RegExp(query, 'i');
-  results = results.filter(function(result) {
-    return exactPhrase.test(result.doc.t);
-  });
-  // results.sort((a, b) => {
-  //  return exactPhrase.test(a.doc.t) ? -1 : exactPhrase.test(b.doc.t) ? 1 : 0;
+  // keep exact matches only
+  // results = results.filter(function(result) {
+  //   return exactPhrase.test(result.doc.t);
   // });
-  results.sort((a, b) => a.doc.l.localeCompare(b.doc.l, {numeric: true}));
+  // prefer exact matches
+  results = results.sort((a, b) => {
+    return exactPhrase.test(a.doc.t) ? -1 : exactPhrase.test(b.doc.t) ? 1 : 0;
+  });
+  // sort not necessary
+  // results = results.sort((a, b) =>
+  // a.doc.l.localeCompare(b.doc.l, {numeric: true}));
   for (const result of results) {
     addResult(result.doc);
   }
@@ -102,10 +104,26 @@ function addResult(match) {
   const resultElement = document.createElement('li');
   resultElement.classList.add('match');
   resultElement.dataset.location = match.l;
-  const text = match.s ? match.t : `<em>${match.t}</em>`;
-  resultElement.appendChild(document.createTextNode(text));
+  const html = match.s ? match.t : `<em>${match.t}</em>`;
+  resultElement.innerHTML = html;
   resultElement.onclick = function() {
-    console.log(match.id);
+    showPlay(match.l);
   };
   resultsList.appendChild(resultElement);
+}
+
+function showPlay(location) {
+  const split = location.split('.');
+  const play = PLAYS_DIR + split[0] + '.xml';
+  const act = split[1];
+  const scene = split[2];
+  // a line has a line number, stage direction index, scene description nothing
+  const occurrence = split.length === 4 ? split[3] : undefined;
+  console.log(play, act, scene, occurrence);
+
+  // hide results div
+  // show play div
+  // location looks like this: R2.2.3.123
+  // find element
+  // scrollIntoView(element)
 }

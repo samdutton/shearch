@@ -17,14 +17,13 @@ limitations under the License.
 'use strict';
 
 /* global PouchDB */
-var db = new PouchDB('dbname');
+var db = new PouchDB('shearch');
 
 const queryInput = document.getElementById('query');
 // Search for products whenever query input text changes
 queryInput.oninput = doSearch;
 const resultsList = document.getElementById('results');
 
-var index;
 const DOCS_FILE = 'data/docs.json';
 
 // if (navigator.serviceWorker) {
@@ -42,10 +41,24 @@ fetch(DOCS_FILE).then(response => {
   console.timeEnd('Fetch docs');
   console.log('Adding docs to database...');
   console.time(`Add ${docs.length} docs to database`);
-  for (const doc of docs) {
-    db.put(doc);
-  }
-  console.timeEnd(`Add ${docs.length} docs to database`);
+  // docs = docs.slice(0,99);
+  // let obj = {};
+  // for (const doc of docs) {
+  //   obj[doc._id] = obj[doc._id] === undefined ? 1: obj[doc._id] +=1;
+  // }
+  // console.log(obj);
+  // console.log(Object.entries(obj).filter(function(item) {
+  //   return item[1] > 1;
+  // }));
+  db.bulkDocs(docs).then((result) => {
+    console.timeEnd(`Add ${docs.length} docs to database`);
+    createIndex();
+  }).catch(error => {
+    console.log('Error putting doc', error);
+  });
+});
+
+function createIndex() {
   console.log('Creating index...');
   console.time('Create index');
   db.createIndex({
@@ -57,37 +70,52 @@ fetch(DOCS_FILE).then(response => {
   }).catch(error => {
     console.log('Error creating index: ', error);
   });
-});
+}
 
 // Search for products whenever query input text changes
 queryInput.oninput = doSearch;
+var timeout = null;
+const DEBOUNCE_DELAY = 500;
 
 function doSearch() {
+  console.log('doSearch()');
   resultsList.textContent = '';
   console.clear();
   const query = queryInput.value;
-  if (query.length < 2) {
+  if (query.length < 3) {
     return;
   }
+  // debounce typing
+  clearTimeout(timeout);
+  timeout = setTimeout(function() {
+    console.time(`Do search for ${query}`);
+    find(query);
+    console.timeEnd(`Do search for ${query}`);
+  }, DEBOUNCE_DELAY);
   console.time('Do search');
-  db.find({
-    // fyi: can't use indexing with regex selector :/
-    selector: {t: {$regex: new RegExp('.*' + query + '.*', 'i')}}}).
-    then(function(result) {
-      const matches = result.docs;
-      if (matches.length === 0) {
-        // do stuff...
-        return;
-      } else {
-        displayMatches(matches, query);
-      }
-      console.timeEnd('Do search');
-    }).catch(function(err) {
-      console.log('find error:', err);
-    });
+}
+
+function find(query) {
+ // fyi: can't use on-disk indexing with regex selector :/
+  db.find({selector: {t: {$regex: new RegExp('.*' + query + '.*', 'i')}}}).
+  then(function(result) {
+    const matches = result.docs;
+    console.log('query', query);
+    if (matches.length === 0) {
+      // display no-matches warning
+      return;
+    } else {
+      displayMatches(matches, query);
+    }
+    console.timeEnd('Do search');
+  }).catch(function(err) {
+    console.log('find error:', err);
+  });
 }
 
 function displayMatches(matches, query) {
+  resultsList.textContent = '';
+  console.log('matches', matches);
   let results = [];
   const re = new RegExp(query, 'i');
   for (const match of matches) {
