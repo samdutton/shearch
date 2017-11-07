@@ -17,7 +17,7 @@ limitations under the License.
 'use strict';
 
 /* global PouchDB */
-var db = new PouchDB('shearch');
+const db = new PouchDB('shearch');
 
 const queryInput = document.getElementById('query');
 // Search for products whenever query input text changes
@@ -54,7 +54,7 @@ fetch(DOCS_FILE).then(response => {
     console.timeEnd(`Add ${docs.length} docs to database`);
     createIndex();
   }).catch(error => {
-    console.log('Error putting doc', error);
+    console.error('Error putting doc', error);
   });
 });
 
@@ -68,17 +68,16 @@ function createIndex() {
     queryInput.disabled = false;
     queryInput.focus();
   }).catch(error => {
-    console.log('Error creating index: ', error);
+    console.error('Error creating index: ', error);
   });
 }
 
 // Search for products whenever query input text changes
 queryInput.oninput = doSearch;
 var timeout = null;
-const DEBOUNCE_DELAY = 500;
+const DEBOUNCE_DELAY = 200;
 
 function doSearch() {
-  console.log('doSearch()');
   resultsList.textContent = '';
   console.clear();
   const query = queryInput.value;
@@ -88,34 +87,31 @@ function doSearch() {
   // debounce typing
   clearTimeout(timeout);
   timeout = setTimeout(function() {
-    console.time(`Do search for ${query}`);
     find(query);
-    console.timeEnd(`Do search for ${query}`);
   }, DEBOUNCE_DELAY);
-  console.time('Do search');
 }
 
 function find(query) {
+  console.time(`Do search for ${query}`);
  // fyi: can't use on-disk indexing with regex selector :/
   db.find({selector: {t: {$regex: new RegExp('.*' + query + '.*', 'i')}}}).
   then(function(result) {
     const matches = result.docs;
-    console.log('query', query);
     if (matches.length === 0) {
       // display no-matches warning
       return;
     } else {
       displayMatches(matches, query);
     }
-    console.timeEnd('Do search');
-  }).catch(function(err) {
-    console.log('find error:', err);
+    console.timeEnd(`Do search for ${query}`);
+  }).catch(function(error) {
+    console.error('find error:', error);
   });
 }
 
 function displayMatches(matches, query) {
   resultsList.textContent = '';
-  console.log('matches', matches);
+//  console.log('matches', matches);
   let results = [];
   const re = new RegExp(query, 'i');
   for (const match of matches) {
