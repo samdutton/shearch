@@ -22,6 +22,7 @@ const queryInput = document.getElementById('query');
 // Search for products whenever query input text changes
 queryInput.oninput = doSearch;
 const resultsList = document.getElementById('results');
+const playIframe = document.querySelector('iframe');
 
 const SEARCH_OPTIONS = {
   fields: {
@@ -34,7 +35,11 @@ const SEARCH_OPTIONS = {
 var index;
 
 const INDEX_FILE = 'data/index.json';
-const PLAYS_DIR = '../../build-html/htmlout/';
+const PLAYS_DIR = '../plays/';
+
+var timeout = null;
+const DEBOUNCE_DELAY = 200;
+
 
 // if (navigator.serviceWorker) {
 //   navigator.serviceWorker.register('sw.js').catch(function(error) {
@@ -60,10 +65,6 @@ fetch(INDEX_FILE).then(response => {
   queryInput.focus();
 });
 
-// Search for products whenever query input text changes
-queryInput.oninput = doSearch;
-var timeout = null;
-const DEBOUNCE_DELAY = 200;
 
 function doSearch() {
   resultsList.textContent = '';
@@ -76,6 +77,8 @@ function doSearch() {
     console.time(`Do search for ${query}`);
     const results = index.search(query, SEARCH_OPTIONS);
     if (results.length > 0) {
+      hide(playIframe);
+      show(resultsList);
       displayMatches(results, query);
     }
     console.timeEnd(`Do search for ${query}`);
@@ -114,16 +117,35 @@ function addResult(match) {
 
 function showPlay(location) {
   const split = location.split('.');
-  const play = PLAYS_DIR + split[0] + '.xml';
-  const act = split[1];
-  const scene = split[2];
-  // a line has a line number, stage direction index, scene description nothing
-  const occurrence = split.length === 4 ? split[3] : undefined;
-  console.log(play, act, scene, occurrence);
+  const playFilepath = PLAYS_DIR + split[0] + '.html';
+  const actIndex = split[1] - 1;
+  const sceneIndex = split[2] - 1;
+  const itemNum = split.length === 4 ? split[3] : undefined;
+  // line: itemNum is one-based line number (5th lines are given class 'number')
+  // stage direction: itemNum is zero-based index of item within a scene
+  // scene description: no itemNum (only one per scene)
+  console.log(playFilepath, actIndex, sceneIndex, itemNum);
+  hide(resultsList);
+  show(playIframe);
+  playIframe.src = playFilepath;
+  playIframe.onload = function() {
+    const playIframeDoc = playIframe.contentWindow.document;
+    const act = playIframeDoc.querySelectorAll('section.act')[actIndex];
+    const scene = act.querySelectorAll('section.scene')[sceneIndex];
+    const lineSelector = 'ol.speech li:not(.speaker):not(.stage-direction)';
+    // line number is human-readable one-based
+    const line = scene.querySelectorAll(lineSelector)[itemNum - 1];
+    line.classList.add('highlight');
+    line.scrollIntoView({inline: 'center'});
+    console.log('line', line);
+    console.log('playIframeDoc.querySelector', scene);
+  };
+}
 
-  // hide results div
-  // show play div
-  // location looks like this: R2.2.3.123
-  // find element
-  // scrollIntoView(element)
+function hide(element) {
+  element.classList.add('hidden');
+}
+
+function show(element) {
+  element.classList.remove('hidden');
 }

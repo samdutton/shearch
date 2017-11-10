@@ -9,7 +9,7 @@ const convertNames = require('./data/convert-names.json');
 const top = mz.readFileSync('./html-fragments/top.html');
 const bottom = mz.readFileSync('./html-fragments/bottom.html');
 const INPUT_DIR = '../../originals/';
-const OUTPUT_DIR = 'htmlout/';
+const OUTPUT_DIR = '../client/plays/';
 
 mz.readdir(INPUT_DIR).then(filenames => {
   filenames = filenames.filter(filename => {

@@ -48,7 +48,7 @@ function addDocs(docs, filename) {
       const scenes = act.querySelectorAll('SCENE');
       for (let sceneNum = 1; sceneNum <= scenes.length; ++sceneNum) {
         let lineNum = 1; // human readable
-        let stagedirNum = 0; // just an index of stage directions
+        let stagedirIndex = 0; // just an index of stage directions
         const scene = scenes[sceneNum - 1];
         const location = playAbbreviation + '.' + actNum + '.' + sceneNum;
         const sceneTitle = scene.querySelector('TITLE');
@@ -61,7 +61,7 @@ function addDocs(docs, filename) {
         for (const stagedir of stagedirs) {
           docs.push({
             n: (docNum++).toString(36),
-            l: location + '.' + stagedirNum++,
+            l: location + '.' + stagedirIndex++,
             t: stagedir.textContent
           });
         }

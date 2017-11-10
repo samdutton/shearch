@@ -32,7 +32,7 @@ const DOCS_FILE = 'data/docs.json';
 //   });
 // }
 
-// Fetch and load index
+// Fetch and load docs
 console.log('Fetching docs...');
 console.time('Fetch docs');
 fetch(DOCS_FILE).then(response => {
@@ -41,15 +41,6 @@ fetch(DOCS_FILE).then(response => {
   console.timeEnd('Fetch docs');
   console.log('Adding docs to database...');
   console.time(`Add ${docs.length} docs to database`);
-  // docs = docs.slice(0,99);
-  // let obj = {};
-  // for (const doc of docs) {
-  //   obj[doc._id] = obj[doc._id] === undefined ? 1: obj[doc._id] +=1;
-  // }
-  // console.log(obj);
-  // console.log(Object.entries(obj).filter(function(item) {
-  //   return item[1] > 1;
-  // }));
   db.bulkDocs(docs).then((result) => {
     console.timeEnd(`Add ${docs.length} docs to database`);
     createIndex();

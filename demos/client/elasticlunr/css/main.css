@@ -1,13 +1,21 @@
+.hidden {
+  height: 0; /* to enable opacity transition: doesn't work if setting display */
+  opacity: 0;
+  overflow: hidden;
+}
+
 body {
   color: #444;
   counter-reset: line-number;
   font-family: Palatino, serif;
+  height: 100%;
   margin: 0;
   padding: 2em 0.5em;
   word-break: break-word;
 }
 
 div#container {
+  height: 100%;
   margin: 0 auto 0 auto;
   max-width: 550px;
 }
@@ -65,6 +73,18 @@ h3 {
   line-height: 1.2em;
   margin: 1.2em 0 1.8em 0;
   white-space: nowrap;
+}
+
+html {
+    height: 100%;
+}
+
+iframe {
+  border: none;
+  height: 100%;
+  opacity: 1;
+  transition: opacity 0.8s;
+  width: 100%;
 }
 
 input#query {
