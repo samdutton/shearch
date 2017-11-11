@@ -1,3 +1,27 @@
+poem
+ title:
+ poemintro
+   dedication
+     subtitle::
+     line:
+     dedauthor
+  poembody
+    stanza
+      line::
+      (quatrain
+        line::)
+      (couplet
+        line)
+    stanzasmall
+      line::
+    subtitle
+    finis
+      finistitle:
+
+
+
+
+
 Remove class="speech" since virtually all lists are speeches
 
 Use PlayShakespeare texts and add indentation.
