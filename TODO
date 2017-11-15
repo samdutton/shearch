@@ -1,25 +1,55 @@
+
+
+Find poem:
+{
+ n: ...
+ t: '...'
+ l: ''
+}
+
+Son.1.11
+• For sonnets
+const sonnets = document.querySelectorAll(sonnet);
+if (sonnets) {
+  for (const i = 0; i != sonnets.length; ++i) {
+    const sonnet = sonnets[i];
+    const lines = sonnet.querySelectorAll('line');
+    for (const j = 0; j != lines.length; ++j) {
+      const doc = {
+        n: docNum++,
+        l: `Son.${i + 1}.${j + 1}`,
+        t: lines[j].textContent
+      };
+      docs.push(doc);
+    }
+  }
+}
+
 poem
  title:
- poemintro
-   dedication
-     subtitle::
-     line:
-     dedauthor
+ ?poemintro
+   ?dedication
+     ?subtitle::
+     ?line:
+     ?dedauthor
   poembody
     stanza
-      line::
-      (quatrain
-        line::)
-      (couplet
-        line)
-    stanzasmall
-      line::
+      ?line::
+      ?quatrain
+        ?line::
+        ?couplet
+          ?line::
+      ?couplet
+        line::
+    ?stanzasmall
+      ?line::
+      ?quatrain
+        ?line::
+      couplet
+        line::
     subtitle
     finis
       finistitle:
-
-
-
 
 
 Remove class="speech" since virtually all lists are speeches

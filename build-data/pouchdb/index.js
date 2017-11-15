@@ -1,7 +1,7 @@
 const mz = require('mz/fs');
 const {JSDOM} = require('jsdom');
 
-const abbreviations = require('./data/abbreviations.json');
+const abbreviations = require('../data/abbreviations.json');
 
 const INPUT_DIR = '../../../texts/';
 const OUTPUT_FILE = '../../client/pouchdb/data/docs.json';
@@ -94,5 +94,6 @@ function doMinorFixes(text) {
     replace('&c', 'etc.').
     replace(/,--/g, ' — ').
     replace(/--/g, ' — ').
-    replace(/, —/g, ' — ');
+    replace(/, —/g, ' — ').
+    replace(/'/g, '’');
 }

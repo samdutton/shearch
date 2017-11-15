@@ -194,7 +194,8 @@ function doMinorFixes(html) {
     replace('&c', 'etc.').
     replace(/,--/g, ' — ').
     replace(/--/g, ' — ').
-    replace(/, —/g, ' — ');
+    replace(/, —/g, ' — ').
+    replace(/'/g, '’');
 }
 
 function writeFile(filepath, string) {
