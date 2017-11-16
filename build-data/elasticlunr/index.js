@@ -33,11 +33,19 @@ function addDocs(filepath) {
     const filename = filepath.split('/').pop();
     const document = dom.window.document;
     if (filepath.includes(PLAY_DIR)) {
-//      addPlay(filename, document);
+      addPlay(filename, document);
     } else if (filepath.includes(POEM_DIR)) {
       addPoem(filename, document);
     } else {
       console.error(`Unexpected filepath ${filepath}`);
+      return;
+    }
+    console.log(`${numFilesToProcess} files to process`);
+    if (--numFilesToProcess === 0) {
+      console.timeEnd('Parse docs');
+      console.time(`Index ${docs.length} docs`);
+      createIndex(docs);
+      console.timeEnd(`Index ${docs.length} docs`);
     }
   }).catch(error => {
     console.log(`Error creating DOM from ${filepath}`, error);
@@ -57,18 +65,11 @@ function addPlay(filename, document) {
       const scene = scenes[sceneNum - 1];
       const location = playAbbreviation + '.' + actNum + '.' + sceneNum;
       const sceneTitle = scene.querySelector('TITLE');
-      docs.push({
-        n: (docNum++).toString(36), // to minimise length/storage of n
-        l: location,
-        t: sceneTitle.textContent
-      });
+      addDoc(location, sceneTitle.textContent);
       const stagedirs = scene.querySelectorAll('STAGEDIR');
       for (const stagedir of stagedirs) {
-        docs.push({
-          n: (docNum++).toString(36),
-          l: location + '.' + stagedirIndex++,
-          t: stagedir.textContent
-        });
+        addDoc(location + location + '.' + stagedirIndex++,
+            stagedir.textContent);
       }
       const speeches = scene.querySelectorAll('SPEECH');
       for (const speech of speeches) {
@@ -76,30 +77,16 @@ function addPlay(filename, document) {
         const lines = speech.querySelectorAll('LINE');
         // stage directions are added separately, even if in a speech
         for (const line of lines) {
-          docs.push({
-            n: (docNum++).toString(36),
-            // only lines have a line number and speaker
-            l: location + '.' + lineNum++,
-            s: speaker.textContent,
-            t: doMinorFixes(line.textContent)
-          });
+          addDoc(location + '.' + lineNum++,
+              doMinorFixes(line.textContent), speaker.textContent);
         }
       }
     }
   }
-  console.log(`${numFilesToProcess} files to process`);
-  if (--numFilesToProcess === 0) {
-    console.timeEnd('Parse docs');
-    console.time(`Index ${docs.length} docs`);
-    createIndex(docs);
-    console.timeEnd(`Index ${docs.length} docs`);
-  }
 }
 
 function addPoem(filename, document) {
-//  const title = document.querySelector('title').textContent;
   const poemAbbreviation = abbreviations[filename];
-  console.log('Poem abbreviation:', poemAbbreviation);
   if (poemAbbreviation === 'Son') {
     // sonnet file includes multiple poems
     addSonnets(document);
@@ -111,13 +98,7 @@ function addPoem(filename, document) {
 function addSinglePoem(document, poemAbbreviation) {
   const lines = document.querySelectorAll('line');
   for (let i = 0; i !== lines.length; ++i) {
-    const doc = {
-      n: docNum++,
-      l: `${poemAbbreviation}.${i + 1}`,
-      t: lines[i].textContent
-    };
-    console.log('doc', doc);
-    docs.push(doc);
+    addDoc(`${poemAbbreviation}.${i + 1}`, doMinorFixes(lines[i].textContent));
   }
 }
 
@@ -127,14 +108,21 @@ function addSonnets(document) {
     const sonnet = sonnets[i];
     const lines = sonnet.querySelectorAll('line');
     for (let j = 0; j !== lines.length; ++j) {
-      const doc = {
-        n: docNum++,
-        l: `Son.${i + 1}.${j + 1}`,
-        t: lines[j].textContent
-      };
-      docs.push(doc);
+      addDoc(`Son.${i + 1}.${j + 1}`, lines[j].textContent);
     }
   }
+}
+
+function addDoc(location, text, speaker) {
+  let doc = {
+    n: (docNum++).toString(36), // to minimise length/storage of n
+    l: location,
+    t: text
+  };
+  if (speaker) {
+    doc.s = speaker;
+  }
+  docs.push(doc);
 }
 
 function createIndex() {
