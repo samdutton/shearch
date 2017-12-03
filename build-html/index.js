@@ -3,16 +3,16 @@ const recursive = require('recursive-readdir');
 const validator = require('html-validator');
 const {JSDOM} = require('jsdom');
 
-const abbreviations = require('../../config/abbreviations.json');
-const titles = require('../../config/titles.json');
+const abbreviations = require('../config/abbreviations.json');
+const titles = require('../config/titles.json');
 
 const bottom = mz.readFileSync('./html-fragments/bottom.html');
 const top = mz.readFileSync('./html-fragments/top.html');
 
-const OUTPUT_DIR = '../client/plays/';
+const OUTPUT_DIR = '../client/html/';
 const PLAY_DIR = 'plays-bosak';
 const POEM_DIR = 'poems-ps';
-const TEXTS_DIR = '../../texts/';
+const TEXTS_DIR = '../texts/';
 
 let numFilesToProcess = 0;
 
@@ -62,19 +62,16 @@ function parsePlay(filename, document) {
   if (!title) {
     console.error(`Title not found for ${filename}`);
   }
-  // top is a buffer, ${title} a placeholder for the title
-  let html = ('' + top).replace('${title}', title) +
+  // top and bottom are buffers, ${title} a placeholder for the title
+  const html = ('' + top).replace('${title}', title) +
     addPreamble(document) + addActs(document) + bottom;
   // html = minify(html);
-  if (isValid(filename, html)) {
-    console.log(`HTML validated, writing file ${filename}`);
-    writeFile(OUTPUT_DIR + filename, html);
-  }
+  writeFile(filename, html);
 }
 
 function addPreamble(document) {
   let html = '<section id="preamble">\n\n';
-  const title = document.querySelector('TITLE');
+  const title = document.querySelector('TITLE').textContent;
   html += `<h1>${title}</h1>\n\n`;
   html += addPersonae(document);
   const scenedescr = document.querySelector('SCENEDESCR');
@@ -133,7 +130,7 @@ function addActs(document) {
     }
     html += '</section>\n\n';
   }
-  return doMinorFixes(html);
+  return fix(html);
 }
 
 function addScene(scene) {
@@ -202,43 +199,65 @@ function parsePoem(filename, document) {
   }
 }
 
-function addSinglePoem(document, poemAbbreviation) {
-  console.log('poemAbbreviation', poemAbbreviation);
-  // const lines = document.querySelectorAll('line');
-  // for (let i = 0; i !== lines.length; ++i) {
-  //   addDoc(`${poemAbbreviation}.${i + 1}`,
-        // doMinorFixes(lines[i].textContent));
-  // }
+function addSonnets(document) {
+  let html = '<h1>Sonnets</h1>\n\n';
+  const sonnets = document.querySelectorAll('sonnet');
+  for (let i = 0; i !== sonnets.length; ++i) {
+    const sonnet = sonnets[i];
+    html += '<section class="poem">\n';
+    html += `  <h2>Sonnet ${roman(i + 1)}</h2>\n`;
+    html += '  <ol>\n';
+    const lines = sonnet.querySelectorAll('line');
+    for (let j = 0; j !== lines.length; ++j) {
+      // add class="number" if this line should be numbered
+      const isNumbered = (j + 1) % 5 === 0 && j !== 0;
+      const number = isNumbered ? ' class="number"' : '';
+      html += `    <li${number}>${lines[j].textContent}</li>\n`;
+    }
+    html += '</ol>\n';
+    html += '</section>\n\n';
+  }
+  // top and bottom are buffers, ${title} a placeholder for the title
+  html = ('' + top).replace('${title}', 'Sonnets') + fix(html) + bottom;
+  // html = minify(html);
+  writeFile('Son.html', html);
 }
 
-function addSonnets(document) {
-  console.log('sonnetdocument', document);
-  // const sonnets = document.querySelectorAll('sonnet');
-  // for (let i = 0; i !== sonnets.length; ++i) {
-  //   const sonnet = sonnets[i];
-  //   const lines = sonnet.querySelectorAll('line');
-  //   for (let j = 0; j !== lines.length; ++j) {
-  //     addDoc(`Son.${i + 1}.${j + 1}`, lines[j].textContent);
-  //   }
-  // }
+function addSinglePoem(document, poemAbbreviation) {
+  const title = document.querySelector('title').textContent;
+  let html = `<h1>${title}</h1>\n\n`;
+  html += '  <ol>\n';
+  const lines = document.querySelectorAll('line');
+  for (let i = 0; i !== lines.length; ++i) {
+    // add class="number" if this line should be numbered
+    const isNumbered = (i + 1) % 5 === 0 && i !== 0;
+    const number = isNumbered ? ' class="number"' : '';
+    html += `    <li${number}>${lines[i].textContent}</li>\n`;
+  }
+  html += '</ol>\n';
+
+  // top and bottom are buffers, ${title} a placeholder for the title
+  html = ('' + top).replace('${title}', title) + html + bottom;
+  // html = minify(html);
+  writeFile(`${poemAbbreviation}.html`, html);
 }
 
 // Utility functions
 
 // Check that a file contains valid HTML
 function isValid(filename, html) {
-  const options = {
-    data: html,
-    format: 'text' /* ,
-    validator: 'https://html5.validator.nu' */
-  };
-  validator(options).then(data => {
-    return false;
-  })
-  .catch(error => {
-    console.error(`Error validating ${filename}:`, error);
-    return false;
-  });
+  // const options = {
+  //   data: html,
+  //   format: 'text' /* ,
+  //   validator: 'https://html5.validator.nu' */
+  // };
+  // validator(options).then(data => {
+  //   return false;
+  // })
+  // .catch(error => {
+  //   console.error(`Error validating ${filename}:`, error);
+  //   return false;
+  // });
   return true;
 }
 
@@ -249,24 +268,32 @@ function addLineNumberMarkup(scene) {
     if ((i + 1) % 5 === 0 && i !== 0) {
       line.setAttribute('number', true);
     }
-//    console.log(i + 1, line.outerHTML);
   }
 }
 
-function doMinorFixes(html) {
+function fix(html) {
   return html.
     replace('&c', 'etc.').
     replace(/,--/g, ' — ').
     replace(/--/g, ' — ').
     replace(/, —/g, ' — ').
     replace(/'/g, '’');
+    // replace(/&#8217;/g, '’')
 }
 
-function writeFile(filepath, string) {
-  mz.writeFile(filepath, string).
-    catch(error => console.error(`Error writing ${filepath}:`, error));
+function writeFile(filename, html) {
+  if (isValid(filename, html)) {
+    console.log(`HTML validated, writing file ${filename}`);
+    mz.writeFile(OUTPUT_DIR + filename, html).
+      catch(error => console.error(`Error writing ${filename}:`, error));
+  }
 }
 
 function play(element) {
   return element.ownerDocument.querySelector('TITLE').textContent;
+}
+
+function roman(integer) {
+  const romanNumeral = integer;
+  return romanNumeral;
 }
