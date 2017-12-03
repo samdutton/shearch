@@ -1,92 +1,63 @@
+// const fs = require('fs');
 const mz = require('mz/fs');
-const recursive = require('recursive-readdir');
-const validator = require('html-validator');
 const {JSDOM} = require('jsdom');
+// var minify = require('html-minifier').minify;
+const validator = require('html-validator');
 
-const abbreviations = require('../../config/abbreviations.json');
 const titles = require('../../config/titles.json');
-
-const bottom = mz.readFileSync('./html-fragments/bottom.html');
+const convertNames = require('../../config/convert-names.json');
 const top = mz.readFileSync('./html-fragments/top.html');
-
+const bottom = mz.readFileSync('./html-fragments/bottom.html');
+const INPUT_DIR = '../../texts/';
 const OUTPUT_DIR = '../client/plays/';
-const PLAY_DIR = 'plays-bosak';
-const POEM_DIR = 'poems-ps';
-const TEXTS_DIR = '../../texts/';
 
-let numFilesToProcess = 0;
-
-recursive(TEXTS_DIR).then(filepaths => {
-  filepaths = filepaths.filter(filename => {
-    return filename.match(/.+xml/); // filter out .DS_Store, etc.
+mz.readdir(INPUT_DIR).then(filenames => {
+  filenames = filenames.filter(filename => {
+    return filename.match(/.+xml/);
   });
-  numFilesToProcess = filepaths.length;
-  for (const filepath of filepaths) {
-    parseText(filepath);
+  for (const filename of filenames) {
+    convertXMLtoHTML(filename);
   }
-}).catch(error => console.error(`Error reading from ${TEXTS_DIR}:`, error));
+}).catch(error => console.error(`Error reading from ${INPUT_DIR}:`, error));
 
-function parseText(filepath) {
-  console.time('Parse texts');
-  JSDOM.fromFile(filepath, {contentType: 'text/xml'})
+
+function convertXMLtoHTML(filename) {
+  JSDOM.fromFile(INPUT_DIR + filename, {contentType: 'text/xml'})
   .then(dom => {
-    const filename = filepath.split('/').pop();
-    const document = dom.window.document;
-    if (filepath.includes(PLAY_DIR)) {
-      parsePlay(filename, document);
-    } else if (filepath.includes(POEM_DIR)) {
-      parsePoem(filename, document);
+    // tweak Jon Bosak XML filenames to match standard Shakespeare abbreviations
+    if (convertNames[filename]) {
+      filename = convertNames[filename];
     } else {
-      console.error(`Unexpected filepath ${filepath}`);
-      return;
+      console.error(`Filename ${filename} not found in nametweaks.json`);
     }
-    console.log(`${numFilesToProcess} files to process`);
-    if (--numFilesToProcess === 0) {
-      console.timeEnd('Parse texts');
+    const title = titles[filename];
+    if (title === '') {
+      console.error(`Title not found for ${filename}`);
     }
-  }).catch(error => {
-    console.log(`Error creating DOM from ${filepath}`, error);
+    let html = ('' + top).replace('${title}', title) + // top is a buffer
+      addPreamble(dom) + addActs(dom) + bottom;
+    // html = minify(html);
+    if (isValid(filename, html)) {
+      console.log(`HTML validated, writing file ${filename}`);
+      writeFile(OUTPUT_DIR + filename, html);
+    }
   });
 }
 
-// Play functions
-
-function parsePlay(filename, document) {
-    // tweak text filenames to match standard MLA Shakespeare abbreviations
-  if (abbreviations[filename]) {
-    filename = abbreviations[filename] + '.html';
-  } else {
-    console.error(`Filename ${filename} not found in ${abbreviations}`);
-  }
-  const title = titles[filename];
-  if (!title) {
-    console.error(`Title not found for ${filename}`);
-  }
-  // top is a buffer, ${title} a placeholder for the title
-  let html = ('' + top).replace('${title}', title) +
-    addPreamble(document) + addActs(document) + bottom;
-  // html = minify(html);
-  if (isValid(filename, html)) {
-    console.log(`HTML validated, writing file ${filename}`);
-    writeFile(OUTPUT_DIR + filename, html);
-  }
-}
-
-function addPreamble(document) {
+function addPreamble(dom) {
   let html = '<section id="preamble">\n\n';
-  const title = document.querySelector('TITLE');
-  html += `<h1>${title}</h1>\n\n`;
-  html += addPersonae(document);
-  const scenedescr = document.querySelector('SCENEDESCR');
-  html += `<div id="scene-description">${scenedescr}</div>\n\n`;
+  html += `<h1>${text(dom, 'TITLE')}</h1>\n\n`;
+//  html += `<h2 class="subtitle">${text(dom, 'PLAYSUBT')}</h2>\n\n`;
+  html += addPersonae(dom);
+  html += `<div id="scene-description">${text(dom, 'SCNDESCR')}</div>\n\n`;
   html += '</section>\n\n';
   return html;
 }
 
-function addPersonae(document) {
+function addPersonae(dom) {
   let html = '<section id="dramatis-personae">';
   html += '<h2>Dramatis Personae</h2>\n\n';
-  const children = document.querySelector('PERSONAE').children;
+  const children = $(dom, 'PERSONAE').children;
   for (const child of children) {
     switch (child.nodeName) {
     case 'PGROUP': {
@@ -120,9 +91,9 @@ function addPersonae(document) {
   return html;
 }
 
-function addActs(document) {
+function addActs(dom) {
   let html = '';
-  const acts = document.querySelectorAll('ACT');
+  const acts = dom.window.document.querySelectorAll('ACT');
   for (const act of acts) {
     html += '<section class="act">\n\n';
     const title = act.querySelector('TITLE').textContent;
@@ -190,42 +161,6 @@ function addSpeech(speech) {
   return html;
 }
 
-// Poem functions
-
-function parsePoem(filename, document) {
-  const poemAbbreviation = abbreviations[filename];
-  if (poemAbbreviation === 'Son') {
-    // sonnet file includes multiple poems
-    addSonnets(document);
-  } else {
-    addSinglePoem(document, poemAbbreviation);
-  }
-}
-
-function addSinglePoem(document, poemAbbreviation) {
-  console.log('poemAbbreviation', poemAbbreviation);
-  // const lines = document.querySelectorAll('line');
-  // for (let i = 0; i !== lines.length; ++i) {
-  //   addDoc(`${poemAbbreviation}.${i + 1}`,
-        // doMinorFixes(lines[i].textContent));
-  // }
-}
-
-function addSonnets(document) {
-  console.log('sonnetdocument', document);
-  // const sonnets = document.querySelectorAll('sonnet');
-  // for (let i = 0; i !== sonnets.length; ++i) {
-  //   const sonnet = sonnets[i];
-  //   const lines = sonnet.querySelectorAll('line');
-  //   for (let j = 0; j !== lines.length; ++j) {
-  //     addDoc(`Son.${i + 1}.${j + 1}`, lines[j].textContent);
-  //   }
-  // }
-}
-
-// Utility functions
-
-// Check that a file contains valid HTML
 function isValid(filename, html) {
   const options = {
     data: html,
@@ -233,6 +168,7 @@ function isValid(filename, html) {
     validator: 'https://html5.validator.nu' */
   };
   validator(options).then(data => {
+//    console.log(`${filename}:`, data);
     return false;
   })
   .catch(error => {
@@ -265,6 +201,14 @@ function doMinorFixes(html) {
 function writeFile(filepath, string) {
   mz.writeFile(filepath, string).
     catch(error => console.error(`Error writing ${filepath}:`, error));
+}
+
+function $(dom, selector) {
+  return dom.window.document.querySelector(selector);
+}
+
+function text(dom, selector) {
+  return dom.window.document.querySelector(selector).textContent;
 }
 
 function play(element) {

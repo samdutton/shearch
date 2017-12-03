@@ -21,8 +21,8 @@ limitations under the License.
 const queryInput = document.getElementById('query');
 // Search for products whenever query input text changes
 queryInput.oninput = doSearch;
-const resultsList = document.getElementById('results');
-const playIframe = document.querySelector('iframe');
+const matchesList = document.getElementById('matches');
+const textIframe = document.querySelector('iframe');
 
 const SEARCH_OPTIONS = {
   fields: {
@@ -67,7 +67,7 @@ fetch(INDEX_FILE).then(response => {
 
 
 function doSearch() {
-  resultsList.textContent = '';
+  matchesList.textContent = '';
   const query = queryInput.value;
   if (query.length < 2) {
     return;
@@ -75,47 +75,48 @@ function doSearch() {
   clearTimeout(timeout);
   timeout = setTimeout(function() {
     console.time(`Do search for ${query}`);
-    const results = index.search(query, SEARCH_OPTIONS);
-    if (results.length > 0) {
-      hide(playIframe);
-      show(resultsList);
-      displayMatches(results, query);
+    const matches = index.search(query, SEARCH_OPTIONS);
+    if (matches.length > 0) {
+      hide(textIframe);
+      show(matchesList);
+      displayMatches(matches, query);
     }
     console.timeEnd(`Do search for ${query}`);
   }, DEBOUNCE_DELAY);
 }
 
-function displayMatches(results, query) {
+function displayMatches(matches, query) {
   const exactPhrase = new RegExp(query, 'i');
   // keep exact matches only
-  // results = results.filter(function(result) {
-  //   return exactPhrase.test(result.doc.t);
+  // matches = matches.filter(function(match) {
+  //   return exactPhrase.test(match.doc.t);
   // });
   // prefer exact matches
-  results = results.sort((a, b) => {
+  matches = matches.sort((a, b) => {
     return exactPhrase.test(a.doc.t) ? -1 : exactPhrase.test(b.doc.t) ? 1 : 0;
   });
   // sort not necessary
-  // results = results.sort((a, b) =>
+  // matches = matches.sort((a, b) =>
   // a.doc.l.localeCompare(b.doc.l, {numeric: true}));
-  for (const result of results) {
-    addResult(result.doc);
+  for (const match of matches) {
+    addMatch(match.doc);
   }
 }
 
-function addResult(match) {
-  const resultElement = document.createElement('li');
-  resultElement.classList.add('match');
-  resultElement.dataset.location = match.l;
+function addMatch(match) {
+  const matchElement = document.createElement('li');
+  matchElement.dataset.location = match.l;
+  // hack: matches with an s property (speaker) are from plays
   const html = match.s ? match.t : `<em>${match.t}</em>`;
-  resultElement.innerHTML = html;
-  resultElement.onclick = function() {
-    showPlay(match.l);
+  matchElement.innerHTML = html;
+  matchElement.onclick = function() {
+    console.log('match: ', console.log(match));
+    showText(match.l);
   };
-  resultsList.appendChild(resultElement);
+  matchesList.appendChild(matchElement);
 }
 
-function showPlay(location) {
+function showText(location) {
   const split = location.split('.');
   const playFilepath = PLAYS_DIR + split[0] + '.html';
   const actIndex = split[1] - 1;
@@ -125,12 +126,12 @@ function showPlay(location) {
   // stage direction: itemNum is zero-based index of item within a scene
   // scene description: no itemNum (only one per scene)
   console.log(playFilepath, actIndex, sceneIndex, itemNum);
-  hide(resultsList);
-  show(playIframe);
-  playIframe.src = playFilepath;
-  playIframe.onload = function() {
-    const playIframeDoc = playIframe.contentWindow.document;
-    const act = playIframeDoc.querySelectorAll('section.act')[actIndex];
+  hide(matchesList);
+  show(textIframe);
+  textIframe.src = playFilepath;
+  textIframe.onload = function() {
+    const textIframeDoc = textIframe.contentWindow.document;
+    const act = textIframeDoc.querySelectorAll('section.act')[actIndex];
     const scene = act.querySelectorAll('section.scene')[sceneIndex];
     const lineSelector = 'ol.speech li:not(.speaker):not(.stage-direction)';
     // line number is human-readable one-based
@@ -138,7 +139,7 @@ function showPlay(location) {
     line.classList.add('highlight');
     line.scrollIntoView({inline: 'center'});
     console.log('line', line);
-    console.log('playIframeDoc.querySelector', scene);
+    console.log('textIframeDoc.querySelector', scene);
   };
 }
 

@@ -109,7 +109,7 @@ li {
   list-style-type: none;
 }
 
-li.match {
+ol#matches li {
   color:#444;
   cursor: pointer;
   font-size: 15px;
@@ -120,7 +120,7 @@ li.match {
   width: calc(100% - 100px);
 }
 
-li.match::after {
+ol#matches li::after {
   color: #aaa;
   content: attr(data-location);
   display: inline-block;

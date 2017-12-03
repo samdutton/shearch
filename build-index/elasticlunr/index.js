@@ -1,10 +1,10 @@
 const mz = require('mz/fs');
-var recursive = require('recursive-readdir');
+const recursive = require('recursive-readdir');
 
 const {JSDOM} = require('jsdom');
 const elasticlunr = require('elasticlunr');
 
-const abbreviations = require('../data/abbreviations.json');
+const abbreviations = require('../../config/abbreviations.json');
 
 const PLAY_DIR = 'plays-bosak';
 const POEM_DIR = 'poems-ps';
@@ -16,7 +16,6 @@ var docNum = 0;
 let numFilesToProcess = 0;
 
 recursive(TEXTS_DIR).then(filepaths => {
-//  console.log('filepaths', filepaths);
   filepaths = filepaths.filter(filename => {
     return filename.match(/.+xml/); // filter out .DS_Store, etc.
   });
@@ -27,7 +26,7 @@ recursive(TEXTS_DIR).then(filepaths => {
 }).catch(error => console.error(`Error reading from ${TEXTS_DIR}:`, error));
 
 function addDocs(filepath) {
-  console.time('Parse docs');
+  console.time('Parse texts');
   JSDOM.fromFile(filepath, {contentType: 'text/xml'})
   .then(dom => {
     const filename = filepath.split('/').pop();
@@ -42,7 +41,7 @@ function addDocs(filepath) {
     }
     console.log(`${numFilesToProcess} files to process`);
     if (--numFilesToProcess === 0) {
-      console.timeEnd('Parse docs');
+      console.timeEnd('Parse texts');
       console.time(`Index ${docs.length} docs`);
       createIndex(docs);
       console.timeEnd(`Index ${docs.length} docs`);
@@ -68,7 +67,7 @@ function addPlay(filename, document) {
       addDoc(location, sceneTitle.textContent);
       const stagedirs = scene.querySelectorAll('STAGEDIR');
       for (const stagedir of stagedirs) {
-        addDoc(location + location + '.' + stagedirIndex++,
+        addDoc(location + '.' + stagedirIndex++,
             stagedir.textContent);
       }
       const speeches = scene.querySelectorAll('SPEECH');
