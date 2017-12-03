@@ -124,6 +124,7 @@ function displayText(location) {
   show(textIframe);
   textIframe.src = textFilepath;
   textIframe.onload = function() {
+    // if location has four parts, the match is from a play
     if (split.length === 4) {
       const actIndex = split[1] - 1;
       const sceneIndex = split[2] - 1;

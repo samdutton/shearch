@@ -74,7 +74,7 @@ function addPreamble(document) {
   const title = document.querySelector('TITLE').textContent;
   html += `<h1>${title}</h1>\n\n`;
   html += addPersonae(document);
-  const scenedescr = document.querySelector('SCENEDESCR');
+  const scenedescr = document.querySelector('SCENEDESCR').textContent;
   html += `<div id="scene-description">${scenedescr}</div>\n\n`;
   html += '</section>\n\n';
   return html;
