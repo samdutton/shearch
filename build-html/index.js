@@ -261,6 +261,8 @@ function isValid(filename, html) {
   return true;
 }
 
+// Add number attribute to every fifth line, so line number is displayed
+// TODO: code to cope with lines that span two displayed lines :^/
 function addLineNumberMarkup(scene) {
   const lines = scene.querySelectorAll('LINE');
   for (let i = 0; i !== lines.length; ++i) {

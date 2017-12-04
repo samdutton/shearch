@@ -55,29 +55,30 @@ function addPlay(filename, document) {
   const play = document.querySelector('PLAY');
   const playAbbreviation = abbreviations[filename];
   const acts = play.querySelectorAll('ACT');
-  for (let actNum = 1; actNum <= acts.length; ++actNum) {
-    const act = acts[actNum -1];
+  for (let actIndex = 0; actIndex !== acts.length; ++actIndex) {
+    const act = acts[actIndex];
     const scenes = act.querySelectorAll('SCENE');
-    for (let sceneNum = 1; sceneNum <= scenes.length; ++sceneNum) {
-      let lineNum = 1; // human readable
-      let stagedirIndex = 0; // just an index of stage directions
-      const scene = scenes[sceneNum - 1];
-      const location = playAbbreviation + '.' + actNum + '.' + sceneNum;
+    for (let sceneIndex = 0; sceneIndex !== scenes.length; ++sceneIndex) {
+      let lineIndex = 0;
+      let stagedirIndex = 0; // index for finding stage direction within scene
+      const scene = scenes[sceneIndex];
+      const location = `${playAbbreviation}.${actIndex}.${sceneIndex}`;
       const sceneTitle = scene.querySelector('TITLE');
-      addDoc(location, sceneTitle.textContent);
+      // r signifies 'role', 't' signifies scene title (only one, so no index)
+      addDoc(location, sceneTitle.textContent, {r: 't'});
       const stagedirs = scene.querySelectorAll('STAGEDIR');
       for (const stagedir of stagedirs) {
-        addDoc(location + '.' + stagedirIndex++,
-            stagedir.textContent);
+        // r signifies 'role', 's' signifies stage direction, i is index
+        addDoc(location, stagedir.textContent, {r: 's', i: stagedirIndex++});
       }
       const speeches = scene.querySelectorAll('SPEECH');
       for (const speech of speeches) {
         const speaker = speech.querySelector('SPEAKER');
         const lines = speech.querySelectorAll('LINE');
-        // stage directions are added separately, even if in a speech
+        // stage directions are added separately above, even if within a speech
         for (const line of lines) {
-          addDoc(location + '.' + lineNum++,
-              doMinorFixes(line.textContent), speaker.textContent);
+          addDoc(location + '.' + lineIndex++,
+              fix(line.textContent), {s: speaker.textContent});
         }
       }
     }
@@ -97,7 +98,7 @@ function addPoem(filename, document) {
 function addSinglePoem(document, poemAbbreviation) {
   const lines = document.querySelectorAll('line');
   for (let i = 0; i !== lines.length; ++i) {
-    addDoc(`${poemAbbreviation}.${i + 1}`, doMinorFixes(lines[i].textContent));
+    addDoc(`${poemAbbreviation}.${i + 1}`, fix(lines[i].textContent));
   }
 }
 
@@ -112,14 +113,16 @@ function addSonnets(document) {
   }
 }
 
-function addDoc(location, text, speaker) {
+function addDoc(location, text, options) {
   let doc = {
     n: (docNum++).toString(36), // to minimise length/storage of n
     l: location,
     t: text
   };
-  if (speaker) {
-    doc.s = speaker;
+  if (options) {
+    for (const key in options) {
+      doc[key] = options[key];
+    }
   }
   docs.push(doc);
 }
@@ -148,7 +151,7 @@ function writeFile(filepath, string) {
   });
 }
 
-function doMinorFixes(text) {
+function fix(text) {
   return text.
     replace('&c', 'etc.').
     replace(/,--/g, ' — ').

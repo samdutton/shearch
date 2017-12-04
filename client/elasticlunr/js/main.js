@@ -111,40 +111,43 @@ function addMatch(match) {
   const html = isPlay ? match.t : `<em>${match.t}</em>`;
   matchElement.innerHTML = html;
   matchElement.onclick = function() {
-    displayText(match.l);
+    displayText(match);
   };
   matchesList.appendChild(matchElement);
 }
 
-function displayText(location) {
-  // first part of location is text name abbreviation
-  const split = location.split('.');
-  const textFilepath = HTML_DIR + split[0] + '.html';
-  hide(matchesList);
-  show(textIframe);
+function displayText(match) {
+  const location = match.l.split('.'); // l represents location, e.g. Ham.3.3.2
+  // first part of location is the abbreviation of the name of the play or poem
+  const textFilepath = HTML_DIR + location[0] + '.html';
   textIframe.src = textFilepath;
+  const actIndex = location[1];
+  const sceneIndex = location[2];
+  const textIframeDoc = textIframe.contentWindow.document;
+  const act = textIframeDoc.querySelectorAll('section.act')[actIndex];
+  const scene = act.querySelectorAll('section.scene')[sceneIndex];
   textIframe.onload = function() {
-    // if location has four parts, the match is from a play
-    if (split.length === 4) {
-      const actIndex = split[1] - 1;
-      const sceneIndex = split[2] - 1;
-      // itemNum refers to a line, stage direction or scene description:
-      // line: itemNum is one-based line number
-      // stage direction: itemNum is zero-based index of item within a scene
-      // scene description: no itemNum (only one per scene)
-      const itemNum = split[3];
-      console.log(textFilepath, actIndex, sceneIndex, itemNum);
-      const textIframeDoc = textIframe.contentWindow.document;
-      const act = textIframeDoc.querySelectorAll('section.act')[actIndex];
-      const scene = act.querySelectorAll('section.scene')[sceneIndex];
-      // select li elements that aren't class speaker or stage-direction
+    // text matches are lines, scene titles or stage directions
+    if (match.s) { // match has a speaker (match.s) so is a line
+      const lineIndex = location[3];
+      // select li elements that are actually lines, not speakers or stage dirs
       const lineSelector = 'ol.speech li:not(.speaker):not(.stage-direction)';
-      // line numbers (itemNum here) are human-readable one-based
-      const line = scene.querySelectorAll(lineSelector)[itemNum - 1];
-      line.classList.add('highlight');
-      line.scrollIntoView({inline: 'center'});
+      displayMatch(scene, lineSelector, lineIndex);
+    } else if (match.r === 's') { // match role is a stage direction
+      const stagedirIndex = match.i;
+      displayMatch(scene, '.stage-direction', stagedirIndex);
+    } else if (match.r === 't') {  // match role is a scene title
+      displayMatch(scene, '.stage-direction', 0);
     }
   };
+  hide(matchesList);
+  show(textIframe);
+}
+
+function displayMatch(scene, selector, elementIndex) {
+  const element = scene.querySelectorAll(selector)[elementIndex];
+  element.classList.add('highlight');
+  element.scrollIntoView({inline: 'center'});
 }
 
 function hide(element) {

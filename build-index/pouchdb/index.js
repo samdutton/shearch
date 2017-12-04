@@ -61,7 +61,7 @@ function addDocs(docs, filename) {
               // only lines have a line number and speaker
               l: location + '.' + lineNum++,
               s: speaker.textContent,
-              t: doMinorFixes(line.textContent)
+              t: fix(line.textContent)
             });
           }
         }
@@ -89,7 +89,7 @@ function writeFile(filepath, string) {
   });
 }
 
-function doMinorFixes(text) {
+function fix(text) {
   return text.
     replace('&c', 'etc.').
     replace(/,--/g, ' — ').
