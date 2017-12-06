@@ -4,17 +4,21 @@ const recursive = require('recursive-readdir');
 const {JSDOM} = require('jsdom');
 const elasticlunr = require('elasticlunr');
 
-const abbreviations = require('../../config/abbreviations.json');
+const abbreviations = require('../../config/filename-to-abbreviation.json');
+const titles = require('../../config/titles.json');
 
 const PLAY_DIR = 'plays-bosak';
 const POEM_DIR = 'poems-ps';
 const TEXTS_DIR = '../../texts/';
-const OUTPUT_FILE = '../../client/elasticlunr/data/index.json';
+const INDEX_FILE = '../../client/elasticlunr/data/index.json';
+const DATALISTS_FILE = '../../config/datalists.json';
 
 let docs = [];
 var docNum = 0;
 let numFilesToProcess = 0;
+let speakers = new Set();
 
+// Parse each XML file in the directories containing play and poem texts
 recursive(TEXTS_DIR).then(filepaths => {
   filepaths = filepaths.filter(filename => {
     return filename.match(/.+xml/); // filter out .DS_Store, etc.
@@ -44,6 +48,7 @@ function addDocs(filepath) {
       console.timeEnd('Parse texts');
       console.time(`Index ${docs.length} docs`);
       createIndex(docs);
+      createDatalists();
       console.timeEnd(`Index ${docs.length} docs`);
     }
   }).catch(error => {
@@ -73,12 +78,13 @@ function addPlay(filename, document) {
       }
       const speeches = scene.querySelectorAll('SPEECH');
       for (const speech of speeches) {
-        const speaker = speech.querySelector('SPEAKER');
+        const speaker = speech.querySelector('SPEAKER').textContent;
+        speakers.add(toTitleCase(speaker, location)); // some names are capitalized
         const lines = speech.querySelectorAll('LINE');
         // stage directions are added separately above, even if within a speech
         for (const line of lines) {
           addDoc(location + '.' + lineIndex++,
-              fix(line.textContent), {s: speaker.textContent});
+              fix(line.textContent), {s: speaker});
         }
       }
     }
@@ -139,7 +145,15 @@ function createIndex() {
       this.addDoc(doc);
     }
   });
-  writeFile(OUTPUT_FILE, JSON.stringify(index));
+  writeFile(INDEX_FILE, JSON.stringify(index));
+}
+
+function createDatalists() {
+  const datalists = {
+    titles: titles,
+    speakers: [...speakers].sort()
+  };
+  writeFile(DATALISTS_FILE, JSON.stringify(datalists));
 }
 
 function writeFile(filepath, string) {
@@ -158,4 +172,13 @@ function fix(text) {
     replace(/--/g, ' — ').
     replace(/, —/g, ' — ').
     replace(/'/g, '’'); // all straight single quotes should be apostrophes
+}
+
+function toTitleCase(string, location) {
+  return string.toLowerCase().split(' ').map(function(item) {
+    if (!item[0]) {
+      console.log('>>>>>', location, string);
+    }
+    return item.replace(item[0], item[0].toUpperCase());
+  }).join(' ');
 }

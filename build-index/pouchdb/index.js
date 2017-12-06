@@ -1,7 +1,7 @@
 const mz = require('mz/fs');
 const {JSDOM} = require('jsdom');
 
-const abbreviations = require('../../config/abbreviations.json');
+const abbreviations = require('../../config/filename-to-abbreviation.json');
 
 const INPUT_DIR = '../../texts/';
 const OUTPUT_FILE = '../../client/pouchdb/data/docs.json';

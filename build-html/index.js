@@ -3,7 +3,7 @@ const recursive = require('recursive-readdir');
 const validator = require('html-validator');
 const {JSDOM} = require('jsdom');
 
-const abbreviations = require('../config/abbreviations.json');
+const abbreviations = require('../config/filename-to-abbreviation.json');
 const titles = require('../config/titles.json');
 
 const bottom = mz.readFileSync('./html-fragments/bottom.html');
@@ -16,6 +16,7 @@ const TEXTS_DIR = '../texts/';
 
 let numFilesToProcess = 0;
 
+// Parse each file in the directory of texts
 recursive(TEXTS_DIR).then(filepaths => {
   filepaths = filepaths.filter(filename => {
     return filename.match(/.+xml/); // filter out .DS_Store, etc.
@@ -246,18 +247,18 @@ function addSinglePoem(document, poemAbbreviation) {
 
 // Check that a file contains valid HTML
 function isValid(filename, html) {
-  // const options = {
-  //   data: html,
-  //   format: 'text' /* ,
-  //   validator: 'https://html5.validator.nu' */
-  // };
-  // validator(options).then(data => {
-  //   return false;
-  // })
-  // .catch(error => {
-  //   console.error(`Error validating ${filename}:`, error);
-  //   return false;
-  // });
+  const options = {
+    data: html,
+    format: 'text' /* ,
+    validator: 'https://html5.validator.nu' */
+  };
+  validator(options).then(data => {
+    return false;
+  })
+  .catch(error => {
+    console.error(`Error validating ${filename}:`, error);
+    return false;
+  });
   return true;
 }
 

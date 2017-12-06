@@ -2,7 +2,7 @@ const mz = require('mz/fs');
 const {JSDOM} = require('jsdom');
 const lunr = require('lunr');
 
-const abbreviations = require('../data/abbreviations.json');
+const abbreviations = require('../data/filename-to-abbreviation.json');
 
 const INPUT_DIR = '../../../texts/';
 const OUTPUT_FILE = '../../client/lunr/data/index-and-docs.json';
