@@ -118,25 +118,24 @@ function addMatch(match) {
 
 function displayText(match) {
   const location = match.l.split('.'); // l represents location, e.g. Ham.3.3.2
-  // first part of location is the abbreviation of the name of the play or poem
-  const textFilepath = HTML_DIR + location[0] + '.html';
-  textIframe.src = textFilepath;
-  const actIndex = location[1];
-  const sceneIndex = location[2];
-  const textIframeDoc = textIframe.contentWindow.document;
-  const act = textIframeDoc.querySelectorAll('section.act')[actIndex];
-  const scene = act.querySelectorAll('section.scene')[sceneIndex];
+  textIframe.src = HTML_DIR + location[0] + '.html';
   textIframe.onload = function() {
+    const actIndex = location[1];
+    const sceneIndex = location[2];
+    const textIframeDoc = textIframe.contentWindow.document;
+    const act = textIframeDoc.querySelectorAll('.act')[actIndex];
+    console.log('acts', textIframeDoc.querySelectorAll('section.act'));
+    const scene = act.querySelectorAll('section.scene')[sceneIndex];
     // text matches are lines, scene titles or stage directions
-    if (match.s) { // match has a speaker (match.s) so is a line
+    if (match.s) { // if the match has a speaker (match.s) it's a line
       const lineIndex = location[3];
       // select li elements that are actually lines, not speakers or stage dirs
       const lineSelector = 'ol.speech li:not(.speaker):not(.stage-direction)';
       displayMatch(scene, lineSelector, lineIndex);
-    } else if (match.r === 's') { // match role is a stage direction
+    } else if (match.r === 's') { // match is a stage direction
       const stagedirIndex = match.i;
       displayMatch(scene, '.stage-direction', stagedirIndex);
-    } else if (match.r === 't') {  // match role is a scene title
+    } else if (match.r === 't') {  // match is a scene title
       displayMatch(scene, '.stage-direction', 0);
     }
   };
@@ -145,6 +144,7 @@ function displayText(match) {
 }
 
 function displayMatch(scene, selector, elementIndex) {
+  console.log('selector, elementIndex', selector, elementIndex);
   const element = scene.querySelectorAll(selector)[elementIndex];
   element.classList.add('highlight');
   element.scrollIntoView({inline: 'center'});

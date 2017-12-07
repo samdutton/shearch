@@ -1,12 +1,8 @@
-
-
-Find poem:
-{
- n: ...
- t: '...'
- l: ''
-}
-
+• Create HTML for poems
+• Display poem
+• Use PlayShakespeare texts
+• Add indentation
+• Add advanced search
 
 
 poem
@@ -36,115 +32,6 @@ poem
       finistitle:
 
 
-Remove class="speech" since virtually all lists are speeches
-
-Use PlayShakespeare texts and add indentation.
-
-
-3500 lines
-280 stagedirs
-38 plays
-max about 130,000 items
-total about 12,000,000 characters
-
-Get HTML for each play and store with Cache API.
-
-Using ElasticLunr (or other) create an index and store using Cache API.
-
-
-
-
-Convert XML to HTML
-Rename as per abbreviations
-
-for each play
-  fetch file
-  in sw: cache file
-  create doc
-  create index from doc
-  cache index
-
-
-
-const domParser = new DOMParser();
-const doc = domParser.parseFromString(text, "text/html");
-
-
-
-const speakerRegex = /<SPEAKER>(^<+)/;
-const stagedirRegex = /<STAGEDIR>(^<+)/m;
-
-let act = 0;
-let scene = 0;
-let docs = [];
-let speaker = '';
-
-for each line of text {
-  if (line.includes('<ACT>')) {
-    act++;
-  }
-  if (line.includes('<SCENE>')) {
-    scene++;
-  }
-  if (line.includes('<STAGEDIR>')) {
-    docs.push({
-      l: act + '.' + scene,
-      t: '*' + line.match(stagedirRegex)
-    });
-  if (line.includes('<SPEAKER>')) {
-    speaker = line.match(speakerRegex);
-  }
-  if (line.includes('<LINE>')) {
-    docs.push({
-      l: act + '.' + scene,
-      t: line.match(lineRegex)
-    });
-}
-
-for each speech
-
-  {
-    "location": "Ant.5:01",
-    "speaker": "DERCETAS",
-    "content": "I am call'd Dercetas;\nMark Antony I served, who best was worthy\nBest to be served: whilst he stood up and spoke,\nHe was my master; and I wore my life\nTo spend upon his haters. If thou please\nTo take me to thee, as I was to him\nI'll be to Caesar; if thou pleasest not,\nI yield thee up my life."
-  }
-
-Search:
-
-  for each document matching query
-    display text with term highlighted
-    display shorthand for match location (as per Arden editions)
-
-Click on result:
-
-  get l
-  display play
-  var scene = scene represented by l
-  var line = first line that matches t
-  scrollIntoView() line, with t highlighted
-
-
-
-
-  function contains(selector, text) {
-    var elements = document.querySelectorAll(selector);
-    return [].filter.call(elements, function(element){
-      return RegExp(text).test(element.textContent);
-    });
-  }
-  Ten use it with like so:
-
-  contains('p', 'world'); // find "p" that contain "world"
-  contains('p', /^world/); // find "p" that start with "world"
-  contains('p', /world$/i); // find "p" that end with "world", case-insensitive
-
-
-
-
-<h1>The Tragedy of Antony and Cleopatra</h1>
-<h2>Act I</h2>
-<h3>Scene 1</h3>
-
 
 Search content:
 • Play
@@ -161,8 +48,6 @@ Search options:
 • Scene number
 • Speaker
 
-
-
 Autofill
 • Play
 • Act number (given play)
@@ -170,29 +55,12 @@ Autofill
 • Speaker (given play — maybe)
 • Previous queries
 
-
-Convert XML to JSON
-
-Convert XML into HTML
-• CSS based on Arden edition
-
-for each play
-for each act
-for each scene
-for each speech
-for each line or stagedir
-add id
-
-
-{
-  speaker: "PHILO"
-  lines: ["Nay, but this ...", ...]
-}
-
-
-
-
 Ideas
+• Click/tap on word: search
 
-  Click/tap on word: search
+3500 lines
+280 stagedirs
+38 plays
+max about 130,000 items
+total about 12,000,000 characters
 

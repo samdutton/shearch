@@ -4,7 +4,7 @@ const validator = require('html-validator');
 const {JSDOM} = require('jsdom');
 
 const abbreviations = require('../config/filename-to-abbreviation.json');
-const titles = require('../config/titles.json');
+const titles = require('../config/abbreviated-filename-to-title.json');
 
 const bottom = mz.readFileSync('./html-fragments/bottom.html');
 const top = mz.readFileSync('./html-fragments/top.html');
@@ -34,6 +34,7 @@ function parseText(filepath) {
     const filename = filepath.split('/').pop();
     const document = dom.window.document;
     if (filepath.includes(PLAY_DIR)) {
+      console.log('filename', filename);
       parsePlay(filename, document);
     } else if (filepath.includes(POEM_DIR)) {
       parsePoem(filename, document);
@@ -53,7 +54,7 @@ function parseText(filepath) {
 // Play functions
 
 function parsePlay(filename, document) {
-    // tweak text filenames to match standard MLA Shakespeare abbreviations
+  // change filename to match standard MLA Shakespeare abbreviation
   if (abbreviations[filename]) {
     filename = abbreviations[filename] + '.html';
   } else {
@@ -75,8 +76,8 @@ function addPreamble(document) {
   const title = document.querySelector('TITLE').textContent;
   html += `<h1>${title}</h1>\n\n`;
   html += addPersonae(document);
-  const scenedescr = document.querySelector('SCENEDESCR').textContent;
-  html += `<div id="scene-description">${scenedescr}</div>\n\n`;
+  const scndescr = document.querySelector('SCNDESCR').textContent;
+  html += `<div id="scene-description">${scndescr}</div>\n\n`;
   html += '</section>\n\n';
   return html;
 }
