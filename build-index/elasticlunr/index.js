@@ -65,13 +65,13 @@ function addPlay(filename, document) {
     const scenes = act.querySelectorAll('SCENE');
     for (let sceneIndex = 0; sceneIndex !== scenes.length; ++sceneIndex) {
       let lineIndex = 0;
-      let stagedirIndex = 0; // index for finding stage direction within scene
       const scene = scenes[sceneIndex];
       const location = `${playAbbreviation}.${actIndex}.${sceneIndex}`;
       const sceneTitle = scene.querySelector('TITLE');
       // r signifies 'role', 't' signifies scene title (only one, so no index)
       addDoc(location, sceneTitle.textContent, {r: 't'});
       const stagedirs = scene.querySelectorAll('STAGEDIR');
+      let stagedirIndex = 0; // index for finding stage direction within scene
       for (const stagedir of stagedirs) {
         // r signifies 'role', 's' signifies stage direction, i is index
         addDoc(location, stagedir.textContent, {r: 's', i: stagedirIndex++});
@@ -79,7 +79,7 @@ function addPlay(filename, document) {
       const speeches = scene.querySelectorAll('SPEECH');
       for (const speech of speeches) {
         const speaker = speech.querySelector('SPEAKER').textContent;
-        speakers.add(toTitleCase(speaker, location)); // some names are capitalized
+        speakers.add(toTitleCase(speaker)); // randomly names may be capitalized
         const lines = speech.querySelectorAll('LINE');
         // stage directions are added separately above, even if within a speech
         for (const line of lines) {
@@ -174,11 +174,8 @@ function fix(text) {
     replace(/'/g, '’'); // all straight single quotes should be apostrophes
 }
 
-function toTitleCase(string, location) {
+function toTitleCase(string) {
   return string.toLowerCase().split(' ').map(function(item) {
-    if (!item[0]) {
-      console.log('>>>>>', location, string);
-    }
     return item.replace(item[0], item[0].toUpperCase());
   }).join(' ');
 }

@@ -40,6 +40,7 @@ const HTML_DIR = '../html/';
 var timeout = null;
 const DEBOUNCE_DELAY = 200;
 
+// for act numbers in formatLocation()
 
 // if (navigator.serviceWorker) {
 //   navigator.serviceWorker.register('sw.js').catch(function(error) {
@@ -105,10 +106,12 @@ function displayMatches(matches, query) {
 
 function addMatch(match) {
   const matchElement = document.createElement('li');
-  matchElement.dataset.location = match.l;
-  // hack: // play locations have four parts
-  const isPlay = match.l.split('.').length === 4;
-  const html = isPlay ? match.t : `<em>${match.t}</em>`;
+  matchElement.dataset.location = match.l; // location used to find match
+  matchElement.dataset.citation = formatCitation(match); // displayed location
+//  matchElement.dataset.location = match.l;
+  // TODO: fix location display to move from index to num and use roman numerals
+  // add em tags if match is a spoken line, i.e. has a speaker (match.s)
+  const html = match.s ? match.t : `<em>${match.t}</em>`;
   matchElement.innerHTML = html;
   matchElement.onclick = function() {
     displayText(match);
@@ -124,17 +127,16 @@ function displayText(match) {
     const sceneIndex = location[2];
     const textIframeDoc = textIframe.contentWindow.document;
     const act = textIframeDoc.querySelectorAll('.act')[actIndex];
-    console.log('acts', textIframeDoc.querySelectorAll('section.act'));
+    // console.log('acts', textIframeDoc.querySelectorAll('section.act'));
     const scene = act.querySelectorAll('section.scene')[sceneIndex];
     // text matches are lines, scene titles or stage directions
     if (match.s) { // if the match has a speaker (match.s) it's a line
       const lineIndex = location[3];
-      // select li elements that are actually lines, not speakers or stage dirs
+      // select li elements that are spoken lines, not speakers or stage dirs
       const lineSelector = 'ol.speech li:not(.speaker):not(.stage-direction)';
       displayMatch(scene, lineSelector, lineIndex);
     } else if (match.r === 's') { // match is a stage direction
-      const stagedirIndex = match.i;
-      displayMatch(scene, '.stage-direction', stagedirIndex);
+      displayMatch(scene, '.stage-direction', match.i);
     } else if (match.r === 't') {  // match is a scene title
       displayMatch(scene, '.stage-direction', 0);
     }
@@ -144,11 +146,25 @@ function displayText(match) {
 }
 
 function displayMatch(scene, selector, elementIndex) {
-  console.log('selector, elementIndex', selector, elementIndex);
+  console.log('scene, selector, elementIndex', scene, selector, elementIndex);
   const element = scene.querySelectorAll(selector)[elementIndex];
   element.classList.add('highlight');
   element.scrollIntoView({inline: 'center'});
 }
+
+function formatCitation(match) {
+  const location = match.l.split('.');
+  const play = location[0];
+  const actIndex = location[1];
+  const actNum = +actIndex + 1;
+  const sceneIndex = location[2];
+  const sceneNum = +sceneIndex + 1;
+  const lineIndex = location[3]; // undef for stage dirs and scene descriptions
+  return lineIndex ? `${play}.${actNum}.${sceneNum}.${+lineIndex + 1}` :
+    `${play}.${actNum}.${sceneNum}`;
+}
+
+// Utility functions
 
 function hide(element) {
   element.classList.add('hidden');
