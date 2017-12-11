@@ -1,10 +1,10 @@
 .highlight {
-  color: #c83f3f;
+  color: #c83f3f !important;
 }
 
 body {
   color: #444;
-  counter-reset: line-number;
+/*  counter-reset: line-number; */
   font-family: Palatino, serif;
   margin: 0;
   padding: 20px;

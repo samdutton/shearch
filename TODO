@@ -1,3 +1,6 @@
+Parse texts: 8109.462ms
+Index 120503 docs: 4257.257ms
+
 getElementsByClassName
 getElementsByTagName (in XML, at least)
 Update HTML for meta tags, etc.

@@ -80,13 +80,14 @@ function doSearch() {
     if (matches.length > 0) {
       hide(textIframe);
       show(matchesList);
-      displayMatches(matches, query);
+      highlighttches(matches, query);
     }
     console.timeEnd(`Do search for ${query}`);
   }, DEBOUNCE_DELAY);
 }
 
-function displayMatches(matches, query) {
+// Display a list of matched lines, stage directions and scene descriptions
+function highlighttches(matches, query) {
   const exactPhrase = new RegExp(query, 'i');
   // keep exact matches only
   // matches = matches.filter(function(match) {
@@ -104,12 +105,14 @@ function displayMatches(matches, query) {
   }
 }
 
+// Add an individual match element to the list of matches
 function addMatch(match) {
   const matchElement = document.createElement('li');
   matchElement.dataset.location = match.l; // location used to find match
   matchElement.dataset.citation = formatCitation(match); // displayed location
-//  matchElement.dataset.location = match.l;
-  // TODO: fix location display to move from index to num and use roman numerals
+  if (match.i) { // stage direction matches have an index
+    matchElement.dataset.index = match.i;
+  }
   // add em tags if match is a spoken line, i.e. has a speaker (match.s)
   const html = match.s ? match.t : `<em>${match.t}</em>`;
   matchElement.innerHTML = html;
@@ -119,6 +122,7 @@ function addMatch(match) {
   matchesList.appendChild(matchElement);
 }
 
+// Display the appropriate text and location when a user taps/clicks on a match
 function displayText(match) {
   const location = match.l.split('.'); // l represents location, e.g. Ham.3.3.2
   textIframe.src = HTML_DIR + location[0] + '.html';
@@ -134,24 +138,28 @@ function displayText(match) {
       const lineIndex = location[3];
       // select li elements that are spoken lines, not speakers or stage dirs
       const lineSelector = 'ol.speech li:not(.speaker):not(.stage-direction)';
-      displayMatch(scene, lineSelector, lineIndex);
+      highlightMatch(scene, lineSelector, lineIndex);
     } else if (match.r === 's') { // match is a stage direction
-      displayMatch(scene, '.stage-direction', match.i);
-    } else if (match.r === 't') {  // match is a scene title
-      displayMatch(scene, '.stage-direction', 0);
+      highlightMatch(scene, '.stage-direction', match.i);
+    } else if (match.r === 't') {  // match is a scene title, only ever one
+      highlightMatch(scene, '.scene-description', 0);
     }
   };
   hide(matchesList);
   show(textIframe);
 }
 
-function displayMatch(scene, selector, elementIndex) {
-  console.log('scene, selector, elementIndex', scene, selector, elementIndex);
+function highlightMatch(scene, selector, elementIndex) {
+  console.log('stage-direction:', [...scene.querySelectorAll(selector)].
+    map(function(item) {
+      return item.textContent;
+    }));
   const element = scene.querySelectorAll(selector)[elementIndex];
   element.classList.add('highlight');
   element.scrollIntoView({inline: 'center'});
 }
 
+// Format location for display to the right of each match
 function formatCitation(match) {
   const location = match.l.split('.');
   const play = location[0];
