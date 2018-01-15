@@ -14,6 +14,8 @@ const PLAY_DIR = 'plays-bosak';
 const POEM_DIR = 'poems-ps';
 const TEXTS_DIR = '../texts/';
 
+const stageDirRegEx = /<STAGEDIR>(\w+)<\/STAGEDIR>/gi;
+
 let numFilesToProcess = 0;
 
 // Parse each file in the directory of texts
@@ -73,10 +75,10 @@ function parsePlay(filename, document) {
 
 function addPreamble(document) {
   let html = '<section id="preamble">\n\n';
-  const title = document.querySelector('TITLE').textContent;
+  const title = document.getElementsByTagName('TITLE')[0].textContent;
   html += `<h1>${title}</h1>\n\n`;
   html += addPersonae(document);
-  const scndescr = document.querySelector('SCNDESCR').textContent;
+  const scndescr = document.getElementsByTagName('SCNDESCR')[0].textContent;
   html += `<div id="scene-description">${scndescr}</div>\n\n`;
   html += '</section>\n\n';
   return html;
@@ -85,13 +87,13 @@ function addPreamble(document) {
 function addPersonae(document) {
   let html = '<section id="dramatis-personae">';
   html += '<h2>Dramatis Personae</h2>\n\n';
-  const children = document.querySelector('PERSONAE').children;
+  const children = document.getElementsByTagName('PERSONAE')[0].children;
   for (const child of children) {
     switch (child.nodeName) {
     case 'PGROUP': {
-      const grpdescr = child.querySelector('GRPDESCR').textContent;
+      const grpdescr = child.getElementsByTagName('GRPDESCR')[0].textContent;
       html += `<ol class="persona-group" data-description="${grpdescr}">\n`;
-      const personas = child.querySelectorAll('PERSONA');
+      const personas = child.getElementsByTagName('PERSONA');
       for (const persona of personas) {
         html += '  <li>' + persona.textContent.trim() + '</li>\n';
       }
@@ -121,12 +123,12 @@ function addPersonae(document) {
 
 function addActs(document) {
   let html = '';
-  const acts = document.querySelectorAll('ACT');
+  const acts = document.getElementsByTagName('ACT');
   for (const act of acts) {
     html += '<section class="act">\n\n';
-    const title = act.querySelector('TITLE').textContent;
+    const title = act.getElementsByTagName('TITLE')[0].textContent;
     html += `<h2>${title}</h2>\n\n`;
-    const scenes = act.querySelectorAll('SCENE');
+    const scenes = act.getElementsByTagName('SCENE');
     for (const scene of scenes) {
       html += addScene(scene);
     }
@@ -162,18 +164,23 @@ function addScene(scene) {
 }
 
 function addSpeech(speech) {
-  let html = '<ol class="speech">\n';
   const children = speech.children;
+  let html = '';
   let number;
+  let speakers = [];
   for (const child of children) {
     switch(child.nodeName) {
     case 'LINE':
+      // addLineNumberMarkup() adds number attribute to every fifth line element
       number = child.hasAttribute('number') ? ' class="number"' : '';
-      html += `  <li${number}>${child.textContent}</li>\n`;
+      // stage directions are sometimes inline
+      var line = child.innerHTML.
+        replace(stageDirRegEx, '<span class="stage-direction">$1</span>');
+      html += `  <li${number}>${line}</li>\n`;
       break;
     case 'SPEAKER':
-      // there may be more than one speaker
-      html += `  <li class="speaker">${child.textContent}</li>\n`;
+      // speeches occasionally have more than one speaker
+      speakers.push(child.textContent);
       break;
     case 'STAGEDIR':
       html += `  <li class="stage-direction">${child.textContent}</li>\n`;
@@ -185,10 +192,10 @@ function addSpeech(speech) {
       console.error(`${play(speech)}: weird speech element ${child.nodeName}`);
     }
   }
-  html += '</ol>\n\n';
-  return html;
+  return `<ol data-speaker="${speakers.join(', ')}">\n` + html + '</ol>\n\n';
 }
 
+// **************
 // Poem functions
 
 function parsePoem(filename, document) {
@@ -203,13 +210,13 @@ function parsePoem(filename, document) {
 
 function addSonnets(document) {
   let html = '<h1>Sonnets</h1>\n\n';
-  const sonnets = document.querySelectorAll('sonnet');
+  const sonnets = document.getElementsByTagName('sonnet');
   for (let i = 0; i !== sonnets.length; ++i) {
     const sonnet = sonnets[i];
     html += '<section class="poem">\n';
     html += `  <h2>Sonnet ${roman(i + 1)}</h2>\n`;
     html += '  <ol>\n';
-    const lines = sonnet.querySelectorAll('line');
+    const lines = sonnet.getElementsByTagName('line');
     for (let j = 0; j !== lines.length; ++j) {
       // add class="number" if this line should be numbered
       const isNumbered = (j + 1) % 5 === 0 && j !== 0;
@@ -226,10 +233,10 @@ function addSonnets(document) {
 }
 
 function addSinglePoem(document, poemAbbreviation) {
-  const title = document.querySelector('title').textContent;
+  const title = document.getElementsByTagName('title')[0].textContent;
   let html = `<h1>${title}</h1>\n\n`;
   html += '  <ol>\n';
-  const lines = document.querySelectorAll('line');
+  const lines = document.getElementsByTagName('line');
   for (let i = 0; i !== lines.length; ++i) {
     // add class="number" if this line should be numbered
     const isNumbered = (i + 1) % 5 === 0 && i !== 0;
@@ -250,8 +257,8 @@ function addSinglePoem(document, poemAbbreviation) {
 function isValid(filename, html) {
   const options = {
     data: html,
-    format: 'text' /* ,
-    validator: 'https://html5.validator.nu' */
+    format: 'text',
+    validator: 'https://html5.validator.nu'
   };
   validator(options).then(data => {
     return false;
@@ -266,7 +273,7 @@ function isValid(filename, html) {
 // Add number attribute to every fifth line, so line number is displayed
 // TODO: code to cope with lines that span two displayed lines :^/
 function addLineNumberMarkup(scene) {
-  const lines = scene.querySelectorAll('LINE');
+  const lines = scene.getElementsByTagName('LINE');
   for (let i = 0; i !== lines.length; ++i) {
     let line = lines[i];
     if ((i + 1) % 5 === 0 && i !== 0) {
@@ -294,7 +301,7 @@ function writeFile(filename, html) {
 }
 
 function play(element) {
-  return element.ownerDocument.querySelector('TITLE').textContent;
+  return element.ownerDocument.getElementsByTagName('TITLE')[0].textContent;
 }
 
 function roman(integer) {

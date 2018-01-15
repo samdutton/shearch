@@ -77,14 +77,14 @@ li {
   line-height: 1.5em;
 }
 
-.speech li {
+.scene li {
   line-height: 1.4em;
   margin: 0 0 2px 20px;
   padding: 0 30px 0 32px;
   text-indent: -20px;
 }
 
-.scene li:not(.speaker):not(.stage-direction) {
+.scene li:not(.stage-direction) {
   counter-increment: line-number;
 }
 
@@ -95,15 +95,6 @@ li {
   font-size: 12px;
   left: 30px;
   position: relative;
-}
-
-
-.speech li.speaker {
-  color: black;
-  font-size: 13px;
-  letter-spacing: 1px;
-  padding: 3px 0 0 0;
-  text-transform: uppercase;
 }
 
 .speech li.stage-direction {
@@ -117,13 +108,22 @@ li {
   text-indent: 20px;
 }
 
-ol.persona-group {
-  margin: 0 0 0.8em 0;
+ol {
+  margin: 0 0 5px 0;
   padding: 0;
 }
 
-ol.speech {
-  margin: 0 0 5px 0;
+ol[data-speaker]:before {
+  color: black;
+  content: attr(data-speaker);
+  font-size: 13px;
+  letter-spacing: 1px;
+  padding: 3px 0 0 0;
+  text-transform: uppercase;
+}
+
+ol.persona-group {
+  margin: 0 0 0.8em 0;
   padding: 0;
 }
 
@@ -163,6 +163,22 @@ section#preamble {
   padding: 0 0 1em 0;
 }
 
+span.stage-direction {
+  color: black;
+  font-style: italic;
+  line-height: 1.4em;
+  margin: 0.8em 0 0.8em 50px;
+  padding: 0;
+  text-indent: 20px;
+}
+span.stage-direction:before {
+  content: '(';
+}
+
+span.stage-direction:after {
+  content: ')';
+}
+
 strong {
   font-weight: 500;
 }
@@ -182,9 +198,6 @@ strong {
   }
   h3 {
     font-size: 16px;
-  }
-  .speech li.speaker {
-    font-size: 11px;
   }
 }
 
@@ -207,5 +220,7 @@ strong {
   .persona-group li {
     font-size: 14px;
   }
-
+  ol[data-speaker]:before {
+    font-size: 11px;
+  }
 }

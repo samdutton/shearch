@@ -1,9 +1,25 @@
-Parse texts: 8109.462ms
-Index 120503 docs: 4257.257ms
-
-getElementsByClassName
-getElementsByTagName (in XML, at least)
 Update HTML for meta tags, etc.
+
+shearch.me
+shearch.me#wherefore
+shearch.me/Hamlet
+shearch.me/Ham
+shearch.me/Ham.3.2.11
+
+Search:
+• Set URL: shearch.me#wherefore
+
+Click on result:
+• Set URL (and if necessary, data for stage dir): shearch.me/Ham.3.2.11
+• Set iframe src
+
+Open page
+• shearch.me
+• shearch.me#wherefore: display search results
+• shearch.me/Hamlet or shearch.me/Ham: display play
+• shearch.me/Ham.3.2.11: display location
+
+
 
 • Create HTML for poems
 • Display poem
