@@ -122,9 +122,12 @@ function addSonnets(document) {
   }
 }
 
+// Each 'document' in the data store is a line from a play or poem
+// or a stage direction or scene description
 function addDoc(location, text, options) {
   let doc = {
-    n: (docNum++).toString(36), // to minimise length/storage of n
+    // n is the ID of the document: a number in base 36
+    n: (docNum++).toString(36), // base 36 to minimise length/storage of n
     l: location,
     t: text
   };

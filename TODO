@@ -21,6 +21,9 @@ Open page
 
 
 
+• tap/click on word does search for that word
+• remove class="poem" from section
+
 • Create HTML for poems
 • Display poem
 • Use PlayShakespeare texts

@@ -85,6 +85,8 @@ queryInput.oninput = function() {
   // debounce text entry
   clearTimeout(timeout);
   timeout = setTimeout(function() {
+    history.pushState(null, null, `${window.location.origin}#${query}`);
+    document.title = `Search Shakespeare: ${query}`;
     console.time(`Do search for ${query}`);
     const matches = index.search(query, SEARCH_OPTIONS);
     if (matches.length > 0) {
@@ -94,8 +96,6 @@ queryInput.oninput = function() {
     }
     console.timeEnd(`Do search for ${query}`);
   }, DEBOUNCE_DELAY);
-  history.pushState(null, null, `${window.location.origin}#${query}`);
-  document.title = `Search Shakespeare: ${query}`;
 };
 
 // Display a list of matched lines, stage directions and scene descriptions
@@ -125,9 +125,13 @@ function addMatch(match) {
   if (match.i) { // stage direction matches have an index
     matchElement.dataset.index = match.i;
   }
-  // add em tags if match is stage dir or scene descr, i.e. no speaker (match.s)
-  const html = match.s ? match.t : `<em>${match.t}</em>`;
-  matchElement.innerHTML = html;
+  // add classes for stage directions and scene titles (just for text styling)
+  if (match.r && match.r === 's') {
+    matchElement.classList.add('stage-direction');
+  } else if (match.r && match.r === 't') {
+    matchElement.classList.add('scene-title');
+  }
+  matchElement.innerHTML = match.t;
   matchElement.onclick = function() {
     displayText(match);
   };
@@ -137,52 +141,77 @@ function addMatch(match) {
 // Display the appropriate text and location when a user taps/clicks on a match
 function displayText(match) {
   hide(matchesList);
-  // match.l is a citation for a play or poem, e.g. Ham.3.3.2
+  // match.l is a citation for a play or poem, e.g. Ham.3.3.2, Son.4.11, Ven.140
+  // scene title matches only have act and scene number, e.g. Ham.3.3
   history.pushState(null, null, `${window.location.origin}/${match.l}`);
   document.title = `Search Shakespeare: ${match.l}`;
   const location = match.l.split('.');
-  const play = location[0];
-  textIframe.src = `${HTML_DIR}${play}.html`;
+  const text = location[0];
+  textIframe.src = `${HTML_DIR}${text}.html`;
   textIframe.onload = function() {
-    const actIndex = location[1];
-    const sceneIndex = location[2];
     const textIframeDoc = textIframe.contentWindow.document;
-    const act = textIframeDoc.querySelectorAll('.act')[actIndex];
-    // console.log('acts', textIframeDoc.querySelectorAll('.act'));
-    const scene = act.querySelectorAll('section.scene')[sceneIndex];
-    // text matches are lines, scene titles or stage directions
-    if (match.s) { // if the match has a speaker (match.s) it's a spoken line
-      const lineIndex = location[3];
-      // some list items in speeches are stage directions
-      highlightMatch(scene, 'li:not(.stage-direction)', lineIndex);
-    } else if (match.r === 's') { // match is a stage direction
-      highlightMatch(scene, '.stage-direction', match.i);
-    } else if (match.r === 't') { // match is a scene title, only ever one
-      highlightMatch(scene, '.scene-description', 0);
+    // matches with either s (speaker) or r (role) properties are plays
+    if (match.s || match.r) {
+      const actIndex = location[1];
+      const sceneIndex = location[2];
+      const act = textIframeDoc.querySelectorAll('.act')[actIndex];
+      // console.log('acts', textIframeDoc.querySelectorAll('.act'));
+      const scene = act.querySelectorAll('section.scene')[sceneIndex];
+      // text matches are lines, scene titles or stage directions
+      if (match.s) { // if the match has a speaker (match.s) it's a spoken line
+        const lineIndex = location[3];
+        // some list items in speeches are stage directions
+        highlightMatch(scene, 'li:not(.stage-direction)', lineIndex);
+      } else if (match.r === 's') { // match is a stage direction
+        highlightMatch(scene, '.stage-direction', match.i);
+      } else if (match.r === 't') { // match is a scene title, only ever one
+        highlightMatch(scene, '.scene-description', 0);
+      }
+    } else { // match is a sonnet or other
+      // location for sonnets has three parts, e.g. Son.4.11
+      // location for other poems only has two parts, e.g. Ven.140
+      // Son.html contains all the sonnets; other poems each have their own file
+      const isSonnet = location.length === 3;
+      const poemElement = isSonnet ?
+        textIframeDoc.querySelectorAll('section')[location[1]] :
+        textIframeDoc.querySelector('ol'); // poems currently only single <ol>
+      const lineIndex = isSonnet ? location[2] : location[1];
+      highlightMatch(poemElement, 'li', lineIndex);
     }
     show(textIframe);
   };
 }
 
-function highlightMatch(scene, selector, elementIndex) {
-  console.log('scene, selector, elementIndex: ', scene, selector, elementIndex);
-  const element = scene.querySelectorAll(selector)[elementIndex];
+// Highlight a match in a play scene or in a poem
+function highlightMatch(parent, selector, elementIndex) {
+  // console.log('parent, selector, element', parent, selector, elementIndex);
+  const element = parent.querySelectorAll(selector)[elementIndex];
   element.classList.add('highlight');
   element.scrollIntoView(); // inline: center problematic unless iframe shown :(
-  textIframe.contentWindow.scrollBy(0, -220);
+  textIframe.contentWindow.scrollBy(0, -240);
 }
 
 // Format location for display to the right of each match
 function formatCitation(match) {
+  // matches with r (role) or s (speaker) properties are plays, otherwise poems
   const location = match.l.split('.');
-  const play = location[0];
-  const actIndex = location[1];
-  const actNum = +actIndex + 1;
-  const sceneIndex = location[2];
-  const sceneNum = +sceneIndex + 1;
-  const lineIndex = location[3]; // undef for stage dirs and scene descriptions
-  return lineIndex ? `${play}.${actNum}.${sceneNum}.${+lineIndex + 1}` :
-    `${play}.${actNum}.${sceneNum}`;
+  const text = location[0];
+  if (match.s || match.r) {
+    const actIndex = location[1];
+    const actNum = +actIndex + 1; // use + to make integer
+    const sceneIndex = location[2];
+    const sceneNum = +sceneIndex + 1;
+    const lineIndex = location[3]; // undef for stage dirs and scene titles
+    return lineIndex ? `${text}.${actNum}.${sceneNum}.${+lineIndex + 1}` :
+      `${text}.${actNum}.${sceneNum}`;
+  } else {
+    // location for sonnets has three parts, e.g. Son.4.11
+    // location for other poems only has two parts, e.g. Ven.140
+    // Son.html contains all the sonnets; other poems each have their own file
+    const isSonnet = location.length === 3;
+    return isSonnet ? `${text}.${+location[1] + 1}.${+location[2] + 1}` :
+      `${text}.${+location[1] + 1}`; // use + to make integer
+  }
 }
 
 // Utility functions
