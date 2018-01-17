@@ -107,7 +107,7 @@ function addPoem(filename, document) {
 function addSinglePoem(document, poemAbbreviation) {
   const lines = document.getElementsByTagName('line');
   for (let i = 0; i !== lines.length; ++i) {
-    addDoc(`${poemAbbreviation}.${i + 1}`, fix(lines[i].textContent));
+    addDoc(`${poemAbbreviation}.${i}`, fix(lines[i].textContent));
   }
 }
 
@@ -117,7 +117,7 @@ function addSonnets(document) {
     const sonnet = sonnets[i];
     const lines = sonnet.getElementsByTagName('line');
     for (let j = 0; j !== lines.length; ++j) {
-      addDoc(`Son.${i + 1}.${j + 1}`, lines[j].textContent);
+      addDoc(`Son.${i}.${j}`, lines[j].textContent);
     }
   }
 }
