@@ -20,7 +20,7 @@ limitations under the License.
 
 const matchesList = document.getElementById('matches');
 const queryInput = document.getElementById('query');
-const textIframe = document.querySelector('iframe');
+const textDiv = document.getElementById('text');
 
 const SEARCH_OPTIONS = {
   fields: {
@@ -47,10 +47,10 @@ const DEBOUNCE_DELAY = 300;
 window.addEventListener('popstate', function(event) {
   console.log('popstate event', event.state);
   if (event.state && event.state.isSearchResults) {
-    hide(textIframe);
+    hide(textDiv);
     show(matchesList);
   } else {
-    show(textIframe);
+    show(textDiv);
     hide(matchesList);
   }
 });
@@ -107,7 +107,7 @@ function doSearch(query) {
   console.time(`Do search for ${query}`);
   const matches = index.search(query, SEARCH_OPTIONS);
   if (matches.length > 0) {
-    hide(textIframe); // hide the iframe for play or poem texts
+    hide(textDiv); // hide the div for displaying play or poem texts
     displayMatches(matches, query);
     show(matchesList);
   }
@@ -160,7 +160,6 @@ function displayText(match, query) {
   // add history entry for the query when the user has tapped/clicked a match
   history.pushState({isSearchResults: true}, null,
       `${window.location.origin}#${query}`);
-  console.log('pushing states');
   // match.l is a citation for a play or poem, e.g. Ham.3.3.2, Son.4.11, Ven.140
   // scene title matches only have act and scene number, e.g. Ham.3.3
   history.pushState({isSearchResults: false}, null,
@@ -168,23 +167,22 @@ function displayText(match, query) {
   document.title = `Search Shakespeare: ${match.l}`;
   const location = match.l.split('.');
   const text = location[0];
-  textIframe.src = `${HTML_DIR}${text}.html`;
-  textIframe.onload = function() {
+  fetch(`${HTML_DIR}${text}.html`).then(response => {
+    return response.text();
+  }).then(html => {
+    textDiv.innerHTML = html;
+    show(textDiv);
     highlightMatch(match, location);
-  };
+  });
 }
 
 function highlightMatch(match, location) {
-  const textIframeDoc = textIframe.contentWindow.document;
-  if (!textIframe.contentWindow.document.body.textContent) {
-    return; // to cope with load event when back button fired :(
-  }
   // matches with either s (speaker) or r (role) properties are plays
   if (match.s || match.r) {
     const actIndex = location[1];
     const sceneIndex = location[2];
-    const act = textIframeDoc.querySelectorAll('.act')[actIndex];
-    // console.log('acts', textIframeDoc.querySelectorAll('.act'));
+    const act = textDiv.querySelectorAll('.act')[actIndex];
+    // console.log('acts', textDivDoc.querySelectorAll('.act'));
     const scene = act.querySelectorAll('section.scene')[sceneIndex];
     // text matches are lines, scene titles or stage directions
     if (match.s) { // if the match has a speaker (match.s) it's a spoken line
@@ -202,12 +200,12 @@ function highlightMatch(match, location) {
     // Son.html contains all the sonnets; other poems each have their own file
     const isSonnet = location.length === 3;
     const poemElement = isSonnet ?
-      textIframeDoc.querySelectorAll('section')[location[1]] :
-      textIframeDoc.querySelector('ol'); // poems currently only single <ol>
+      textDiv.querySelectorAll('section')[location[1]] :
+      textDiv.querySelector('ol'); // poems currently only single <ol>
     const lineIndex = isSonnet ? location[2] : location[1];
     highlightLine(poemElement, 'li', lineIndex);
   }
-  show(textIframe);
+  show(textDiv);
 }
 
 // Highlight a match in a play scene or in a poem
@@ -215,8 +213,7 @@ function highlightLine(parent, selector, elementIndex) {
   // console.log('parent, selector, element', parent, selector, elementIndex);
   const element = parent.querySelectorAll(selector)[elementIndex];
   element.classList.add('highlight');
-  element.scrollIntoView(); // inline: center problematic unless iframe shown :(
-  textIframe.contentWindow.scrollBy(0, -240);
+  element.scrollIntoView({inline: 'center'});
 }
 
 // Format location for display to the right of each match
