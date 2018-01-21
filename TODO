@@ -1,3 +1,6 @@
+get HTML
+set value of contetn
+
 Update HTML for meta tags, etc.
 
 shearch.me
@@ -20,9 +23,10 @@ Open page
 • shearch.me/Ham.3.2.11: display location
 
 
-
+• order results by text
 • tap/click on word does search for that word
 • remove class="poem" from section
+• get rid of query input jump when displaying text
 
 • Create HTML for poems
 • Display poem

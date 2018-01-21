@@ -33,7 +33,7 @@ const SEARCH_OPTIONS = {
 var index;
 
 const INDEX_FILE = 'data/index.json';
-const HTML_DIR = 'html/';
+const HTML_DIR = '/html/';
 
 var timeout = null;
 const DEBOUNCE_DELAY = 300;
@@ -45,16 +45,23 @@ const DEBOUNCE_DELAY = 300;
 // }
 
 window.addEventListener('popstate', function(event) {
-  console.log('popstate event', event);
+  console.log('popstate event', event.state);
+  if (event.state && event.state.isSearchResults) {
+    hide(textIframe);
+    show(matchesList);
+  } else {
+    show(textIframe);
+    hide(matchesList);
+  }
 });
 
-window.addEventListener('hashchange', function(event) {
-  console.log('hashchange event', event);
-});
+// window.addEventListener('hashchange', function(event) {
+//   console.log('hashchange event', event.state);
+// });
 
-window.addEventListener('beforeunload', function(event) {
-  console.log('beforeunload event', event);
-});
+// window.addEventListener('beforeunload', function(event) {
+//   console.log('beforeunload event', event);
+// });
 
 // Get and load index data
 console.log('Fetching index...');
@@ -71,7 +78,13 @@ fetch(INDEX_FILE).then(response => {
   index = elasticlunr.Index.load(json);
   console.timeEnd('Load index');
   queryInput.disabled = false;
-  queryInput.placeholder = 'Enter search text';
+  if (location.hash) {
+    const query = location.hash.slice(1);
+    queryInput.value = query;
+    doSearch(query);
+  } else {
+    queryInput.placeholder = 'Enter search text';
+  }
   queryInput.focus();
 });
 
@@ -85,18 +98,21 @@ queryInput.oninput = function() {
   // debounce text entry
   clearTimeout(timeout);
   timeout = setTimeout(function() {
-    history.pushState(null, null, `${window.location.origin}#${query}`);
-    document.title = `Search Shakespeare: ${query}`;
-    console.time(`Do search for ${query}`);
-    const matches = index.search(query, SEARCH_OPTIONS);
-    if (matches.length > 0) {
-      hide(textIframe); // hide the iframe for play or poem texts
-      displayMatches(matches, query);
-      show(matchesList);
-    }
-    console.timeEnd(`Do search for ${query}`);
+    doSearch(query);
   }, DEBOUNCE_DELAY);
 };
+
+function doSearch(query) {
+  document.title = `Search Shakespeare: ${query}`;
+  console.time(`Do search for ${query}`);
+  const matches = index.search(query, SEARCH_OPTIONS);
+  if (matches.length > 0) {
+    hide(textIframe); // hide the iframe for play or poem texts
+    displayMatches(matches, query);
+    show(matchesList);
+  }
+  console.timeEnd(`Do search for ${query}`);
+}
 
 // Display a list of matched lines, stage directions and scene descriptions
 function displayMatches(matches, query) {
@@ -113,12 +129,12 @@ function displayMatches(matches, query) {
   // matches = matches.sort((a, b) =>
   // a.doc.l.localeCompare(b.doc.l, {numeric: true}));
   for (const match of matches) {
-    addMatch(match.doc);
+    addMatch(match.doc, query);
   }
 }
 
 // Add an individual match element to the list of matches
-function addMatch(match) {
+function addMatch(match, query) {
   const matchElement = document.createElement('li');
   matchElement.dataset.location = match.l; // location used to find match
   matchElement.dataset.citation = formatCitation(match); // displayed location
@@ -133,57 +149,69 @@ function addMatch(match) {
   }
   matchElement.innerHTML = match.t;
   matchElement.onclick = function() {
-    displayText(match);
+    displayText(match, query);
   };
   matchesList.appendChild(matchElement);
 }
 
 // Display the appropriate text and location when a user taps/clicks on a match
-function displayText(match) {
+function displayText(match, query) {
   hide(matchesList);
+  // add history entry for the query when the user has tapped/clicked a match
+  history.pushState({isSearchResults: true}, null,
+      `${window.location.origin}#${query}`);
+  console.log('pushing states');
   // match.l is a citation for a play or poem, e.g. Ham.3.3.2, Son.4.11, Ven.140
   // scene title matches only have act and scene number, e.g. Ham.3.3
-  history.pushState(null, null, `${window.location.origin}/${match.l}`);
+  history.pushState({isSearchResults: false}, null,
+    `${window.location.origin}/${match.l}`);
   document.title = `Search Shakespeare: ${match.l}`;
   const location = match.l.split('.');
   const text = location[0];
   textIframe.src = `${HTML_DIR}${text}.html`;
   textIframe.onload = function() {
-    const textIframeDoc = textIframe.contentWindow.document;
-    // matches with either s (speaker) or r (role) properties are plays
-    if (match.s || match.r) {
-      const actIndex = location[1];
-      const sceneIndex = location[2];
-      const act = textIframeDoc.querySelectorAll('.act')[actIndex];
-      // console.log('acts', textIframeDoc.querySelectorAll('.act'));
-      const scene = act.querySelectorAll('section.scene')[sceneIndex];
-      // text matches are lines, scene titles or stage directions
-      if (match.s) { // if the match has a speaker (match.s) it's a spoken line
-        const lineIndex = location[3];
-        // some list items in speeches are stage directions
-        highlightMatch(scene, 'li:not(.stage-direction)', lineIndex);
-      } else if (match.r === 's') { // match is a stage direction
-        highlightMatch(scene, '.stage-direction', match.i);
-      } else if (match.r === 't') { // match is a scene title, only ever one
-        highlightMatch(scene, '.scene-description', 0);
-      }
-    } else { // match is a sonnet or other
-      // location for sonnets has three parts, e.g. Son.4.11
-      // location for other poems only has two parts, e.g. Ven.140
-      // Son.html contains all the sonnets; other poems each have their own file
-      const isSonnet = location.length === 3;
-      const poemElement = isSonnet ?
-        textIframeDoc.querySelectorAll('section')[location[1]] :
-        textIframeDoc.querySelector('ol'); // poems currently only single <ol>
-      const lineIndex = isSonnet ? location[2] : location[1];
-      highlightMatch(poemElement, 'li', lineIndex);
-    }
-    show(textIframe);
+    highlightMatch(match, location);
   };
 }
 
+function highlightMatch(match, location) {
+  const textIframeDoc = textIframe.contentWindow.document;
+  if (!textIframe.contentWindow.document.body.textContent) {
+    return; // to cope with load event when back button fired :(
+  }
+  // matches with either s (speaker) or r (role) properties are plays
+  if (match.s || match.r) {
+    const actIndex = location[1];
+    const sceneIndex = location[2];
+    const act = textIframeDoc.querySelectorAll('.act')[actIndex];
+    // console.log('acts', textIframeDoc.querySelectorAll('.act'));
+    const scene = act.querySelectorAll('section.scene')[sceneIndex];
+    // text matches are lines, scene titles or stage directions
+    if (match.s) { // if the match has a speaker (match.s) it's a spoken line
+      const lineIndex = location[3];
+      // some list items in speeches are stage directions
+      highlightLine(scene, 'li:not(.stage-direction)', lineIndex);
+    } else if (match.r === 's') { // match is a stage direction
+      highlightLine(scene, '.stage-direction', match.i);
+    } else if (match.r === 't') { // match is a scene title, only ever one
+      highlightLine(scene, '.scene-description', 0);
+    }
+  } else { // match is a sonnet or other
+    // location for sonnets has three parts, e.g. Son.4.11
+    // location for other poems only has two parts, e.g. Ven.140
+    // Son.html contains all the sonnets; other poems each have their own file
+    const isSonnet = location.length === 3;
+    const poemElement = isSonnet ?
+      textIframeDoc.querySelectorAll('section')[location[1]] :
+      textIframeDoc.querySelector('ol'); // poems currently only single <ol>
+    const lineIndex = isSonnet ? location[2] : location[1];
+    highlightLine(poemElement, 'li', lineIndex);
+  }
+  show(textIframe);
+}
+
 // Highlight a match in a play scene or in a poem
-function highlightMatch(parent, selector, elementIndex) {
+function highlightLine(parent, selector, elementIndex) {
   // console.log('parent, selector, element', parent, selector, elementIndex);
   const element = parent.querySelectorAll(selector)[elementIndex];
   element.classList.add('highlight');
