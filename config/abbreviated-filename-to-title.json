@@ -35,13 +35,14 @@
   "TN.html": "Twelfth Night",
   "Wiv.html": "The Merry Wives of Windsor",
   "WT.html": "The Winter's Tale",
-  "FE": "A Funeral Elegy",
-  "LC": "A Lover’s Complaint",
-  "PP": "The Passionate Pilgrim",
-  "PhT": "The Phoenix & Turtle",
-  "Luc": "The Rape of Lucrece",
-  "SID": "Shall I Die?",
-  "Son": "Sonnets",
-  "TTQ": "To the Queen",
-  "Ven": "Venus & Adonis"
+  "FE.html": "A Funeral Elegy",
+  "LC.html": "A Lover’s Complaint",
+  "PP.html": "The Passionate Pilgrim",
+  "PhT.html": "The Phoenix and Turtle",
+  "Luc.html": "The Rape of Lucrece",
+  "SID.html": "Shall I Die?",
+  "Son.html": "Sonnets",
+  "Tro.html": "Troilus and Cressida",
+  "TTQ.html": "To the Queen",
+  "Ven.html": "Venus and Adonis"
 }

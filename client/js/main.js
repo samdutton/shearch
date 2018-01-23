@@ -44,7 +44,7 @@ const DEBOUNCE_DELAY = 300;
 //   });
 // }
 
-window.addEventListener('popstate', function(event) {
+window.onpopstate = function(event) {
   console.log('popstate event', event.state);
   if (event.state && event.state.isSearchResults) {
     hide(textDiv);
@@ -53,15 +53,15 @@ window.addEventListener('popstate', function(event) {
     show(textDiv);
     hide(matchesList);
   }
-});
+};
 
-// window.addEventListener('hashchange', function(event) {
+// window.onhashchange = function(event) {
 //   console.log('hashchange event', event.state);
-// });
+// };
 
-// window.addEventListener('beforeunload', function(event) {
+// window.onbeforeunload = function(event) {
 //   console.log('beforeunload event', event);
-// });
+// };
 
 // Get and load index data
 console.log('Fetching index...');
@@ -104,30 +104,36 @@ queryInput.oninput = function() {
 
 function doSearch(query) {
   document.title = `Search Shakespeare: ${query}`;
+  matchesList.textContent = '';
   console.time(`Do search for ${query}`);
   const matches = index.search(query, SEARCH_OPTIONS);
   if (matches.length > 0) {
     hide(textDiv); // hide the div for displaying play or poem texts
     displayMatches(matches, query);
-    show(matchesList);
+    show(matchesList); // show search results (matches)
   }
   console.timeEnd(`Do search for ${query}`);
 }
 
 // Display a list of matched lines, stage directions and scene descriptions
 function displayMatches(matches, query) {
-  const exactPhrase = new RegExp(query, 'i');
+  //
   // keep exact matches only
   // matches = matches.filter(function(match) {
   //   return exactPhrase.test(match.doc.t);
   // });
-  // prefer exact matches
-  matches = matches.sort((a, b) => {
-    return exactPhrase.test(a.doc.t) ? -1 : exactPhrase.test(b.doc.t) ? 1 : 0;
-  });
-  // sort (not necessary)
-  // matches = matches.sort((a, b) =>
-  // a.doc.l.localeCompare(b.doc.l, {numeric: true}));
+  //
+  // // sort by play or poem name
+  // matches = matches.sort((a, b) => {
+  //   return a.doc.l.localeCompare(b.doc.l, {numeric: true});
+  // });
+  //
+  // const exactPhrase = new RegExp(query, 'i');
+  // // prefer exact matches
+  // matches = matches.sort((a, b) => {
+  //  return exactPhrase.test(a.doc.t) ? -1 : exactPhrase.test(b.doc.t) ? 1 : 0;
+  // });
+  //
   for (const match of matches) {
     addMatch(match.doc, query);
   }
@@ -171,9 +177,25 @@ function displayText(match, query) {
     return response.text();
   }).then(html => {
     textDiv.innerHTML = html;
+    textDiv.onmouseover = addWordSearch;
     show(textDiv);
     highlightMatch(match, location);
   });
+}
+
+// When the user hovers over a line, wrap a span around each word in the line
+// so they can click on a word to search for it.
+function addWordSearch(hoverEvent) {
+  const el = hoverEvent.target;
+  if (el.nodeName === 'LI') { // hover events are also fired by the parent ol
+    el.innerHTML = el.innerText.replace(/([\w]+)/g, '<span>$1</span>');
+    el.onclick = spanClickEvent => {
+      const word = spanClickEvent.target.textContent;
+      queryInput.value = word;
+      doSearch(word);
+      window.scrollTo(0, 107); // to display search input
+    };
+  }
 }
 
 function highlightMatch(match, location) {

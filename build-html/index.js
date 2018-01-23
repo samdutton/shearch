@@ -9,6 +9,7 @@ const titles = require('../config/abbreviated-filename-to-title.json');
 const bottom = mz.readFileSync('./html-fragments/bottom.html');
 const top = mz.readFileSync('./html-fragments/top.html');
 
+const IS_STANDALONE = false;
 const OUTPUT_DIR = '../client/html/';
 const PLAY_DIR = 'plays-bosak';
 const POEM_DIR = 'poems-ps';
@@ -67,8 +68,8 @@ function parsePlay(filename, document) {
     console.error(`Title not found for ${filename}`);
   }
   // top and bottom are buffers, ${title} a placeholder for the title
-  const html = ('' + top).replace('${title}', title) +
-    addPreamble(document) + addActs(document) + bottom;
+  const html = IS_STANDALONE ? ('' + top).replace('${title}', title) +
+      addPreamble(document) + addActs(document) + bottom : addActs(document);
   // html = minify(html);
   writeFile(filename, html);
 }

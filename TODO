@@ -1,5 +1,3 @@
-get HTML
-set value of contetn
 
 Update HTML for meta tags, etc.
 
@@ -24,7 +22,22 @@ Open page
 
 
 • order results by text
-• tap/click on word does search for that word
+• tap/click on word does search for that word:
+
+textDiv.onmouseover = e => {
+  if (e.target.nodeName === 'LI') {
+    e.target.innerHTML =
+      e.target.innerText.replace(/([\w]+)/g, '<span>$1</span>');
+    e.target.onclick = e => {
+      searchForWord(e.target.textContent);
+    };
+  }
+}
+
+function searchForWord(word) {
+  console.log(word);
+}
+
 • remove class="poem" from section
 • get rid of query input jump when displaying text
 
