@@ -1,35 +1,3 @@
-const stanzaRegex = /<stanza[^>]+>/;
-stanzanumRegex = /<stanzanum[^>]+>/;
-quatrainRegex = /<quatrain[^>]+>/;
-lineRegex = /<line[^>]+>/;
-
-const poembody = document.getElementsByTagName('poembody')[0].textContent;
-// Some opening tags have attributes, some don't.
-poembody = poembody.
-  replace(stanzaRegex, '<section class="stanza">').
-  replace('</stanza>', '</section>').
-  replace('<intro>', '<section class="intro">').
-  replace('</intro>', '</section>').
-  replace('<dedication>', '<section class="dedication">').
-  replace('</dedication>', '</section>').
-  replace(stanzanumRegex, '<h2>').
-  replace('</stanzanum>', '</h2>').
-  replace(quatrainRegex, '<section.class="quatrain">').
-  replace('</quatrain>', '</section>').
-  replace('<couplet>', '<section.class="couplet">')
-  replace('</couplet>', '</section>').
-  replace('<stanzasmall>', '<section class="stanzasmall">').
-  replace('</stanzasmall>', '</section>').
-  replace('<subtitle>', '<h2 class="subtitle">').
-  replace('</subtitle>', '</h2>').
-  replace('<finis>', '<h2 class="finis">').
-  replace('</finis>', '</h2>').
-  replace(lineRegex, '<p>').
-  replace('</line>', '</p>').
-
-
-
-
 Update HTML for meta tags, etc.
 
 shearch.me

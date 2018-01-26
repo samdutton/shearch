@@ -21,7 +21,7 @@ const stageDirRegEx = /<STAGEDIR>(\w+)<\/STAGEDIR>/gi;
 // Some opening tags in poem sections have attributes to remove, some don't.
 const coupletOpenRegex = /<couplet>/gi;
 const coupletCloseRegex = /<\/couplet>/gi;
-const finisRegex = /<finis>.+<\/finis>/gs; // only one of these, in FE.html...
+const finisRegex = /<finis>.+<\/finis>/gsi; // only one of these, in FE.html...
 const lineOpenRegex = /<line [^>]+>/gi;
 const lineCloseRegex = /<\/line>/gi;
 const quatrainOpenRegex = /<quatrain[^>]*>/gi; // some quatrains have atrributes
@@ -261,8 +261,8 @@ function addSinglePoem(document, poemAbbreviation) {
   let html = `<h1>${title}</h1>\n\n`;
   const poemintro = document.getElementsByTagName('poemintro')[0];
   if (poemintro) {
-    const poemintroText = poemintro.textContent.trim();
-    html += `<section class="poemintro">\n${poemintroText}\n</section>\n`;
+    html +=
+      `<section class="poemintro">\n${poemintro.textContent}\n</section>\n`;
   }
   html += getPoemBody(document);
   if (IS_STANDALONE) {
