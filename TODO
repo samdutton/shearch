@@ -1,3 +1,34 @@
+const stanzaRegex = /<stanza[^>]+>/;
+stanzanumRegex = /<stanzanum[^>]+>/;
+quatrainRegex = /<quatrain[^>]+>/;
+lineRegex = /<line[^>]+>/;
+
+const poembody = document.getElementsByTagName('poembody')[0].textContent;
+// Some opening tags have attributes, some don't.
+poembody = poembody.
+  replace(stanzaRegex, '<section class="stanza">').
+  replace('</stanza>', '</section>').
+  replace('<intro>', '<section class="intro">').
+  replace('</intro>', '</section>').
+  replace('<dedication>', '<section class="dedication">').
+  replace('</dedication>', '</section>').
+  replace(stanzanumRegex, '<h2>').
+  replace('</stanzanum>', '</h2>').
+  replace(quatrainRegex, '<section.class="quatrain">').
+  replace('</quatrain>', '</section>').
+  replace('<couplet>', '<section.class="couplet">')
+  replace('</couplet>', '</section>').
+  replace('<stanzasmall>', '<section class="stanzasmall">').
+  replace('</stanzasmall>', '</section>').
+  replace('<subtitle>', '<h2 class="subtitle">').
+  replace('</subtitle>', '</h2>').
+  replace('<finis>', '<h2 class="finis">').
+  replace('</finis>', '</h2>').
+  replace(lineRegex, '<p>').
+  replace('</line>', '</p>').
+
+
+
 
 Update HTML for meta tags, etc.
 
@@ -24,28 +55,58 @@ Open page
 • order results by text
 • tap/click on word does search for that word:
 
-textDiv.onmouseover = e => {
-  if (e.target.nodeName === 'LI') {
-    e.target.innerHTML =
-      e.target.innerText.replace(/([\w]+)/g, '<span>$1</span>');
-    e.target.onclick = e => {
-      searchForWord(e.target.textContent);
-    };
-  }
-}
+
 
 function searchForWord(word) {
   console.log(word);
 }
 
-• remove class="poem" from section
-• get rid of query input jump when displaying text
+// • remove class="poem" from section
+// • get rid of query input jump when displaying text
 
-• Create HTML for poems
-• Display poem
-• Use PlayShakespeare texts
-• Add indentation
-• Add advanced search
+// • Create HTML for poems
+// • Display poem
+// • Use PlayShakespeare texts
+// • Add indentation
+// • Add advanced search
+
+// poems
+
+function addPoemSections(poem){
+
+  const sections = poem.querySelectorAll('finis', 'intro', 'dedication',
+    'subtitle', 'stanza', 'quatrain', 'couplet', 'stanzasmall')
+  for (section of sections) {
+    let html = '<section class="${sectionName}">';
+    const chidren = section.children;
+    for (child of children) {
+      let lineIndex = 0;
+      switch(child.nodeName) {
+      case 'line':
+        const isNumbered = (lineIndex + 1) % 5 === 0 && lineIndex !== 0;
+        const number = isNumbered ? ' class="number"' : '';
+        html += `    <li${number}>${lines[i].textContent}</li>\n`;
+        ++lineIndex;
+      default:
+        console.error(`Unknown poem section ${child.nodeName}`);
+      }
+    }
+  }
+  html += '</section>\n\n';
+}
+
+
+  html += '  <ol>\n';
+  const lines = document.getElementsByTagName('line');
+  for (let i = 0; i !== lines.length; ++i) {
+    // add class="number" if this line should be numbered
+    const isNumbered = (i + 1) % 5 === 0 && i !== 0;
+    const number = isNumbered ? ' class="number"' : '';
+    html += `    <li${number}>${lines[i].textContent}</li>\n`;
+  }
+  html += '</ol>\n';
+
+
 
 
 poem

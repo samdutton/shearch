@@ -92,14 +92,13 @@ fetch(INDEX_FILE).then(response => {
 queryInput.oninput = function() {
   matchesList.textContent = '';
   const query = queryInput.value;
-  if (query.length < 3) {
-    return;
+  if (query.length > 2) {
+    // debounce text entry
+    clearTimeout(timeout);
+    timeout = setTimeout(function() {
+      doSearch(query);
+    }, DEBOUNCE_DELAY);
   }
-  // debounce text entry
-  clearTimeout(timeout);
-  timeout = setTimeout(function() {
-    doSearch(query);
-  }, DEBOUNCE_DELAY);
 };
 
 function doSearch(query) {

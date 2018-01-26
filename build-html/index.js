@@ -9,6 +9,7 @@ const titles = require('../config/abbreviated-filename-to-title.json');
 const bottom = mz.readFileSync('./html-fragments/bottom.html');
 const top = mz.readFileSync('./html-fragments/top.html');
 
+const DONT_BOTHER_VALIDATING = true;
 const IS_STANDALONE = false;
 const OUTPUT_DIR = '../client/html/';
 const PLAY_DIR = 'plays-bosak';
@@ -16,6 +17,25 @@ const POEM_DIR = 'poems-ps';
 const TEXTS_DIR = '../texts/';
 
 const stageDirRegEx = /<STAGEDIR>(\w+)<\/STAGEDIR>/gi;
+
+// Some opening tags in poem sections have attributes to remove, some don't.
+const coupletOpenRegex = /<couplet>/gi;
+const coupletCloseRegex = /<\/couplet>/gi;
+const finisRegex = /<finis>.+<\/finis>/gs; // only one of these, in FE.html...
+const lineOpenRegex = /<line [^>]+>/gi;
+const lineCloseRegex = /<\/line>/gi;
+const quatrainOpenRegex = /<quatrain[^>]*>/gi; // some quatrains have atrributes
+const quatrainCloseRegex = /<\/quatrain>/gi;
+const stanzaOpenRegex = /<stanza [^>]+>/gi; // NB space: avoid stanzasmall match
+const stanzaCloseRegex = /<\/stanza>/gi;
+const stanzanumOpenRegex = /<stanzanum [^>]+>/gi;
+const stanzanumCloseRegex = /<\/stanzanum>/gi;
+const stanzasmallOpenRegex = /<stanzasmall>/gi;
+const stanzasmallCloseRegex = /<\/stanzasmall>/gi;
+const subtitleOpenRegex = /<subtitle>/gi;
+const subtitleCloseRegex = /<\/subtitle>/gi;
+const tercetOpenRegex = /<tercet>/gi;
+const tercetCloseRegex = /<\/tercet>/gi;
 
 let numFilesToProcess = 0;
 
@@ -54,6 +74,7 @@ function parseText(filepath) {
   });
 }
 
+// **************
 // Play functions
 
 function parsePlay(filename, document) {
@@ -227,8 +248,10 @@ function addSonnets(document) {
     html += '</ol>\n';
     html += '</section>\n\n';
   }
+  if (IS_STANDALONE) {
   // top and bottom are buffers, ${title} a placeholder for the title
-  html = ('' + top).replace('${title}', 'Sonnets') + fix(html) + bottom;
+    html = ('' + top).replace('${title}', 'Sonnets') + fix(html) + bottom;
+  }
   // html = minify(html);
   writeFile('Son.html', html);
 }
@@ -236,26 +259,52 @@ function addSonnets(document) {
 function addSinglePoem(document, poemAbbreviation) {
   const title = document.getElementsByTagName('title')[0].textContent;
   let html = `<h1>${title}</h1>\n\n`;
-  html += '  <ol>\n';
-  const lines = document.getElementsByTagName('line');
-  for (let i = 0; i !== lines.length; ++i) {
-    // add class="number" if this line should be numbered
-    const isNumbered = (i + 1) % 5 === 0 && i !== 0;
-    const number = isNumbered ? ' class="number"' : '';
-    html += `    <li${number}>${lines[i].textContent}</li>\n`;
+  const poemintro = document.getElementsByTagName('poemintro')[0];
+  if (poemintro) {
+    const poemintroText = poemintro.textContent.trim();
+    html += `<section class="poemintro">\n${poemintroText}\n</section>\n`;
   }
-  html += '</ol>\n';
-
-  // top and bottom are buffers, ${title} a placeholder for the title
-  html = ('' + top).replace('${title}', title) + html + bottom;
+  html += getPoemBody(document);
+  if (IS_STANDALONE) {
+    // top and bottom are buffers, ${title} a placeholder for the title
+    html = ('' + top).replace('${title}', title) + html + bottom;
+  }
   // html = minify(html);
   writeFile(`${poemAbbreviation}.html`, html);
 }
 
+function getPoemBody(document) {
+  const poembody = document.getElementsByTagName('poembody')[0].innerHTML;
+  return poembody.
+    replace(coupletOpenRegex, '<section class="couplet">').
+    replace(coupletCloseRegex, '</section>').
+    replace('<dedication>', '<section class="dedication">').
+    replace('</dedication>', '</section>').
+    replace(finisRegex, '<h2 class="finis">FINIS.</h2>').
+    replace(lineOpenRegex, '  <p>').
+    replace(lineCloseRegex, '</p>').
+    replace(quatrainOpenRegex, '<section class="quatrain">').
+    replace(quatrainCloseRegex, '</section>').
+    replace(stanzaOpenRegex, '<section class="stanza">').
+    replace(stanzaCloseRegex, '</section>').
+    replace(stanzanumOpenRegex, '<h2 class="stanzanum">').
+    replace(stanzanumCloseRegex, '</h2>').
+    replace(stanzasmallOpenRegex, '<section class="stanzasmall">').
+    replace(stanzasmallCloseRegex, '</section>').
+    replace(subtitleOpenRegex, '<h2 class="subtitle">').
+    replace(subtitleCloseRegex, '</h2>').
+    replace(tercetOpenRegex, '<h2 class="subtitle">').
+    replace(tercetCloseRegex, '</h2>');
+}
+
+// *****************
 // Utility functions
 
 // Check that a file contains valid HTML
 function isValid(filename, html) {
+  if (DONT_BOTHER_VALIDATING) {
+    return true;
+  }
   const options = {
     data: html,
     format: 'text',
