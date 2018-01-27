@@ -2,9 +2,12 @@ const mz = require('mz/fs');
 const recursive = require('recursive-readdir');
 
 const validator = require('html-validator');
-const validatorIgnore = ['Warning: Section lacks heading. Consider using “h2”-“h6” elements to add identifying headings to all sections.',
-  'Error: Element “head” is missing a required instance of child element “title”.',
-  'Error: Start tag seen without seeing a doctype first. Expected “<!DOCTYPE html>”.'];
+const validatorIgnore = ['Warning: Section lacks heading. Consider using \
+  “h2”-“h6” elements to add identifying headings to all sections.',
+'Error: Element “head” is missing a required instance of \
+  child element “title”.',
+'Error: Start tag seen without seeing a doctype first. \
+  Expected “<!DOCTYPE html>”.'];
 
 const {JSDOM} = require('jsdom');
 
@@ -26,7 +29,7 @@ const stageDirRegEx = /<STAGEDIR>([^<]+)<\/STAGEDIR>/gi;
 // Some opening tags in poem sections have attributes to remove, some don't.
 const coupletOpenRegex = /<couplet>/gi;
 const coupletCloseRegex = /<\/couplet>/gi;
-const finisRegex = /<finis>.+<\/finis>/gis; // eslint-disable-line
+const finisRegex = /<finis>\n*.*\n*.*<\/finis>/gim; // only one of these...
 const foreignRegex = /<foreign[^>]+([^<]+)<\/foreign>/gi;
 const lineOpenRegex = /<line [^>]+>/gi;
 const lineCloseRegex = /<\/line>/gi;
@@ -59,25 +62,25 @@ recursive(TEXTS_DIR).then(filepaths => {
 function parseText(filepath) {
   console.time('Parse texts');
   JSDOM.fromFile(filepath, {contentType: 'text/xml'})
-  .then(dom => {
-    const filename = filepath.split('/').pop();
-    const document = dom.window.document;
-    if (filepath.includes(PLAY_DIR)) {
-      console.log('filename', filename);
-      parsePlay(filename, document);
-    } else if (filepath.includes(POEM_DIR)) {
-      parsePoem(filename, document);
-    } else {
-      console.error(`Unexpected filepath ${filepath}`);
-      return;
-    }
-    console.log(`${numFilesToProcess} files to process`);
-    if (--numFilesToProcess === 0) {
-      console.timeEnd('Parse texts');
-    }
-  }).catch(error => {
-    console.log(`Error creating DOM from ${filepath}`, error);
-  });
+    .then(dom => {
+      const filename = filepath.split('/').pop();
+      const document = dom.window.document;
+      if (filepath.includes(PLAY_DIR)) {
+        console.log('filename', filename);
+        parsePlay(filename, document);
+      } else if (filepath.includes(POEM_DIR)) {
+        parsePoem(filename, document);
+      } else {
+        console.error(`Unexpected filepath ${filepath}`);
+        return;
+      }
+      console.log(`${numFilesToProcess} files to process`);
+      if (--numFilesToProcess === 0) {
+        console.timeEnd('Parse texts');
+      }
+    }).catch(error => {
+      console.log(`Error creating DOM from ${filepath}`, error);
+    });
 }
 
 // **************
@@ -95,7 +98,7 @@ function parsePlay(filename, document) {
     console.error(`Title not found for ${filename}`);
   }
   // preamble is play title, personae, etc.
-  const html = addPreamble(document) + addActs(document);
+  let html = addPreamble(document) + addActs(document);
   // for standalone html document, add <head> and other elements
   // top and bottom are buffers, ${title} a placeholder for the title
   if (IS_STANDALONE) {
@@ -331,7 +334,7 @@ function fix(html) {
     replace(/--/g, ' — ').
     replace(/, —/g, ' — ').
     replace(/'/g, '’');
-    // replace(/&#8217;/g, '’')
+  // replace(/&#8217;/g, '’')
 }
 
 function writeFile(filename, html) {
