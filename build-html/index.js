@@ -1,6 +1,11 @@
 const mz = require('mz/fs');
 const recursive = require('recursive-readdir');
+
 const validator = require('html-validator');
+const validatorIgnore = ['Warning: Section lacks heading. Consider using “h2”-“h6” elements to add identifying headings to all sections.',
+  'Error: Element “head” is missing a required instance of child element “title”.',
+  'Error: Start tag seen without seeing a doctype first. Expected “<!DOCTYPE html>”.'];
+
 const {JSDOM} = require('jsdom');
 
 const abbreviations = require('../config/filename-to-abbreviation.json');
@@ -9,19 +14,20 @@ const titles = require('../config/abbreviated-filename-to-title.json');
 const bottom = mz.readFileSync('./html-fragments/bottom.html');
 const top = mz.readFileSync('./html-fragments/top.html');
 
-const DONT_BOTHER_VALIDATING = true;
+const DO_VALIDATION = true;
 const IS_STANDALONE = false;
 const OUTPUT_DIR = '../client/html/';
 const PLAY_DIR = 'plays-bosak';
 const POEM_DIR = 'poems-ps';
 const TEXTS_DIR = '../texts/';
 
-const stageDirRegEx = /<STAGEDIR>(\w+)<\/STAGEDIR>/gi;
+const stageDirRegEx = /<STAGEDIR>([^<]+)<\/STAGEDIR>/gi;
 
 // Some opening tags in poem sections have attributes to remove, some don't.
 const coupletOpenRegex = /<couplet>/gi;
 const coupletCloseRegex = /<\/couplet>/gi;
-const finisRegex = /<finis>.+<\/finis>/gsi; // only one of these, in FE.html...
+const finisRegex = /<finis>.+<\/finis>/gis; // eslint-disable-line
+const foreignRegex = /<foreign[^>]+([^<]+)<\/foreign>/gi;
 const lineOpenRegex = /<line [^>]+>/gi;
 const lineCloseRegex = /<\/line>/gi;
 const quatrainOpenRegex = /<quatrain[^>]*>/gi; // some quatrains have atrributes
@@ -88,9 +94,13 @@ function parsePlay(filename, document) {
   if (!title) {
     console.error(`Title not found for ${filename}`);
   }
+  // preamble is play title, personae, etc.
+  const html = addPreamble(document) + addActs(document);
+  // for standalone html document, add <head> and other elements
   // top and bottom are buffers, ${title} a placeholder for the title
-  const html = IS_STANDALONE ? ('' + top).replace('${title}', title) +
-      addPreamble(document) + addActs(document) + bottom : addActs(document);
+  if (IS_STANDALONE) {
+    html = ('' + top).replace('${title}', title) + html + bottom;
+  }
   // html = minify(html);
   writeFile(filename, html);
 }
@@ -98,7 +108,7 @@ function parsePlay(filename, document) {
 function addPreamble(document) {
   let html = '<section id="preamble">\n\n';
   const title = document.getElementsByTagName('TITLE')[0].textContent;
-  html += `<h1>${title}</h1>\n\n`;
+  html += `<h1 id="title">${title}</h1>\n\n`;
   html += addPersonae(document);
   const scndescr = document.getElementsByTagName('SCNDESCR')[0].textContent;
   html += `<div id="scene-description">${scndescr}</div>\n\n`;
@@ -231,7 +241,7 @@ function parsePoem(filename, document) {
 }
 
 function addSonnets(document) {
-  let html = '<h1>Sonnets</h1>\n\n';
+  let html = '<h1 id="title">Sonnets</h1>\n\n';
   const sonnets = document.getElementsByTagName('sonnet');
   for (let i = 0; i !== sonnets.length; ++i) {
     const sonnet = sonnets[i];
@@ -258,11 +268,12 @@ function addSonnets(document) {
 
 function addSinglePoem(document, poemAbbreviation) {
   const title = document.getElementsByTagName('title')[0].textContent;
-  let html = `<h1>${title}</h1>\n\n`;
+  let html = `<h1 id="title">${title}</h1>\n\n`;
   const poemintro = document.getElementsByTagName('poemintro')[0];
   if (poemintro) {
-    html +=
-      `<section class="poemintro">\n${poemintro.textContent}\n</section>\n`;
+    const poemintroText = poemintro.textContent.trim().
+      replace(/(\n\s+){3,}/gm, '\n\n    ').replace(/\n/g, '<br>');
+    html += `<section id="poemintro">\n${poemintroText}\n</section>\n`;
   }
   html += getPoemBody(document);
   if (IS_STANDALONE) {
@@ -278,9 +289,10 @@ function getPoemBody(document) {
   return poembody.
     replace(coupletOpenRegex, '<section class="couplet">').
     replace(coupletCloseRegex, '</section>').
-    replace('<dedication>', '<section class="dedication">').
+    replace('<dedication>', '<section id="dedication">').
     replace('</dedication>', '</section>').
-    replace(finisRegex, '<h2 class="finis">FINIS.</h2>').
+    replace(finisRegex, '<h2 id="finis">FINIS.</h2>').
+    replace(foreignRegex, '$1').
     replace(lineOpenRegex, '  <p>').
     replace(lineCloseRegex, '</p>').
     replace(quatrainOpenRegex, '<section class="quatrain">').
@@ -292,33 +304,13 @@ function getPoemBody(document) {
     replace(stanzasmallOpenRegex, '<section class="stanzasmall">').
     replace(stanzasmallCloseRegex, '</section>').
     replace(subtitleOpenRegex, '<h2 class="subtitle">').
-    replace(subtitleCloseRegex, '</h2>').
-    replace(tercetOpenRegex, '<h2 class="subtitle">').
-    replace(tercetCloseRegex, '</h2>');
+    replace(subtitleCloseRegex, '</h2>\n').
+    replace(tercetOpenRegex, '<section class="tercet">').
+    replace(tercetCloseRegex, '</section>');
 }
 
 // *****************
 // Utility functions
-
-// Check that a file contains valid HTML
-function isValid(filename, html) {
-  if (DONT_BOTHER_VALIDATING) {
-    return true;
-  }
-  const options = {
-    data: html,
-    format: 'text',
-    validator: 'https://html5.validator.nu'
-  };
-  validator(options).then(data => {
-    return false;
-  })
-  .catch(error => {
-    console.error(`Error validating ${filename}:`, error);
-    return false;
-  });
-  return true;
-}
 
 // Add number attribute to every fifth line, so line number is displayed
 // TODO: code to cope with lines that span two displayed lines :^/
@@ -343,11 +335,29 @@ function fix(html) {
 }
 
 function writeFile(filename, html) {
-  if (isValid(filename, html)) {
-    console.log(`HTML validated, writing file ${filename}`);
-    mz.writeFile(OUTPUT_DIR + filename, html).
-      catch(error => console.error(`Error writing ${filename}:`, error));
+  if (DO_VALIDATION) {
+    validate(filename, html);
   }
+  console.log(`Writing file ${filename}`);
+  mz.writeFile(OUTPUT_DIR + filename, html).
+    catch(error => console.error(`Error writing ${filename}:`, error));
+}
+
+// Check that a file contains valid HTML
+function validate(filename, html) {
+  const options = {
+    data: html,
+    format: 'text',
+    ignore: validatorIgnore/* ,
+    validator: 'https://html5.validator.nu' */
+  };
+  validator(options).then(data => {
+    if (data.includes('Error')) {
+      console.error(filename, data);
+    }
+  }).catch(error => {
+    console.error(`Error validating ${filename}:`, error);
+  });
 }
 
 function play(element) {

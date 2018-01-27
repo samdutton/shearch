@@ -68,13 +68,20 @@ div.stage-direction {
 }*/
 
 h1 {
-  border-bottom: 1px solid #c83f3f;
+  border-bottom: 1px solid #c83f3f; /* fallback */
+  border-bottom: 1px solid rgba(200, 63, 63, 1);
   color: black;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 500;
   line-height: 1.2em;
   margin: 0 0 1em 0;
   padding: 0 0 1em 0;
+}
+
+h1#title {
+  border-bottom: 1px solid #c83f3f; /* fallback */
+  border-bottom: 1px solid rgba(200, 63, 63, 0.5);
+  font-size: 24px;
 }
 
 h2 {
@@ -84,6 +91,16 @@ h2 {
   line-height: 1.2em;
   margin: 0 0 1em 0;
 }
+
+h2.subtitle:before {
+  color: #c83f3f;
+  content: '\2619'; /*  ☙ */
+  font-size: 1.4em;
+  margin: 0 0.5em 0 0;
+  position: relative;
+  top: 0.1em;
+}
+
 
 
 h3 {
@@ -233,10 +250,34 @@ ol#results {
   padding: 1.4em 0 0 0;
 }
 
+p {
+  cursor: pointer;
+}
+
+section#poemintro {
+  border-bottom: 1px solid #eee;
+  font-style: italic;
+  line-height: 2em;
+  margin: 0 0 2.5em 0;
+  padding: 0 0 2em 0;
+}
+
 section.act {
   border-bottom: 1px solid #c83f3f;
   margin: 0 0 40px 0;
   padding: 0 0 3px 0;
+}
+
+section.couplet {
+  margin: 0 0 2em 0;
+}
+
+section.couplet {
+  margin: 0 0 2em 0;
+}
+
+section.quatrain {
+  margin: 0 0 2em 0;
 }
 
 section.scene {
@@ -259,6 +300,14 @@ section.scene:last-of-type:after {
   content: '';
 }
 
+section.stanza {
+  margin: 0 0 2em 0;
+}
+
+section.tercet {
+  margin: 0 0 2em 0;
+}
+
 section#dramatis-personae {
   margin: 0 0 1.4em 0;
 }
@@ -274,6 +323,10 @@ li span {
 }
 
 li span:hover {
+  background-color: yellow;
+}
+
+p span:hover {
   background-color: yellow;
 }
 
@@ -302,7 +355,8 @@ strong {
     font-size: 14px;
   }
   h1 {
-    font-size: 24px;
+    color: #444;
+    font-size: 28px;
   }
   h2 {
     font-size: 20px;

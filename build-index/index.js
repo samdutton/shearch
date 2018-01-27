@@ -105,7 +105,8 @@ function addPoem(filename, document) {
 }
 
 function addSinglePoem(document, poemAbbreviation) {
-  const lines = document.getElementsByTagName('line');
+  const poembody = document.getElementsByTagName('poembody')[0];
+  const lines = poembody.getElementsByTagName('line');
   for (let i = 0; i !== lines.length; ++i) {
     addDoc(`${poemAbbreviation}.${i}`, fix(lines[i].textContent));
   }
