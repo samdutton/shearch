@@ -3,11 +3,24 @@ const recursive = require('recursive-readdir');
 
 const validator = require('html-validator');
 const validatorIgnore = ['Warning: Section lacks heading. Consider using \
-  “h2”-“h6” elements to add identifying headings to all sections.',
-'Error: Element “head” is missing a required instance of \
-  child element “title”.',
-'Error: Start tag seen without seeing a doctype first. \
-  Expected “<!DOCTYPE html>”.'];
+  "h2"-"h6" elements to add identifying headings to all sections.',
+'Error: Element “head” is missing a required instance of child element \
+“title”.',
+'Error: Start tag seen without seeing a doctype first. Expected \
+“<!DOCTYPE html>”.',
+'Error: When the attribute “xml:lang” in no namespace is specified, \
+the element must also have the attribute “lang” present with the same value.',
+'Error: Element “foreign” not allowed as child of element “li” in this \
+context. (Suppressing further errors from this subtree.)',
+'Error: Element “recite” not allowed as child of element “li” in this context. \
+(Suppressing further errors from this subtree.)',
+'Error: Element “date” not allowed as child of element “li” in this context. \
+(Suppressing further errors from this subtree.)',
+'Error: Element “lb” not allowed as child of element “li” in this context. \
+(Suppressing further errors from this subtree.)',
+'Error: Element “name” not allowed as child of element “li” in this context. \
+(Suppressing further errors from this subtree.)'
+];
 
 const {JSDOM} = require('jsdom');
 
@@ -20,7 +33,7 @@ const top = mz.readFileSync('./html-fragments/top.html');
 const DO_VALIDATION = true;
 const IS_STANDALONE = false;
 const OUTPUT_DIR = '../client/html/';
-const PLAY_DIR = 'plays-bosak';
+const PLAY_DIR = 'plays-ps';
 const POEM_DIR = 'poems-ps';
 const TEXTS_DIR = '../texts/';
 
@@ -66,7 +79,6 @@ function parseText(filepath) {
       const filename = filepath.split('/').pop();
       const document = dom.window.document;
       if (filepath.includes(PLAY_DIR)) {
-        console.log('filename', filename);
         parsePlay(filename, document);
       } else if (filepath.includes(POEM_DIR)) {
         parsePoem(filename, document);
@@ -110,60 +122,60 @@ function parsePlay(filename, document) {
 
 function addPreamble(document) {
   let html = '<section id="preamble">\n\n';
-  const title = document.getElementsByTagName('TITLE')[0].textContent;
+  const title = document.getElementsByTagName('title')[0].textContent;
   html += `<h1 id="title">${title}</h1>\n\n`;
-  html += addPersonae(document);
-  const scndescr = document.getElementsByTagName('SCNDESCR')[0].textContent;
-  html += `<div id="scene-description">${scndescr}</div>\n\n`;
+  //  html += addPersonae(document);
+  // const scndescr = document.getElementsByTagName('SCNDESCR')[0].textContent;
+  // html += `<div id="scene-description">${scndescr}</div>\n\n`;
   html += '</section>\n\n';
   return html;
 }
 
-function addPersonae(document) {
-  let html = '<section id="dramatis-personae">';
-  html += '<h2>Dramatis Personae</h2>\n\n';
-  const children = document.getElementsByTagName('PERSONAE')[0].children;
-  for (const child of children) {
-    switch (child.nodeName) {
-    case 'PGROUP': {
-      const grpdescr = child.getElementsByTagName('GRPDESCR')[0].textContent;
-      html += `<ol class="persona-group" data-description="${grpdescr}">\n`;
-      const personas = child.getElementsByTagName('PERSONA');
-      for (const persona of personas) {
-        html += '  <li>' + persona.textContent.trim() + '</li>\n';
-      }
-      html += '</ol>\n\n';
-      break;
-    }
-    case 'PERSONA': // Some PERSONA elements are not in PGROUP elements :/
-      if (child.previousElementSibling.nodeName !== 'PERSONA') {
-        html += '<ol class="persona-group">\n';
-      }
-      html += `  <li>${child.textContent}</li>\n`;
-      // this persona element may be the last sibling
-      if (!child.nextElementSibling ||
-        child.nextElementSibling.nodeName !== 'PERSONA') {
-        html += '</ol>\n\n';
-      }
-      break;
-    case 'TITLE':
-      break;
-    default:
-      console.error(`${play(child)}: unexpected child ${child.nodeName}`);
-    }
-  }
-  html += '</section>\n\n';
-  return html;
-}
+// function addPersonae(document) {
+//   let html = '<section id="dramatis-personae">';
+//   html += '<h2>Dramatis Personae</h2>\n\n';
+//   const children = document.getElementsByTagName('PERSONAE')[0].children;
+//   for (const child of children) {
+//     switch (child.nodeName) {
+//     case 'PGROUP': {
+//       const grpdescr = child.getElementsByTagName('GRPDESCR')[0].textContent;
+//       html += `<ol class="persona-group" data-description="${grpdescr}">\n`;
+//       const personas = child.getElementsByTagName('PERSONA');
+//       for (const persona of personas) {
+//         html += '  <li>' + persona.textContent.trim() + '</li>\n';
+//       }
+//       html += '</ol>\n\n';
+//       break;
+//     }
+//     case 'PERSONA': // Some PERSONA elements are not in PGROUP elements :/
+//       if (child.previousElementSibling.nodeName !== 'PERSONA') {
+//         html += '<ol class="persona-group">\n';
+//       }
+//       html += `  <li>${child.textContent}</li>\n`;
+//       // this persona element may be the last sibling
+//       if (!child.nextElementSibling ||
+//         child.nextElementSibling.nodeName !== 'PERSONA') {
+//         html += '</ol>\n\n';
+//       }
+//       break;
+//     case 'TITLE':
+//       break;
+//     default:
+//       console.error(`${play(child)}: unexpected child ${child.nodeName}`);
+//     }
+//   }
+//   html += '</section>\n\n';
+//   return html;
+// }
 
 function addActs(document) {
   let html = '';
-  const acts = document.getElementsByTagName('ACT');
+  const acts = document.getElementsByTagName('act');
   for (const act of acts) {
     html += '<section class="act">\n\n';
-    const title = act.getElementsByTagName('TITLE')[0].textContent;
+    const title = act.getElementsByTagName('acttitle')[0].textContent;
     html += `<h2>${title}</h2>\n\n`;
-    const scenes = act.getElementsByTagName('SCENE');
+    const scenes = act.getElementsByTagName('scene');
     for (const scene of scenes) {
       html += addScene(scene);
     }
@@ -178,17 +190,23 @@ function addScene(scene) {
   const children = scene.children;
   for (const child of children) {
     switch(child.nodeName) {
-    case 'SPEECH':
+    case 'speech':
       html += addSpeech(child);
       break;
-    case 'STAGEDIR':
+    case 'stagedir':
       html += `<div class="stage-direction">${child.textContent}</div>\n\n`;
       break;
-    case 'TITLE':
+    case 'scenetitle':
       html += `<h3>${child.textContent}</h3>\n\n`;
       break;
-    case 'SUBHEAD':
-      html += `<h4 class="scene-subhead">${child.textContent}</h4>\n\n`;
+    case 'scenelocation':
+      html += `<h4>${child.textContent}</h4>\n\n`;
+      break;
+    case 'finis':
+    case 'lb':
+    case 'scenedialect':
+    case 'scenelanguage':
+    case 'scenepersonae':
       break;
     default:
       console.error(`${play(scene)}: weird scene element ${child.nodeName}`);
@@ -205,7 +223,7 @@ function addSpeech(speech) {
   let speakers = [];
   for (const child of children) {
     switch(child.nodeName) {
-    case 'LINE':
+    case 'line':
       // addLineNumberMarkup() adds number attribute to every fifth line element
       number = child.hasAttribute('number') ? ' class="number"' : '';
       // stage directions are sometimes inline
@@ -213,15 +231,15 @@ function addSpeech(speech) {
         replace(stageDirRegEx, '<span class="stage-direction">$1</span>');
       html += `  <li${number}>${line}</li>\n`;
       break;
-    case 'SPEAKER':
+    case 'speaker':
       // speeches occasionally have more than one speaker
       speakers.push(child.textContent);
       break;
-    case 'STAGEDIR':
+    case 'stagedir':
       html += `  <li class="stage-direction">${child.textContent}</li>\n`;
       break;
-    case 'SUBHEAD':
-      html += `  <li class="subhead">${child.textContent}</li>\n`;
+    case 'lb':
+    case 'speech':
       break;
     default:
       console.error(`${play(speech)}: weird speech element ${child.nodeName}`);
@@ -318,7 +336,7 @@ function getPoemBody(document) {
 // Add number attribute to every fifth line, so line number is displayed
 // TODO: code to cope with lines that span two displayed lines :^/
 function addLineNumberMarkup(scene) {
-  const lines = scene.getElementsByTagName('LINE');
+  const lines = scene.getElementsByTagName('line');
   for (let i = 0; i !== lines.length; ++i) {
     let line = lines[i];
     if ((i + 1) % 5 === 0 && i !== 0) {
@@ -364,7 +382,7 @@ function validate(filename, html) {
 }
 
 function play(element) {
-  return element.ownerDocument.getElementsByTagName('TITLE')[0].textContent;
+  return element.ownerDocument.getElementsByTagName('title')[0].textContent;
 }
 
 function roman(integer) {

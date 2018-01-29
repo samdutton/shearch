@@ -7,7 +7,7 @@ const elasticlunr = require('elasticlunr');
 const abbreviations = require('../config/filename-to-abbreviation.json');
 const titles = require('../config/titles.json');
 
-const PLAY_DIR = 'plays-bosak';
+const PLAY_DIR = 'plays-ps';
 const POEM_DIR = 'poems-ps';
 const TEXTS_DIR = '../texts/';
 
@@ -34,56 +34,56 @@ recursive(TEXTS_DIR).then(filepaths => {
 function addDocs(filepath) {
   console.time('Parse texts');
   JSDOM.fromFile(filepath, {contentType: 'text/xml'})
-  .then(dom => {
-    const filename = filepath.split('/').pop();
-    const document = dom.window.document;
-    if (filepath.includes(PLAY_DIR)) {
-      addPlay(filename, document);
-    } else if (filepath.includes(POEM_DIR)) {
-      addPoem(filename, document);
-    } else {
-      console.error(`Unexpected filepath ${filepath}`);
-      return;
-    }
-    console.log(`${numFilesToProcess} files to process`);
-    if (--numFilesToProcess === 0) {
-      console.timeEnd('Parse texts');
-      console.time(`Index ${docs.length} docs`);
-      createIndex(docs);
-      createDatalists();
-      console.timeEnd(`Index ${docs.length} docs`);
-    }
-  }).catch(error => {
-    console.log(`Error creating DOM from ${filepath}`, error);
-  });
+    .then(dom => {
+      const filename = filepath.split('/').pop();
+      const document = dom.window.document;
+      if (filepath.includes(PLAY_DIR)) {
+        addPlay(filename, document);
+      } else if (filepath.includes(POEM_DIR)) {
+        addPoem(filename, document);
+      } else {
+        console.error(`Unexpected filepath ${filepath}`);
+        return;
+      }
+      console.log(`${numFilesToProcess} files to process`);
+      if (--numFilesToProcess === 0) {
+        console.timeEnd('Parse texts');
+        console.time(`Index ${docs.length} docs`);
+        createIndex(docs);
+        createDatalists();
+        console.timeEnd(`Index ${docs.length} docs`);
+      }
+    }).catch(error => {
+      console.log(`Error creating DOM from ${filepath}`, error);
+    });
 }
 
 function addPlay(filename, document) {
   // getElementsByTagName is slightly faster than querySelector[All]
-  const play = document.getElementsByTagName('PLAY')[0];
+  const play = document.getElementsByTagName('play')[0];
   const playAbbreviation = abbreviations[filename];
-  const acts = play.getElementsByTagName('ACT');
+  const acts = play.getElementsByTagName('act');
   for (let actIndex = 0; actIndex !== acts.length; ++actIndex) {
     const act = acts[actIndex];
-    const scenes = act.getElementsByTagName('SCENE');
+    const scenes = act.getElementsByTagName('scene');
     for (let sceneIndex = 0; sceneIndex !== scenes.length; ++sceneIndex) {
       let lineIndex = 0;
       const scene = scenes[sceneIndex];
       const location = `${playAbbreviation}.${actIndex}.${sceneIndex}`;
-      const sceneTitle = scene.getElementsByTagName('TITLE')[0];
+      const sceneTitle = scene.getElementsByTagName('scenetitle')[0];
       // r signifies 'role', 't' signifies scene title (only one, so no index)
       addDoc(location, sceneTitle.textContent, {r: 't'});
-      const stagedirs = scene.getElementsByTagName('STAGEDIR');
+      const stagedirs = scene.getElementsByTagName('stagedir');
       let stagedirIndex = 0; // index for finding stage direction within scene
       for (const stagedir of stagedirs) {
         // r signifies 'role', 's' signifies stage direction, i is index
         addDoc(location, stagedir.textContent, {r: 's', i: stagedirIndex++});
       }
-      const speeches = scene.getElementsByTagName('SPEECH');
+      const speeches = scene.getElementsByTagName('speech');
       for (const speech of speeches) {
-        const speaker = speech.getElementsByTagName('SPEAKER')[0].textContent;
+        const speaker = speech.getElementsByTagName('speaker')[0].textContent;
         speakers.add(toTitleCase(speaker)); // randomly names may be capitalized
-        const lines = speech.getElementsByTagName('LINE');
+        const lines = speech.getElementsByTagName('line');
         // stage directions are added separately above, even if within a speech
         for (const line of lines) {
           addDoc(`${location}.${lineIndex++}`,
