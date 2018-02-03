@@ -185,7 +185,7 @@ function addActs(document) {
 }
 
 function addScene(scene) {
-  addLineNumberMarkup(scene); // temporary hack: not possible in pure CSS :(
+  addLineNumberMarkup(scene);
   let html = '<section class="scene">\n\n';
   const children = scene.children;
   for (const child of children) {
@@ -216,20 +216,44 @@ function addScene(scene) {
   return html;
 }
 
+// This function adds a data-number attribute to every line to be numbered.
+// Line numbers are displayed for every fifth line
+// but for multipart lines only the final line should be numbered
+function addLineNumberMarkup(scene) {
+  let lines = scene.getElementsByTagName('line');
+  for (let i = 0; i !== lines.length; ++i) {
+    const line = lines[i];
+    const lineNumber = line.getAttribute('number');
+    const nextLine = lines[i + 1]; // may not exist
+    // see comment on function for explanation
+    const nextHasOffset = nextLine && nextLine.hasAttribute('offset');
+    const isNumbered = lineNumber % 5 === 0 && !nextHasOffset;
+    if (isNumbered) {
+      line.setAttribute('data-number', lineNumber);
+    }
+  }
+}
+
+
 function addSpeech(speech) {
   const children = speech.children;
   let html = '';
-  let number;
+  let dataNumber, hasNonZeroOffset, number, offset, offsetAttribute;
   let speakers = [];
   for (const child of children) {
     switch(child.nodeName) {
     case 'line':
-      // addLineNumberMarkup() adds number attribute to every fifth line element
-      number = child.hasAttribute('number') ? ' class="number"' : '';
-      // stage directions are sometimes inline
+      // some 'lines' span multiple lines
+      // each line after the first is indented, using the offset attribute value
+      offsetAttribute = child.getAttribute('offset');
+      hasNonZeroOffset = offsetAttribute && offsetAttribute !== '0';
+      offset = hasNonZeroOffset ? ` data-offset="${offsetAttribute}"` : '';
+      // data-number attributes are added to XML DOM in addScene()
+      dataNumber = child.getAttribute('data-number');
+      number = dataNumber ? ` data-number="${dataNumber}"` : '';
       var line = child.innerHTML.
         replace(stageDirRegEx, '<span class="stage-direction">$1</span>');
-      html += `  <li${number}>${line}</li>\n`;
+      html += `  <li${number + offset}>${line}</li>\n`;
       break;
     case 'speaker':
       // speeches occasionally have more than one speaker
@@ -332,18 +356,6 @@ function getPoemBody(document) {
 
 // *****************
 // Utility functions
-
-// Add number attribute to every fifth line, so line number is displayed
-// TODO: code to cope with lines that span two displayed lines :^/
-function addLineNumberMarkup(scene) {
-  const lines = scene.getElementsByTagName('line');
-  for (let i = 0; i !== lines.length; ++i) {
-    let line = lines[i];
-    if ((i + 1) % 5 === 0 && i !== 0) {
-      line.setAttribute('number', true);
-    }
-  }
-}
 
 function fix(html) {
   return html.

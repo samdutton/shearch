@@ -38,11 +38,11 @@ const HTML_DIR = '/html/';
 var timeout = null;
 const DEBOUNCE_DELAY = 300;
 
-// if (navigator.serviceWorker) {
-//   navigator.serviceWorker.register('sw.js').catch(function(error) {
-//     console.error('Unable to register service worker.', error);
-//   });
-// }
+if (navigator.serviceWorker) {
+  navigator.serviceWorker.register('sw.js').catch(function(error) {
+    console.error('Unable to register service worker.', error);
+  });
+}
 
 window.onpopstate = function(event) {
   console.log('popstate event', event.state);
