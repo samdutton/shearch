@@ -13,7 +13,7 @@ const TEXTS_DIR = '../texts/';
 
 // const DOCS_FILE = '../client/data/docs.json';
 const INDEX_FILE = '../client/data/index.json';
-const DATALISTS_FILE = '../config/datalists.json';
+const DATALISTS_FILE = '../client/data/datalists.json';
 
 let docs = [];
 var docNum = 0;

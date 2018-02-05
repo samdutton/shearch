@@ -20,7 +20,7 @@ limitations under the License.
 
 const infoElement = document.getElementById('info');
 const matchesList = document.getElementById('matches');
-const queryInfoElement = document.getElementById('queryInfo');
+const queryInfoElement = document.getElementById('query-info');
 const queryInput = document.getElementById('query');
 const textDiv = document.getElementById('text');
 
@@ -41,17 +41,18 @@ var startTime;
 var timeout = null;
 const DEBOUNCE_DELAY = 300;
 
-if (navigator.serviceWorker) {
-  navigator.serviceWorker.register('sw.js').catch(function(error) {
-    console.error('Unable to register service worker.', error);
-  });
-}
+// if (navigator.serviceWorker) {
+//   navigator.serviceWorker.register('sw.js').catch(function(error) {
+//     console.error('Unable to register service worker.', error);
+//   });
+// }
 
 window.onpopstate = function(event) {
   console.log('popstate event', event.state);
   if (event.state && event.state.isSearchResults) {
     hide(textDiv);
     show(matchesList);
+    queryInput.value = event.state.query;
   } else {
     show(textDiv);
     hide(matchesList);
@@ -95,6 +96,7 @@ fetch(INDEX_FILE).then(response => {
 queryInput.oninput = function() {
   matchesList.textContent = '';
   const query = queryInput.value;
+  location.href = `${location.origin}#${query}`;
   if (query.length > 2) {
     // debounce text entry
     clearTimeout(timeout);
@@ -176,8 +178,10 @@ function addMatch(match, query) {
 // Display the appropriate text and location when a user taps/clicks on a match
 function displayText(match, query) {
   hide(matchesList);
+  infoElement.textContent = '';
+  queryInfoElement.textContent = '';
   // add history entry for the query when the user has tapped/clicked a match
-  history.pushState({isSearchResults: true}, null,
+  history.pushState({isSearchResults: true, query: query}, null,
     `${window.location.origin}#${query}`);
   // match.l is a citation for a play or poem, e.g. Ham.3.3.2, Son.4.11, Ven.140
   // scene title matches only have act and scene number, e.g. Ham.3.3
@@ -206,9 +210,11 @@ function addWordSearch(hoverEvent) {
     el.innerHTML = el.innerText.replace(/([\w]+)/g, '<span>$1</span>');
     el.onclick = spanClickEvent => {
       const word = spanClickEvent.target.textContent;
+      history.pushState({isSearchResults: true}, null,
+        `${window.location.origin}#${word}`);
       queryInput.value = word;
       doSearch(word);
-      window.scrollTo(0, 107); // to display search input
+      window.scrollTo(0, 127); // to display search input
     };
   }
 }

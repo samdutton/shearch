@@ -42,10 +42,10 @@ div#info {
 
 div#query-container {
   background: white;
-  padding: 20px 0 0 0;
+  padding: 20px 0 10px 0;
   position: sticky;
   top: 0;
-  width: calc(100% + 6px);
+  width: calc(100% + 4px);
   z-index: 1;
 }
 
@@ -140,7 +140,7 @@ input#query {
   font-family: Palatino, serif;
   font-size: 16px;
   font-weight: 300;
-  margin: 0 0 16px 0;
+  margin: 0 0 24px 0;
   padding: 4px;
   top: 0;
   width: calc(100% - 15px);
@@ -283,6 +283,7 @@ ol.speech {
 
 ol#matches {
   max-height: calc(100% - 170px);
+  margin: 24px 0 0 0;
   padding: 0;
   width: calc(100% + 6px);
 }
