@@ -53,9 +53,98 @@ gtag('config', 'UA-33848682-1');
 
   <h1>Search Shakespeare</h1>
 
-  <div id="query-container">
+<div id="query-container">
+
     <!-- <label for="query">Search:</label> -->
     <input id="query" placeholder="Loading..." autocomplete disabled>
+
+    <details id="searchOptions">
+
+        <summary>Search options</summary>
+
+        <div id="orderBy">
+          <label for="orderByField">Order by: </label>
+          <select id="orderByField">
+            <option value="publishedAt<string>">date</option>
+            <option value="viewCount">views</option>
+            <option value="likeCount">likes</option>
+            <option value="dislikeCount">dislikes</option>
+            <option value="commentCount">comments</option>
+          </select>
+          <select id="lessOrMore">
+            <option value="-">descending</option>
+            <option value="">ascending</option>
+          </select>
+        </div>
+
+        <div id="values">
+
+          <div>
+            <label for="captions">Captions: </label><input type="text" id="captions">
+          </div>
+          <div>
+            <label for="title">Title: </label><input type="text" id="title">
+          </div>
+          <div>
+            <label for="description">Description: </label><input type="text" id="description">
+          </div>
+          <div>
+            <label for="speaker">Speaker: </label><input id="speaker"  pattern="[\w -]+" title="One speaker name" type="text">
+          </div>
+          <div>
+            <label for="id">Video ID: </label><input id="id" pattern="[\w-]{11}" title="YouTube video ID" type="text">
+          </div>
+          <div>
+            <label for="from">Date from: </label><input type="date" id="from">
+          </div>
+          <div>
+            <label for="to">Date to: </label><input type="date" id="to">
+          </div>
+
+        </div>
+
+        <div id="quantities">
+
+          <div>
+            <label for="viewCount">Views: </label>
+            <select id="viewCountOperator">
+              <option value=">">more than</option>
+              <option value="<">less than</option>
+            </select>
+            <input id="viewCount" type="number">
+          </div>
+          <div>
+            <label for="likeCount">Likes: </label>
+            <select id="likeCountOperator">
+              <option value=">">more than</option>
+              <option value="<">less than</option>
+            </select>
+            <input id="likeCount" type="number">
+          </div>
+          <div>
+            <label for="dislikeCount">Dislikes: </label>
+            <select id="dislikeCountOperator">
+              <option value=">">more than</option>
+              <option value="<">less than</option>
+            </select>
+            <input id="dislikeCount" type="number">
+          </div>
+          <div>
+            <label for="commentCount">Comments: </label>
+            <select id="commentCountOperator">
+              <option value=">">more than</option>
+              <option value="<">less than</option>
+            </select>
+            <input id="commentCount" type="number">
+          </div>
+
+        </div>
+
+      </details>
+
+      <div id="info"></div>
+      <div id="query-info"></div>
+
   </div>
 
   <ol id="matches"></ol>

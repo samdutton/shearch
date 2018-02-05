@@ -18,7 +18,9 @@ limitations under the License.
 
 /* global elasticlunr */
 
+const infoElement = document.getElementById('info');
 const matchesList = document.getElementById('matches');
+const queryInfoElement = document.getElementById('queryInfo');
 const queryInput = document.getElementById('query');
 const textDiv = document.getElementById('text');
 
@@ -35,6 +37,7 @@ var index;
 const INDEX_FILE = 'data/index.json';
 const HTML_DIR = '/html/';
 
+var startTime;
 var timeout = null;
 const DEBOUNCE_DELAY = 300;
 
@@ -104,12 +107,16 @@ queryInput.oninput = function() {
 function doSearch(query) {
   document.title = `Search Shakespeare: ${query}`;
   matchesList.textContent = '';
+  startTime = window.performance.now();
   console.time(`Do search for ${query}`);
   const matches = index.search(query, SEARCH_OPTIONS);
   if (matches.length > 0) {
     hide(textDiv); // hide the div for displaying play or poem texts
     displayMatches(matches, query);
     show(matchesList); // show search results (matches)
+  } else {
+    displayInfo('No matches :^\\');
+    queryInfoElement.textContent = '';
   }
   console.timeEnd(`Do search for ${query}`);
 }
@@ -122,10 +129,10 @@ function displayMatches(matches, query) {
   //   return exactPhrase.test(match.doc.t);
   // });
   //
-  // // sort by play or poem name
-  // matches = matches.sort((a, b) => {
-  //   return a.doc.l.localeCompare(b.doc.l, {numeric: true});
-  // });
+  // sort by play or poem name
+  matches = matches.sort((a, b) => {
+    return a.doc.l.localeCompare(b.doc.l, {numeric: true});
+  });
   //
   // const exactPhrase = new RegExp(query, 'i');
   // // prefer exact matches
@@ -136,6 +143,13 @@ function displayMatches(matches, query) {
   for (const match of matches) {
     addMatch(match.doc, query);
   }
+  const elapsed = Math.round(window.performance.now() - startTime) / 1000;
+  displayInfo(`Found ${matches.length} match(es) in ${elapsed} seconds`);
+  queryInfoElement.textContent = 'Click on a match to view text';
+}
+
+function displayInfo(message) {
+  infoElement.textContent = message;
 }
 
 // Add an individual match element to the list of matches
@@ -164,7 +178,7 @@ function displayText(match, query) {
   hide(matchesList);
   // add history entry for the query when the user has tapped/clicked a match
   history.pushState({isSearchResults: true}, null,
-      `${window.location.origin}#${query}`);
+    `${window.location.origin}#${query}`);
   // match.l is a citation for a play or poem, e.g. Ham.3.3.2, Son.4.11, Ven.140
   // scene title matches only have act and scene number, e.g. Ham.3.3
   history.pushState({isSearchResults: false}, null,
