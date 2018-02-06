@@ -24,7 +24,7 @@ body {
 }
 
 details div {
-  margin: 0 0 16px 0;
+  margin: 0 0 0 0;
 }
 
 div#container {
@@ -135,7 +135,7 @@ iframe {
   width: 100%;
 }
 
-input#query {
+input {
   color: black;
   font-family: Palatino, serif;
   font-size: 16px;
@@ -143,6 +143,13 @@ input#query {
   margin: 0 0 24px 0;
   padding: 4px;
   top: 0;
+}
+
+details input {
+  width: calc(100% - 118px);
+}
+
+input#query {
   width: calc(100% - 15px);
 }
 
@@ -362,15 +369,11 @@ section#preamble {
   padding: 0 0 1em 0;
 }
 
-li span {
+span {
   cursor: pointer;
 }
 
-li span:hover {
-  background-color: yellow;
-}
-
-p span:hover {
+span:hover {
   background-color: yellow;
 }
 
@@ -382,6 +385,7 @@ span.stage-direction {
   padding: 0;
   text-indent: 20px;
 }
+
 span.stage-direction:before {
   content: '(';
 }

@@ -59,6 +59,7 @@ function addDocs(filepath) {
 }
 
 function addPlay(filename, document) {
+  addSpeakers(document);
   // getElementsByTagName is slightly faster than querySelector[All]
   const play = document.getElementsByTagName('play')[0];
   const playAbbreviation = abbreviations[filename];
@@ -81,8 +82,8 @@ function addPlay(filename, document) {
       }
       const speeches = scene.getElementsByTagName('speech');
       for (const speech of speeches) {
-        const speaker = speech.getElementsByTagName('speaker')[0].textContent;
-        speakers.add(toTitleCase(speaker)); // randomly names may be capitalized
+        const speaker = speech.getElementsByTagName('speaker')[0].
+          getAttribute('long');
         const lines = speech.getElementsByTagName('line');
         // stage directions are added separately above, even if within a speech
         for (const line of lines) {
@@ -91,6 +92,17 @@ function addPlay(filename, document) {
         }
       }
     }
+  }
+}
+
+function addSpeakers(document) {
+  const personas = document.getElementsByTagName('persona');
+  for (const persona of personas) {
+    let speaker = {};
+    speaker.gender = persona.getAttribute('gender');
+    const persname = persona.firstElementChild;
+    speaker.name = persname.textContent;
+    speakers.add(speaker);
   }
 }
 
@@ -186,8 +198,8 @@ function fix(text) {
     replace(/'/g, '’'); // all straight single quotes should be apostrophes
 }
 
-function toTitleCase(string) {
-  return string.toLowerCase().split(' ').map(function(item) {
-    return item.replace(item[0], item[0].toUpperCase());
-  }).join(' ');
-}
+// function toTitleCase(string) {
+//   return string.toLowerCase().split(' ').map(function(item) {
+//     return item.replace(item[0], item[0].toUpperCase());
+//   }).join(' ');
+// }

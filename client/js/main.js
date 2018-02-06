@@ -22,21 +22,26 @@ const infoElement = document.getElementById('info');
 const matchesList = document.getElementById('matches');
 const queryInfoElement = document.getElementById('query-info');
 const queryInput = document.getElementById('query');
+const speakerInput = document.getElementById('speaker');
+const speakersDatalist = document.getElementById('speakers');
 const textDiv = document.getElementById('text');
+const titlesDatalist = document.getElementById('titles');
 
 const SEARCH_OPTIONS = {
   fields: {
     t: {}
   },
   bool: 'AND',
-  expand: true // true means matches are not whole-word-only
+  expand: false // true means matches are not whole-word-only
 };
 
 var index;
 
+const DATALISTS_FILE = 'data/datalists.json';
 const INDEX_FILE = 'data/index.json';
 const HTML_DIR = '/html/';
 
+var datalists;
 var startTime;
 var timeout = null;
 const DEBOUNCE_DELAY = 300;
@@ -92,6 +97,23 @@ fetch(INDEX_FILE).then(response => {
   queryInput.focus();
 });
 
+fetch(DATALISTS_FILE).then(response => {
+  return response.json();
+}).then(json => {
+  datalists = json;
+  for (const speaker of datalists.speakers) {
+    let option = document.createElement('option');
+    option.value = speaker.name;
+    speakersDatalist.appendChild(option);
+  }
+  const titles = datalists.titles;
+  for (const title of titles) {
+    let option = document.createElement('option');
+    option.value = title;
+    titlesDatalist.appendChild(option);
+  }
+});
+
 // Search whenever query input text changes, with debounce delay
 queryInput.oninput = function() {
   matchesList.textContent = '';
@@ -125,21 +147,25 @@ function doSearch(query) {
 
 // Display a list of matched lines, stage directions and scene descriptions
 function displayMatches(matches, query) {
-  //
-  // keep exact matches only
-  // matches = matches.filter(function(match) {
-  //   return exactPhrase.test(match.doc.t);
-  // });
-  //
-  // sort by play or poem name
+  // if a speaker is specified, filter out non matches
+  if (speakerInput.value) {
+    matches = matches.filter(match => {
+      return match.doc.s && match.doc.s.includes(speakerInput.value);
+    });
+  }
+  // sort by play or poem name: doc.l is location
   matches = matches.sort((a, b) => {
     return a.doc.l.localeCompare(b.doc.l, {numeric: true});
   });
   //
-  // const exactPhrase = new RegExp(query, 'i');
-  // // prefer exact matches
+  // const exactPhrase = new RegExp(`\b${query}\b`, 'i');
+  // keep exact matches only
+  // matches = matches.filter(function(match) {
+  //   return exactPhrase.test(match.doc.t);
+  // });
+  // // prefer exact matches — already done if SEARCH_OPTIONS expand is false
   // matches = matches.sort((a, b) => {
-  //  return exactPhrase.test(a.doc.t) ? -1 : exactPhrase.test(b.doc.t) ? 1 : 0;
+  // return exactPhrase.test(a.doc.t) ? -1 : exactPhrase.test(b.doc.t) ? 1 : 0;
   // });
   //
   for (const match of matches) {
@@ -206,7 +232,7 @@ function addWordSearch(hoverEvent) {
   const el = hoverEvent.target;
   // hover events are also fired by the parent
   // plays and sonnets use <li> for each line; poems use <p>
-  if (el.nodeName === 'LI' || el.nodeName === 'P') {
+  if (el.nodeName === 'DIV' || el.nodeName === 'LI' || el.nodeName === 'P') {
     el.innerHTML = el.innerText.replace(/([\w]+)/g, '<span>$1</span>');
     el.onclick = spanClickEvent => {
       const word = spanClickEvent.target.textContent;
