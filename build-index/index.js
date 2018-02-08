@@ -15,10 +15,11 @@ const TEXTS_DIR = '../texts/';
 const INDEX_FILE = '../client/data/index.json';
 const DATALISTS_FILE = '../client/data/datalists.json';
 
-let docs = [];
+var docs = [];
 var docNum = 0;
-let numFilesToProcess = 0;
-let speakers = new Set();
+var genders = {};
+var numFilesToProcess = 0;
+var speakers = [];
 
 // Parse each XML file in the directories containing play and poem texts
 recursive(TEXTS_DIR).then(filepaths => {
@@ -88,7 +89,7 @@ function addPlay(filename, document) {
         // stage directions are added separately above, even if within a speech
         for (const line of lines) {
           addDoc(`${location}.${lineIndex++}`,
-            fix(line.textContent), {s: speaker});
+            fix(line.textContent), {s: speaker, g: genders[speaker]});
         }
       }
     }
@@ -102,7 +103,8 @@ function addSpeakers(document) {
     speaker.gender = persona.getAttribute('gender');
     const persname = persona.firstElementChild;
     speaker.name = persname.textContent;
-    speakers.add(speaker);
+    speakers.push(speaker);
+    genders[speaker.name] = speaker.gender;
   }
 }
 
@@ -175,7 +177,7 @@ function createIndex() {
 function createDatalists() {
   const datalists = {
     titles: titles,
-    speakers: [...speakers].sort()
+    speakers: speakers.sort()
   };
   writeFile(DATALISTS_FILE, JSON.stringify(datalists));
 }

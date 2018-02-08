@@ -185,11 +185,16 @@ function addMatch(match, query) {
   const matchElement = document.createElement('li');
   matchElement.dataset.location = match.l; // location used to find match
   matchElement.dataset.citation = formatCitation(match); // displayed location
-  if (match.i) { // stage direction matches have an index
+  if (match.i) {
+    // stage direction matches have an index
     matchElement.dataset.index = match.i;
-  }
-  // add classes for stage directions and scene titles (just for text styling)
-  if (match.r && match.r === 's') {
+  } else if (match.s) {
+    console.log('match', match);
+    // add speaker name and gender, as used for search options
+    matchElement.dataset.speaker = match.s;
+    matchElement.dataset.gender = match.g;
+  } else if (match.r && match.r === 's') {
+    // add classes for stage directions and scene titles (just for text styling)
     matchElement.classList.add('stage-direction');
   } else if (match.r && match.r === 't') {
     matchElement.classList.add('scene-title');
