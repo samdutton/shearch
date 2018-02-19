@@ -1,14 +1,8 @@
-Add hover spans to stage directions
-
 Update HTML for meta tags, etc.
-
-Fix sticky parent height
 
 replace /n in stage dirs with <br>, e.g.
 
   Enter Leonato, governor of Messina, Hero his daughter, and Beatrice his niece, with a Messenger. LEON. HERO. BEAT. MESS.
-
-
 
 shearch.me
 shearch.me#wherefore

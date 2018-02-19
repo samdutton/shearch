@@ -25,6 +25,7 @@ const queryInput = document.getElementById('query');
 const speakerInput = document.getElementById('speaker');
 const speakersDatalist = document.getElementById('speakers');
 const textDiv = document.getElementById('text');
+const titleInput = document.getElementById('title');
 const titlesDatalist = document.getElementById('titles');
 
 const SEARCH_OPTIONS = {
@@ -37,10 +38,12 @@ const SEARCH_OPTIONS = {
 
 var index;
 
+const ABBREVIATIONS_FILE = 'data/abbreviation-to-title.json';
 const DATALISTS_FILE = 'data/datalists.json';
-const INDEX_FILE = 'data/index.json';
 const HTML_DIR = '/html/';
+const INDEX_FILE = 'data/index.json';
 
+var abbreviations;
 var datalists;
 var startTime;
 var timeout = null;
@@ -88,9 +91,13 @@ fetch(INDEX_FILE).then(response => {
   console.timeEnd('Load index');
   queryInput.disabled = false;
   if (location.hash) {
-    const query = location.hash.slice(1);
-    queryInput.value = query;
-    doSearch(query);
+    if (location.hash.includes('.')) {
+      // open text
+    } else {
+      const query = location.hash.slice(1);
+      queryInput.value = query;
+      doSearch(query);
+    }
   } else {
     queryInput.placeholder = 'Enter search text';
   }
@@ -112,10 +119,20 @@ fetch(DATALISTS_FILE).then(response => {
     option.value = title;
     titlesDatalist.appendChild(option);
   }
+}).catch(error => {
+  console.log(`Fetch error: ${error}`);
+});
+
+fetch(ABBREVIATIONS_FILE).then(response => {
+  return response.json();
+}).then(json => {
+  abbreviations = json;
+}).catch(error => {
+  console.log(`Fetch error: ${error}`);
 });
 
 // Search whenever query input text changes, with debounce delay
-queryInput.oninput = function() {
+queryInput.oninput = titleInput.oninput = speakerInput.oninput = function() {
   matchesList.textContent = '';
   const query = queryInput.value;
   location.href = `${location.origin}#${query}`;
@@ -151,6 +168,12 @@ function displayMatches(matches, query) {
   if (speakerInput.value) {
     matches = matches.filter(match => {
       return match.doc.s && match.doc.s.includes(speakerInput.value);
+    });
+  }
+  if (titleInput.value) {
+    matches = matches.filter(match => {
+      return match.doc.l.includes(titleInput.value) ||
+        match.doc.l.includes(abbreviations[titleInput.value]);
     });
   }
   // sort by play or poem name: doc.l is location
