@@ -150,7 +150,20 @@ function doSearch(query) {
   matchesList.textContent = '';
   startTime = window.performance.now();
   console.time(`Do search for ${query}`);
-  const matches = index.search(query, SEARCH_OPTIONS);
+  var matches = index.search(query, SEARCH_OPTIONS);
+  // if a speaker is specified, filter out non-matches
+  if (speakerInput.value) {
+    matches = matches.filter(match => {
+      return match.doc.s && match.doc.s.includes(speakerInput.value);
+    });
+  }
+  // if a title is specified, filter out non-matches
+  if (titleInput.value) {
+    matches = matches.filter(match => {
+      return match.doc.l.includes(titleInput.value) ||
+        match.doc.l.includes(abbreviations[titleInput.value]);
+    });
+  }
   if (matches.length > 0) {
     hide(textDiv); // hide the div for displaying play or poem texts
     displayMatches(matches, query);
@@ -164,18 +177,6 @@ function doSearch(query) {
 
 // Display a list of matched lines, stage directions and scene descriptions
 function displayMatches(matches, query) {
-  // if a speaker is specified, filter out non matches
-  if (speakerInput.value) {
-    matches = matches.filter(match => {
-      return match.doc.s && match.doc.s.includes(speakerInput.value);
-    });
-  }
-  if (titleInput.value) {
-    matches = matches.filter(match => {
-      return match.doc.l.includes(titleInput.value) ||
-        match.doc.l.includes(abbreviations[titleInput.value]);
-    });
-  }
   // sort by play or poem name: doc.l is location
   matches = matches.sort((a, b) => {
     return a.doc.l.localeCompare(b.doc.l, {numeric: true});
@@ -195,7 +196,8 @@ function displayMatches(matches, query) {
     addMatch(match.doc, query);
   }
   const elapsed = Math.round(window.performance.now() - startTime) / 1000;
-  displayInfo(`Found ${matches.length} match(es) in ${elapsed} seconds`);
+  const message = `Found ${matches.length} match(es) in ${elapsed} seconds`;
+  displayInfo(message);
   queryInfoElement.textContent = 'Click on a match to view text';
 }
 
@@ -212,7 +214,6 @@ function addMatch(match, query) {
     // stage direction matches have an index
     matchElement.dataset.index = match.i;
   } else if (match.s) {
-    console.log('match', match);
     // add speaker name and gender, as used for search options
     matchElement.dataset.speaker = match.s;
     matchElement.dataset.gender = match.g;
