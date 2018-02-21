@@ -18,6 +18,7 @@ limitations under the License.
 
 /* global elasticlunr */
 
+const genderInput = document.getElementById('gender');
 const infoElement = document.getElementById('info');
 const matchesList = document.getElementById('matches');
 const queryInfoElement = document.getElementById('query-info');
@@ -134,18 +135,19 @@ fetch(ABBREVIATIONS_FILE).then(response => {
 });
 
 // Search whenever query or other input changes, with debounce delay
-queryInput.oninput = titleInput.oninput = speakerInput.oninput = function() {
-  matchesList.textContent = '';
-  const query = queryInput.value;
-  location.href = `${location.origin}#${query}`;
-  if (query.length > 2) {
-    // debounce text entry
-    clearTimeout(timeout);
-    timeout = setTimeout(function() {
-      doSearch(query);
-    }, DEBOUNCE_DELAY);
-  }
-};
+queryInput.oninput = titleInput.oninput = speakerInput.oninput =
+  genderInput.oninput = function() {
+    matchesList.textContent = '';
+    const query = queryInput.value;
+    location.href = `${location.origin}#${query}`;
+    if (query.length > 2) {
+      // debounce text entry
+      clearTimeout(timeout);
+      timeout = setTimeout(function() {
+        doSearch(query);
+      }, DEBOUNCE_DELAY);
+    }
+  };
 
 function doSearch(query) {
   document.title = `Search Shakespeare: ${query}`;
@@ -153,6 +155,7 @@ function doSearch(query) {
   startTime = window.performance.now();
   console.time(`Do search for ${query}`);
   var matches = index.search(query, SEARCH_OPTIONS);
+
   // if a speaker is specified, filter out non-matches
   if (speakerInput.value) {
     matches = matches.filter(match => {
@@ -160,6 +163,14 @@ function doSearch(query) {
         match.doc.s.toLowerCase().includes(speakerInput.value.toLowerCase());
     });
   }
+
+  // if gender is specified, filter out non-matches
+  if (genderInput.value) {
+    matches = matches.filter(match => {
+      return match.doc.g && match.doc.g === genderInput.value;
+    });
+  }
+
   // if a title is specified, filter out non-matches
   if (titleInput.value) {
     matches = matches.filter(match => {
@@ -169,6 +180,7 @@ function doSearch(query) {
         includes(titleInput.value.toLowerCase());
     });
   }
+
   if (matches.length > 0) {
     hide(textDiv); // hide the div for displaying play or poem texts
     displayMatches(matches, query);

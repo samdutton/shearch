@@ -24,7 +24,7 @@ body {
 }
 
 details div {
-  margin: 0 0 0 0;
+  margin: 0 0 20px 0;
 }
 
 div#container {
@@ -140,7 +140,6 @@ input {
   font-family: Palatino, serif;
   font-size: 16px;
   font-weight: 300;
-  margin: 0 0 24px 0;
   padding: 4px;
   top: 0;
 }
@@ -150,6 +149,7 @@ details input {
 }
 
 input#query {
+  margin: 0 0 24px 0;
   width: calc(100% - 15px);
 }
 
