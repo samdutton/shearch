@@ -46,6 +46,7 @@ const INDEX_FILE = 'data/index.json';
 
 var abbreviations;
 var datalists;
+var matches;
 var startTime;
 var timeout = null;
 const DEBOUNCE_DELAY = 300;
@@ -104,7 +105,7 @@ fetch(INDEX_FILE).then(response => {
   }
   queryInput.focus();
 }).catch(error => {
-  console.error(`Fetch error: ${error}`);
+  console.error(`Error fetching ${INDEX_FILE}: ${error}`);
 });
 
 fetch(DATALISTS_FILE).then(response => {
@@ -123,7 +124,7 @@ fetch(DATALISTS_FILE).then(response => {
     titlesDatalist.appendChild(option);
   }
 }).catch(error => {
-  console.error(`Fetch error: ${error}`);
+  console.error(`Error fetching ${DATALISTS_FILE}: ${error}`);
 });
 
 fetch(ABBREVIATIONS_FILE).then(response => {
@@ -131,99 +132,111 @@ fetch(ABBREVIATIONS_FILE).then(response => {
 }).then(json => {
   abbreviations = json;
 }).catch(error => {
-  console.error(`Fetch error: ${error}`);
+  console.error(`Error fetching ${ABBREVIATIONS_FILE}: ${error}`);
 });
 
 // Search whenever query or other input changes, with debounce delay
-queryInput.oninput = titleInput.oninput = speakerInput.oninput =
-  genderInput.oninput = function() {
-    matchesList.textContent = '';
-    const query = queryInput.value;
-    location.href = `${location.origin}#${query}`;
-    if (query.length > 2) {
-      // debounce text entry
-      clearTimeout(timeout);
-      timeout = setTimeout(function() {
-        doSearch(query);
-      }, DEBOUNCE_DELAY);
-    }
-  };
+queryInput.oninput = function() {
+  matchesList.textContent = '';
+  const query = queryInput.value;
+  location.href = `${location.origin}#${query}`;
+  if (query.length > 2) {
+    // debounce text entry
+    clearTimeout(timeout);
+    timeout = setTimeout(function() {
+      doSearch(query);
+    }, DEBOUNCE_DELAY);
+  }
+};
+
+titleInput.oninput = speakerInput.oninput = genderInput.oninput =
+  displayMatches;
 
 function doSearch(query) {
   document.title = `Search Shakespeare: ${query}`;
   matchesList.textContent = '';
   startTime = window.performance.now();
-  console.time(`Do search for ${query}`);
-  var matches = index.search(query, SEARCH_OPTIONS);
 
+  console.time(`Do search for ${query}`);
+  matches = index.search(query, SEARCH_OPTIONS);
+  console.timeEnd(`Do search for ${query}`);
+
+  const elapsed = Math.round(window.performance.now() - startTime) / 1000;
+  const message = `Found ${matches.length} match(es) in ${elapsed} seconds`;
+  hide(textDiv); // hide the div for displaying play or poem text
+  show(matchesList); // show search results (matches)
+
+  // sort by play or poem name: doc.l is location
+  matches = matches.sort((a, b) => {
+    return a.doc.l.localeCompare(b.doc.l, {numeric: true});
+  });
+
+  displayInfo(message);
+  queryInfoElement.textContent = 'Click on a match to view text';
+  displayMatches();
+}
+
+// Display a list of matched lines, stage directions and scene descriptions
+function displayMatches() {
+  hide(textDiv);
+  show(matchesList);
+  matchesList.textContent = '';
+  const filteredMatches = getFilteredMatches();
+  if (filteredMatches.length > 0) {
+    //
+    // const exactPhrase = new RegExp(`\b${query}\b`, 'i');
+    // keep exact matches only
+    // matches = matches.filter(function(match) {
+    //   return exactPhrase.test(match.doc.t);
+    // });
+    // // prefer exact matches — already done if SEARCH_OPTIONS expand is false
+    // matches = matches.sort((a, b) => {
+    // return exactPhrase.test(a.doc.t) ? -1 :
+    //   exactPhrase.test(b.doc.t) ? 1 : 0;
+    // });
+    //
+    for (const match of filteredMatches) {
+      addMatch(match.doc);
+    }
+  } else {
+    displayInfo('No matches :^\\');
+    queryInfoElement.textContent = '';
+  }
+}
+
+function getFilteredMatches() {
   // if a speaker is specified, filter out non-matches
+  var filteredMatches = matches;
   if (speakerInput.value) {
-    matches = matches.filter(match => {
+    filteredMatches = matches.filter(match => {
       return match.doc.s &&
         match.doc.s.toLowerCase().includes(speakerInput.value.toLowerCase());
     });
   }
-
   // if gender is specified, filter out non-matches
   if (genderInput.value) {
-    matches = matches.filter(match => {
+    filteredMatches = filteredMatches.filter(match => {
       return match.doc.g && match.doc.g === genderInput.value;
     });
   }
-
   // if a title is specified, filter out non-matches
   if (titleInput.value) {
-    matches = matches.filter(match => {
+    filteredMatches = filteredMatches.filter(match => {
       // check if full play name includes text entered in titleInput
       const playAbbreviation = match.doc.l.split('.')[0];
       return abbreviations[playAbbreviation].toLowerCase().
         includes(titleInput.value.toLowerCase());
     });
   }
-
-  if (matches.length > 0) {
-    hide(textDiv); // hide the div for displaying play or poem texts
-    displayMatches(matches, query);
-    show(matchesList); // show search results (matches)
-  } else {
-    displayInfo('No matches :^\\');
-    queryInfoElement.textContent = '';
+  if (filteredMatches !== matches) {
+    const message = `Found ${filteredMatches.length} match(es)`;
+    displayInfo(message);
   }
-  console.timeEnd(`Do search for ${query}`);
-}
-
-// Display a list of matched lines, stage directions and scene descriptions
-function displayMatches(matches, query) {
-  // sort by play or poem name: doc.l is location
-  matches = matches.sort((a, b) => {
-    return a.doc.l.localeCompare(b.doc.l, {numeric: true});
-  });
-  //
-  // const exactPhrase = new RegExp(`\b${query}\b`, 'i');
-  // keep exact matches only
-  // matches = matches.filter(function(match) {
-  //   return exactPhrase.test(match.doc.t);
-  // });
-  // // prefer exact matches — already done if SEARCH_OPTIONS expand is false
-  // matches = matches.sort((a, b) => {
-  // return exactPhrase.test(a.doc.t) ? -1 : exactPhrase.test(b.doc.t) ? 1 : 0;
-  // });
-  //
-  for (const match of matches) {
-    addMatch(match.doc, query);
-  }
-  const elapsed = Math.round(window.performance.now() - startTime) / 1000;
-  const message = `Found ${matches.length} match(es) in ${elapsed} seconds`;
-  displayInfo(message);
-  queryInfoElement.textContent = 'Click on a match to view text';
-}
-
-function displayInfo(message) {
-  infoElement.textContent = message;
+  return filteredMatches;
 }
 
 // Add an individual match element to the list of matches
-function addMatch(match, query) {
+function addMatch(match) {
   const matchElement = document.createElement('li');
   matchElement.dataset.location = match.l; // location used to find match
   matchElement.dataset.citation = formatCitation(match); // displayed location
@@ -242,16 +255,21 @@ function addMatch(match, query) {
   }
   matchElement.innerHTML = match.t;
   matchElement.onclick = function() {
-    displayText(match, query);
+    displayText(match);
   };
   matchesList.appendChild(matchElement);
 }
 
+function displayInfo(message) {
+  infoElement.textContent = message;
+}
+
 // Display the appropriate text and location when a user taps/clicks on a match
-function displayText(match, query) {
+function displayText(match) {
   hide(matchesList);
   infoElement.textContent = '';
   queryInfoElement.textContent = '';
+  const query = queryInput.value;
   // add history entry for the query when the user has tapped/clicked a match
   history.pushState({isSearchResults: true, query: query}, null,
     `${window.location.origin}#${query}`);
