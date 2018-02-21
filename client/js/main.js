@@ -56,7 +56,7 @@ const DEBOUNCE_DELAY = 300;
 // }
 
 window.onpopstate = function(event) {
-  console.log('popstate event', event.state);
+  // console.log('popstate event', event.state);
   if (event.state && event.state.isSearchResults) {
     hide(textDiv);
     show(matchesList);
@@ -102,6 +102,8 @@ fetch(INDEX_FILE).then(response => {
     queryInput.placeholder = 'Enter search text';
   }
   queryInput.focus();
+}).catch(error => {
+  console.error(`Fetch error: ${error}`);
 });
 
 fetch(DATALISTS_FILE).then(response => {
@@ -120,7 +122,7 @@ fetch(DATALISTS_FILE).then(response => {
     titlesDatalist.appendChild(option);
   }
 }).catch(error => {
-  console.log(`Fetch error: ${error}`);
+  console.error(`Fetch error: ${error}`);
 });
 
 fetch(ABBREVIATIONS_FILE).then(response => {
@@ -128,10 +130,10 @@ fetch(ABBREVIATIONS_FILE).then(response => {
 }).then(json => {
   abbreviations = json;
 }).catch(error => {
-  console.log(`Fetch error: ${error}`);
+  console.error(`Fetch error: ${error}`);
 });
 
-// Search whenever query input text changes, with debounce delay
+// Search whenever query or other input changes, with debounce delay
 queryInput.oninput = titleInput.oninput = speakerInput.oninput = function() {
   matchesList.textContent = '';
   const query = queryInput.value;
@@ -154,14 +156,17 @@ function doSearch(query) {
   // if a speaker is specified, filter out non-matches
   if (speakerInput.value) {
     matches = matches.filter(match => {
-      return match.doc.s && match.doc.s.includes(speakerInput.value);
+      return match.doc.s &&
+        match.doc.s.toLowerCase().includes(speakerInput.value.toLowerCase());
     });
   }
   // if a title is specified, filter out non-matches
   if (titleInput.value) {
     matches = matches.filter(match => {
-      return match.doc.l.includes(titleInput.value) ||
-        match.doc.l.includes(abbreviations[titleInput.value]);
+      // check if full play name includes text entered in titleInput
+      const playAbbreviation = match.doc.l.split('.')[0];
+      return abbreviations[playAbbreviation].toLowerCase().
+        includes(titleInput.value.toLowerCase());
     });
   }
   if (matches.length > 0) {
