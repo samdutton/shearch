@@ -21,10 +21,13 @@
   },
   "homepage": "https://github.com/samdutton/shearch#readme",
   "devDependencies": {
+    "eslint": "^5.1.0",
+    "eslint-config-google": "latest",
     "jsdom": "latest",
     "recursive-readdir": "latest"
   },
   "dependencies": {
-    "elasticlunr": "latest"
+    "ajv": "^6.5.2",
+    "elasticlunr": "^0.9.5"
   }
 }

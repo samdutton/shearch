@@ -2,24 +2,23 @@ const mz = require('mz/fs');
 const recursive = require('recursive-readdir');
 
 const validator = require('html-validator');
-const validatorIgnore = ['Warning: Section lacks heading. Consider using \
-  "h2"-"h6" elements to add identifying headings to all sections.',
-'Error: Element “head” is missing a required instance of child element \
-“title”.',
-'Error: Start tag seen without seeing a doctype first. Expected \
-“<!DOCTYPE html>”.',
-'Error: When the attribute “xml:lang” in no namespace is specified, \
-the element must also have the attribute “lang” present with the same value.',
-'Error: Element “foreign” not allowed as child of element “li” in this \
-context. (Suppressing further errors from this subtree.)',
-'Error: Element “recite” not allowed as child of element “li” in this context. \
-(Suppressing further errors from this subtree.)',
-'Error: Element “date” not allowed as child of element “li” in this context. \
-(Suppressing further errors from this subtree.)',
-'Error: Element “lb” not allowed as child of element “li” in this context. \
-(Suppressing further errors from this subtree.)',
-'Error: Element “name” not allowed as child of element “li” in this context. \
-(Suppressing further errors from this subtree.)'
+const validatorIgnore = [
+  'Warning: Section lacks heading. Consider using "h2"-"h6" elements to ' +
+    'add identifying headings to all sections.',
+  'Error: Element “head” is missing a required instance of child element “title”.',
+  'Error: Start tag seen without seeing a doctype first. Expected “<!DOCTYPE html>”.',
+  'Error: When the attribute “xml:lang” in no namespace is specified, ' +
+    'the element must also have the attribute “lang” present with the same value.',
+  'Error: Element “foreign” not allowed as child of element “li” in this ' +
+    'context. (Suppressing further errors from this subtree.)',
+  'Error: Element “recite” not allowed as child of element “li” in this context.' +
+    ' (Suppressing further errors from this subtree.)',
+  'Error: Element “date” not allowed as child of element “li” in this context.' +
+    ' (Suppressing further errors from this subtree.)',
+  'Error: Element “lb” not allowed as child of element “li” in this context. ' +
+    '(Suppressing further errors from this subtree.)',
+  'Error: Element “name” not allowed as child of element “li” in this context. ' +
+    '(Suppressing further errors from this subtree.)',
 ];
 
 const {JSDOM} = require('jsdom');
@@ -62,20 +61,20 @@ const tercetCloseRegex = /<\/tercet>/gi;
 let numFilesToProcess = 0;
 
 // Parse each file in the directory of texts
-recursive(TEXTS_DIR).then(filepaths => {
-  filepaths = filepaths.filter(filename => {
+recursive(TEXTS_DIR).then((filepaths) => {
+  filepaths = filepaths.filter((filename) => {
     return filename.match(/.+xml/); // filter out .DS_Store, etc.
   });
   numFilesToProcess = filepaths.length;
   for (const filepath of filepaths) {
     parseText(filepath);
   }
-}).catch(error => console.error(`Error reading from ${TEXTS_DIR}:`, error));
+}).catch((error) => console.error(`Error reading from ${TEXTS_DIR}:`, error));
 
 function parseText(filepath) {
   console.time('Parse texts');
   JSDOM.fromFile(filepath, {contentType: 'text/xml'})
-    .then(dom => {
+    .then((dom) => {
       const filename = filepath.split('/').pop();
       const document = dom.window.document;
       if (filepath.includes(PLAY_DIR)) {
@@ -90,7 +89,7 @@ function parseText(filepath) {
       if (--numFilesToProcess === 0) {
         console.timeEnd('Parse texts');
       }
-    }).catch(error => {
+    }).catch((error) => {
       console.log(`Error creating DOM from ${filepath}`, error);
     });
 }
@@ -189,7 +188,7 @@ function addScene(scene) {
   let html = '<section class="scene">\n\n';
   const children = scene.children;
   for (const child of children) {
-    switch(child.nodeName) {
+    switch (child.nodeName) {
     case 'speech':
       html += addSpeech(child);
       break;
@@ -220,7 +219,7 @@ function addScene(scene) {
 // Line numbers are displayed for every fifth line
 // but for multipart lines only the final line should be numbered
 function addLineNumberMarkup(scene) {
-  let lines = scene.getElementsByTagName('line');
+  const lines = scene.getElementsByTagName('line');
   for (let i = 0; i !== lines.length; ++i) {
     const line = lines[i];
     const lineNumber = line.getAttribute('number');
@@ -238,10 +237,14 @@ function addLineNumberMarkup(scene) {
 function addSpeech(speech) {
   const children = speech.children;
   let html = '';
-  let dataNumber, hasNonZeroOffset, number, offset, offsetAttribute;
-  let speakers = [];
+  let dataNumber;
+  let hasNonZeroOffset;
+  let number;
+  let offset;
+  let offsetAttribute;
+  const speakers = [];
   for (const child of children) {
-    switch(child.nodeName) {
+    switch (child.nodeName) {
     case 'line':
       // some 'lines' span multiple lines
       // each line after the first is indented, using the offset attribute value
@@ -251,7 +254,7 @@ function addSpeech(speech) {
       // data-number attributes are added to XML DOM in addScene()
       dataNumber = child.getAttribute('data-number');
       number = dataNumber ? ` data-number="${dataNumber}"` : '';
-      var line = child.innerHTML.
+      const line = child.innerHTML.
         replace(stageDirRegEx, '<span class="stage-direction">$1</span>');
       html += `  <li${number + offset}>${line}</li>\n`;
       break;
@@ -373,7 +376,7 @@ function writeFile(filename, html) {
   }
   console.log(`Writing file ${filename}`);
   mz.writeFile(OUTPUT_DIR + filename, html).
-    catch(error => console.error(`Error writing ${filename}:`, error));
+    catch((error) => console.error(`Error writing ${filename}:`, error));
 }
 
 // Check that a file contains valid HTML
@@ -381,14 +384,14 @@ function validate(filename, html) {
   const options = {
     data: html,
     format: 'text',
-    ignore: validatorIgnore/* ,
+    ignore: validatorIgnore, /* ,
     validator: 'https://html5.validator.nu' */
   };
-  validator(options).then(data => {
+  validator(options).then((data) => {
     if (data.includes('Error')) {
       console.error(filename, data);
     }
-  }).catch(error => {
+  }).catch((error) => {
     console.error(`Error validating ${filename}:`, error);
   });
 }
