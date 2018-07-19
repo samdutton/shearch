@@ -11,7 +11,8 @@ const PLAY_DIR = 'plays-ps';
 const POEM_DIR = 'poems-ps';
 const TEXTS_DIR = '../texts/';
 
-// const DOCS_FILE = '../client/data/docs.json';
+const DOCS_FILE = '../client/data/docs.json';
+const CREATE_DOCS_FILE = true;
 const INDEX_FILE = '../client/data/index.json';
 const DATALISTS_FILE = '../client/data/datalists.json';
 
@@ -49,6 +50,10 @@ function addDocs(filepath) {
       console.log(`${numFilesToProcess} files to process`);
       if (--numFilesToProcess === 0) {
         console.timeEnd('Parse texts');
+        if (CREATE_DOCS_FILE) {
+          writeFile(DOCS_FILE, JSON.stringify(docs));
+          console.log(`Created docs file`);
+        }
         console.time(`Index ${docs.length} docs`);
         createIndex(docs);
         createDatalists();
