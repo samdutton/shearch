@@ -1,5 +1,11 @@
 # Search Shakespeare
 
-Fast, offline-enabled client-side search for the complete works of Shakespeare, using data from the [PlayShakespeare](https://www.playshakespeare.com) texts.
+Fast, offline-enabled client-side search for the complete works of Shakespeare, using data derived from the [PlayShakespeare](https://www.playshakespeare.com) projects.
 
-Offline search can be enabled by uncommenting the service worker code in [js/main.js](https://github.com/samdutton/shearch/blob/5f0391021900ab05971d99c9f02c15e49db4ddcd/client/js/main.js#L54).
+Please note that this is not an official Google product.
+
+---
+
+## Play and poem texts
+
+©2005-2016 PlayShakespeare.com. Permission is granted to copy, distribute and/or modify this information under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation. Terms at [playshakespeare.com/license](http://www.playshakespeare.com/license).
