@@ -19,7 +19,7 @@ const FILES = [
   'css/main.css',
   'data/index.json',
   'js/main.js',
-  'js/lib/elasticlunr.min.js'
+  'js/third-party/elasticlunr.min.js'
 ];
 
 self.addEventListener('install', (event) => {
