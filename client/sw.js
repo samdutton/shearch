@@ -14,6 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
+const CACHE_VERSION = 'v1.0';
+
 const FILES = [
   'index.html',
   'css/main.css',
@@ -46,7 +48,7 @@ async function installHandler(event) { // eslint-disable-line
 /* eslint-enable */
 
 async function fetchHandler(request) {
-  const cache = await caches.open('v1');
+  const cache = await caches.open(CACHE_VERSION);
   const cacheResult = await cache.match(request);
   if (cacheResult) {
     return cacheResult;
