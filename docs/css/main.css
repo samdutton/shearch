@@ -17,7 +17,7 @@
 body {
   color: #444;
   counter-reset: line-number;
-  font-family: Palatino, sans-serif;
+  font-family: Google Sans, sans-serif;
   margin: 0;
   padding: 30px 20px;
   word-break: break-word;
@@ -54,7 +54,7 @@ div#info {
 
 div#query-container {
   background: white;
-  padding: 20px 0 10px 0;
+  padding: 20px 0 0 0;
   position: sticky;
   top: 0;
   width: calc(100% + 4px);
@@ -77,8 +77,8 @@ h1 {
   font-size: 24px;
   font-weight: 500;
   line-height: 1.2em;
-  margin: 0 0 1em 0;
-  padding: 0 0 1em 0;
+  margin: 0 0 0.5 0;
+  padding: 0 0 0.5em 0;
 }
 
 h1#title {
@@ -141,7 +141,7 @@ iframe {
 
 input {
   color: black;
-  font-family: Palatino, sans-serif;
+  font-family: Google Sans, sans-serif;
   font-size: 18px;
   font-weight: 300;
   padding: 8px;
@@ -154,7 +154,7 @@ details input {
 
 input#query {
   margin: 0 0 24px 0;
-  width: calc(100% - 15px);
+  width: calc(100% - 25px);
 }
 
 label {
