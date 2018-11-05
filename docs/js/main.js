@@ -113,7 +113,7 @@ fetch(DATALISTS_FILE).then((response) => {
   datalists = json;
   for (const speaker of datalists.speakers) {
     const option = document.createElement('option');
-    option.value = speaker.name;
+    option.value = speaker.n;
     speakersDatalist.appendChild(option);
   }
   const titles = datalists.titles;

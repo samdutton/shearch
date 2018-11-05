@@ -46,15 +46,14 @@ div#container {
 }
 
 div#info {
-  color: #c83f3f;
+  color: #444;
   font-size: 14px;
   font-weight: 500;
-  margin: 0 0 16px 0;
 }
 
 div#query-container {
   background: white;
-  padding: 20px 0 0 0;
+  padding: 20px 0 10px 0;
   position: sticky;
   top: 0;
   width: calc(100% + 4px);
@@ -64,10 +63,10 @@ div#query-container {
 div#query-info {
   border-bottom: 1px solid rgb(200, 63, 63);
   border-bottom: 1px solid rgba(200, 63, 63, 0.5);
-  color: #888;
+  color: #444;
   font-size: 14px;
-  margin: 0 0 0 0;
-  padding: 0 0 10px 0;
+  margin: 0 0 16px 0;
+  padding: 15px 0 10px 0;
 }
 
 h1 {
@@ -77,8 +76,8 @@ h1 {
   font-size: 24px;
   font-weight: 500;
   line-height: 1.2em;
-  margin: 0 0 0.5 0;
-  padding: 0 0 0.5em 0;
+  margin: 0px 0 10px 0;
+  padding: 0 0 35px 0;
 }
 
 h1#title {
