@@ -57,7 +57,6 @@ if (navigator.serviceWorker) {
 }
 
 window.onpopstate = (event) => {
-  // console.log('popstate event', event.state);
   if (event.state && event.state.isSearchResults) {
     hide(textDiv);
     show(matchesList);
@@ -251,8 +250,8 @@ function addMatch(match) {
     matchElement.dataset.index = match.i;
   } else if (match.s) {
     // add speaker name and gender, as used for search options
-    matchElement.dataset.speaker = match.s;
-    matchElement.dataset.gender = match.g;
+    matchElement.dataset.s = match.s;
+    matchElement.dataset.g = match.g;
   } else if (match.r && match.r === 's') {
     // add classes for stage directions and scene titles (just for text styling)
     matchElement.classList.add('stage-direction');
@@ -321,7 +320,6 @@ function highlightMatch(match, location) {
     const actIndex = location[1];
     const sceneIndex = location[2];
     const act = textDiv.querySelectorAll('.act')[actIndex];
-    // console.log('acts', textDivDoc.querySelectorAll('.act'));
     const scene = act.querySelectorAll('section.scene')[sceneIndex];
     // text matches are lines, scene titles or stage directions
     if (match.s) { // if the match has a speaker (match.s) it's a spoken line
@@ -349,7 +347,6 @@ function highlightMatch(match, location) {
 
 // Highlight a match in a play scene or in a poem
 function highlightLine(parent, selector, elementIndex) {
-  // console.log('parent, selector, element', parent, selector, elementIndex);
   const element = parent.querySelectorAll(selector)[elementIndex];
   element.classList.add('highlight');
   element.scrollIntoView({inline: 'center'});

@@ -28,6 +28,7 @@ details div {
 }
 
 div.stage-direction {
+  color: black;
   font-size: 14px;
   font-style: italic;
   line-height: 1.4em;
@@ -170,8 +171,8 @@ li {
 ol#matches li {
   color:#444;
   cursor: pointer;
-  font-size: 15px;
-  line-height: 1.3em;
+  font-size: 14px;
+  line-height: 1.5em;
   margin: 1px 0 0.8em 1em;
   position: relative;
   text-indent: -1em;
@@ -201,7 +202,7 @@ ol#matches li::after {
   --margin-left: 10px;
   --offset: 30px;
   font-size: 14px;
-  line-height: 1.4em;
+  line-height: 1.5em;
   margin-bottom: 2px;
   margin-left: var(--margin-left);
   padding: 0 30px 0 0;
