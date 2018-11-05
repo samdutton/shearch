@@ -1,22 +1,18 @@
 /*
-Copyright 2017 Google Inc.
+Copyright 2018 Google LLC
 
-Licensed under the Apache License, Version 2.0 (the 'License');
+Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
 
-    http://www.apache.org/licenses/LICENSE-2.0
+  https://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an 'AS IS' BASIS,
+distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
-
-'use strict';
-
-/* global elasticlunr */
 
 const genderInput = document.getElementById('gender');
 const infoElement = document.getElementById('info');
@@ -31,33 +27,36 @@ const titlesDatalist = document.getElementById('titles');
 
 const SEARCH_OPTIONS = {
   fields: {
-    t: {}
+    t: {},
   },
   bool: 'AND',
-  expand: false // true means matches are not whole-word-only
+  expand: false, // true means matches are not whole-word-only
 };
 
-var index;
 
-const ABBREVIATIONS_FILE = 'data/abbreviation-to-title.json';
-const DATALISTS_FILE = 'data/datalists.json';
+/* globals elasticlunr */
+
+let index;
+
+const ABBREVIATIONS_FILE = '/data/abbreviation-to-title.json';
+const DATALISTS_FILE = '/data/datalists.json';
 const HTML_DIR = '/html/';
-const INDEX_FILE = 'data/index.json';
+const INDEX_FILE = '/data/index.json';
 
-var abbreviations;
-var datalists;
-var matches;
-var startTime;
-var timeout = null;
+let abbreviations;
+let datalists;
+let matches;
+let startTime;
+let timeout = null;
 const DEBOUNCE_DELAY = 300;
 
-// if (navigator.serviceWorker) {
-//   navigator.serviceWorker.register('sw.js').catch(function(error) {
-//     console.error('Unable to register service worker.', error);
-//   });
-// }
+if (navigator.serviceWorker) {
+  navigator.serviceWorker.register('sw.js').catch(function(error) {
+    console.error('Unable to register service worker.', error);
+  });
+}
 
-window.onpopstate = function(event) {
+window.onpopstate = (event) => {
   // console.log('popstate event', event.state);
   if (event.state && event.state.isSearchResults) {
     hide(textDiv);
@@ -80,9 +79,9 @@ window.onpopstate = function(event) {
 // Get and load index data
 console.log('Fetching index...');
 console.time('Fetch index');
-fetch(INDEX_FILE).then(response => {
+fetch(INDEX_FILE).then((response) => {
   return response.json();
-}).then(json => {
+}).then((json) => {
   console.timeEnd('Fetch index');
   // elasticlunr.clearStopWords = function() {
   //   elasticlunr.stopWordFilter.stopWords = {};
@@ -96,7 +95,7 @@ fetch(INDEX_FILE).then(response => {
     if (location.hash.includes('.')) {
       // open text
     } else {
-      const query = location.hash.slice(1);
+      const query = unescape(location.hash.slice(1));
       queryInput.value = query;
       doSearch(query);
     }
@@ -104,46 +103,46 @@ fetch(INDEX_FILE).then(response => {
     queryInput.placeholder = 'Enter search text';
   }
   queryInput.focus();
-}).catch(error => {
+}).catch((error) => {
   console.error(`Error fetching ${INDEX_FILE}: ${error}`);
 });
 
-fetch(DATALISTS_FILE).then(response => {
+fetch(DATALISTS_FILE).then((response) => {
   return response.json();
-}).then(json => {
+}).then((json) => {
   datalists = json;
   for (const speaker of datalists.speakers) {
-    let option = document.createElement('option');
+    const option = document.createElement('option');
     option.value = speaker.name;
     speakersDatalist.appendChild(option);
   }
   const titles = datalists.titles;
   for (const title of titles) {
-    let option = document.createElement('option');
+    const option = document.createElement('option');
     option.value = title;
     titlesDatalist.appendChild(option);
   }
-}).catch(error => {
+}).catch((error) => {
   console.error(`Error fetching ${DATALISTS_FILE}: ${error}`);
 });
 
-fetch(ABBREVIATIONS_FILE).then(response => {
+fetch(ABBREVIATIONS_FILE).then((response) => {
   return response.json();
-}).then(json => {
+}).then((json) => {
   abbreviations = json;
-}).catch(error => {
+}).catch((error) => {
   console.error(`Error fetching ${ABBREVIATIONS_FILE}: ${error}`);
 });
 
 // Search whenever query or other input changes, with debounce delay
-queryInput.oninput = function() {
+queryInput.oninput = () => {
   matchesList.textContent = '';
   const query = queryInput.value;
   location.href = `${location.origin}#${query}`;
   if (query.length > 2) {
     // debounce text entry
     clearTimeout(timeout);
-    timeout = setTimeout(function() {
+    timeout = setTimeout(() => {
       doSearch(query);
     }, DEBOUNCE_DELAY);
   }
@@ -158,7 +157,7 @@ function doSearch(query) {
   startTime = window.performance.now();
 
   console.time(`Do search for ${query}`);
-  matches = index.search(query, SEARCH_OPTIONS);
+  matches = index.search(query, SEARCH_OPTIONS); // elasticlunr
   console.timeEnd(`Do search for ${query}`);
 
   const elapsed = Math.round(window.performance.now() - startTime) / 1000;
@@ -171,9 +170,22 @@ function doSearch(query) {
     return a.doc.l.localeCompare(b.doc.l);
   });
 
+  // prefer exact matches — already done if SEARCH_OPTIONS expand is false
+  matches = matches.sort((a, b) => {
+    if (a.doc.t.includes(query) && b.doc.t.includes(query)) {
+      return 0;
+    } else if (a.doc.t.includes(query)) {
+      return -1;
+    } else if (b.doc.t.includes(query)) {
+      return 1;
+    } else {
+      return 0;
+    }
+  });
+
   displayInfo(message);
   queryInfoElement.textContent = 'Click on a match to view text';
-  displayMatches();
+  displayMatches(query);
 }
 
 // Display a list of matched lines, stage directions and scene descriptions
@@ -183,16 +195,10 @@ function displayMatches() {
   matchesList.textContent = '';
   const filteredMatches = getFilteredMatches();
   if (filteredMatches.length > 0) {
-    //
     // const exactPhrase = new RegExp(`\b${query}\b`, 'i');
     // keep exact matches only
     // matches = matches.filter(function(match) {
     //   return exactPhrase.test(match.doc.t);
-    // });
-    // // prefer exact matches — already done if SEARCH_OPTIONS expand is false
-    // matches = matches.sort((a, b) => {
-    // return exactPhrase.test(a.doc.t) ? -1 :
-    //   exactPhrase.test(b.doc.t) ? 1 : 0;
     // });
     //
     for (const match of filteredMatches) {
@@ -206,22 +212,22 @@ function displayMatches() {
 
 function getFilteredMatches() {
   // if a speaker is specified, filter out non-matches
-  var filteredMatches = matches;
+  let filteredMatches = matches;
   if (speakerInput.value) {
-    filteredMatches = matches.filter(match => {
+    filteredMatches = matches.filter((match) => {
       return match.doc.s &&
         match.doc.s.toLowerCase().includes(speakerInput.value.toLowerCase());
     });
   }
   // if gender is specified, filter out non-matches
   if (genderInput.value) {
-    filteredMatches = filteredMatches.filter(match => {
+    filteredMatches = filteredMatches.filter((match) => {
       return match.doc.g && match.doc.g === genderInput.value;
     });
   }
   // if a title is specified, filter out non-matches
   if (titleInput.value) {
-    filteredMatches = filteredMatches.filter(match => {
+    filteredMatches = filteredMatches.filter((match) => {
       // check if full play name includes text entered in titleInput
       const playAbbreviation = match.doc.l.split('.')[0];
       return abbreviations[playAbbreviation].toLowerCase().
@@ -254,7 +260,7 @@ function addMatch(match) {
     matchElement.classList.add('scene-title');
   }
   matchElement.innerHTML = match.t;
-  matchElement.onclick = function() {
+  matchElement.onclick = () => {
     displayText(match);
   };
   matchesList.appendChild(matchElement);
@@ -271,7 +277,7 @@ function displayText(match) {
   queryInfoElement.textContent = '';
   const query = queryInput.value;
   // add history entry for the query when the user has tapped/clicked a match
-  history.pushState({isSearchResults: true, query: query}, null,
+  history.pushState({isSearchResults: true, query}, null,
     `${window.location.origin}#${query}`);
   // match.l is a citation for a play or poem, e.g. Ham.3.3.2, Son.4.11, Ven.140
   // scene title matches only have act and scene number, e.g. Ham.3.3
@@ -280,9 +286,9 @@ function displayText(match) {
   document.title = `Search Shakespeare: ${match.l}`;
   const location = match.l.split('.');
   const text = location[0];
-  fetch(`${HTML_DIR}${text}.html`).then(response => {
+  fetch(`${HTML_DIR}${text}.html`).then((response) => {
     return response.text();
-  }).then(html => {
+  }).then((html) => {
     textDiv.innerHTML = html;
     textDiv.onmouseover = addWordSearch;
     show(textDiv);
@@ -296,9 +302,9 @@ function addWordSearch(hoverEvent) {
   const el = hoverEvent.target;
   // hover events are also fired by the parent
   // plays and sonnets use <li> for each line; poems use <p>
-  if (el.nodeName === 'DIV' || el.nodeName === 'LI' || el.nodeName === 'P') {
+  if (el.nodeName === 'LI' || el.nodeName === 'P') {
     el.innerHTML = el.innerText.replace(/([\w]+)/g, '<span>$1</span>');
-    el.onclick = spanClickEvent => {
+    el.onclick = (spanClickEvent) => {
       const word = spanClickEvent.target.textContent;
       history.pushState({isSearchResults: true}, null,
         `${window.location.origin}#${word}`);

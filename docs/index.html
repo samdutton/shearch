@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 
 <!--
-Copyright 2017 Google Inc.
+Copyright 2018 Google LLC
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
 
-    http://www.apache.org/licenses/LICENSE-2.0
+https://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
@@ -17,87 +17,91 @@ limitations under the License.
 -->
 
 <html lang="en">
-<head>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-33848682-1"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag() {
-  window.dataLayer.push(arguments);
-}
-gtag('js', new Date());
-gtag('config', 'UA-33848682-1');
-</script>
+  <head>
 
-<meta charset="utf-8">
-<meta name="description" content="Full text search for Shakespeare's plays and poems.">
-<meta name="author" content="//samdutton.com">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta itemprop="name" content="Full text search for Shakespeare's plays and poems.">
-<meta itemprop="image" content="images/icons/icon192.png">
-<meta id="theme-color" name="theme-color" content="#fff">
+    <meta charset="utf-8">
+    <meta name="description" content="Full text search for Shakespeare's plays and poems.">
+    <meta name="author" content="//samdutton.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta itemprop="name" content="Full text search for Shakespeare's plays and poems.">
+    <meta itemprop="image" content="images/icons/icon192.png">
+    <meta id="theme-color" name="theme-color" content="#fff">
 
-<link rel="icon" href="images/icons/icon192.jpg">
-<link rel="manifest" href="manifest.json">
+    <link rel="icon" href="images/icons/icon192.jpg">
+    <link rel="manifest" href="manifest.json">
 
-<title>Search Shakespeare</title>
+    <title>Search Shakespeare</title>
 
-<link rel="stylesheet" href="css/main.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-33848682-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+    window.dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-33848682-1');
+    </script>
 
-</head>
+    <link rel="stylesheet" href="css/main.css" />
 
-<body>
+  </head>
 
-<div id="container">
+  <body>
 
-  <h1>Search Shakespeare</h1>
+    <div id="container">
 
-<div id="query-container">
+      <h1>Search Shakespeare</h1>
 
-    <!-- <label for="query">Search:</label> -->
-    <input id="query" placeholder="Loading..." autocomplete disabled>
+      <div id="query-container">
 
-    <details id="searchOptions">
+        <!-- <label for="query">Search:</label> -->
+        <input id="query" placeholder="Loading..." autocomplete="on" disabled>
+
+        <details id="searchOptions">
 
         <summary>Search options</summary>
 
-          <div>
-            <label for="title">Play or poem: </label>
-            <input type="text" id="title" list="titles">
-            <datalist id="titles"></datalist>
-          </div>
+        <div>
+          <label for="title">Play or poem: </label>
+          <input type="text" id="title" list="titles">
+          <datalist id="titles"></datalist>
+        </div>
 
-          <div>
-            <label for="speaker">Speaker: </label>
-            <input id="speaker"  title="One speaker name" type="text" list="speakers">
-            <datalist id="speakers"></datalist>
-          </div>
+        <div>
+          <label for="speaker">Speaker: </label>
+          <input id="speaker"  title="One speaker name" type="text" list="speakers">
+          <datalist id="speakers"></datalist>
+        </div>
 
-          <div>
-            <label for="gender">Gender: </label>
-            <select id="gender">
-              <option></option>
-              <option>male</option>
-              <option>female</option>
-            </select>
-          </div>
+        <div>
+          <label for="gender">Gender: </label>
+          <select id="gender">
+            <option></option>
+            <option>male</option>
+            <option>female</option>
+          </select>
+        </div>
 
-      </details>
+        </details>
 
-      <div id="info"></div>
-      <div id="query-info"></div>
+        <div id="info"></div>
+        <div id="query-info"></div>
+
+      </div>
+
+    <ol id="matches"></ol>
+
+    <div class="hidden" id="text"></div>
+
+    <div id="credit">Texts provided by <a href="https://www.playshakespeare.com/">PlayShakespeare.com.</a></div>
 
   </div>
 
-  <ol id="matches"></ol>
-
-  <div class="hidden" id="text"></div>
-
-</div>
-
-<script src="js/lib/elasticlunr.min.js"></script>
-<script src="js/main.js"></script>
+  <script src="js/third-party/elasticlunr.min.js"></script>
+  <script src="js/main.js"></script>
 
 </body>
+
 </html>

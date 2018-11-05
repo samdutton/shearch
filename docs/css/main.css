@@ -17,7 +17,7 @@
 body {
   color: #444;
   counter-reset: line-number;
-  font-family: Palatino, serif;
+  font-family: Palatino, sans-serif;
   margin: 0;
   padding: 30px 20px;
   word-break: break-word;
@@ -96,6 +96,10 @@ h2 {
   text-transform: uppercase;
 }
 
+.poem h2 {
+  font-size: 18px;
+}
+
 h3 {
   color: black;
   font-size: 14px;
@@ -137,15 +141,15 @@ iframe {
 
 input {
   color: black;
-  font-family: Palatino, serif;
-  font-size: 16px;
+  font-family: Palatino, sans-serif;
+  font-size: 18px;
   font-weight: 300;
-  padding: 4px;
+  padding: 8px;
   top: 0;
 }
 
 details input {
-  width: calc(100% - 108px);
+  width: calc(100% - 128px);
 }
 
 input#query {
@@ -188,6 +192,10 @@ ol#matches li::after {
   position: absolute;
   right: -80px;
   top: 0;
+}
+
+.poem li {
+  line-height: 1.6em;
 }
 
 .scene li {
@@ -317,6 +325,16 @@ section.couplet {
 
 section.couplet {
   margin: 0 0 2em 0;
+}
+
+section.poem {
+  border-bottom: 1px solid #eee;
+  padding: 0 0 1em 0;
+  margin: 0 0 2em 0;
+}
+
+section.poem:last-of-type {
+  border-bottom: none;
 }
 
 section.quatrain {
