@@ -56,18 +56,20 @@ div#query-container {
   background: white;
   border-bottom: 1px solid #c83f3f; /* fallback */
   border-bottom: 1px solid rgba(200, 63, 63, 1);
+  margin: 0 0 20px 0;
   padding: 0 0 20px 0;
-  padding: 20px 0 10px 0;
-/*  position: sticky;
+  padding: 20px 0 0px 0;
+  /*  position: sticky;
   top: 0;
-*/  width: calc(100% + 4px);
+*/
+  width: calc(100% + 4px);
   z-index: 1;
 }
 
 div#query-info {
   color: #444;
   font-size: 14px;
-  padding: 15px 0 10px 0;
+  padding: 15px 0 20px 0;
 }
 
 h1 {
@@ -291,9 +293,9 @@ ol.speech {
 ol#matches {
   border-bottom: 1px solid rgb(200, 63, 63);
   border-bottom: 1px solid rgba(200, 63, 63, 0.5);
-  margin: 5px 0 25px 0;
+  /* margin: 5px 0 25px 0; */
   max-height: calc(100% - 170px);
-  padding: 25px 0 15px 0;
+  padding: 0px 0 15px 0;
   width: calc(100% + 6px);
 }
 
