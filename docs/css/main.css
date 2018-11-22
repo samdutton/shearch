@@ -54,6 +54,9 @@ div#info {
 
 div#query-container {
   background: white;
+  border-bottom: 1px solid #c83f3f; /* fallback */
+  border-bottom: 1px solid rgba(200, 63, 63, 1);
+  padding: 0 0 20px 0;
   padding: 20px 0 10px 0;
 /*  position: sticky;
   top: 0;
@@ -288,8 +291,6 @@ ol.speech {
 ol#matches {
   border-bottom: 1px solid rgb(200, 63, 63);
   border-bottom: 1px solid rgba(200, 63, 63, 0.5);
-  border-top: 1px solid rgb(200, 63, 63);
-  border-top: 1px solid rgba(200, 63, 63, 0.5);
   margin: 5px 0 25px 0;
   max-height: calc(100% - 170px);
   padding: 25px 0 15px 0;
