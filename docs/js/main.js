@@ -135,6 +135,8 @@ fetch(ABBREVIATIONS_FILE).then((response) => {
 
 // Search whenever query or other input changes, with debounce delay
 queryInput.oninput = () => {
+  infoElement.textContent = '';
+  queryInfoElement.textContent = '';
   matchesList.textContent = '';
   const query = queryInput.value;
   location.href = `${location.origin}#${query}`;
