@@ -310,7 +310,7 @@ function addWordSearch(hoverEvent) {
         `${window.location.origin}#${word}`);
       queryInput.value = word;
       doSearch(word);
-      window.scrollTo(0, 147); // to display search input
+      window.scrollTo(0, 0);
     };
   }
 }
