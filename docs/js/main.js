@@ -204,6 +204,7 @@ function displayMatches() {
       addMatch(match.doc);
     }
   } else {
+    hide(matchesList);
     displayInfo('No matches :^\\');
     queryInfoElement.textContent = '';
   }
