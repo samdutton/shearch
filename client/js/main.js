@@ -279,7 +279,7 @@ function displayText(match) {
   // add history entry for the query when the user has tapped/clicked a match
   history.pushState({isSearchResults: true, query}, null,
     `${window.location.origin}#${query}`);
-  // match.l is a citation for a play or poem, e.g. Ham.3.3.2, Son.4.11, Ven.140
+  // match.l is a citation within a play or poem, e.g. Ham.3.3.2, Son.4.11, Ven.140
   // scene title matches only have act and scene number, e.g. Ham.3.3
   history.pushState({isSearchResults: false}, null,
     `${window.location.origin}#${match.l}`);
@@ -366,8 +366,11 @@ function formatCitation(match) {
     const sceneIndex = location[2];
     const sceneNum = +sceneIndex + 1;
     const lineIndex = location[3]; // undef for stage dirs and scene titles
-    return lineIndex ? `${text}.${actNum}.${sceneNum}.${+lineIndex + 1}` :
-      `${text}.${actNum}.${sceneNum}`;
+    // TODO: add line numbers to index data. These are different from lineIndex, which is the index of the line within the HTML.
+    // In the meantime, for plays just display the text name, scene and act number :(.
+    return `${text}.${actNum}.${sceneNum}`;
+    // return lineIndex ? `${text}.${actNum}.${sceneNum}.${+lineIndex + 1}` :
+    //  `${text}.${actNum}.${sceneNum}`;
   } else {
     // location for sonnets has three parts, e.g. Son.4.11
     // location for other poems only has two parts, e.g. Ven.140
