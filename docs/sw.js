@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-const CACHE_VERSION = 'v1.7';
+const CACHE_VERSION = 'v1.8';
 
 const FILES = [
   'index.html',
