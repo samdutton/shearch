@@ -17,8 +17,8 @@ limitations under the License.
 const mz = require('mz/fs');
 const recursive = require('recursive-readdir');
 
+const FlexSearch = require('flexsearch');
 const {JSDOM} = require('jsdom');
-const elasticlunr = require('elasticlunr');
 
 const abbreviations = require('../config/filename-to-abbreviation.json');
 const titles = require('../config/titles.json');
@@ -33,9 +33,10 @@ const CREATE_INDEX = true;
 const INDEX_FILE = '../client/data/index.json';
 const DATALISTS_FILE = '../client/data/datalists.json';
 
-const docs = [];
+const docs = {};
 let docNum = 0;
 const genders = {};
+const index = new FlexSearch();
 let numFilesToProcess = 0;
 const speakers = [];
 
@@ -162,12 +163,12 @@ function addSonnets(document) {
   }
 }
 
-// Each 'document' in the data store is a line from a play or poem
-// or a stage direction or scene description
+// Each 'document' in the data store is either a line from a play or poem
+// or a stage direction or scene description.
+// The options parameter includes optional additional metadata.
+// For example: {r:'t'} signifies that the role of the text is scene title.
 function addDoc(location, text, options) {
   const doc = {
-    // n is the ID of the document: a number in base 36
-    n: (docNum++).toString(36), // base 36 to minimise length/storage of n
     l: location,
     t: text,
   };
@@ -176,21 +177,15 @@ function addDoc(location, text, options) {
       doc[key] = options[key];
     }
   }
-  docs.push(doc);
+  // n is the ID of the document: a number in base 36
+  const n = (docNum++).toString(36); // base 36 to minimise length/storage of n
+  docs.n = doc;
+  index.add(n, text);
 }
 
 function createIndex() {
-  const index = elasticlunr(function() {
-    // this.addField('l'); // e.g. Ant.1.2.34
-    // this.addField('s'); // speaker name
-    this.addField('t'); // text of line, stage direction or scene title
-    this.setRef('n'); // index of indexed item
-    this.saveDocument(true); // include data with index
-    for (const doc of docs) {
-      this.addDoc(doc);
-    }
-  });
-  writeFile(INDEX_FILE, JSON.stringify(index));
+  writeFile(DOCS_FILE, JSON.stringify(docs));
+  writeFile(INDEX_FILE, index.export());
   // Optional: write sample docs file (for testing only)
   // const numDocs = 100;
   // const someDocs = docs.sort(function() {

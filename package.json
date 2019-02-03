@@ -15,7 +15,7 @@
     "search"
   ],
   "author": "samdutton",
-  "license": "ISC",
+  "license": "Apache 2.0",
   "bugs": {
     "url": "https://github.com/samdutton/shearch/issues"
   },
@@ -28,6 +28,6 @@
   },
   "dependencies": {
     "ajv": "^6.5.2",
-    "elasticlunr": "^0.9.5"
+    "flexsearch": "^0.3.4"
   }
 }
