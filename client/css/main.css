@@ -72,6 +72,11 @@ div#query-info {
   font-size: 14px;
 }
 
+div#text {
+  border-top: 1px solid #eee;
+  padding: 38px 0 0 0;
+}
+
 h1 {
   border-bottom: 1px solid #c83f3f; /* fallback */
   border-bottom: 1px solid rgba(200, 63, 63, 1);
@@ -119,7 +124,7 @@ h4 {
   margin: 0 0 25px 0;
 }
 
-h4: before {
+h4::before {
   color: #c83f3f;
   content: '\2619'; /*  ☙ */
   font-size: 1.4em;
@@ -256,7 +261,7 @@ ol#matches li::after {
   margin-left: calc(var(--margin-left) + 10 * var(--offset));
 }
 
-.scene li[data-number]:: after {
+.scene li[data-number]::after {
   color: #aaa;
   content: attr(data-number);
   float: right;
@@ -276,7 +281,7 @@ ol#matches li::after {
   text-indent: 20px;
 }
 
-ol[data-speaker]: before {
+ol[data-speaker]::before {
   color: black;
   content: attr(data-speaker);
   display: block;
@@ -327,6 +332,11 @@ section.act {
   padding: 0 0 3px 0;
 }
 
+section.act:last-of-type {
+  border: none;
+  padding: 0;
+}
+
 section.couplet {
   margin: 0 0 2em 0;
 }
@@ -351,7 +361,7 @@ section.scene {
   margin: 0 0 1.6em 0;
 }
 
-section.scene: after {
+section.scene::after {
   color: #c83f3f;
   content: '\2766'; /* ❦ */
   font-size: 30px;
@@ -361,7 +371,7 @@ section.scene:last-of-type {
   border-bottom: none;
 }
 
-section.scene:last-of-type: after {
+section.scene:last-of-type::after {
   content: '';
 }
 
@@ -400,11 +410,11 @@ span.stage-direction {
   text-indent: 20px;
 }
 
-span.stage-direction: before {
+span.stage-direction::before {
   content: '(';
 }
 
-span.stage-direction: after {
+span.stage-direction::after {
   content: ')';
 }
 
