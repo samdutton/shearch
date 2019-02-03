@@ -50,11 +50,11 @@ let startTime;
 let timeout = null;
 const DEBOUNCE_DELAY = 300;
 
-if (navigator.serviceWorker) {
-  navigator.serviceWorker.register('sw.js').catch(function(error) {
-    console.error('Unable to register service worker.', error);
-  });
-}
+// if (navigator.serviceWorker) {
+//   navigator.serviceWorker.register('sw.js').catch(function(error) {
+//     console.error('Unable to register service worker.', error);
+//   });
+// }
 
 window.onpopstate = (event) => {
   // console.log('popstate event', event.state);
@@ -191,10 +191,10 @@ function doSearch(query) {
 // Display a list of matched lines, stage directions and scene descriptions
 function displayMatches() {
   hide(textDiv);
-  show(matchesList);
   matchesList.textContent = '';
   const filteredMatches = getFilteredMatches();
   if (filteredMatches.length > 0) {
+    show(matchesList);
     // const exactPhrase = new RegExp(`\b${query}\b`, 'i');
     // keep exact matches only
     // matches = matches.filter(function(match) {
@@ -205,6 +205,7 @@ function displayMatches() {
       addMatch(match.doc);
     }
   } else {
+    hide(matchesList);
     displayInfo('No matches :^\\');
     queryInfoElement.textContent = '';
   }

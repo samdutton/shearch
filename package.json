@@ -28,6 +28,9 @@
   },
   "dependencies": {
     "ajv": "^6.5.2",
-    "elasticlunr": "^0.9.5"
+    "elasticlunr": "^0.9.5",
+    "postcss": "^7.0.14",
+    "stylelint": "^9.10.1",
+    "stylelint-config-standard": "^18.2.0"
   }
 }
