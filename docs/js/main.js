@@ -50,13 +50,14 @@ let startTime;
 let timeout = null;
 const DEBOUNCE_DELAY = 300;
 
-if (navigator.serviceWorker) {
-  navigator.serviceWorker.register('sw.js').catch(function(error) {
-    console.error('Unable to register service worker.', error);
-  });
-}
+// if (navigator.serviceWorker) {
+//   navigator.serviceWorker.register('sw.js').catch(function(error) {
+//     console.error('Unable to register service worker.', error);
+//   });
+// }
 
 window.onpopstate = (event) => {
+  // console.log('popstate event', event.state);
   if (event.state && event.state.isSearchResults) {
     hide(textDiv);
     show(matchesList);
@@ -112,7 +113,7 @@ fetch(DATALISTS_FILE).then((response) => {
   datalists = json;
   for (const speaker of datalists.speakers) {
     const option = document.createElement('option');
-    option.value = speaker.n;
+    option.value = speaker.name;
     speakersDatalist.appendChild(option);
   }
   const titles = datalists.titles;
@@ -190,10 +191,10 @@ function doSearch(query) {
 // Display a list of matched lines, stage directions and scene descriptions
 function displayMatches() {
   hide(textDiv);
-  show(matchesList);
   matchesList.textContent = '';
   const filteredMatches = getFilteredMatches();
   if (filteredMatches.length > 0) {
+    show(matchesList);
     // const exactPhrase = new RegExp(`\b${query}\b`, 'i');
     // keep exact matches only
     // matches = matches.filter(function(match) {
@@ -204,6 +205,7 @@ function displayMatches() {
       addMatch(match.doc);
     }
   } else {
+    hide(matchesList);
     displayInfo('No matches :^\\');
     queryInfoElement.textContent = '';
   }
@@ -250,8 +252,8 @@ function addMatch(match) {
     matchElement.dataset.index = match.i;
   } else if (match.s) {
     // add speaker name and gender, as used for search options
-    matchElement.dataset.s = match.s;
-    matchElement.dataset.g = match.g;
+    matchElement.dataset.speaker = match.s;
+    matchElement.dataset.gender = match.g;
   } else if (match.r && match.r === 's') {
     // add classes for stage directions and scene titles (just for text styling)
     matchElement.classList.add('stage-direction');
@@ -278,7 +280,7 @@ function displayText(match) {
   // add history entry for the query when the user has tapped/clicked a match
   history.pushState({isSearchResults: true, query}, null,
     `${window.location.origin}#${query}`);
-  // match.l is a citation for a play or poem, e.g. Ham.3.3.2, Son.4.11, Ven.140
+  // match.l is a citation within a play or poem, e.g. Ham.3.3.2, Son.4.11, Ven.140
   // scene title matches only have act and scene number, e.g. Ham.3.3
   history.pushState({isSearchResults: false}, null,
     `${window.location.origin}#${match.l}`);
@@ -309,7 +311,7 @@ function addWordSearch(hoverEvent) {
         `${window.location.origin}#${word}`);
       queryInput.value = word;
       doSearch(word);
-      window.scrollTo(0, 147); // to display search input
+      window.scrollTo(0, 127); // to display search input
     };
   }
 }
@@ -320,6 +322,7 @@ function highlightMatch(match, location) {
     const actIndex = location[1];
     const sceneIndex = location[2];
     const act = textDiv.querySelectorAll('.act')[actIndex];
+    // console.log('acts', textDivDoc.querySelectorAll('.act'));
     const scene = act.querySelectorAll('section.scene')[sceneIndex];
     // text matches are lines, scene titles or stage directions
     if (match.s) { // if the match has a speaker (match.s) it's a spoken line
@@ -347,6 +350,7 @@ function highlightMatch(match, location) {
 
 // Highlight a match in a play scene or in a poem
 function highlightLine(parent, selector, elementIndex) {
+  // console.log('parent, selector, element', parent, selector, elementIndex);
   const element = parent.querySelectorAll(selector)[elementIndex];
   element.classList.add('highlight');
   element.scrollIntoView({inline: 'center'});
@@ -363,8 +367,11 @@ function formatCitation(match) {
     const sceneIndex = location[2];
     const sceneNum = +sceneIndex + 1;
     const lineIndex = location[3]; // undef for stage dirs and scene titles
-    return lineIndex ? `${text}.${actNum}.${sceneNum}.${+lineIndex + 1}` :
-      `${text}.${actNum}.${sceneNum}`;
+    // TODO: add line numbers to index data. These are different from lineIndex, which is the index of the line within the HTML.
+    // In the meantime, for plays just display the text name, scene and act number :(.
+    return `${text}.${actNum}.${sceneNum}`;
+    // return lineIndex ? `${text}.${actNum}.${sceneNum}.${+lineIndex + 1}` :
+    //  `${text}.${actNum}.${sceneNum}`;
   } else {
     // location for sonnets has three parts, e.g. Son.4.11
     // location for other poems only has two parts, e.g. Ven.140
