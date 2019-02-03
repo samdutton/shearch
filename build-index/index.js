@@ -69,14 +69,14 @@ function addDocs(filepath) {
       if (--numFilesToProcess === 0) {
         console.timeEnd('Parse texts');
         if (CREATE_DOCS_FILE) {
-          console.time(`Write JSON file for ${docs.length} docs`);
+          console.time(`Write JSON file for ${Object.keys(docs).length} docs`);
           writeFile(DOCS_FILE, JSON.stringify(docs));
-          console.timeEnd(`Write JSON file for ${docs.length} docs`);
+          console.timeEnd(`Write JSON file for ${Object.keys(docs).length} docs`);
         }
         if (CREATE_INDEX) {
-          console.time(`Index ${docs.length} docs`);
+          console.time(`Index ${Object.keys(docs).length} docs`);
           createIndex(docs);
-          console.timeEnd(`Index ${docs.length} docs`);
+          console.timeEnd(`Index ${Object.keys(docs).length} docs`);
         }
         createDatalists();
       }
@@ -179,7 +179,7 @@ function addDoc(location, text, options) {
   }
   // n is the ID of the document: a number in base 36
   const n = (docNum++).toString(36); // base 36 to minimise length/storage of n
-  docs.n = doc;
+  docs[n] = doc;
   index.add(n, text);
 }
 
