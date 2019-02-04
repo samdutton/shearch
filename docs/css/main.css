@@ -3,6 +3,7 @@
   margin: 0;
   opacity: 0;
   overflow: hidden;
+  padding: 0 !important;
 }
 
 .highlight {
@@ -42,13 +43,18 @@ div#container {
   height: 100%;
   margin: 0 auto 0 auto;
   max-width: 750px;
+  width: calc(100% - 100px);
 }
 
 div#credit {
   border-top: 1px solid rgb(200, 63, 63);
   border-top: 1px solid rgba(200, 63, 63, 0.5);
-  margin: 14px 0 0 0;
-  padding: 24px 0 0 0;
+  color: #999 !important;
+  padding: 20px 0 0 0;
+}
+
+.hidden + div#credit {
+  border-top: none;
 }
 
 div#info {
@@ -60,10 +66,11 @@ div#info {
 
 div#query-container {
   background: white;
-  padding: 20px 0 10px 0;
+  border-bottom: 1px solid rgb(200, 63, 63);
+  border-bottom: 1px solid rgba(200, 63, 63, 0.5);
+  padding: 20px 0 26px 0;
   position: sticky;
   top: 0;
-  width: calc(100% + 4px);
   z-index: 1;
 }
 
@@ -182,10 +189,9 @@ ol#matches li {
   font-size: 15px;
   line-height: 1.3em;
   margin: 1px 0 0.8em 0;
-  padding: 0 0 0 15px;
+  padding: 0 65px 0 15px;
   position: relative;
   text-indent: -1em;
-  width: calc(100% - 100px);
 }
 
 ol#matches li::after {
@@ -201,7 +207,7 @@ ol#matches li::after {
   margin: 0;
   padding: 0;
   position: absolute;
-  right: -85px;
+  right: 0;
   top: 0;
 }
 
@@ -301,11 +307,10 @@ ol.speech {
 }
 
 ol#matches {
-  border-top: 1px solid rgb(200, 63, 63);
-  border-top: 1px solid rgba(200, 63, 63, 0.5);
+  border-bottom: 1px solid rgb(200, 63, 63);
+  border-bottom: 1px solid rgba(200, 63, 63, 0.5);
   max-height: calc(100% - 170px);
-  padding: 20px 0 0 0;
-  width: calc(100% + 6px);
+  padding: 10px 0 10px 0;
 }
 
 ol#results {

@@ -1,0 +1,36 @@
+{
+  "name": "shearch",
+  "version": "1.0.0",
+  "description": "Search Shakespeare's plays and poems",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samdutton/shearch.git"
+  },
+  "keywords": [
+    "Shakespeare",
+    "search"
+  ],
+  "author": "samdutton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samdutton/shearch/issues"
+  },
+  "homepage": "https://github.com/samdutton/shearch#readme",
+  "devDependencies": {
+    "eslint": "^5.1.0",
+    "eslint-config-google": "latest",
+    "jsdom": "latest",
+    "recursive-readdir": "latest"
+  },
+  "dependencies": {
+    "ajv": "^6.5.2",
+    "elasticlunr": "^0.9.5",
+    "postcss": "^7.0.14",
+    "stylelint": "^9.10.1",
+    "stylelint-config-standard": "^18.2.0"
+  }
+}

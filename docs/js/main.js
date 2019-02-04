@@ -63,7 +63,6 @@ window.onpopstate = (event) => {
     show(matchesList);
     queryInput.value = event.state.query;
   } else {
-    show(textDiv);
     hide(matchesList);
   }
 };
@@ -136,6 +135,8 @@ fetch(ABBREVIATIONS_FILE).then((response) => {
 
 // Search whenever query or other input changes, with debounce delay
 queryInput.oninput = () => {
+  hide(matchesList);
+  hide(textDiv);
   matchesList.textContent = '';
   const query = queryInput.value;
   location.href = `${location.origin}#${query}`;
@@ -191,10 +192,13 @@ function doSearch(query) {
 // Display a list of matched lines, stage directions and scene descriptions
 function displayMatches() {
   hide(textDiv);
+  hide(matchesList);
+  hide(queryInfoElement);
   matchesList.textContent = '';
   const filteredMatches = getFilteredMatches();
   if (filteredMatches.length > 0) {
     show(matchesList);
+    show(queryInfoElement);
     // const exactPhrase = new RegExp(`\b${query}\b`, 'i');
     // keep exact matches only
     // matches = matches.filter(function(match) {
@@ -205,7 +209,6 @@ function displayMatches() {
       addMatch(match.doc);
     }
   } else {
-    hide(matchesList);
     displayInfo('No matches :^\\');
     queryInfoElement.textContent = '';
   }

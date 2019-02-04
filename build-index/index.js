@@ -1,3 +1,19 @@
+/*
+Copyright 2018 Google LLC
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  https://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/
+
 const mz = require('mz/fs');
 const recursive = require('recursive-readdir');
 
@@ -9,33 +25,35 @@ const titles = require('../config/titles.json');
 
 const PLAY_DIR = 'plays-ps';
 const POEM_DIR = 'poems-ps';
-const TEXTS_DIR = '../texts/';
+const TEXTS_DIR = '../third-party/';
 
-// const DOCS_FILE = '../client/data/docs.json';
+const DOCS_FILE = '../client/data/docs.json';
+const CREATE_DOCS_FILE = true;
+const CREATE_INDEX = true;
 const INDEX_FILE = '../client/data/index.json';
 const DATALISTS_FILE = '../client/data/datalists.json';
 
-var docs = [];
-var docNum = 0;
-var genders = {};
-var numFilesToProcess = 0;
-var speakers = [];
+const docs = [];
+let docNum = 0;
+const genders = {};
+let numFilesToProcess = 0;
+const speakers = [];
 
 // Parse each XML file in the directories containing play and poem texts
-recursive(TEXTS_DIR).then(filepaths => {
-  filepaths = filepaths.filter(filename => {
+recursive(TEXTS_DIR).then((filepaths) => {
+  filepaths = filepaths.filter((filename) => {
     return filename.match(/.+xml/); // filter out .DS_Store, etc.
   });
   numFilesToProcess = filepaths.length;
   for (const filepath of filepaths) {
     addDocs(filepath);
   }
-}).catch(error => console.error(`Error reading from ${TEXTS_DIR}:`, error));
+}).catch((error) => console.error(`Error reading from ${TEXTS_DIR}:`, error));
 
 function addDocs(filepath) {
   console.time('Parse texts');
   JSDOM.fromFile(filepath, {contentType: 'text/xml'})
-    .then(dom => {
+    .then((dom) => {
       const filename = filepath.split('/').pop();
       const document = dom.window.document;
       if (filepath.includes(PLAY_DIR)) {
@@ -49,12 +67,19 @@ function addDocs(filepath) {
       console.log(`${numFilesToProcess} files to process`);
       if (--numFilesToProcess === 0) {
         console.timeEnd('Parse texts');
-        console.time(`Index ${docs.length} docs`);
-        createIndex(docs);
+        if (CREATE_DOCS_FILE) {
+          console.time(`Write JSON file for ${docs.length} docs`);
+          writeFile(DOCS_FILE, JSON.stringify(docs));
+          console.timeEnd(`Write JSON file for ${docs.length} docs`);
+        }
+        if (CREATE_INDEX) {
+          console.time(`Index ${docs.length} docs`);
+          createIndex(docs);
+          console.timeEnd(`Index ${docs.length} docs`);
+        }
         createDatalists();
-        console.timeEnd(`Index ${docs.length} docs`);
       }
-    }).catch(error => {
+    }).catch((error) => {
       console.log(`Error creating DOM from ${filepath}`, error);
     });
 }
@@ -99,7 +124,7 @@ function addPlay(filename, document) {
 function addSpeakers(document) {
   const personas = document.getElementsByTagName('persona');
   for (const persona of personas) {
-    let speaker = {};
+    const speaker = {};
     speaker.gender = persona.getAttribute('gender');
     const persname = persona.firstElementChild;
     speaker.name = persname.textContent;
@@ -140,11 +165,11 @@ function addSonnets(document) {
 // Each 'document' in the data store is a line from a play or poem
 // or a stage direction or scene description
 function addDoc(location, text, options) {
-  let doc = {
+  const doc = {
     // n is the ID of the document: a number in base 36
     n: (docNum++).toString(36), // base 36 to minimise length/storage of n
     l: location,
-    t: text
+    t: text,
   };
   if (options) {
     for (const key in options) {
@@ -161,7 +186,7 @@ function createIndex() {
     this.addField('t'); // text of line, stage direction or scene title
     this.setRef('n'); // index of indexed item
     this.saveDocument(true); // include data with index
-    for (let doc of docs) {
+    for (const doc of docs) {
       this.addDoc(doc);
     }
   });
@@ -177,14 +202,14 @@ function createIndex() {
 function createDatalists() {
   const datalists = {
     titles: titles,
-    speakers: speakers.sort()
+    speakers: speakers.sort(),
   };
   writeFile(DATALISTS_FILE, JSON.stringify(datalists));
 }
 
 function writeFile(filepath, string) {
-  mz.writeFile(filepath, string, error => {
-    if(error) {
+  mz.writeFile(filepath, string, (error) => {
+    if (error) {
       return console.error(error);
     }
     console.log(`The file ${filepath} was saved!`);
