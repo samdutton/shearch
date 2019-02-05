@@ -43,7 +43,6 @@ div#container {
   height: 100%;
   margin: 0 auto 0 auto;
   max-width: 750px;
-  width: calc(100% - 100px);
 }
 
 div#credit {

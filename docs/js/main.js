@@ -58,13 +58,17 @@ const DEBOUNCE_DELAY = 300;
 
 window.onpopstate = (event) => {
   // console.log('popstate event', event.state);
-  console.log('location:', location.href);
+  console.log('location:', window.location.hash.slice(1));
   if (event.state && event.state.isSearchResults) {
     hide(textDiv);
+    show(infoElement);
     show(matchesList);
+    show(queryInfoElement);
     queryInput.value = event.state.query;
   } else {
+    hide(infoElement);
     hide(matchesList);
+    hide(queryInfoElement);
   }
 };
 
@@ -199,6 +203,7 @@ function displayMatches() {
   matchesList.textContent = '';
   const filteredMatches = getFilteredMatches();
   if (filteredMatches.length > 0) {
+    show(infoElement);
     show(matchesList);
     show(queryInfoElement);
     // const exactPhrase = new RegExp(`\b${query}\b`, 'i');
