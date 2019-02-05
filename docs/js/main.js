@@ -58,6 +58,7 @@ const DEBOUNCE_DELAY = 300;
 
 window.onpopstate = (event) => {
   // console.log('popstate event', event.state);
+  console.log('location:', location.href);
   if (event.state && event.state.isSearchResults) {
     hide(textDiv);
     show(matchesList);
@@ -137,6 +138,7 @@ fetch(ABBREVIATIONS_FILE).then((response) => {
 queryInput.oninput = () => {
   hide(matchesList);
   hide(textDiv);
+  infoElement.textContent = '';
   matchesList.textContent = '';
   const query = queryInput.value;
   location.href = `${location.origin}#${query}`;
@@ -369,16 +371,17 @@ function formatCitation(match) {
     const actNum = +actIndex + 1; // use + to make integer
     const sceneIndex = location[2];
     const sceneNum = +sceneIndex + 1;
-    const lineIndex = location[3]; // undef for stage dirs and scene titles
-    // TODO: add line numbers to index data. These are different from lineIndex, which is the index of the line within the HTML.
-    // In the meantime, for plays just display the text name, scene and act number :(.
+    // const lineIndex = location[3]; // undef for stage dirs and scene titles
+    // TODO: add line numbers to index data. These are different from lineIndex,
+    // which is the index of the line within the HTML. In the meantime,
+    // for plays just display the text name, scene and act number :(.
     return `${text}.${actNum}.${sceneNum}`;
     // return lineIndex ? `${text}.${actNum}.${sceneNum}.${+lineIndex + 1}` :
     //  `${text}.${actNum}.${sceneNum}`;
   } else {
     // location for sonnets has three parts, e.g. Son.4.11
     // location for other poems only has two parts, e.g. Ven.140
-    // Son.html contains all the sonnets; other poems each have their own file
+    // Son.html contains all the sonnets; other poems each have their own file.
     const isSonnet = location.length === 3;
     return isSonnet ? `${text}.${+location[1] + 1}.${+location[2] + 1}` :
       `${text}.${+location[1] + 1}`; // use + to make integer
