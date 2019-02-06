@@ -365,7 +365,7 @@ function highlightLine(parent, selector, elementIndex) {
   // console.log('parent, selector, element', parent, selector, elementIndex);
   const element = parent.querySelectorAll(selector)[elementIndex];
   element.classList.add('highlight');
-  element.scrollIntoView({inline: 'center'});
+  element.scrollIntoView({block: 'center'});
 }
 
 // Format location for display to the right of each match

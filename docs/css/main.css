@@ -169,7 +169,7 @@ details input {
 
 input#query {
   margin: 0 0 24px 0;
-  width: calc(100% - 23px);
+  width: calc(100% - 20px);
 }
 
 label {
