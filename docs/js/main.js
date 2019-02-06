@@ -169,7 +169,6 @@ function doSearch(query) {
   console.timeEnd(`Do search for ${query}`);
 
   const elapsed = Math.round(window.performance.now() - startTime) / 1000;
-  const message = `Found ${matches.length} match(es) in ${elapsed} seconds`;
   hide(textDiv); // hide the div for displaying play or poem text
   show(matchesList); // show search results (matches)
 
@@ -190,6 +189,8 @@ function doSearch(query) {
       return 0;
     }
   });
+
+  const message = `Found ${matches.length} match(es) in ${elapsed} seconds`;
 
   displayInfo(message);
   queryInfoElement.textContent = 'Click on a match to view text';
@@ -251,10 +252,8 @@ function getFilteredMatches() {
         includes(titleInput.value.toLowerCase());
     });
   }
-  if (filteredMatches !== matches) {
-    const message = `Found ${filteredMatches.length} match(es)`;
-    displayInfo(message);
-  }
+  const message = `Found ${filteredMatches.length} match(es)`;
+  displayInfo(message);
   return filteredMatches;
 }
 
