@@ -57,23 +57,18 @@ const DEBOUNCE_DELAY = 300;
 // }
 
 window.onpopstate = (event) => {
-  // console.log('popstate event', event.state);
-  console.log('location:', window.location.hash.slice(1));
   if (event.state && event.state.type === 'results') {
-    console.log('results!');
     hide(textDiv);
     show(infoElement);
     show(matchesList);
     show(queryInfoElement);
     // queryInput.value = event.state.query;
   } else if (event.state && event.state.type === 'text') {
-    console.log('text!');
     hide(infoElement);
     hide(matchesList);
     hide(queryInfoElement);
     show(textDiv);
   } else {
-    console.log('popstate without type');
     hide(infoElement);
     hide(matchesList);
     hide(queryInfoElement);
@@ -160,7 +155,7 @@ queryInput.oninput = () => {
 
 // Filter matches, if displayed.
 titleInput.oninput = speakerInput.oninput = genderInput.oninput = () => {
-  if (matches && matches.length < 0) {
+  if (matches && matches.length > 0) {
     displayMatches();
   }
 };
@@ -211,7 +206,6 @@ function displayMatches() {
   const filteredMatches = getFilteredMatches();
   if (filteredMatches.length > 0) {
     const query = queryInput.value;
-    console.log('pushing URL:', `${window.location.origin}#${query}`);
     history.pushState({type: 'results', query}, null,
       `${window.location.origin}#${query}`);
     document.title = `Shakespeare: ${query}`;
@@ -234,8 +228,8 @@ function displayMatches() {
 }
 
 function getFilteredMatches() {
-  // if a speaker is specified, filter out non-matches
   let filteredMatches = matches;
+  // if a speaker is specified, filter out non-matches
   if (speakerInput.value) {
     filteredMatches = matches.filter((match) => {
       return match.doc.s &&
@@ -338,7 +332,6 @@ function highlightMatch(match, location) {
     const actIndex = location[1];
     const sceneIndex = location[2];
     const act = textDiv.querySelectorAll('.act')[actIndex];
-    // console.log('acts', textDivDoc.querySelectorAll('.act'));
     const scene = act.querySelectorAll('section.scene')[sceneIndex];
     // text matches are lines, scene titles or stage directions
     if (match.s) { // if the match has a speaker (match.s) it's a spoken line
@@ -366,7 +359,6 @@ function highlightMatch(match, location) {
 
 // Highlight a match in a play scene or in a poem
 function highlightLine(parent, selector, elementIndex) {
-  // console.log('parent, selector, element', parent, selector, elementIndex);
   const element = parent.querySelectorAll(selector)[elementIndex];
   element.classList.add('highlight');
   element.scrollIntoView({block: 'center'});
