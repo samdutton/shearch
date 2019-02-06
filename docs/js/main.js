@@ -59,13 +59,21 @@ const DEBOUNCE_DELAY = 300;
 window.onpopstate = (event) => {
   // console.log('popstate event', event.state);
   console.log('location:', window.location.hash.slice(1));
-  if (event.state && event.state.isSearchResults) {
+  if (event.state && event.state.type === 'results') {
+    console.log('results!');
     hide(textDiv);
     show(infoElement);
     show(matchesList);
     show(queryInfoElement);
-    queryInput.value = event.state.query;
+    // queryInput.value = event.state.query;
+  } else if (event.state && event.state.type === 'text') {
+    console.log('text!');
+    hide(infoElement);
+    hide(matchesList);
+    hide(queryInfoElement);
+    show(textDiv);
   } else {
+    console.log('popstate without type');
     hide(infoElement);
     hide(matchesList);
     hide(queryInfoElement);
@@ -140,12 +148,7 @@ fetch(ABBREVIATIONS_FILE).then((response) => {
 
 // Search whenever query or other input changes, with debounce delay
 queryInput.oninput = () => {
-  hide(matchesList);
-  hide(textDiv);
-  infoElement.textContent = '';
-  matchesList.textContent = '';
   const query = queryInput.value;
-  location.href = `${location.origin}#${query}`;
   if (query.length > 2) {
     // debounce text entry
     clearTimeout(timeout);
@@ -159,7 +162,6 @@ titleInput.oninput = speakerInput.oninput = genderInput.oninput =
   displayMatches;
 
 function doSearch(query) {
-  document.title = `Search Shakespeare: ${query}`;
   matchesList.textContent = '';
   startTime = window.performance.now();
 
@@ -197,12 +199,18 @@ function doSearch(query) {
 
 // Display a list of matched lines, stage directions and scene descriptions
 function displayMatches() {
-  hide(textDiv);
+  hide(infoElement);
   hide(matchesList);
-  hide(queryInfoElement);
   matchesList.textContent = '';
+  hide(queryInfoElement);
+  hide(textDiv);
   const filteredMatches = getFilteredMatches();
   if (filteredMatches.length > 0) {
+    const query = queryInput.value;
+    console.log('pushing URL:', `${window.location.origin}#${query}`);
+    history.pushState({type: 'results', query}, null,
+      `${window.location.origin}#${query}`);
+    document.title = `Shakespeare: ${query}`;
     show(infoElement);
     show(matchesList);
     show(queryInfoElement);
@@ -283,16 +291,12 @@ function displayInfo(message) {
 
 // Display the appropriate text and location when a user taps/clicks on a match
 function displayText(match) {
+  hide(infoElement);
   hide(matchesList);
-  infoElement.textContent = '';
-  queryInfoElement.textContent = '';
-  const query = queryInput.value;
-  // add history entry for the query when the user has tapped/clicked a match
-  history.pushState({isSearchResults: true, query}, null,
-    `${window.location.origin}#${query}`);
+  hide(queryInfoElement);
   // match.l is a citation within a play or poem, e.g. Ham.3.3.2, Son.4.11, Ven.140
   // scene title matches only have act and scene number, e.g. Ham.3.3
-  history.pushState({isSearchResults: false}, null,
+  history.pushState({type: 'text'}, null,
     `${window.location.origin}#${match.l}`);
   document.title = `Search Shakespeare: ${match.l}`;
   const location = match.l.split('.');
@@ -317,8 +321,6 @@ function addWordSearch(hoverEvent) {
     el.innerHTML = el.innerText.replace(/([\w]+)/g, '<span>$1</span>');
     el.onclick = (spanClickEvent) => {
       const word = spanClickEvent.target.textContent;
-      history.pushState({isSearchResults: true}, null,
-        `${window.location.origin}#${word}`);
       queryInput.value = word;
       doSearch(word);
       window.scrollTo(0, 127); // to display search input

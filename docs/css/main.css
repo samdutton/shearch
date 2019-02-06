@@ -1,6 +1,6 @@
 .hidden {
   height: 0; /* to enable opacity transition: doesn't work if setting display */
-  margin: 0;
+  margin: 0 !important;
   opacity: 0;
   overflow: hidden;
   padding: 0 !important;
