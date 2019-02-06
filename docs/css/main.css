@@ -59,6 +59,7 @@ div#credit {
   border-top: 1px solid rgb(200, 63, 63);
   border-top: 1px solid rgba(200, 63, 63, 0.5);
   color: #666 !important;
+  line-height: 2em;
   padding: 20px 0 0 0;
 }
 
