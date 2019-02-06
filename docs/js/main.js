@@ -323,7 +323,7 @@ function addWordSearch(hoverEvent) {
       const word = spanClickEvent.target.textContent;
       queryInput.value = word;
       doSearch(word);
-      window.scrollTo(0, 127); // to display search input
+      window.scrollTo(0, 0); 
     };
   }
 }
