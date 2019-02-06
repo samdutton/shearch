@@ -158,8 +158,12 @@ queryInput.oninput = () => {
   }
 };
 
-titleInput.oninput = speakerInput.oninput = genderInput.oninput =
-  displayMatches;
+// Filter matches, if displayed.
+titleInput.oninput = speakerInput.oninput = genderInput.oninput = () => {
+  if (matches && matches.length < 0) {
+    displayMatches();
+  }
+};
 
 function doSearch(query) {
   matchesList.textContent = '';
