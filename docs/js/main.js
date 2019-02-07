@@ -100,7 +100,7 @@ fetch(INDEX_FILE).then((response) => {
   queryInput.disabled = false;
   if (location.hash) {
     if (location.hash.includes('.')) {
-      // open text
+      console.log('abbreviations', abbreviations);
     } else {
       const query = unescape(location.hash.slice(1));
       queryInput.value = query;
@@ -293,9 +293,11 @@ function displayText(match) {
   hide(queryInfoElement);
   // match.l is a citation within a play or poem, e.g. Ham.3.3.2, Son.4.11, Ven.140
   // scene title matches only have act and scene number, e.g. Ham.3.3
+  console.log('match', match);
   history.pushState({type: 'text'}, null,
-    `${window.location.origin}#${match.l}`);
-  document.title = `Search Shakespeare: ${match.l}`;
+    `${window.location.origin}#${formatCitation(match)}`);
+  document.title =
+    `Search Shakespeare: ${formatCitation(match)}`;
   const location = match.l.split('.');
   const text = location[0];
   fetch(`${HTML_DIR}${text}.html`).then((response) => {

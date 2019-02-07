@@ -153,6 +153,7 @@ h4::before {
 
 html {
   height: 100%;
+  overflow-y: scroll;
 }
 
 iframe {
