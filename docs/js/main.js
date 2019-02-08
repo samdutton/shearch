@@ -75,9 +75,9 @@ window.onpopstate = (event) => {
   }
 };
 
-// window.onhashchange = function(event) {
-//   console.log('hashchange event', event.state);
-// };
+window.onhashchange = function(event) {
+  handleHashValue();
+};
 
 // window.onbeforeunload = function(event) {
 //   console.log('beforeunload event', event);
@@ -98,30 +98,10 @@ fetch(INDEX_FILE).then((response) => {
   index = elasticlunr.Index.load(json);
   console.timeEnd('Load index');
   queryInput.disabled = false;
+  // If the location has a hash value, either do a search or load a text,
+  // depending on the value, e.g. shearch.me#brazen or shearch.me#ado.3.2.1
   if (location.hash) {
-    // If the hash value is just the name of a text, or abbreviation, open it.
-    const hashValue = decodeURI(location.hash.slice(1));
-    const test = (item) => item.toLowerCase() === hashValue.toLowerCase();
-    const abbreviationFound = Object.keys(abbreviations).findIndex(test);
-    const titleFound = Object.values(abbreviations).findIndex(test);
-    if (abbreviationFound !== -1 || titleFound !== -1) {
-      console.log('open text:', hashValue);
-      // Open the file — filenames use the abbreviations
-      const fileName = abbreviationFound !== -1 ?
-        Object.keys(abbreviations)[abbreviationFound] :
-        Object.keys(abbreviations)[titleFound];
-      fetch(`${HTML_DIR}${fileName}.html`).then((response) => {
-        return response.text();
-      }).then((html) => {
-        textDiv.innerHTML = html;
-        textDiv.onmouseover = addWordSearch;
-        show(textDiv);
-        // highlightMatch(match, location);
-      });
-    } else {
-      queryInput.value = hashValue;
-      doSearch(hashValue);
-    }
+    handleHashValue();
   } else {
     queryInput.placeholder = 'Enter search text';
   }
@@ -175,6 +155,36 @@ titleInput.oninput = speakerInput.oninput = genderInput.oninput = () => {
     displayMatches();
   }
 };
+
+// Handle URLs with a hash value: load a search result or text. For example:
+// • shearch.me#brazen      Search for 'brazen'
+// • shearch.me#ado         Load Much Ado About Nothing
+// • shearch.me#ado.3.2.1   Load Much Ado About Nothing, act 3, scene 2, line 1
+function handleHashValue() {
+  // If the hash value is just the name of a text, or abbreviation, open it.
+  const hashValue = decodeURI(location.hash.slice(1));
+  const test = (item) => item.toLowerCase() === hashValue.toLowerCase();
+  const abbreviationIndex = Object.keys(abbreviations).findIndex(test);
+  const titleIndex = Object.values(abbreviations).findIndex(test);
+  if (abbreviationIndex !== -1 || titleIndex !== -1) {
+    console.log('>>> open text:', hashValue);
+    const fileName = abbreviationIndex !== -1 ?
+      Object.keys(abbreviations)[abbreviationIndex] :
+      Object.keys(abbreviations)[titleIndex];
+    fetch(`${HTML_DIR}${fileName}.html`).then((response) => {
+      return response.text();
+    }).then((html) => {
+      textDiv.innerHTML = html;
+      textDiv.onmouseover = addWordSearch;
+      show(textDiv);
+      queryInput.placeholder = 'Enter search text';
+      // highlightMatch(match, location);
+    });
+  } else {
+    queryInput.value = hashValue;
+    doSearch(hashValue);
+  }
+}
 
 function doSearch(query) {
   matchesList.textContent = '';
