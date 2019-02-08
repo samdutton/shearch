@@ -1,0 +1,17 @@
+Circular icon
+Add line numbers to poems
+
+button {
+  background-color: #d84a38;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8em;
+  margin: 0 1em 1em 0;
+  padding: 0.7em 0.9em 0.7em 0.9em;
+}
+
+button[disabled] {
+  background-color: rgba(216, 74, 56, 0.7);
+}
