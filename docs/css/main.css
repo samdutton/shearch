@@ -24,6 +24,15 @@ div#credit a:hover {
   text-decoration: underline;
 }
 
+h1 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 a:hover {
+  color: rgba(200, 63, 63, 1);
+}
+
 body {
   color: #444;
   counter-reset: line-number;

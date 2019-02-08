@@ -99,12 +99,28 @@ fetch(INDEX_FILE).then((response) => {
   console.timeEnd('Load index');
   queryInput.disabled = false;
   if (location.hash) {
-    if (location.hash.includes('.')) {
-      console.log('abbreviations', abbreviations);
+    // If the hash value is just the name of a text, or abbreviation, open it.
+    const hashValue = decodeURI(location.hash.slice(1));
+    const test = (item) => item.toLowerCase() === hashValue.toLowerCase();
+    const abbreviationFound = Object.keys(abbreviations).findIndex(test);
+    const titleFound = Object.values(abbreviations).findIndex(test);
+    if (abbreviationFound !== -1 || titleFound !== -1) {
+      console.log('open text:', hashValue);
+      // Open the file — filenames use the abbreviations
+      const fileName = abbreviationFound !== -1 ?
+        Object.keys(abbreviations)[abbreviationFound] :
+        Object.keys(abbreviations)[titleFound];
+      fetch(`${HTML_DIR}${fileName}.html`).then((response) => {
+        return response.text();
+      }).then((html) => {
+        textDiv.innerHTML = html;
+        textDiv.onmouseover = addWordSearch;
+        show(textDiv);
+        // highlightMatch(match, location);
+      });
     } else {
-      const query = unescape(location.hash.slice(1));
-      queryInput.value = query;
-      doSearch(query);
+      queryInput.value = hashValue;
+      doSearch(hashValue);
     }
   } else {
     queryInput.placeholder = 'Enter search text';
@@ -322,7 +338,7 @@ function addWordSearch(hoverEvent) {
       const word = spanClickEvent.target.textContent;
       queryInput.value = word;
       doSearch(word);
-      window.scrollTo(0, 0); 
+      window.scrollTo(0, 0);
     };
   }
 }
