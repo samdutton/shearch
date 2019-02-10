@@ -244,57 +244,60 @@ ol#matches li::after {
   line-height: 1.4em;
   margin-bottom: 2px;
   margin-left: var(--margin-left);
-  padding: 0 30px 0 0;
+  padding: 0 0 0 0;
   text-indent: -10px;
 }
 
-.scene li[data-offset="1"] {
+.scene li[data-o="1"] {
   margin-left: calc(var(--margin-left) + 1 * var(--offset));
 }
 
-.scene li[data-offset="2"] {
+.scene li[data-o="2"] {
   margin-left: calc(var(--margin-left) + 2 * var(--offset));
 }
 
-.scene li[data-offset="3"] {
+.scene li[data-o="3"] {
   margin-left: calc(var(--margin-left) + 3 * var(--offset));
 }
 
-.scene li[data-offset="4"] {
+.scene li[data-o="4"] {
   margin-left: calc(var(--margin-left) + 4 * var(--offset));
 }
 
-.scene li[data-offset="5"] {
+.scene li[data-o="5"] {
   margin-left: calc(var(--margin-left) + 5 * var(--offset));
 }
 
-.scene li[data-offset="6"] {
+.scene li[data-o="6"] {
   margin-left: calc(var(--margin-left) + 6 * var(--offset));
 }
 
-.scene li[data-offset="7"] {
+.scene li[data-o="7"] {
   margin-left: calc(var(--margin-left) + 7 * var(--offset));
 }
 
-.scene li[data-offset="8"] {
+.scene li[data-o="8"] {
   margin-left: calc(var(--margin-left) + 8 * var(--offset));
 }
 
-.scene li[data-offset="9"] {
+.scene li[data-o="9"] {
   margin-left: calc(var(--margin-left) + 9 * var(--offset));
 }
 
-.scene li[data-offset="10"] {
+.scene li[data-o="10"] {
   margin-left: calc(var(--margin-left) + 10 * var(--offset));
 }
 
-.scene li[data-number]::after {
+.scene li[data-n$="0"]::after,
+.scene li[data-n$="5"]::after,
+p[data-n$="0"]::after,
+p[data-n$="5"]::after {
   color: #aaa;
-  content: attr(data-number);
+  content: attr(data-n);
   float: right;
   font-size: 12px;
-  left: 30px;
-  position: relative;
+  padding: 0 0 0 20px;
+  text-align: right;
 }
 
 .scene li.stage-direction {
@@ -308,9 +311,9 @@ ol#matches li::after {
   text-indent: 20px;
 }
 
-ol[data-speaker]::before {
+ol[data-s]::before {
   color: black;
-  content: attr(data-speaker);
+  content: attr(data-s);
   display: block;
   font-size: 13px;
   letter-spacing: 1px;
@@ -489,7 +492,7 @@ summary {
 
     font-size: 16px;
     margin-left: var(--margin-left);
-    padding: 0 30px 0 32px;
+    padding: 0 0 0 32px;
     text-indent: -20px;
   }
 
