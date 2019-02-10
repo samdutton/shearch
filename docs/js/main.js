@@ -381,7 +381,7 @@ function addWordSearch(hoverEvent) {
 }
 
 // Highlight a line within a text, given a citation.
-// For example: ham.3.2.1, son.12.12, ven.172
+// For example: ham.3.2.1, son.7.11, ven.99
 // Play citations have an act, scene and line number;
 // sonnets have a number and a line; poems only have a line number.
 function highlightCitation(citation) {
@@ -389,7 +389,7 @@ function highlightCitation(citation) {
   // const location = citation.split(/\.(.+)/)[1];
   let line;
   if (citationArray.length === 4) {
-    // Text is a play.
+    // Text is a play, e.g ham.3.2.1
     const actNumber = citationArray[1];
     const sceneNumber = citationArray[2];
     const lineNumber = citationArray[3];
@@ -402,7 +402,24 @@ function highlightCitation(citation) {
         line = scene.querySelector(`li[data-n$="${lineNumber}"]`);
       }
     }
+  } else if (citationArray.length === 3) {
+    // Text is a sonnet, e.g. son.7.11
+    const sonnetNumber = citationArray[1];
+    const lineNumber = citationArray[2];
+    console.log('sonnetNumber, lineNumber', sonnetNumber, lineNumber);
+    const sonnet = document.querySelectorAll('section.poem')[sonnetNumber - 1];
+    console.log('sonnet', sonnet);
+    if (sonnet) {
+      line = sonnet.querySelector(`li[data-n$="${lineNumber}"]`);
+    }
+  } else if (citationArray.length === 2) {
+    // Text is a poem, e.g. ven.99
+    const lineNumber = citationArray[1];
+    // Poems use paragraph elements.
+    // (They're often broken into so many parts that lists become unwieldy.)
+    line = document.querySelector(`p[data-n$="${lineNumber}"]`);
   }
+
   if (line) {
     line.classList.add('highlight');
     line.scrollIntoView({block: 'center'});

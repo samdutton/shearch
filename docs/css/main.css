@@ -288,8 +288,8 @@ ol#matches li::after {
   margin-left: calc(var(--margin-left) + 10 * var(--offset));
 }
 
-.scene li[data-n$="0"]::after,
-.scene li[data-n$="5"]::after,
+li[data-n$="0"]::after,
+li[data-n$="5"]::after,
 p[data-n$="0"]::after,
 p[data-n$="5"]::after {
   color: #aaa;
