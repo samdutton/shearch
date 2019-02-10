@@ -99,7 +99,8 @@ fetch(INDEX_FILE).then((response) => {
   console.timeEnd('Load index');
   queryInput.disabled = false;
   // If the location has a hash value, either do a search or load a text,
-  // depending on the value, e.g. shearch.me#brazen or shearch.me#ado.3.2.1
+  // depending on the value. For example: shearch.me#brazen,
+  // shearch.me#Hamlet, shearch.me#ham or shearch.me#ham.3.2.1
   if (location.hash) {
     handleHashValue();
   } else {
@@ -190,12 +191,21 @@ function handleHashValue() {
   // Test if the hash value looks like a location, e.g. shearch.me#ham.3.2.1
   // If so, open text and attempt to set location
   if (hashValue.indexOf('.' !== -1)) {
-    const possibleAbbreviation = hashValue.split('.')[0].toLowerCase();
-    const test = (item) => item.toLowerCase() === possibleAbbreviation;
+    const abbreviation = hashValue.split('.')[0].toLowerCase();
+    const test = (item) => item.toLowerCase() === abbreviation;
     const abbreviationIndex = Object.keys(abbreviations).findIndex(test);
     if (abbreviationIndex !== -1) {
-      console.log('>>> Hash is a citation:', hashValue);
       // Display text and set location from hash value
+      fetch(`${HTML_DIR}${abbreviation}.html`).
+        then((response) => {
+          return response.text();
+        }).then((html) => {
+          textDiv.innerHTML = html;
+          textDiv.onmouseover = addWordSearch;
+          show(textDiv);
+          queryInput.placeholder = 'Enter search text';
+          highlightCitation(hashValue);
+        });
       return;
     }
   }
@@ -370,17 +380,50 @@ function addWordSearch(hoverEvent) {
   }
 }
 
+// Highlight a line within a text, given a citation.
+// For example: ham.3.2.1, son.12.12, ven.172
+// Play citations have an act, scene and line number;
+// sonnets have a number and a line; poems only have a line number.
+function highlightCitation(citation) {
+  const citationArray = citation.split('.');
+  // const location = citation.split(/\.(.+)/)[1];
+  let line;
+  if (citationArray.length === 4) {
+    // Text is a play.
+    const actNumber = citationArray[1];
+    const sceneNumber = citationArray[2];
+    const lineNumber = citationArray[3];
+    console.log('citation:', actNumber, sceneNumber, lineNumber);
+    const act = document.querySelectorAll('.act')[actNumber - 1];
+    // Citation may not be valid, so need to check for act, scene and line.
+    if (act) {
+      const scene = act.querySelectorAll('section.scene')[sceneNumber - 1];
+      if (scene) {
+        line = scene.querySelector(`li[data-n$="${lineNumber}"]`);
+      }
+    }
+  }
+  if (line) {
+    line.classList.add('highlight');
+    line.scrollIntoView({block: 'center'});
+  } else {
+    infoElement.textContent = `Citation ${citation} not found`;
+    show(infoElement);
+  }
+}
+
 function highlightMatch(match, location) {
-  // matches with either s (speaker) or r (role) properties are plays
+  // Matches with either s (speaker) or r (role) properties are plays.
   if (match.s || match.r) {
     const actIndex = location[1];
     const sceneIndex = location[2];
     const act = textDiv.querySelectorAll('.act')[actIndex];
     const scene = act.querySelectorAll('section.scene')[sceneIndex];
-    // text matches are lines, scene titles or stage directions
-    if (match.s) { // if the match has a speaker (match.s) it's a spoken line
+    // Text matches are lines, scene titles or stage directions.
+    // If the match has a speaker (match.s) it's a spoken line.
+    if (match.s) {
       const lineIndex = location[3];
-      // some list items in speeches are stage directions
+      // Some list items in speeches are stage directions.
       highlightLine(scene, 'li:not(.stage-direction)', lineIndex);
     } else if (match.r === 's') { // match is a stage direction
       highlightLine(scene, '.stage-direction', match.i);
