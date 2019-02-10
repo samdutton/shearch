@@ -17,9 +17,9 @@ limitations under the License.
 -->
 
 <html lang="en">
-
+  
   <head>
-
+    
     <meta charset="utf-8">
     <meta name="description" content="Full text search for Shakespeare's plays and poems.">
     <meta name="author" content="//samdutton.com">
@@ -27,54 +27,56 @@ limitations under the License.
     <meta itemprop="name" content="Full text search for Shakespeare's plays and poems.">
     <meta itemprop="image" content="images/icons/icon192.png">
     <meta id="theme-color" name="theme-color" content="#fff">
-
+    
     <link rel="icon" href="images/icons/icon192.png">
     <link rel="manifest" href="manifest.json">
-
+    
     <title>Search Shakespeare</title>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-33848682-1"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
+    
+    <link rel="stylesheet" href="css/main.css" />
+    
+  </head>
+  
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
 function gtag() {
-  window.dataLayer.push(arguments);
+  // eslint-disable-next-line
+  dataLayer.push(arguments);
 }
 gtag('js', new Date());
-gtag('config', 'UA-33848682-1');
+
+gtag('config', 'GA_TRACKING_ID');
 </script>
-
-    <link rel="stylesheet" href="css/main.css" />
-
-  </head>
-
+  
   <body>
-
+    
     <div id="container">
-
+      
       <h1><a href="/" title="Return to home page">Search Shakespeare</a></h1>
-
+      
       <div id="query-container">
-
+        
         <!-- <label for="query">Search:</label> -->
         <input id="query" placeholder="Loading..." autocomplete="on" disabled>
-
+        
         <details id="searchOptions">
-
+        
         <summary>Search options</summary>
-
+        
         <div>
           <label for="title">Play or poem: </label>
           <input type="text" id="title" list="titles">
           <datalist id="titles"></datalist>
         </div>
-
+        
         <div>
           <label for="speaker">Speaker: </label>
           <input id="speaker"  title="One speaker name" type="text" list="speakers">
           <datalist id="speakers"></datalist>
         </div>
-
+        
         <div>
           <label for="gender">Gender: </label>
           <select id="gender">
@@ -83,18 +85,18 @@ gtag('config', 'UA-33848682-1');
             <option>female</option>
           </select>
         </div>
-
+        
         </details>
-
+        
         <div id="info"></div>
         <div id="query-info"></div>
-
+        
       </div>
-
+      
     <ol id="matches" class="hidden" ></ol>
-
+    
     <div class="hidden" id="text"></div>
-
+    
     <div id="credit">
       <span>❧</span> Texts provided by: <a href="https://www.playshakespeare.com/">PlayShakespeare.com</a>
       <br>
@@ -102,12 +104,12 @@ gtag('config', 'UA-33848682-1');
       <br>
       <span>❧</span> Feedback: <a href="https://github.com/samdutton/shearch/issues/new">Make a suggestion</a>!
     </div>
-
+    
   </div>
-
+  
   <script src="js/third-party/elasticlunr.min.js"></script>
   <script src="js/main.js"></script>
-
+  
 </body>
 
 </html>

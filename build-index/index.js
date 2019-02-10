@@ -27,11 +27,11 @@ const PLAY_DIR = 'plays-ps';
 const POEM_DIR = 'poems-ps';
 const TEXTS_DIR = '../third-party/';
 
-const DOCS_FILE = '../client/data/docs.json';
+const DOCS_FILE = '../docs/data/docs.json';
 const CREATE_DOCS_FILE = true;
 const CREATE_INDEX = true;
-const INDEX_FILE = '../client/data/index.json';
-const DATALISTS_FILE = '../client/data/datalists.json';
+const INDEX_FILE = '../docs/data/index.json';
+const DATALISTS_FILE = '../docs/data/datalists.json';
 
 const docs = [];
 let docNum = 0;

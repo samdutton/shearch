@@ -158,16 +158,21 @@ titleInput.oninput = speakerInput.oninput = genderInput.oninput = () => {
 
 // Handle URLs with a hash value: load a search result or text. For example:
 // • shearch.me#brazen      Search for 'brazen'
-// • shearch.me#ado         Load Much Ado About Nothing
-// • shearch.me#ado.3.2.1   Load Much Ado About Nothing, act 3, scene 2, line 1
+// • shearch.me#ham         Load Hamlet
+// • shearch.me#Hamlet      Load Hamlet
+// • shearch.me#ham.3.2.1   Load Hamlet, act 3, scene 2, line 1
 function handleHashValue() {
-  // If the hash value is just the name of a text, or abbreviation, open it.
   const hashValue = decodeURI(location.hash.slice(1));
-  const test = (item) => item.toLowerCase() === hashValue.toLowerCase();
-  const abbreviationIndex = Object.keys(abbreviations).findIndex(test);
-  const titleIndex = Object.values(abbreviations).findIndex(test);
+  // If the hash value is the name of a text or an abbreviation, open it.
+  // For example: shearch.me#ham or shearch.me#hamlet
+  const exactMatchTest = (item) =>
+    item.toLowerCase() === hashValue.toLowerCase();
+  const abbreviationIndex =
+    Object.keys(abbreviations).findIndex(exactMatchTest);
+  const titleIndex =
+    Object.values(abbreviations).findIndex(exactMatchTest);
   if (abbreviationIndex !== -1 || titleIndex !== -1) {
-    console.log('>>> open text:', hashValue);
+    console.log('>>> Hash is a text:', hashValue);
     const fileName = abbreviationIndex !== -1 ?
       Object.keys(abbreviations)[abbreviationIndex] :
       Object.keys(abbreviations)[titleIndex];
@@ -179,11 +184,24 @@ function handleHashValue() {
       show(textDiv);
       queryInput.placeholder = 'Enter search text';
       // highlightMatch(match, location);
+      return;
     });
-  } else {
-    queryInput.value = hashValue;
-    doSearch(hashValue);
   }
+  // Test if the hash value looks like a location, e.g. shearch.me#ham.3.2.1
+  // If so, open text and attempt to set location
+  if (hashValue.indexOf('.' !== -1)) {
+    const possibleAbbreviation = hashValue.split('.')[0].toLowerCase();
+    const test = (item) => item.toLowerCase() === possibleAbbreviation;
+    const abbreviationIndex = Object.keys(abbreviations).findIndex(test);
+    if (abbreviationIndex !== -1) {
+      console.log('>>> Hash is a citation:', hashValue);
+      // Display text and set location from hash value
+      return;
+    }
+  }
+  // Otherwise hash value is just a query, e.g. shearch.me#brazen
+  queryInput.value = hashValue;
+  doSearch(hashValue);
 }
 
 function doSearch(query) {
@@ -319,7 +337,6 @@ function displayText(match) {
   hide(queryInfoElement);
   // match.l is a citation within a play or poem, e.g. Ham.3.3.2, Son.4.11, Ven.140
   // scene title matches only have act and scene number, e.g. Ham.3.3
-  console.log('match', match);
   history.pushState({type: 'text'}, null,
     `${window.location.origin}#${formatCitation(match)}`);
   document.title =
