@@ -1,3 +1,5 @@
+Factor out fetch(`${HTML_DIR}
+
 Add line numbers for offset lines only once.
 
 

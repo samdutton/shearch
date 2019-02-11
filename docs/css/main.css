@@ -36,7 +36,7 @@ h1 a:hover {
 body {
   color: #444;
   counter-reset: line-number;
-  font-family: Palatino, sans-serif;
+  font-family: Google Sans, sans-serif;
   margin: 0;
   padding: 30px 20px;
   word-break: break-word;
@@ -101,6 +101,7 @@ div#query-info {
 
 div#text {
   border-top: 1px solid #eee;
+  font-family: Palatino, serif;
   padding: 38px 0 0 0;
 }
 
@@ -177,7 +178,7 @@ iframe {
 
 input {
   color: black;
-  font-family: Palatino, sans-serif;
+  font-family: Google Sans, sans-serif;
   font-size: 18px;
   font-weight: 300;
   padding: 8px;
@@ -333,6 +334,7 @@ ol.speech {
 ol#matches {
   border-bottom: 1px solid rgb(200, 63, 63);
   border-bottom: 1px solid rgba(200, 63, 63, 0.5);
+  font-family: Palatino, serif;
   max-height: calc(100% - 170px);
   padding: 10px 0 10px 0;
 }

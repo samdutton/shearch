@@ -164,7 +164,7 @@ titleInput.oninput = speakerInput.oninput = genderInput.oninput = () => {
 // • shearch.me#ham.3.2.1   Load Hamlet, act 3, scene 2, line 1
 function handleHashValue() {
   const hashValue = decodeURI(location.hash.slice(1));
-  // If the hash value is the name of a text or an abbreviation, open it.
+  // If the whole hash value is the name of a text or an abbreviation, open it.
   // For example: shearch.me#ham or shearch.me#hamlet
   const exactMatchTest = (item) =>
     item.toLowerCase() === hashValue.toLowerCase();
@@ -184,13 +184,10 @@ function handleHashValue() {
       textDiv.onmouseover = addWordSearch;
       show(textDiv);
       queryInput.placeholder = 'Enter search text';
-      // highlightMatch(match, location);
-      return;
     });
-  }
-  // Test if the hash value looks like a location, e.g. shearch.me#ham.3.2.1
-  // If so, open text and attempt to set location
-  if (hashValue.indexOf('.' !== -1)) {
+    // Otherwise test if the hash value is a citation, e.g. shearch.me#ham.3.2.1.
+    // If so, open text and attempt to set location
+  } else if (hashValue.indexOf('.') !== -1) {
     const abbreviation = hashValue.split('.')[0].toLowerCase();
     const test = (item) => item.toLowerCase() === abbreviation;
     const abbreviationIndex = Object.keys(abbreviations).findIndex(test);
@@ -206,12 +203,12 @@ function handleHashValue() {
           queryInput.placeholder = 'Enter search text';
           highlightCitation(hashValue);
         });
-      return;
     }
+  } else {
+    // Otherwise treat the hash value as a query, e.g. shearch.me#brazen
+    queryInput.value = hashValue;
+    doSearch(hashValue);
   }
-  // Otherwise hash value is just a query, e.g. shearch.me#brazen
-  queryInput.value = hashValue;
-  doSearch(hashValue);
 }
 
 function doSearch(query) {
@@ -338,6 +335,7 @@ function addMatch(match) {
 
 function displayInfo(message) {
   infoElement.textContent = message;
+  show(infoElement);
 }
 
 // Display the appropriate text and location when a user taps/clicks on a match
