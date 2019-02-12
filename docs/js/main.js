@@ -173,7 +173,6 @@ function handleHashValue() {
   const titleIndex =
     Object.values(abbreviations).findIndex(exactMatchTest);
   if (abbreviationIndex !== -1 || titleIndex !== -1) {
-    console.log('>>> Hash is a text:', hashValue);
     const fileName = abbreviationIndex !== -1 ?
       Object.keys(abbreviations)[abbreviationIndex] :
       Object.keys(abbreviations)[titleIndex];
@@ -212,7 +211,6 @@ function handleHashValue() {
 }
 
 function doSearch(query) {
-  console.log('query, SEARCH_OPTIONS', query, SEARCH_OPTIONS);
   matchesList.textContent = '';
   startTime = window.performance.now();
   console.time(`Do search for ${query}`);
@@ -224,9 +222,9 @@ function doSearch(query) {
   show(matchesList); // show search results (matches)
 
   // sort by play or poem name: doc.l is location
-  matches = matches.sort((a, b) => {
-    return a.doc.l.localeCompare(b.doc.l);
-  });
+  // matches = matches.sort((a, b) => {
+  //   return a.doc.l.localeCompare(b.doc.l);
+  // });
 
   // prefer exact matches — already done if SEARCH_OPTIONS expand is false
   matches = matches.sort((a, b) => {
@@ -475,7 +473,10 @@ function formatCitation(match) {
     const actNum = +actIndex + 1; // use + to make integer
     const sceneIndex = location[2];
     const sceneNum = +sceneIndex + 1;
-    return `${text}.${actNum}.${sceneNum}.${match.n}`;
+    // Add line number (for lines rather than stage directions)
+    console.log('>>>> match.n', match.n);
+    return match.n ? `${text}.${actNum}.${sceneNum}.${match.n}` :
+      `${text}.${actNum}.${sceneNum}`;
     // return lineIndex ? `${text}.${actNum}.${sceneNum}.${+lineIndex + 1}` :
     //  `${text}.${actNum}.${sceneNum}`;
   } else {
