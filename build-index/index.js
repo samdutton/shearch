@@ -113,8 +113,9 @@ function addPlay(filename, document) {
         const lines = speech.getElementsByTagName('line');
         // stage directions are added separately above, even if within a speech
         for (const line of lines) {
-          addDoc(`${location}.${lineIndex++}`,
-            fix(line.textContent), {s: speaker, g: genders[speaker]});
+          const lineNumber = line.getAttribute('number');
+          addDoc(`${location}.${lineIndex++}`, fix(line.textContent),
+            {s: speaker, g: genders[speaker], n: lineNumber});
         }
       }
     }
@@ -125,11 +126,11 @@ function addSpeakers(document) {
   const personas = document.getElementsByTagName('persona');
   for (const persona of personas) {
     const speaker = {};
-    speaker.gender = persona.getAttribute('gender');
+    speaker.g = persona.getAttribute('gender');
     const persname = persona.firstElementChild;
-    speaker.name = persname.textContent;
+    speaker.n = persname.textContent;
     speakers.push(speaker);
-    genders[speaker.name] = speaker.gender;
+    genders[speaker.n] = speaker.g;
   }
 }
 
@@ -162,12 +163,12 @@ function addSonnets(document) {
   }
 }
 
-// Each 'document' in the data store is a line from a play or poem
+// Each 'document' in the data store is either a line from a play or poem,
 // or a stage direction or scene description
 function addDoc(location, text, options) {
   const doc = {
     // n is the ID of the document: a number in base 36
-    n: (docNum++).toString(36), // base 36 to minimise length/storage of n
+    i: (docNum++).toString(36), // base 36 to minimise length/storage of n
     l: location,
     t: text,
   };

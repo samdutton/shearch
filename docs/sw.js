@@ -14,48 +14,20 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-const CACHE_VERSION = 'v1.2';
+/* global importScripts workbox */
 
-const FILES = [
-  'index.html',
-  'css/main.css',
-  'data/index.json',
-  'js/main.js',
-  'js/third-party/elasticlunr.min.js'
-];
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.6.1/workbox-sw.js');
 
-self.addEventListener('install', (event) => {
-  console.log('Service worker:', event);
-  event.waitUntil(installHandler(event));
-});
-
-self.addEventListener('activate', (event) => {
-  console.log('Service worker:', event);
-  clients.claim();
-});
-
-self.addEventListener('fetch', (event) => {
-  // console.log('Fetch:', event.request.url.split('/').pop().substring(0,40));
-  event.respondWith(fetchHandler(event.request));
-});
-
-/* eslint-disable */
-async function installHandler(event) { // eslint-disable-line
-  const cache = await caches.open('v1');
-  cache.addAll(FILES);
-  self.skipWaiting();
+if (workbox) {
+  console.log(`Yay! Workbox is loaded 🎉`);
+} else {
+  console.log(`Boo! Workbox didn't load 😬`);
 }
-/* eslint-enable */
 
-async function fetchHandler(request) {
-  const cache = await caches.open(CACHE_VERSION);
-  const cacheResult = await cache.match(request);
-  if (cacheResult) {
-    return cacheResult;
-  }
-  const fetchResult = await fetch(request);
-  if (fetchResult.ok) {
-    cache.put(request, fetchResult.clone());
-  }
-  return fetchResult;
-}
+workbox.routing.registerRoute(
+  /.*\.(?:css|html|json|js)/,
+  // Use cache but update in the background ASAP
+  workbox.strategies.staleWhileRevalidate({
+    cacheName: 'workbox-cache',
+  })
+);

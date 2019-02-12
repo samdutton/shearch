@@ -50,12 +50,15 @@ let startTime;
 let timeout = null;
 const DEBOUNCE_DELAY = 300;
 
-// if (navigator.serviceWorker) {
-//   navigator.serviceWorker.register('sw.js').catch(function(error) {
-//     console.error('Unable to register service worker.', error);
-//   });
-// }
+// Check that service workers are supported
+if ('serviceWorker' in navigator) {
+  // Use the window load event to keep the page load performant
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js');
+  });
+}
 
+// Handle navigation between search results and text display.
 window.onpopstate = (event) => {
   if (event.state && event.state.type === 'results') {
     hide(textDiv);
@@ -75,13 +78,10 @@ window.onpopstate = (event) => {
   }
 };
 
-window.onhashchange = function(event) {
-  handleHashValue();
-};
-
-// window.onbeforeunload = function(event) {
-//   console.log('beforeunload event', event);
-// };
+// Respond to URL hash changes.
+// A hash value is either a search query, text name/abbreviation or citation.
+// For example: shearch.me#brazen, shearch.me#hamlet, shearch.me#ham.3.2.1
+window.onhashchange = handleHashValue;
 
 // Get and load index data
 console.log('Fetching index...');
@@ -117,7 +117,7 @@ fetch(DATALISTS_FILE).then((response) => {
   datalists = json;
   for (const speaker of datalists.speakers) {
     const option = document.createElement('option');
-    option.value = speaker.name;
+    option.value = speaker.n;
     speakersDatalist.appendChild(option);
   }
   const titles = datalists.titles;
@@ -476,11 +476,7 @@ function formatCitation(match) {
     const actNum = +actIndex + 1; // use + to make integer
     const sceneIndex = location[2];
     const sceneNum = +sceneIndex + 1;
-    // const lineIndex = location[3]; // undef for stage dirs and scene titles
-    // TODO: add line numbers to index data. These are different from lineIndex,
-    // which is the index of the line within the HTML. In the meantime,
-    // for plays just display the text name, scene and act number :(.
-    return `${text}.${actNum}.${sceneNum}`;
+    return `${text}.${actNum}.${sceneNum}.${match.n}`;
     // return lineIndex ? `${text}.${actNum}.${sceneNum}.${+lineIndex + 1}` :
     //  `${text}.${actNum}.${sceneNum}`;
   } else {
