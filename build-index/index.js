@@ -167,7 +167,7 @@ function addSonnets(document) {
 // or a stage direction or scene description
 function addDoc(location, text, options) {
   const doc = {
-    // n is the ID of the document: a number in base 36
+    // i is the ID of the document: a number in base 36
     i: (docNum++).toString(36), // base 36 to minimise length/storage of n
     l: location,
     t: text,
@@ -185,7 +185,7 @@ function createIndex() {
     // this.addField('l'); // e.g. Ant.1.2.34
     // this.addField('s'); // speaker name
     this.addField('t'); // text of line, stage direction or scene title
-    this.setRef('n'); // index of indexed item
+    this.setRef('i'); // id of indexed item, an index in base 36
     this.saveDocument(true); // include data with index
     for (const doc of docs) {
       this.addDoc(doc);

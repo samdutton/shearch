@@ -27,7 +27,7 @@ const titlesDatalist = document.getElementById('titles');
 
 const SEARCH_OPTIONS = {
   fields: {
-    t: {},
+    t: {}, // search t field, no special options
   },
   bool: 'AND',
   expand: false, // true means matches are not whole-word-only
@@ -212,9 +212,9 @@ function handleHashValue() {
 }
 
 function doSearch(query) {
+  console.log('query, SEARCH_OPTIONS', query, SEARCH_OPTIONS);
   matchesList.textContent = '';
   startTime = window.performance.now();
-
   console.time(`Do search for ${query}`);
   matches = index.search(query, SEARCH_OPTIONS); // elasticlunr
   console.timeEnd(`Do search for ${query}`);
@@ -391,7 +391,6 @@ function highlightCitation(citation) {
     const actNumber = citationArray[1];
     const sceneNumber = citationArray[2];
     const lineNumber = citationArray[3];
-    console.log('citation:', actNumber, sceneNumber, lineNumber);
     const act = document.querySelectorAll('.act')[actNumber - 1];
     // Citation may not be valid, so need to check for act, scene and line.
     if (act) {
