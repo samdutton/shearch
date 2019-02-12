@@ -22,11 +22,8 @@ limitations under the License.
 <title>Page not found</title>
 </head>
 <body>
-___
-permalink: /404.html
----
 <script>
-location.pathname = '#' + location.pathname.replace(/^\/|\/$/g, '');
+location.href = `https://shearch.me#${location.pathname.replace(/^\/|\/$/g, '')}`;
 </script>
 </body>
 </html>
