@@ -74,21 +74,25 @@ const subtitleCloseRegex = /<\/subtitle>/gi;
 const tercetOpenRegex = /<tercet>/gi;
 const tercetCloseRegex = /<\/tercet>/gi;
 
-let numFilesToProcess = 0;
+let numFiles = 0;
+let numFilesToParse = 0;
+let numFilesToWrite = 0;
 
 // Parse each file in the directory of texts
 recursive(TEXTS_DIR).then((filepaths) => {
   filepaths = filepaths.filter((filename) => {
     return filename.match(/.+xml/); // filter out .DS_Store, etc.
   });
-  numFilesToProcess = filepaths.length;
+  numFiles = numFilesToParse = numFilesToWrite =
+    filepaths.length;
+  console.time(`Finished writing ${numFiles} files`);
   for (const filepath of filepaths) {
     parseText(filepath);
   }
 }).catch((error) => console.error(`Error reading from ${TEXTS_DIR}:`, error));
 
 function parseText(filepath) {
-  console.time('Parse texts');
+  console.time(`Time to parse ${numFiles} XML texts`);
   JSDOM.fromFile(filepath, {contentType: 'text/xml'})
     .then((dom) => {
       const filename = filepath.split('/').pop();
@@ -101,9 +105,9 @@ function parseText(filepath) {
         console.error(`Unexpected filepath ${filepath}`);
         return;
       }
-      console.log(`${numFilesToProcess} files to process`);
-      if (--numFilesToProcess === 0) {
-        console.timeEnd('Parse texts');
+      console.log(`${numFilesToParse} XML files to parse`);
+      if (--numFilesToParse === 0) {
+        console.timeEnd(`Time to parse ${numFiles} XML texts`);
       }
     }).catch((error) => {
       console.log(`Error creating DOM from ${filepath}`, error);
@@ -132,7 +136,12 @@ function parsePlay(filename, document) {
     html = ('' + top).replace('${title}', title) + html + bottom;
   }
   // html = minify(html);
-  writeFile(filename, html);
+
+  if (DO_VALIDATION) {
+    validateThenWrite(filename, html);
+  } else {
+    writeFile(filename, html);
+  }
 }
 
 function addPreamble(document) {
@@ -208,13 +217,13 @@ function addScene(scene) {
       html += addSpeech(child);
       break;
     case 'stagedir':
-      html += `<div class="stage-direction">${child.textContent}</div>\n\n`;
+      html += `<div class="direction-location">${child.textContent}</div>\n\n`;
       break;
     case 'scenetitle':
       html += `<h3>${child.textContent}</h3>\n\n`;
       break;
     case 'scenelocation':
-      html += `<h4>${child.textContent}</h4>\n\n`;
+      html += `<h4 class="direction-location">${child.textContent}</h4>\n\n`;
       break;
     case 'finis':
     case 'lb':
@@ -253,7 +262,7 @@ function addSpeech(speech) {
       hasNonZeroOffset = offsetAttribute && offsetAttribute !== '0';
       offset = hasNonZeroOffset ? ` data-o="${offsetAttribute}"` : '';
       const line = child.innerHTML.
-        replace(stageDirRegEx, '<span class="stage-direction">$1</span>');
+        replace(stageDirRegEx, '<span class="direction-location">$1</span>');
       html += `  <li${number}${offset}>${line}</li>\n`;
       break;
     case 'speaker':
@@ -261,7 +270,7 @@ function addSpeech(speech) {
       speakers.push(child.textContent);
       break;
     case 'stagedir':
-      html += `  <li class="stage-direction">${child.textContent}</li>\n`;
+      html += `  <li class="direction-location">${child.textContent}</li>\n`;
       break;
     case 'lb':
     case 'speech':
@@ -310,7 +319,7 @@ function addSonnets(document) {
     html = ('' + top).replace('${title}', 'Sonnets') + fix(html) + bottom;
   }
   // html = minify(html);
-  writeFile('Son.html', html);
+  validateThenWrite('Son.html', html);
 }
 
 function addSinglePoem(document, poemAbbreviation) {
@@ -328,7 +337,7 @@ function addSinglePoem(document, poemAbbreviation) {
     html = ('' + top).replace('${title}', title) + html + bottom;
   }
   // html = minify(html);
-  writeFile(`${poemAbbreviation}.html`, html);
+  validateThenWrite(`${poemAbbreviation}.html`, html);
 }
 
 function getPoemBody(document) {
@@ -370,16 +379,17 @@ function fix(html) {
 }
 
 function writeFile(filename, html) {
-  if (DO_VALIDATION) {
-    validate(filename, html);
+  console.log(`Created file ${filename}`);
+  console.log(`${numFilesToWrite} HTML file(s) to write`);
+  if (--numFilesToWrite === 0) {
+    console.timeEnd(`Finished writing ${numFiles} files`);
   }
-  console.log(`Writing file ${filename}`);
   mz.writeFile(OUTPUT_DIR + filename, html).
     catch((error) => console.error(`Error writing ${filename}:`, error));
 }
 
 // Check that a file contains valid HTML
-function validate(filename, html) {
+function validateThenWrite(filename, html) {
   const options = {
     data: html,
     format: 'text',
@@ -389,6 +399,9 @@ function validate(filename, html) {
   validator(options).then((data) => {
     if (data.includes('Error')) {
       console.error(filename, data);
+    } else {
+      console.log(`Validated ${filename}`);
+      writeFile(filename, html);
     }
   }).catch((error) => {
     console.error(`Error validating ${filename}:`, error);

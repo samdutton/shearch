@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-/* global importScripts workbox */
+/* global importScripts workbox  */
 
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.0.0-rc.0/workbox-sw.js');
 
@@ -27,7 +27,7 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.0.0-rc.0/wo
 workbox.routing.registerRoute(
   /.*\.(?:css|html|json|js)/,
   // Use cache but update in the background ASAP
-  workbox.strategies.staleWhileRevalidate({
+  new workbox.strategies.StaleWhileRevalidate({
     cacheName: 'workbox-cache',
   })
 );

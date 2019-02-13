@@ -141,12 +141,12 @@ fetch(ABBREVIATIONS_FILE).then((response) => {
 
 // Search whenever query or other input changes, with debounce delay
 queryInput.oninput = () => {
-  const query = queryInput.value;
-  if (query.length > 2) {
+  const value = queryInput.value;
+  if (value.length > 2) {
     // debounce text entry
     clearTimeout(timeout);
     timeout = setTimeout(() => {
-      doSearch(query);
+      doSearch(value);
     }, DEBOUNCE_DELAY);
   }
 };
@@ -256,7 +256,8 @@ function doSearch(query) {
   displayMatches(query);
 }
 
-// Display a list of matched lines, stage directions and scene descriptions
+// Display a list of matched lines, stage directions,
+// scene locations and scene descriptions
 function displayMatches() {
   hide(infoElement);
   hide(matchesList);
@@ -321,16 +322,16 @@ function addMatch(match) {
   const matchElement = document.createElement('li');
   matchElement.dataset.location = match.l; // location used to find match
   matchElement.dataset.citation = formatCitation(match); // displayed location
-  if (match.i) {
-    // stage direction matches have an index
-    matchElement.dataset.index = match.i;
+  if (match.x) {
+    // stage directions and scene location matches have an 'extras'index
+    matchElement.dataset.extra = match.x;
   } else if (match.s) {
     // add speaker name and gender, as used for search options
     matchElement.dataset.speaker = match.s;
     matchElement.dataset.gender = match.g;
   } else if (match.r && match.r === 's') {
-    // add classes for stage directions and scene titles (just for text styling)
-    matchElement.classList.add('stage-direction');
+    // add classe for stage directions and scene locations
+    matchElement.classList.add('direction-location');
   } else if (match.r && match.r === 't') {
     matchElement.classList.add('scene-title');
   }
@@ -348,6 +349,7 @@ function displayInfo(message) {
 
 // Display the appropriate text and location when a user taps/clicks on a match
 function displayText(match) {
+  console.log('>>> match', match);
   hide(creditElement);
   hide(infoElement);
   hide(matchesList);
@@ -413,7 +415,6 @@ function highlightCitation(citation) {
     // Text is a sonnet, e.g. son.7.11
     const sonnetNumber = citationArray[1];
     const lineNumber = citationArray[2];
-    console.log('sonnetNumber, lineNumber', sonnetNumber, lineNumber);
     const sonnet = document.querySelectorAll('section.poem')[sonnetNumber - 1];
     console.log('sonnet', sonnet);
     if (sonnet) {
@@ -426,7 +427,6 @@ function highlightCitation(citation) {
     // (They're often broken into so many parts that lists become unwieldy.)
     line = document.querySelector(`p[data-n$="${lineNumber}"]`);
   }
-
   if (line) {
     line.classList.add('highlight');
     line.scrollIntoView({block: 'center'});
@@ -444,14 +444,16 @@ function highlightMatch(match, location) {
     const act = textDiv.querySelectorAll('.act')[actIndex];
     const scene = act.querySelectorAll('section.scene')[sceneIndex];
     // Text matches are lines, scene titles or stage directions.
-    // If the match has a speaker (match.s) it's a spoken line.
     if (match.s) {
+      // If the match has a speaker (match.s) it's a spoken line.
       const lineIndex = location[3];
-      // Some list items in speeches are stage directions.
-      highlightLine(scene, 'li:not(.stage-direction)', lineIndex);
-    } else if (match.r === 's') { // match is a stage direction
-      highlightLine(scene, '.stage-direction', match.i);
-    } else if (match.r === 't') { // match is a scene title, only ever one
+      // List items in speech may be stage direction, scene location or title.
+      highlightLine(scene, 'li:not(.direction-location)', lineIndex);
+    } else if (match.r === 's') {
+    // The match is stage direction or scene location.
+      // match.x is the index for these 'extras'
+      highlightLine(scene, '.direction-location', match.x);
+    } else if (match.r === 't') { // match is scene title, only ever one
       highlightLine(scene, '.scene-description', 0);
     }
   } else { // match is a sonnet or other poem
@@ -470,6 +472,7 @@ function highlightMatch(match, location) {
 
 // Highlight a match in a play scene or in a poem
 function highlightLine(parent, selector, elementIndex) {
+  console.log(parent, selector, elementIndex);
   const element = parent.querySelectorAll(selector)[elementIndex];
   element.classList.add('highlight');
   element.scrollIntoView({block: 'center'});
@@ -486,7 +489,6 @@ function formatCitation(match) {
     const sceneIndex = location[2];
     const sceneNum = +sceneIndex + 1;
     // Add line number (for lines rather than stage directions)
-    console.log('>>>> match.n', match.n);
     return match.n ? `${text}.${actNum}.${sceneNum}.${match.n}` :
       `${text}.${actNum}.${sceneNum}`;
     // return lineIndex ? `${text}.${actNum}.${sceneNum}.${+lineIndex + 1}` :

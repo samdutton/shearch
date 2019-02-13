@@ -1,8 +1,10 @@
+Add option to search plays or poems or sonnets
+
+Add option to download all the texts
+
 Factor out fetch(`${HTML_DIR}
 
 Add line numbers for offset lines only once.
-
-Add 404.html: change location to `shearch.me#{$location.pathnametheString.replace(/^\/|\/$/g, '')}`
 
 Add exact match only
 

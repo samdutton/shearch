@@ -46,7 +46,7 @@ details div {
   margin: 0 0 20px 0;
 }
 
-div.stage-direction {
+div.direction-location {
   font-size: 14px;
   font-style: italic;
   line-height: 1.4em;
@@ -54,7 +54,7 @@ div.stage-direction {
   text-indent: -10px;
 }
 
-/* div.stage-direction + div.stage-direction {
+/* div.direction-location + div.direction-location {
   margin-top: -20px;
 } */
 
@@ -299,7 +299,7 @@ p[data-n$="5"]::after {
   text-align: right;
 }
 
-.scene li.stage-direction {
+.scene li.direction-location {
   color: black;
   counter-increment: none;
   font-style: italic;
@@ -429,7 +429,7 @@ span:hover {
   background-color: yellow;
 }
 
-span.stage-direction {
+span.direction-location {
   color: black;
   font-style: italic;
   line-height: 1.4em;
@@ -438,11 +438,11 @@ span.stage-direction {
   text-indent: 20px;
 }
 
-span.stage-direction::before {
+span.direction-location::before {
   content: '(';
 }
 
-span.stage-direction::after {
+span.direction-location::after {
   content: ')';
 }
 
@@ -466,7 +466,7 @@ summary {
 }
 
 @media (min-width: 450px) {
-  div.stage-direction {
+  div.direction-location {
     font-size: 16px;
     margin: 8px 0 8px 50px;
     text-indent: 30px;

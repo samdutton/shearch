@@ -101,10 +101,10 @@ function addPlay(filename, document) {
       // r signifies 'role', 't' signifies scene title (only one, so no index)
       addDoc(location, sceneTitle.textContent, {r: 't'});
       const extras = scene.querySelectorAll('stagedir, scenelocation');
-      let extraIndex = 0; // index for finding stage direction within scene
-      for (const extra of extras) {
-        // r signifies 'role', 's' signifies stagedir or scenelocation, i is index
-        addDoc(location, extra.textContent, {r: 's', i: extraIndex++});
+      for (let i = 0; i !== extras.length; ++i) {
+        // r signifies 'role', 's' signifies stagedir or scenelocation,
+        // x is the index of this element within its scene to enable highlighting
+        addDoc(location, extras[i].textContent, {r: 's', x: i});
       }
       const speeches = scene.getElementsByTagName('speech');
       for (const speech of speeches) {
