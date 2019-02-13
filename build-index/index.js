@@ -36,6 +36,7 @@ const DATALISTS_FILE = '../docs/data/datalists.json';
 const docs = [];
 let docNum = 0;
 const genders = {};
+let numFiles = 0;
 let numFilesToProcess = 0;
 const speakers = [];
 
@@ -44,7 +45,8 @@ recursive(TEXTS_DIR).then((filepaths) => {
   filepaths = filepaths.filter((filename) => {
     return filename.match(/.+xml/); // filter out .DS_Store, etc.
   });
-  numFilesToProcess = filepaths.length;
+  numFiles = numFilesToProcess = filepaths.length;
+  console.time(`Time to index ${numFiles} texts`);
   for (const filepath of filepaths) {
     addDocs(filepath);
   }
@@ -76,6 +78,7 @@ function addDocs(filepath) {
           console.time(`Index ${docs.length} docs`);
           createIndex(docs);
           console.timeEnd(`Index ${docs.length} docs`);
+          console.timeEnd(`Time to index ${numFiles} texts`);
         }
         createDatalists();
       }
@@ -213,7 +216,7 @@ function writeFile(filepath, string) {
     if (error) {
       return console.error(error);
     }
-    console.log(`The file ${filepath} was saved!`);
+    console.log(`Created ${filepath}`);
   });
 }
 
