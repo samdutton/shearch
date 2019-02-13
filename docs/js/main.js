@@ -14,6 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
+const creditElement = document.getElementById('credit');
 const genderInput = document.getElementById('gender');
 const infoElement = document.getElementById('info');
 const matchesList = document.getElementById('matches');
@@ -164,23 +165,28 @@ titleInput.oninput = speakerInput.oninput = genderInput.oninput = () => {
 // • shearch.me#ham.3.2.1   Load Hamlet, act 3, scene 2, line 1
 function handleHashValue() {
   const hashValue = decodeURI(location.hash.slice(1));
-  // If the whole hash value is the name of a text or an abbreviation, open it.
-  // For example: shearch.me#ham or shearch.me#hamlet
   const exactMatchTest = (item) =>
     item.toLowerCase() === hashValue.toLowerCase();
   const abbreviationIndex =
     Object.keys(abbreviations).findIndex(exactMatchTest);
   const titleIndex =
     Object.values(abbreviations).findIndex(exactMatchTest);
+  // If the whole hash value is the name of a text or an abbreviation, open it.
+  // For example: shearch.me#ham or shearch.me#hamlet
   if (abbreviationIndex !== -1 || titleIndex !== -1) {
+    queryInput.value = '';
+    hide(creditElement);
+    hide(matchesList);
     const fileName = abbreviationIndex !== -1 ?
       Object.keys(abbreviations)[abbreviationIndex] :
       Object.keys(abbreviations)[titleIndex];
+    // TODO: factor text fetch out to a function
     fetch(`${HTML_DIR}${fileName}.html`).then((response) => {
       return response.text();
     }).then((html) => {
       textDiv.innerHTML = html;
       textDiv.onmouseover = addWordSearch;
+      show(creditElement);
       show(textDiv);
       queryInput.placeholder = 'Enter search text';
     });
@@ -191,6 +197,9 @@ function handleHashValue() {
     const test = (item) => item.toLowerCase() === abbreviation;
     const abbreviationIndex = Object.keys(abbreviations).findIndex(test);
     if (abbreviationIndex !== -1) {
+      queryInput.value = '';
+      hide(creditElement);
+      hide(matchesList);
       // Display text and set location from hash value
       fetch(`${HTML_DIR}${abbreviation}.html`).
         then((response) => {
@@ -199,6 +208,7 @@ function handleHashValue() {
           textDiv.innerHTML = html;
           textDiv.onmouseover = addWordSearch;
           show(textDiv);
+          show(creditElement);
           queryInput.placeholder = 'Enter search text';
           highlightCitation(hashValue);
         });
@@ -338,6 +348,7 @@ function displayInfo(message) {
 
 // Display the appropriate text and location when a user taps/clicks on a match
 function displayText(match) {
+  hide(creditElement);
   hide(infoElement);
   hide(matchesList);
   hide(queryInfoElement);
@@ -355,6 +366,7 @@ function displayText(match) {
     textDiv.innerHTML = html;
     textDiv.onmouseover = addWordSearch;
     show(textDiv);
+    show(creditElement);
     highlightMatch(match, location);
   });
 }

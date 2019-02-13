@@ -65,8 +65,7 @@ div#container {
 }
 
 div#credit {
-  border-top: 1px solid rgb(200, 63, 63);
-  border-top: 1px solid rgba(200, 63, 63, 0.5);
+  border-top: 1px solid #ccc;
   color: #666 !important;
   line-height: 2em;
   padding: 20px 0 0 0;
@@ -85,8 +84,7 @@ div#info {
 
 div#query-container {
   background: white;
-  border-bottom: 1px solid rgb(200, 63, 63);
-  border-bottom: 1px solid rgba(200, 63, 63, 0.5);
+  border-bottom: 1px solid #ccc;
   box-shadow: 0 5px 5px 5px white;
   padding: 20px 0 20px 0;
   position: sticky;
@@ -332,8 +330,7 @@ ol.speech {
 }
 
 ol#matches {
-  border-bottom: 1px solid rgb(200, 63, 63);
-  border-bottom: 1px solid rgba(200, 63, 63, 0.5);
+  border-bottom: 1px solid #ccc;
   font-family: Palatino, serif;
   max-height: calc(100% - 170px);
   padding: 10px 0 10px 0;

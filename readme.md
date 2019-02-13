@@ -4,7 +4,7 @@ Fast search for the complete works of Shakespeare, using data derived from the [
 
 This searches all of Shakespeare's plays, sonnets and poems, including locations and stage directions. 
 
-Works offline!
+Works offline! Files are cached via a service worker using [Workbox]().
 
 You can also use it to open texts or citations:
 
