@@ -39,12 +39,12 @@ const SEARCH_OPTIONS = {
 
 let index;
 
-const ABBREVIATIONS_FILE = '/data/abbreviation-to-title.json';
+const TEXTS_FILE = '/data/texts.json';
 const DATALISTS_FILE = '/data/datalists.json';
 const HTML_DIR = '/html/';
 const INDEX_FILE = '/data/index.json';
 
-let abbreviations;
+let texts;
 let datalists;
 let matches;
 let startTime;
@@ -131,12 +131,12 @@ fetch(DATALISTS_FILE).then((response) => {
   console.error(`Error fetching ${DATALISTS_FILE}: ${error}`);
 });
 
-fetch(ABBREVIATIONS_FILE).then((response) => {
+fetch(TEXTS_FILE).then((response) => {
   return response.json();
 }).then((json) => {
-  abbreviations = json;
+  texts = json;
 }).catch((error) => {
-  console.error(`Error fetching ${ABBREVIATIONS_FILE}: ${error}`);
+  console.error(`Error fetching ${TEXTS_FILE}: ${error}`);
 });
 
 // Search whenever query or other input changes, with debounce delay
@@ -164,13 +164,17 @@ titleInput.oninput = speakerInput.oninput = genderInput.oninput = () => {
 // • shearch.me#Hamlet      Load Hamlet
 // • shearch.me#ham.3.2.1   Load Hamlet, act 3, scene 2, line 1
 function handleHashValue() {
-  const hashValue = decodeURI(location.hash.slice(1));
-  const exactMatchTest = (item) =>
-    item.toLowerCase() === hashValue.toLowerCase();
+  // Decode if necessary and replace non-alpha characters with a space
+  const hashValue = decodeURI(location.hash.slice(1)).replace(/[\W_]+/g, ' ');
+  // Check if hashValue is an abbreviation of a text name, e.g. ham
+  // The texts object, from texts.json, is keyed by text name abbreviations.
   const abbreviationIndex =
-    Object.keys(abbreviations).findIndex(exactMatchTest);
+    Object.keys(texts).findIndex((item) =>
+      item.toLowerCase() === hashValue.toLowerCase());
+  // Check if hashValue is the full name of a text, e.g. Hamlet
   const titleIndex =
-    Object.values(abbreviations).findIndex(exactMatchTest);
+    Object.values(texts).findIndex((item) =>
+      item.title.toLowerCase() === hashValue.toLowerCase());
   // If the whole hash value is the name of a text or an abbreviation, open it.
   // For example: shearch.me#ham or shearch.me#hamlet
   if (abbreviationIndex !== -1 || titleIndex !== -1) {
@@ -178,8 +182,8 @@ function handleHashValue() {
     hide(creditElement);
     hide(matchesList);
     const fileName = abbreviationIndex !== -1 ?
-      Object.keys(abbreviations)[abbreviationIndex] :
-      Object.keys(abbreviations)[titleIndex];
+      Object.keys(texts)[abbreviationIndex] :
+      Object.keys(texts)[titleIndex];
     // TODO: factor text fetch out to a function
     fetch(`${HTML_DIR}${fileName}.html`).then((response) => {
       return response.text();
@@ -195,7 +199,7 @@ function handleHashValue() {
   } else if (hashValue.indexOf('.') !== -1) {
     const abbreviation = hashValue.split('.')[0].toLowerCase();
     const test = (item) => item.toLowerCase() === abbreviation;
-    const abbreviationIndex = Object.keys(abbreviations).findIndex(test);
+    const abbreviationIndex = Object.keys(texts).findIndex(test);
     if (abbreviationIndex !== -1) {
       queryInput.value = '';
       hide(creditElement);
@@ -308,7 +312,7 @@ function getFilteredMatches() {
     filteredMatches = filteredMatches.filter((match) => {
       // check if full play name includes text entered in titleInput
       const playAbbreviation = match.doc.l.split('.')[0];
-      return abbreviations[playAbbreviation].toLowerCase().
+      return texts[playAbbreviation].toLowerCase().
         includes(titleInput.value.toLowerCase());
     });
   }
