@@ -184,7 +184,7 @@ input {
 }
 
 details input {
-  width: 320px;
+  width: calc(100% - 115px);
 }
 
 input#query {
