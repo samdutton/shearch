@@ -174,7 +174,7 @@ iframe {
   width: 100%;
 }
 
-input {
+input[type=text] {
   color: black;
   font-family: Google Sans, sans-serif;
   font-size: 18px;
@@ -183,8 +183,12 @@ input {
   top: 0;
 }
 
-details input {
+details input[type=text] {
   width: calc(100% - 115px);
+}
+
+div#type input {
+  display: inline-block;
 }
 
 input#query {
@@ -197,6 +201,12 @@ label {
   font-size: 14px;
   font-weight: 500;
   width: 90px;
+}
+
+div#type label[for] {
+  display: inline-block;
+  font-weight: normal;
+  width: 65px;
 }
 
 li {
