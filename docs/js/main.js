@@ -158,6 +158,15 @@ titleInput.oninput = speakerInput.oninput = genderInput.oninput = () => {
   }
 };
 
+const typeCheckboxes = document.querySelectorAll('div#type input');
+for (const typeCheckbox of typeCheckboxes) {
+  typeCheckbox.onchange = () => {
+    if (matches && matches.length > 0) {
+      displayMatches();
+    }
+  };
+}
+
 // Handle URLs with a hash value: load a search result or text. For example:
 // • shearch.me#brazen      Search for 'brazen'
 // • shearch.me#ham         Load Hamlet
@@ -294,6 +303,7 @@ function displayMatches() {
 
 function getFilteredMatches() {
   let filteredMatches = matches;
+
   // if a speaker is specified, filter out non-matches
   if (speakerInput.value) {
     filteredMatches = matches.filter((match) => {
@@ -312,10 +322,18 @@ function getFilteredMatches() {
     filteredMatches = filteredMatches.filter((match) => {
       // check if full play name includes text entered in titleInput
       const playAbbreviation = match.doc.l.split('.')[0];
-      return texts[playAbbreviation].toLowerCase().
+      return texts[playAbbreviation].title.toLowerCase().
         includes(titleInput.value.toLowerCase());
     });
   }
+  filteredMatches = filteredMatches.filter((match) => {
+  // check if full play name includes text entered in titleInput
+    const playAbbreviation = match.doc.l.split('.')[0];
+    const type = texts[playAbbreviation].type;
+    const checkedTypes =
+      [...document.querySelectorAll('div#type input:checked')];
+    return checkedTypes.map((item) => item.id).includes(type);
+  });
   const message = `Found ${filteredMatches.length} match(es)`;
   displayInfo(message);
   return filteredMatches;

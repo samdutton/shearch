@@ -1,11 +1,9 @@
-Add option to search plays or poems or sonnets
-
 Add option to download all the texts
+
+Add query strings for speaker, text type, etc.
 
 Factor out fetch(`${HTML_DIR}
 
 Add line numbers for offset lines only once.
 
 Add exact match only
-
-Solve problem of non-found scenelocations

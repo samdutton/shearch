@@ -42,6 +42,11 @@ body {
   word-break: break-word;
 }
 
+details#search-options[open] {
+  border-bottom: 1px solid #eee;
+  margin: 0 0 20px 0;
+}
+
 details div {
   margin: 0 0 20px 0;
 }
@@ -184,7 +189,7 @@ input[type=text] {
 }
 
 details input[type=text] {
-  width: calc(100% - 115px);
+  width: calc(100% - 125px);
 }
 
 div#type input {
@@ -200,7 +205,7 @@ label {
   display: inline-block;
   font-size: 14px;
   font-weight: 500;
-  width: 90px;
+  width: 100px;
 }
 
 div#type label[for] {
@@ -505,7 +510,7 @@ summary {
     text-indent: -20px;
   }
 
-  details#searchOptions select {
+  details#search-options select {
     border-color: #ddd;
     height: 34px;
   }

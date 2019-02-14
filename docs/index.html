@@ -59,9 +59,9 @@ gtag('config', 'UA-103792298-1');
       <div id="query-container">
         
         <!-- <label for="query">Search:</label> -->
-        <input id="query" placeholder="Loading..." autocomplete="on" disabled>
+        <input id="query" placeholder="Loading..." type="text" autocomplete="on" disabled>
         
-        <details id="searchOptions">
+        <details id="search-options">
         
         <summary>Search options</summary>
         
@@ -73,12 +73,12 @@ gtag('config', 'UA-103792298-1');
         
         <div id="type">
           <label>Type:</label>
-          <input type="checkbox" id="type-play" name="type" value="play" checked>
-          <label for="type-play">Play</label>
-          <input type="checkbox" id="type-poem" name="type" value="poem" checked>
-          <label for="type-poem">Poem</label>
-          <input type="checkbox" id="type-sonnet" name="type" value="sonnet" checked>
-          <label for="type-sonnet">Sonnet</label>
+          <input id="play" type="checkbox" checked>
+          <label for="play">Play</label>
+          <input id="poem" type="checkbox" checked>
+          <label for="poem">Poem</label>
+          <input id="sonnet" type="checkbox" value="sonnet" checked>
+          <label for="sonnet">Sonnet</label>
         </div>
         
         <div>
