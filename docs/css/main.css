@@ -211,7 +211,7 @@ label {
 div#type label[for] {
   display: inline-block;
   font-weight: normal;
-  width: 65px;
+  width: 60px;
 }
 
 li {
@@ -434,6 +434,11 @@ section#preamble {
   /* border-bottom: 1px solid #c83f3f; */
   margin: 0 0 0 0;
   padding: 0 0 1em 0;
+}
+
+select#gender {
+  border: 1px solid #ccc;
+  height: 38px;
 }
 
 span {

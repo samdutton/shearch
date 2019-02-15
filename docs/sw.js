@@ -16,6 +16,8 @@ limitations under the License.
 
 /* global importScripts workbox  */
 
+const CACHE_NAME = 'cache';
+
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.0.0-rc.0/workbox-sw.js');
 
 // if (workbox) {
@@ -28,6 +30,7 @@ workbox.routing.registerRoute(
   /.*\.(?:css|html|json|js)/,
   // Use cache but update in the background ASAP
   new workbox.strategies.StaleWhileRevalidate({
-    cacheName: 'workbox-cache',
+    cacheName: CACHE_NAME,
   })
 );
+

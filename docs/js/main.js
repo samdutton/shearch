@@ -14,6 +14,23 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
+/* globals elasticlunr */
+
+const DATALISTS_FILE = '/data/datalists.json';
+const HTML_DIR = '/html/';
+const INDEX_FILE = '/data/index.json';
+const TEXTS_FILE = '/data/texts.json';
+
+const CACHE_NAME = 'cache';
+const DEBOUNCE_DELAY = 300;
+const SEARCH_OPTIONS = {
+  fields: {
+    t: {}, // search t field, no special options
+  },
+  bool: 'AND',
+  expand: false, // true means matches are not whole-word-only
+};
+
 const creditElement = document.getElementById('credit');
 const genderInput = document.getElementById('gender');
 const infoElement = document.getElementById('info');
@@ -26,30 +43,12 @@ const textDiv = document.getElementById('text');
 const titleInput = document.getElementById('title');
 const titlesDatalist = document.getElementById('titles');
 
-const SEARCH_OPTIONS = {
-  fields: {
-    t: {}, // search t field, no special options
-  },
-  bool: 'AND',
-  expand: false, // true means matches are not whole-word-only
-};
-
-
-/* globals elasticlunr */
-
-let index;
-
-const TEXTS_FILE = '/data/texts.json';
-const DATALISTS_FILE = '/data/datalists.json';
-const HTML_DIR = '/html/';
-const INDEX_FILE = '/data/index.json';
-
-let texts;
 let datalists;
+let index;
 let matches;
 let startTime;
+let texts;
 let timeout = null;
-const DEBOUNCE_DELAY = 300;
 
 // Check that service workers are supported
 if ('serviceWorker' in navigator) {
@@ -524,6 +523,16 @@ function formatCitation(match) {
       `${text}.${+location[1] + 1}`; // use + to make integer
   }
 }
+
+// async function addToCache(urls) {
+//   const myCache = await window.caches.open(CACHE_NAME);
+//   await myCache.addAll(urls);
+// }
+
+// window.addEventListener('load', () => {
+//   // ...determine the list of related URLs for the current page...
+//   addToCache(['/static/relatedUrl1', '/static/relatedUrl2']);
+// });
 
 // Utility functions
 
