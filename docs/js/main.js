@@ -35,6 +35,7 @@ const creditElement = document.getElementById('credit');
 const genderInput = document.getElementById('gender');
 const infoElement = document.getElementById('info');
 const matchesList = document.getElementById('matches');
+const typePlayCheckbox = document.getElementById('type-play');
 const queryInfoElement = document.getElementById('query-info');
 const queryInput = document.getElementById('query');
 const speakerInput = document.getElementById('speaker');
@@ -152,6 +153,8 @@ titleInput.oninput = speakerInput.oninput = genderInput.oninput = () => {
 const typeCheckboxes = document.querySelectorAll('div#type input');
 for (const typeCheckbox of typeCheckboxes) {
   typeCheckbox.onchange = () => {
+    speakerInput.disabled = genderInput.disabled =
+      !typePlayCheckbox.checked;
     if (matches && matches.length > 0) {
       displayMatches();
     }
@@ -525,15 +528,15 @@ if ('serviceWorker' in navigator) {
   });
 }
 
-async function addToCache(urls) {
-  const myCache = await window.caches.open(CACHE_NAME);
-  await myCache.addAll(urls);
-}
+// async function addToCache(urls) {
+//   const myCache = await window.caches.open(CACHE_NAME);
+//   await myCache.addAll(urls);
+// }
 
-window.addEventListener('load', () => {
-  // ...determine the list of related URLs for the current page...
-  addToCache(['/static/relatedUrl1', '/static/relatedUrl2']);
-});
+// window.addEventListener('load', () => {
+//   // ...determine the list of related URLs for the current page...
+//   addToCache(['/static/relatedUrl1', '/static/relatedUrl2']);
+// });
 
 // Utility functions
 
