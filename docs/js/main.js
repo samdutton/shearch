@@ -50,14 +50,6 @@ let startTime;
 let texts;
 let timeout = null;
 
-// Check that service workers are supported
-if ('serviceWorker' in navigator) {
-  // Use the window load event to keep the page load performant
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/sw.js');
-  });
-}
-
 // Handle navigation between search results and text display.
 window.onpopstate = (event) => {
   if (event.state && event.state.type === 'results') {
@@ -331,7 +323,7 @@ function getFilteredMatches() {
     const type = texts[playAbbreviation].type;
     const checkedTypes =
       [...document.querySelectorAll('div#type input:checked')];
-    return checkedTypes.map((item) => item.id).includes(type);
+    return checkedTypes.map((item) => item.value).includes(type);
   });
   const message = `Found ${filteredMatches.length} match(es)`;
   displayInfo(message);
@@ -524,15 +516,24 @@ function formatCitation(match) {
   }
 }
 
-// async function addToCache(urls) {
-//   const myCache = await window.caches.open(CACHE_NAME);
-//   await myCache.addAll(urls);
-// }
+// Service Worker (using Workbox)
 
-// window.addEventListener('load', () => {
-//   // ...determine the list of related URLs for the current page...
-//   addToCache(['/static/relatedUrl1', '/static/relatedUrl2']);
-// });
+if ('serviceWorker' in navigator) {
+  // Use the window load event to keep the page load performant.
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js');
+  });
+}
+
+async function addToCache(urls) {
+  const myCache = await window.caches.open(CACHE_NAME);
+  await myCache.addAll(urls);
+}
+
+window.addEventListener('load', () => {
+  // ...determine the list of related URLs for the current page...
+  addToCache(['/static/relatedUrl1', '/static/relatedUrl2']);
+});
 
 // Utility functions
 

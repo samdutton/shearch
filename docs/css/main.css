@@ -208,10 +208,11 @@ label {
   width: 100px;
 }
 
+div#download label[for],
 div#type label[for] {
   display: inline-block;
   font-weight: normal;
-  width: 60px;
+  width: 55px;
 }
 
 li {

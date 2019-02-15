@@ -72,13 +72,13 @@ gtag('config', 'UA-103792298-1');
         </div>
         
         <div id="type">
-          <label>Type:</label>
-          <input id="play" type="checkbox" checked>
-          <label for="play">Play</label>
-          <input id="poem" type="checkbox" checked>
-          <label for="poem">Poem</label>
-          <input id="sonnet" type="checkbox" value="sonnet" checked>
-          <label for="sonnet">Sonnet</label>
+          <label>Include:</label>
+          <input id="type-play" type="checkbox" value="play" checked>
+          <label for="type-play">Plays</label>
+          <input id="type-poem" type="checkbox" value="poem" checked>
+          <label for="type-poem">Poems</label>
+          <input id="type-sonnet" type="checkbox" value="sonnet" checked>
+          <label for="type-sonnet">Sonnets</label>
         </div>
         
         <div>
@@ -96,7 +96,17 @@ gtag('config', 'UA-103792298-1');
           </select>
         </div>
         
-        </details>
+        <div id="download">
+          <label>Download all:</label>
+          <input id="download-play" type="checkbox" value="play">
+          <label for="download-play">Plays</label>
+          <input id="download-poem" type="checkbox" value="poem">
+          <label for="download-poem">Poems</label>
+          <input id="download-sonnet" type="checkbox" value="sonnet">
+          <label for="download-sonnet">Sonnets</label>
+        </div>
+        
+      </details>
         
         <div id="info"></div>
         <div id="query-info"></div>
