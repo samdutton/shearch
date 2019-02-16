@@ -19,7 +19,6 @@ limitations under the License.
 const DATALISTS_FILE = '/data/datalists.json';
 const HTML_DIR = '/html/';
 const INDEX_FILE = '/data/index.json';
-const TEXTS_FILE = '/data/texts.json';
 
 const CACHE_NAME = 'cache';
 const DEBOUNCE_DELAY = 300;
@@ -113,6 +112,7 @@ fetch(DATALISTS_FILE).then((response) => {
     option.value = speaker.n;
     speakersDatalist.appendChild(option);
   }
+  texts = datalists.texts;
   const titles = datalists.titles;
   for (const title of titles) {
     const option = document.createElement('option');
@@ -121,14 +121,6 @@ fetch(DATALISTS_FILE).then((response) => {
   }
 }).catch((error) => {
   console.error(`Error fetching ${DATALISTS_FILE}: ${error}`);
-});
-
-fetch(TEXTS_FILE).then((response) => {
-  return response.json();
-}).then((json) => {
-  texts = json;
-}).catch((error) => {
-  console.error(`Error fetching ${TEXTS_FILE}: ${error}`);
 });
 
 // Search whenever query or other input changes, with debounce delay
@@ -365,7 +357,6 @@ function displayInfo(message) {
 
 // Display the appropriate text and location when a user taps/clicks on a match
 function displayText(match) {
-  console.log('>>> match', match);
   hide(creditElement);
   hide(infoElement);
   hide(matchesList);
@@ -488,7 +479,6 @@ function highlightMatch(match, location) {
 
 // Highlight a match in a play scene or in a poem
 function highlightLine(parent, selector, elementIndex) {
-  console.log(parent, selector, elementIndex);
   const element = parent.querySelectorAll(selector)[elementIndex];
   element.classList.add('highlight');
   element.scrollIntoView({block: 'center'});
@@ -528,15 +518,29 @@ if ('serviceWorker' in navigator) {
   });
 }
 
-// async function addToCache(urls) {
-//   const myCache = await window.caches.open(CACHE_NAME);
-//   await myCache.addAll(urls);
-// }
+async function addToCache(urls) {
+  const myCache = await window.caches.open(CACHE_NAME);
+  await myCache.addAll(urls);
+}
 
-// window.addEventListener('load', () => {
-//   // ...determine the list of related URLs for the current page...
-//   addToCache(['/static/relatedUrl1', '/static/relatedUrl2']);
-// });
+const downloadCheckboxes = document.querySelectorAll('div#download input');
+for (const downloadCheckbox of downloadCheckboxes) {
+  downloadCheckbox.onchange = () => {
+    updateCache(downloadCheckbox.value, downloadCheckbox.checked);
+  };
+}
+
+// Cache plays, poems or sonnets — or remove from the cache.
+function updateCache(type, isRequestToCache) {
+  if (isRequestToCache) {
+    // datalists[type] is an array of play, poem or sonnet file paths
+    addToCache(datalists[type]);
+    console.log('datalists[type]', datalists[type]);
+  } else {
+    // Remove!
+    console.log('Remove', type);
+  }
+}
 
 // Utility functions
 

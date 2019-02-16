@@ -179,6 +179,12 @@ iframe {
   width: 100%;
 }
 
+input[type=checkbox] {
+  position: relative;
+  top: -1px;
+  left: -1px;
+}
+
 input[type=text] {
   color: black;
   font-family: Google Sans, sans-serif;
@@ -189,7 +195,7 @@ input[type=text] {
 }
 
 details input[type=text] {
-  width: calc(100% - 125px);
+  width: calc(100% - 140px);
 }
 
 div#type input {
@@ -205,7 +211,7 @@ label {
   display: inline-block;
   font-size: 14px;
   font-weight: 500;
-  width: 100px;
+  width: 110px;
 }
 
 div#download label[for],
