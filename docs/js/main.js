@@ -519,8 +519,17 @@ if ('serviceWorker' in navigator) {
 }
 
 async function addToCache(urls) {
-  const myCache = await window.caches.open(CACHE_NAME);
-  await myCache.addAll(urls);
+  const cache = await window.caches.open(CACHE_NAME);
+  await cache.addAll(urls);
+  displayInfo(`Downloaded ${urls.length} file(s)`);
+}
+
+async function deleteFromCache(urls) {
+  const cache = await window.caches.open(CACHE_NAME);
+  for (const url of urls) {
+    await cache.delete(url);
+  }
+  displayInfo(`Deleted ${urls.length} file(s)`);
 }
 
 const downloadCheckboxes = document.querySelectorAll('div#download input');
@@ -530,15 +539,14 @@ for (const downloadCheckbox of downloadCheckboxes) {
   };
 }
 
-// Cache plays, poems or sonnets — or remove from the cache.
+// Add or remove texts from the cache.
+// type is play, poem or sonnet
 function updateCache(type, isRequestToCache) {
   if (isRequestToCache) {
     // datalists[type] is an array of play, poem or sonnet file paths
     addToCache(datalists[type]);
-    console.log('datalists[type]', datalists[type]);
   } else {
-    // Remove!
-    console.log('Remove', type);
+    deleteFromCache(datalists[type]);
   }
 }
 
