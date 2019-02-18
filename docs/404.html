@@ -19,11 +19,51 @@ limitations under the License.
 <html lang="en">
   
 <head>
-<title>Page not found</title>
+
+<style>
+a {
+  color: rgba(200, 63, 63, 0.7);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(200, 63, 63, 1);
+  text-decoration: underline;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 100px;
+}  
+
+h1 {
+  border-bottom: 1px solid rgba(200, 63, 63, 0.7);
+  font-weight: 300;
+  margin: 0 0 30px 0;
+  padding: 0 0 30px 0;
+}
+
+</style>
+
+<title>shearch.me: page not found</title>
+
 </head>
+
 <body>
-<script>
+
+<div id="container">
+
+  <h1><a href="/" title="shearch.me home page">shearch.me</a> page not found</h1>
+
+  <p>Sorry! We couldn't find what you were looking for.</p>
+
+  <p>Could be time to go <a href="/" title="shearch.me home page">home</a>.</p>
+
+</div>
+
+
+<!-- <script>
 location.href = `https://shearch.me#${location.pathname.replace(/^\/|\/$/g, '')}`;
-</script>
+</script> -->
 </body>
 </html>
