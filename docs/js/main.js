@@ -228,6 +228,9 @@ function handleHashValue() {
             `<em>${texts[abbreviation].title}.</em><br><br>` +
             `Check that you're online and try reloading.`);
         });
+    } else {
+      console.error(`Citation ${hashValue} not found`);
+      displayInfo(`Citation ${hashValue} not found`);
     }
   } else {
     // Otherwise treat the hash value as a query, e.g. shearch.me#brazen
