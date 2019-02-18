@@ -72,7 +72,7 @@ window.onpopstate = (event) => {
 
 // Respond to URL hash changes.
 // A hash value is either a search query, text name/abbreviation or citation.
-// For example: shearch.me#brazen, shearch.me#hamlet, shearch.me#ham.3.2.1
+// For example: shearch.me#brazen, shearch.me#hamlet, shearch.me#ham.3.1.56
 window.onhashchange = handleHashValue;
 
 // Get and load index data
@@ -92,7 +92,7 @@ fetch(INDEX_FILE).then((response) => {
   queryInput.disabled = false;
   // If the location has a hash value, either do a search or load a text,
   // depending on the value. For example: shearch.me#brazen,
-  // shearch.me#Hamlet, shearch.me#ham or shearch.me#ham.3.2.1
+  // shearch.me#Hamlet, shearch.me#ham or shearch.me#ham.3.1.56
   if (location.hash) {
     handleHashValue();
   } else {
@@ -100,6 +100,8 @@ fetch(INDEX_FILE).then((response) => {
   }
   queryInput.focus();
 }).catch((error) => {
+  displayInfo('There was a problem downloading data.<br><br>' +
+    'Please check that you\'re online or try refreshing the page.');
   console.error(`Error fetching ${INDEX_FILE}: ${error}`);
 });
 
@@ -120,6 +122,8 @@ fetch(DATALISTS_FILE).then((response) => {
     titlesDatalist.appendChild(option);
   }
 }).catch((error) => {
+  displayInfo('There was a problem downloading data.<br><br>' +
+    'Please check that you\'re online or try refreshing the page.');
   console.error(`Error fetching ${DATALISTS_FILE}: ${error}`);
 });
 
@@ -157,10 +161,10 @@ for (const typeCheckbox of typeCheckboxes) {
 // • shearch.me#brazen      Search for 'brazen'
 // • shearch.me#ham         Load Hamlet
 // • shearch.me#Hamlet      Load Hamlet
-// • shearch.me#ham.3.2.1   Load Hamlet, act 3, scene 2, line 1
+// • shearch.me#ham.3.1.56   Load Hamlet, act 3, scene 2, line 1
 function handleHashValue() {
   // Decode if necessary and replace non-alpha characters with a space
-  const hashValue = decodeURI(location.hash.slice(1)).replace(/[\W_]+/g, ' ');
+  const hashValue = decodeURI(location.hash.slice(1)).replace(/[^\w.]+/g, ' ');
   // Check if hashValue is an abbreviation of a text name, e.g. ham
   // The texts object, from texts.json, is keyed by text name abbreviations.
   const abbreviationIndex =
@@ -176,11 +180,11 @@ function handleHashValue() {
     queryInput.value = '';
     hide(creditElement);
     hide(matchesList);
-    const fileName = abbreviationIndex !== -1 ?
+    const abbreviation = abbreviationIndex !== -1 ?
       Object.keys(texts)[abbreviationIndex] :
       Object.keys(texts)[titleIndex];
     // TODO: factor text fetch out to a function
-    fetch(`${HTML_DIR}${fileName}.html`).then((response) => {
+    fetch(`${HTML_DIR}${abbreviation}.html`).then((response) => {
       return response.text();
     }).then((html) => {
       textDiv.innerHTML = html;
@@ -188,13 +192,20 @@ function handleHashValue() {
       show(creditElement);
       show(textDiv);
       queryInput.placeholder = 'Enter search text';
+    }).catch((error) => {
+      console.error(`Error or timeout fetching ${abbreviation}.html: ${error}`);
+      displayInfo(`There was a problem downloading ` +
+        `<em>${texts[abbreviation].title}.</em><br><br>` +
+        `Check that you're online and try reloading.`);
     });
-    // Otherwise test if the hash value is a citation, e.g. shearch.me#ham.3.2.1.
-    // If so, open text and attempt to set location
+    // Otherwise test if the hash value is a citation,
+    // e.g. shearch.me#ham.3.1.56.
   } else if (hashValue.indexOf('.') !== -1) {
     const abbreviation = hashValue.split('.')[0].toLowerCase();
     const test = (item) => item.toLowerCase() === abbreviation;
     const abbreviationIndex = Object.keys(texts).findIndex(test);
+    // If the text abbreviation in the hash value is found,
+    // open text and attempt to set location
     if (abbreviationIndex !== -1) {
       queryInput.value = '';
       hide(creditElement);
@@ -210,6 +221,11 @@ function handleHashValue() {
           show(creditElement);
           queryInput.placeholder = 'Enter search text';
           highlightCitation(hashValue);
+        }).catch((error) => {
+          console.error(`Error or timeout fetching ${abbreviation}: ${error}`);
+          displayInfo(`There was a problem downloading ` +
+            `<em>${texts[abbreviation].title}.</em><br><br>` +
+            `Check that you're online and try reloading.`);
         });
     }
   } else {
@@ -350,26 +366,23 @@ function addMatch(match) {
   matchesList.appendChild(matchElement);
 }
 
-function displayInfo(message) {
-  infoElement.textContent = message;
-  show(infoElement);
-}
-
 // Display the appropriate text and location when a user taps/clicks on a match
 function displayText(match) {
   hide(creditElement);
   hide(infoElement);
   hide(matchesList);
   hide(queryInfoElement);
-  // match.l is a citation within a play or poem, e.g. Ham.3.3.2, Son.4.11, Ven.140
+  // match.l is a citation within a play or poem,
+  // e.g. Ham.3.3.2, Son.4.11, Ven.140
   // scene title matches only have act and scene number, e.g. Ham.3.3
   history.pushState({type: 'text'}, null,
     `${window.location.origin}#${formatCitation(match)}`);
   document.title =
     `Search Shakespeare: ${formatCitation(match)}`;
   const location = match.l.split('.');
-  const text = location[0];
-  fetch(`${HTML_DIR}${text}.html`).then((response) => {
+  const abbreviation = location[0];
+  // TODO: Factor to a function.
+  fetch(`${HTML_DIR}${abbreviation}.html`).then((response) => {
     return response.text();
   }).then((html) => {
     textDiv.innerHTML = html;
@@ -377,6 +390,11 @@ function displayText(match) {
     show(textDiv);
     show(creditElement);
     highlightMatch(match, location);
+  }).catch((error) => {
+    console.error(`Error or timeout fetching ${abbreviation}: ${error}`);
+    displayInfo(`There was a problem downloading ` +
+      `<em>${texts[abbreviation].title}.</em><br><br>` +
+      `Check that you're online and try reloading.`);
   });
 }
 
@@ -398,48 +416,66 @@ function addWordSearch(hoverEvent) {
 }
 
 // Highlight a line within a text, given a citation.
-// For example: ham.3.2.1, son.7.11, ven.99
+// For example: ham.3.1.56, son.7.11, ven.126
 // Play citations have an act, scene and line number;
 // sonnets have a number and a line; poems only have a line number.
 function highlightCitation(citation) {
   const citationArray = citation.split('.');
-  // const location = citation.split(/\.(.+)/)[1];
+  const abbreviation = citationArray[0];
   let line;
-  if (citationArray.length === 4) {
-    // Text is a play, e.g ham.3.2.1
+  let lineNumber;
+  switch (textType(abbreviation)) {
+  case 'play':
+  // For example: Ham.3.1.56
     const actNumber = citationArray[1];
     const sceneNumber = citationArray[2];
-    const lineNumber = citationArray[3];
+    lineNumber = citationArray[3];
     const act = document.querySelectorAll('.act')[actNumber - 1];
     // Citation may not be valid, so need to check for act, scene and line.
     if (act) {
+      // If citation only has act, e.g. ham.3
+      if (citationArray.length === 2) {
+        act.scrollIntoView();
+        window.scroll(0, window.scrollY - 180);
+        return;
+      }
       const scene = act.querySelectorAll('section.scene')[sceneNumber - 1];
       if (scene) {
+        // If citation only has scene and not line, e.g. ham.3.1
+        if (citationArray.length === 3) {
+          scene.scrollIntoView();
+          window.scroll(0, window.scrollY - 180);
+          return;
+        }
         line = scene.querySelector(`li[data-n$="${lineNumber}"]`);
       }
     }
-  } else if (citationArray.length === 3) {
-    // Text is a sonnet, e.g. son.7.11
+    break;
+  case 'poem':
+  // For example: ven.126
+    lineNumber = citationArray[1];
+    // Poems use paragraph elements, not list items.
+    // (They're often broken into many parts, so lists become unwieldy.)
+    line = document.querySelector(`p[data-n$="${lineNumber}"]`);
+    break;
+  case 'sonnet':
+  // For example: son.76.11
     const sonnetNumber = citationArray[1];
-    const lineNumber = citationArray[2];
+    lineNumber = citationArray[2];
     const sonnet = document.querySelectorAll('section.poem')[sonnetNumber - 1];
-    console.log('sonnet', sonnet);
     if (sonnet) {
       line = sonnet.querySelector(`li[data-n$="${lineNumber}"]`);
     }
-  } else if (citationArray.length === 2) {
-    // Text is a poem, e.g. ven.99
-    const lineNumber = citationArray[1];
-    // Poems use paragraph elements.
-    // (They're often broken into so many parts that lists become unwieldy.)
-    line = document.querySelector(`p[data-n$="${lineNumber}"]`);
+    break;
+  default:
+    displayInfo(`Citation <em>${citation}</em> not found.`);
+    show(infoElement);
   }
   if (line) {
     line.classList.add('highlight');
     line.scrollIntoView({block: 'center'});
   } else {
-    infoElement.textContent = `Citation ${citation} not found`;
-    show(infoElement);
+    displayInfo(`Citation <em>${citation}</em> not found.`);
   }
 }
 
@@ -521,7 +557,7 @@ if ('serviceWorker' in navigator) {
 async function addToCache(urls) {
   const cache = await window.caches.open(CACHE_NAME);
   await cache.addAll(urls);
-  displayInfo(`Downloaded ${urls.length} file(s)`);
+  displayInfo(`Downloaded ${urls.length} file(s).`);
 }
 
 async function deleteFromCache(urls) {
@@ -529,7 +565,7 @@ async function deleteFromCache(urls) {
   for (const url of urls) {
     await cache.delete(url);
   }
-  displayInfo(`Deleted ${urls.length} file(s)`);
+  displayInfo(`Deleted ${urls.length} file(s).`);
 }
 
 const downloadCheckboxes = document.querySelectorAll('div#download input');
@@ -551,6 +587,39 @@ function updateCache(type, isRequestToCache) {
 }
 
 // Utility functions
+
+// From https://gist.github.com/davej/728b20518632d97eef1e5a13bf0d05c7
+// function fetchWithTimeout(url, options, timeout = 5000) {
+//   return Promise.race([fetch(url, options),
+//     new Promise((_, reject) =>
+//       setTimeout(() => reject(new Error('Timeout')), timeout))]);
+// }
+
+// Return the type of a text, given a name abbreviation, e.g. ham, Ham or Hamlet
+function textType(abbreviationOrName) {
+  // Check if abbreviationOrName is a text abbreviation, e.g. ham or Ham
+  const abbreviationIndex =
+    Object.keys(texts).findIndex((item) =>
+      item.toLowerCase() === abbreviationOrName.toLowerCase());
+  // Check if abbreviationOrName is a text name, e.g. Hamlet
+  const titleIndex =
+    Object.values(texts).findIndex((item) =>
+      item.title.toLowerCase() === abbreviationOrName.toLowerCase());
+  if (abbreviationIndex !== -1 || titleIndex !== -1) {
+    const abbreviation = abbreviationIndex !== -1 ?
+      Object.keys(texts)[abbreviationIndex] :
+      Object.keys(texts)[titleIndex];
+    return texts[abbreviation].type;
+  } else {
+    console.error(`Text type not found for ${abbreviationOrName}`);
+  }
+}
+
+// Display information to the user.
+function displayInfo(html) {
+  infoElement.innerHTML = html;
+  show(infoElement);
+}
 
 function hide(element) {
   element.classList.add('hidden');
