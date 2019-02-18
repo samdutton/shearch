@@ -211,7 +211,8 @@ function handleHashValue() {
       hide(creditElement);
       hide(matchesList);
       // Display text and set location from hash value
-      fetch(`${HTML_DIR}${abbreviation}.html`).
+      // URLs are case sensitive on remote server :/.
+      fetch(`${HTML_DIR}${Object.keys(texts)[abbreviationIndex]}.html`).
         then((response) => {
           return response.text();
         }).then((html) => {
