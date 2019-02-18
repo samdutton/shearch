@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/samdutton/shearch#readme",
   "devDependencies": {
-    "eslint": "^5.1.0",
+    "eslint": "^5.14.0",
     "eslint-config-google": "latest",
     "jsdom": "latest",
     "recursive-readdir": "latest"

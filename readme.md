@@ -33,7 +33,7 @@ There are several options for filtering search results:
 * Speaker
 * Speaker gender
 
-Click on a word in a text to search for that word.
+You can also click on a word in a text to search for that word.
 
 ## Feedback and feature requests
 
