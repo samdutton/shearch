@@ -16,7 +16,7 @@ As well as search, you can use the app to open texts or citations:
 
 * [shearch.me#Hamlet](https://shearch.me#Hamlet)
 * [shearch.me#ham](https://shearch.me#ham)
-* [shearch.me#ham.3](https://shearch.me#ham.3.1.56)
+* [shearch.me#ham.3](https://shearch.me#ham.3)
 * [shearch.me#ham.3.1](https://shearch.me#ham.3.1)
 * [shearch.me#ham.3.1.56](https://shearch.me#ham.3.1.56)
 
