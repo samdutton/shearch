@@ -132,7 +132,7 @@ queryInput.oninput = handleQueryInput;
 
 // Do a search if user presses enter/return key
 queryInput.onkeyup = () => {
-  if (event.key === 'Enter') {
+  if (event.key === 'Enter' || event.key === 'Tab') {
     handleQueryInput();
   }
 };
