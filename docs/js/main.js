@@ -128,7 +128,16 @@ fetch(DATALISTS_FILE).then((response) => {
 });
 
 // Search whenever query or other input changes, with debounce delay
-queryInput.oninput = () => {
+queryInput.oninput = handleQueryInput;
+
+// Do a search if user presses enter/return key
+queryInput.onkeyup = () => {
+  if (event.key === 'Enter') {
+    handleQueryInput();
+  }
+};
+
+function handleQueryInput() {
   const value = queryInput.value;
   if (value.length > 2) {
     // debounce text entry
@@ -137,7 +146,7 @@ queryInput.oninput = () => {
       doSearch(value);
     }, DEBOUNCE_DELAY);
   }
-};
+}
 
 // Filter matches, if displayed.
 titleInput.oninput = speakerInput.oninput = genderInput.oninput = () => {
@@ -256,17 +265,20 @@ function doSearch(query) {
   // });
 
   // prefer exact matches — already done if SEARCH_OPTIONS expand is false
-  matches = matches.sort((a, b) => {
-    if (a.doc.t.includes(query) && b.doc.t.includes(query)) {
-      return 0;
-    } else if (a.doc.t.includes(query)) {
-      return -1;
-    } else if (b.doc.t.includes(query)) {
-      return 1;
-    } else {
-      return 0;
-    }
-  });
+  // matches = matches.sort((a, b) => {
+  //   if (a.doc.t.includes(query) && b.doc.t.includes(query)) {
+  //     return 0;
+  //   } else if (a.doc.t.includes(query)) {
+  //     return -1;
+  //   } else if (b.doc.t.includes(query)) {
+  //     return 1;
+  //   } else {
+  //     return 0;
+  //   }
+  // });
+
+  // Scroll back to top — for example, if user is searching from a text.
+  window.scroll(0, 0);
 
   const message = `Found ${matches.length} match(es) in ${elapsed} seconds`;
 

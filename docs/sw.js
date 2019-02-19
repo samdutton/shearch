@@ -18,7 +18,7 @@ limitations under the License.
 
 const CACHE_NAME = 'cache';
 
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.0.0-rc.0/workbox-sw.js');
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.0.0-rc.2/workbox-sw.js');
 
 // if (workbox) {
 //   console.log(`Yay! Workbox is loaded 🎉`);
@@ -35,7 +35,8 @@ workbox.routing.registerRoute(
 );
 
 // workbox.routing.setCatchHandler(({url, event, params}) => {
-//   console.error('Workbox error:', {url, event, params});
+//   console.error('Error handled by workbox.routing.setCatchHandler():',
+//     {url, event, params});
 //   return Response.error();
 // });
 
