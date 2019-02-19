@@ -36,5 +36,6 @@ workbox.routing.registerRoute(
 
 // workbox.routing.setCatchHandler(({url, event, params}) => {
 //   console.error('Workbox error:', {url, event, params});
+//   return Response.error();
 // });
 

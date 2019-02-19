@@ -225,7 +225,7 @@ function handleHashValue() {
         }).catch((error) => {
           console.error(`Error or timeout fetching ${abbreviation}: ${error}`);
           displayInfo(`There was a problem downloading ` +
-            `<em>${texts[abbreviation].title}.</em><br><br>` +
+            `<em>${texts[abbreviation].title}</em>.<br><br>` +
             `Check that you're online and try reloading.`);
         });
     } else {

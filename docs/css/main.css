@@ -82,7 +82,7 @@ div#credit {
 
 div#info {
   color: #c83f3f;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   margin: 0 0 16px 0;
 }
@@ -486,9 +486,9 @@ summary {
   color: #666;
   cursor: pointer;
   display: block;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
-  margin: 0 0 16px 2px;
+  margin: 0 0 24px 2px;
   outline: none;
 }
 
