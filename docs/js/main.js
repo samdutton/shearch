@@ -101,33 +101,37 @@ fetch(INDEX_FILE).then((response) => {
     queryInput.placeholder = QUERY_INPUT_PLACEHOLDER;
   }
   queryInput.focus();
+  fetchDatalists();
 }).catch((error) => {
   displayInfo('There was a problem downloading data.<br><br>' +
     'Please check that you\'re online or try refreshing the page.');
   console.error(`Error fetching ${INDEX_FILE}: ${error}`);
 });
 
-fetch(DATALISTS_FILE).then((response) => {
-  return response.json();
-}).then((json) => {
-  datalists = json;
-  for (const speaker of datalists.speakers) {
-    const option = document.createElement('option');
-    option.value = speaker.n;
-    speakersDatalist.appendChild(option);
-  }
-  texts = datalists.texts;
-  const titles = datalists.titles;
-  for (const title of titles) {
-    const option = document.createElement('option');
-    option.value = title;
-    titlesDatalist.appendChild(option);
-  }
-}).catch((error) => {
-  displayInfo('There was a problem downloading data.<br><br>' +
-    'Please check that you\'re online or try refreshing the page.');
-  console.error(`Error fetching ${DATALISTS_FILE}: ${error}`);
-});
+// Get the data for speaker name and text title search options.
+function fetchDatalists() {
+  fetch(DATALISTS_FILE).then((response) => {
+    return response.json();
+  }).then((json) => {
+    datalists = json;
+    for (const speaker of datalists.speakers) {
+      const option = document.createElement('option');
+      option.value = speaker.n;
+      speakersDatalist.appendChild(option);
+    }
+    texts = datalists.texts;
+    const titles = datalists.titles;
+    for (const title of titles) {
+      const option = document.createElement('option');
+      option.value = title;
+      titlesDatalist.appendChild(option);
+    }
+  }).catch((error) => {
+    displayInfo('There was a problem downloading data.<br><br>' +
+      'Please check that you\'re online or try refreshing the page.');
+    console.error(`Error fetching ${DATALISTS_FILE}: ${error}`);
+  });
+}
 
 // Search whenever query input changes, with debounce delay
 queryInput.oninput = handleQueryInput;
