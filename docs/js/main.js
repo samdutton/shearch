@@ -94,22 +94,25 @@ function fetchIndex() {
     index = elasticlunr.Index.load(json);
     console.timeEnd('Load index');
     queryInput.disabled = false;
-    // If the location has a hash value, either do a search or load a text,
-    // depending on the value. For example: shearch.me#brazen,
-    // shearch.me#Hamlet, shearch.me#ham or shearch.me#ham.3.1.56
-    if (location.hash) {
-      handleHashValue();
-    } else {
-      queryInput.placeholder = QUERY_INPUT_PLACEHOLDER;
-    }
-    queryInput.focus();
     // Get datalists data here to ensure index data is retrieved first.
-    window.setTimeout(fetchDatalists, 1000);
+    window.setTimeout(fetchDatalists, 100);
   }).catch((error) => {
     displayInfo('There was a problem downloading data.<br><br>' +
       'Please check that you\'re online or try refreshing the page.');
     console.error(`Error fetching ${INDEX_FILE}: ${error}`);
   });
+}
+
+// If the location has a hash value, either do a search or load a text,
+// depending on the value. For example: shearch.me#brazen,
+// shearch.me#Hamlet, shearch.me#ham or shearch.me#ham.3.1.56
+function checkHashValue() {
+  if (location.hash) {
+    handleHashValue();
+  } else {
+    queryInput.placeholder = QUERY_INPUT_PLACEHOLDER;
+  }
+  queryInput.focus();
 }
 
 // Get the data for speaker name and text title search options.
@@ -130,6 +133,8 @@ function fetchDatalists() {
       option.value = title;
       titlesDatalist.appendChild(option);
     }
+    // checkHashValue() depends on data in DATALISTS_FILE
+    window.setTimeout(checkHashValue, 100);
   }).catch((error) => {
     displayInfo('There was a problem downloading data.<br><br>' +
       'Please check that you\'re online or try refreshing the page.');
