@@ -127,16 +127,17 @@ fetch(DATALISTS_FILE).then((response) => {
   console.error(`Error fetching ${DATALISTS_FILE}: ${error}`);
 });
 
-// Search whenever query or other input changes, with debounce delay
+// Search whenever query input changes, with debounce delay
 queryInput.oninput = handleQueryInput;
 
 // Do a search if user presses enter/return key
-queryInput.onkeyup = () => {
+queryInput.onkeydown = () => {
   if (event.key === 'Enter' || event.key === 'Tab') {
     handleQueryInput();
   }
 };
 
+// Search whenever query input changes, with debounce delay
 function handleQueryInput() {
   const value = queryInput.value;
   if (value.length > 2) {
