@@ -15,12 +15,12 @@
 }
 
 div#credit a {
-  color: rgba(200, 63, 63, 0.7);
+  color: rgba(200, 63, 63, 1);
   text-decoration: none;
 }
 
 div#credit a:hover {
-  color: rgba(200, 63, 63, 1);
+  color: rgb(166, 48, 48);
   text-decoration: underline;
 }
 

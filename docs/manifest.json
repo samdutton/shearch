@@ -1,7 +1,7 @@
 {
   "name": "Search Shakespeare's plays",
   "short_name": "Shakespeare",
-  "start_url": "./?utm_source=homescreen",
+  "start_url": "./index.html?utm_source=homescreen",
   "display": "standalone",
   "theme_color": "#c83f3f",
   "background_color": "#fafafa",

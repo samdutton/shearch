@@ -30,6 +30,8 @@ const SEARCH_OPTIONS = {
   expand: false, // true means matches are not whole-word-only
 };
 
+const QUERY_INPUT_PLACEHOLDER = 'Search for a word or phrase';
+
 const creditElement = document.getElementById('credit');
 const genderInput = document.getElementById('gender');
 const infoElement = document.getElementById('info');
@@ -96,7 +98,7 @@ fetch(INDEX_FILE).then((response) => {
   if (location.hash) {
     handleHashValue();
   } else {
-    queryInput.placeholder = 'Enter search text';
+    queryInput.placeholder = QUERY_INPUT_PLACEHOLDER;
   }
   queryInput.focus();
 }).catch((error) => {
@@ -201,7 +203,7 @@ function handleHashValue() {
       textDiv.onmouseover = addWordSearch;
       show(creditElement);
       show(textDiv);
-      queryInput.placeholder = 'Enter search text';
+      queryInput.placeholder = QUERY_INPUT_PLACEHOLDER;
     }).catch((error) => {
       console.error(`Error or timeout fetching ${abbreviation}.html: ${error}`);
       displayInfo(`There was a problem downloading ` +
@@ -230,7 +232,7 @@ function handleHashValue() {
           textDiv.onmouseover = addWordSearch;
           show(textDiv);
           show(creditElement);
-          queryInput.placeholder = 'Enter search text';
+          queryInput.placeholder = QUERY_INPUT_PLACEHOLDER;
           highlightCitation(hashValue);
         }).catch((error) => {
           console.error(`Error or timeout fetching ${abbreviation}: ${error}`);
