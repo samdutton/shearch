@@ -2,9 +2,9 @@
 
 Fast search for the complete plays, poems and sonnets of Shakespeare (including locations and stage directions) using data derived from the [PlayShakespeare](https://www.playshakespeare.com) project.
 
-## Use offline
+<img src="https://user-images.githubusercontent.com/205226/53036063-d79dca00-346e-11e9-82e5-11498b173f97.png" width="200" alt="Screenshot of shearch.me">
 
-This app works offline! 
+## This app works offline!
 
 Files are cached on access, via a service worker using [Workbox](https://developers.google.com/web/tools/workbox/).
 
