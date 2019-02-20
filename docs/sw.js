@@ -27,7 +27,7 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.0.0-rc.2/wo
 // }
 
 workbox.routing.registerRoute(
-  /.*\.(?:css|html|json|js)/,
+  /.*\.(?:css|html|json|js|png)/,
   // Use cache but update in the background ASAP
   new workbox.strategies.StaleWhileRevalidate({
     cacheName: CACHE_NAME,
