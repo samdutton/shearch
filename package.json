@@ -4,7 +4,8 @@
   "description": "Search Shakespeare's plays and poems",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "workbox": "workbox generateSW"
   },
   "repository": {
     "type": "git",
@@ -24,7 +25,8 @@
     "eslint": "^5.14.0",
     "eslint-config-google": "latest",
     "jsdom": "latest",
-    "recursive-readdir": "latest"
+    "recursive-readdir": "latest",
+    "workbox-cli": "^4.0.0-rc.3"
   },
   "dependencies": {
     "ajv": "^6.5.2",
