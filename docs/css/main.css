@@ -36,7 +36,7 @@ h1 a:hover {
 body {
   color: #444;
   counter-reset: line-number;
-  font-family: Google Sans, sans-serif;
+  font-family: Roboto, sans-serif;
   margin: 0;
   padding: 30px 20px;
   word-break: break-word;
@@ -72,8 +72,9 @@ div#container {
 div#credit {
   border-top: 1px solid #ccc;
   color: #666 !important;
+  font-weight: 100;
   line-height: 2em;
-  padding: 20px 0 0 0;
+  padding: 10px 0 0 0;
 }
 
 .hidden + div#credit {
@@ -84,6 +85,7 @@ div#info {
   color: #c83f3f;
   font-size: 16px;
   font-weight: 300;
+  line-height: 2em;
   margin: 0 0 16px 0;
 }
 
@@ -117,6 +119,10 @@ h1 {
   line-height: 1.4em;
   margin: 0 0 1em 0;
   padding: 0 0 1em 0;
+}
+
+#container > h1 {
+  font-family: Google Sans, Roboto, sans-serif;
 }
 
 h1#title {
@@ -187,7 +193,7 @@ input[type=checkbox] {
 
 input[type=text] {
   color: black;
-  font-family: Google Sans, sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 18px;
   font-weight: 300;
   padding: 8px;
@@ -354,8 +360,9 @@ ol.speech {
 ol#matches {
   border-bottom: 1px solid #ccc;
   font-family: Palatino, serif;
+  margin: 0;
   max-height: calc(100% - 170px);
-  padding: 10px 0 10px 0;
+  padding: 20px 0 10px 0;
 }
 
 ol#results {

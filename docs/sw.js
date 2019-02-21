@@ -35,18 +35,18 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.0.0-rc.2/wo
 // );
 
 workbox.routing.registerRoute(
-  /\/$/,
+  /\//,
   new workbox.strategies.StaleWhileRevalidate({
     cacheName: CACHE_NAME,
   })
 );
 
-workbox.routing.registerRoute(
-  /\.(|css|html|json|js|png)$/,
-  new workbox.strategies.StaleWhileRevalidate({
-    cacheName: CACHE_NAME,
-  })
-);
+// workbox.routing.registerRoute(
+//   /\.(|css|html|json|js|png)$/,
+//   new workbox.strategies.StaleWhileRevalidate({
+//     cacheName: CACHE_NAME,
+//   })
+// );
 
 workbox.routing.registerRoute(
   /.*(google-analytics\.com|googletagmanager\.com|cloudflare\.com).*/,

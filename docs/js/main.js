@@ -97,8 +97,8 @@ function fetchIndex() {
     // Get datalists data here to ensure index data is retrieved first.
     window.setTimeout(fetchDatalists, 100);
   }).catch((error) => {
-    displayInfo('There was a problem downloading data.<br><br>' +
-      'Please check that you\'re online or try refreshing the page.');
+    displayInfo('There was a problem downloading data.<br>' +
+      'Check that you\'re online, or try refreshing the page.<br><br>');
     console.error(`Error fetching ${INDEX_FILE}: ${error}`);
   });
 }
@@ -220,8 +220,11 @@ function handleHashValue() {
     }).catch((error) => {
       console.error(`Error or timeout fetching ${abbreviation}.html: ${error}`);
       displayInfo(`There was a problem downloading ` +
-        `<em>${texts[abbreviation].title}.</em><br><br>` +
-        `Check that you're online and try reloading.`);
+        `<em>${texts[abbreviation].title}.</em><br>` +
+        'Check that you\'re online, or try refreshing the page.<br><br>' +
+        'You can download texts when you\'re online by selecting the <br>' +
+        '<strong>Download all</strong> checkboxes from ' +
+        '<strong>Search options</strong');
     });
     // Otherwise test if the hash value is a citation,
     // e.g. shearch.me#ham.3.1.56.
@@ -250,8 +253,11 @@ function handleHashValue() {
         }).catch((error) => {
           console.error(`Error or timeout fetching ${abbreviation}: ${error}`);
           displayInfo(`There was a problem downloading ` +
-            `<em>${texts[abbreviation].title}</em>.<br><br>` +
-            `Check that you're online and try reloading.`);
+            `<em>${texts[abbreviation].title}.</em><br>` +
+            'Check that you\'re online, or try refreshing the page.<br><br>' +
+            'You can download texts when you\'re online by selecting the <br>' +
+            '<strong>Download all</strong> checkboxes from ' +
+            '<strong>Search options</strong');
         });
     } else {
       console.error(`Citation ${hashValue} not found`);
@@ -425,8 +431,11 @@ function displayText(match) {
   }).catch((error) => {
     console.error(`Error or timeout fetching ${abbreviation}: ${error}`);
     displayInfo(`There was a problem downloading ` +
-      `<em>${texts[abbreviation].title}.</em><br><br>` +
-      `Check that you're online and try reloading.`);
+      `<em>${texts[abbreviation].title}.</em><br>` +
+      'Check that you\'re online, or try refreshing the page.<br><br>' +
+      'You can download texts when you\'re online by selecting the <br>' +
+      '<strong>Download all</strong> checkboxes from ' +
+      '<strong>Search options</strong.');
   });
 }
 
