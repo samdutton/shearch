@@ -18,24 +18,20 @@ limitations under the License.
 
 const CACHE_NAME = 'cache';
 
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.0.0-rc.2/workbox-sw.js');
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.0.0-rc.3/workbox-sw.js');
 
-// if (workbox) {
-//   console.log(`Yay! Workbox is loaded 🎉`);
-// } else {
-//   console.log(`Boo! Workbox didn't load 😬`);
-// }
-
-// workbox.routing.registerRoute(
-//   /^localhost|shearch\.me$/,
-//   // Use cache but update in the background ASAP
-//   new workbox.strategies.StaleWhileRevalidate({
-//     cacheName: CACHE_NAME,
-//   })
-// );
+workbox.core.skipWaiting();
+workbox.core.clientsClaim();
 
 workbox.routing.registerRoute(
   /\//,
+  new workbox.strategies.StaleWhileRevalidate({
+    cacheName: CACHE_NAME,
+  })
+);
+
+workbox.routing.registerRoute(
+  /.*(google-analytics\.com|googletagmanager\.com|cloudflare\.com).*/,
   new workbox.strategies.StaleWhileRevalidate({
     cacheName: CACHE_NAME,
   })
@@ -48,12 +44,8 @@ workbox.routing.registerRoute(
 //   })
 // );
 
-workbox.routing.registerRoute(
-  /.*(google-analytics\.com|googletagmanager\.com|cloudflare\.com).*/,
-  workbox.strategies.staleWhileRevalidate({
-    cacheName: CACHE_NAME,
-  })
-);
+workbox.core.skipWaiting();
+workbox.core.clientsClaim();
 
 // workbox.routing.setCatchHandler(({url, event, params}) => {
 //   console.error('Error handled by workbox.routing.setCatchHandler():',

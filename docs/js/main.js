@@ -77,8 +77,12 @@ window.onpopstate = (event) => {
 // For example: shearch.me#brazen, shearch.me#hamlet, shearch.me#ham.3.1.56
 window.onhashchange = handleHashValue;
 
-window.onload = fetchIndex;
-function fetchIndex() {
+window.onload = () => {
+  registerServiceWorker();
+  getSearchIndex();
+};
+
+function getSearchIndex() {
   // Get and load index data
   console.log('Fetching index...');
   console.time('Fetch index');
@@ -94,7 +98,8 @@ function fetchIndex() {
     index = elasticlunr.Index.load(json);
     console.timeEnd('Load index');
     queryInput.disabled = false;
-    // Get datalists data here to ensure index data is retrieved first.
+    // Get and parse data for texts and speaker names from datalists.json.
+    // Run here to ensure that (for performance) index data is retrieved first.
     window.setTimeout(fetchDatalists, 100);
   }).catch((error) => {
     displayInfo('There was a problem downloading data.<br>' +
@@ -103,19 +108,7 @@ function fetchIndex() {
   });
 }
 
-// If the location has a hash value, either do a search or load a text,
-// depending on the value. For example: shearch.me#brazen,
-// shearch.me#Hamlet, shearch.me#ham or shearch.me#ham.3.1.56
-function checkHashValue() {
-  if (location.hash) {
-    handleHashValue();
-  } else {
-    queryInput.placeholder = QUERY_INPUT_PLACEHOLDER;
-  }
-  queryInput.focus();
-}
-
-// Get the data for speaker name and text title search options.
+// Fetch and parse data for speaker names and text titles and abbreviations.
 function fetchDatalists() {
   fetch(DATALISTS_FILE).then((response) => {
     return response.json();
@@ -133,7 +126,8 @@ function fetchDatalists() {
       option.value = title;
       titlesDatalist.appendChild(option);
     }
-    // checkHashValue() depends on data in DATALISTS_FILE
+    // NB: handleHashValue() called in checkHashValue()
+    // depends on data in DATALISTS_FILE
     window.setTimeout(checkHashValue, 100);
   }).catch((error) => {
     displayInfo('There was a problem downloading data.<br><br>' +
@@ -142,44 +136,17 @@ function fetchDatalists() {
   });
 }
 
-// Search whenever query input changes, with debounce delay
-queryInput.oninput = handleQueryInput;
-
-// Do a search if user presses enter/return key
-queryInput.onkeydown = () => {
-  if (event.key === 'Enter' || event.key === 'Tab') {
-    handleQueryInput();
+// If the location has a hash value, either do a search or load a text,
+// depending on the value. For example: shearch.me#brazen,
+// shearch.me#Hamlet, shearch.me#ham or shearch.me#ham.3.1.56
+// NB: this function uses data fetched in fetchDatalists()
+function checkHashValue() {
+  if (location.hash) {
+    handleHashValue();
+  } else {
+    queryInput.placeholder = QUERY_INPUT_PLACEHOLDER;
   }
-};
-
-// Search whenever query input changes, with debounce delay
-function handleQueryInput() {
-  const value = queryInput.value;
-  if (value.length > 2) {
-    // debounce text entry
-    clearTimeout(timeout);
-    timeout = setTimeout(() => {
-      doSearch(value);
-    }, DEBOUNCE_DELAY);
-  }
-}
-
-// Filter matches, if displayed.
-titleInput.oninput = speakerInput.oninput = genderInput.oninput = () => {
-  if (matches && matches.length > 0) {
-    displayMatches();
-  }
-};
-
-const typeCheckboxes = document.querySelectorAll('div#type input');
-for (const typeCheckbox of typeCheckboxes) {
-  typeCheckbox.onchange = () => {
-    speakerInput.disabled = genderInput.disabled =
-      !typePlayCheckbox.checked;
-    if (matches && matches.length > 0) {
-      displayMatches();
-    }
-  };
+  queryInput.focus();
 }
 
 // Handle URLs with a hash value: load a search result or text. For example:
@@ -268,6 +235,46 @@ function handleHashValue() {
     queryInput.value = hashValue;
     doSearch(hashValue);
   }
+}
+
+// Search whenever query input changes, with debounce delay
+queryInput.oninput = handleQueryInput;
+
+// Do a search if user presses enter/return key
+queryInput.onkeydown = () => {
+  if (event.key === 'Enter' || event.key === 'Tab') {
+    handleQueryInput();
+  }
+};
+
+// Search whenever query input changes, with debounce delay
+function handleQueryInput() {
+  const value = queryInput.value;
+  if (value.length > 2) {
+    // debounce text entry
+    clearTimeout(timeout);
+    timeout = setTimeout(() => {
+      doSearch(value);
+    }, DEBOUNCE_DELAY);
+  }
+}
+
+// Filter matches, if displayed.
+titleInput.oninput = speakerInput.oninput = genderInput.oninput = () => {
+  if (matches && matches.length > 0) {
+    displayMatches();
+  }
+};
+
+const typeCheckboxes = document.querySelectorAll('div#type input');
+for (const typeCheckbox of typeCheckboxes) {
+  typeCheckbox.onchange = () => {
+    speakerInput.disabled = genderInput.disabled =
+      !typePlayCheckbox.checked;
+    if (matches && matches.length > 0) {
+      displayMatches();
+    }
+  };
 }
 
 function doSearch(query) {
@@ -586,13 +593,17 @@ function formatCitation(match) {
   }
 }
 
-// Service Worker (using Workbox)
+// Service Worker functions (using Workbox)
 
-if ('serviceWorker' in navigator) {
+function registerServiceWorker() {
+  if ('serviceWorker' in navigator) {
   // Use the window load event to keep the page load performant.
-  window.addEventListener('load', () => {
     navigator.serviceWorker.register('/sw.js');
-  });
+  } else {
+    displayInfo('This browser cant\'t store downloaded files.<br><br>' +
+      'The app will work, but only when you\'re online.');
+    console.error('Service worker not supported');
+  }
 }
 
 async function addToCache(urls) {
