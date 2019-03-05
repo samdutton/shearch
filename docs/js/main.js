@@ -188,7 +188,7 @@ function handleHashValue() {
       console.error(`Error or timeout fetching ${abbreviation}.html: ${error}`);
       displayInfo(`There was a problem downloading ` +
         `<em>${texts[abbreviation].title}.</em><br>` +
-        'Check that you\'re online, or try refreshing the page.<br><br>' +
+        'Check that you\'re online, or try refreshing the page.<br>' +
         'You can download texts when you\'re online by selecting the <br>' +
         '<strong>Download all</strong> checkboxes from ' +
         '<strong>Search options</strong');
