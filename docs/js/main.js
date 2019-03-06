@@ -438,11 +438,11 @@ function displayText(match) {
   }).catch((error) => {
     console.error(`Error or timeout fetching ${abbreviation}: ${error}`);
     displayInfo(`There was a problem downloading ` +
-      `<em>${texts[abbreviation].title}.</em><br>` +
+      `<em>${texts[abbreviation].title}.</em><br><br>` +
       'Check that you\'re online, or try refreshing the page.<br><br>' +
-      'You can download texts when you\'re online by selecting the <br>' +
+      'You can download texts when you\'re online by selecting the ' +
       '<strong>Download all</strong> checkboxes from ' +
-      '<strong>Search options</strong.');
+      '<strong>Search options</strong>.');
   });
 }
 

@@ -85,7 +85,7 @@ div#info {
   color: #c83f3f;
   font-size: 16px;
   font-weight: 300;
-  line-height: 2em;
+  line-height: 1.4em;
   margin: 0 0 16px 0;
 }
 
@@ -93,7 +93,7 @@ div#query-container {
   background: white;
   border-bottom: 1px solid #ccc;
   box-shadow: 0 5px 5px 5px white;
-  padding: 20px 0 20px 0;
+  padding: 0 0 20px 0;
   position: sticky;
   top: 0;
   z-index: 1;
@@ -236,7 +236,7 @@ ol#matches li {
   cursor: pointer;
   font-size: 15px;
   line-height: 1.3em;
-  margin: 1px 0 0.8em 0;
+  margin: 1px 0 1em 0;
   padding: 0 65px 0 15px;
   position: relative;
   text-indent: -1em;
