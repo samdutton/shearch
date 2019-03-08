@@ -91,6 +91,6 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 // eslint-disable-next-line
 workbox.routing.registerRoute(/\/data\/.*json$/, new workbox.strategies.CacheFirst({ 'cacheName':'json-data', plugins: [new workbox.expiration.Plugin({ maxAgeSeconds: 2592000, purgeOnQuotaError: false })] }), 'GET');
 // eslint-disable-next-line
-workbox.routing.registerRoute(/\/html\/.*html$/, new workbox.strategies.CacheFirst({ 'cacheName':'html-data', plugins: [new workbox.expiration.Plugin({ maxAgeSeconds: 2592000, purgeOnQuotaError: false })] }), 'GET');
+workbox.routing.registerRoute(/\/html\/.*\.html/, new workbox.strategies.CacheFirst({ 'cacheName':'html-data', plugins: [new workbox.expiration.Plugin({ maxAgeSeconds: 2592000, purgeOnQuotaError: false })] }), 'GET');
 
 workbox.googleAnalytics.initialize({});
