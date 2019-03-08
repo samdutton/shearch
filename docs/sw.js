@@ -26,7 +26,7 @@ limitations under the License.
  * See https://goo.gl/2aRDsh
  */
 
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.0.0-rc.3/workbox-sw.js');
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.0.0/workbox-sw.js');
 
 workbox.core.skipWaiting();
 workbox.core.clientsClaim();
