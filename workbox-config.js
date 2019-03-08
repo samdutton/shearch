@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
   clientsClaim: true,
   globDirectory: 'docs',
-  globIgnores: ['data/*.json', 'html/*.html'],
+  globIgnores: ['data/*.json', 'html/*.html', 'CNAME', 'default.profraw'],
   globPatterns: ['**'],
   offlineGoogleAnalytics: true,
   runtimeCaching: [{

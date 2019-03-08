@@ -191,7 +191,7 @@ function handleHashValue() {
         'Check that you\'re online, or try refreshing the page.<br>' +
         'You can download texts when you\'re online by selecting the <br>' +
         '<strong>Download all</strong> checkboxes from ' +
-        '<strong>Search options</strong');
+        '<strong>Search&nbsp;options</strong');
     });
     // Otherwise test if the hash value is a citation,
     // e.g. shearch.me#ham.3.1.56.

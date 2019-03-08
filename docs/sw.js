@@ -28,16 +28,8 @@ self.__precacheManifest = [
     "revision": "6f2be11f884e6b436db7cbce80fe9a5f"
   },
   {
-    "url": "CNAME",
-    "revision": "beb19242af99c9bd6d76e3ae6cf1ec43"
-  },
-  {
     "url": "css/main.css",
     "revision": "1dbbaa8ef8bb13cfad85cbab032d8ae1"
-  },
-  {
-    "url": "default.profraw",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "favicon.ico",
@@ -65,7 +57,7 @@ self.__precacheManifest = [
   },
   {
     "url": "js/main.js",
-    "revision": "bba0ddb81d5f10d6275dcc5a01d780a4"
+    "revision": "eb51f851ae53940fb5ffe06b2716a307"
   },
   {
     "url": "js/third-party/elasticlunr.min.js",
@@ -78,7 +70,7 @@ self.__precacheManifest = [
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerRoute(/\/data\/.*json$/, new workbox.strategies.CacheFirst({ "cacheName":"json-data", plugins: [new workbox.expiration.Plugin({ maxAgeSeconds: 2592000, purgeOnQuotaError: false })] }), 'GET');
+workbox.routing.registerRoute(/\/data\/.*.json/, new workbox.strategies.CacheFirst({ "cacheName":"json-data", plugins: [new workbox.expiration.Plugin({ maxAgeSeconds: 2592000, purgeOnQuotaError: false })] }), 'GET');
 workbox.routing.registerRoute(/\/html\/.*.html/, new workbox.strategies.CacheFirst({ "cacheName":"html-data", plugins: [new workbox.expiration.Plugin({ maxAgeSeconds: 2592000, purgeOnQuotaError: false })] }), 'GET');
 
 workbox.googleAnalytics.initialize({});
