@@ -16,7 +16,7 @@ module.exports = {
       },
     },
   }, {
-    urlPattern: new RegExp('/html/.*html$'),
+    urlPattern: new RegExp('/html/.*\.html'),
     handler: 'CacheFirst',
     options: {
       cacheName: 'html-data',
