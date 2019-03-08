@@ -7,7 +7,7 @@ module.exports = {
   globPatterns: ['**'],
   offlineGoogleAnalytics: true,
   runtimeCaching: [{
-    urlPattern: new RegExp('/data/.*json$'),
+    urlPattern: new RegExp('/data/.*\.json'),
     handler: 'CacheFirst',
     options: {
       cacheName: 'json-data',
