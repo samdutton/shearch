@@ -17,8 +17,8 @@ limitations under the License.
 const mz = require('mz/fs');
 const recursive = require('recursive-readdir');
 
-const FlexSearch = require('flexsearch');
 const {JSDOM} = require('jsdom');
+var FlexSearch = require("flexsearch");
 
 const abbreviations = require('../config/filename-to-abbreviation.json');
 const titles = require('../config/titles.json');
@@ -27,16 +27,16 @@ const PLAY_DIR = 'plays-ps';
 const POEM_DIR = 'poems-ps';
 const TEXTS_DIR = '../third-party/';
 
-const DOCS_FILE = '../client/data/docs.json';
+const DOCS_FILE = '../docs/data/docs.json';
 const CREATE_DOCS_FILE = true;
 const CREATE_INDEX = true;
-const INDEX_FILE = '../client/data/index.json';
-const DATALISTS_FILE = '../client/data/datalists.json';
+const INDEX_FILE = '../docs/data/index.json';
+const DATALISTS_FILE = '../docs/data/datalists.json';
 
-const docs = {};
+const docs = [];
 let docNum = 0;
 const genders = {};
-const index = new FlexSearch();
+let numFiles = 0;
 let numFilesToProcess = 0;
 const speakers = [];
 
@@ -45,7 +45,8 @@ recursive(TEXTS_DIR).then((filepaths) => {
   filepaths = filepaths.filter((filename) => {
     return filename.match(/.+xml/); // filter out .DS_Store, etc.
   });
-  numFilesToProcess = filepaths.length;
+  numFiles = numFilesToProcess = filepaths.length;
+  console.time(`Time to index ${numFiles} texts`);
   for (const filepath of filepaths) {
     addDocs(filepath);
   }
@@ -69,14 +70,15 @@ function addDocs(filepath) {
       if (--numFilesToProcess === 0) {
         console.timeEnd('Parse texts');
         if (CREATE_DOCS_FILE) {
-          console.time(`Write JSON file for ${Object.keys(docs).length} docs`);
+          console.time(`Write JSON file for ${docs.length} docs`);
           writeFile(DOCS_FILE, JSON.stringify(docs));
-          console.timeEnd(`Write JSON file for ${Object.keys(docs).length} docs`);
+          console.timeEnd(`Write JSON file for ${docs.length} docs`);
         }
         if (CREATE_INDEX) {
-          console.time(`Index ${Object.keys(docs).length} docs`);
+          console.time(`Index ${docs.length} docs`);
           createIndex(docs);
-          console.timeEnd(`Index ${Object.keys(docs).length} docs`);
+          console.timeEnd(`Index ${docs.length} docs`);
+          console.timeEnd(`Time to index ${numFiles} texts`);
         }
         createDatalists();
       }
@@ -101,11 +103,11 @@ function addPlay(filename, document) {
       const sceneTitle = scene.getElementsByTagName('scenetitle')[0];
       // r signifies 'role', 't' signifies scene title (only one, so no index)
       addDoc(location, sceneTitle.textContent, {r: 't'});
-      const stagedirs = scene.getElementsByTagName('stagedir');
-      let stagedirIndex = 0; // index for finding stage direction within scene
-      for (const stagedir of stagedirs) {
-        // r signifies 'role', 's' signifies stage direction, i is index
-        addDoc(location, stagedir.textContent, {r: 's', i: stagedirIndex++});
+      const extras = scene.querySelectorAll('stagedir, scenelocation');
+      for (let i = 0; i !== extras.length; ++i) {
+        // r signifies 'role', 's' signifies stagedir or scenelocation,
+        // x is the index of this element within its scene to enable highlighting
+        addDoc(location, extras[i].textContent, {r: 's', x: i});
       }
       const speeches = scene.getElementsByTagName('speech');
       for (const speech of speeches) {
@@ -114,8 +116,9 @@ function addPlay(filename, document) {
         const lines = speech.getElementsByTagName('line');
         // stage directions are added separately above, even if within a speech
         for (const line of lines) {
-          addDoc(`${location}.${lineIndex++}`,
-            fix(line.textContent), {s: speaker, g: genders[speaker]});
+          const lineNumber = line.getAttribute('number');
+          addDoc(`${location}.${lineIndex++}`, fix(line.textContent),
+            {s: speaker, g: genders[speaker], n: lineNumber});
         }
       }
     }
@@ -126,11 +129,11 @@ function addSpeakers(document) {
   const personas = document.getElementsByTagName('persona');
   for (const persona of personas) {
     const speaker = {};
-    speaker.gender = persona.getAttribute('gender');
+    speaker.g = persona.getAttribute('gender');
     const persname = persona.firstElementChild;
-    speaker.name = persname.textContent;
+    speaker.n = persname.textContent;
     speakers.push(speaker);
-    genders[speaker.name] = speaker.gender;
+    genders[speaker.n] = speaker.g;
   }
 }
 
@@ -163,12 +166,12 @@ function addSonnets(document) {
   }
 }
 
-// Each 'document' in the data store is either a line from a play or poem
-// or a stage direction or scene description.
-// The options parameter includes optional additional metadata.
-// For example: {r:'t'} signifies that the role of the text is scene title.
+// Each 'document' in the data store is either a line from a play or poem,
+// or a stage direction or scene description
 function addDoc(location, text, options) {
   const doc = {
+    // i is the ID of the document: a number in base 36
+    i: (docNum++).toString(36), // base 36 to minimise length/storage of n
     l: location,
     t: text,
   };
@@ -177,15 +180,18 @@ function addDoc(location, text, options) {
       doc[key] = options[key];
     }
   }
-  // n is the ID of the document: a number in base 36
-  const n = (docNum++).toString(36); // base 36 to minimise length/storage of n
-  docs[n] = doc;
-  index.add(n, text);
+  docs.push(doc);
 }
 
 function createIndex() {
-  writeFile(DOCS_FILE, JSON.stringify(docs));
-  writeFile(INDEX_FILE, index.export());
+  const index = new FlexSearch({
+    doc: {
+      id: 'i',
+      field: 't',
+    },
+  });
+  index.add(docs);
+  writeFile(INDEX_FILE, JSON.stringify(index));
   // Optional: write sample docs file (for testing only)
   // const numDocs = 100;
   // const someDocs = docs.sort(function() {
@@ -207,7 +213,7 @@ function writeFile(filepath, string) {
     if (error) {
       return console.error(error);
     }
-    console.log(`The file ${filepath} was saved!`);
+    console.log(`Created ${filepath}`);
   });
 }
 

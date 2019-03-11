@@ -47,7 +47,7 @@ const top = mz.readFileSync('./html-fragments/top.html');
 
 const DO_VALIDATION = true;
 const IS_STANDALONE = false;
-const OUTPUT_DIR = '../client/html/';
+const OUTPUT_DIR = '../docs/html/';
 const PLAY_DIR = 'plays-ps';
 const POEM_DIR = 'poems-ps';
 const TEXTS_DIR = '../third-party/';
@@ -59,7 +59,7 @@ const coupletOpenRegex = /<couplet>/gi;
 const coupletCloseRegex = /<\/couplet>/gi;
 const finisRegex = /<finis>\n*.*\n*.*<\/finis>/gim; // only one of these...
 const foreignRegex = /<foreign[^>]+([^<]+)<\/foreign>/gi;
-const lineOpenRegex = /<line [^>]+>/gi;
+const lineOpenRegex = /<line.+number="(\d+)" [^>]+>/gi;
 const lineCloseRegex = /<\/line>/gi;
 const quatrainOpenRegex = /<quatrain[^>]*>/gi; // some quatrains have atrributes
 const quatrainCloseRegex = /<\/quatrain>/gi;
@@ -74,21 +74,25 @@ const subtitleCloseRegex = /<\/subtitle>/gi;
 const tercetOpenRegex = /<tercet>/gi;
 const tercetCloseRegex = /<\/tercet>/gi;
 
-let numFilesToProcess = 0;
+let numFiles = 0;
+let numFilesToParse = 0;
+let numFilesToWrite = 0;
 
 // Parse each file in the directory of texts
 recursive(TEXTS_DIR).then((filepaths) => {
   filepaths = filepaths.filter((filename) => {
     return filename.match(/.+xml/); // filter out .DS_Store, etc.
   });
-  numFilesToProcess = filepaths.length;
+  numFiles = numFilesToParse = numFilesToWrite =
+    filepaths.length;
+  console.time(`Finished writing ${numFiles} files`);
   for (const filepath of filepaths) {
     parseText(filepath);
   }
 }).catch((error) => console.error(`Error reading from ${TEXTS_DIR}:`, error));
 
 function parseText(filepath) {
-  console.time('Parse texts');
+  console.time(`Time to parse ${numFiles} XML texts`);
   JSDOM.fromFile(filepath, {contentType: 'text/xml'})
     .then((dom) => {
       const filename = filepath.split('/').pop();
@@ -101,9 +105,9 @@ function parseText(filepath) {
         console.error(`Unexpected filepath ${filepath}`);
         return;
       }
-      console.log(`${numFilesToProcess} files to process`);
-      if (--numFilesToProcess === 0) {
-        console.timeEnd('Parse texts');
+      console.log(`${numFilesToParse} XML files to parse`);
+      if (--numFilesToParse === 0) {
+        console.timeEnd(`Time to parse ${numFiles} XML texts`);
       }
     }).catch((error) => {
       console.log(`Error creating DOM from ${filepath}`, error);
@@ -132,7 +136,12 @@ function parsePlay(filename, document) {
     html = ('' + top).replace('${title}', title) + html + bottom;
   }
   // html = minify(html);
-  writeFile(filename, html);
+
+  if (DO_VALIDATION) {
+    validateThenWrite(filename, html);
+  } else {
+    writeFile(filename, html);
+  }
 }
 
 function addPreamble(document) {
@@ -200,7 +209,6 @@ function addActs(document) {
 }
 
 function addScene(scene) {
-  addLineNumberMarkup(scene);
   let html = '<section class="scene">\n\n';
   const children = scene.children;
   for (const child of children) {
@@ -209,13 +217,13 @@ function addScene(scene) {
       html += addSpeech(child);
       break;
     case 'stagedir':
-      html += `<div class="stage-direction">${child.textContent}</div>\n\n`;
+      html += `<div class="direction-location">${child.textContent}</div>\n\n`;
       break;
     case 'scenetitle':
       html += `<h3>${child.textContent}</h3>\n\n`;
       break;
     case 'scenelocation':
-      html += `<h4>${child.textContent}</h4>\n\n`;
+      html += `<h4 class="direction-location">${child.textContent}</h4>\n\n`;
       break;
     case 'finis':
     case 'lb':
@@ -231,55 +239,38 @@ function addScene(scene) {
   return html;
 }
 
-// This function adds a data-number attribute to every line to be numbered.
-// Line numbers are displayed for every fifth line
-// but for multipart lines only the final line should be numbered
-function addLineNumberMarkup(scene) {
-  const lines = scene.getElementsByTagName('line');
-  for (let i = 0; i !== lines.length; ++i) {
-    const line = lines[i];
-    const lineNumber = line.getAttribute('number');
-    const nextLine = lines[i + 1]; // may not exist
-    // see comment on function for explanation
-    const nextHasOffset = nextLine && nextLine.hasAttribute('offset');
-    const isNumbered = lineNumber % 5 === 0 && !nextHasOffset;
-    if (isNumbered) {
-      line.setAttribute('data-number', lineNumber);
-    }
-  }
-}
-
 
 function addSpeech(speech) {
   const children = speech.children;
   let html = '';
-  let dataNumber;
   let hasNonZeroOffset;
   let number;
+  let numberAttribute;
   let offset;
   let offsetAttribute;
   const speakers = [];
   for (const child of children) {
     switch (child.nodeName) {
     case 'line':
-      // some 'lines' span multiple lines
-      // each line after the first is indented, using the offset attribute value
+      // Add line number as a data attribute.
+      // Lines may share the same line number: follow-on lines are indented
+      // See ham.1.1.10 for an example.
+      numberAttribute = child.getAttribute('number');
+      number = ` data-n="${numberAttribute}"`;
+      // Each line after the first is indented using the offset attribute value.
       offsetAttribute = child.getAttribute('offset');
       hasNonZeroOffset = offsetAttribute && offsetAttribute !== '0';
-      offset = hasNonZeroOffset ? ` data-offset="${offsetAttribute}"` : '';
-      // data-number attributes are added to XML DOM in addScene()
-      dataNumber = child.getAttribute('data-number');
-      number = dataNumber ? ` data-number="${dataNumber}"` : '';
+      offset = hasNonZeroOffset ? ` data-o="${offsetAttribute}"` : '';
       const line = child.innerHTML.
-        replace(stageDirRegEx, '<span class="stage-direction">$1</span>');
-      html += `  <li${number + offset}>${line}</li>\n`;
+        replace(stageDirRegEx, '<span class="direction-location">$1</span>');
+      html += `  <li${number}${offset}>${line}</li>\n`;
       break;
     case 'speaker':
-      // speeches occasionally have more than one speaker
+      // Speeches occasionally have more than one speaker.
       speakers.push(child.textContent);
       break;
     case 'stagedir':
-      html += `  <li class="stage-direction">${child.textContent}</li>\n`;
+      html += `  <li class="direction-location">${child.textContent}</li>\n`;
       break;
     case 'lb':
     case 'speech':
@@ -288,7 +279,7 @@ function addSpeech(speech) {
       console.error(`${play(speech)}: weird speech element ${child.nodeName}`);
     }
   }
-  return `<ol data-speaker="${speakers.join(', ')}">\n` + html + '</ol>\n\n';
+  return `<ol data-s="${speakers.join(', ')}">\n` + html + '</ol>\n\n';
 }
 
 // **************
@@ -297,7 +288,7 @@ function addSpeech(speech) {
 function parsePoem(filename, document) {
   const poemAbbreviation = abbreviations[filename];
   if (poemAbbreviation === 'Son') {
-    // sonnet file includes multiple poems
+    // Sonnet file includes multiple poems.
     addSonnets(document);
   } else {
     addSinglePoem(document, poemAbbreviation);
@@ -307,6 +298,8 @@ function parsePoem(filename, document) {
 function addSonnets(document) {
   let html = '<h1 id="title">Sonnets</h1>\n\n';
   const sonnets = document.getElementsByTagName('sonnet');
+  let number;
+  let numberAttribute;
   for (let i = 0; i !== sonnets.length; ++i) {
     const sonnet = sonnets[i];
     html += '<section class="poem">\n';
@@ -314,9 +307,8 @@ function addSonnets(document) {
     html += '  <ol>\n';
     const lines = sonnet.getElementsByTagName('line');
     for (let j = 0; j !== lines.length; ++j) {
-      // add class="number" if this line should be numbered
-      const isNumbered = (j + 1) % 5 === 0 && j !== 0;
-      const number = isNumbered ? ' class="number"' : '';
+      numberAttribute = lines[j].getAttribute('number');
+      number = ` data-n="${numberAttribute}"`;
       html += `    <li${number}>${lines[j].textContent}</li>\n`;
     }
     html += '</ol>\n';
@@ -327,7 +319,7 @@ function addSonnets(document) {
     html = ('' + top).replace('${title}', 'Sonnets') + fix(html) + bottom;
   }
   // html = minify(html);
-  writeFile('Son.html', html);
+  validateThenWrite('Son.html', html);
 }
 
 function addSinglePoem(document, poemAbbreviation) {
@@ -345,7 +337,7 @@ function addSinglePoem(document, poemAbbreviation) {
     html = ('' + top).replace('${title}', title) + html + bottom;
   }
   // html = minify(html);
-  writeFile(`${poemAbbreviation}.html`, html);
+  validateThenWrite(`${poemAbbreviation}.html`, html);
 }
 
 function getPoemBody(document) {
@@ -357,7 +349,7 @@ function getPoemBody(document) {
     replace('</dedication>', '</section>').
     replace(finisRegex, '<h2 id="finis">FINIS.</h2>').
     replace(foreignRegex, '$1').
-    replace(lineOpenRegex, '  <p>').
+    replace(lineOpenRegex, '  <p data-n="$1">').
     replace(lineCloseRegex, '</p>').
     replace(quatrainOpenRegex, '<section class="quatrain">').
     replace(quatrainCloseRegex, '</section>').
@@ -387,16 +379,17 @@ function fix(html) {
 }
 
 function writeFile(filename, html) {
-  if (DO_VALIDATION) {
-    validate(filename, html);
+  console.log(`Created file ${filename}`);
+  console.log(`${numFilesToWrite} HTML file(s) to write`);
+  if (--numFilesToWrite === 0) {
+    console.timeEnd(`Finished writing ${numFiles} files`);
   }
-  console.log(`Writing file ${filename}`);
   mz.writeFile(OUTPUT_DIR + filename, html).
     catch((error) => console.error(`Error writing ${filename}:`, error));
 }
 
 // Check that a file contains valid HTML
-function validate(filename, html) {
+function validateThenWrite(filename, html) {
   const options = {
     data: html,
     format: 'text',
@@ -406,6 +399,9 @@ function validate(filename, html) {
   validator(options).then((data) => {
     if (data.includes('Error')) {
       console.error(filename, data);
+    } else {
+      console.log(`Validated ${filename}`);
+      writeFile(filename, html);
     }
   }).catch((error) => {
     console.error(`Error validating ${filename}:`, error);
