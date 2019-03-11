@@ -191,7 +191,7 @@ function createIndex() {
     },
   });
   index.add(docs);
-  writeFile(INDEX_FILE, JSON.stringify(index));
+  writeFile(INDEX_FILE, index.export());
   // Optional: write sample docs file (for testing only)
   // const numDocs = 100;
   // const someDocs = docs.sort(function() {
