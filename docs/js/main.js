@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-/* globals elasticlunr */
+/* globals FlexSearch */
 
 const DATALISTS_FILE = '/data/datalists.json';
 const HTML_DIR = '/html/';
@@ -22,13 +22,13 @@ const INDEX_FILE = '/data/index.json';
 
 const CACHE_NAME = 'cache';
 const DEBOUNCE_DELAY = 300;
-const SEARCH_OPTIONS = {
-  fields: {
-    t: {}, // search t field, no special options
-  },
-  bool: 'AND',
-  expand: false, // true means matches are not whole-word-only
-};
+// const SEARCH_OPTIONS = {
+//   fields: {
+//     t: {}, // search t field, no special options
+//   },
+//   bool: 'AND',
+//   expand: false, // true means matches are not whole-word-only
+// };
 
 const QUERY_INPUT_PLACEHOLDER = 'Search for a word or phrase';
 
@@ -87,8 +87,9 @@ function getSearchIndex() {
   console.log('Fetching index...');
   console.time('Fetch index');
   fetch(INDEX_FILE).then((response) => {
-    return response.json();
-  }).then((json) => {
+    return response.text();
+  }).then((text) => {
+    console.log('>>>> text', text.slice(0, 100));
     console.timeEnd('Fetch index');
     // elasticlunr.clearStopWords = function() {
     //   elasticlunr.stopWordFilter.stopWords = {};
@@ -96,14 +97,14 @@ function getSearchIndex() {
     console.log('Loading index...');
     console.time('Load index');
     index = new FlexSearch();
-    index.import(json);
+    index.import(text);
     console.timeEnd('Load index');
     queryInput.disabled = false;
     // Get and parse data for texts and speaker names from datalists.json.
     // Run here to ensure that (for performance) index data is retrieved first.
     window.setTimeout(fetchDatalists, 100);
   }).catch((error) => {
-    displayInfo('There was a problem downloading data.<br>' +
+    displayInfo('There was a problem downloading files needed by the app.<br>' +
       'Check that you\'re online, or try refreshing the page.<br><br>');
     console.error(`Error fetching ${INDEX_FILE}: ${error}`);
   });
@@ -282,7 +283,7 @@ function doSearch(query) {
   matchesList.textContent = '';
   startTime = window.performance.now();
   console.time(`Do search for ${query}`);
-  matches = index.search(query, SEARCH_OPTIONS); // elasticlunr
+  matches = index.search(query); // FlexSearch
   console.timeEnd(`Do search for ${query}`);
 
   const elapsed = Math.round(window.performance.now() - startTime) / 1000;

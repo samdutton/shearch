@@ -18,7 +18,7 @@ const mz = require('mz/fs');
 const recursive = require('recursive-readdir');
 
 const {JSDOM} = require('jsdom');
-var FlexSearch = require("flexsearch");
+const FlexSearch = require('flexsearch');
 
 const abbreviations = require('../config/filename-to-abbreviation.json');
 const titles = require('../config/titles.json');

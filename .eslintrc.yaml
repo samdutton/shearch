@@ -1,10 +1,12 @@
-extends: google
-globals:
-  goog: false
 env:
   browser: true
   es6: true
   node: true
+extends: google
+globals:
+  goog: false
+parserOptions:
+  ecmaVersion: 2017
 rules:
   curly: error
   guard-for-in: off
