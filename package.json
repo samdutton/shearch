@@ -24,6 +24,7 @@
   "devDependencies": {
     "eslint": "^5.15.1",
     "eslint-config-google": "latest",
+    "extend": ">=3.0.2",
     "jsdom": "latest",
     "recursive-readdir": "latest",
     "workbox-cli": "^4.0.0"
