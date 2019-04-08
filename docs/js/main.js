@@ -56,9 +56,9 @@ let timeout = null;
 // Log a Google Analytics event when search options is opened.
 searchOptionsDetails.ontoggle = (event) => {
   if (event.target.open) {
-    gtag('event', 'search-options-open', {
+    gtag('event', 'Search options opened', {
       'event_category': 'Search',
-      'event_label': 'Search options',
+      // 'event_label': 'Search options',
     });
   }
 };
@@ -292,6 +292,7 @@ function doSearch(query) {
   // Add Google Analytics tracking for searches.
   gtag('config', 'UA-103792298-2', {
     'page_title': 'search',
+    'page_location': `https://shearch.me?q=${query}`,
     'page_path': `/search?q=${query}`,
   });
   matchesList.textContent = '';
