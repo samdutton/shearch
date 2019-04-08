@@ -292,7 +292,7 @@ function doSearch(query) {
   // Add Google Analytics tracking for searches.
   gtag('config', 'UA-103792298-2', {
     'page_title': 'search',
-    'page_location': `https://shearch.me?q=${query}`,
+    'page_location': `https://shearch.me/search?q=${query}`,
     'page_path': `/search?q=${query}`,
   });
   matchesList.textContent = '';
