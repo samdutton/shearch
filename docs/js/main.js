@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-/* globals FlexSearch */
+/* globals FlexSearch ga */
 
 const DATALISTS_FILE = '/data/datalists.json';
 const HTML_DIR = '/html/';
@@ -39,6 +39,7 @@ const matchesList = document.getElementById('matches');
 const typePlayCheckbox = document.getElementById('type-play');
 const queryInfoElement = document.getElementById('query-info');
 const queryInput = document.getElementById('query');
+const searchOptionsDetails = document.getElementById('search-options');
 const speakerInput = document.getElementById('speaker');
 const speakersDatalist = document.getElementById('speakers');
 const textDiv = document.getElementById('text');
@@ -51,6 +52,17 @@ let matches;
 let startTime;
 let texts;
 let timeout = null;
+
+// Add Google Analytics event tracking when search options is opened.
+searchOptionsDetails.ontoggle = (event) => {
+  if (event.target.open) {
+    ga('send', 'event', {
+      'eventCategory': 'Search',
+      'eventAction': 'Open',
+      'eventLabel': 'Search options',
+    });
+  }
+};
 
 // Handle navigation between search results and text display.
 window.onpopstate = (event) => {
@@ -89,7 +101,6 @@ function getSearchIndex() {
   fetch(INDEX_FILE).then((response) => {
     return response.text();
   }).then((text) => {
-    console.log('>>>> text', text.slice(0, 100));
     console.timeEnd('Fetch index');
     // elasticlunr.clearStopWords = function() {
     //   elasticlunr.stopWordFilter.stopWords = {};
