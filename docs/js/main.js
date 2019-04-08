@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-/* globals elasticlunr ga */
+/* globals elasticlunr gtag */
 
 const DATALISTS_FILE = '/data/datalists.json';
 const HTML_DIR = '/html/';
@@ -53,13 +53,12 @@ let startTime;
 let texts;
 let timeout = null;
 
-// Add Google Analytics event tracking when search options is opened.
+// Log a Google Analytics event when search options is opened.
 searchOptionsDetails.ontoggle = (event) => {
   if (event.target.open) {
-    ga('send', 'event', {
-      'eventCategory': 'Search',
-      'eventAction': 'Open',
-      'eventLabel': 'Search options',
+    gtag('event', 'search-options-open', {
+      'event_category': 'Search',
+      'event_label': 'Search options',
     });
   }
 };
@@ -291,7 +290,10 @@ for (const typeCheckbox of typeCheckboxes) {
 
 function doSearch(query) {
   // Add Google Analytics tracking for searches.
-  ga('send', 'pageview', `search?q=${query}`);
+  gtag('config', 'UA-103792298-2', {
+    'page_title': 'search',
+    'page_path': `/search?q=${query}`,
+  });
   matchesList.textContent = '';
   startTime = window.performance.now();
   console.time(`Do search for ${query}`);
