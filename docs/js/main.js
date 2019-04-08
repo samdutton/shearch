@@ -64,11 +64,6 @@ searchOptionsDetails.ontoggle = (event) => {
   }
 };
 
-// Add Google Analytics tracking for searches.
-queryInput.onblur = (event) => {
-  ga('send', 'pageview', `search?q=${queryInput.value}`);
-};
-
 // Handle navigation between search results and text display.
 window.onpopstate = (event) => {
   if (event.state && event.state.type === 'results') {
@@ -295,6 +290,8 @@ for (const typeCheckbox of typeCheckboxes) {
 }
 
 function doSearch(query) {
+  // Add Google Analytics tracking for searches.
+  ga('send', 'pageview', `search?q=${query}`);
   matchesList.textContent = '';
   startTime = window.performance.now();
   console.time(`Do search for ${query}`);
