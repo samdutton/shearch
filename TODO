@@ -1,5 +1,3 @@
-Add option to download all the texts
-
 Add query strings for speaker, text type, etc.
 
 Factor out fetch(`${HTML_DIR}
@@ -7,3 +5,28 @@ Factor out fetch(`${HTML_DIR}
 Add line numbers for offset lines only once.
 
 Add exact match only
+
+
+Language search:
+
+
+
+let languages = {};
+
+for each play
+  if a scenelanguage element
+    for each language element
+      languages[el.getAttributeValue('short')] = el.value;
+
+for each play
+  for each line
+
+      line = child.innerHTML.
+        replace(foreignRegEx, '<span data-l="$1">$2</span>');
+
+/<stagedir>([^<]+)<\/stagedir>/gi;
+const foreignRegEx = /<foreign xml:lang="(\w)">([^<]+)<\/foreign>/gi;
+
+<foreign xml:lang="(\w+)">([^<]+)<\/foreign>
+<foreign xml:lang="fr">adieu</foreign>
+

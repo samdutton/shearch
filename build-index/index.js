@@ -50,7 +50,7 @@ recursive(TEXTS_DIR).then((filepaths) => {
   for (const filepath of filepaths) {
     addDocs(filepath);
   }
-}).catch((error) => console.error(`Error reading from ${TEXTS_DIR}:`, error));
+}).catch((error) => displayError(`Error reading from ${TEXTS_DIR}:`, error));
 
 function addDocs(filepath) {
   console.time('Parse texts');
@@ -63,7 +63,7 @@ function addDocs(filepath) {
       } else if (filepath.includes(POEM_DIR)) {
         addPoem(filename, document);
       } else {
-        console.error(`Unexpected filepath ${filepath}`);
+        displayError(`Unexpected filepath ${filepath}`);
         return;
       }
       console.log(`${numFilesToProcess} files to process`);
@@ -214,7 +214,7 @@ function createDatalists() {
 function writeFile(filepath, string) {
   mz.writeFile(filepath, string, (error) => {
     if (error) {
-      return console.error(error);
+      return displayError(error);
     }
     console.log(`Created ${filepath}`);
   });
@@ -234,3 +234,10 @@ function fix(text) {
 //     return item.replace(item[0], item[0].toUpperCase());
 //   }).join(' ');
 // }
+
+// Display error messages preceded with >>> Error: in red
+function displayError(...args) {
+  const color = '\x1b[31m'; // red
+  const reset = '\x1b[0m'; // reset color
+  console.error(color, '>>> Error:', reset, ...args);
+}

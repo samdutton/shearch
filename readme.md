@@ -27,7 +27,7 @@ You can also link to search results:
 
 ## Search options
 
-There are several options for filtering search results: 
+There are several options for filtering search results:
 * Text name
 * Type of text (play, poem or sonnet)
 * Speaker
@@ -35,11 +35,21 @@ There are several options for filtering search results:
 
 You can also click on a word in a text to search for that word.
 
+## Privacy
+
+Google Analytics is used to record the following:
+
+* [Basic visit data](https://support.google.com/analytics/answer/6004245?ref_topic=2919631).
+* Most popular search queries.
+* Button tap and click [events](https://developers.google.com/analytics/devguides/collection/analyticsjs/events).
+
+No additional data is sent to the server.
+
 ## Feedback and feature requests
 
-Feedback welcome! 
+Feedback welcome!
 
-* [Make a comment or request](https://goo.gl/forms/smd5GkvYqRH6cxhm2) 
+* [Make a comment or request](https://goo.gl/forms/smd5GkvYqRH6cxhm2)
 * [File a bug](https://github.com/samdutton/shearch/issues/new)
 
 ## Play and poem texts

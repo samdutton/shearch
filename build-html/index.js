@@ -45,20 +45,20 @@ const titles = require('../config/abbreviated-filename-to-title.json');
 const bottom = mz.readFileSync('./html-fragments/bottom.html');
 const top = mz.readFileSync('./html-fragments/top.html');
 
-const DO_VALIDATION = true;
+const DO_VALIDATION = false;
 const IS_STANDALONE = false;
 const OUTPUT_DIR = '../docs/html/';
 const PLAY_DIR = 'plays-ps';
 const POEM_DIR = 'poems-ps';
 const TEXTS_DIR = '../third-party/';
 
-const stageDirRegEx = /<STAGEDIR>([^<]+)<\/STAGEDIR>/gi;
+const foreignRegEx = /<foreign xml:lang="(\w{2})">([^<]+)<\/foreign>/gi;
+const stageDirRegEx = /<stagedir>([^<]+)<\/stagedir>/gi;
 
 // Some opening tags in poem sections have attributes to remove, some don't.
 const coupletOpenRegex = /<couplet>/gi;
 const coupletCloseRegex = /<\/couplet>/gi;
 const finisRegex = /<finis>\n*.*\n*.*<\/finis>/gim; // only one of these...
-const foreignRegex = /<foreign[^>]+([^<]+)<\/foreign>/gi;
 const lineOpenRegex = /<line.+number="(\d+)" [^>]+>/gi;
 const lineCloseRegex = /<\/line>/gi;
 const quatrainOpenRegex = /<quatrain[^>]*>/gi; // some quatrains have atrributes
@@ -78,7 +78,7 @@ let numFiles = 0;
 let numFilesToParse = 0;
 let numFilesToWrite = 0;
 
-// Parse each file in the directory of texts
+// Parse each file in the directory containing play and poem texts
 recursive(TEXTS_DIR).then((filepaths) => {
   filepaths = filepaths.filter((filename) => {
     return filename.match(/.+xml/); // filter out .DS_Store, etc.
@@ -89,7 +89,7 @@ recursive(TEXTS_DIR).then((filepaths) => {
   for (const filepath of filepaths) {
     parseText(filepath);
   }
-}).catch((error) => console.error(`Error reading from ${TEXTS_DIR}:`, error));
+}).catch((error) => displayError(`Error reading from ${TEXTS_DIR}:`, error));
 
 function parseText(filepath) {
   console.time(`Time to parse ${numFiles} XML texts`);
@@ -102,7 +102,7 @@ function parseText(filepath) {
       } else if (filepath.includes(POEM_DIR)) {
         parsePoem(filename, document);
       } else {
-        console.error(`Unexpected filepath ${filepath}`);
+        displayError(`Unexpected filepath ${filepath}`);
         return;
       }
       console.log(`${numFilesToParse} XML files to parse`);
@@ -122,11 +122,11 @@ function parsePlay(filename, document) {
   if (abbreviations[filename]) {
     filename = abbreviations[filename] + '.html';
   } else {
-    console.error(`Filename ${filename} not found in ${abbreviations}`);
+    displayError(`Filename ${filename} not found in ${abbreviations}`);
   }
   const title = titles[filename];
   if (!title) {
-    console.error(`Title not found for ${filename}`);
+    displayError(`Title not found for ${filename}`);
   }
   // preamble is play title, personae, etc.
   let html = addPreamble(document) + addActs(document);
@@ -137,11 +137,7 @@ function parsePlay(filename, document) {
   }
   // html = minify(html);
 
-  if (DO_VALIDATION) {
-    validateThenWrite(filename, html);
-  } else {
-    writeFile(filename, html);
-  }
+  validateThenWrite(filename, html);
 }
 
 function addPreamble(document) {
@@ -185,7 +181,7 @@ function addPreamble(document) {
 //     case 'TITLE':
 //       break;
 //     default:
-//       console.error(`${play(child)}: unexpected child ${child.nodeName}`);
+//       displayError(`${play(child)}: unexpected child ${child.nodeName}`);
 //     }
 //   }
 //   html += '</section>\n\n';
@@ -230,9 +226,10 @@ function addScene(scene) {
     case 'scenedialect':
     case 'scenelanguage':
     case 'scenepersonae':
+    case 'scenetime':
       break;
     default:
-      console.error(`${play(scene)}: weird scene element ${child.nodeName}`);
+      displayError(`${play(scene)}: weird scene element ${child.nodeName}`);
     }
   }
   html += '</section>\n\n';
@@ -261,8 +258,10 @@ function addSpeech(speech) {
       offsetAttribute = child.getAttribute('offset');
       hasNonZeroOffset = offsetAttribute && offsetAttribute !== '0';
       offset = hasNonZeroOffset ? ` data-o="${offsetAttribute}"` : '';
-      const line = child.innerHTML.
+      let line = child.innerHTML.
         replace(stageDirRegEx, '<span class="direction-location">$1</span>');
+      line = child.innerHTML.
+        replace(foreignRegEx, '<span data-l="$1">$2</span>');
       html += `  <li${number}${offset}>${line}</li>\n`;
       break;
     case 'speaker':
@@ -276,7 +275,7 @@ function addSpeech(speech) {
     case 'speech':
       break;
     default:
-      console.error(`${play(speech)}: weird speech element ${child.nodeName}`);
+      displayError(`${play(speech)}: weird speech element ${child.nodeName}`);
     }
   }
   return `<ol data-s="${speakers.join(', ')}">\n` + html + '</ol>\n\n';
@@ -348,7 +347,7 @@ function getPoemBody(document) {
     replace('<dedication>', '<section id="dedication">').
     replace('</dedication>', '</section>').
     replace(finisRegex, '<h2 id="finis">FINIS.</h2>').
-    replace(foreignRegex, '$1').
+    replace(foreignRegEx, '<span data-l="$1">$2</span>').
     replace(lineOpenRegex, '  <p data-n="$1">').
     replace(lineCloseRegex, '</p>').
     replace(quatrainOpenRegex, '<section class="quatrain">').
@@ -385,11 +384,16 @@ function writeFile(filename, html) {
     console.timeEnd(`Finished writing ${numFiles} files`);
   }
   mz.writeFile(OUTPUT_DIR + filename, html).
-    catch((error) => console.error(`Error writing ${filename}:`, error));
+    catch((error) => displayError(`Error writing ${filename}:`, error));
 }
 
 // Check that a file contains valid HTML
+// unless validation is not wanted
 function validateThenWrite(filename, html) {
+  if (!DO_VALIDATION) {
+    writeFile(filename, html);
+    return;
+  }
   const options = {
     data: html,
     format: 'text',
@@ -398,13 +402,13 @@ function validateThenWrite(filename, html) {
   };
   validator(options).then((data) => {
     if (data.includes('Error')) {
-      console.error(filename, data);
+      displayError(filename, data);
     } else {
       console.log(`Validated ${filename}`);
       writeFile(filename, html);
     }
   }).catch((error) => {
-    console.error(`Error validating ${filename}:`, error);
+    displayError(`Error validating ${filename}:`, error);
   });
 }
 
@@ -416,3 +420,10 @@ function roman(integer) {
   const romanNumeral = integer;
   return romanNumeral;
 }
+
+// Color errors logged to terminal
+function displayError(error) {
+  const color = '\x1b[31m'; // red
+  console.log(color, error, '\x1b[0m');
+}
+
