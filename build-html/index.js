@@ -14,6 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
+// Build an HMTL file in OUTPUT_DIR based on each XML original
+
 const mz = require('mz/fs');
 const recursive = require('recursive-readdir');
 
@@ -40,6 +42,15 @@ const validatorIgnore = [
 const {JSDOM} = require('jsdom');
 
 const abbreviations = require('../config/filename-to-abbreviation.json');
+const languages = {
+  'art': 'Gibberish',
+  'en': 'English',
+  'it': 'Italian',
+  'es': 'Spanish',
+  'fr': 'French',
+  'la': 'Latin',
+  'nl': 'Dutch',
+};
 const titles = require('../config/abbreviated-filename-to-title.json');
 
 const bottom = mz.readFileSync('./html-fragments/bottom.html');
@@ -52,7 +63,8 @@ const PLAY_DIR = 'plays-ps';
 const POEM_DIR = 'poems-ps';
 const TEXTS_DIR = '../third-party/';
 
-const foreignRegEx = /<foreign xml:lang="(\w{2})">([^<]+)<\/foreign>/gi;
+// lang may be empty (for Gibberish) or two or
+const foreignRegEx = /<foreign xml:lang="(\w+)">([^<]+)<\/foreign>/gi;
 const stageDirRegEx = /<stagedir>([^<]+)<\/stagedir>/gi;
 
 // Some opening tags in poem sections have attributes to remove, some don't.
@@ -261,7 +273,9 @@ function addSpeech(speech) {
       let line = child.innerHTML.
         replace(stageDirRegEx, '<span class="direction-location">$1</span>');
       line = child.innerHTML.
-        replace(foreignRegEx, '<span data-l="$1">$2</span>');
+        replace(foreignRegEx, (match, p1, p2) => {
+          return `<span class="foreign" title="${languages[p1]}">${p2}</span>`;
+        });
       html += `  <li${number}${offset}>${line}</li>\n`;
       break;
     case 'speaker':

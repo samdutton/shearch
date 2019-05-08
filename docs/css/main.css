@@ -480,6 +480,10 @@ span.direction-location::after {
   content: ')';
 }
 
+span.foreign {
+  font-style: italic;
+}
+
 div#credit span {
   color: black;
   text-decoration: none;

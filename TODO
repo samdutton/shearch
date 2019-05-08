@@ -1,3 +1,14 @@
+<line globalnumber="1057" number="95" form="prose">By the mass, I could anger her to th&#8217; heart. She was then a bona roba. Doth she hold her own well?</line>
+
+Should have foreign for bona roba.
+
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="">Gibberish</language>
+</scenelanguage>
+
+<foreign xml:lang="art">Acordo linta.</foreign>
+
 Add query strings for speaker, text type, etc.
 
 Factor out fetch(`${HTML_DIR}
@@ -5,6 +16,8 @@ Factor out fetch(`${HTML_DIR}
 Add line numbers for offset lines only once.
 
 Add exact match only
+
+Add scene location search
 
 
 Language search:
@@ -17,16 +30,3 @@ for each play
   if a scenelanguage element
     for each language element
       languages[el.getAttributeValue('short')] = el.value;
-
-for each play
-  for each line
-
-      line = child.innerHTML.
-        replace(foreignRegEx, '<span data-l="$1">$2</span>');
-
-/<stagedir>([^<]+)<\/stagedir>/gi;
-const foreignRegEx = /<foreign xml:lang="(\w)">([^<]+)<\/foreign>/gi;
-
-<foreign xml:lang="(\w+)">([^<]+)<\/foreign>
-<foreign xml:lang="fr">adieu</foreign>
-

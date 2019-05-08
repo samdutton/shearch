@@ -35,8 +35,8 @@ const QUERY_INPUT_PLACEHOLDER = 'Search for a word or phrase';
 const creditElement = document.getElementById('credit');
 const genderInput = document.getElementById('gender');
 const infoElement = document.getElementById('info');
+const languageInput = document.getElementById('language');
 const matchesList = document.getElementById('matches');
-const typePlayCheckbox = document.getElementById('type-play');
 const queryInfoElement = document.getElementById('query-info');
 const queryInput = document.getElementById('query');
 const searchOptionsDetails = document.getElementById('search-options');
@@ -45,6 +45,7 @@ const speakersDatalist = document.getElementById('speakers');
 const textDiv = document.getElementById('text');
 const titleInput = document.getElementById('title');
 const titlesDatalist = document.getElementById('titles');
+const typePlayCheckbox = document.getElementById('type-play');
 
 let datalists;
 let index;
@@ -381,6 +382,12 @@ function getFilteredMatches() {
       return match.doc.g && match.doc.g === genderInput.value;
     });
   }
+  // if language is specified, filter out non-matches
+  if (genderInput.value) {
+    filteredMatches = filteredMatches.filter((match) => {
+      return match.doc.l && match.doc.l === languageInput.value;
+    });
+  }
   // if a title is specified, filter out non-matches
   if (titleInput.value) {
     filteredMatches = filteredMatches.filter((match) => {
@@ -467,10 +474,12 @@ function displayText(match) {
 // so they can click on a word to search for it.
 function addWordSearch(hoverEvent) {
   const el = hoverEvent.target;
+  el.removeEventListener('hover', addWordSearch);
   // hover events are also fired by the parent
   // plays and sonnets use <li> for each line; poems use <p>
   if (el.nodeName === 'LI' || el.nodeName === 'P') {
-    el.innerHTML = el.innerText.replace(/([\w]+)/g, '<span>$1</span>');
+    // thank you https://regex101.com/r/cD8nG4/1
+    el.innerHTML = el.innerHTML.replace(/(\w+)(?![^<]*>|[^<>]*<\/)/g, '<span>$1</span>');
     el.onclick = (spanClickEvent) => {
       const word = spanClickEvent.target.textContent;
       queryInput.value = word;

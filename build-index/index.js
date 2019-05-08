@@ -14,6 +14,11 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
+// Create the search index, and other data for texts in DATALISTS_FILE
+
+// Each 'document' in the data store is either a line from a play or poem,
+// or a stage direction or scene description
+
 const mz = require('mz/fs');
 const recursive = require('recursive-readdir');
 
@@ -36,6 +41,7 @@ const DATALISTS_FILE = '../docs/data/datalists.json';
 const docs = [];
 let docNum = 0;
 const genders = {};
+const languages = {};
 let numFiles = 0;
 let numFilesToProcess = 0;
 const speakers = [];
@@ -99,6 +105,7 @@ function addPlay(filename, document) {
     for (let sceneIndex = 0; sceneIndex !== scenes.length; ++sceneIndex) {
       let lineIndex = 0;
       const scene = scenes[sceneIndex];
+      getLanguages(scene);
       const location = `${playAbbreviation}.${actIndex}.${sceneIndex}`;
       const sceneTitle = scene.getElementsByTagName('scenetitle')[0];
       // r signifies 'role', 't' signifies scene title (only one, so no index)
@@ -117,11 +124,26 @@ function addPlay(filename, document) {
         // stage directions are added separately above, even if within a speech
         for (const line of lines) {
           const lineNumber = line.getAttribute('number');
+          const options = {s: speaker, g: genders[speaker], n: lineNumber};
+          const foreign = line.getElementsByTagName('foreign')[0];
+          if (foreign) {
+            // const xmlLang = foreign.getAttribute('xml:lang');
+            // options.l =
+            // console.log('>>> xmlLang', options);
+          }
           addDoc(`${location}.${lineIndex++}`, fix(line.textContent),
-            {s: speaker, g: genders[speaker], n: lineNumber});
+            options);
         }
       }
     }
+  }
+}
+
+function getLanguages(scene) {
+  const scenelanguage = scene.getElementsByTagName('scenelanguage')[0];
+  const languageEls = scenelanguage.getElementsByTagName('language');
+  for (const languageEl of languageEls) {
+    languages[languageEl.getAttribute('short')] = languageEl.textContent;
   }
 }
 
@@ -205,6 +227,15 @@ function createIndex() {
 
 function createDatalists() {
   const datalists = {
+    languages: {
+      'art': 'Gibberish',
+      'en': 'English',
+      'it': 'Italian',
+      'es': 'Spanish',
+      'fr': 'French',
+      'la': 'Latin',
+      'nl': 'Dutch',
+    },
     titles: titles,
     speakers: speakers.sort(),
   };
