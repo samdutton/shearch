@@ -1,1 +1,6815 @@
-{"languages":{"art":"Gibberish","en":"English","it":"Italian","es":"Spanish","fr":"French","la":"Latin","nl":"Dutch"},"texts":{"1H4":{"title":"King Henry IV, Part 1","type":"play"},"1H6":{"title":"King Henry VI, Part 1","type":"play"},"2H4":{"title":"King Henry IV, Part 2","type":"play"},"2H6":{"title":"King Henry VI, Part 2","type":"play"},"3H6":{"title":"King Henry VI, Part 3","type":"play"},"Ado":{"title":"Much Ado About Nothing","type":"play"},"Ant":{"title":"Antony and Cleopatra","type":"play"},"AWW":{"title":"All's Well That Ends Well","type":"play"},"AYL":{"title":"As You Like It","type":"play"},"Cor":{"title":"Coriolanus","type":"play"},"Cym":{"title":"Cymbeline","type":"play"},"DF":{"title":"Double Falsehood","type":"play"},"E3":{"title":"Edward III","type":"play"},"Err":{"title":"The Comedy of Errors","type":"play"},"FE":{"title":"A Funeral Elegy","type":"poem"},"H5":{"title":"Henry V","type":"play"},"H8":{"title":"King Henry VIII","type":"play"},"Ham":{"title":"Hamlet","type":"play"},"JC":{"title":"Julius Caesar","type":"play"},"Jn":{"title":"King John","type":"play"},"LC":{"title":"A Lover’s Complaint","type":"poem"},"LLL":{"title":"Love's Labour's Lost","type":"play"},"Lr":{"title":"King Lear","type":"play"},"Luc":{"title":"The Rape of Lucrece","type":"poem"},"Mac":{"title":"Macbeth","type":"play"},"MM":{"title":"Measure for Measure","type":"play"},"MND":{"title":"A Midsummer Night's Dream","type":"play"},"MV":{"title":"The Merchant of Venice","type":"play"},"Oth":{"title":"Othello","type":"play"},"Per":{"title":"Pericles","type":"play"},"PhT":{"title":"The Phoenix and Turtle","type":"poem"},"PP":{"title":"The Passionate Pilgrim","type":"poem"},"R2":{"title":"King Richard II","type":"play"},"R3":{"title":"King Richard III","type":"play"},"Rom":{"title":"Romeo and Juliet","type":"play"},"Shr":{"title":"The Taming of the Shrew","type":"play"},"SID":{"title":"Shall I Die?","type":"poem"},"Son":{"title":"Sonnets","type":"sonnet"},"TGV":{"title":"Two Gentlemen of Verona","type":"play"},"Tim":{"title":"Timon of Athens","type":"play"},"Tit":{"title":"Titus Andronicus","type":"play"},"TM":{"title":"Sir Thomas More","type":"play"},"Tmp":{"title":"The Tempest","type":"play"},"TN":{"title":"Twelfth Night","type":"play"},"TNK":{"title":"Two Noble Kinsmen","type":"play"},"Tro":{"title":"Troilus and Cressida","type":"play"},"TTQ":{"title":"To the Queen","type":"poem"},"Ven":{"title":"Venus and Adonis","type":"poem"},"Wiv":{"title":"The Merry Wives of Windsor","type":"play"},"WT":{"title":"The Winter's Tale","type":"play"}},"titles":["A Funeral Elegy","A Lover’s Complaint","A Midsummer Night's Dream","All's Well That Ends Well","Antony and Cleopatra","As You Like It","Coriolanus","Cymbeline","Double Falsehood","Edward III","Hamlet","Henry V","Julius Caesar","King Henry IV, Part 1","King Henry IV, Part 2","King Henry VI, Part 1","King Henry VI, Part 2","King Henry VI, Part 3","King Henry VIII","King John","King Lear","King Richard II","King Richard III","Love's Labour's Lost","Macbeth","Measure for Measure","Much Ado About Nothing","Othello","Pericles","Romeo and Juliet","Shall I Die?","Sir Thomas More","Sonnets","The Comedy of Errors","The Merchant of Venice","The Merry Wives of Windsor","The Passionate Pilgrim","The Phoenix & Turtle","The Rape of Lucrece","The Reign of King Edward the Third","The Taming of the Shrew","The Tempest","Two Noble Kinsmen","The Winter's Tale","Timon of Athens","Titus Andronicus","To the Queen","Twelfth Night","Two Gentlemen of Verona","Venus & Adonis"],"plays":["html/1H4.html","html/1H6.html","html/2H4.html","html/2H6.html","html/3H6.html","html/Ado.html","html/Ant.html","html/AWW.html","html/AYL.html","html/Cor.html","html/Cym.html","html/DF.html","html/E3.html","html/Err.html","html/H5.html","html/H8.html","html/Ham.html","html/JC.html","html/Jn.html","html/LLL.html","html/Lr.html","html/Mac.html","html/MM.html","html/MND.html","html/MV.html","html/Oth.html","html/Per.html","html/R2.html","html/R3.html","html/Rom.html","html/Shr.html","html/TGV.html","html/Tim.html","html/Tit.html","html/TM.html","html/Tmp.html","html/TN.html","html/TNK.html","html/Tro.html","html/Wiv.html","html/WT.html"],"poems":["html/FE.html","html/LC.html","html/Luc.html","html/PhT.html","html/PP.html","html/SID.html","html/TTQ.html","html/Ven.html"],"sonnets":["html/Son.html"],"speakers":[{"g":"male","n":"A Black Child"},{"g":"male","n":"A Churchman"},{"g":"female","n":"A Fairy"},{"g":"male","n":"A Father That Has Killed His Son"},{"g":"male","n":"A Poet"},{"g":"female","n":"A Poor Woman"},{"g":"male","n":"A Son That Has Killed His Father"},{"g":"male","n":"Aaron"},{"g":"male","n":"Abbot of Westminster"},{"g":"male","n":"Abhorson"},{"g":"male","n":"Abraham Slender"},{"g":"male","n":"Abram"},{"g":"male","n":"Achilles"},{"g":"male","n":"Adam"},{"g":"male","n":"Adrian"},{"g":"male","n":"Adrian"},{"g":"female","n":"Adriana"},{"g":"female","n":"Aemilia"},{"g":"male","n":"Aemilius"},{"g":"male","n":"Aeneas"},{"g":"male","n":"Agamemnon"},{"g":"male","n":"Agrippa"},{"g":"male","n":"Ajax"},{"g":"male","n":"Alarbus"},{"g":"male","n":"Alcibiades"},{"g":"male","n":"Aldermen of London"},{"g":"male","n":"Aldermen of York"},{"g":"male","n":"Alexander"},{"g":"male","n":"Alexander Iden"},{"g":"male","n":"Alexas"},{"g":"female","n":"Alice"},{"g":"female","n":"All Lady Amazon Maskers"},{"g":"male","n":"Alonso"},{"g":"male","n":"Ambassador from the Earl of Armagnac"},{"g":"male","n":"Ambassador from the Emperor"},{"g":"male","n":"Ambassador of France"},{"g":"male","n":"Amiens"},{"g":"female","n":"An Old Widow of Florence"},{"g":"female","n":"Andromache"},{"g":"male","n":"Angelo"},{"g":"male","n":"Angelo"},{"g":"male","n":"Angus"},{"g":"female","n":"Anne Bullen"},{"g":"male","n":"Another Lord"},{"g":"male","n":"Antenor"},{"g":"male","n":"Anthony"},{"g":"male","n":"Antigonus"},{"g":"male","n":"Antiochan Messenger"},{"g":"male","n":"Antiochus"},{"g":"male","n":"Antipholus of Ephesus"},{"g":"male","n":"Antipholus of Syracuse"},{"g":"male","n":"Antonio"},{"g":"male","n":"Antonio"},{"g":"male","n":"Antonio"},{"g":"male","n":"Antonio"},{"g":"male","n":"Antonio"},{"g":"male","n":"Antonio’s Servant"},{"g":"male","n":"Antony’s First Attendant"},{"g":"male","n":"Antony’s First Guardsman"},{"g":"male","n":"Antony’s First Soldier"},{"g":"male","n":"Antony’s Fourth Soldier"},{"g":"male","n":"Antony’s Messenger"},{"g":"male","n":"Antony’s Second Attendant"},{"g":"male","n":"Antony’s Second Guardsman"},{"g":"male","n":"Antony’s Second Soldier"},{"g":"male","n":"Antony’s Third Guardsman"},{"g":"male","n":"Antony’s Third Soldier"},{"g":"male","n":"Apemantus"},{"g":"male","n":"Apothecary"},{"g":"male","n":"Apparition of First Brother of Posthumus"},{"g":"male","n":"Apparition of Second Brother of Posthumus"},{"g":"male","n":"Apparition of Sicilius Leonatus"},{"g":"female","n":"Apparition of the Matron"},{"g":"male","n":"Archbishop of Canterbury"},{"g":"male","n":"Archbishop of Canterbury"},{"g":"male","n":"Archibald, Earl of Douglas"},{"g":"male","n":"Archidamus"},{"g":"male","n":"Arcite"},{"g":"male","n":"Ariel"},{"g":"male","n":"Artemidorus of Cnidos"},{"g":"male","n":"Artesius"},{"g":"male","n":"Arthur"},{"g":"male","n":"Arviragus"},{"g":"male","n":"Attendant"},{"g":"male","n":"Attendant"},{"g":"female","n":"Audrey"},{"g":"male","n":"Autolycus"},{"g":"male","n":"Balthasar"},{"g":"male","n":"Balthasar"},{"g":"male","n":"Balthazar"},{"g":"male","n":"Balthazar"},{"g":"male","n":"Banquo"},{"g":"male","n":"Baptista"},{"g":"male","n":"Baptista’s Messenger"},{"g":"male","n":"Baptistaâ€™s Servant"},{"g":"female","n":"Barbary"},{"g":"male","n":"Bardolph"},{"g":"male","n":"Bardolph"},{"g":"male","n":"Bardolph"},{"g":"male","n":"Bardolph"},{"g":"male","n":"Barnardine"},{"g":"male","n":"Barnardo"},{"g":"male","n":"Bassanio"},{"g":"male","n":"Basset"},{"g":"male","n":"Bassianus"},{"g":"male","n":"Bastard of Orléans"},{"g":"male","n":"Bates"},{"g":"male","n":"Bavian"},{"g":"male","n":"Bawd"},{"g":"male","n":"Beadle"},{"g":"male","n":"Beadle of Saint Albans"},{"g":"male","n":"Bear"},{"g":"female","n":"Beatrice"},{"g":"male","n":"Belarius"},{"g":"male","n":"Benedick"},{"g":"male","n":"Benvolio"},{"g":"male","n":"Berkeley"},{"g":"male","n":"Berowne"},{"g":"male","n":"Bertram, Count of Roussillon"},{"g":"male","n":"Best’s Son"},{"g":"female","n":"Bianca"},{"g":"female","n":"Bianca"},{"g":"male","n":"Biondello"},{"g":"male","n":"Bishop of Carlisle"},{"g":"male","n":"Bishop of Ely"},{"g":"male","n":"Bishop of Ely"},{"g":"male","n":"Bishop of Lincoln"},{"g":"male","n":"Bishop of Rochester"},{"g":"male","n":"Bishop of Rochester"},{"g":"male","n":"Bishop of Saint Asaph"},{"g":"male","n":"Bishop Stokesly of London"},{"g":"male","n":"Blackamoors"},{"g":"female","n":"Blanch of Spain"},{"g":"male","n":"Boatswain"},{"g":"male","n":"Borachio"},{"g":"male","n":"Bottom"},{"g":"male","n":"Boult"},{"g":"male","n":"Boy"},{"g":"male","n":"Boy"},{"g":"male","n":"Boy"},{"g":"male","n":"Boy"},{"g":"male","n":"Boy"},{"g":"male","n":"Boyet"},{"g":"male","n":"Brabantio"},{"g":"male","n":"Brandon"},{"g":"male","n":"British Lord"},{"g":"male","n":"British Soldiers"},{"g":"male","n":"Buckingham’s Surveyor"},{"g":"male","n":"Bullcalf"},{"g":"male","n":"Cade’s Followers"},{"g":"male","n":"Caesar’s First Messenger"},{"g":"male","n":"Caesar’s First Soldier"},{"g":"male","n":"Caesar’s First Watchman"},{"g":"male","n":"Caesar’s Second Messenger"},{"g":"male","n":"Caesar’s Second Watchman"},{"g":"male","n":"Caesar’s Sentry"},{"g":"male","n":"Caesar’s Servant"},{"g":"male","n":"Caesar’s Third Messenger"},{"g":"male","n":"Caius"},{"g":"male","n":"Caius Ligarius"},{"g":"male","n":"Caius Lucius"},{"g":"male","n":"Caius Martius"},{"g":"male","n":"Calchas"},{"g":"male","n":"Caliban"},{"g":"female","n":"Calphurnia"},{"g":"male","n":"Camillo"},{"g":"male","n":"Camillo"},{"g":"male","n":"Canidius"},{"g":"male","n":"Caphis"},{"g":"male","n":"Captain"},{"g":"male","n":"Captain of Antony’s Army"},{"g":"male","n":"Capulet"},{"g":"male","n":"Cardinal Beauford"},{"g":"male","n":"Cardinal Bourchier"},{"g":"male","n":"Cardinal Campeius"},{"g":"male","n":"Cardinal Pandulph"},{"g":"male","n":"Cardinal Wolsey"},{"g":"male","n":"Carpenter"},{"g":"male","n":"Casca"},{"g":"female","n":"Cassandra"},{"g":"male","n":"Cassio"},{"g":"male","n":"Cassius"},{"g":"male","n":"Catesby"},{"g":"male","n":"Cathness"},{"g":"male","n":"Caveler"},{"g":"female","n":"Celia"},{"g":"female","n":"Ceres"},{"g":"male","n":"Cerimon"},{"g":"male","n":"Cerimon’s First Servant"},{"g":"male","n":"Cerimon’s Second Servant"},{"g":"male","n":"Chamberlain"},{"g":"male","n":"Charles"},{"g":"male","n":"Charles"},{"g":"male","n":"Charles the Sixth"},{"g":"male","n":"Charles, Dauphin of France"},{"g":"female","n":"Charmian"},{"g":"male","n":"Chatillion"},{"g":"male","n":"Children of Windsor"},{"g":"male","n":"Chiron"},{"g":"male","n":"Choristers"},{"g":"male","n":"Chorus"},{"g":"male","n":"Chorus"},{"g":"male","n":"Christopher Sly"},{"g":"male","n":"Christopher Urswick"},{"g":"male","n":"Cicero"},{"g":"male","n":"Cinna"},{"g":"male","n":"Cinna, a Poet"},{"g":"male","n":"Citizen"},{"g":"male","n":"Citizen of Antium"},{"g":"male","n":"Citizens of Saint Albans"},{"g":"male","n":"Citizens of Verona"},{"g":"male","n":"Claudio"},{"g":"male","n":"Claudio"},{"g":"male","n":"Claudio"},{"g":"male","n":"Claudius, King of Denmark"},{"g":"male","n":"Cleomines"},{"g":"male","n":"Cleon"},{"g":"female","n":"Cleopatra, Queen of Egypt"},{"g":"male","n":"Clerk of Chatham"},{"g":"male","n":"Clerk of the Council"},{"g":"male","n":"Clitus"},{"g":"male","n":"Cloten"},{"g":"male","n":"Clown"},{"g":"male","n":"Clown"},{"g":"male","n":"Clown"},{"g":"male","n":"Clown"},{"g":"male","n":"Clown Betts"},{"g":"male","n":"Cobbler"},{"g":"female","n":"Cobweb"},{"g":"male","n":"Cominius"},{"g":"male","n":"Commoners"},{"g":"male","n":"Conrade"},{"g":"male","n":"Constable of France"},{"g":"female","n":"Constance"},{"g":"female","n":"Cordelia"},{"g":"male","n":"Corin"},{"g":"male","n":"Cornelius"},{"g":"male","n":"Cornelius"},{"g":"male","n":"Costard"},{"g":"male","n":"Council Guards"},{"g":"female","n":"Countess of Auvergne"},{"g":"female","n":"Countess of Roussillon"},{"g":"female","n":"Countess of Salisbury"},{"g":"male","n":"Countess’s Page"},{"g":"female","n":"Countesses"},{"g":"male","n":"Court"},{"g":"female","n":"Courtezan"},{"g":"male","n":"Crab"},{"g":"male","n":"Cranmer, Archbishop of Canterbury"},{"g":"female","n":"Cressida"},{"g":"male","n":"Crier"},{"g":"male","n":"Crofts"},{"g":"male","n":"Cromwell"},{"g":"female","n":"Cupid"},{"g":"male","n":"Curan"},{"g":"male","n":"Curio"},{"g":"male","n":"Curtis"},{"g":"male","n":"Cymbeline"},{"g":"male","n":"Dardanius"},{"g":"female","n":"Daughter of Antiochus"},{"g":"female","n":"Daughter to More"},{"g":"male","n":"David, King of Scotland"},{"g":"male","n":"Davy"},{"g":"male","n":"Decius Brutus"},{"g":"male","n":"Decretas"},{"g":"male","n":"Deiphobus"},{"g":"male","n":"Demetrius"},{"g":"male","n":"Demetrius"},{"g":"male","n":"Demetrius"},{"g":"male","n":"Dennis"},{"g":"female","n":"Desdemona"},{"g":"female","n":"Diana"},{"g":"female","n":"Diana"},{"g":"male","n":"Dick the Butcher"},{"g":"male","n":"Diomedes"},{"g":"male","n":"Diomedes"},{"g":"male","n":"Diomedes’s Servant"},{"g":"male","n":"Dion"},{"g":"female","n":"Dionyza"},{"g":"male","n":"Doctor"},{"g":"male","n":"Doctor"},{"g":"male","n":"Doctor Butts"},{"g":"male","n":"Doctor Caius"},{"g":"male","n":"Doctor of Divinity"},{"g":"male","n":"Doctor of Physic"},{"g":"male","n":"Doctor Pinch"},{"g":"male","n":"Dogberry"},{"g":"male","n":"Dolabella"},{"g":"female","n":"Doll Tearsheet"},{"g":"female","n":"Doll Williamson"},{"g":"male","n":"Domitius Enobarbus"},{"g":"male","n":"Don Adriano de Armado"},{"g":"male","n":"Don Bernard"},{"g":"male","n":"Don John"},{"g":"male","n":"Don Pedro"},{"g":"male","n":"Donalbain"},{"g":"male","n":"Doorkeeper of the Council Chamber"},{"g":"female","n":"Dorcas"},{"g":"male","n":"Downes"},{"g":"male","n":"Dromio of Ephesus"},{"g":"male","n":"Dromio of Syracuse"},{"g":"female","n":"Duchess Eleanor of Gloucester"},{"g":"female","n":"Duchess of Gloucester"},{"g":"female","n":"Duchess of Norfolk"},{"g":"female","n":"Duchess of York"},{"g":"female","n":"Duchess of York"},{"g":"male","n":"Duke Angelo"},{"g":"male","n":"Duke Frederick"},{"g":"male","n":"Duke of Alanson"},{"g":"male","n":"Duke of Albany"},{"g":"male","n":"Duke of Aumerle"},{"g":"male","n":"Duke of Bedford"},{"g":"male","n":"Duke of Berri"},{"g":"male","n":"Duke of Bourbon"},{"g":"male","n":"Duke of Britain"},{"g":"male","n":"Duke of Buckingham"},{"g":"male","n":"Duke of Buckingham"},{"g":"male","n":"Duke of Buckingham"},{"g":"male","n":"Duke of Burgundy"},{"g":"male","n":"Duke of Burgundy"},{"g":"male","n":"Duke of Burgundy"},{"g":"male","n":"Duke of Cornwall"},{"g":"male","n":"Duke of Exeter"},{"g":"male","n":"Duke of Exeter"},{"g":"male","n":"Duke of Florence"},{"g":"male","n":"Duke of Gloucester"},{"g":"male","n":"Duke of Gloucester"},{"g":"male","n":"Duke of Lorraine"},{"g":"male","n":"Duke of Milan"},{"g":"male","n":"Duke of Norfolk"},{"g":"male","n":"Duke of Norfolk"},{"g":"male","n":"Duke of Norfolk"},{"g":"male","n":"Duke of Orléans"},{"g":"male","n":"Duke of Somerset"},{"g":"male","n":"Duke of Somerset"},{"g":"male","n":"Duke of Suffolk"},{"g":"male","n":"Duke of Suffolk"},{"g":"male","n":"Duke of Surrey"},{"g":"male","n":"Duke of Venice"},{"g":"male","n":"Duke of York"},{"g":"male","n":"Duke Senior"},{"g":"male","n":"Dull"},{"g":"male","n":"Dumaine"},{"g":"male","n":"Duncan, King of Scotland"},{"g":"male","n":"Dutchman"},{"g":"male","n":"Earl Douglas"},{"g":"male","n":"Earl of Derby"},{"g":"male","n":"Earl of Essex"},{"g":"male","n":"Earl of Gloucester"},{"g":"male","n":"Earl of Kent"},{"g":"male","n":"Earl of Mountford"},{"g":"male","n":"Earl of Northumberland"},{"g":"male","n":"Earl of Northumberland"},{"g":"male","n":"Earl of Oxford"},{"g":"male","n":"Earl of Oxford"},{"g":"male","n":"Earl of Pembroke"},{"g":"male","n":"Earl of Pembroke"},{"g":"male","n":"Earl of Salisbury"},{"g":"male","n":"Earl of Salisbury"},{"g":"male","n":"Earl of Salisbury"},{"g":"male","n":"Earl of Salisbury"},{"g":"male","n":"Earl of Salisbury"},{"g":"male","n":"Earl of Salisbury"},{"g":"male","n":"Earl of Shrewsbury"},{"g":"male","n":"Earl of Suffolk"},{"g":"male","n":"Earl of Surrey"},{"g":"male","n":"Earl of Surrey"},{"g":"male","n":"Earl of Surrey"},{"g":"male","n":"Earl of Surrey"},{"g":"male","n":"Earl of Warwick"},{"g":"male","n":"Earl of Warwick"},{"g":"male","n":"Earl of Warwick"},{"g":"male","n":"Earl of Warwick"},{"g":"male","n":"Earl of Warwick"},{"g":"male","n":"Earl of Warwick"},{"g":"male","n":"Earl of Westmorland"},{"g":"male","n":"Earl of Westmorland"},{"g":"male","n":"Earl of Westmorland"},{"g":"male","n":"Earl of Westmorland"},{"g":"male","n":"Earl Rivers"},{"g":"male","n":"Edgar"},{"g":"male","n":"Edmund"},{"g":"male","n":"Edmund Mortimer, Earl of March"},{"g":"male","n":"Edmund Mortimer, Earl of March"},{"g":"male","n":"Edmund of Langley, Duke of York"},{"g":"male","n":"Edmund, Earl of Rutland"},{"g":"male","n":"Edward Earl of March"},{"g":"male","n":"Edward III"},{"g":"male","n":"Edward Plantagenet"},{"g":"male","n":"Edward Poins"},{"g":"male","n":"Edward, Earl of March"},{"g":"male","n":"Edward, Prince of Wales"},{"g":"male","n":"Edward, Prince of Wales"},{"g":"male","n":"Egeon"},{"g":"male","n":"Egeus"},{"g":"male","n":"Eglamour"},{"g":"male","n":"Egyptian Messenger"},{"g":"male","n":"Elbow"},{"g":"female","n":"Emilia"},{"g":"female","n":"Emilia"},{"g":"female","n":"Emilia"},{"g":"male","n":"English Doctor"},{"g":"male","n":"English Herald"},{"g":"male","n":"English Herald"},{"g":"male","n":"English Herald"},{"g":"male","n":"English Lords"},{"g":"male","n":"English Soldier"},{"g":"male","n":"Ephesan Servant"},{"g":"male","n":"Epilogue"},{"g":"male","n":"Erasmus"},{"g":"male","n":"Eros"},{"g":"male","n":"Escalus"},{"g":"male","n":"Escanes"},{"g":"male","n":"Executioner"},{"g":"male","n":"Executioner"},{"g":"male","n":"Exton’s First Servant"},{"g":"male","n":"Exton’s Second Servant"},{"g":"male","n":"Fabian"},{"g":"male","n":"Fabian"},{"g":"male","n":"Falconers"},{"g":"male","n":"Falstaff’s Page"},{"g":"male","n":"Fang"},{"g":"male","n":"Faulkner"},{"g":"male","n":"Feeble"},{"g":"male","n":"Fenton"},{"g":"male","n":"Ferdinand"},{"g":"male","n":"Ferdinand, King of Navarre"},{"g":"male","n":"Feste"},{"g":"male","n":"Fiends"},{"g":"male","n":"Fifth Citizen of Calais"},{"g":"male","n":"Fifth Knight"},{"g":"male","n":"Fifth Messenger"},{"g":"male","n":"Fifth Messenger"},{"g":"male","n":"Fifth Plebeian"},{"g":"male","n":"Fifth Roman Citizen"},{"g":"female","n":"Fifth Witch"},{"g":"male","n":"First Aedile"},{"g":"male","n":"First Ambassador"},{"g":"male","n":"First Apparition"},{"g":"female","n":"First Attending Lady"},{"g":"male","n":"First Bandit"},{"g":"male","n":"First British Captain"},{"g":"male","n":"First Captain"},{"g":"male","n":"First Carrier"},{"g":"male","n":"First Citizen"},{"g":"male","n":"First Citizen of Calais"},{"g":"male","n":"First Clown (Gravedigger)"},{"g":"male","n":"First Commoner"},{"g":"male","n":"First Conspirator"},{"g":"male","n":"First Country Folk"},{"g":"male","n":"First Egyptian Servant"},{"g":"male","n":"First English Esquire"},{"g":"female","n":"First Fairy"},{"g":"male","n":"First Fisherman"},{"g":"male","n":"First French Captain"},{"g":"male","n":"First French Herald"},{"g":"male","n":"First French Lord"},{"g":"male","n":"First French Lord"},{"g":"male","n":"First French Lord Dumaine"},{"g":"male","n":"First Frenchman"},{"g":"male","n":"First Gamekeeper"},{"g":"male","n":"First Gardener’s Man"},{"g":"male","n":"First Gentleman"},{"g":"male","n":"First Gentleman"},{"g":"male","n":"First Gentleman"},{"g":"male","n":"First Gentleman"},{"g":"male","n":"First Gentleman"},{"g":"male","n":"First Gentleman"},{"g":"male","n":"First Gentleman"},{"g":"male","n":"First Gentleman"},{"g":"male","n":"First Gentleman of Ephesus"},{"g":"male","n":"First Gentleman of Mytilene"},{"g":"male","n":"First Gentleman of Tyre"},{"g":"male","n":"First Goth"},{"g":"male","n":"First Herald"},{"g":"male","n":"First Herald"},{"g":"male","n":"First Huntsman"},{"g":"male","n":"First Jailer"},{"g":"male","n":"First Keeper"},{"g":"male","n":"First Knight"},{"g":"male","n":"First Knight"},{"g":"male","n":"First Knight Attending Arcite"},{"g":"female","n":"First Lady"},{"g":"female","n":"First Lady Amazon Masker"},{"g":"male","n":"First Lancastrian Messenger"},{"g":"male","n":"First London Citizen"},{"g":"male","n":"First Lord"},{"g":"male","n":"First Lord"},{"g":"male","n":"First Lord"},{"g":"male","n":"First Lord at Court"},{"g":"male","n":"First Lord in Arden"},{"g":"male","n":"First Lord of Pentapolis"},{"g":"male","n":"First Lord of Tyre"},{"g":"male","n":"First Lord to Richmond"},{"g":"male","n":"First Merchant"},{"g":"male","n":"First Messenger"},{"g":"male","n":"First Messenger"},{"g":"male","n":"First Messenger"},{"g":"male","n":"First Messenger"},{"g":"male","n":"First Messenger"},{"g":"male","n":"First Messenger"},{"g":"male","n":"First Messenger"},{"g":"male","n":"First Messenger"},{"g":"male","n":"First Messenger"},{"g":"male","n":"First Murderer"},{"g":"male","n":"First Murderer"},{"g":"male","n":"First Murderer"},{"g":"male","n":"First Musician"},{"g":"male","n":"First Musician"},{"g":"male","n":"First Neighbor"},{"g":"male","n":"First Officer"},{"g":"male","n":"First Officer"},{"g":"male","n":"First Officer"},{"g":"male","n":"First Outlaw"},{"g":"male","n":"First Page"},{"g":"male","n":"First Petitioner"},{"g":"male","n":"First Pirate"},{"g":"male","n":"First Player"},{"g":"male","n":"First Player (Player King)"},{"g":"male","n":"First Plebeian"},{"g":"male","n":"First Prentice"},{"g":"female","n":"First Queen"},{"g":"male","n":"First Roman"},{"g":"male","n":"First Roman Citizen"},{"g":"male","n":"First Roman Guard"},{"g":"male","n":"First Roman Messenger"},{"g":"male","n":"First Roman Senator"},{"g":"male","n":"First Roman Soldier"},{"g":"male","n":"First Roman Soldier"},{"g":"male","n":"First Royal Messenger"},{"g":"male","n":"First Sailor"},{"g":"male","n":"First Sailor"},{"g":"male","n":"First Scottish Messenger"},{"g":"male","n":"First Scribe"},{"g":"male","n":"First Senator"},{"g":"male","n":"First Senator"},{"g":"male","n":"First Senator"},{"g":"male","n":"First Sentinel"},{"g":"male","n":"First Servant"},{"g":"male","n":"First Servant"},{"g":"male","n":"First Servant"},{"g":"male","n":"First Servingman"},{"g":"male","n":"First Servingman"},{"g":"male","n":"First Servingman"},{"g":"male","n":"First Shepherd"},{"g":"male","n":"First Sheriff"},{"g":"male","n":"First Soldier"},{"g":"male","n":"First Soldier"},{"g":"male","n":"First Soldier as Interpreter"},{"g":"male","n":"First Soldier of Antony’s"},{"g":"male","n":"First Stranger"},{"g":"male","n":"First Strewer"},{"g":"male","n":"First Traveler"},{"g":"male","n":"First Tyrian Messenger"},{"g":"male","n":"First Volscian Lord"},{"g":"male","n":"First Volscian Senator"},{"g":"male","n":"First Warder of the Tower"},{"g":"male","n":"First Warder of the Tower"},{"g":"male","n":"First Watchman"},{"g":"male","n":"First Watchman"},{"g":"male","n":"First Watchman"},{"g":"male","n":"First Watchman"},{"g":"female","n":"First Witch"},{"g":"male","n":"First Yorkist Messenger"},{"g":"male","n":"Five Pages"},{"g":"male","n":"Five Poor Inhabitants of Calais"},{"g":"male","n":"Flaminius"},{"g":"male","n":"Flavius"},{"g":"male","n":"Flavius"},{"g":"male","n":"Fleance"},{"g":"male","n":"Florizel"},{"g":"male","n":"Fluellen"},{"g":"male","n":"Flute"},{"g":"male","n":"Fool"},{"g":"male","n":"Fool"},{"g":"male","n":"Forester"},{"g":"male","n":"Fortinbras"},{"g":"male","n":"Four Barons of the Cinque Ports"},{"g":"male","n":"Four Noblemen"},{"g":"male","n":"Fourth Citizen of Calais"},{"g":"male","n":"Fourth Country Folk"},{"g":"male","n":"Fourth French Lord"},{"g":"male","n":"Fourth Frenchman"},{"g":"male","n":"Fourth Herald"},{"g":"male","n":"Fourth Knight "},{"g":"male","n":"Fourth Lord"},{"g":"male","n":"Fourth Messenger"},{"g":"male","n":"Fourth Messenger"},{"g":"male","n":"Fourth Plebeian"},{"g":"male","n":"Fourth Roman Citizen"},{"g":"male","n":"Fourth Royal Messenger"},{"g":"male","n":"Fourth Senator"},{"g":"female","n":"Fourth Witch"},{"g":"male","n":"Francis"},{"g":"male","n":"Francis"},{"g":"male","n":"Francis de Barde"},{"g":"male","n":"Francis Ford"},{"g":"female","n":"Francisca"},{"g":"male","n":"Francisco"},{"g":"male","n":"Francisco"},{"g":"male","n":"French Court Attendant"},{"g":"male","n":"French Herald"},{"g":"male","n":"French Herald"},{"g":"male","n":"French Mariner"},{"g":"male","n":"French Messenger"},{"g":"male","n":"French Messenger"},{"g":"male","n":"French Messenger"},{"g":"male","n":"French Sergeant"},{"g":"male","n":"French Soldier"},{"g":"male","n":"Frenchman"},{"g":"male","n":"Frenchwoman"},{"g":"male","n":"Friar Francis"},{"g":"male","n":"Friar John"},{"g":"male","n":"Friar Lawrence"},{"g":"male","n":"Friar Peter Thomas"},{"g":"female","n":"Friz"},{"g":"male","n":"Froth"},{"g":"male","n":"Gadshill"},{"g":"male","n":"Gallus"},{"g":"male","n":"Gardener"},{"g":"male","n":"Gardiner"},{"g":"male","n":"Gardiner’s Page"},{"g":"male","n":"Garter King-of-Arms"},{"g":"male","n":"General of the French Force at Bordeaux"},{"g":"male","n":"Gentleman"},{"g":"male","n":"Gentleman"},{"g":"male","n":"Gentleman"},{"g":"male","n":"Gentleman"},{"g":"male","n":"Gentleman"},{"g":"male","n":"Gentleman Attendant"},{"g":"male","n":"Gentleman Porter of the Tower"},{"g":"male","n":"Gentleman Purse-Bearer"},{"g":"female","n":"Gentlewoman"},{"g":"female","n":"Gentlewoman"},{"g":"female","n":"Gentlewoman"},{"g":"male","n":"George"},{"g":"male","n":"George Betts"},{"g":"male","n":"George Bevis"},{"g":"male","n":"George Page"},{"g":"male","n":"George, Duke of Clarence"},{"g":"male","n":"Gerald"},{"g":"male","n":"Gerald"},{"g":"female","n":"Gertrude, Queen of Denmark"},{"g":"male","n":"Ghost of Hamlet’s Father"},{"g":"male","n":"Ghost of King Henry VI"},{"g":"male","n":"Ghost of Prince Edward of Lancaster"},{"g":"male","n":"Giles"},{"g":"male","n":"Gloucester’s First Attendant"},{"g":"male","n":"Gloucester’s First Serving Attendant"},{"g":"male","n":"Gloucester’s Second Attendant"},{"g":"male","n":"Gloucester’s Second Serving Attendant"},{"g":"male","n":"Gloucester’s Servingman"},{"g":"male","n":"Gobin de Grey"},{"g":"female","n":"Goneril"},{"g":"male","n":"Gonzalo"},{"g":"male","n":"Gough"},{"g":"male","n":"Governor of Harfleur"},{"g":"male","n":"Governor of Paris"},{"g":"male","n":"Gower"},{"g":"male","n":"Gower"},{"g":"male","n":"Gower"},{"g":"male","n":"Grandpré"},{"g":"male","n":"Gratiano"},{"g":"male","n":"Gratiano"},{"g":"male","n":"Greek Knight"},{"g":"male","n":"Greek Trumpeter"},{"g":"male","n":"Gregory"},{"g":"male","n":"Gremio"},{"g":"male","n":"Griffith"},{"g":"male","n":"Groom"},{"g":"male","n":"Grumio"},{"g":"male","n":"Guard"},{"g":"male","n":"Guiderius"},{"g":"male","n":"Guildenstern"},{"g":"male","n":"Haberdasher"},{"g":"male","n":"Halberdiers"},{"g":"male","n":"Halberds"},{"g":"male","n":"Hamlet"},{"g":"male","n":"Hangman"},{"g":"male","n":"Harcourt"},{"g":"male","n":"Harry"},{"g":"male","n":"Headsman"},{"g":"female","n":"Hecat"},{"g":"male","n":"Hector"},{"g":"female","n":"Helen"},{"g":"female","n":"Helen"},{"g":"female","n":"Helena"},{"g":"female","n":"Helena"},{"g":"male","n":"Helenus"},{"g":"male","n":"Helicanus"},{"g":"male","n":"Henriquez"},{"g":"male","n":"Henry Beauford, Bishop of Winchester"},{"g":"male","n":"Henry Bullingbrook"},{"g":"male","n":"Henry Percy"},{"g":"male","n":"Henry Percy"},{"g":"male","n":"Henry Percy, Earl of Northumberland"},{"g":"male","n":"Henry Percy, Earl of Northumberland"},{"g":"male","n":"Henry, Earl of Richmond"},{"g":"male","n":"Henry, Earl of Richmond"},{"g":"male","n":"Henry, Prince of Wales"},{"g":"male","n":"Herald"},{"g":"male","n":"Herald"},{"g":"male","n":"Herald"},{"g":"male","n":"Herald"},{"g":"female","n":"Hermia"},{"g":"female","n":"Hermione"},{"g":"female","n":"Hero"},{"g":"male","n":"Hiems, the Winter"},{"g":"female","n":"Hippolyta"},{"g":"female","n":"Hippolyta"},{"g":"male","n":"Holofernes"},{"g":"male","n":"Horatio"},{"g":"male","n":"Hortensio"},{"g":"male","n":"Hortensius"},{"g":"male","n":"Host"},{"g":"male","n":"Host of the Garter Inn"},{"g":"female","n":"Hostess"},{"g":"female","n":"Hostess"},{"g":"female","n":"Hostess"},{"g":"female","n":"Hostess Quickly"},{"g":"male","n":"Hubert de Burgh"},{"g":"male","n":"Humphrey, Duke of Gloucester"},{"g":"male","n":"Humphrey, Duke of Gloucester"},{"g":"male","n":"Huntsman"},{"g":"male","n":"Hymen"},{"g":"male","n":"Hymen"},{"g":"male","n":"Iago"},{"g":"male","n":"Iden’s Men"},{"g":"female","n":"Imogen"},{"g":"female","n":"Iras"},{"g":"female","n":"Iris"},{"g":"female","n":"Isabella"},{"g":"male","n":"Isidore’s Servant"},{"g":"male","n":"Jachimo"},{"g":"male","n":"Jack Cade"},{"g":"male","n":"Jailer"},{"g":"male","n":"Jailer"},{"g":"male","n":"Jailer"},{"g":"male","n":"Jailer"},{"g":"male","n":"Jailer’s Brother"},{"g":"female","n":"Jailer’s Daughter"},{"g":"male","n":"Jailer’s First Friend"},{"g":"male","n":"Jailer’s Second Friend"},{"g":"male","n":"James Gurney"},{"g":"male","n":"Jamy"},{"g":"female","n":"Jaquenetta"},{"g":"male","n":"Jaques"},{"g":"male","n":"Jaques De Boys"},{"g":"female","n":"Jessica"},{"g":"male","n":"Jeweler"},{"g":"female","n":"Joan de Pucelle"},{"g":"male","n":"John Beauford, Duke of Somerset"},{"g":"male","n":"John de Valois, King of France"},{"g":"male","n":"John Holland"},{"g":"male","n":"John Hume"},{"g":"male","n":"John Lincoln"},{"g":"male","n":"John Morton, Bishop of Ely"},{"g":"male","n":"John of Gaunt, Duke of Lancaster"},{"g":"male","n":"John Rugby"},{"g":"male","n":"John Southwell"},{"g":"male","n":"John Talbot"},{"g":"male","n":"John, Duke of Bedford"},{"g":"male","n":"Joseph"},{"g":"male","n":"Judges"},{"g":"female","n":"Julia"},{"g":"female","n":"Juliet"},{"g":"female","n":"Juliet"},{"g":"male","n":"Julio"},{"g":"male","n":"Julius Caesar"},{"g":"male","n":"Junius Brutus"},{"g":"female","n":"Juno"},{"g":"male","n":"Jupiter"},{"g":"male","n":"Justice"},{"g":"male","n":"Justice Suresby"},{"g":"female","n":"Katherina"},{"g":"female","n":"Katherine"},{"g":"female","n":"Katherine"},{"g":"male","n":"Keeper"},{"g":"male","n":"Keeper in the Tower"},{"g":"male","n":"King Edward the Fourth"},{"g":"male","n":"King Henry IV"},{"g":"male","n":"King Henry the Eighth"},{"g":"male","n":"King Henry the Fifth"},{"g":"male","n":"King Henry the Fourth"},{"g":"male","n":"King Henry the Sixth"},{"g":"male","n":"King Henry the Sixth"},{"g":"male","n":"King Henry the Sixth"},{"g":"male","n":"King Henry’s Page"},{"g":"male","n":"King John"},{"g":"male","n":"King of Bohemia"},{"g":"male","n":"King of France"},{"g":"male","n":"King of France"},{"g":"male","n":"King Richard the Second"},{"g":"male","n":"Kit"},{"g":"male","n":"Knight"},{"g":"female","n":"Ladies Attending on Leonora"},{"g":"female","n":"Lady"},{"g":"female","n":"Lady Anne"},{"g":"female","n":"Lady Attendant"},{"g":"female","n":"Lady Bona"},{"g":"female","n":"Lady Capulet"},{"g":"female","n":"Lady Faulconbridge"},{"g":"female","n":"Lady Grey"},{"g":"female","n":"Lady Macbeth"},{"g":"female","n":"Lady Macduff"},{"g":"female","n":"Lady Mayoress"},{"g":"female","n":"Lady Montague"},{"g":"female","n":"Lady More"},{"g":"female","n":"Lady Mortimer"},{"g":"female","n":"Lady Northumberland"},{"g":"female","n":"Lady Percy"},{"g":"female","n":"Lady Percy"},{"g":"male","n":"Laertes"},{"g":"male","n":"Laertes’s Followers"},{"g":"male","n":"Lafew"},{"g":"male","n":"Lamprius, the Soothsayer"},{"g":"male","n":"Launce"},{"g":"male","n":"Launcelot Gobbo"},{"g":"male","n":"Lavatch"},{"g":"female","n":"Lavinia"},{"g":"male","n":"Lawyer"},{"g":"male","n":"Le Beau"},{"g":"male","n":"Lear, King of Britain"},{"g":"male","n":"Lennox"},{"g":"male","n":"Leonardo"},{"g":"male","n":"Leonato"},{"g":"male","n":"Leonine"},{"g":"female","n":"Leonora"},{"g":"male","n":"Leontes, King of Sicilia"},{"g":"male","n":"Lewis the Eleventh, King of France"},{"g":"male","n":"Lewis, the Dauphin"},{"g":"male","n":"Lieutenant"},{"g":"male","n":"Lieutenant of the Tower"},{"g":"male","n":"Lieutenant of the Tower"},{"g":"male","n":"Lieutenant to Aufidius"},{"g":"male","n":"Lieutenant to Lartius"},{"g":"male","n":"Lifter"},{"g":"male","n":"Lodovico"},{"g":"male","n":"Lodowick"},{"g":"male","n":"London Citizens"},{"g":"male","n":"Longaville"},{"g":"male","n":"Lopez"},{"g":"male","n":"Lord"},{"g":"male","n":"Lord"},{"g":"male","n":"Lord"},{"g":"male","n":"Lord"},{"g":"male","n":"Lord Abergavenny"},{"g":"male","n":"Lord Audley"},{"g":"male","n":"Lord Bardolph"},{"g":"male","n":"Lord Berkeley"},{"g":"male","n":"Lord Bigot"},{"g":"male","n":"Lord Bourbon"},{"g":"male","n":"Lord Capuchius"},{"g":"male","n":"Lord Chamberlain"},{"g":"male","n":"Lord Chancellor"},{"g":"male","n":"Lord Chief Justice"},{"g":"male","n":"Lord Clifford"},{"g":"male","n":"Lord Clifford"},{"g":"male","n":"Lord Fitzwater"},{"g":"male","n":"Lord Grey"},{"g":"male","n":"Lord Hastings"},{"g":"male","n":"Lord Hastings"},{"g":"male","n":"Lord Hastings"},{"g":"male","n":"Lord Lovel"},{"g":"male","n":"Lord Marshal"},{"g":"male","n":"Lord Mayor"},{"g":"male","n":"Lord Mayor of London"},{"g":"male","n":"Lord Mayor of London"},{"g":"male","n":"Lord Mowbray"},{"g":"male","n":"Lord of Myteline"},{"g":"male","n":"Lord of Tarsus"},{"g":"male","n":"Lord Percy"},{"g":"male","n":"Lord Rivers"},{"g":"male","n":"Lord Ross"},{"g":"male","n":"Lord Sands"},{"g":"male","n":"Lord Say"},{"g":"male","n":"Lord Scales"},{"g":"male","n":"Lord Scroop"},{"g":"male","n":"Lord Stafford"},{"g":"male","n":"Lord Stanley"},{"g":"male","n":"Lord Talbot"},{"g":"male","n":"Lord Willoughby"},{"g":"male","n":"Lorenzo"},{"g":"female","n":"Luce"},{"g":"female","n":"Luce"},{"g":"male","n":"Lucentio"},{"g":"female","n":"Lucetta"},{"g":"female","n":"Luciana"},{"g":"male","n":"Lucilius"},{"g":"male","n":"Lucilius"},{"g":"female","n":"Lucillius"},{"g":"male","n":"Lucio"},{"g":"male","n":"Lucius"},{"g":"male","n":"Lucius"},{"g":"male","n":"Lucius"},{"g":"male","n":"Lucius’s Servant"},{"g":"male","n":"Lucullus"},{"g":"male","n":"Lucullus’s Servant"},{"g":"male","n":"Luggins"},{"g":"female","n":"Lychorida"},{"g":"male","n":"Lymoges, Duke of Austria"},{"g":"male","n":"Lysander"},{"g":"male","n":"Lysimachus"},{"g":"male","n":"M. Aemilius Lepidus"},{"g":"male","n":"M. Aemilius Lepidus"},{"g":"male","n":"Macbeth"},{"g":"male","n":"Macbeth’s Messenger"},{"g":"male","n":"Macduff"},{"g":"male","n":"Macmorris"},{"g":"male","n":"Maecenas"},{"g":"female","n":"Maid"},{"g":"male","n":"Malcolm"},{"g":"male","n":"Malvolio"},{"g":"male","n":"Mamillius"},{"g":"male","n":"Man"},{"g":"male","n":"Marcade"},{"g":"male","n":"Marcellus"},{"g":"female","n":"Marchioness Dorset"},{"g":"male","n":"Marcus Andronicus"},{"g":"male","n":"Marcus Brutus"},{"g":"male","n":"Mardian"},{"g":"male","n":"Margarelon"},{"g":"female","n":"Margaret"},{"g":"female","n":"Margaret"},{"g":"female","n":"Margaret Plantagenet"},{"g":"female","n":"Margery Jourdain"},{"g":"female","n":"Maria"},{"g":"female","n":"Maria"},{"g":"female","n":"Mariana"},{"g":"female","n":"Mariana"},{"g":"female","n":"Marina"},{"g":"female","n":"Marina’s Lady"},{"g":"male","n":"Mariner"},{"g":"male","n":"Mariners"},{"g":"male","n":"Mark Antony"},{"g":"male","n":"Mark Antony"},{"g":"male","n":"Marquess Dorset"},{"g":"male","n":"Marquess Montague"},{"g":"female","n":"Marquess of Dorset"},{"g":"male","n":"Marshal"},{"g":"male","n":"Martius"},{"g":"male","n":"Maskers"},{"g":"male","n":"Master Gunner of Orléans"},{"g":"male","n":"Master Gunner’s Boy"},{"g":"male","n":"Master of a Ship"},{"g":"male","n":"Master of the Flocks"},{"g":"male","n":"Master’s Mate"},{"g":"male","n":"Matthew Goffe"},{"g":"female","n":"Maudline"},{"g":"male","n":"Mayor of Coventry"},{"g":"male","n":"Mayor of London"},{"g":"male","n":"Mayor of Saint Albans"},{"g":"male","n":"Mayor of York"},{"g":"male","n":"Melune"},{"g":"male","n":"Menas"},{"g":"male","n":"Menecrates"},{"g":"male","n":"Menelaus"},{"g":"male","n":"Menenius Agrippa"},{"g":"male","n":"Menteth"},{"g":"male","n":"Merchant"},{"g":"male","n":"Mercutio"},{"g":"male","n":"Mercutio’s Page"},{"g":"male","n":"Messala"},{"g":"male","n":"Messenger"},{"g":"male","n":"Messenger"},{"g":"male","n":"Messenger"},{"g":"male","n":"Messenger"},{"g":"male","n":"Messenger"},{"g":"male","n":"Messenger"},{"g":"male","n":"Messenger"},{"g":"male","n":"Messenger"},{"g":"male","n":"Messenger"},{"g":"male","n":"Messenger"},{"g":"male","n":"Messenger"},{"g":"male","n":"Messenger"},{"g":"male","n":"Messenger"},{"g":"male","n":"Messenger from Ventidius"},{"g":"male","n":"Messenger of the Countess"},{"g":"male","n":"Messenger to the Queen"},{"g":"male","n":"Metellus Cimber"},{"g":"male","n":"Michael"},{"g":"female","n":"Miranda"},{"g":"female","n":"Mistress Alice Ford"},{"g":"female","n":"Mistress Anne Page"},{"g":"female","n":"Mistress Margaret Page"},{"g":"female","n":"Mistress Overdone"},{"g":"female","n":"Mistress Quickly"},{"g":"male","n":"Montague"},{"g":"male","n":"Montague Messenger"},{"g":"male","n":"Montano"},{"g":"male","n":"Montjoy"},{"g":"female","n":"Mopsa"},{"g":"male","n":"Morris"},{"g":"male","n":"Morton"},{"g":"female","n":"Moth"},{"g":"male","n":"Moth"},{"g":"male","n":"Mouldy"},{"g":"male","n":"Murellus"},{"g":"male","n":"Musicians"},{"g":"male","n":"Musicians"},{"g":"female","n":"Mustardseed"},{"g":"male","n":"Mutius"},{"g":"male","n":"Myrmidon"},{"g":"male","n":"Myrmidons"},{"g":"male","n":"Nathaniel"},{"g":"male","n":"Ned"},{"g":"female","n":"Nell"},{"g":"female","n":"Nerissa"},{"g":"male","n":"Nestor"},{"g":"male","n":"Nicanor"},{"g":"male","n":"Nicholas"},{"g":"male","n":"Nobleman"},{"g":"male","n":"Norfolk Messenger"},{"g":"male","n":"Norwegian Captain"},{"g":"female","n":"Nurse"},{"g":"female","n":"Nurse"},{"g":"female","n":"Nurse Bess"},{"g":"male","n":"Nym"},{"g":"male","n":"Nym"},{"g":"male","n":"Oberon"},{"g":"female","n":"Octavia"},{"g":"male","n":"Octavius Caesar"},{"g":"male","n":"Octavius Caesar"},{"g":"male","n":"Octavius’s Attendant"},{"g":"male","n":"Officer"},{"g":"male","n":"Officer"},{"g":"male","n":"Officer"},{"g":"male","n":"Officer"},{"g":"male","n":"Officer"},{"g":"male","n":"Officer"},{"g":"male","n":"Old Athenian"},{"g":"male","n":"Old Capulet"},{"g":"male","n":"Old Gobbo"},{"g":"female","n":"Old Lady"},{"g":"male","n":"Old Man"},{"g":"male","n":"Old Man"},{"g":"male","n":"Old Shepherd"},{"g":"male","n":"Oliver"},{"g":"female","n":"Olivia"},{"g":"male","n":"Olivia’s Servant"},{"g":"male","n":"One Citizen"},{"g":"female","n":"Ophelia"},{"g":"male","n":"Ophelia’s Pallbearers"},{"g":"male","n":"Orlando"},{"g":"male","n":"Orsino"},{"g":"male","n":"Osric"},{"g":"male","n":"Ostler"},{"g":"male","n":"Oswald"},{"g":"male","n":"Othello"},{"g":"female","n":"Other Ladies"},{"g":"male","n":"Owen Glendower"},{"g":"male","n":"Oxford Messenger"},{"g":"male","n":"Page"},{"g":"male","n":"Page (Bartholomew)"},{"g":"male","n":"Page to Paris"},{"g":"male","n":"Pages"},{"g":"male","n":"Painter"},{"g":"male","n":"Palamon"},{"g":"male","n":"Pandarus"},{"g":"male","n":"Pander"},{"g":"male","n":"Panthino"},{"g":"male","n":"Papal Legate"},{"g":"male","n":"Paris"},{"g":"male","n":"Paris"},{"g":"male","n":"Paris’s Servant"},{"g":"male","n":"Parolles"},{"g":"female","n":"Patience"},{"g":"male","n":"Patrician"},{"g":"male","n":"Patricians"},{"g":"male","n":"Patroclus"},{"g":"female","n":"Paulina"},{"g":"female","n":"Peaseblossom"},{"g":"male","n":"Pedant"},{"g":"female","n":"Perdita"},{"g":"male","n":"Pericles"},{"g":"male","n":"Peter"},{"g":"male","n":"Peter"},{"g":"male","n":"Peter of Pomfret"},{"g":"male","n":"Peter Simple"},{"g":"male","n":"Peter Thump"},{"g":"male","n":"Peto"},{"g":"male","n":"Peto"},{"g":"male","n":"Petruchio"},{"g":"male","n":"Petruchio"},{"g":"female","n":"Phebe"},{"g":"male","n":"Philario"},{"g":"male","n":"Philarmonus"},{"g":"male","n":"Philemon"},{"g":"male","n":"Philip"},{"g":"male","n":"Philip"},{"g":"male","n":"Philip, King of France"},{"g":"male","n":"Philip, the Bastard"},{"g":"male","n":"Philo"},{"g":"male","n":"Philostrate"},{"g":"male","n":"Philotus"},{"g":"male","n":"Phrynia"},{"g":"male","n":"Pindarus"},{"g":"male","n":"Pirithous"},{"g":"male","n":"Pisanio"},{"g":"male","n":"Pistol"},{"g":"male","n":"Pistol"},{"g":"male","n":"Pistol"},{"g":"male","n":"Player Lucianus"},{"g":"male","n":"Player of Inclination the Vice"},{"g":"male","n":"Player of Lady Vanity"},{"g":"male","n":"Player of Prologue"},{"g":"male","n":"Player of Wit"},{"g":"male","n":"Player Prologue"},{"g":"female","n":"Player Queen"},{"g":"male","n":"Plebeians"},{"g":"male","n":"Poet"},{"g":"male","n":"Poins"},{"g":"male","n":"Polish Captain"},{"g":"male","n":"Polixenes, King of Bohemia"},{"g":"male","n":"Polonius"},{"g":"male","n":"Pompey"},{"g":"male","n":"Pompey’s First Servant"},{"g":"male","n":"Pompey’s Second Servant"},{"g":"male","n":"Poor Inhabitant of Calais"},{"g":"male","n":"Popilius Lena"},{"g":"male","n":"Porter"},{"g":"male","n":"Porter"},{"g":"male","n":"Porter"},{"g":"male","n":"Porter"},{"g":"male","n":"Porter’s Man"},{"g":"female","n":"Portia"},{"g":"female","n":"Portia"},{"g":"male","n":"Portia’s Servant"},{"g":"male","n":"Post"},{"g":"male","n":"Post"},{"g":"male","n":"Posthumus Leonatus"},{"g":"male","n":"Postmaster’s Boy"},{"g":"male","n":"Potpan"},{"g":"male","n":"Priam, King of Troy"},{"g":"male","n":"Priest"},{"g":"male","n":"Prince Edward"},{"g":"male","n":"Prince Edward (Ned)"},{"g":"male","n":"Prince Escalus"},{"g":"male","n":"Prince Henry"},{"g":"male","n":"Prince Henry"},{"g":"male","n":"Prince John of Lancaster"},{"g":"male","n":"Prince John of Lancaster"},{"g":"female","n":"Princess Elizabeth"},{"g":"male","n":"Proculeius"},{"g":"male","n":"Prologue"},{"g":"male","n":"Prologue"},{"g":"male","n":"Prologue"},{"g":"male","n":"Prospero"},{"g":"male","n":"Proteus"},{"g":"male","n":"Provost"},{"g":"male","n":"Publius"},{"g":"male","n":"Publius"},{"g":"male","n":"Puck"},{"g":"male","n":"Pursuivant"},{"g":"male","n":"Pursuivants"},{"g":"female","n":"Queen"},{"g":"female","n":"Queen Elinor"},{"g":"female","n":"Queen Elizabeth"},{"g":"female","n":"Queen Isabel"},{"g":"female","n":"Queen Katherine"},{"g":"female","n":"Queen Margaret"},{"g":"female","n":"Queen Margaret"},{"g":"female","n":"Queen Margaret"},{"g":"female","n":"Queen Philippa"},{"g":"female","n":"Queen to King Richard"},{"g":"male","n":"Quince"},{"g":"male","n":"Quintus"},{"g":"male","n":"Ralph"},{"g":"male","n":"Rambures"},{"g":"male","n":"Randall"},{"g":"male","n":"Rannius"},{"g":"male","n":"Rebel Messenger"},{"g":"male","n":"Rebel Poleman"},{"g":"male","n":"Rebel Soldier"},{"g":"male","n":"Recorder"},{"g":"female","n":"Regan"},{"g":"male","n":"Reignier, Duke of Anjou"},{"g":"male","n":"Reynaldo"},{"g":"male","n":"Richard"},{"g":"male","n":"Richard Plantagenet"},{"g":"male","n":"Richard Plantagenet"},{"g":"male","n":"Richard Plantagenet, Duke of York"},{"g":"male","n":"Richard Plantagenet, Duke of York"},{"g":"male","n":"Richard Scroop, Archbishop of York"},{"g":"male","n":"Richard Scroop, Archbishop of York"},{"g":"male","n":"Richard, Duke of Gloucester"},{"g":"male","n":"Richard, Duke of York"},{"g":"male","n":"Richard, Earl of Cambridge"},{"g":"male","n":"Rinaldo"},{"g":"male","n":"Robert Faulconbridge"},{"g":"male","n":"Robert of Artois"},{"g":"male","n":"Robert Shallow"},{"g":"male","n":"Robin"},{"g":"male","n":"Robin"},{"g":"male","n":"Robin"},{"g":"male","n":"Roderick"},{"g":"male","n":"Roderigo"},{"g":"male","n":"Roger Bolingbrook"},{"g":"male","n":"Roman Captain"},{"g":"male","n":"Roman Captain"},{"g":"male","n":"Roman Herald"},{"g":"male","n":"Roman Soldiers"},{"g":"male","n":"Romeo"},{"g":"male","n":"Roper"},{"g":"female","n":"Roper’s Wife"},{"g":"female","n":"Rosalind"},{"g":"female","n":"Rosaline"},{"g":"male","n":"Rosencrantz"},{"g":"male","n":"Rosse"},{"g":"male","n":"Rumor, the Presenter"},{"g":"male","n":"Sailor"},{"g":"male","n":"Sailor of Mytilene"},{"g":"male","n":"Sailor of Tyre"},{"g":"male","n":"Salerio"},{"g":"male","n":"Sampson"},{"g":"male","n":"Saturninus"},{"g":"male","n":"Saunder Simpcox"},{"g":"male","n":"Sawyer"},{"g":"male","n":"Scarus"},{"g":"male","n":"Schoolmaster (Ambassador)"},{"g":"male","n":"Scout"},{"g":"male","n":"Scout"},{"g":"male","n":"Scrivener"},{"g":"male","n":"Sea Captain"},{"g":"male","n":"Sebastian"},{"g":"male","n":"Sebastian"},{"g":"male","n":"Second Aedile"},{"g":"male","n":"Second Apparition"},{"g":"female","n":"Second Attending Lady"},{"g":"male","n":"Second Bandit"},{"g":"male","n":"Second British Captain"},{"g":"male","n":"Second Captain"},{"g":"male","n":"Second Carrier"},{"g":"male","n":"Second Citizen"},{"g":"male","n":"Second Citizen of Calais"},{"g":"male","n":"Second Clown (Gravedigger)"},{"g":"male","n":"Second Conspirator"},{"g":"male","n":"Second Country Folk"},{"g":"male","n":"Second Drawer"},{"g":"male","n":"Second Egyptian Servant"},{"g":"male","n":"Second English Esquire"},{"g":"female","n":"Second Fairy"},{"g":"male","n":"Second Fisherman"},{"g":"male","n":"Second French Captain"},{"g":"male","n":"Second French Herald"},{"g":"male","n":"Second French Lord"},{"g":"male","n":"Second French Lord"},{"g":"male","n":"Second French Lord Dumaine"},{"g":"male","n":"Second Frenchman"},{"g":"male","n":"Second Gamekeeper"},{"g":"male","n":"Second Gardener’s Man"},{"g":"male","n":"Second Gentleman"},{"g":"male","n":"Second Gentleman"},{"g":"male","n":"Second Gentleman"},{"g":"male","n":"Second Gentleman"},{"g":"male","n":"Second Gentleman"},{"g":"male","n":"Second Gentleman"},{"g":"male","n":"Second Gentleman"},{"g":"male","n":"Second Gentleman"},{"g":"male","n":"Second Gentleman of Ephesus"},{"g":"male","n":"Second Gentleman of Mytilene"},{"g":"male","n":"Second Goth"},{"g":"male","n":"Second Herald"},{"g":"male","n":"Second Herald"},{"g":"male","n":"Second Huntsman"},{"g":"male","n":"Second Jailer"},{"g":"male","n":"Second Keeper"},{"g":"male","n":"Second Knight"},{"g":"male","n":"Second Knight"},{"g":"male","n":"Second Knight Attending Arcite"},{"g":"female","n":"Second Lady"},{"g":"male","n":"Second Lancastrian Messenger"},{"g":"male","n":"Second Lord"},{"g":"male","n":"Second Lord"},{"g":"male","n":"Second Lord at Court"},{"g":"male","n":"Second Lord in Arden"},{"g":"male","n":"Second Lord of Pentapolis"},{"g":"male","n":"Second Lord of Tyre"},{"g":"male","n":"Second Lord to Richmond"},{"g":"male","n":"Second Merchant"},{"g":"male","n":"Second Messenger"},{"g":"male","n":"Second Messenger"},{"g":"male","n":"Second Messenger"},{"g":"male","n":"Second Messenger"},{"g":"male","n":"Second Messenger"},{"g":"male","n":"Second Messenger"},{"g":"male","n":"Second Messenger"},{"g":"male","n":"Second Messenger"},{"g":"male","n":"Second Messenger"},{"g":"male","n":"Second Murderer"},{"g":"male","n":"Second Murderer"},{"g":"male","n":"Second Murderer"},{"g":"male","n":"Second Musician"},{"g":"male","n":"Second Neighbor"},{"g":"male","n":"Second Officer"},{"g":"male","n":"Second Officer"},{"g":"male","n":"Second Officer"},{"g":"male","n":"Second Outlaw"},{"g":"male","n":"Second Page"},{"g":"male","n":"Second Petitioner"},{"g":"male","n":"Second Pirate"},{"g":"male","n":"Second Player"},{"g":"male","n":"Second Plebeian"},{"g":"male","n":"Second Prentice"},{"g":"female","n":"Second Queen"},{"g":"male","n":"Second Roman"},{"g":"male","n":"Second Roman Citizen"},{"g":"male","n":"Second Roman Guard"},{"g":"male","n":"Second Roman Messenger"},{"g":"male","n":"Second Roman Senator"},{"g":"male","n":"Second Roman Soldier"},{"g":"male","n":"Second Roman Soldier"},{"g":"male","n":"Second Royal Messenger"},{"g":"male","n":"Second Sailor"},{"g":"male","n":"Second Scottish Messenger"},{"g":"male","n":"Second Scribe"},{"g":"male","n":"Second Senator"},{"g":"male","n":"Second Senator"},{"g":"male","n":"Second Senator"},{"g":"male","n":"Second Sentinel"},{"g":"male","n":"Second Servant"},{"g":"male","n":"Second Servant"},{"g":"male","n":"Second Servant"},{"g":"male","n":"Second Servingman"},{"g":"male","n":"Second Servingman"},{"g":"male","n":"Second Servingman"},{"g":"male","n":"Second Shepherd"},{"g":"male","n":"Second Sheriff"},{"g":"male","n":"Second Soldier"},{"g":"male","n":"Second Soldier"},{"g":"male","n":"Second Soldier of Antony’s"},{"g":"male","n":"Second Stranger"},{"g":"male","n":"Second Strewer"},{"g":"male","n":"Second Traveler"},{"g":"male","n":"Second Tyrian Messenger"},{"g":"male","n":"Second Volscian Lord"},{"g":"male","n":"Second Volscian Senator"},{"g":"male","n":"Second Warder of the Tower"},{"g":"male","n":"Second Warder of the Tower"},{"g":"male","n":"Second Watchman"},{"g":"male","n":"Second Watchman"},{"g":"male","n":"Second Watchman"},{"g":"male","n":"Second Watchman"},{"g":"female","n":"Second Witch"},{"g":"male","n":"Second Yorkist Messenger"},{"g":"male","n":"Seleucus"},{"g":"male","n":"Sempronius"},{"g":"male","n":"Sempronius"},{"g":"male","n":"Senators"},{"g":"male","n":"Sergeant"},{"g":"male","n":"Sergeant at Arms"},{"g":"male","n":"Sergeant-at-Arms"},{"g":"male","n":"Servant"},{"g":"male","n":"Servant"},{"g":"male","n":"Servant"},{"g":"male","n":"Servant"},{"g":"male","n":"Servant"},{"g":"male","n":"Servant of the Old Shepherd"},{"g":"male","n":"Servant to More"},{"g":"male","n":"Servant to the Lord Chief Justice"},{"g":"male","n":"Servant to Violante"},{"g":"male","n":"Servilius"},{"g":"male","n":"Servingman"},{"g":"male","n":"Servingman"},{"g":"male","n":"Seventh Roman Citizen"},{"g":"male","n":"Sewer"},{"g":"male","n":"Sexton"},{"g":"male","n":"Sextus Pompeius"},{"g":"male","n":"Seyton"},{"g":"male","n":"Shadow"},{"g":"male","n":"Shallow"},{"g":"male","n":"Shepherd"},{"g":"male","n":"Shepherds and Shepherdesses"},{"g":"male","n":"Sheriff"},{"g":"male","n":"Sheriff"},{"g":"male","n":"Sheriff of London"},{"g":"male","n":"Sheriff of Wiltshire"},{"g":"male","n":"Sherwin"},{"g":"male","n":"Shipmaster"},{"g":"male","n":"Shylock"},{"g":"male","n":"Sicinius Velutus"},{"g":"male","n":"Silence"},{"g":"male","n":"Silius"},{"g":"female","n":"Silvia"},{"g":"male","n":"Silvius"},{"g":"male","n":"Simonides"},{"g":"female","n":"Simpcox’s Wife"},{"g":"male","n":"Singer"},{"g":"male","n":"Singer"},{"g":"male","n":"Sir Andrew Aguecheek"},{"g":"male","n":"Sir Anthony Denny"},{"g":"male","n":"Sir Henry Green"},{"g":"male","n":"Sir Henry Guilford"},{"g":"male","n":"Sir Hugh Evans"},{"g":"male","n":"Sir Hugh Mortimer"},{"g":"male","n":"Sir Humphrey Stafford"},{"g":"male","n":"Sir James Blunt"},{"g":"male","n":"Sir James Tyrrel"},{"g":"male","n":"Sir John"},{"g":"male","n":"Sir John Bagot"},{"g":"male","n":"Sir John Blunt"},{"g":"male","n":"Sir John Bushy"},{"g":"male","n":"Sir John Colevile"},{"g":"male","n":"Sir John Copland"},{"g":"male","n":"Sir John Falstaff"},{"g":"male","n":"Sir John Falstaff"},{"g":"male","n":"Sir John Falstaff"},{"g":"male","n":"Sir John Falstaff"},{"g":"male","n":"Sir John Montgomery"},{"g":"male","n":"Sir John Mortimer"},{"g":"male","n":"Sir John Munday"},{"g":"male","n":"Sir John Somervile"},{"g":"male","n":"Sir John Stanley"},{"g":"male","n":"Sir Michael"},{"g":"male","n":"Sir Nathaniel"},{"g":"male","n":"Sir Nicholas Vaux"},{"g":"male","n":"Sir Oliver Martext"},{"g":"male","n":"Sir Pierce of Exton"},{"g":"male","n":"Sir Richard Ratcliffe"},{"g":"male","n":"Sir Richard Vernon"},{"g":"male","n":"Sir Robert Brakenbury"},{"g":"male","n":"Sir Roger Cholmley"},{"g":"male","n":"Sir Stephen Scroop"},{"g":"male","n":"Sir Thomas Erpingham"},{"g":"male","n":"Sir Thomas Gargrave"},{"g":"male","n":"Sir Thomas Grey"},{"g":"male","n":"Sir Thomas Lovell"},{"g":"male","n":"Sir Thomas More"},{"g":"male","n":"Sir Thomas Palmer"},{"g":"male","n":"Sir Thomas Vaughan"},{"g":"male","n":"Sir Toby Belch"},{"g":"male","n":"Sir Walter Blunt"},{"g":"male","n":"Sir Walter Herbert"},{"g":"male","n":"Sir William Brandon"},{"g":"male","n":"Sir William Catesby"},{"g":"male","n":"Sir William Glansdale"},{"g":"male","n":"Sir William Lucy"},{"g":"male","n":"Sir William Mountague"},{"g":"male","n":"Sir William Stanley"},{"g":"male","n":"Siward, Earl of Northumberland"},{"g":"female","n":"Six Vision Dancers"},{"g":"male","n":"Sixth Citizen of Calais"},{"g":"male","n":"Sixth Roman Citizen"},{"g":"female","n":"Sixth Witch"},{"g":"male","n":"Smart"},{"g":"male","n":"Smith the Weaver"},{"g":"male","n":"Snare"},{"g":"male","n":"Sneak"},{"g":"male","n":"Snout"},{"g":"male","n":"Snug"},{"g":"male","n":"Solanio"},{"g":"male","n":"Soldier"},{"g":"male","n":"Soldier of the Watch"},{"g":"male","n":"Soldiers"},{"g":"male","n":"Solinus, Duke of Ephesus"},{"g":"male","n":"Son to Macduff"},{"g":"male","n":"Soothsayer"},{"g":"male","n":"Spaniard"},{"g":"male","n":"Speed"},{"g":"male","n":"Spirit"},{"g":"male","n":"Stanley Messenger"},{"g":"male","n":"Starveling"},{"g":"male","n":"Stephano"},{"g":"male","n":"Stephano"},{"g":"male","n":"Strato"},{"g":"male","n":"Tailor"},{"g":"male","n":"Talbot’s Servant"},{"g":"male","n":"Talbot’s Trumpeter"},{"g":"female","n":"Tamora"},{"g":"male","n":"Taurus"},{"g":"female","n":"Thaisa"},{"g":"male","n":"Thaliard"},{"g":"male","n":"The Dauphin"},{"g":"male","n":"The Duke of Venice"},{"g":"male","n":"The Messenger"},{"g":"male","n":"The Prince of Arragon"},{"g":"male","n":"The Prince of Morocco"},{"g":"female","n":"The Princess of France"},{"g":"male","n":"Thersites"},{"g":"male","n":"Theseus, Duke of Athens"},{"g":"male","n":"Theseus, Duke of Athens"},{"g":"male","n":"Thidias"},{"g":"male","n":"Third Apparition"},{"g":"male","n":"Third Bandit"},{"g":"male","n":"Third Citizen"},{"g":"male","n":"Third Citizen of Calais"},{"g":"male","n":"Third Conspirator"},{"g":"male","n":"Third Country Folk"},{"g":"male","n":"Third Drawer"},{"g":"male","n":"Third Fisherman"},{"g":"male","n":"Third French Herald"},{"g":"male","n":"Third French Lord"},{"g":"male","n":"Third Frenchman"},{"g":"male","n":"Third Gentleman"},{"g":"male","n":"Third Gentleman"},{"g":"male","n":"Third Gentleman"},{"g":"male","n":"Third Goth"},{"g":"male","n":"Third Herald"},{"g":"male","n":"Third Knight"},{"g":"male","n":"Third Knight"},{"g":"male","n":"Third Knight Attending Arcite"},{"g":"male","n":"Third Lord"},{"g":"male","n":"Third Lord of Pentapolis"},{"g":"male","n":"Third Lord of Tyre"},{"g":"male","n":"Third Messenger"},{"g":"male","n":"Third Messenger"},{"g":"male","n":"Third Messenger"},{"g":"male","n":"Third Messenger"},{"g":"male","n":"Third Messenger"},{"g":"male","n":"Third Murderer"},{"g":"male","n":"Third Musician"},{"g":"male","n":"Third Neighbor"},{"g":"male","n":"Third Outlaw"},{"g":"male","n":"Third Pirate"},{"g":"male","n":"Third Plebeian"},{"g":"male","n":"Third Prentice"},{"g":"female","n":"Third Queen"},{"g":"male","n":"Third Roman"},{"g":"male","n":"Third Roman Citizen"},{"g":"male","n":"Third Royal Messenger"},{"g":"male","n":"Third Senator"},{"g":"male","n":"Third Servant"},{"g":"male","n":"Third Servant"},{"g":"male","n":"Third Servingman"},{"g":"male","n":"Third Servingman"},{"g":"male","n":"Third Servingman"},{"g":"male","n":"Third Soldier"},{"g":"male","n":"Third Stranger"},{"g":"male","n":"Third Strewer"},{"g":"male","n":"Third Volscian Lord"},{"g":"male","n":"Third Warder of the Tower"},{"g":"male","n":"Third Watchman"},{"g":"male","n":"Third Watchman"},{"g":"female","n":"Third Witch"},{"g":"male","n":"Thomas Beauford, Duke of Exeter"},{"g":"male","n":"Thomas Horner"},{"g":"male","n":"Thomas Mowbray"},{"g":"male","n":"Thomas Percy, Earl of Worcester"},{"g":"male","n":"Thomas Rotherham, Archbishop of York"},{"g":"male","n":"Thomas, Duke of Clarence"},{"g":"male","n":"Thomas, Duke of Clarence"},{"g":"male","n":"Thurio"},{"g":"female","n":"Timandra"},{"g":"male","n":"Time, as Chorus"},{"g":"male","n":"Timon of Athens"},{"g":"male","n":"Timon’s Page"},{"g":"male","n":"Timon’s Servant"},{"g":"male","n":"Timothy the Taborer"},{"g":"male","n":"Tipstaves"},{"g":"female","n":"Titania"},{"g":"male","n":"Titinius"},{"g":"male","n":"Titus"},{"g":"male","n":"Titus Andronicus"},{"g":"male","n":"Titus Lartius"},{"g":"male","n":"Touchstone"},{"g":"male","n":"Tranio"},{"g":"male","n":"Travers"},{"g":"male","n":"Trebonius"},{"g":"male","n":"Tressel"},{"g":"male","n":"Tribune"},{"g":"male","n":"Tribune"},{"g":"male","n":"Tribunes"},{"g":"male","n":"Trinculo"},{"g":"male","n":"Troilus"},{"g":"male","n":"Troilus’s Boy"},{"g":"male","n":"Trojan Soldiers"},{"g":"male","n":"Trojan Trumpeter"},{"g":"male","n":"Tubal"},{"g":"male","n":"Tullus Aufidius"},{"g":"male","n":"Tutor to Rutland"},{"g":"male","n":"Twelve Satyrs"},{"g":"male","n":"Two Aldermen of London"},{"g":"male","n":"Two Bishops"},{"g":"male","n":"Two Gentlemen Bearers"},{"g":"male","n":"Two Judges"},{"g":"male","n":"Two Noblemen"},{"g":"male","n":"Two Priests"},{"g":"male","n":"Two Vergers"},{"g":"male","n":"Tybalt"},{"g":"male","n":"Ulysses"},{"g":"female","n":"Ursula"},{"g":"male","n":"Usher"},{"g":"male","n":"Valentine"},{"g":"male","n":"Valentine"},{"g":"male","n":"Valentine"},{"g":"female","n":"Valeria"},{"g":"male","n":"Valerius"},{"g":"male","n":"Varrius"},{"g":"male","n":"Varrius"},{"g":"male","n":"Varro’s First Servant"},{"g":"male","n":"Varro’s Second Servant"},{"g":"male","n":"Varrus"},{"g":"male","n":"Vaux"},{"g":"male","n":"Ventidius"},{"g":"male","n":"Ventidius"},{"g":"male","n":"Ver, the Spring"},{"g":"male","n":"Verges"},{"g":"male","n":"Vernon"},{"g":"male","n":"Villiers"},{"g":"male","n":"Vincentio"},{"g":"male","n":"Vincentio, the Duke"},{"g":"male","n":"Vintner"},{"g":"female","n":"Viola"},{"g":"female","n":"Violante"},{"g":"female","n":"Violenta"},{"g":"female","n":"Virgilia"},{"g":"female","n":"Virgins"},{"g":"male","n":"Volscian Soldier"},{"g":"male","n":"Volscian Soldiers"},{"g":"male","n":"Voltemand"},{"g":"female","n":"Volumnia"},{"g":"male","n":"Volumnius"},{"g":"female","n":"Waiting-Woman to Emilia"},{"g":"male","n":"Walter Whitmore"},{"g":"male","n":"Wart"},{"g":"male","n":"Warwick’s Messenger"},{"g":"male","n":"Welsh Captain"},{"g":"female","n":"Welsh Ladies"},{"g":"male","n":"Widow"},{"g":"male","n":"William"},{"g":"male","n":"William Page"},{"g":"male","n":"William Stafford"},{"g":"male","n":"Williams"},{"g":"male","n":"Williamson"},{"g":"male","n":"Winchester’s Serving Attendant"},{"g":"male","n":"Wolsey’s First Secretary"},{"g":"male","n":"Wolsey’s Second Secretary"},{"g":"male","n":"Woodvile"},{"g":"male","n":"Wooer to the Jailer’s Daughter"},{"g":"male","n":"York’s Attendant"},{"g":"male","n":"York’s Guards"},{"g":"male","n":"Yorkist Soldier"},{"g":"male","n":"Young Cato"},{"g":"male","n":"Young Clifford"},{"g":"male","n":"Young Lucius"},{"g":"male","n":"Young Martius"},{"g":"male","n":"Young Siward"}]}
+{
+  "languages": {
+    "art": "Gibberish",
+    "en": "English",
+    "es": "Spanish",
+    "fr": "French",
+    "it": "Italian",
+    "la": "Latin",
+    "nl": "Dutch"
+  },
+  "speakers": [
+    {
+      "g": "male",
+      "n": "A Black Child"
+    },
+    {
+      "g": "male",
+      "n": "A Churchman"
+    },
+    {
+      "g": "female",
+      "n": "A Fairy"
+    },
+    {
+      "g": "male",
+      "n": "A Father That Has Killed His Son"
+    },
+    {
+      "g": "male",
+      "n": "A Poet"
+    },
+    {
+      "g": "female",
+      "n": "A Poor Woman"
+    },
+    {
+      "g": "male",
+      "n": "A Son That Has Killed His Father"
+    },
+    {
+      "g": "male",
+      "n": "Aaron"
+    },
+    {
+      "g": "male",
+      "n": "Abbot of Westminster"
+    },
+    {
+      "g": "male",
+      "n": "Abhorson"
+    },
+    {
+      "g": "male",
+      "n": "Abraham Slender"
+    },
+    {
+      "g": "male",
+      "n": "Abram"
+    },
+    {
+      "g": "male",
+      "n": "Achilles"
+    },
+    {
+      "g": "male",
+      "n": "Adam"
+    },
+    {
+      "g": "male",
+      "n": "Adrian"
+    },
+    {
+      "g": "male",
+      "n": "Adrian"
+    },
+    {
+      "g": "female",
+      "n": "Adriana"
+    },
+    {
+      "g": "female",
+      "n": "Aemilia"
+    },
+    {
+      "g": "male",
+      "n": "Aemilius"
+    },
+    {
+      "g": "male",
+      "n": "Aeneas"
+    },
+    {
+      "g": "male",
+      "n": "Agamemnon"
+    },
+    {
+      "g": "male",
+      "n": "Agrippa"
+    },
+    {
+      "g": "male",
+      "n": "Ajax"
+    },
+    {
+      "g": "male",
+      "n": "Alarbus"
+    },
+    {
+      "g": "male",
+      "n": "Alcibiades"
+    },
+    {
+      "g": "male",
+      "n": "Aldermen of London"
+    },
+    {
+      "g": "male",
+      "n": "Aldermen of York"
+    },
+    {
+      "g": "male",
+      "n": "Alexander"
+    },
+    {
+      "g": "male",
+      "n": "Alexander Iden"
+    },
+    {
+      "g": "male",
+      "n": "Alexas"
+    },
+    {
+      "g": "female",
+      "n": "Alice"
+    },
+    {
+      "g": "female",
+      "n": "All Lady Amazon Maskers"
+    },
+    {
+      "g": "male",
+      "n": "Alonso"
+    },
+    {
+      "g": "male",
+      "n": "Ambassador from the Earl of Armagnac"
+    },
+    {
+      "g": "male",
+      "n": "Ambassador from the Emperor"
+    },
+    {
+      "g": "male",
+      "n": "Ambassador of France"
+    },
+    {
+      "g": "male",
+      "n": "Amiens"
+    },
+    {
+      "g": "female",
+      "n": "An Old Widow of Florence"
+    },
+    {
+      "g": "female",
+      "n": "Andromache"
+    },
+    {
+      "g": "male",
+      "n": "Angelo"
+    },
+    {
+      "g": "male",
+      "n": "Angelo"
+    },
+    {
+      "g": "male",
+      "n": "Angus"
+    },
+    {
+      "g": "female",
+      "n": "Anne Bullen"
+    },
+    {
+      "g": "male",
+      "n": "Another Lord"
+    },
+    {
+      "g": "male",
+      "n": "Antenor"
+    },
+    {
+      "g": "male",
+      "n": "Anthony"
+    },
+    {
+      "g": "male",
+      "n": "Antigonus"
+    },
+    {
+      "g": "male",
+      "n": "Antiochan Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Antiochus"
+    },
+    {
+      "g": "male",
+      "n": "Antipholus of Ephesus"
+    },
+    {
+      "g": "male",
+      "n": "Antipholus of Syracuse"
+    },
+    {
+      "g": "male",
+      "n": "Antonio"
+    },
+    {
+      "g": "male",
+      "n": "Antonio"
+    },
+    {
+      "g": "male",
+      "n": "Antonio"
+    },
+    {
+      "g": "male",
+      "n": "Antonio"
+    },
+    {
+      "g": "male",
+      "n": "Antonio"
+    },
+    {
+      "g": "male",
+      "n": "Antonio’s Servant"
+    },
+    {
+      "g": "male",
+      "n": "Antony’s First Attendant"
+    },
+    {
+      "g": "male",
+      "n": "Antony’s First Guardsman"
+    },
+    {
+      "g": "male",
+      "n": "Antony’s First Soldier"
+    },
+    {
+      "g": "male",
+      "n": "Antony’s Fourth Soldier"
+    },
+    {
+      "g": "male",
+      "n": "Antony’s Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Antony’s Second Attendant"
+    },
+    {
+      "g": "male",
+      "n": "Antony’s Second Guardsman"
+    },
+    {
+      "g": "male",
+      "n": "Antony’s Second Soldier"
+    },
+    {
+      "g": "male",
+      "n": "Antony’s Third Guardsman"
+    },
+    {
+      "g": "male",
+      "n": "Antony’s Third Soldier"
+    },
+    {
+      "g": "male",
+      "n": "Apemantus"
+    },
+    {
+      "g": "male",
+      "n": "Apothecary"
+    },
+    {
+      "g": "male",
+      "n": "Apparition of First Brother of Posthumus"
+    },
+    {
+      "g": "male",
+      "n": "Apparition of Second Brother of Posthumus"
+    },
+    {
+      "g": "male",
+      "n": "Apparition of Sicilius Leonatus"
+    },
+    {
+      "g": "female",
+      "n": "Apparition of the Matron"
+    },
+    {
+      "g": "male",
+      "n": "Archbishop of Canterbury"
+    },
+    {
+      "g": "male",
+      "n": "Archbishop of Canterbury"
+    },
+    {
+      "g": "male",
+      "n": "Archibald, Earl of Douglas"
+    },
+    {
+      "g": "male",
+      "n": "Archidamus"
+    },
+    {
+      "g": "male",
+      "n": "Arcite"
+    },
+    {
+      "g": "male",
+      "n": "Ariel"
+    },
+    {
+      "g": "male",
+      "n": "Artemidorus of Cnidos"
+    },
+    {
+      "g": "male",
+      "n": "Artesius"
+    },
+    {
+      "g": "male",
+      "n": "Arthur"
+    },
+    {
+      "g": "male",
+      "n": "Arviragus"
+    },
+    {
+      "g": "male",
+      "n": "Attendant"
+    },
+    {
+      "g": "male",
+      "n": "Attendant"
+    },
+    {
+      "g": "female",
+      "n": "Audrey"
+    },
+    {
+      "g": "male",
+      "n": "Autolycus"
+    },
+    {
+      "g": "male",
+      "n": "Balthasar"
+    },
+    {
+      "g": "male",
+      "n": "Balthasar"
+    },
+    {
+      "g": "male",
+      "n": "Balthazar"
+    },
+    {
+      "g": "male",
+      "n": "Balthazar"
+    },
+    {
+      "g": "male",
+      "n": "Banquo"
+    },
+    {
+      "g": "male",
+      "n": "Baptista"
+    },
+    {
+      "g": "male",
+      "n": "Baptista’s Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Baptistaâ€™s Servant"
+    },
+    {
+      "g": "female",
+      "n": "Barbary"
+    },
+    {
+      "g": "male",
+      "n": "Bardolph"
+    },
+    {
+      "g": "male",
+      "n": "Bardolph"
+    },
+    {
+      "g": "male",
+      "n": "Bardolph"
+    },
+    {
+      "g": "male",
+      "n": "Bardolph"
+    },
+    {
+      "g": "male",
+      "n": "Barnardine"
+    },
+    {
+      "g": "male",
+      "n": "Barnardo"
+    },
+    {
+      "g": "male",
+      "n": "Bassanio"
+    },
+    {
+      "g": "male",
+      "n": "Basset"
+    },
+    {
+      "g": "male",
+      "n": "Bassianus"
+    },
+    {
+      "g": "male",
+      "n": "Bastard of Orléans"
+    },
+    {
+      "g": "male",
+      "n": "Bates"
+    },
+    {
+      "g": "male",
+      "n": "Bavian"
+    },
+    {
+      "g": "male",
+      "n": "Bawd"
+    },
+    {
+      "g": "male",
+      "n": "Beadle"
+    },
+    {
+      "g": "male",
+      "n": "Beadle of Saint Albans"
+    },
+    {
+      "g": "male",
+      "n": "Bear"
+    },
+    {
+      "g": "female",
+      "n": "Beatrice"
+    },
+    {
+      "g": "male",
+      "n": "Belarius"
+    },
+    {
+      "g": "male",
+      "n": "Benedick"
+    },
+    {
+      "g": "male",
+      "n": "Benvolio"
+    },
+    {
+      "g": "male",
+      "n": "Berkeley"
+    },
+    {
+      "g": "male",
+      "n": "Berowne"
+    },
+    {
+      "g": "male",
+      "n": "Bertram, Count of Roussillon"
+    },
+    {
+      "g": "male",
+      "n": "Best’s Son"
+    },
+    {
+      "g": "female",
+      "n": "Bianca"
+    },
+    {
+      "g": "female",
+      "n": "Bianca"
+    },
+    {
+      "g": "male",
+      "n": "Biondello"
+    },
+    {
+      "g": "male",
+      "n": "Bishop of Carlisle"
+    },
+    {
+      "g": "male",
+      "n": "Bishop of Ely"
+    },
+    {
+      "g": "male",
+      "n": "Bishop of Ely"
+    },
+    {
+      "g": "male",
+      "n": "Bishop of Lincoln"
+    },
+    {
+      "g": "male",
+      "n": "Bishop of Rochester"
+    },
+    {
+      "g": "male",
+      "n": "Bishop of Rochester"
+    },
+    {
+      "g": "male",
+      "n": "Bishop of Saint Asaph"
+    },
+    {
+      "g": "male",
+      "n": "Bishop Stokesly of London"
+    },
+    {
+      "g": "male",
+      "n": "Blackamoors"
+    },
+    {
+      "g": "female",
+      "n": "Blanch of Spain"
+    },
+    {
+      "g": "male",
+      "n": "Boatswain"
+    },
+    {
+      "g": "male",
+      "n": "Borachio"
+    },
+    {
+      "g": "male",
+      "n": "Bottom"
+    },
+    {
+      "g": "male",
+      "n": "Boult"
+    },
+    {
+      "g": "male",
+      "n": "Boy"
+    },
+    {
+      "g": "male",
+      "n": "Boy"
+    },
+    {
+      "g": "male",
+      "n": "Boy"
+    },
+    {
+      "g": "male",
+      "n": "Boy"
+    },
+    {
+      "g": "male",
+      "n": "Boy"
+    },
+    {
+      "g": "male",
+      "n": "Boyet"
+    },
+    {
+      "g": "male",
+      "n": "Brabantio"
+    },
+    {
+      "g": "male",
+      "n": "Brandon"
+    },
+    {
+      "g": "male",
+      "n": "British Lord"
+    },
+    {
+      "g": "male",
+      "n": "British Soldiers"
+    },
+    {
+      "g": "male",
+      "n": "Buckingham’s Surveyor"
+    },
+    {
+      "g": "male",
+      "n": "Bullcalf"
+    },
+    {
+      "g": "male",
+      "n": "Cade’s Followers"
+    },
+    {
+      "g": "male",
+      "n": "Caesar’s First Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Caesar’s First Soldier"
+    },
+    {
+      "g": "male",
+      "n": "Caesar’s First Watchman"
+    },
+    {
+      "g": "male",
+      "n": "Caesar’s Second Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Caesar’s Second Watchman"
+    },
+    {
+      "g": "male",
+      "n": "Caesar’s Sentry"
+    },
+    {
+      "g": "male",
+      "n": "Caesar’s Servant"
+    },
+    {
+      "g": "male",
+      "n": "Caesar’s Third Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Caius"
+    },
+    {
+      "g": "male",
+      "n": "Caius Ligarius"
+    },
+    {
+      "g": "male",
+      "n": "Caius Lucius"
+    },
+    {
+      "g": "male",
+      "n": "Caius Martius"
+    },
+    {
+      "g": "male",
+      "n": "Calchas"
+    },
+    {
+      "g": "male",
+      "n": "Caliban"
+    },
+    {
+      "g": "female",
+      "n": "Calphurnia"
+    },
+    {
+      "g": "male",
+      "n": "Camillo"
+    },
+    {
+      "g": "male",
+      "n": "Camillo"
+    },
+    {
+      "g": "male",
+      "n": "Canidius"
+    },
+    {
+      "g": "male",
+      "n": "Caphis"
+    },
+    {
+      "g": "male",
+      "n": "Captain"
+    },
+    {
+      "g": "male",
+      "n": "Captain of Antony’s Army"
+    },
+    {
+      "g": "male",
+      "n": "Capulet"
+    },
+    {
+      "g": "male",
+      "n": "Cardinal Beauford"
+    },
+    {
+      "g": "male",
+      "n": "Cardinal Bourchier"
+    },
+    {
+      "g": "male",
+      "n": "Cardinal Campeius"
+    },
+    {
+      "g": "male",
+      "n": "Cardinal Pandulph"
+    },
+    {
+      "g": "male",
+      "n": "Cardinal Wolsey"
+    },
+    {
+      "g": "male",
+      "n": "Carpenter"
+    },
+    {
+      "g": "male",
+      "n": "Casca"
+    },
+    {
+      "g": "female",
+      "n": "Cassandra"
+    },
+    {
+      "g": "male",
+      "n": "Cassio"
+    },
+    {
+      "g": "male",
+      "n": "Cassius"
+    },
+    {
+      "g": "male",
+      "n": "Catesby"
+    },
+    {
+      "g": "male",
+      "n": "Cathness"
+    },
+    {
+      "g": "male",
+      "n": "Caveler"
+    },
+    {
+      "g": "female",
+      "n": "Celia"
+    },
+    {
+      "g": "female",
+      "n": "Ceres"
+    },
+    {
+      "g": "male",
+      "n": "Cerimon"
+    },
+    {
+      "g": "male",
+      "n": "Cerimon’s First Servant"
+    },
+    {
+      "g": "male",
+      "n": "Cerimon’s Second Servant"
+    },
+    {
+      "g": "male",
+      "n": "Chamberlain"
+    },
+    {
+      "g": "male",
+      "n": "Charles"
+    },
+    {
+      "g": "male",
+      "n": "Charles"
+    },
+    {
+      "g": "male",
+      "n": "Charles the Sixth"
+    },
+    {
+      "g": "male",
+      "n": "Charles, Dauphin of France"
+    },
+    {
+      "g": "female",
+      "n": "Charmian"
+    },
+    {
+      "g": "male",
+      "n": "Chatillion"
+    },
+    {
+      "g": "male",
+      "n": "Children of Windsor"
+    },
+    {
+      "g": "male",
+      "n": "Chiron"
+    },
+    {
+      "g": "male",
+      "n": "Choristers"
+    },
+    {
+      "g": "male",
+      "n": "Chorus"
+    },
+    {
+      "g": "male",
+      "n": "Chorus"
+    },
+    {
+      "g": "male",
+      "n": "Christopher Sly"
+    },
+    {
+      "g": "male",
+      "n": "Christopher Urswick"
+    },
+    {
+      "g": "male",
+      "n": "Cicero"
+    },
+    {
+      "g": "male",
+      "n": "Cinna"
+    },
+    {
+      "g": "male",
+      "n": "Cinna, a Poet"
+    },
+    {
+      "g": "male",
+      "n": "Citizen"
+    },
+    {
+      "g": "male",
+      "n": "Citizen of Antium"
+    },
+    {
+      "g": "male",
+      "n": "Citizens of Saint Albans"
+    },
+    {
+      "g": "male",
+      "n": "Citizens of Verona"
+    },
+    {
+      "g": "male",
+      "n": "Claudio"
+    },
+    {
+      "g": "male",
+      "n": "Claudio"
+    },
+    {
+      "g": "male",
+      "n": "Claudio"
+    },
+    {
+      "g": "male",
+      "n": "Claudius, King of Denmark"
+    },
+    {
+      "g": "male",
+      "n": "Cleomines"
+    },
+    {
+      "g": "male",
+      "n": "Cleon"
+    },
+    {
+      "g": "female",
+      "n": "Cleopatra, Queen of Egypt"
+    },
+    {
+      "g": "male",
+      "n": "Clerk of Chatham"
+    },
+    {
+      "g": "male",
+      "n": "Clerk of the Council"
+    },
+    {
+      "g": "male",
+      "n": "Clitus"
+    },
+    {
+      "g": "male",
+      "n": "Cloten"
+    },
+    {
+      "g": "male",
+      "n": "Clown"
+    },
+    {
+      "g": "male",
+      "n": "Clown"
+    },
+    {
+      "g": "male",
+      "n": "Clown"
+    },
+    {
+      "g": "male",
+      "n": "Clown"
+    },
+    {
+      "g": "male",
+      "n": "Clown Betts"
+    },
+    {
+      "g": "male",
+      "n": "Cobbler"
+    },
+    {
+      "g": "female",
+      "n": "Cobweb"
+    },
+    {
+      "g": "male",
+      "n": "Cominius"
+    },
+    {
+      "g": "male",
+      "n": "Commoners"
+    },
+    {
+      "g": "male",
+      "n": "Conrade"
+    },
+    {
+      "g": "male",
+      "n": "Constable of France"
+    },
+    {
+      "g": "female",
+      "n": "Constance"
+    },
+    {
+      "g": "female",
+      "n": "Cordelia"
+    },
+    {
+      "g": "male",
+      "n": "Corin"
+    },
+    {
+      "g": "male",
+      "n": "Cornelius"
+    },
+    {
+      "g": "male",
+      "n": "Cornelius"
+    },
+    {
+      "g": "male",
+      "n": "Costard"
+    },
+    {
+      "g": "male",
+      "n": "Council Guards"
+    },
+    {
+      "g": "female",
+      "n": "Countess of Auvergne"
+    },
+    {
+      "g": "female",
+      "n": "Countess of Roussillon"
+    },
+    {
+      "g": "female",
+      "n": "Countess of Salisbury"
+    },
+    {
+      "g": "male",
+      "n": "Countess’s Page"
+    },
+    {
+      "g": "female",
+      "n": "Countesses"
+    },
+    {
+      "g": "male",
+      "n": "Court"
+    },
+    {
+      "g": "female",
+      "n": "Courtezan"
+    },
+    {
+      "g": "male",
+      "n": "Crab"
+    },
+    {
+      "g": "male",
+      "n": "Cranmer, Archbishop of Canterbury"
+    },
+    {
+      "g": "female",
+      "n": "Cressida"
+    },
+    {
+      "g": "male",
+      "n": "Crier"
+    },
+    {
+      "g": "male",
+      "n": "Crofts"
+    },
+    {
+      "g": "male",
+      "n": "Cromwell"
+    },
+    {
+      "g": "female",
+      "n": "Cupid"
+    },
+    {
+      "g": "male",
+      "n": "Curan"
+    },
+    {
+      "g": "male",
+      "n": "Curio"
+    },
+    {
+      "g": "male",
+      "n": "Curtis"
+    },
+    {
+      "g": "male",
+      "n": "Cymbeline"
+    },
+    {
+      "g": "male",
+      "n": "Dardanius"
+    },
+    {
+      "g": "female",
+      "n": "Daughter of Antiochus"
+    },
+    {
+      "g": "female",
+      "n": "Daughter to More"
+    },
+    {
+      "g": "male",
+      "n": "David, King of Scotland"
+    },
+    {
+      "g": "male",
+      "n": "Davy"
+    },
+    {
+      "g": "male",
+      "n": "Decius Brutus"
+    },
+    {
+      "g": "male",
+      "n": "Decretas"
+    },
+    {
+      "g": "male",
+      "n": "Deiphobus"
+    },
+    {
+      "g": "male",
+      "n": "Demetrius"
+    },
+    {
+      "g": "male",
+      "n": "Demetrius"
+    },
+    {
+      "g": "male",
+      "n": "Demetrius"
+    },
+    {
+      "g": "male",
+      "n": "Dennis"
+    },
+    {
+      "g": "female",
+      "n": "Desdemona"
+    },
+    {
+      "g": "female",
+      "n": "Diana"
+    },
+    {
+      "g": "female",
+      "n": "Diana"
+    },
+    {
+      "g": "male",
+      "n": "Dick the Butcher"
+    },
+    {
+      "g": "male",
+      "n": "Diomedes"
+    },
+    {
+      "g": "male",
+      "n": "Diomedes"
+    },
+    {
+      "g": "male",
+      "n": "Diomedes’s Servant"
+    },
+    {
+      "g": "male",
+      "n": "Dion"
+    },
+    {
+      "g": "female",
+      "n": "Dionyza"
+    },
+    {
+      "g": "male",
+      "n": "Doctor"
+    },
+    {
+      "g": "male",
+      "n": "Doctor"
+    },
+    {
+      "g": "male",
+      "n": "Doctor Butts"
+    },
+    {
+      "g": "male",
+      "n": "Doctor Caius"
+    },
+    {
+      "g": "male",
+      "n": "Doctor of Divinity"
+    },
+    {
+      "g": "male",
+      "n": "Doctor of Physic"
+    },
+    {
+      "g": "male",
+      "n": "Doctor Pinch"
+    },
+    {
+      "g": "male",
+      "n": "Dogberry"
+    },
+    {
+      "g": "male",
+      "n": "Dolabella"
+    },
+    {
+      "g": "female",
+      "n": "Doll Tearsheet"
+    },
+    {
+      "g": "female",
+      "n": "Doll Williamson"
+    },
+    {
+      "g": "male",
+      "n": "Domitius Enobarbus"
+    },
+    {
+      "g": "male",
+      "n": "Don Adriano de Armado"
+    },
+    {
+      "g": "male",
+      "n": "Don Bernard"
+    },
+    {
+      "g": "male",
+      "n": "Don John"
+    },
+    {
+      "g": "male",
+      "n": "Don Pedro"
+    },
+    {
+      "g": "male",
+      "n": "Donalbain"
+    },
+    {
+      "g": "male",
+      "n": "Doorkeeper of the Council Chamber"
+    },
+    {
+      "g": "female",
+      "n": "Dorcas"
+    },
+    {
+      "g": "male",
+      "n": "Downes"
+    },
+    {
+      "g": "male",
+      "n": "Dromio of Ephesus"
+    },
+    {
+      "g": "male",
+      "n": "Dromio of Syracuse"
+    },
+    {
+      "g": "female",
+      "n": "Duchess Eleanor of Gloucester"
+    },
+    {
+      "g": "female",
+      "n": "Duchess of Gloucester"
+    },
+    {
+      "g": "female",
+      "n": "Duchess of Norfolk"
+    },
+    {
+      "g": "female",
+      "n": "Duchess of York"
+    },
+    {
+      "g": "female",
+      "n": "Duchess of York"
+    },
+    {
+      "g": "male",
+      "n": "Duke Angelo"
+    },
+    {
+      "g": "male",
+      "n": "Duke Frederick"
+    },
+    {
+      "g": "male",
+      "n": "Duke of Alanson"
+    },
+    {
+      "g": "male",
+      "n": "Duke of Albany"
+    },
+    {
+      "g": "male",
+      "n": "Duke of Aumerle"
+    },
+    {
+      "g": "male",
+      "n": "Duke of Bedford"
+    },
+    {
+      "g": "male",
+      "n": "Duke of Berri"
+    },
+    {
+      "g": "male",
+      "n": "Duke of Bourbon"
+    },
+    {
+      "g": "male",
+      "n": "Duke of Britain"
+    },
+    {
+      "g": "male",
+      "n": "Duke of Buckingham"
+    },
+    {
+      "g": "male",
+      "n": "Duke of Buckingham"
+    },
+    {
+      "g": "male",
+      "n": "Duke of Buckingham"
+    },
+    {
+      "g": "male",
+      "n": "Duke of Burgundy"
+    },
+    {
+      "g": "male",
+      "n": "Duke of Burgundy"
+    },
+    {
+      "g": "male",
+      "n": "Duke of Burgundy"
+    },
+    {
+      "g": "male",
+      "n": "Duke of Cornwall"
+    },
+    {
+      "g": "male",
+      "n": "Duke of Exeter"
+    },
+    {
+      "g": "male",
+      "n": "Duke of Exeter"
+    },
+    {
+      "g": "male",
+      "n": "Duke of Florence"
+    },
+    {
+      "g": "male",
+      "n": "Duke of Gloucester"
+    },
+    {
+      "g": "male",
+      "n": "Duke of Gloucester"
+    },
+    {
+      "g": "male",
+      "n": "Duke of Lorraine"
+    },
+    {
+      "g": "male",
+      "n": "Duke of Milan"
+    },
+    {
+      "g": "male",
+      "n": "Duke of Norfolk"
+    },
+    {
+      "g": "male",
+      "n": "Duke of Norfolk"
+    },
+    {
+      "g": "male",
+      "n": "Duke of Norfolk"
+    },
+    {
+      "g": "male",
+      "n": "Duke of Orléans"
+    },
+    {
+      "g": "male",
+      "n": "Duke of Somerset"
+    },
+    {
+      "g": "male",
+      "n": "Duke of Somerset"
+    },
+    {
+      "g": "male",
+      "n": "Duke of Suffolk"
+    },
+    {
+      "g": "male",
+      "n": "Duke of Suffolk"
+    },
+    {
+      "g": "male",
+      "n": "Duke of Surrey"
+    },
+    {
+      "g": "male",
+      "n": "Duke of Venice"
+    },
+    {
+      "g": "male",
+      "n": "Duke of York"
+    },
+    {
+      "g": "male",
+      "n": "Duke Senior"
+    },
+    {
+      "g": "male",
+      "n": "Dull"
+    },
+    {
+      "g": "male",
+      "n": "Dumaine"
+    },
+    {
+      "g": "male",
+      "n": "Duncan, King of Scotland"
+    },
+    {
+      "g": "male",
+      "n": "Dutchman"
+    },
+    {
+      "g": "male",
+      "n": "Earl Douglas"
+    },
+    {
+      "g": "male",
+      "n": "Earl of Derby"
+    },
+    {
+      "g": "male",
+      "n": "Earl of Essex"
+    },
+    {
+      "g": "male",
+      "n": "Earl of Gloucester"
+    },
+    {
+      "g": "male",
+      "n": "Earl of Kent"
+    },
+    {
+      "g": "male",
+      "n": "Earl of Mountford"
+    },
+    {
+      "g": "male",
+      "n": "Earl of Northumberland"
+    },
+    {
+      "g": "male",
+      "n": "Earl of Northumberland"
+    },
+    {
+      "g": "male",
+      "n": "Earl of Oxford"
+    },
+    {
+      "g": "male",
+      "n": "Earl of Oxford"
+    },
+    {
+      "g": "male",
+      "n": "Earl of Pembroke"
+    },
+    {
+      "g": "male",
+      "n": "Earl of Pembroke"
+    },
+    {
+      "g": "male",
+      "n": "Earl of Salisbury"
+    },
+    {
+      "g": "male",
+      "n": "Earl of Salisbury"
+    },
+    {
+      "g": "male",
+      "n": "Earl of Salisbury"
+    },
+    {
+      "g": "male",
+      "n": "Earl of Salisbury"
+    },
+    {
+      "g": "male",
+      "n": "Earl of Salisbury"
+    },
+    {
+      "g": "male",
+      "n": "Earl of Salisbury"
+    },
+    {
+      "g": "male",
+      "n": "Earl of Shrewsbury"
+    },
+    {
+      "g": "male",
+      "n": "Earl of Suffolk"
+    },
+    {
+      "g": "male",
+      "n": "Earl of Surrey"
+    },
+    {
+      "g": "male",
+      "n": "Earl of Surrey"
+    },
+    {
+      "g": "male",
+      "n": "Earl of Surrey"
+    },
+    {
+      "g": "male",
+      "n": "Earl of Surrey"
+    },
+    {
+      "g": "male",
+      "n": "Earl of Warwick"
+    },
+    {
+      "g": "male",
+      "n": "Earl of Warwick"
+    },
+    {
+      "g": "male",
+      "n": "Earl of Warwick"
+    },
+    {
+      "g": "male",
+      "n": "Earl of Warwick"
+    },
+    {
+      "g": "male",
+      "n": "Earl of Warwick"
+    },
+    {
+      "g": "male",
+      "n": "Earl of Warwick"
+    },
+    {
+      "g": "male",
+      "n": "Earl of Westmorland"
+    },
+    {
+      "g": "male",
+      "n": "Earl of Westmorland"
+    },
+    {
+      "g": "male",
+      "n": "Earl of Westmorland"
+    },
+    {
+      "g": "male",
+      "n": "Earl of Westmorland"
+    },
+    {
+      "g": "male",
+      "n": "Earl Rivers"
+    },
+    {
+      "g": "male",
+      "n": "Edgar"
+    },
+    {
+      "g": "male",
+      "n": "Edmund"
+    },
+    {
+      "g": "male",
+      "n": "Edmund Mortimer, Earl of March"
+    },
+    {
+      "g": "male",
+      "n": "Edmund Mortimer, Earl of March"
+    },
+    {
+      "g": "male",
+      "n": "Edmund of Langley, Duke of York"
+    },
+    {
+      "g": "male",
+      "n": "Edmund, Earl of Rutland"
+    },
+    {
+      "g": "male",
+      "n": "Edward Earl of March"
+    },
+    {
+      "g": "male",
+      "n": "Edward III"
+    },
+    {
+      "g": "male",
+      "n": "Edward Plantagenet"
+    },
+    {
+      "g": "male",
+      "n": "Edward Poins"
+    },
+    {
+      "g": "male",
+      "n": "Edward, Earl of March"
+    },
+    {
+      "g": "male",
+      "n": "Edward, Prince of Wales"
+    },
+    {
+      "g": "male",
+      "n": "Edward, Prince of Wales"
+    },
+    {
+      "g": "male",
+      "n": "Egeon"
+    },
+    {
+      "g": "male",
+      "n": "Egeus"
+    },
+    {
+      "g": "male",
+      "n": "Eglamour"
+    },
+    {
+      "g": "male",
+      "n": "Egyptian Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Elbow"
+    },
+    {
+      "g": "female",
+      "n": "Emilia"
+    },
+    {
+      "g": "female",
+      "n": "Emilia"
+    },
+    {
+      "g": "female",
+      "n": "Emilia"
+    },
+    {
+      "g": "male",
+      "n": "English Doctor"
+    },
+    {
+      "g": "male",
+      "n": "English Herald"
+    },
+    {
+      "g": "male",
+      "n": "English Herald"
+    },
+    {
+      "g": "male",
+      "n": "English Herald"
+    },
+    {
+      "g": "male",
+      "n": "English Lords"
+    },
+    {
+      "g": "male",
+      "n": "English Soldier"
+    },
+    {
+      "g": "male",
+      "n": "Ephesan Servant"
+    },
+    {
+      "g": "male",
+      "n": "Epilogue"
+    },
+    {
+      "g": "male",
+      "n": "Erasmus"
+    },
+    {
+      "g": "male",
+      "n": "Eros"
+    },
+    {
+      "g": "male",
+      "n": "Escalus"
+    },
+    {
+      "g": "male",
+      "n": "Escanes"
+    },
+    {
+      "g": "male",
+      "n": "Executioner"
+    },
+    {
+      "g": "male",
+      "n": "Executioner"
+    },
+    {
+      "g": "male",
+      "n": "Exton’s First Servant"
+    },
+    {
+      "g": "male",
+      "n": "Exton’s Second Servant"
+    },
+    {
+      "g": "male",
+      "n": "Fabian"
+    },
+    {
+      "g": "male",
+      "n": "Fabian"
+    },
+    {
+      "g": "male",
+      "n": "Falconers"
+    },
+    {
+      "g": "male",
+      "n": "Falstaff’s Page"
+    },
+    {
+      "g": "male",
+      "n": "Fang"
+    },
+    {
+      "g": "male",
+      "n": "Faulkner"
+    },
+    {
+      "g": "male",
+      "n": "Feeble"
+    },
+    {
+      "g": "male",
+      "n": "Fenton"
+    },
+    {
+      "g": "male",
+      "n": "Ferdinand"
+    },
+    {
+      "g": "male",
+      "n": "Ferdinand, King of Navarre"
+    },
+    {
+      "g": "male",
+      "n": "Feste"
+    },
+    {
+      "g": "male",
+      "n": "Fiends"
+    },
+    {
+      "g": "male",
+      "n": "Fifth Citizen of Calais"
+    },
+    {
+      "g": "male",
+      "n": "Fifth Knight"
+    },
+    {
+      "g": "male",
+      "n": "Fifth Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Fifth Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Fifth Plebeian"
+    },
+    {
+      "g": "male",
+      "n": "Fifth Roman Citizen"
+    },
+    {
+      "g": "female",
+      "n": "Fifth Witch"
+    },
+    {
+      "g": "male",
+      "n": "First Aedile"
+    },
+    {
+      "g": "male",
+      "n": "First Ambassador"
+    },
+    {
+      "g": "male",
+      "n": "First Apparition"
+    },
+    {
+      "g": "female",
+      "n": "First Attending Lady"
+    },
+    {
+      "g": "male",
+      "n": "First Bandit"
+    },
+    {
+      "g": "male",
+      "n": "First British Captain"
+    },
+    {
+      "g": "male",
+      "n": "First Captain"
+    },
+    {
+      "g": "male",
+      "n": "First Carrier"
+    },
+    {
+      "g": "male",
+      "n": "First Citizen"
+    },
+    {
+      "g": "male",
+      "n": "First Citizen of Calais"
+    },
+    {
+      "g": "male",
+      "n": "First Clown (Gravedigger)"
+    },
+    {
+      "g": "male",
+      "n": "First Commoner"
+    },
+    {
+      "g": "male",
+      "n": "First Conspirator"
+    },
+    {
+      "g": "male",
+      "n": "First Country Folk"
+    },
+    {
+      "g": "male",
+      "n": "First Egyptian Servant"
+    },
+    {
+      "g": "male",
+      "n": "First English Esquire"
+    },
+    {
+      "g": "female",
+      "n": "First Fairy"
+    },
+    {
+      "g": "male",
+      "n": "First Fisherman"
+    },
+    {
+      "g": "male",
+      "n": "First French Captain"
+    },
+    {
+      "g": "male",
+      "n": "First French Herald"
+    },
+    {
+      "g": "male",
+      "n": "First French Lord"
+    },
+    {
+      "g": "male",
+      "n": "First French Lord"
+    },
+    {
+      "g": "male",
+      "n": "First French Lord Dumaine"
+    },
+    {
+      "g": "male",
+      "n": "First Frenchman"
+    },
+    {
+      "g": "male",
+      "n": "First Gamekeeper"
+    },
+    {
+      "g": "male",
+      "n": "First Gardener’s Man"
+    },
+    {
+      "g": "male",
+      "n": "First Gentleman"
+    },
+    {
+      "g": "male",
+      "n": "First Gentleman"
+    },
+    {
+      "g": "male",
+      "n": "First Gentleman"
+    },
+    {
+      "g": "male",
+      "n": "First Gentleman"
+    },
+    {
+      "g": "male",
+      "n": "First Gentleman"
+    },
+    {
+      "g": "male",
+      "n": "First Gentleman"
+    },
+    {
+      "g": "male",
+      "n": "First Gentleman"
+    },
+    {
+      "g": "male",
+      "n": "First Gentleman"
+    },
+    {
+      "g": "male",
+      "n": "First Gentleman of Ephesus"
+    },
+    {
+      "g": "male",
+      "n": "First Gentleman of Mytilene"
+    },
+    {
+      "g": "male",
+      "n": "First Gentleman of Tyre"
+    },
+    {
+      "g": "male",
+      "n": "First Goth"
+    },
+    {
+      "g": "male",
+      "n": "First Herald"
+    },
+    {
+      "g": "male",
+      "n": "First Herald"
+    },
+    {
+      "g": "male",
+      "n": "First Huntsman"
+    },
+    {
+      "g": "male",
+      "n": "First Jailer"
+    },
+    {
+      "g": "male",
+      "n": "First Keeper"
+    },
+    {
+      "g": "male",
+      "n": "First Knight"
+    },
+    {
+      "g": "male",
+      "n": "First Knight"
+    },
+    {
+      "g": "male",
+      "n": "First Knight Attending Arcite"
+    },
+    {
+      "g": "female",
+      "n": "First Lady"
+    },
+    {
+      "g": "female",
+      "n": "First Lady Amazon Masker"
+    },
+    {
+      "g": "male",
+      "n": "First Lancastrian Messenger"
+    },
+    {
+      "g": "male",
+      "n": "First London Citizen"
+    },
+    {
+      "g": "male",
+      "n": "First Lord"
+    },
+    {
+      "g": "male",
+      "n": "First Lord"
+    },
+    {
+      "g": "male",
+      "n": "First Lord"
+    },
+    {
+      "g": "male",
+      "n": "First Lord at Court"
+    },
+    {
+      "g": "male",
+      "n": "First Lord in Arden"
+    },
+    {
+      "g": "male",
+      "n": "First Lord of Pentapolis"
+    },
+    {
+      "g": "male",
+      "n": "First Lord of Tyre"
+    },
+    {
+      "g": "male",
+      "n": "First Lord to Richmond"
+    },
+    {
+      "g": "male",
+      "n": "First Merchant"
+    },
+    {
+      "g": "male",
+      "n": "First Messenger"
+    },
+    {
+      "g": "male",
+      "n": "First Messenger"
+    },
+    {
+      "g": "male",
+      "n": "First Messenger"
+    },
+    {
+      "g": "male",
+      "n": "First Messenger"
+    },
+    {
+      "g": "male",
+      "n": "First Messenger"
+    },
+    {
+      "g": "male",
+      "n": "First Messenger"
+    },
+    {
+      "g": "male",
+      "n": "First Messenger"
+    },
+    {
+      "g": "male",
+      "n": "First Messenger"
+    },
+    {
+      "g": "male",
+      "n": "First Messenger"
+    },
+    {
+      "g": "male",
+      "n": "First Murderer"
+    },
+    {
+      "g": "male",
+      "n": "First Murderer"
+    },
+    {
+      "g": "male",
+      "n": "First Murderer"
+    },
+    {
+      "g": "male",
+      "n": "First Musician"
+    },
+    {
+      "g": "male",
+      "n": "First Musician"
+    },
+    {
+      "g": "male",
+      "n": "First Neighbor"
+    },
+    {
+      "g": "male",
+      "n": "First Officer"
+    },
+    {
+      "g": "male",
+      "n": "First Officer"
+    },
+    {
+      "g": "male",
+      "n": "First Officer"
+    },
+    {
+      "g": "male",
+      "n": "First Outlaw"
+    },
+    {
+      "g": "male",
+      "n": "First Page"
+    },
+    {
+      "g": "male",
+      "n": "First Petitioner"
+    },
+    {
+      "g": "male",
+      "n": "First Pirate"
+    },
+    {
+      "g": "male",
+      "n": "First Player"
+    },
+    {
+      "g": "male",
+      "n": "First Player (Player King)"
+    },
+    {
+      "g": "male",
+      "n": "First Plebeian"
+    },
+    {
+      "g": "male",
+      "n": "First Prentice"
+    },
+    {
+      "g": "female",
+      "n": "First Queen"
+    },
+    {
+      "g": "male",
+      "n": "First Roman"
+    },
+    {
+      "g": "male",
+      "n": "First Roman Citizen"
+    },
+    {
+      "g": "male",
+      "n": "First Roman Guard"
+    },
+    {
+      "g": "male",
+      "n": "First Roman Messenger"
+    },
+    {
+      "g": "male",
+      "n": "First Roman Senator"
+    },
+    {
+      "g": "male",
+      "n": "First Roman Soldier"
+    },
+    {
+      "g": "male",
+      "n": "First Roman Soldier"
+    },
+    {
+      "g": "male",
+      "n": "First Royal Messenger"
+    },
+    {
+      "g": "male",
+      "n": "First Sailor"
+    },
+    {
+      "g": "male",
+      "n": "First Sailor"
+    },
+    {
+      "g": "male",
+      "n": "First Scottish Messenger"
+    },
+    {
+      "g": "male",
+      "n": "First Scribe"
+    },
+    {
+      "g": "male",
+      "n": "First Senator"
+    },
+    {
+      "g": "male",
+      "n": "First Senator"
+    },
+    {
+      "g": "male",
+      "n": "First Senator"
+    },
+    {
+      "g": "male",
+      "n": "First Sentinel"
+    },
+    {
+      "g": "male",
+      "n": "First Servant"
+    },
+    {
+      "g": "male",
+      "n": "First Servant"
+    },
+    {
+      "g": "male",
+      "n": "First Servant"
+    },
+    {
+      "g": "male",
+      "n": "First Servingman"
+    },
+    {
+      "g": "male",
+      "n": "First Servingman"
+    },
+    {
+      "g": "male",
+      "n": "First Servingman"
+    },
+    {
+      "g": "male",
+      "n": "First Shepherd"
+    },
+    {
+      "g": "male",
+      "n": "First Sheriff"
+    },
+    {
+      "g": "male",
+      "n": "First Soldier"
+    },
+    {
+      "g": "male",
+      "n": "First Soldier"
+    },
+    {
+      "g": "male",
+      "n": "First Soldier as Interpreter"
+    },
+    {
+      "g": "male",
+      "n": "First Soldier of Antony’s"
+    },
+    {
+      "g": "male",
+      "n": "First Stranger"
+    },
+    {
+      "g": "male",
+      "n": "First Strewer"
+    },
+    {
+      "g": "male",
+      "n": "First Traveler"
+    },
+    {
+      "g": "male",
+      "n": "First Tyrian Messenger"
+    },
+    {
+      "g": "male",
+      "n": "First Volscian Lord"
+    },
+    {
+      "g": "male",
+      "n": "First Volscian Senator"
+    },
+    {
+      "g": "male",
+      "n": "First Warder of the Tower"
+    },
+    {
+      "g": "male",
+      "n": "First Warder of the Tower"
+    },
+    {
+      "g": "male",
+      "n": "First Watchman"
+    },
+    {
+      "g": "male",
+      "n": "First Watchman"
+    },
+    {
+      "g": "male",
+      "n": "First Watchman"
+    },
+    {
+      "g": "male",
+      "n": "First Watchman"
+    },
+    {
+      "g": "female",
+      "n": "First Witch"
+    },
+    {
+      "g": "male",
+      "n": "First Yorkist Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Five Pages"
+    },
+    {
+      "g": "male",
+      "n": "Five Poor Inhabitants of Calais"
+    },
+    {
+      "g": "male",
+      "n": "Flaminius"
+    },
+    {
+      "g": "male",
+      "n": "Flavius"
+    },
+    {
+      "g": "male",
+      "n": "Flavius"
+    },
+    {
+      "g": "male",
+      "n": "Fleance"
+    },
+    {
+      "g": "male",
+      "n": "Florizel"
+    },
+    {
+      "g": "male",
+      "n": "Fluellen"
+    },
+    {
+      "g": "male",
+      "n": "Flute"
+    },
+    {
+      "g": "male",
+      "n": "Fool"
+    },
+    {
+      "g": "male",
+      "n": "Fool"
+    },
+    {
+      "g": "male",
+      "n": "Forester"
+    },
+    {
+      "g": "male",
+      "n": "Fortinbras"
+    },
+    {
+      "g": "male",
+      "n": "Four Barons of the Cinque Ports"
+    },
+    {
+      "g": "male",
+      "n": "Four Noblemen"
+    },
+    {
+      "g": "male",
+      "n": "Fourth Citizen of Calais"
+    },
+    {
+      "g": "male",
+      "n": "Fourth Country Folk"
+    },
+    {
+      "g": "male",
+      "n": "Fourth French Lord"
+    },
+    {
+      "g": "male",
+      "n": "Fourth Frenchman"
+    },
+    {
+      "g": "male",
+      "n": "Fourth Herald"
+    },
+    {
+      "g": "male",
+      "n": "Fourth Knight "
+    },
+    {
+      "g": "male",
+      "n": "Fourth Lord"
+    },
+    {
+      "g": "male",
+      "n": "Fourth Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Fourth Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Fourth Plebeian"
+    },
+    {
+      "g": "male",
+      "n": "Fourth Roman Citizen"
+    },
+    {
+      "g": "male",
+      "n": "Fourth Royal Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Fourth Senator"
+    },
+    {
+      "g": "female",
+      "n": "Fourth Witch"
+    },
+    {
+      "g": "male",
+      "n": "Francis"
+    },
+    {
+      "g": "male",
+      "n": "Francis"
+    },
+    {
+      "g": "male",
+      "n": "Francis de Barde"
+    },
+    {
+      "g": "male",
+      "n": "Francis Ford"
+    },
+    {
+      "g": "female",
+      "n": "Francisca"
+    },
+    {
+      "g": "male",
+      "n": "Francisco"
+    },
+    {
+      "g": "male",
+      "n": "Francisco"
+    },
+    {
+      "g": "male",
+      "n": "French Court Attendant"
+    },
+    {
+      "g": "male",
+      "n": "French Herald"
+    },
+    {
+      "g": "male",
+      "n": "French Herald"
+    },
+    {
+      "g": "male",
+      "n": "French Mariner"
+    },
+    {
+      "g": "male",
+      "n": "French Messenger"
+    },
+    {
+      "g": "male",
+      "n": "French Messenger"
+    },
+    {
+      "g": "male",
+      "n": "French Messenger"
+    },
+    {
+      "g": "male",
+      "n": "French Sergeant"
+    },
+    {
+      "g": "male",
+      "n": "French Soldier"
+    },
+    {
+      "g": "male",
+      "n": "Frenchman"
+    },
+    {
+      "g": "male",
+      "n": "Frenchwoman"
+    },
+    {
+      "g": "male",
+      "n": "Friar Francis"
+    },
+    {
+      "g": "male",
+      "n": "Friar John"
+    },
+    {
+      "g": "male",
+      "n": "Friar Lawrence"
+    },
+    {
+      "g": "male",
+      "n": "Friar Peter Thomas"
+    },
+    {
+      "g": "female",
+      "n": "Friz"
+    },
+    {
+      "g": "male",
+      "n": "Froth"
+    },
+    {
+      "g": "male",
+      "n": "Gadshill"
+    },
+    {
+      "g": "male",
+      "n": "Gallus"
+    },
+    {
+      "g": "male",
+      "n": "Gardener"
+    },
+    {
+      "g": "male",
+      "n": "Gardiner"
+    },
+    {
+      "g": "male",
+      "n": "Gardiner’s Page"
+    },
+    {
+      "g": "male",
+      "n": "Garter King-of-Arms"
+    },
+    {
+      "g": "male",
+      "n": "General of the French Force at Bordeaux"
+    },
+    {
+      "g": "male",
+      "n": "Gentleman"
+    },
+    {
+      "g": "male",
+      "n": "Gentleman"
+    },
+    {
+      "g": "male",
+      "n": "Gentleman"
+    },
+    {
+      "g": "male",
+      "n": "Gentleman"
+    },
+    {
+      "g": "male",
+      "n": "Gentleman"
+    },
+    {
+      "g": "male",
+      "n": "Gentleman Attendant"
+    },
+    {
+      "g": "male",
+      "n": "Gentleman Porter of the Tower"
+    },
+    {
+      "g": "male",
+      "n": "Gentleman Purse-Bearer"
+    },
+    {
+      "g": "female",
+      "n": "Gentlewoman"
+    },
+    {
+      "g": "female",
+      "n": "Gentlewoman"
+    },
+    {
+      "g": "female",
+      "n": "Gentlewoman"
+    },
+    {
+      "g": "male",
+      "n": "George"
+    },
+    {
+      "g": "male",
+      "n": "George Betts"
+    },
+    {
+      "g": "male",
+      "n": "George Bevis"
+    },
+    {
+      "g": "male",
+      "n": "George Page"
+    },
+    {
+      "g": "male",
+      "n": "George, Duke of Clarence"
+    },
+    {
+      "g": "male",
+      "n": "Gerald"
+    },
+    {
+      "g": "male",
+      "n": "Gerald"
+    },
+    {
+      "g": "female",
+      "n": "Gertrude, Queen of Denmark"
+    },
+    {
+      "g": "male",
+      "n": "Ghost of Hamlet’s Father"
+    },
+    {
+      "g": "male",
+      "n": "Ghost of King Henry VI"
+    },
+    {
+      "g": "male",
+      "n": "Ghost of Prince Edward of Lancaster"
+    },
+    {
+      "g": "male",
+      "n": "Giles"
+    },
+    {
+      "g": "male",
+      "n": "Gloucester’s First Attendant"
+    },
+    {
+      "g": "male",
+      "n": "Gloucester’s First Serving Attendant"
+    },
+    {
+      "g": "male",
+      "n": "Gloucester’s Second Attendant"
+    },
+    {
+      "g": "male",
+      "n": "Gloucester’s Second Serving Attendant"
+    },
+    {
+      "g": "male",
+      "n": "Gloucester’s Servingman"
+    },
+    {
+      "g": "male",
+      "n": "Gobin de Grey"
+    },
+    {
+      "g": "female",
+      "n": "Goneril"
+    },
+    {
+      "g": "male",
+      "n": "Gonzalo"
+    },
+    {
+      "g": "male",
+      "n": "Gough"
+    },
+    {
+      "g": "male",
+      "n": "Governor of Harfleur"
+    },
+    {
+      "g": "male",
+      "n": "Governor of Paris"
+    },
+    {
+      "g": "male",
+      "n": "Gower"
+    },
+    {
+      "g": "male",
+      "n": "Gower"
+    },
+    {
+      "g": "male",
+      "n": "Gower"
+    },
+    {
+      "g": "male",
+      "n": "Grandpré"
+    },
+    {
+      "g": "male",
+      "n": "Gratiano"
+    },
+    {
+      "g": "male",
+      "n": "Gratiano"
+    },
+    {
+      "g": "male",
+      "n": "Greek Knight"
+    },
+    {
+      "g": "male",
+      "n": "Greek Trumpeter"
+    },
+    {
+      "g": "male",
+      "n": "Gregory"
+    },
+    {
+      "g": "male",
+      "n": "Gremio"
+    },
+    {
+      "g": "male",
+      "n": "Griffith"
+    },
+    {
+      "g": "male",
+      "n": "Groom"
+    },
+    {
+      "g": "male",
+      "n": "Grumio"
+    },
+    {
+      "g": "male",
+      "n": "Guard"
+    },
+    {
+      "g": "male",
+      "n": "Guiderius"
+    },
+    {
+      "g": "male",
+      "n": "Guildenstern"
+    },
+    {
+      "g": "male",
+      "n": "Haberdasher"
+    },
+    {
+      "g": "male",
+      "n": "Halberdiers"
+    },
+    {
+      "g": "male",
+      "n": "Halberds"
+    },
+    {
+      "g": "male",
+      "n": "Hamlet"
+    },
+    {
+      "g": "male",
+      "n": "Hangman"
+    },
+    {
+      "g": "male",
+      "n": "Harcourt"
+    },
+    {
+      "g": "male",
+      "n": "Harry"
+    },
+    {
+      "g": "male",
+      "n": "Headsman"
+    },
+    {
+      "g": "female",
+      "n": "Hecat"
+    },
+    {
+      "g": "male",
+      "n": "Hector"
+    },
+    {
+      "g": "female",
+      "n": "Helen"
+    },
+    {
+      "g": "female",
+      "n": "Helen"
+    },
+    {
+      "g": "female",
+      "n": "Helena"
+    },
+    {
+      "g": "female",
+      "n": "Helena"
+    },
+    {
+      "g": "male",
+      "n": "Helenus"
+    },
+    {
+      "g": "male",
+      "n": "Helicanus"
+    },
+    {
+      "g": "male",
+      "n": "Henriquez"
+    },
+    {
+      "g": "male",
+      "n": "Henry Beauford, Bishop of Winchester"
+    },
+    {
+      "g": "male",
+      "n": "Henry Bullingbrook"
+    },
+    {
+      "g": "male",
+      "n": "Henry Percy"
+    },
+    {
+      "g": "male",
+      "n": "Henry Percy"
+    },
+    {
+      "g": "male",
+      "n": "Henry Percy, Earl of Northumberland"
+    },
+    {
+      "g": "male",
+      "n": "Henry Percy, Earl of Northumberland"
+    },
+    {
+      "g": "male",
+      "n": "Henry, Earl of Richmond"
+    },
+    {
+      "g": "male",
+      "n": "Henry, Earl of Richmond"
+    },
+    {
+      "g": "male",
+      "n": "Henry, Prince of Wales"
+    },
+    {
+      "g": "male",
+      "n": "Herald"
+    },
+    {
+      "g": "male",
+      "n": "Herald"
+    },
+    {
+      "g": "male",
+      "n": "Herald"
+    },
+    {
+      "g": "male",
+      "n": "Herald"
+    },
+    {
+      "g": "female",
+      "n": "Hermia"
+    },
+    {
+      "g": "female",
+      "n": "Hermione"
+    },
+    {
+      "g": "female",
+      "n": "Hero"
+    },
+    {
+      "g": "male",
+      "n": "Hiems, the Winter"
+    },
+    {
+      "g": "female",
+      "n": "Hippolyta"
+    },
+    {
+      "g": "female",
+      "n": "Hippolyta"
+    },
+    {
+      "g": "male",
+      "n": "Holofernes"
+    },
+    {
+      "g": "male",
+      "n": "Horatio"
+    },
+    {
+      "g": "male",
+      "n": "Hortensio"
+    },
+    {
+      "g": "male",
+      "n": "Hortensius"
+    },
+    {
+      "g": "male",
+      "n": "Host"
+    },
+    {
+      "g": "male",
+      "n": "Host of the Garter Inn"
+    },
+    {
+      "g": "female",
+      "n": "Hostess"
+    },
+    {
+      "g": "female",
+      "n": "Hostess"
+    },
+    {
+      "g": "female",
+      "n": "Hostess"
+    },
+    {
+      "g": "female",
+      "n": "Hostess Quickly"
+    },
+    {
+      "g": "male",
+      "n": "Hubert de Burgh"
+    },
+    {
+      "g": "male",
+      "n": "Humphrey, Duke of Gloucester"
+    },
+    {
+      "g": "male",
+      "n": "Humphrey, Duke of Gloucester"
+    },
+    {
+      "g": "male",
+      "n": "Huntsman"
+    },
+    {
+      "g": "male",
+      "n": "Hymen"
+    },
+    {
+      "g": "male",
+      "n": "Hymen"
+    },
+    {
+      "g": "male",
+      "n": "Iago"
+    },
+    {
+      "g": "male",
+      "n": "Iden’s Men"
+    },
+    {
+      "g": "female",
+      "n": "Imogen"
+    },
+    {
+      "g": "female",
+      "n": "Iras"
+    },
+    {
+      "g": "female",
+      "n": "Iris"
+    },
+    {
+      "g": "female",
+      "n": "Isabella"
+    },
+    {
+      "g": "male",
+      "n": "Isidore’s Servant"
+    },
+    {
+      "g": "male",
+      "n": "Jachimo"
+    },
+    {
+      "g": "male",
+      "n": "Jack Cade"
+    },
+    {
+      "g": "male",
+      "n": "Jailer"
+    },
+    {
+      "g": "male",
+      "n": "Jailer"
+    },
+    {
+      "g": "male",
+      "n": "Jailer"
+    },
+    {
+      "g": "male",
+      "n": "Jailer"
+    },
+    {
+      "g": "male",
+      "n": "Jailer’s Brother"
+    },
+    {
+      "g": "female",
+      "n": "Jailer’s Daughter"
+    },
+    {
+      "g": "male",
+      "n": "Jailer’s First Friend"
+    },
+    {
+      "g": "male",
+      "n": "Jailer’s Second Friend"
+    },
+    {
+      "g": "male",
+      "n": "James Gurney"
+    },
+    {
+      "g": "male",
+      "n": "Jamy"
+    },
+    {
+      "g": "female",
+      "n": "Jaquenetta"
+    },
+    {
+      "g": "male",
+      "n": "Jaques"
+    },
+    {
+      "g": "male",
+      "n": "Jaques De Boys"
+    },
+    {
+      "g": "female",
+      "n": "Jessica"
+    },
+    {
+      "g": "male",
+      "n": "Jeweler"
+    },
+    {
+      "g": "female",
+      "n": "Joan de Pucelle"
+    },
+    {
+      "g": "male",
+      "n": "John Beauford, Duke of Somerset"
+    },
+    {
+      "g": "male",
+      "n": "John de Valois, King of France"
+    },
+    {
+      "g": "male",
+      "n": "John Holland"
+    },
+    {
+      "g": "male",
+      "n": "John Hume"
+    },
+    {
+      "g": "male",
+      "n": "John Lincoln"
+    },
+    {
+      "g": "male",
+      "n": "John Morton, Bishop of Ely"
+    },
+    {
+      "g": "male",
+      "n": "John of Gaunt, Duke of Lancaster"
+    },
+    {
+      "g": "male",
+      "n": "John Rugby"
+    },
+    {
+      "g": "male",
+      "n": "John Southwell"
+    },
+    {
+      "g": "male",
+      "n": "John Talbot"
+    },
+    {
+      "g": "male",
+      "n": "John, Duke of Bedford"
+    },
+    {
+      "g": "male",
+      "n": "Joseph"
+    },
+    {
+      "g": "male",
+      "n": "Judges"
+    },
+    {
+      "g": "female",
+      "n": "Julia"
+    },
+    {
+      "g": "female",
+      "n": "Juliet"
+    },
+    {
+      "g": "female",
+      "n": "Juliet"
+    },
+    {
+      "g": "male",
+      "n": "Julio"
+    },
+    {
+      "g": "male",
+      "n": "Julius Caesar"
+    },
+    {
+      "g": "male",
+      "n": "Junius Brutus"
+    },
+    {
+      "g": "female",
+      "n": "Juno"
+    },
+    {
+      "g": "male",
+      "n": "Jupiter"
+    },
+    {
+      "g": "male",
+      "n": "Justice"
+    },
+    {
+      "g": "male",
+      "n": "Justice Suresby"
+    },
+    {
+      "g": "female",
+      "n": "Katherina"
+    },
+    {
+      "g": "female",
+      "n": "Katherine"
+    },
+    {
+      "g": "female",
+      "n": "Katherine"
+    },
+    {
+      "g": "male",
+      "n": "Keeper"
+    },
+    {
+      "g": "male",
+      "n": "Keeper in the Tower"
+    },
+    {
+      "g": "male",
+      "n": "King Edward the Fourth"
+    },
+    {
+      "g": "male",
+      "n": "King Henry IV"
+    },
+    {
+      "g": "male",
+      "n": "King Henry the Eighth"
+    },
+    {
+      "g": "male",
+      "n": "King Henry the Fifth"
+    },
+    {
+      "g": "male",
+      "n": "King Henry the Fourth"
+    },
+    {
+      "g": "male",
+      "n": "King Henry the Sixth"
+    },
+    {
+      "g": "male",
+      "n": "King Henry the Sixth"
+    },
+    {
+      "g": "male",
+      "n": "King Henry the Sixth"
+    },
+    {
+      "g": "male",
+      "n": "King Henry’s Page"
+    },
+    {
+      "g": "male",
+      "n": "King John"
+    },
+    {
+      "g": "male",
+      "n": "King of Bohemia"
+    },
+    {
+      "g": "male",
+      "n": "King of France"
+    },
+    {
+      "g": "male",
+      "n": "King of France"
+    },
+    {
+      "g": "male",
+      "n": "King Richard the Second"
+    },
+    {
+      "g": "male",
+      "n": "Kit"
+    },
+    {
+      "g": "male",
+      "n": "Knight"
+    },
+    {
+      "g": "female",
+      "n": "Ladies Attending on Leonora"
+    },
+    {
+      "g": "female",
+      "n": "Lady"
+    },
+    {
+      "g": "female",
+      "n": "Lady Anne"
+    },
+    {
+      "g": "female",
+      "n": "Lady Attendant"
+    },
+    {
+      "g": "female",
+      "n": "Lady Bona"
+    },
+    {
+      "g": "female",
+      "n": "Lady Capulet"
+    },
+    {
+      "g": "female",
+      "n": "Lady Faulconbridge"
+    },
+    {
+      "g": "female",
+      "n": "Lady Grey"
+    },
+    {
+      "g": "female",
+      "n": "Lady Macbeth"
+    },
+    {
+      "g": "female",
+      "n": "Lady Macduff"
+    },
+    {
+      "g": "female",
+      "n": "Lady Mayoress"
+    },
+    {
+      "g": "female",
+      "n": "Lady Montague"
+    },
+    {
+      "g": "female",
+      "n": "Lady More"
+    },
+    {
+      "g": "female",
+      "n": "Lady Mortimer"
+    },
+    {
+      "g": "female",
+      "n": "Lady Northumberland"
+    },
+    {
+      "g": "female",
+      "n": "Lady Percy"
+    },
+    {
+      "g": "female",
+      "n": "Lady Percy"
+    },
+    {
+      "g": "male",
+      "n": "Laertes"
+    },
+    {
+      "g": "male",
+      "n": "Laertes’s Followers"
+    },
+    {
+      "g": "male",
+      "n": "Lafew"
+    },
+    {
+      "g": "male",
+      "n": "Lamprius, the Soothsayer"
+    },
+    {
+      "g": "male",
+      "n": "Launce"
+    },
+    {
+      "g": "male",
+      "n": "Launcelot Gobbo"
+    },
+    {
+      "g": "male",
+      "n": "Lavatch"
+    },
+    {
+      "g": "female",
+      "n": "Lavinia"
+    },
+    {
+      "g": "male",
+      "n": "Lawyer"
+    },
+    {
+      "g": "male",
+      "n": "Le Beau"
+    },
+    {
+      "g": "male",
+      "n": "Lear, King of Britain"
+    },
+    {
+      "g": "male",
+      "n": "Lennox"
+    },
+    {
+      "g": "male",
+      "n": "Leonardo"
+    },
+    {
+      "g": "male",
+      "n": "Leonato"
+    },
+    {
+      "g": "male",
+      "n": "Leonine"
+    },
+    {
+      "g": "female",
+      "n": "Leonora"
+    },
+    {
+      "g": "male",
+      "n": "Leontes, King of Sicilia"
+    },
+    {
+      "g": "male",
+      "n": "Lewis the Eleventh, King of France"
+    },
+    {
+      "g": "male",
+      "n": "Lewis, the Dauphin"
+    },
+    {
+      "g": "male",
+      "n": "Lieutenant"
+    },
+    {
+      "g": "male",
+      "n": "Lieutenant of the Tower"
+    },
+    {
+      "g": "male",
+      "n": "Lieutenant of the Tower"
+    },
+    {
+      "g": "male",
+      "n": "Lieutenant to Aufidius"
+    },
+    {
+      "g": "male",
+      "n": "Lieutenant to Lartius"
+    },
+    {
+      "g": "male",
+      "n": "Lifter"
+    },
+    {
+      "g": "male",
+      "n": "Lodovico"
+    },
+    {
+      "g": "male",
+      "n": "Lodowick"
+    },
+    {
+      "g": "male",
+      "n": "London Citizens"
+    },
+    {
+      "g": "male",
+      "n": "Longaville"
+    },
+    {
+      "g": "male",
+      "n": "Lopez"
+    },
+    {
+      "g": "male",
+      "n": "Lord"
+    },
+    {
+      "g": "male",
+      "n": "Lord"
+    },
+    {
+      "g": "male",
+      "n": "Lord"
+    },
+    {
+      "g": "male",
+      "n": "Lord"
+    },
+    {
+      "g": "male",
+      "n": "Lord Abergavenny"
+    },
+    {
+      "g": "male",
+      "n": "Lord Audley"
+    },
+    {
+      "g": "male",
+      "n": "Lord Bardolph"
+    },
+    {
+      "g": "male",
+      "n": "Lord Berkeley"
+    },
+    {
+      "g": "male",
+      "n": "Lord Bigot"
+    },
+    {
+      "g": "male",
+      "n": "Lord Bourbon"
+    },
+    {
+      "g": "male",
+      "n": "Lord Capuchius"
+    },
+    {
+      "g": "male",
+      "n": "Lord Chamberlain"
+    },
+    {
+      "g": "male",
+      "n": "Lord Chancellor"
+    },
+    {
+      "g": "male",
+      "n": "Lord Chief Justice"
+    },
+    {
+      "g": "male",
+      "n": "Lord Clifford"
+    },
+    {
+      "g": "male",
+      "n": "Lord Clifford"
+    },
+    {
+      "g": "male",
+      "n": "Lord Fitzwater"
+    },
+    {
+      "g": "male",
+      "n": "Lord Grey"
+    },
+    {
+      "g": "male",
+      "n": "Lord Hastings"
+    },
+    {
+      "g": "male",
+      "n": "Lord Hastings"
+    },
+    {
+      "g": "male",
+      "n": "Lord Hastings"
+    },
+    {
+      "g": "male",
+      "n": "Lord Lovel"
+    },
+    {
+      "g": "male",
+      "n": "Lord Marshal"
+    },
+    {
+      "g": "male",
+      "n": "Lord Mayor"
+    },
+    {
+      "g": "male",
+      "n": "Lord Mayor of London"
+    },
+    {
+      "g": "male",
+      "n": "Lord Mayor of London"
+    },
+    {
+      "g": "male",
+      "n": "Lord Mowbray"
+    },
+    {
+      "g": "male",
+      "n": "Lord of Myteline"
+    },
+    {
+      "g": "male",
+      "n": "Lord of Tarsus"
+    },
+    {
+      "g": "male",
+      "n": "Lord Percy"
+    },
+    {
+      "g": "male",
+      "n": "Lord Rivers"
+    },
+    {
+      "g": "male",
+      "n": "Lord Ross"
+    },
+    {
+      "g": "male",
+      "n": "Lord Sands"
+    },
+    {
+      "g": "male",
+      "n": "Lord Say"
+    },
+    {
+      "g": "male",
+      "n": "Lord Scales"
+    },
+    {
+      "g": "male",
+      "n": "Lord Scroop"
+    },
+    {
+      "g": "male",
+      "n": "Lord Stafford"
+    },
+    {
+      "g": "male",
+      "n": "Lord Stanley"
+    },
+    {
+      "g": "male",
+      "n": "Lord Talbot"
+    },
+    {
+      "g": "male",
+      "n": "Lord Willoughby"
+    },
+    {
+      "g": "male",
+      "n": "Lorenzo"
+    },
+    {
+      "g": "female",
+      "n": "Luce"
+    },
+    {
+      "g": "female",
+      "n": "Luce"
+    },
+    {
+      "g": "male",
+      "n": "Lucentio"
+    },
+    {
+      "g": "female",
+      "n": "Lucetta"
+    },
+    {
+      "g": "female",
+      "n": "Luciana"
+    },
+    {
+      "g": "male",
+      "n": "Lucilius"
+    },
+    {
+      "g": "male",
+      "n": "Lucilius"
+    },
+    {
+      "g": "female",
+      "n": "Lucillius"
+    },
+    {
+      "g": "male",
+      "n": "Lucio"
+    },
+    {
+      "g": "male",
+      "n": "Lucius"
+    },
+    {
+      "g": "male",
+      "n": "Lucius"
+    },
+    {
+      "g": "male",
+      "n": "Lucius"
+    },
+    {
+      "g": "male",
+      "n": "Lucius’s Servant"
+    },
+    {
+      "g": "male",
+      "n": "Lucullus"
+    },
+    {
+      "g": "male",
+      "n": "Lucullus’s Servant"
+    },
+    {
+      "g": "male",
+      "n": "Luggins"
+    },
+    {
+      "g": "female",
+      "n": "Lychorida"
+    },
+    {
+      "g": "male",
+      "n": "Lymoges, Duke of Austria"
+    },
+    {
+      "g": "male",
+      "n": "Lysander"
+    },
+    {
+      "g": "male",
+      "n": "Lysimachus"
+    },
+    {
+      "g": "male",
+      "n": "M. Aemilius Lepidus"
+    },
+    {
+      "g": "male",
+      "n": "M. Aemilius Lepidus"
+    },
+    {
+      "g": "male",
+      "n": "Macbeth"
+    },
+    {
+      "g": "male",
+      "n": "Macbeth’s Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Macduff"
+    },
+    {
+      "g": "male",
+      "n": "Macmorris"
+    },
+    {
+      "g": "male",
+      "n": "Maecenas"
+    },
+    {
+      "g": "female",
+      "n": "Maid"
+    },
+    {
+      "g": "male",
+      "n": "Malcolm"
+    },
+    {
+      "g": "male",
+      "n": "Malvolio"
+    },
+    {
+      "g": "male",
+      "n": "Mamillius"
+    },
+    {
+      "g": "male",
+      "n": "Man"
+    },
+    {
+      "g": "male",
+      "n": "Marcade"
+    },
+    {
+      "g": "male",
+      "n": "Marcellus"
+    },
+    {
+      "g": "female",
+      "n": "Marchioness Dorset"
+    },
+    {
+      "g": "male",
+      "n": "Marcus Andronicus"
+    },
+    {
+      "g": "male",
+      "n": "Marcus Brutus"
+    },
+    {
+      "g": "male",
+      "n": "Mardian"
+    },
+    {
+      "g": "male",
+      "n": "Margarelon"
+    },
+    {
+      "g": "female",
+      "n": "Margaret"
+    },
+    {
+      "g": "female",
+      "n": "Margaret"
+    },
+    {
+      "g": "female",
+      "n": "Margaret Plantagenet"
+    },
+    {
+      "g": "female",
+      "n": "Margery Jourdain"
+    },
+    {
+      "g": "female",
+      "n": "Maria"
+    },
+    {
+      "g": "female",
+      "n": "Maria"
+    },
+    {
+      "g": "female",
+      "n": "Mariana"
+    },
+    {
+      "g": "female",
+      "n": "Mariana"
+    },
+    {
+      "g": "female",
+      "n": "Marina"
+    },
+    {
+      "g": "female",
+      "n": "Marina’s Lady"
+    },
+    {
+      "g": "male",
+      "n": "Mariner"
+    },
+    {
+      "g": "male",
+      "n": "Mariners"
+    },
+    {
+      "g": "male",
+      "n": "Mark Antony"
+    },
+    {
+      "g": "male",
+      "n": "Mark Antony"
+    },
+    {
+      "g": "male",
+      "n": "Marquess Dorset"
+    },
+    {
+      "g": "male",
+      "n": "Marquess Montague"
+    },
+    {
+      "g": "female",
+      "n": "Marquess of Dorset"
+    },
+    {
+      "g": "male",
+      "n": "Marshal"
+    },
+    {
+      "g": "male",
+      "n": "Martius"
+    },
+    {
+      "g": "male",
+      "n": "Maskers"
+    },
+    {
+      "g": "male",
+      "n": "Master Gunner of Orléans"
+    },
+    {
+      "g": "male",
+      "n": "Master Gunner’s Boy"
+    },
+    {
+      "g": "male",
+      "n": "Master of a Ship"
+    },
+    {
+      "g": "male",
+      "n": "Master of the Flocks"
+    },
+    {
+      "g": "male",
+      "n": "Master’s Mate"
+    },
+    {
+      "g": "male",
+      "n": "Matthew Goffe"
+    },
+    {
+      "g": "female",
+      "n": "Maudline"
+    },
+    {
+      "g": "male",
+      "n": "Mayor of Coventry"
+    },
+    {
+      "g": "male",
+      "n": "Mayor of London"
+    },
+    {
+      "g": "male",
+      "n": "Mayor of Saint Albans"
+    },
+    {
+      "g": "male",
+      "n": "Mayor of York"
+    },
+    {
+      "g": "male",
+      "n": "Melune"
+    },
+    {
+      "g": "male",
+      "n": "Menas"
+    },
+    {
+      "g": "male",
+      "n": "Menecrates"
+    },
+    {
+      "g": "male",
+      "n": "Menelaus"
+    },
+    {
+      "g": "male",
+      "n": "Menenius Agrippa"
+    },
+    {
+      "g": "male",
+      "n": "Menteth"
+    },
+    {
+      "g": "male",
+      "n": "Merchant"
+    },
+    {
+      "g": "male",
+      "n": "Mercutio"
+    },
+    {
+      "g": "male",
+      "n": "Mercutio’s Page"
+    },
+    {
+      "g": "male",
+      "n": "Messala"
+    },
+    {
+      "g": "male",
+      "n": "Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Messenger from Ventidius"
+    },
+    {
+      "g": "male",
+      "n": "Messenger of the Countess"
+    },
+    {
+      "g": "male",
+      "n": "Messenger to the Queen"
+    },
+    {
+      "g": "male",
+      "n": "Metellus Cimber"
+    },
+    {
+      "g": "male",
+      "n": "Michael"
+    },
+    {
+      "g": "female",
+      "n": "Miranda"
+    },
+    {
+      "g": "female",
+      "n": "Mistress Alice Ford"
+    },
+    {
+      "g": "female",
+      "n": "Mistress Anne Page"
+    },
+    {
+      "g": "female",
+      "n": "Mistress Margaret Page"
+    },
+    {
+      "g": "female",
+      "n": "Mistress Overdone"
+    },
+    {
+      "g": "female",
+      "n": "Mistress Quickly"
+    },
+    {
+      "g": "male",
+      "n": "Montague"
+    },
+    {
+      "g": "male",
+      "n": "Montague Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Montano"
+    },
+    {
+      "g": "male",
+      "n": "Montjoy"
+    },
+    {
+      "g": "female",
+      "n": "Mopsa"
+    },
+    {
+      "g": "male",
+      "n": "Morris"
+    },
+    {
+      "g": "male",
+      "n": "Morton"
+    },
+    {
+      "g": "female",
+      "n": "Moth"
+    },
+    {
+      "g": "male",
+      "n": "Moth"
+    },
+    {
+      "g": "male",
+      "n": "Mouldy"
+    },
+    {
+      "g": "male",
+      "n": "Murellus"
+    },
+    {
+      "g": "male",
+      "n": "Musicians"
+    },
+    {
+      "g": "male",
+      "n": "Musicians"
+    },
+    {
+      "g": "female",
+      "n": "Mustardseed"
+    },
+    {
+      "g": "male",
+      "n": "Mutius"
+    },
+    {
+      "g": "male",
+      "n": "Myrmidon"
+    },
+    {
+      "g": "male",
+      "n": "Myrmidons"
+    },
+    {
+      "g": "male",
+      "n": "Nathaniel"
+    },
+    {
+      "g": "male",
+      "n": "Ned"
+    },
+    {
+      "g": "female",
+      "n": "Nell"
+    },
+    {
+      "g": "female",
+      "n": "Nerissa"
+    },
+    {
+      "g": "male",
+      "n": "Nestor"
+    },
+    {
+      "g": "male",
+      "n": "Nicanor"
+    },
+    {
+      "g": "male",
+      "n": "Nicholas"
+    },
+    {
+      "g": "male",
+      "n": "Nobleman"
+    },
+    {
+      "g": "male",
+      "n": "Norfolk Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Norwegian Captain"
+    },
+    {
+      "g": "female",
+      "n": "Nurse"
+    },
+    {
+      "g": "female",
+      "n": "Nurse"
+    },
+    {
+      "g": "female",
+      "n": "Nurse Bess"
+    },
+    {
+      "g": "male",
+      "n": "Nym"
+    },
+    {
+      "g": "male",
+      "n": "Nym"
+    },
+    {
+      "g": "male",
+      "n": "Oberon"
+    },
+    {
+      "g": "female",
+      "n": "Octavia"
+    },
+    {
+      "g": "male",
+      "n": "Octavius Caesar"
+    },
+    {
+      "g": "male",
+      "n": "Octavius Caesar"
+    },
+    {
+      "g": "male",
+      "n": "Octavius’s Attendant"
+    },
+    {
+      "g": "male",
+      "n": "Officer"
+    },
+    {
+      "g": "male",
+      "n": "Officer"
+    },
+    {
+      "g": "male",
+      "n": "Officer"
+    },
+    {
+      "g": "male",
+      "n": "Officer"
+    },
+    {
+      "g": "male",
+      "n": "Officer"
+    },
+    {
+      "g": "male",
+      "n": "Officer"
+    },
+    {
+      "g": "male",
+      "n": "Old Athenian"
+    },
+    {
+      "g": "male",
+      "n": "Old Capulet"
+    },
+    {
+      "g": "male",
+      "n": "Old Gobbo"
+    },
+    {
+      "g": "female",
+      "n": "Old Lady"
+    },
+    {
+      "g": "male",
+      "n": "Old Man"
+    },
+    {
+      "g": "male",
+      "n": "Old Man"
+    },
+    {
+      "g": "male",
+      "n": "Old Shepherd"
+    },
+    {
+      "g": "male",
+      "n": "Oliver"
+    },
+    {
+      "g": "female",
+      "n": "Olivia"
+    },
+    {
+      "g": "male",
+      "n": "Olivia’s Servant"
+    },
+    {
+      "g": "male",
+      "n": "One Citizen"
+    },
+    {
+      "g": "female",
+      "n": "Ophelia"
+    },
+    {
+      "g": "male",
+      "n": "Ophelia’s Pallbearers"
+    },
+    {
+      "g": "male",
+      "n": "Orlando"
+    },
+    {
+      "g": "male",
+      "n": "Orsino"
+    },
+    {
+      "g": "male",
+      "n": "Osric"
+    },
+    {
+      "g": "male",
+      "n": "Ostler"
+    },
+    {
+      "g": "male",
+      "n": "Oswald"
+    },
+    {
+      "g": "male",
+      "n": "Othello"
+    },
+    {
+      "g": "female",
+      "n": "Other Ladies"
+    },
+    {
+      "g": "male",
+      "n": "Owen Glendower"
+    },
+    {
+      "g": "male",
+      "n": "Oxford Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Page"
+    },
+    {
+      "g": "male",
+      "n": "Page (Bartholomew)"
+    },
+    {
+      "g": "male",
+      "n": "Page to Paris"
+    },
+    {
+      "g": "male",
+      "n": "Pages"
+    },
+    {
+      "g": "male",
+      "n": "Painter"
+    },
+    {
+      "g": "male",
+      "n": "Palamon"
+    },
+    {
+      "g": "male",
+      "n": "Pandarus"
+    },
+    {
+      "g": "male",
+      "n": "Pander"
+    },
+    {
+      "g": "male",
+      "n": "Panthino"
+    },
+    {
+      "g": "male",
+      "n": "Papal Legate"
+    },
+    {
+      "g": "male",
+      "n": "Paris"
+    },
+    {
+      "g": "male",
+      "n": "Paris"
+    },
+    {
+      "g": "male",
+      "n": "Paris’s Servant"
+    },
+    {
+      "g": "male",
+      "n": "Parolles"
+    },
+    {
+      "g": "female",
+      "n": "Patience"
+    },
+    {
+      "g": "male",
+      "n": "Patrician"
+    },
+    {
+      "g": "male",
+      "n": "Patricians"
+    },
+    {
+      "g": "male",
+      "n": "Patroclus"
+    },
+    {
+      "g": "female",
+      "n": "Paulina"
+    },
+    {
+      "g": "female",
+      "n": "Peaseblossom"
+    },
+    {
+      "g": "male",
+      "n": "Pedant"
+    },
+    {
+      "g": "female",
+      "n": "Perdita"
+    },
+    {
+      "g": "male",
+      "n": "Pericles"
+    },
+    {
+      "g": "male",
+      "n": "Peter"
+    },
+    {
+      "g": "male",
+      "n": "Peter"
+    },
+    {
+      "g": "male",
+      "n": "Peter of Pomfret"
+    },
+    {
+      "g": "male",
+      "n": "Peter Simple"
+    },
+    {
+      "g": "male",
+      "n": "Peter Thump"
+    },
+    {
+      "g": "male",
+      "n": "Peto"
+    },
+    {
+      "g": "male",
+      "n": "Peto"
+    },
+    {
+      "g": "male",
+      "n": "Petruchio"
+    },
+    {
+      "g": "male",
+      "n": "Petruchio"
+    },
+    {
+      "g": "female",
+      "n": "Phebe"
+    },
+    {
+      "g": "male",
+      "n": "Philario"
+    },
+    {
+      "g": "male",
+      "n": "Philarmonus"
+    },
+    {
+      "g": "male",
+      "n": "Philemon"
+    },
+    {
+      "g": "male",
+      "n": "Philip"
+    },
+    {
+      "g": "male",
+      "n": "Philip"
+    },
+    {
+      "g": "male",
+      "n": "Philip, King of France"
+    },
+    {
+      "g": "male",
+      "n": "Philip, the Bastard"
+    },
+    {
+      "g": "male",
+      "n": "Philo"
+    },
+    {
+      "g": "male",
+      "n": "Philostrate"
+    },
+    {
+      "g": "male",
+      "n": "Philotus"
+    },
+    {
+      "g": "male",
+      "n": "Phrynia"
+    },
+    {
+      "g": "male",
+      "n": "Pindarus"
+    },
+    {
+      "g": "male",
+      "n": "Pirithous"
+    },
+    {
+      "g": "male",
+      "n": "Pisanio"
+    },
+    {
+      "g": "male",
+      "n": "Pistol"
+    },
+    {
+      "g": "male",
+      "n": "Pistol"
+    },
+    {
+      "g": "male",
+      "n": "Pistol"
+    },
+    {
+      "g": "male",
+      "n": "Player Lucianus"
+    },
+    {
+      "g": "male",
+      "n": "Player of Inclination the Vice"
+    },
+    {
+      "g": "male",
+      "n": "Player of Lady Vanity"
+    },
+    {
+      "g": "male",
+      "n": "Player of Prologue"
+    },
+    {
+      "g": "male",
+      "n": "Player of Wit"
+    },
+    {
+      "g": "male",
+      "n": "Player Prologue"
+    },
+    {
+      "g": "female",
+      "n": "Player Queen"
+    },
+    {
+      "g": "male",
+      "n": "Plebeians"
+    },
+    {
+      "g": "male",
+      "n": "Poet"
+    },
+    {
+      "g": "male",
+      "n": "Poins"
+    },
+    {
+      "g": "male",
+      "n": "Polish Captain"
+    },
+    {
+      "g": "male",
+      "n": "Polixenes, King of Bohemia"
+    },
+    {
+      "g": "male",
+      "n": "Polonius"
+    },
+    {
+      "g": "male",
+      "n": "Pompey"
+    },
+    {
+      "g": "male",
+      "n": "Pompey’s First Servant"
+    },
+    {
+      "g": "male",
+      "n": "Pompey’s Second Servant"
+    },
+    {
+      "g": "male",
+      "n": "Poor Inhabitant of Calais"
+    },
+    {
+      "g": "male",
+      "n": "Popilius Lena"
+    },
+    {
+      "g": "male",
+      "n": "Porter"
+    },
+    {
+      "g": "male",
+      "n": "Porter"
+    },
+    {
+      "g": "male",
+      "n": "Porter"
+    },
+    {
+      "g": "male",
+      "n": "Porter"
+    },
+    {
+      "g": "male",
+      "n": "Porter’s Man"
+    },
+    {
+      "g": "female",
+      "n": "Portia"
+    },
+    {
+      "g": "female",
+      "n": "Portia"
+    },
+    {
+      "g": "male",
+      "n": "Portia’s Servant"
+    },
+    {
+      "g": "male",
+      "n": "Post"
+    },
+    {
+      "g": "male",
+      "n": "Post"
+    },
+    {
+      "g": "male",
+      "n": "Posthumus Leonatus"
+    },
+    {
+      "g": "male",
+      "n": "Postmaster’s Boy"
+    },
+    {
+      "g": "male",
+      "n": "Potpan"
+    },
+    {
+      "g": "male",
+      "n": "Priam, King of Troy"
+    },
+    {
+      "g": "male",
+      "n": "Priest"
+    },
+    {
+      "g": "male",
+      "n": "Prince Edward"
+    },
+    {
+      "g": "male",
+      "n": "Prince Edward (Ned)"
+    },
+    {
+      "g": "male",
+      "n": "Prince Escalus"
+    },
+    {
+      "g": "male",
+      "n": "Prince Henry"
+    },
+    {
+      "g": "male",
+      "n": "Prince Henry"
+    },
+    {
+      "g": "male",
+      "n": "Prince John of Lancaster"
+    },
+    {
+      "g": "male",
+      "n": "Prince John of Lancaster"
+    },
+    {
+      "g": "female",
+      "n": "Princess Elizabeth"
+    },
+    {
+      "g": "male",
+      "n": "Proculeius"
+    },
+    {
+      "g": "male",
+      "n": "Prologue"
+    },
+    {
+      "g": "male",
+      "n": "Prologue"
+    },
+    {
+      "g": "male",
+      "n": "Prologue"
+    },
+    {
+      "g": "male",
+      "n": "Prospero"
+    },
+    {
+      "g": "male",
+      "n": "Proteus"
+    },
+    {
+      "g": "male",
+      "n": "Provost"
+    },
+    {
+      "g": "male",
+      "n": "Publius"
+    },
+    {
+      "g": "male",
+      "n": "Publius"
+    },
+    {
+      "g": "male",
+      "n": "Puck"
+    },
+    {
+      "g": "male",
+      "n": "Pursuivant"
+    },
+    {
+      "g": "male",
+      "n": "Pursuivants"
+    },
+    {
+      "g": "female",
+      "n": "Queen"
+    },
+    {
+      "g": "female",
+      "n": "Queen Elinor"
+    },
+    {
+      "g": "female",
+      "n": "Queen Elizabeth"
+    },
+    {
+      "g": "female",
+      "n": "Queen Isabel"
+    },
+    {
+      "g": "female",
+      "n": "Queen Katherine"
+    },
+    {
+      "g": "female",
+      "n": "Queen Margaret"
+    },
+    {
+      "g": "female",
+      "n": "Queen Margaret"
+    },
+    {
+      "g": "female",
+      "n": "Queen Margaret"
+    },
+    {
+      "g": "female",
+      "n": "Queen Philippa"
+    },
+    {
+      "g": "female",
+      "n": "Queen to King Richard"
+    },
+    {
+      "g": "male",
+      "n": "Quince"
+    },
+    {
+      "g": "male",
+      "n": "Quintus"
+    },
+    {
+      "g": "male",
+      "n": "Ralph"
+    },
+    {
+      "g": "male",
+      "n": "Rambures"
+    },
+    {
+      "g": "male",
+      "n": "Randall"
+    },
+    {
+      "g": "male",
+      "n": "Rannius"
+    },
+    {
+      "g": "male",
+      "n": "Rebel Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Rebel Poleman"
+    },
+    {
+      "g": "male",
+      "n": "Rebel Soldier"
+    },
+    {
+      "g": "male",
+      "n": "Recorder"
+    },
+    {
+      "g": "female",
+      "n": "Regan"
+    },
+    {
+      "g": "male",
+      "n": "Reignier, Duke of Anjou"
+    },
+    {
+      "g": "male",
+      "n": "Reynaldo"
+    },
+    {
+      "g": "male",
+      "n": "Richard"
+    },
+    {
+      "g": "male",
+      "n": "Richard Plantagenet"
+    },
+    {
+      "g": "male",
+      "n": "Richard Plantagenet"
+    },
+    {
+      "g": "male",
+      "n": "Richard Plantagenet, Duke of York"
+    },
+    {
+      "g": "male",
+      "n": "Richard Plantagenet, Duke of York"
+    },
+    {
+      "g": "male",
+      "n": "Richard Scroop, Archbishop of York"
+    },
+    {
+      "g": "male",
+      "n": "Richard Scroop, Archbishop of York"
+    },
+    {
+      "g": "male",
+      "n": "Richard, Duke of Gloucester"
+    },
+    {
+      "g": "male",
+      "n": "Richard, Duke of York"
+    },
+    {
+      "g": "male",
+      "n": "Richard, Earl of Cambridge"
+    },
+    {
+      "g": "male",
+      "n": "Rinaldo"
+    },
+    {
+      "g": "male",
+      "n": "Robert Faulconbridge"
+    },
+    {
+      "g": "male",
+      "n": "Robert of Artois"
+    },
+    {
+      "g": "male",
+      "n": "Robert Shallow"
+    },
+    {
+      "g": "male",
+      "n": "Robin"
+    },
+    {
+      "g": "male",
+      "n": "Robin"
+    },
+    {
+      "g": "male",
+      "n": "Robin"
+    },
+    {
+      "g": "male",
+      "n": "Roderick"
+    },
+    {
+      "g": "male",
+      "n": "Roderigo"
+    },
+    {
+      "g": "male",
+      "n": "Roger Bolingbrook"
+    },
+    {
+      "g": "male",
+      "n": "Roman Captain"
+    },
+    {
+      "g": "male",
+      "n": "Roman Captain"
+    },
+    {
+      "g": "male",
+      "n": "Roman Herald"
+    },
+    {
+      "g": "male",
+      "n": "Roman Soldiers"
+    },
+    {
+      "g": "male",
+      "n": "Romeo"
+    },
+    {
+      "g": "male",
+      "n": "Roper"
+    },
+    {
+      "g": "female",
+      "n": "Roper’s Wife"
+    },
+    {
+      "g": "female",
+      "n": "Rosalind"
+    },
+    {
+      "g": "female",
+      "n": "Rosaline"
+    },
+    {
+      "g": "male",
+      "n": "Rosencrantz"
+    },
+    {
+      "g": "male",
+      "n": "Rosse"
+    },
+    {
+      "g": "male",
+      "n": "Rumor, the Presenter"
+    },
+    {
+      "g": "male",
+      "n": "Sailor"
+    },
+    {
+      "g": "male",
+      "n": "Sailor of Mytilene"
+    },
+    {
+      "g": "male",
+      "n": "Sailor of Tyre"
+    },
+    {
+      "g": "male",
+      "n": "Salerio"
+    },
+    {
+      "g": "male",
+      "n": "Sampson"
+    },
+    {
+      "g": "male",
+      "n": "Saturninus"
+    },
+    {
+      "g": "male",
+      "n": "Saunder Simpcox"
+    },
+    {
+      "g": "male",
+      "n": "Sawyer"
+    },
+    {
+      "g": "male",
+      "n": "Scarus"
+    },
+    {
+      "g": "male",
+      "n": "Schoolmaster (Ambassador)"
+    },
+    {
+      "g": "male",
+      "n": "Scout"
+    },
+    {
+      "g": "male",
+      "n": "Scout"
+    },
+    {
+      "g": "male",
+      "n": "Scrivener"
+    },
+    {
+      "g": "male",
+      "n": "Sea Captain"
+    },
+    {
+      "g": "male",
+      "n": "Sebastian"
+    },
+    {
+      "g": "male",
+      "n": "Sebastian"
+    },
+    {
+      "g": "male",
+      "n": "Second Aedile"
+    },
+    {
+      "g": "male",
+      "n": "Second Apparition"
+    },
+    {
+      "g": "female",
+      "n": "Second Attending Lady"
+    },
+    {
+      "g": "male",
+      "n": "Second Bandit"
+    },
+    {
+      "g": "male",
+      "n": "Second British Captain"
+    },
+    {
+      "g": "male",
+      "n": "Second Captain"
+    },
+    {
+      "g": "male",
+      "n": "Second Carrier"
+    },
+    {
+      "g": "male",
+      "n": "Second Citizen"
+    },
+    {
+      "g": "male",
+      "n": "Second Citizen of Calais"
+    },
+    {
+      "g": "male",
+      "n": "Second Clown (Gravedigger)"
+    },
+    {
+      "g": "male",
+      "n": "Second Conspirator"
+    },
+    {
+      "g": "male",
+      "n": "Second Country Folk"
+    },
+    {
+      "g": "male",
+      "n": "Second Drawer"
+    },
+    {
+      "g": "male",
+      "n": "Second Egyptian Servant"
+    },
+    {
+      "g": "male",
+      "n": "Second English Esquire"
+    },
+    {
+      "g": "female",
+      "n": "Second Fairy"
+    },
+    {
+      "g": "male",
+      "n": "Second Fisherman"
+    },
+    {
+      "g": "male",
+      "n": "Second French Captain"
+    },
+    {
+      "g": "male",
+      "n": "Second French Herald"
+    },
+    {
+      "g": "male",
+      "n": "Second French Lord"
+    },
+    {
+      "g": "male",
+      "n": "Second French Lord"
+    },
+    {
+      "g": "male",
+      "n": "Second French Lord Dumaine"
+    },
+    {
+      "g": "male",
+      "n": "Second Frenchman"
+    },
+    {
+      "g": "male",
+      "n": "Second Gamekeeper"
+    },
+    {
+      "g": "male",
+      "n": "Second Gardener’s Man"
+    },
+    {
+      "g": "male",
+      "n": "Second Gentleman"
+    },
+    {
+      "g": "male",
+      "n": "Second Gentleman"
+    },
+    {
+      "g": "male",
+      "n": "Second Gentleman"
+    },
+    {
+      "g": "male",
+      "n": "Second Gentleman"
+    },
+    {
+      "g": "male",
+      "n": "Second Gentleman"
+    },
+    {
+      "g": "male",
+      "n": "Second Gentleman"
+    },
+    {
+      "g": "male",
+      "n": "Second Gentleman"
+    },
+    {
+      "g": "male",
+      "n": "Second Gentleman"
+    },
+    {
+      "g": "male",
+      "n": "Second Gentleman of Ephesus"
+    },
+    {
+      "g": "male",
+      "n": "Second Gentleman of Mytilene"
+    },
+    {
+      "g": "male",
+      "n": "Second Goth"
+    },
+    {
+      "g": "male",
+      "n": "Second Herald"
+    },
+    {
+      "g": "male",
+      "n": "Second Herald"
+    },
+    {
+      "g": "male",
+      "n": "Second Huntsman"
+    },
+    {
+      "g": "male",
+      "n": "Second Jailer"
+    },
+    {
+      "g": "male",
+      "n": "Second Keeper"
+    },
+    {
+      "g": "male",
+      "n": "Second Knight"
+    },
+    {
+      "g": "male",
+      "n": "Second Knight"
+    },
+    {
+      "g": "male",
+      "n": "Second Knight Attending Arcite"
+    },
+    {
+      "g": "female",
+      "n": "Second Lady"
+    },
+    {
+      "g": "male",
+      "n": "Second Lancastrian Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Second Lord"
+    },
+    {
+      "g": "male",
+      "n": "Second Lord"
+    },
+    {
+      "g": "male",
+      "n": "Second Lord at Court"
+    },
+    {
+      "g": "male",
+      "n": "Second Lord in Arden"
+    },
+    {
+      "g": "male",
+      "n": "Second Lord of Pentapolis"
+    },
+    {
+      "g": "male",
+      "n": "Second Lord of Tyre"
+    },
+    {
+      "g": "male",
+      "n": "Second Lord to Richmond"
+    },
+    {
+      "g": "male",
+      "n": "Second Merchant"
+    },
+    {
+      "g": "male",
+      "n": "Second Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Second Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Second Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Second Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Second Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Second Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Second Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Second Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Second Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Second Murderer"
+    },
+    {
+      "g": "male",
+      "n": "Second Murderer"
+    },
+    {
+      "g": "male",
+      "n": "Second Murderer"
+    },
+    {
+      "g": "male",
+      "n": "Second Musician"
+    },
+    {
+      "g": "male",
+      "n": "Second Neighbor"
+    },
+    {
+      "g": "male",
+      "n": "Second Officer"
+    },
+    {
+      "g": "male",
+      "n": "Second Officer"
+    },
+    {
+      "g": "male",
+      "n": "Second Officer"
+    },
+    {
+      "g": "male",
+      "n": "Second Outlaw"
+    },
+    {
+      "g": "male",
+      "n": "Second Page"
+    },
+    {
+      "g": "male",
+      "n": "Second Petitioner"
+    },
+    {
+      "g": "male",
+      "n": "Second Pirate"
+    },
+    {
+      "g": "male",
+      "n": "Second Player"
+    },
+    {
+      "g": "male",
+      "n": "Second Plebeian"
+    },
+    {
+      "g": "male",
+      "n": "Second Prentice"
+    },
+    {
+      "g": "female",
+      "n": "Second Queen"
+    },
+    {
+      "g": "male",
+      "n": "Second Roman"
+    },
+    {
+      "g": "male",
+      "n": "Second Roman Citizen"
+    },
+    {
+      "g": "male",
+      "n": "Second Roman Guard"
+    },
+    {
+      "g": "male",
+      "n": "Second Roman Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Second Roman Senator"
+    },
+    {
+      "g": "male",
+      "n": "Second Roman Soldier"
+    },
+    {
+      "g": "male",
+      "n": "Second Roman Soldier"
+    },
+    {
+      "g": "male",
+      "n": "Second Royal Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Second Sailor"
+    },
+    {
+      "g": "male",
+      "n": "Second Scottish Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Second Scribe"
+    },
+    {
+      "g": "male",
+      "n": "Second Senator"
+    },
+    {
+      "g": "male",
+      "n": "Second Senator"
+    },
+    {
+      "g": "male",
+      "n": "Second Senator"
+    },
+    {
+      "g": "male",
+      "n": "Second Sentinel"
+    },
+    {
+      "g": "male",
+      "n": "Second Servant"
+    },
+    {
+      "g": "male",
+      "n": "Second Servant"
+    },
+    {
+      "g": "male",
+      "n": "Second Servant"
+    },
+    {
+      "g": "male",
+      "n": "Second Servingman"
+    },
+    {
+      "g": "male",
+      "n": "Second Servingman"
+    },
+    {
+      "g": "male",
+      "n": "Second Servingman"
+    },
+    {
+      "g": "male",
+      "n": "Second Shepherd"
+    },
+    {
+      "g": "male",
+      "n": "Second Sheriff"
+    },
+    {
+      "g": "male",
+      "n": "Second Soldier"
+    },
+    {
+      "g": "male",
+      "n": "Second Soldier"
+    },
+    {
+      "g": "male",
+      "n": "Second Soldier of Antony’s"
+    },
+    {
+      "g": "male",
+      "n": "Second Stranger"
+    },
+    {
+      "g": "male",
+      "n": "Second Strewer"
+    },
+    {
+      "g": "male",
+      "n": "Second Traveler"
+    },
+    {
+      "g": "male",
+      "n": "Second Tyrian Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Second Volscian Lord"
+    },
+    {
+      "g": "male",
+      "n": "Second Volscian Senator"
+    },
+    {
+      "g": "male",
+      "n": "Second Warder of the Tower"
+    },
+    {
+      "g": "male",
+      "n": "Second Warder of the Tower"
+    },
+    {
+      "g": "male",
+      "n": "Second Watchman"
+    },
+    {
+      "g": "male",
+      "n": "Second Watchman"
+    },
+    {
+      "g": "male",
+      "n": "Second Watchman"
+    },
+    {
+      "g": "male",
+      "n": "Second Watchman"
+    },
+    {
+      "g": "female",
+      "n": "Second Witch"
+    },
+    {
+      "g": "male",
+      "n": "Second Yorkist Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Seleucus"
+    },
+    {
+      "g": "male",
+      "n": "Sempronius"
+    },
+    {
+      "g": "male",
+      "n": "Sempronius"
+    },
+    {
+      "g": "male",
+      "n": "Senators"
+    },
+    {
+      "g": "male",
+      "n": "Sergeant"
+    },
+    {
+      "g": "male",
+      "n": "Sergeant at Arms"
+    },
+    {
+      "g": "male",
+      "n": "Sergeant-at-Arms"
+    },
+    {
+      "g": "male",
+      "n": "Servant"
+    },
+    {
+      "g": "male",
+      "n": "Servant"
+    },
+    {
+      "g": "male",
+      "n": "Servant"
+    },
+    {
+      "g": "male",
+      "n": "Servant"
+    },
+    {
+      "g": "male",
+      "n": "Servant"
+    },
+    {
+      "g": "male",
+      "n": "Servant of the Old Shepherd"
+    },
+    {
+      "g": "male",
+      "n": "Servant to More"
+    },
+    {
+      "g": "male",
+      "n": "Servant to the Lord Chief Justice"
+    },
+    {
+      "g": "male",
+      "n": "Servant to Violante"
+    },
+    {
+      "g": "male",
+      "n": "Servilius"
+    },
+    {
+      "g": "male",
+      "n": "Servingman"
+    },
+    {
+      "g": "male",
+      "n": "Servingman"
+    },
+    {
+      "g": "male",
+      "n": "Seventh Roman Citizen"
+    },
+    {
+      "g": "male",
+      "n": "Sewer"
+    },
+    {
+      "g": "male",
+      "n": "Sexton"
+    },
+    {
+      "g": "male",
+      "n": "Sextus Pompeius"
+    },
+    {
+      "g": "male",
+      "n": "Seyton"
+    },
+    {
+      "g": "male",
+      "n": "Shadow"
+    },
+    {
+      "g": "male",
+      "n": "Shallow"
+    },
+    {
+      "g": "male",
+      "n": "Shepherd"
+    },
+    {
+      "g": "male",
+      "n": "Shepherds and Shepherdesses"
+    },
+    {
+      "g": "male",
+      "n": "Sheriff"
+    },
+    {
+      "g": "male",
+      "n": "Sheriff"
+    },
+    {
+      "g": "male",
+      "n": "Sheriff of London"
+    },
+    {
+      "g": "male",
+      "n": "Sheriff of Wiltshire"
+    },
+    {
+      "g": "male",
+      "n": "Sherwin"
+    },
+    {
+      "g": "male",
+      "n": "Shipmaster"
+    },
+    {
+      "g": "male",
+      "n": "Shylock"
+    },
+    {
+      "g": "male",
+      "n": "Sicinius Velutus"
+    },
+    {
+      "g": "male",
+      "n": "Silence"
+    },
+    {
+      "g": "male",
+      "n": "Silius"
+    },
+    {
+      "g": "female",
+      "n": "Silvia"
+    },
+    {
+      "g": "male",
+      "n": "Silvius"
+    },
+    {
+      "g": "male",
+      "n": "Simonides"
+    },
+    {
+      "g": "female",
+      "n": "Simpcox’s Wife"
+    },
+    {
+      "g": "male",
+      "n": "Singer"
+    },
+    {
+      "g": "male",
+      "n": "Singer"
+    },
+    {
+      "g": "male",
+      "n": "Sir Andrew Aguecheek"
+    },
+    {
+      "g": "male",
+      "n": "Sir Anthony Denny"
+    },
+    {
+      "g": "male",
+      "n": "Sir Henry Green"
+    },
+    {
+      "g": "male",
+      "n": "Sir Henry Guilford"
+    },
+    {
+      "g": "male",
+      "n": "Sir Hugh Evans"
+    },
+    {
+      "g": "male",
+      "n": "Sir Hugh Mortimer"
+    },
+    {
+      "g": "male",
+      "n": "Sir Humphrey Stafford"
+    },
+    {
+      "g": "male",
+      "n": "Sir James Blunt"
+    },
+    {
+      "g": "male",
+      "n": "Sir James Tyrrel"
+    },
+    {
+      "g": "male",
+      "n": "Sir John"
+    },
+    {
+      "g": "male",
+      "n": "Sir John Bagot"
+    },
+    {
+      "g": "male",
+      "n": "Sir John Blunt"
+    },
+    {
+      "g": "male",
+      "n": "Sir John Bushy"
+    },
+    {
+      "g": "male",
+      "n": "Sir John Colevile"
+    },
+    {
+      "g": "male",
+      "n": "Sir John Copland"
+    },
+    {
+      "g": "male",
+      "n": "Sir John Falstaff"
+    },
+    {
+      "g": "male",
+      "n": "Sir John Falstaff"
+    },
+    {
+      "g": "male",
+      "n": "Sir John Falstaff"
+    },
+    {
+      "g": "male",
+      "n": "Sir John Falstaff"
+    },
+    {
+      "g": "male",
+      "n": "Sir John Montgomery"
+    },
+    {
+      "g": "male",
+      "n": "Sir John Mortimer"
+    },
+    {
+      "g": "male",
+      "n": "Sir John Munday"
+    },
+    {
+      "g": "male",
+      "n": "Sir John Somervile"
+    },
+    {
+      "g": "male",
+      "n": "Sir John Stanley"
+    },
+    {
+      "g": "male",
+      "n": "Sir Michael"
+    },
+    {
+      "g": "male",
+      "n": "Sir Nathaniel"
+    },
+    {
+      "g": "male",
+      "n": "Sir Nicholas Vaux"
+    },
+    {
+      "g": "male",
+      "n": "Sir Oliver Martext"
+    },
+    {
+      "g": "male",
+      "n": "Sir Pierce of Exton"
+    },
+    {
+      "g": "male",
+      "n": "Sir Richard Ratcliffe"
+    },
+    {
+      "g": "male",
+      "n": "Sir Richard Vernon"
+    },
+    {
+      "g": "male",
+      "n": "Sir Robert Brakenbury"
+    },
+    {
+      "g": "male",
+      "n": "Sir Roger Cholmley"
+    },
+    {
+      "g": "male",
+      "n": "Sir Stephen Scroop"
+    },
+    {
+      "g": "male",
+      "n": "Sir Thomas Erpingham"
+    },
+    {
+      "g": "male",
+      "n": "Sir Thomas Gargrave"
+    },
+    {
+      "g": "male",
+      "n": "Sir Thomas Grey"
+    },
+    {
+      "g": "male",
+      "n": "Sir Thomas Lovell"
+    },
+    {
+      "g": "male",
+      "n": "Sir Thomas More"
+    },
+    {
+      "g": "male",
+      "n": "Sir Thomas Palmer"
+    },
+    {
+      "g": "male",
+      "n": "Sir Thomas Vaughan"
+    },
+    {
+      "g": "male",
+      "n": "Sir Toby Belch"
+    },
+    {
+      "g": "male",
+      "n": "Sir Walter Blunt"
+    },
+    {
+      "g": "male",
+      "n": "Sir Walter Herbert"
+    },
+    {
+      "g": "male",
+      "n": "Sir William Brandon"
+    },
+    {
+      "g": "male",
+      "n": "Sir William Catesby"
+    },
+    {
+      "g": "male",
+      "n": "Sir William Glansdale"
+    },
+    {
+      "g": "male",
+      "n": "Sir William Lucy"
+    },
+    {
+      "g": "male",
+      "n": "Sir William Mountague"
+    },
+    {
+      "g": "male",
+      "n": "Sir William Stanley"
+    },
+    {
+      "g": "male",
+      "n": "Siward, Earl of Northumberland"
+    },
+    {
+      "g": "female",
+      "n": "Six Vision Dancers"
+    },
+    {
+      "g": "male",
+      "n": "Sixth Citizen of Calais"
+    },
+    {
+      "g": "male",
+      "n": "Sixth Roman Citizen"
+    },
+    {
+      "g": "female",
+      "n": "Sixth Witch"
+    },
+    {
+      "g": "male",
+      "n": "Smart"
+    },
+    {
+      "g": "male",
+      "n": "Smith the Weaver"
+    },
+    {
+      "g": "male",
+      "n": "Snare"
+    },
+    {
+      "g": "male",
+      "n": "Sneak"
+    },
+    {
+      "g": "male",
+      "n": "Snout"
+    },
+    {
+      "g": "male",
+      "n": "Snug"
+    },
+    {
+      "g": "male",
+      "n": "Solanio"
+    },
+    {
+      "g": "male",
+      "n": "Soldier"
+    },
+    {
+      "g": "male",
+      "n": "Soldier of the Watch"
+    },
+    {
+      "g": "male",
+      "n": "Soldiers"
+    },
+    {
+      "g": "male",
+      "n": "Solinus, Duke of Ephesus"
+    },
+    {
+      "g": "male",
+      "n": "Son to Macduff"
+    },
+    {
+      "g": "male",
+      "n": "Soothsayer"
+    },
+    {
+      "g": "male",
+      "n": "Spaniard"
+    },
+    {
+      "g": "male",
+      "n": "Speed"
+    },
+    {
+      "g": "male",
+      "n": "Spirit"
+    },
+    {
+      "g": "male",
+      "n": "Stanley Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Starveling"
+    },
+    {
+      "g": "male",
+      "n": "Stephano"
+    },
+    {
+      "g": "male",
+      "n": "Stephano"
+    },
+    {
+      "g": "male",
+      "n": "Strato"
+    },
+    {
+      "g": "male",
+      "n": "Tailor"
+    },
+    {
+      "g": "male",
+      "n": "Talbot’s Servant"
+    },
+    {
+      "g": "male",
+      "n": "Talbot’s Trumpeter"
+    },
+    {
+      "g": "female",
+      "n": "Tamora"
+    },
+    {
+      "g": "male",
+      "n": "Taurus"
+    },
+    {
+      "g": "female",
+      "n": "Thaisa"
+    },
+    {
+      "g": "male",
+      "n": "Thaliard"
+    },
+    {
+      "g": "male",
+      "n": "The Dauphin"
+    },
+    {
+      "g": "male",
+      "n": "The Duke of Venice"
+    },
+    {
+      "g": "male",
+      "n": "The Messenger"
+    },
+    {
+      "g": "male",
+      "n": "The Prince of Arragon"
+    },
+    {
+      "g": "male",
+      "n": "The Prince of Morocco"
+    },
+    {
+      "g": "female",
+      "n": "The Princess of France"
+    },
+    {
+      "g": "male",
+      "n": "Thersites"
+    },
+    {
+      "g": "male",
+      "n": "Theseus, Duke of Athens"
+    },
+    {
+      "g": "male",
+      "n": "Theseus, Duke of Athens"
+    },
+    {
+      "g": "male",
+      "n": "Thidias"
+    },
+    {
+      "g": "male",
+      "n": "Third Apparition"
+    },
+    {
+      "g": "male",
+      "n": "Third Bandit"
+    },
+    {
+      "g": "male",
+      "n": "Third Citizen"
+    },
+    {
+      "g": "male",
+      "n": "Third Citizen of Calais"
+    },
+    {
+      "g": "male",
+      "n": "Third Conspirator"
+    },
+    {
+      "g": "male",
+      "n": "Third Country Folk"
+    },
+    {
+      "g": "male",
+      "n": "Third Drawer"
+    },
+    {
+      "g": "male",
+      "n": "Third Fisherman"
+    },
+    {
+      "g": "male",
+      "n": "Third French Herald"
+    },
+    {
+      "g": "male",
+      "n": "Third French Lord"
+    },
+    {
+      "g": "male",
+      "n": "Third Frenchman"
+    },
+    {
+      "g": "male",
+      "n": "Third Gentleman"
+    },
+    {
+      "g": "male",
+      "n": "Third Gentleman"
+    },
+    {
+      "g": "male",
+      "n": "Third Gentleman"
+    },
+    {
+      "g": "male",
+      "n": "Third Goth"
+    },
+    {
+      "g": "male",
+      "n": "Third Herald"
+    },
+    {
+      "g": "male",
+      "n": "Third Knight"
+    },
+    {
+      "g": "male",
+      "n": "Third Knight"
+    },
+    {
+      "g": "male",
+      "n": "Third Knight Attending Arcite"
+    },
+    {
+      "g": "male",
+      "n": "Third Lord"
+    },
+    {
+      "g": "male",
+      "n": "Third Lord of Pentapolis"
+    },
+    {
+      "g": "male",
+      "n": "Third Lord of Tyre"
+    },
+    {
+      "g": "male",
+      "n": "Third Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Third Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Third Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Third Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Third Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Third Murderer"
+    },
+    {
+      "g": "male",
+      "n": "Third Musician"
+    },
+    {
+      "g": "male",
+      "n": "Third Neighbor"
+    },
+    {
+      "g": "male",
+      "n": "Third Outlaw"
+    },
+    {
+      "g": "male",
+      "n": "Third Pirate"
+    },
+    {
+      "g": "male",
+      "n": "Third Plebeian"
+    },
+    {
+      "g": "male",
+      "n": "Third Prentice"
+    },
+    {
+      "g": "female",
+      "n": "Third Queen"
+    },
+    {
+      "g": "male",
+      "n": "Third Roman"
+    },
+    {
+      "g": "male",
+      "n": "Third Roman Citizen"
+    },
+    {
+      "g": "male",
+      "n": "Third Royal Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Third Senator"
+    },
+    {
+      "g": "male",
+      "n": "Third Servant"
+    },
+    {
+      "g": "male",
+      "n": "Third Servant"
+    },
+    {
+      "g": "male",
+      "n": "Third Servingman"
+    },
+    {
+      "g": "male",
+      "n": "Third Servingman"
+    },
+    {
+      "g": "male",
+      "n": "Third Servingman"
+    },
+    {
+      "g": "male",
+      "n": "Third Soldier"
+    },
+    {
+      "g": "male",
+      "n": "Third Stranger"
+    },
+    {
+      "g": "male",
+      "n": "Third Strewer"
+    },
+    {
+      "g": "male",
+      "n": "Third Volscian Lord"
+    },
+    {
+      "g": "male",
+      "n": "Third Warder of the Tower"
+    },
+    {
+      "g": "male",
+      "n": "Third Watchman"
+    },
+    {
+      "g": "male",
+      "n": "Third Watchman"
+    },
+    {
+      "g": "female",
+      "n": "Third Witch"
+    },
+    {
+      "g": "male",
+      "n": "Thomas Beauford, Duke of Exeter"
+    },
+    {
+      "g": "male",
+      "n": "Thomas Horner"
+    },
+    {
+      "g": "male",
+      "n": "Thomas Mowbray"
+    },
+    {
+      "g": "male",
+      "n": "Thomas Percy, Earl of Worcester"
+    },
+    {
+      "g": "male",
+      "n": "Thomas Rotherham, Archbishop of York"
+    },
+    {
+      "g": "male",
+      "n": "Thomas, Duke of Clarence"
+    },
+    {
+      "g": "male",
+      "n": "Thomas, Duke of Clarence"
+    },
+    {
+      "g": "male",
+      "n": "Thurio"
+    },
+    {
+      "g": "female",
+      "n": "Timandra"
+    },
+    {
+      "g": "male",
+      "n": "Time, as Chorus"
+    },
+    {
+      "g": "male",
+      "n": "Timon of Athens"
+    },
+    {
+      "g": "male",
+      "n": "Timon’s Page"
+    },
+    {
+      "g": "male",
+      "n": "Timon’s Servant"
+    },
+    {
+      "g": "male",
+      "n": "Timothy the Taborer"
+    },
+    {
+      "g": "male",
+      "n": "Tipstaves"
+    },
+    {
+      "g": "female",
+      "n": "Titania"
+    },
+    {
+      "g": "male",
+      "n": "Titinius"
+    },
+    {
+      "g": "male",
+      "n": "Titus"
+    },
+    {
+      "g": "male",
+      "n": "Titus Andronicus"
+    },
+    {
+      "g": "male",
+      "n": "Titus Lartius"
+    },
+    {
+      "g": "male",
+      "n": "Touchstone"
+    },
+    {
+      "g": "male",
+      "n": "Tranio"
+    },
+    {
+      "g": "male",
+      "n": "Travers"
+    },
+    {
+      "g": "male",
+      "n": "Trebonius"
+    },
+    {
+      "g": "male",
+      "n": "Tressel"
+    },
+    {
+      "g": "male",
+      "n": "Tribune"
+    },
+    {
+      "g": "male",
+      "n": "Tribune"
+    },
+    {
+      "g": "male",
+      "n": "Tribunes"
+    },
+    {
+      "g": "male",
+      "n": "Trinculo"
+    },
+    {
+      "g": "male",
+      "n": "Troilus"
+    },
+    {
+      "g": "male",
+      "n": "Troilus’s Boy"
+    },
+    {
+      "g": "male",
+      "n": "Trojan Soldiers"
+    },
+    {
+      "g": "male",
+      "n": "Trojan Trumpeter"
+    },
+    {
+      "g": "male",
+      "n": "Tubal"
+    },
+    {
+      "g": "male",
+      "n": "Tullus Aufidius"
+    },
+    {
+      "g": "male",
+      "n": "Tutor to Rutland"
+    },
+    {
+      "g": "male",
+      "n": "Twelve Satyrs"
+    },
+    {
+      "g": "male",
+      "n": "Two Aldermen of London"
+    },
+    {
+      "g": "male",
+      "n": "Two Bishops"
+    },
+    {
+      "g": "male",
+      "n": "Two Gentlemen Bearers"
+    },
+    {
+      "g": "male",
+      "n": "Two Judges"
+    },
+    {
+      "g": "male",
+      "n": "Two Noblemen"
+    },
+    {
+      "g": "male",
+      "n": "Two Priests"
+    },
+    {
+      "g": "male",
+      "n": "Two Vergers"
+    },
+    {
+      "g": "male",
+      "n": "Tybalt"
+    },
+    {
+      "g": "male",
+      "n": "Ulysses"
+    },
+    {
+      "g": "female",
+      "n": "Ursula"
+    },
+    {
+      "g": "male",
+      "n": "Usher"
+    },
+    {
+      "g": "male",
+      "n": "Valentine"
+    },
+    {
+      "g": "male",
+      "n": "Valentine"
+    },
+    {
+      "g": "male",
+      "n": "Valentine"
+    },
+    {
+      "g": "female",
+      "n": "Valeria"
+    },
+    {
+      "g": "male",
+      "n": "Valerius"
+    },
+    {
+      "g": "male",
+      "n": "Varrius"
+    },
+    {
+      "g": "male",
+      "n": "Varrius"
+    },
+    {
+      "g": "male",
+      "n": "Varro’s First Servant"
+    },
+    {
+      "g": "male",
+      "n": "Varro’s Second Servant"
+    },
+    {
+      "g": "male",
+      "n": "Varrus"
+    },
+    {
+      "g": "male",
+      "n": "Vaux"
+    },
+    {
+      "g": "male",
+      "n": "Ventidius"
+    },
+    {
+      "g": "male",
+      "n": "Ventidius"
+    },
+    {
+      "g": "male",
+      "n": "Ver, the Spring"
+    },
+    {
+      "g": "male",
+      "n": "Verges"
+    },
+    {
+      "g": "male",
+      "n": "Vernon"
+    },
+    {
+      "g": "male",
+      "n": "Villiers"
+    },
+    {
+      "g": "male",
+      "n": "Vincentio"
+    },
+    {
+      "g": "male",
+      "n": "Vincentio, the Duke"
+    },
+    {
+      "g": "male",
+      "n": "Vintner"
+    },
+    {
+      "g": "female",
+      "n": "Viola"
+    },
+    {
+      "g": "female",
+      "n": "Violante"
+    },
+    {
+      "g": "female",
+      "n": "Violenta"
+    },
+    {
+      "g": "female",
+      "n": "Virgilia"
+    },
+    {
+      "g": "female",
+      "n": "Virgins"
+    },
+    {
+      "g": "male",
+      "n": "Volscian Soldier"
+    },
+    {
+      "g": "male",
+      "n": "Volscian Soldiers"
+    },
+    {
+      "g": "male",
+      "n": "Voltemand"
+    },
+    {
+      "g": "female",
+      "n": "Volumnia"
+    },
+    {
+      "g": "male",
+      "n": "Volumnius"
+    },
+    {
+      "g": "female",
+      "n": "Waiting-Woman to Emilia"
+    },
+    {
+      "g": "male",
+      "n": "Walter Whitmore"
+    },
+    {
+      "g": "male",
+      "n": "Wart"
+    },
+    {
+      "g": "male",
+      "n": "Warwick’s Messenger"
+    },
+    {
+      "g": "male",
+      "n": "Welsh Captain"
+    },
+    {
+      "g": "female",
+      "n": "Welsh Ladies"
+    },
+    {
+      "g": "male",
+      "n": "Widow"
+    },
+    {
+      "g": "male",
+      "n": "William"
+    },
+    {
+      "g": "male",
+      "n": "William Page"
+    },
+    {
+      "g": "male",
+      "n": "William Stafford"
+    },
+    {
+      "g": "male",
+      "n": "Williams"
+    },
+    {
+      "g": "male",
+      "n": "Williamson"
+    },
+    {
+      "g": "male",
+      "n": "Winchester’s Serving Attendant"
+    },
+    {
+      "g": "male",
+      "n": "Wolsey’s First Secretary"
+    },
+    {
+      "g": "male",
+      "n": "Wolsey’s Second Secretary"
+    },
+    {
+      "g": "male",
+      "n": "Woodvile"
+    },
+    {
+      "g": "male",
+      "n": "Wooer to the Jailer’s Daughter"
+    },
+    {
+      "g": "male",
+      "n": "York’s Attendant"
+    },
+    {
+      "g": "male",
+      "n": "York’s Guards"
+    },
+    {
+      "g": "male",
+      "n": "Yorkist Soldier"
+    },
+    {
+      "g": "male",
+      "n": "Young Cato"
+    },
+    {
+      "g": "male",
+      "n": "Young Clifford"
+    },
+    {
+      "g": "male",
+      "n": "Young Lucius"
+    },
+    {
+      "g": "male",
+      "n": "Young Martius"
+    },
+    {
+      "g": "male",
+      "n": "Young Siward"
+    }
+  ],
+  "texts": {
+    "1H4": {
+      "title": "King Henry IV, Part 1",
+      "type": "play"
+    },
+    "1H6": {
+      "title": "King Henry VI, Part 1",
+      "type": "play"
+    },
+    "2H4": {
+      "title": "King Henry IV, Part 2",
+      "type": "play"
+    },
+    "2H6": {
+      "title": "King Henry VI, Part 2",
+      "type": "play"
+    },
+    "3H6": {
+      "title": "King Henry VI, Part 3",
+      "type": "play"
+    },
+    "AWW": {
+      "title": "All's Well That Ends Well",
+      "type": "play"
+    },
+    "AYL": {
+      "title": "As You Like It",
+      "type": "play"
+    },
+    "Ado": {
+      "title": "Much Ado About Nothing",
+      "type": "play"
+    },
+    "Ant": {
+      "title": "Antony and Cleopatra",
+      "type": "play"
+    },
+    "Cor": {
+      "title": "Coriolanus",
+      "type": "play"
+    },
+    "Cym": {
+      "title": "Cymbeline",
+      "type": "play"
+    },
+    "DF": {
+      "title": "Double Falsehood",
+      "type": "play"
+    },
+    "E3": {
+      "title": "Edward III",
+      "type": "play"
+    },
+    "Err": {
+      "title": "The Comedy of Errors",
+      "type": "play"
+    },
+    "FE": {
+      "title": "A Funeral Elegy",
+      "type": "poem"
+    },
+    "H5": {
+      "title": "Henry V",
+      "type": "play"
+    },
+    "H8": {
+      "title": "King Henry VIII",
+      "type": "play"
+    },
+    "Ham": {
+      "title": "Hamlet",
+      "type": "play"
+    },
+    "JC": {
+      "title": "Julius Caesar",
+      "type": "play"
+    },
+    "Jn": {
+      "title": "King John",
+      "type": "play"
+    },
+    "LC": {
+      "title": "A Lover’s Complaint",
+      "type": "poem"
+    },
+    "LLL": {
+      "title": "Love's Labour's Lost",
+      "type": "play"
+    },
+    "Lr": {
+      "title": "King Lear",
+      "type": "play"
+    },
+    "Luc": {
+      "title": "The Rape of Lucrece",
+      "type": "poem"
+    },
+    "MM": {
+      "title": "Measure for Measure",
+      "type": "play"
+    },
+    "MND": {
+      "title": "A Midsummer Night's Dream",
+      "type": "play"
+    },
+    "MV": {
+      "title": "The Merchant of Venice",
+      "type": "play"
+    },
+    "Mac": {
+      "title": "Macbeth",
+      "type": "play"
+    },
+    "Oth": {
+      "title": "Othello",
+      "type": "play"
+    },
+    "PP": {
+      "title": "The Passionate Pilgrim",
+      "type": "poem"
+    },
+    "Per": {
+      "title": "Pericles",
+      "type": "play"
+    },
+    "PhT": {
+      "title": "The Phoenix and Turtle",
+      "type": "poem"
+    },
+    "R2": {
+      "title": "King Richard II",
+      "type": "play"
+    },
+    "R3": {
+      "title": "King Richard III",
+      "type": "play"
+    },
+    "Rom": {
+      "title": "Romeo and Juliet",
+      "type": "play"
+    },
+    "SID": {
+      "title": "Shall I Die?",
+      "type": "poem"
+    },
+    "Shr": {
+      "title": "The Taming of the Shrew",
+      "type": "play"
+    },
+    "Son": {
+      "title": "Sonnets",
+      "type": "sonnet"
+    },
+    "TGV": {
+      "title": "Two Gentlemen of Verona",
+      "type": "play"
+    },
+    "TM": {
+      "title": "Sir Thomas More",
+      "type": "play"
+    },
+    "TN": {
+      "title": "Twelfth Night",
+      "type": "play"
+    },
+    "TNK": {
+      "title": "Two Noble Kinsmen",
+      "type": "play"
+    },
+    "TTQ": {
+      "title": "To the Queen",
+      "type": "poem"
+    },
+    "Tim": {
+      "title": "Timon of Athens",
+      "type": "play"
+    },
+    "Tit": {
+      "title": "Titus Andronicus",
+      "type": "play"
+    },
+    "Tmp": {
+      "title": "The Tempest",
+      "type": "play"
+    },
+    "Tro": {
+      "title": "Troilus and Cressida",
+      "type": "play"
+    },
+    "Ven": {
+      "title": "Venus and Adonis",
+      "type": "poem"
+    },
+    "WT": {
+      "title": "The Winter's Tale",
+      "type": "play"
+    },
+    "Wiv": {
+      "title": "The Merry Wives of Windsor",
+      "type": "play"
+    }
+  },
+  "titles": [
+    "A Funeral Elegy",
+    "A Lover’s Complaint",
+    "A Midsummer Night's Dream",
+    "All's Well That Ends Well",
+    "Antony and Cleopatra",
+    "As You Like It",
+    "Coriolanus",
+    "Cymbeline",
+    "Double Falsehood",
+    "Edward III",
+    "Hamlet",
+    "Henry V",
+    "Julius Caesar",
+    "King Henry IV, Part 1",
+    "King Henry IV, Part 2",
+    "King Henry VI, Part 1",
+    "King Henry VI, Part 2",
+    "King Henry VI, Part 3",
+    "King Henry VIII",
+    "King John",
+    "King Lear",
+    "King Richard II",
+    "King Richard III",
+    "Love's Labour's Lost",
+    "Macbeth",
+    "Measure for Measure",
+    "Much Ado About Nothing",
+    "Othello",
+    "Pericles",
+    "Romeo and Juliet",
+    "Shall I Die?",
+    "Sir Thomas More",
+    "Sonnets",
+    "The Comedy of Errors",
+    "The Merchant of Venice",
+    "The Merry Wives of Windsor",
+    "The Passionate Pilgrim",
+    "The Phoenix & Turtle",
+    "The Rape of Lucrece",
+    "The Reign of King Edward the Third",
+    "The Taming of the Shrew",
+    "The Tempest",
+    "Two Noble Kinsmen",
+    "The Winter's Tale",
+    "Timon of Athens",
+    "Titus Andronicus",
+    "To the Queen",
+    "Twelfth Night",
+    "Two Gentlemen of Verona",
+    "Venus & Adonis"
+  ]
+}

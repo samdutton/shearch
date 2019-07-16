@@ -1,13 +1,6 @@
-<line globalnumber="1057" number="95" form="prose">By the mass, I could anger her to th&#8217; heart. She was then a bona roba. Doth she hold her own well?</line>
+# TODO
 
-Should have foreign for bona roba.
-
-<scenelanguage>
-    <language short="en">English</language>
-    <language short="">Gibberish</language>
-</scenelanguage>
-
-<foreign xml:lang="art">Acordo linta.</foreign>
+## Code
 
 Add query strings for speaker, text type, etc.
 
@@ -20,13 +13,15 @@ Add exact match only
 Add scene location search
 
 
-Language search:
+## Text bugs
 
+<line globalnumber="1057" number="95" form="prose">By the mass, I could anger her to th&#8217; heart. She was then a bona roba. Doth she hold her own well?</line>
 
+Should have foreign for bona roba: ps_henry_iv_pt2.xml:.
 
-let languages = {};
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="">Gibberish</language>
+</scenelanguage>
 
-for each play
-  if a scenelanguage element
-    for each language element
-      languages[el.getAttributeValue('short')] = el.value;
+<foreign xml:lang="art">Acordo linta.</foreign>

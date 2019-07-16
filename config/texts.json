@@ -1,0 +1,202 @@
+{
+    "1H4": {
+      "title": "King Henry IV, Part 1",
+      "type": "play"
+    },
+    "1H6": {
+      "title": "King Henry VI, Part 1",
+      "type": "play"
+    },
+    "2H4": {
+      "title": "King Henry IV, Part 2",
+      "type": "play"
+    },
+    "2H6": {
+      "title": "King Henry VI, Part 2",
+      "type": "play"
+    },
+    "3H6": {
+      "title": "King Henry VI, Part 3",
+      "type": "play"
+    },
+    "AWW": {
+      "title": "All's Well That Ends Well",
+      "type": "play"
+    },
+    "AYL": {
+      "title": "As You Like It",
+      "type": "play"
+    },
+    "Ado": {
+      "title": "Much Ado About Nothing",
+      "type": "play"
+    },
+    "Ant": {
+      "title": "Antony and Cleopatra",
+      "type": "play"
+    },
+    "Cor": {
+      "title": "Coriolanus",
+      "type": "play"
+    },
+    "Cym": {
+      "title": "Cymbeline",
+      "type": "play"
+    },
+    "DF": {
+      "title": "Double Falsehood",
+      "type": "play"
+    },
+    "E3": {
+      "title": "Edward III",
+      "type": "play"
+    },
+    "Err": {
+      "title": "The Comedy of Errors",
+      "type": "play"
+    },
+    "FE": {
+      "title": "A Funeral Elegy",
+      "type": "poem"
+    },
+    "H5": {
+      "title": "Henry V",
+      "type": "play"
+    },
+    "H8": {
+      "title": "King Henry VIII",
+      "type": "play"
+    },
+    "Ham": {
+      "title": "Hamlet",
+      "type": "play"
+    },
+    "JC": {
+      "title": "Julius Caesar",
+      "type": "play"
+    },
+    "Jn": {
+      "title": "King John",
+      "type": "play"
+    },
+    "LC": {
+      "title": "A Lover’s Complaint",
+      "type": "poem"
+    },
+    "LLL": {
+      "title": "Love's Labour's Lost",
+      "type": "play"
+    },
+    "Lr": {
+      "title": "King Lear",
+      "type": "play"
+    },
+    "Luc": {
+      "title": "The Rape of Lucrece",
+      "type": "poem"
+    },
+    "MM": {
+      "title": "Measure for Measure",
+      "type": "play"
+    },
+    "MND": {
+      "title": "A Midsummer Night's Dream",
+      "type": "play"
+    },
+    "MV": {
+      "title": "The Merchant of Venice",
+      "type": "play"
+    },
+    "Mac": {
+      "title": "Macbeth",
+      "type": "play"
+    },
+    "Oth": {
+      "title": "Othello",
+      "type": "play"
+    },
+    "PP": {
+      "title": "The Passionate Pilgrim",
+      "type": "poem"
+    },
+    "Per": {
+      "title": "Pericles",
+      "type": "play"
+    },
+    "PhT": {
+      "title": "The Phoenix and Turtle",
+      "type": "poem"
+    },
+    "R2": {
+      "title": "King Richard II",
+      "type": "play"
+    },
+    "R3": {
+      "title": "King Richard III",
+      "type": "play"
+    },
+    "Rom": {
+      "title": "Romeo and Juliet",
+      "type": "play"
+    },
+    "SID": {
+      "title": "Shall I Die?",
+      "type": "poem"
+    },
+    "Shr": {
+      "title": "The Taming of the Shrew",
+      "type": "play"
+    },
+    "Son": {
+      "title": "Sonnets",
+      "type": "sonnet"
+    },
+    "TGV": {
+      "title": "Two Gentlemen of Verona",
+      "type": "play"
+    },
+    "TM": {
+      "title": "Sir Thomas More",
+      "type": "play"
+    },
+    "TN": {
+      "title": "Twelfth Night",
+      "type": "play"
+    },
+    "TNK": {
+      "title": "Two Noble Kinsmen",
+      "type": "play"
+    },
+    "TTQ": {
+      "title": "To the Queen",
+      "type": "poem"
+    },
+    "Tim": {
+      "title": "Timon of Athens",
+      "type": "play"
+    },
+    "Tit": {
+      "title": "Titus Andronicus",
+      "type": "play"
+    },
+    "Tmp": {
+      "title": "The Tempest",
+      "type": "play"
+    },
+    "Tro": {
+      "title": "Troilus and Cressida",
+      "type": "play"
+    },
+    "Ven": {
+      "title": "Venus and Adonis",
+      "type": "poem"
+    },
+    "WT": {
+      "title": "The Winter's Tale",
+      "type": "play"
+    },
+    "Wiv": {
+      "title": "The Merry Wives of Windsor",
+      "type": "play"
+    }
+  }

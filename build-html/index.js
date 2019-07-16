@@ -42,15 +42,7 @@ const validatorIgnore = [
 const {JSDOM} = require('jsdom');
 
 const abbreviations = require('../config/filename-to-abbreviation.json');
-const languages = {
-  'art': 'Gibberish',
-  'en': 'English',
-  'it': 'Italian',
-  'es': 'Spanish',
-  'fr': 'French',
-  'la': 'Latin',
-  'nl': 'Dutch',
-};
+const languages = require('../config/languages.json');
 const titles = require('../config/abbreviated-filename-to-title.json');
 
 const bottom = mz.readFileSync('./html-fragments/bottom.html');

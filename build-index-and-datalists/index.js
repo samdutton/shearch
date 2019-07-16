@@ -26,6 +26,8 @@ const {JSDOM} = require('jsdom');
 const elasticlunr = require('elasticlunr');
 
 const abbreviations = require('../config/filename-to-abbreviation.json');
+const languages = require('../config/languages.json');
+const texts = require('../config/titles.json');
 const titles = require('../config/titles.json');
 
 const PLAY_DIR = 'plays-ps';
@@ -41,7 +43,6 @@ const DATALISTS_FILE = '../docs/data/datalists.json';
 const docs = [];
 let docNum = 0;
 const genders = {};
-const languages = {};
 let numFiles = 0;
 let numFilesToProcess = 0;
 const speakers = [];
@@ -105,7 +106,8 @@ function addPlay(filename, document) {
     for (let sceneIndex = 0; sceneIndex !== scenes.length; ++sceneIndex) {
       let lineIndex = 0;
       const scene = scenes[sceneIndex];
-      getLanguages(scene);
+      // Need only run once
+      // getLanguages(scene);
       const location = `${playAbbreviation}.${actIndex}.${sceneIndex}`;
       const sceneTitle = scene.getElementsByTagName('scenetitle')[0];
       // r signifies 'role', 't' signifies scene title (only one, so no index)
@@ -139,13 +141,15 @@ function addPlay(filename, document) {
   }
 }
 
-function getLanguages(scene) {
-  const scenelanguage = scene.getElementsByTagName('scenelanguage')[0];
-  const languageEls = scenelanguage.getElementsByTagName('language');
-  for (const languageEl of languageEls) {
-    languages[languageEl.getAttribute('short')] = languageEl.textContent;
-  }
-}
+// TODO: probably delete this — the list of languages only needs to be got once
+// and is probably unlikely to change.
+// function getLanguages(scene) {
+//   const scenelanguage = scene.getElementsByTagName('scenelanguage')[0];
+//   const languageEls = scenelanguage.getElementsByTagName('language');
+//   for (const languageEl of languageEls) {
+//     languages[languageEl.getAttribute('short')] = languageEl.textContent;
+//   }
+// }
 
 function addSpeakers(document) {
   const personas = document.getElementsByTagName('persona');
@@ -227,15 +231,8 @@ function createIndex() {
 
 function createDatalists() {
   const datalists = {
-    languages: {
-      'art': 'Gibberish',
-      'en': 'English',
-      'it': 'Italian',
-      'es': 'Spanish',
-      'fr': 'French',
-      'la': 'Latin',
-      'nl': 'Dutch',
-    },
+    languages: languages,
+    texts: texts,
     titles: titles,
     speakers: speakers.sort(),
   };
